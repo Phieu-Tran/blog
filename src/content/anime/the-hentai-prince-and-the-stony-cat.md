@@ -1,0 +1,13 @@
+---
+title: "The \"Hentai\" Prince and the Stony Cat."
+mal_id: 15225
+rating: 6
+genre: "Comedy, Romance, Supernatural"
+year: 2013
+studio: J.C.Staff
+status: completed
+episodes: 12
+cover: "https://cdn.myanimelist.net/images/anime/3/75788.jpg"
+date: 2026-03-30
+---
+

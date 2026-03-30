@@ -1,0 +1,13 @@
+---
+title: "The Outcast Season 1"
+mal_id: 33421
+rating: 8
+genre: "Action, Supernatural"
+year: 2016
+studio: "Namu Animation"
+status: completed
+episodes: 12
+cover: "https://cdn.myanimelist.net/images/anime/12/80346.jpg"
+date: 2026-03-30
+---
+

@@ -1,0 +1,13 @@
+---
+title: Shiki
+mal_id: 7724
+rating: 8
+genre: "Horror, Mystery, Supernatural, Suspense, Shounen"
+year: 2010
+studio: Daume
+status: completed
+episodes: 22
+cover: "https://cdn.myanimelist.net/images/anime/1531/119165.jpg"
+date: 2026-03-30
+---
+

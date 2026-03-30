@@ -1,0 +1,13 @@
+---
+title: Overlord
+mal_id: 29803
+rating: 8
+genre: "Action, Adventure, Fantasy"
+year: 2015
+studio: Madhouse
+status: completed
+episodes: 13
+cover: "https://cdn.myanimelist.net/images/anime/1945/136600.jpg"
+date: 2026-03-30
+---
+

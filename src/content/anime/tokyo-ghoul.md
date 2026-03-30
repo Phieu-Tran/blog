@@ -1,0 +1,13 @@
+---
+title: "Tokyo Ghoul"
+mal_id: 22319
+rating: 8
+genre: "Action, Fantasy, Horror, Suspense, Seinen"
+year: 2014
+studio: "Studio Pierrot"
+status: completed
+episodes: 12
+cover: "https://cdn.myanimelist.net/images/anime/1498/134443.jpg"
+date: 2026-03-30
+---
+

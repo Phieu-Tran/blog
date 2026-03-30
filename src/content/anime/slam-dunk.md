@@ -1,0 +1,13 @@
+---
+title: "Slam Dunk"
+mal_id: 170
+rating: 8
+genre: "Sports, Shounen"
+year: 1993
+studio: "Toei Animation"
+status: completed
+episodes: 101
+cover: "https://cdn.myanimelist.net/images/anime/12/86890.jpg"
+date: 2026-03-30
+---
+

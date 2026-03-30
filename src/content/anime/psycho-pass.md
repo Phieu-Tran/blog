@@ -1,0 +1,13 @@
+---
+title: Psycho-Pass
+mal_id: 13601
+rating: 8
+genre: "Action, Mystery, Sci-Fi, Suspense"
+year: 2012
+studio: "Production I.G"
+status: completed
+episodes: 22
+cover: "https://cdn.myanimelist.net/images/anime/1314/142015.jpg"
+date: 2026-03-30
+---
+

@@ -1,40 +1,40 @@
 # mediaVault — Personal Media Hub
 
-Blog cá nhân tập hợp review game, anime, film từ Obsidian vault, tự động kéo metadata từ MyAnimeList & TMDB, deploy trên Cloudflare Pages.
+A personal blog that aggregates reviews for games, anime, and films from an Obsidian vault, with auto-fetched metadata from MyAnimeList & TMDB, deployed on Cloudflare Pages.
 
-## Yêu cầu
+## Requirements
 
-- **Node.js** 18+ → [Tải tại đây](https://nodejs.org/)
-- **Git** → [Tải tại đây](https://git-scm.com/)
-- **GitHub account** → [Đăng ký miễn phí](https://github.com/)
-- **TMDB API key** (miễn phí, optional) → [Đăng ký](https://www.themoviedb.org/settings/api)
+- **Node.js** 18+ → [Download](https://nodejs.org/)
+- **Git** → [Download](https://git-scm.com/)
+- **GitHub account** → [Sign up](https://github.com/)
+- **TMDB API key** (free, optional) → [Register](https://www.themoviedb.org/settings/api)
 
-## Hướng dẫn từng bước
+## Getting Started
 
-### Bước 1: Cài đặt project
+### Step 1: Install
 
 ```bash
 cd media-vault
 npm install
 ```
 
-### Bước 2: Chạy thử trên máy
+### Step 2: Local development
 
 ```bash
 npm run dev
 ```
 
-Mở trình duyệt tại `http://localhost:4321/` để xem site.
+Open `http://localhost:4321/` in your browser.
 
-### Bước 3: Thêm bài viết mới
+### Step 3: Add content
 
-Tạo file `.md` trong thư mục tương ứng:
+Create `.md` files in the corresponding directory:
 
-**Thêm anime** → `src/content/anime/ten-anime.md`
+**Add anime** → `src/content/anime/my-anime.md`
 
 ```markdown
 ---
-title: "Tên Anime"
+title: "Anime Title"
 mal_id: 12345
 rating: 8.5
 genre: "Action, Drama"
@@ -42,165 +42,138 @@ year: 2025
 studio: "Studio Name"
 status: watching
 episodes: 24
-cover: "link-ảnh"
+cover: "image-url"
 date: 2025-03-30
 ---
 
-Nội dung review của bạn ở đây.
+Your review here.
 ```
 
-**Thêm game** → `src/content/games/ten-game.md`
+**Add game** → `src/content/games/my-game.md`
 
 ```markdown
 ---
-title: "Tên Game"
+title: "Game Title"
 rating: 9.0
 genre: "Action RPG, Soulslike"
 year: 2025
 studio: "Developer Name"
 status: playing
 platform: "PC"
-cover: "link-ảnh"
+cover: "image-url"
 date: 2025-03-30
 ---
 
-Review game ở đây...
+Your review here.
 ```
 
-**Thêm film** → `src/content/films/ten-film.md`
+**Add film** → `src/content/films/my-film.md`
 
 ```markdown
 ---
-title: "Tên Film"
+title: "Film Title"
 tmdb_id: 693134
 rating: 8.5
 genre: "Sci-Fi, Drama"
 year: 2024
 director: "Director Name"
 status: watched
-cover: "link-ảnh"
+cover: "image-url"
 date: 2025-03-30
 ---
 
-Review phim ở đây...
+Your review here.
 ```
 
-### Bước 4: Sync anime từ MyAnimeList (optional)
+### Step 4: Sync anime from MyAnimeList (optional)
 
 ```bash
-# Sync toàn bộ anime list từ MAL
 npm run sync-mal -- YOUR_MAL_USERNAME
 ```
 
-Script sẽ tự tạo file .md cho mỗi anime trong list, kéo cover + metadata từ Jikan API. Nếu file đã tồn tại, chỉ update frontmatter, giữ nguyên review.
+Automatically creates/updates `.md` files for each anime in your MAL list. Existing reviews are preserved.
 
-### Bước 5: Sync film từ TMDB (optional)
+### Step 5: Sync films from TMDB (optional)
 
 ```bash
-# Set API key và chạy
 export TMDB_API_KEY=your_api_key_here
 npm run sync-tmdb
 
-# Nếu có TMDB list:
+# With a TMDB list:
 export TMDB_LIST_ID=your_list_id
 npm run sync-tmdb
 ```
 
-### Bước 6: Fetch metadata bổ sung (optional)
+### Step 6: Fetch missing metadata (optional)
 
 ```bash
 npm run fetch-data
 ```
 
-Quét các file có `mal_id`/`tmdb_id` nhưng chưa có cover → tự động kéo từ API.
+Scans content files with `mal_id`/`tmdb_id` and auto-fetches missing covers from APIs.
 
-### Bước 7: Kết nối với Obsidian
+### Step 7: Obsidian integration
 
-Symlink folder content vào Obsidian vault:
+Symlink the content folder into your Obsidian vault:
 
 ```bash
 # macOS/Linux:
-ln -s /đường-dẫn/media-vault/src/content /đường-dẫn/obsidian-vault/media-vault
+ln -s /path/to/media-vault/src/content /path/to/obsidian-vault/media-vault
 
 # Windows (CMD as Admin):
 mklink /D "C:\obsidian-vault\media-vault" "C:\media-vault\src\content"
 ```
 
-Viết bài trong Obsidian → file nằm trong project → push lên GitHub là xong.
+Write in Obsidian → push to GitHub → site auto-updates.
 
-### Bước 8: Deploy lên Cloudflare Pages
+### Step 8: Deploy to Cloudflare Pages
 
-**Cách 1: Connect trực tiếp GitHub (khuyến nghị)**
-
-1. Vào [Cloudflare Dashboard](https://dash.cloudflare.com/) → Pages → Create a project
-2. Kết nối GitHub repo `media-vault`
+1. Go to [Cloudflare Dashboard](https://dash.cloudflare.com/) → Pages → Create → Connect to Git
+2. Select your GitHub repo
 3. Build settings:
-   - Build command: `npm run build`
-   - Build output directory: `dist`
-4. Thêm custom domain trong Pages settings nếu có
+   - **Build command:** `npm run build`
+   - **Build output directory:** `dist`
+4. Add custom domain in Pages settings
 
-**Cách 2: Deploy qua GitHub Actions**
+**Daily auto-sync (optional):**
 
-1. Tạo API token trên Cloudflare: My Profile → API Tokens → Create Token → "Edit Cloudflare Workers"
-2. Trong GitHub repo → Settings → Secrets and variables → Actions:
-   - `CLOUDFLARE_API_TOKEN`: API token vừa tạo
-   - `CLOUDFLARE_ACCOUNT_ID`: tìm trong Cloudflare Dashboard → bên phải
-3. Push code lên, workflow tự deploy
+In GitHub repo → Settings → Secrets and variables:
+- Variables: `MAL_USERNAME` = your MAL username
+- Variables: `TMDB_LIST_ID` = TMDB list ID (optional)
+- Secrets: `TMDB_API_KEY` = your TMDB API key
 
-**Auto sync hàng ngày:**
+The `sync.yml` workflow runs daily at 6 AM (UTC+7).
 
-Trong GitHub repo → Settings → Secrets and variables:
-- Variables: `MAL_USERNAME` = username MAL của bạn
-- Variables: `TMDB_LIST_ID` = ID list TMDB (optional)
-- Secrets: `TMDB_API_KEY` = API key TMDB
-
-Workflow `sync.yml` sẽ chạy mỗi ngày lúc 6h sáng (UTC+7), auto sync và commit.
-
-**Mỗi khi thêm bài mới:**
-
-```bash
-git add .
-git commit -m "Thêm review Dandadan"
-git push
-```
-
-Site tự động cập nhật trong ~1 phút.
-
-## Cấu trúc project
+## Project Structure
 
 ```
 media-vault/
 ├── src/
-│   ├── content/           ← BÀI VIẾT CỦA BẠN Ở ĐÂY
-│   │   ├── anime/         ← File .md cho anime
-│   │   ├── games/         ← File .md cho game
-│   │   └── films/         ← File .md cho film
-│   ├── components/        ← UI components
-│   ├── layouts/           ← Layout chung
-│   ├── pages/             ← Các trang web
-│   ├── styles/            ← CSS
-│   └── scripts/           ← Script sync & fetch
-├── public/                ← Static files (favicon, ảnh...)
-├── .github/workflows/     ← Deploy + auto sync
-├── astro.config.mjs       ← Config (sửa domain ở đây)
+│   ├── content/           ← YOUR CONTENT HERE
+│   │   ├── anime/
+│   │   ├── games/
+│   │   └── films/
+│   ├── components/
+│   ├── layouts/
+│   ├── pages/
+│   ├── styles/
+│   └── scripts/
+├── public/
+├── .github/workflows/
+├── astro.config.mjs
 └── package.json
 ```
 
-## Tìm MAL ID / TMDB ID ở đâu?
+## Finding MAL ID / TMDB ID
 
-- **MAL ID**: Vào MyAnimeList, tìm anime → URL `myanimelist.net/anime/55701/Dandadan` → ID là `55701`
-- **TMDB ID**: Vào themoviedb.org, tìm phim → URL `themoviedb.org/movie/693134` → ID là `693134`
+- **MAL ID**: Go to MyAnimeList → find anime → URL `myanimelist.net/anime/55701/Dandadan` → ID is `55701`
+- **TMDB ID**: Go to themoviedb.org → find movie → URL `themoviedb.org/movie/693134` → ID is `693134`
 
-## FAQ
+## Tech Stack
 
-**Q: Có tốn tiền không?**
-A: Hoàn toàn miễn phí. Cloudflare Pages free, API miễn phí, không cần server.
-
-**Q: Có cần biết code không?**
-A: Chỉ cần biết viết Markdown và dùng Git cơ bản.
-
-**Q: Bao nhiêu bài thì site chậm?**
-A: Static site nên rất nhanh. Vài nghìn bài vẫn ok.
-
-**Q: Muốn thêm comment?**
-A: Thêm Giscus (miễn phí, dùng GitHub Discussions).
+- [Astro](https://astro.build/) — Static site generator
+- Vanilla CSS — Dark theme
+- [Jikan API](https://jikan.moe/) — MyAnimeList data (free, no key needed)
+- [TMDB API](https://www.themoviedb.org/) — Movie data (free key)
+- Cloudflare Pages — Hosting
+- GitHub Actions — Auto sync

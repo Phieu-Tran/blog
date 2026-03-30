@@ -1,0 +1,13 @@
+---
+title: "White Album 2"
+mal_id: 18245
+rating: 7
+genre: "Drama, Romance"
+year: 2013
+studio: Satelight
+status: completed
+episodes: 13
+cover: "https://cdn.myanimelist.net/images/anime/1674/142746.jpg"
+date: 2026-03-30
+---
+

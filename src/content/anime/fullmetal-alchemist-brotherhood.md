@@ -1,0 +1,13 @@
+---
+title: "Fullmetal Alchemist: Brotherhood"
+mal_id: 5114
+rating: 10
+genre: "Action, Adventure, Drama, Fantasy, Shounen"
+year: 2009
+studio: Bones
+status: completed
+episodes: 64
+cover: "https://cdn.myanimelist.net/images/anime/1208/94745.jpg"
+date: 2026-03-30
+---
+

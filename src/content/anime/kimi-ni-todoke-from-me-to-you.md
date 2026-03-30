@@ -1,0 +1,13 @@
+---
+title: "Kimi ni Todoke: From Me to You"
+mal_id: 6045
+rating: 7
+genre: "Drama, Romance, Shoujo"
+year: 2009
+studio: "Production I.G"
+status: completed
+episodes: 25
+cover: "https://cdn.myanimelist.net/images/anime/1502/124384.jpg"
+date: 2026-03-30
+---
+

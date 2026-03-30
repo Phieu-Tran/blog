@@ -2,8 +2,8 @@ name: Sync Media Data
 
 on:
   schedule:
-    # Chạy hàng ngày lúc 23:00 UTC (6:00 sáng UTC+7)
-    - cron: '0 23 * * *'
+    # Chạy mỗi thứ 2 lúc 23:00 UTC (6:00 sáng UTC+7)
+    - cron: '0 23 * * 1'
   workflow_dispatch:
 
 jobs:

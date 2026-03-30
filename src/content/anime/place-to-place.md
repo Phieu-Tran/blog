@@ -1,0 +1,13 @@
+---
+title: "Place to Place"
+mal_id: 12291
+rating: 5
+genre: "Comedy, Romance"
+year: 2012
+studio: AIC
+status: completed
+episodes: 12
+cover: "https://cdn.myanimelist.net/images/anime/5/46489.jpg"
+date: 2026-03-30
+---
+

@@ -1,10 +1,10 @@
 ---
 title: "Frieren: Beyond Journey's End"
 mal_id: 52991
-rating: 9.4
-genre: "Adventure, Drama, Fantasy"
+rating: 9
+genre: "Adventure, Award Winning, Drama, Fantasy, Shounen"
 year: 2023
-studio: "Madhouse"
+studio: Madhouse
 status: completed
 episodes: 28
 cover: "https://cdn.myanimelist.net/images/anime/1015/138006.jpg"

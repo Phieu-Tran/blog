@@ -1,0 +1,13 @@
+---
+title: "Free! Take Your Marks"
+mal_id: 35198
+rating: 8
+genre: "Slice of Life"
+year: 2017
+studio: "Kyoto Animation"
+status: completed
+episodes: 1
+cover: "https://cdn.myanimelist.net/images/anime/6/87928.jpg"
+date: 2026-03-30
+---
+

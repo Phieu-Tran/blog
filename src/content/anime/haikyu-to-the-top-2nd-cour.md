@@ -1,0 +1,13 @@
+---
+title: "Haikyu!! To the Top 2nd-cour"
+mal_id: 40776
+rating: 10
+genre: "Sports, Shounen"
+year: 2020
+studio: "Production I.G"
+status: completed
+episodes: 12
+cover: "https://cdn.myanimelist.net/images/anime/1453/106768.jpg"
+date: 2026-03-30
+---
+

@@ -1,0 +1,13 @@
+---
+title: Naruto
+mal_id: 20
+rating: 9
+genre: "Action, Adventure, Fantasy, Shounen"
+year: 2002
+studio: "Studio Pierrot"
+status: completed
+episodes: 220
+cover: "https://cdn.myanimelist.net/images/anime/1141/142503.jpg"
+date: 2026-03-30
+---
+
