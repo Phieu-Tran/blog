@@ -2,7 +2,8 @@
 title: "The Truman Show"
 imdb_id: tt0120382
 rating: 8
-community_score: 8.2
+imdb_score: 8.2
+tmdb_score: 8.2
 genre: "Phim Hài, Phim Chính Kịch"
 year: 1998
 director: "Peter Weir"

@@ -2,7 +2,8 @@
 title: "The Sixth Sense"
 imdb_id: tt0167404
 rating: 8
-community_score: 7.9
+imdb_score: 8.2
+tmdb_score: 7.9
 genre: "Phim Bí Ẩn, Phim Gây Cấn, Phim Chính Kịch"
 year: 1999
 director: "M. Night Shyamalan"

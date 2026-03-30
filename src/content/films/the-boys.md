@@ -2,7 +2,8 @@
 title: "The Boys"
 imdb_id: tt1190634
 rating: 8
-community_score: 7.3
+imdb_score: 8.6
+tmdb_score: 7.3
 genre: "Sci-Fi & Fantasy, Action & Adventure"
 year: 2019
 director: "Eric Kripke"

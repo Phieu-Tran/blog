@@ -2,7 +2,8 @@
 title: Arcane
 imdb_id: tt11126994
 rating: 9
-community_score: 8.2
+imdb_score: 9
+tmdb_score: 8.2
 genre: "Phim Hoạt Hình, Action & Adventure"
 year: 2021
 director: "Christian Linke"

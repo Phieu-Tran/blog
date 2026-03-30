@@ -2,7 +2,8 @@
 title: "Spider-Man: Into the Spider-Verse"
 imdb_id: tt4633694
 rating: 9
-community_score: 8.4
+imdb_score: 8.4
+tmdb_score: 8.4
 genre: "Phim Hoạt Hình, Phim Hành Động, Phim Phiêu Lưu, Phim Khoa Học Viễn Tưởng"
 year: 2018
 director: "Bob Persichetti"

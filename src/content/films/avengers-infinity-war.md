@@ -2,7 +2,8 @@
 title: "Avengers: Infinity War"
 imdb_id: tt4154756
 rating: 7
-community_score: 8.2
+imdb_score: 8.4
+tmdb_score: 8.2
 genre: "Phim Phiêu Lưu, Phim Hành Động, Phim Khoa Học Viễn Tưởng"
 year: 2018
 director: "Joe Russo"

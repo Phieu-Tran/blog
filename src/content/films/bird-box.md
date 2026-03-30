@@ -2,7 +2,8 @@
 title: "Bird Box"
 imdb_id: tt2737304
 rating: 7
-community_score: 6.8
+imdb_score: 6.6
+tmdb_score: 6.8
 genre: "Phim Kinh Dị, Phim Gây Cấn, Phim Chính Kịch"
 year: 2018
 director: "Susanne Bier"

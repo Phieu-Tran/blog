@@ -2,7 +2,8 @@
 title: "Spider-Man: Across the Spider-Verse"
 imdb_id: tt9362722
 rating: 7
-community_score: 8.3
+imdb_score: 8.5
+tmdb_score: 8.3
 genre: "Phim Hoạt Hình, Phim Hành Động, Phim Phiêu Lưu, Phim Khoa Học Viễn Tưởng"
 year: 2023
 director: "Justin K. Thompson"

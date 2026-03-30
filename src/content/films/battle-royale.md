@@ -2,7 +2,8 @@
 title: "Battle Royale"
 imdb_id: tt0266308
 rating: 7
-community_score: 7.3
+imdb_score: 7.5
+tmdb_score: 7.3
 genre: "Phim Chính Kịch, Phim Gây Cấn, Phim Hành Động"
 year: 2000
 director: 深作欣二

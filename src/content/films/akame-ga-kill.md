@@ -2,6 +2,7 @@
 title: "Akame ga Kill!"
 imdb_id: tt3742982
 rating: 7
+imdb_score: 7.7
 genre: "Phim Hoạt Hình, Phim Chính Kịch, Action & Adventure"
 year: 2014
 director: N/A

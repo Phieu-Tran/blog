@@ -2,7 +2,8 @@
 title: "Now You See Me: Now You Don't"
 imdb_id: tt4712810
 rating: 5
-community_score: 6.5
+imdb_score: 5.9
+tmdb_score: 6.5
 genre: "Phim Gây Cấn, Phim Hình Sự"
 year: 2025
 director: "Ruben Fleischer"

@@ -2,7 +2,8 @@
 title: "The Haunting of Hill House"
 imdb_id: tt6763664
 rating: 8
-community_score: 8.5
+imdb_score: 8.5
+tmdb_score: 8.5
 genre: "Phim Bí Ẩn, Phim Chính Kịch"
 year: 2018
 director: "Mike Flanagan"

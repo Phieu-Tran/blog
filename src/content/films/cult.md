@@ -2,7 +2,8 @@
 title: Cult
 imdb_id: tt2281002
 rating: 5
-community_score: 6.1
+imdb_score: 5.4
+tmdb_score: 6.1
 genre: "Phim Kinh Dị, Phim Giả Tượng"
 year: 2013
 director: 白石晃士

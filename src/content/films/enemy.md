@@ -2,7 +2,8 @@
 title: Enemy
 imdb_id: tt2316411
 rating: 7
-community_score: 6.8
+imdb_score: 6.9
+tmdb_score: 6.8
 genre: "Phim Gây Cấn, Phim Bí Ẩn"
 year: 2013
 director: "Denis Villeneuve"

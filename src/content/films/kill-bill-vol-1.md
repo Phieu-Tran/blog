@@ -2,7 +2,8 @@
 title: "Kill Bill: Vol. 1"
 imdb_id: tt0266697
 rating: 6
-community_score: 8
+imdb_score: 8.2
+tmdb_score: 8
 genre: "Phim Hành Động, Phim Hình Sự"
 year: 2003
 director: "Quentin Tarantino"

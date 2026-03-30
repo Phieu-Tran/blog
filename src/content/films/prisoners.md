@@ -2,7 +2,8 @@
 title: Prisoners
 imdb_id: tt1392214
 rating: 9
-community_score: 8.1
+imdb_score: 8.2
+tmdb_score: 8.1
 genre: "Phim Chính Kịch, Phim Gây Cấn, Phim Hình Sự"
 year: 2013
 director: "Denis Villeneuve"

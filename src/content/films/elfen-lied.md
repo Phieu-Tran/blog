@@ -2,7 +2,8 @@
 title: "Elfen Lied"
 imdb_id: tt0480489
 rating: 8
-community_score: 3.4
+imdb_score: 7.8
+tmdb_score: 3.4
 genre: "Action & Adventure, Phim Hoạt Hình, Phim Chính Kịch, Phim Bí Ẩn, Sci-Fi & Fantasy"
 year: 2004
 director: N/A

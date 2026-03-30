@@ -2,7 +2,8 @@
 title: "The Garden of Words"
 imdb_id: tt2591814
 rating: 9
-community_score: 7.6
+imdb_score: 7.4
+tmdb_score: 7.6
 genre: "Phim Hoạt Hình, Phim Chính Kịch, Phim Lãng Mạn"
 year: 2013
 director: 新海誠

@@ -2,7 +2,8 @@
 title: Whiplash
 imdb_id: tt2582802
 rating: 9
-community_score: 8.4
+imdb_score: 8.5
+tmdb_score: 8.4
 genre: "Phim Chính Kịch, Phim Nhạc, Phim Gây Cấn"
 year: 2014
 director: "Damien Chazelle"

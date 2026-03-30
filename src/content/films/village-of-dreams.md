@@ -2,7 +2,8 @@
 title: "Village of Dreams"
 imdb_id: tt0112923
 rating: 5
-community_score: 5.9
+imdb_score: 6.9
+tmdb_score: 5.9
 genre: "Phim Gia Đình, Phim Chính Kịch"
 year: 1996
 director: 東陽一

@@ -2,7 +2,8 @@
 title: Seven
 imdb_id: tt0114369
 rating: 10
-community_score: 8.4
+imdb_score: 8.6
+tmdb_score: 8.4
 genre: "Phim Hình Sự, Phim Bí Ẩn, Phim Gây Cấn"
 year: 1995
 director: "David Fincher"

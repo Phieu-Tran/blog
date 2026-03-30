@@ -2,7 +2,8 @@
 title: "Squid Game"
 imdb_id: tt10919420
 rating: 5
-community_score: 7.9
+imdb_score: 7.9
+tmdb_score: 7.9
 genre: "Action & Adventure, Phim Bí Ẩn, Phim Chính Kịch"
 year: 2021
 director: 황동혁

@@ -2,7 +2,8 @@
 title: "Black Phone 2"
 imdb_id: tt29644189
 rating: 6
-community_score: 6.7
+imdb_score: 6.1
+tmdb_score: 6.7
 genre: "Phim Kinh Dị, Phim Gây Cấn"
 year: 2025
 director: "Scott Derrickson"

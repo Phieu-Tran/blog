@@ -2,7 +2,8 @@
 title: "The Rip"
 imdb_id: tt32642706
 rating: 7
-community_score: 7.1
+imdb_score: 6.8
+tmdb_score: 7.1
 genre: "Phim Hành Động, Phim Gây Cấn, Phim Hình Sự"
 year: 2026
 director: "Joe Carnahan"

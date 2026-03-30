@@ -2,7 +2,8 @@
 title: "Everything Everywhere All at Once"
 imdb_id: tt6710474
 rating: 6
-community_score: 7.7
+imdb_score: 7.7
+tmdb_score: 7.7
 genre: "Phim Hành Động, Phim Phiêu Lưu, Phim Khoa Học Viễn Tưởng"
 year: 2022
 director: "Daniel Scheinert"

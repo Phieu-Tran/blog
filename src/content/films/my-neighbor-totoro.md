@@ -2,7 +2,8 @@
 title: "My Neighbor Totoro"
 imdb_id: tt0096283
 rating: 7
-community_score: 8.1
+imdb_score: 8.1
+tmdb_score: 8.1
 genre: "Phim Giả Tượng, Phim Hoạt Hình, Phim Gia Đình"
 year: 1988
 director: 宮崎駿

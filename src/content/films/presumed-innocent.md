@@ -2,7 +2,8 @@
 title: "Presumed Innocent"
 imdb_id: tt17677860
 rating: 7
-community_score: 7.2
+imdb_score: 7.7
+tmdb_score: 7.2
 genre: "Phim Chính Kịch, Phim Bí Ẩn"
 year: 2024
 director: "David E. Kelley"

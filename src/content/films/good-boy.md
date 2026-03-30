@@ -2,7 +2,8 @@
 title: "Good Boy"
 imdb_id: tt35521922
 rating: 4
-community_score: 6.7
+imdb_score: 6.1
+tmdb_score: 6.7
 genre: "Phim Kinh Dị"
 year: 2025
 director: "Ben Leonberg"

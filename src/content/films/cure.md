@@ -2,7 +2,8 @@
 title: Cure
 imdb_id: tt0123948
 rating: 8
-community_score: 7.5
+imdb_score: 7.5
+tmdb_score: 7.5
 genre: "Phim Hình Sự, Phim Gây Cấn, Phim Kinh Dị, Phim Bí Ẩn"
 year: 1997
 director: 黒沢清

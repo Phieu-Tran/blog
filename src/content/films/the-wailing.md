@@ -2,7 +2,8 @@
 title: "The Wailing"
 imdb_id: tt5215952
 rating: 8
-community_score: 7.4
+imdb_score: 7.4
+tmdb_score: 7.4
 genre: "Phim Kinh Dị, Phim Bí Ẩn"
 year: 2016
 director: 나홍진

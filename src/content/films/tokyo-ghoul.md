@@ -2,7 +2,8 @@
 title: "Tokyo Ghoul"
 imdb_id: tt3741634
 rating: 7
-community_score: 6
+imdb_score: 7.7
+tmdb_score: 6
 genre: "Phim Hoạt Hình, Phim Chính Kịch, Sci-Fi & Fantasy"
 year: 2014
 director: N/A

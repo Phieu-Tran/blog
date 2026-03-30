@@ -2,7 +2,8 @@
 title: "Tatsuki Fujimoto 17-26"
 imdb_id: tt38491451
 rating: 9
-community_score: 5
+imdb_score: 8
+tmdb_score: 5
 genre: "Phim Hoạt Hình, Phim Chính Kịch, Phim Hài, Sci-Fi & Fantasy"
 year: 2025
 director: N/A

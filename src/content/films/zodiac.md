@@ -2,7 +2,8 @@
 title: Zodiac
 imdb_id: tt0443706
 rating: 9
-community_score: 7.5
+imdb_score: 7.7
+tmdb_score: 7.5
 genre: "Phim Hình Sự, Phim Bí Ẩn, Phim Gây Cấn"
 year: 2007
 director: "David Fincher"

@@ -2,7 +2,8 @@
 title: Predestination
 imdb_id: tt2397535
 rating: 8
-community_score: 7.4
+imdb_score: 7.4
+tmdb_score: 7.4
 genre: "Phim Khoa Học Viễn Tưởng, Phim Gây Cấn"
 year: 2014
 director: "Peter Spierig"

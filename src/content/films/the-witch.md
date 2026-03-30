@@ -2,7 +2,8 @@
 title: "The Witch"
 imdb_id: tt4263482
 rating: 8
-community_score: 7
+imdb_score: 7
+tmdb_score: 7
 genre: "Phim Kinh Dị, Phim Giả Tượng, Phim Chính Kịch"
 year: 2015
 director: "Robert Eggers"

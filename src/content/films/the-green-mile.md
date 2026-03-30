@@ -2,7 +2,8 @@
 title: "The Green Mile"
 imdb_id: tt0120689
 rating: 8
-community_score: 8.5
+imdb_score: 8.6
+tmdb_score: 8.5
 genre: "Phim Giả Tượng, Phim Chính Kịch, Phim Hình Sự"
 year: 1999
 director: "Frank Darabont"

@@ -2,7 +2,8 @@
 title: "Gone Girl"
 imdb_id: tt2267998
 rating: 8
-community_score: 7.9
+imdb_score: 8.1
+tmdb_score: 7.9
 genre: "Phim Bí Ẩn, Phim Gây Cấn, Phim Chính Kịch"
 year: 2014
 director: "David Fincher"

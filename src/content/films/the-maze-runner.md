@@ -2,7 +2,8 @@
 title: "The Maze Runner"
 imdb_id: tt1790864
 rating: 7
-community_score: 7.2
+imdb_score: 6.8
+tmdb_score: 7.2
 genre: "Phim Hành Động, Phim Bí Ẩn, Phim Khoa Học Viễn Tưởng, Phim Gây Cấn"
 year: 2014
 director: "Wes Ball"

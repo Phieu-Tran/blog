@@ -2,7 +2,8 @@
 title: "Weathering with You"
 imdb_id: tt9426210
 rating: 7
-community_score: 8
+imdb_score: 7.5
+tmdb_score: 8
 genre: "Phim Hoạt Hình, Phim Chính Kịch, Phim Giả Tượng, Phim Lãng Mạn"
 year: 2019
 director: 新海誠

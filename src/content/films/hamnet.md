@@ -2,7 +2,8 @@
 title: Hamnet
 imdb_id: tt14905854
 rating: 7
-community_score: 7.7
+imdb_score: 8.1
+tmdb_score: 7.7
 genre: "Phim Chính Kịch, Phim Lãng Mạn, Phim Lịch Sử"
 year: 2025
 director: "Chloé Zhao"

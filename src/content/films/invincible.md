@@ -2,7 +2,8 @@
 title: Invincible
 imdb_id: tt6741278
 rating: 8
-community_score: 7
+imdb_score: 8.7
+tmdb_score: 7
 genre: "Phim Hoạt Hình, Phim Chính Kịch, Sci-Fi & Fantasy, Action & Adventure"
 year: 2021
 director: N/A

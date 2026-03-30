@@ -2,7 +2,8 @@
 title: "Attack on Titan"
 imdb_id: tt2560140
 rating: 6
-community_score: 7.3
+imdb_score: 9.1
+tmdb_score: 7.3
 genre: "Phim Hoạt Hình, Sci-Fi & Fantasy, Action & Adventure"
 year: 2013
 director: N/A

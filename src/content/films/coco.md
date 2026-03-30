@@ -2,7 +2,8 @@
 title: Coco
 imdb_id: tt2380307
 rating: 8
-community_score: 8.2
+imdb_score: 8.4
+tmdb_score: 8.2
 genre: "Phim Gia Đình, Phim Hoạt Hình, Phim Nhạc, Phim Phiêu Lưu"
 year: 2017
 director: "Lee Unkrich"

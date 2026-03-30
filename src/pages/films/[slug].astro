@@ -8,9 +8,10 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { title, imdb_id, tmdb_id, rating, community_score, genre, year, director, status, cover, date } = entry.data;
+const { title, imdb_id, tmdb_id, rating, imdb_score, tmdb_score, genre, year, director, status, cover, date } = entry.data;
 const myStars = Math.round(rating / 2);
-const communityStars = Math.round((community_score || 0) / 2);
+const imdbStars = Math.round((imdb_score || 0) / 2);
+const tmdbStars = Math.round((tmdb_score || 0) / 2);
 
 const imdbUrl = imdb_id
   ? `https://www.imdb.com/title/${imdb_id}`
@@ -54,11 +55,11 @@ const tmdbUrl = tmdb_id
         {genre} · {year} · {director}
       </p>
 
-      {/* Scores */}
-      <div style="display:flex;gap:16px;margin-bottom:24px;">
-        <div style="background:rgba(255,255,255,0.03);border-radius:10px;padding:12px 16px;flex:1;text-align:center;">
-          <p style="font-size:11px;color:var(--text-muted);margin:0 0 4px;text-transform:uppercase;letter-spacing:1px;font-family:'Space Mono',monospace;">My Score</p>
-          <p style="font-size:24px;font-weight:700;color:var(--star-color);margin:0;">
+      {/* 3 Scores */}
+      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:24px;">
+        <div style="background:rgba(255,255,255,0.03);border-radius:10px;padding:12px 10px;text-align:center;">
+          <p style="font-size:10px;color:var(--text-muted);margin:0 0 4px;text-transform:uppercase;letter-spacing:0.5px;font-family:'Space Mono',monospace;">My Score</p>
+          <p style="font-size:22px;font-weight:700;color:var(--star-color);margin:0;">
             {rating > 0 ? rating : '—'}
           </p>
           <div class="stars" style="margin-top:4px;">
@@ -67,14 +68,25 @@ const tmdbUrl = tmdb_id
             ))}
           </div>
         </div>
-        <div style="background:rgba(255,255,255,0.03);border-radius:10px;padding:12px 16px;flex:1;text-align:center;">
-          <p style="font-size:11px;color:var(--text-muted);margin:0 0 4px;text-transform:uppercase;letter-spacing:1px;font-family:'Space Mono',monospace;">IMDB Score</p>
-          <p style="font-size:24px;font-weight:700;color:var(--film-color);margin:0;">
-            {community_score ? community_score.toFixed(1) : '—'}
+        <div style="background:rgba(255,255,255,0.03);border-radius:10px;padding:12px 10px;text-align:center;">
+          <p style="font-size:10px;color:var(--text-muted);margin:0 0 4px;text-transform:uppercase;letter-spacing:0.5px;font-family:'Space Mono',monospace;">IMDB</p>
+          <p style="font-size:22px;font-weight:700;color:#F5C518;margin:0;">
+            {imdb_score ? imdb_score.toFixed(1) : '—'}
           </p>
           <div class="stars" style="margin-top:4px;">
             {[...Array(5)].map((_, i) => (
-              <span class={i < communityStars ? 'star-on' : 'star-off'}>★</span>
+              <span class={i < imdbStars ? 'star-on' : 'star-off'}>★</span>
+            ))}
+          </div>
+        </div>
+        <div style="background:rgba(255,255,255,0.03);border-radius:10px;padding:12px 10px;text-align:center;">
+          <p style="font-size:10px;color:var(--text-muted);margin:0 0 4px;text-transform:uppercase;letter-spacing:0.5px;font-family:'Space Mono',monospace;">TMDB</p>
+          <p style="font-size:22px;font-weight:700;color:#01B4E4;margin:0;">
+            {tmdb_score ? tmdb_score.toFixed(1) : '—'}
+          </p>
+          <div class="stars" style="margin-top:4px;">
+            {[...Array(5)].map((_, i) => (
+              <span class={i < tmdbStars ? 'star-on' : 'star-off'}>★</span>
             ))}
           </div>
         </div>
@@ -90,7 +102,7 @@ const tmdbUrl = tmdb_id
           <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Year</p>
           <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{year}</p>
         </div>
-        <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;" style="grid-column: span 2;">
+        <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;grid-column:span 2;">
           <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Genre</p>
           <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{genre}</p>
         </div>

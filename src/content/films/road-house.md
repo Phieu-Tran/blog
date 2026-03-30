@@ -2,7 +2,8 @@
 title: "Road House"
 imdb_id: tt3359350
 rating: 5
-community_score: 6.9
+imdb_score: 6.2
+tmdb_score: 6.9
 genre: "Phim Hành Động, Phim Gây Cấn, Phim Chính Kịch"
 year: 2024
 director: "Doug Liman"

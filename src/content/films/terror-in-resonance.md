@@ -2,7 +2,8 @@
 title: "Terror in Resonance"
 imdb_id: tt3613454
 rating: 8
-community_score: 7
+imdb_score: 7.8
+tmdb_score: 7
 genre: "Phim Hoạt Hình, Phim Chính Kịch, Phim Bí Ẩn"
 year: 2014
 director: N/A

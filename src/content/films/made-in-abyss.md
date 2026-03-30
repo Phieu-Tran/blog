@@ -2,7 +2,8 @@
 title: "Made in Abyss"
 imdb_id: tt7222086
 rating: 8
-community_score: 3.8
+imdb_score: 8.3
+tmdb_score: 3.8
 genre: "Phim Hoạt Hình, Phim Chính Kịch, Action & Adventure, Sci-Fi & Fantasy"
 year: 2017
 director: N/A

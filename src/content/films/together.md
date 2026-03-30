@@ -2,7 +2,8 @@
 title: Together
 imdb_id: tt31184028
 rating: 6
-community_score: 7
+imdb_score: 6.7
+tmdb_score: 7
 genre: "Phim Kinh Dị, Phim Lãng Mạn"
 year: 2025
 director: "Michael Shanks"

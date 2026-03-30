@@ -2,7 +2,8 @@
 title: "Suicide Club"
 imdb_id: tt0312843
 rating: 8
-community_score: 6.4
+imdb_score: 6.5
+tmdb_score: 6.4
 genre: "Phim Chính Kịch, Phim Kinh Dị, Phim Gây Cấn"
 year: 2001
 director: 園子温

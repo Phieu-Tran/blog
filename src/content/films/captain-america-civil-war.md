@@ -2,7 +2,8 @@
 title: "Captain America: Civil War"
 imdb_id: tt3498820
 rating: 7
-community_score: 7.4
+imdb_score: 7.8
+tmdb_score: 7.4
 genre: "Phim Phiêu Lưu, Phim Hành Động, Phim Khoa Học Viễn Tưởng"
 year: 2016
 director: "Joe Russo"

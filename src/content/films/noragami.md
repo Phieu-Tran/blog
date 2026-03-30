@@ -2,7 +2,8 @@
 title: Noragami
 imdb_id: tt3225270
 rating: 7
-community_score: 8.2
+imdb_score: 7.8
+tmdb_score: 8.2
 genre: "Phim Hoạt Hình, Action & Adventure, Sci-Fi & Fantasy"
 year: 2014
 director: あだちとか

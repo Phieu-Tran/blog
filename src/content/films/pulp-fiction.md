@@ -2,7 +2,8 @@
 title: "Pulp Fiction"
 imdb_id: tt0110912
 rating: 9
-community_score: 8.5
+imdb_score: 8.8
+tmdb_score: 8.5
 genre: "Phim Gây Cấn, Phim Hình Sự, Phim Hài"
 year: 1994
 director: "Quentin Tarantino"

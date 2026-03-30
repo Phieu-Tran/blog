@@ -2,7 +2,8 @@
 title: Chernobyl
 imdb_id: tt7366338
 rating: 9
-community_score: 5.6
+imdb_score: 9.3
+tmdb_score: 5.6
 genre: "Phim Chính Kịch"
 year: 2019
 director: "Craig Mazin"

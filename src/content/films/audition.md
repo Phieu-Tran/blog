@@ -2,7 +2,8 @@
 title: Audition
 imdb_id: tt0235198
 rating: 8
-community_score: 7.1
+imdb_score: 7.1
+tmdb_score: 7.1
 genre: "Phim Kinh Dị, Phim Chính Kịch"
 year: 1999
 director: 三池崇史

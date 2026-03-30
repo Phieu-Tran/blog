@@ -2,7 +2,8 @@
 title: "The Pianist"
 imdb_id: tt0253474
 rating: 9
-community_score: 8.4
+imdb_score: 8.5
+tmdb_score: 8.4
 genre: "Phim Chính Kịch, Phim Chiến Tranh"
 year: 2002
 director: "Roman Polanski"

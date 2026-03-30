@@ -2,7 +2,8 @@
 title: "I Saw the Devil"
 imdb_id: tt1588170
 rating: 8
-community_score: 7.8
+imdb_score: 7.8
+tmdb_score: 7.8
 genre: "Phim Gây Cấn, Phim Kinh Dị"
 year: 2010
 director: 김지운

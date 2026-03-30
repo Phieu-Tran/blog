@@ -2,7 +2,8 @@
 title: "Your Name."
 imdb_id: tt5311514
 rating: 8
-community_score: 8.5
+imdb_score: 8.4
+tmdb_score: 8.5
 genre: "Phim Hoạt Hình, Phim Lãng Mạn, Phim Chính Kịch"
 year: 2016
 director: 新海誠

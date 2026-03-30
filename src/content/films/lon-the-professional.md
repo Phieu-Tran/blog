@@ -2,7 +2,8 @@
 title: "Léon: The Professional"
 imdb_id: tt0110413
 rating: 8
-community_score: 8.3
+imdb_score: 8.5
+tmdb_score: 8.3
 genre: "Phim Hình Sự, Phim Chính Kịch, Phim Hành Động"
 year: 1994
 director: "Luc Besson"

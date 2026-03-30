@@ -2,7 +2,8 @@
 title: "Shutter Island"
 imdb_id: tt1130884
 rating: 8
-community_score: 8.2
+imdb_score: 8.2
+tmdb_score: 8.2
 genre: "Phim Chính Kịch, Phim Gây Cấn, Phim Bí Ẩn"
 year: 2010
 director: "Martin Scorsese"

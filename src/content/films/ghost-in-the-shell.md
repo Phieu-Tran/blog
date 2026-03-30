@@ -2,7 +2,8 @@
 title: "Ghost in the Shell"
 imdb_id: tt0113568
 rating: 7
-community_score: 7.9
+imdb_score: 7.9
+tmdb_score: 7.9
 genre: "Phim Hành Động, Phim Hoạt Hình, Phim Khoa Học Viễn Tưởng"
 year: 1995
 director: 押井守

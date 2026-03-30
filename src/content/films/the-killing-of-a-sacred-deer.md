@@ -2,7 +2,8 @@
 title: "The Killing of a Sacred Deer"
 imdb_id: tt5715874
 rating: 6
-community_score: 7
+imdb_score: 7
+tmdb_score: 7
 genre: "Phim Chính Kịch, Phim Gây Cấn, Phim Bí Ẩn"
 year: 2017
 director: "Γιώργος Λάνθιμος"

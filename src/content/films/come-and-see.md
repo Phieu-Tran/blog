@@ -2,7 +2,8 @@
 title: "Come and See"
 imdb_id: tt0091251
 rating: 7
-community_score: 8.2
+imdb_score: 8.3
+tmdb_score: 8.2
 genre: "Phim Chính Kịch, Phim Chiến Tranh"
 year: 1985
 director: "Элем Климов"

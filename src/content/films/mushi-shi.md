@@ -2,7 +2,8 @@
 title: Mushi-Shi
 imdb_id: tt0807832
 rating: 10
-community_score: 5.3
+imdb_score: 8.5
+tmdb_score: 5.3
 genre: "Phim Hoạt Hình, Phim Chính Kịch, Sci-Fi & Fantasy"
 year: 2005
 director: N/A

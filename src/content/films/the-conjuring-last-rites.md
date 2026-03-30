@@ -2,7 +2,8 @@
 title: "The Conjuring: Last Rites"
 imdb_id: tt22898462
 rating: 5
-community_score: 6.9
+imdb_score: 6.2
+tmdb_score: 6.9
 genre: "Phim Kinh Dị"
 year: 2025
 director: "Michael Chaves"

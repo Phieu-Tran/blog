@@ -2,7 +2,8 @@
 title: "The Lord of the Rings: The Return of the King"
 imdb_id: tt0167260
 rating: 10
-community_score: 8.5
+imdb_score: 9
+tmdb_score: 8.5
 genre: "Phim Phiêu Lưu, Phim Giả Tượng, Phim Hành Động"
 year: 2003
 director: "Peter Jackson"

@@ -2,7 +2,8 @@
 title: "Sentenced to Be a Hero"
 imdb_id: tt32536168
 rating: 9
-community_score: 8.6
+imdb_score: 8.9
+tmdb_score: 8.6
 genre: "Phim Hoạt Hình, Action & Adventure, Sci-Fi & Fantasy"
 year: 2026
 director: N/A

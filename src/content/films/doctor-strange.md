@@ -2,7 +2,8 @@
 title: "Doctor Strange"
 imdb_id: tt1211837
 rating: 6
-community_score: 7.4
+imdb_score: 7.5
+tmdb_score: 7.4
 genre: "Phim Giả Tượng, Phim Phiêu Lưu, Phim Hành Động"
 year: 2016
 director: "Scott Derrickson"

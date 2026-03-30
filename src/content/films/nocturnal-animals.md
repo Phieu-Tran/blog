@@ -2,7 +2,8 @@
 title: "Nocturnal Animals"
 imdb_id: tt4550098
 rating: 7
-community_score: 7.4
+imdb_score: 7.4
+tmdb_score: 7.4
 genre: "Phim Chính Kịch, Phim Gây Cấn"
 year: 2016
 director: "Tom Ford"

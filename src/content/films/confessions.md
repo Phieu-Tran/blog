@@ -2,7 +2,8 @@
 title: Confessions
 imdb_id: tt1590089
 rating: 8
-community_score: 7.6
+imdb_score: 7.7
+tmdb_score: 7.6
 genre: "Phim Chính Kịch, Phim Gây Cấn, Phim Bí Ẩn"
 year: 2010
 director: 中島哲也

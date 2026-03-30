@@ -2,7 +2,8 @@
 title: "Princess Mononoke"
 imdb_id: tt0119698
 rating: 9
-community_score: 8.3
+imdb_score: 8.3
+tmdb_score: 8.3
 genre: "Phim Phiêu Lưu, Phim Giả Tượng, Phim Hoạt Hình"
 year: 1997
 director: 宮崎駿

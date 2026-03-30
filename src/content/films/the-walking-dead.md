@@ -2,7 +2,8 @@
 title: "The Walking Dead"
 imdb_id: tt1520211
 rating: 6
-community_score: 7.9
+imdb_score: 8.1
+tmdb_score: 7.9
 genre: "Action & Adventure, Phim Chính Kịch, Sci-Fi & Fantasy"
 year: 2010
 director: "Frank Darabont"

@@ -2,7 +2,8 @@
 title: "Taxi Driver"
 imdb_id: tt0075314
 rating: 9
-community_score: 8.1
+imdb_score: 8.2
+tmdb_score: 8.1
 genre: "Phim Hình Sự, Phim Chính Kịch"
 year: 1976
 director: "Martin Scorsese"

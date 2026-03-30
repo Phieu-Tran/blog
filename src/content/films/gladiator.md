@@ -2,7 +2,8 @@
 title: Gladiator
 imdb_id: tt0172495
 rating: 9
-community_score: 8.2
+imdb_score: 8.5
+tmdb_score: 8.2
 genre: "Phim Hành Động, Phim Chính Kịch, Phim Phiêu Lưu"
 year: 2000
 director: "Ridley Scott"

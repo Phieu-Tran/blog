@@ -2,7 +2,8 @@
 title: "True Detective"
 imdb_id: tt2356777
 rating: 8
-community_score: 7.2
+imdb_score: 8.8
+tmdb_score: 7.2
 genre: "Phim Chính Kịch, Phim Bí Ẩn"
 year: 2014
 director: "Nic Pizzolatto"

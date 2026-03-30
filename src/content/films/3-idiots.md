@@ -2,7 +2,8 @@
 title: "3 Idiots"
 imdb_id: tt1187043
 rating: 9
-community_score: 8
+imdb_score: 8.4
+tmdb_score: 8
 genre: "Phim Chính Kịch, Phim Hài"
 year: 2009
 director: "Rajkumar Hirani"

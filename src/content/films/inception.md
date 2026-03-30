@@ -2,7 +2,8 @@
 title: Inception
 imdb_id: tt1375666
 rating: 10
-community_score: 8.4
+imdb_score: 8.8
+tmdb_score: 8.4
 genre: "Phim Hành Động, Phim Khoa Học Viễn Tưởng, Phim Phiêu Lưu"
 year: 2010
 director: "Christopher Nolan"

@@ -2,7 +2,8 @@
 title: "Spider-Man: No Way Home"
 imdb_id: tt10872600
 rating: 6
-community_score: 7.9
+imdb_score: 8.1
+tmdb_score: 7.9
 genre: "Phim Hành Động, Phim Phiêu Lưu, Phim Khoa Học Viễn Tưởng"
 year: 2021
 director: "Jon Watts"

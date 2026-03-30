@@ -2,7 +2,8 @@
 title: Interstellar
 imdb_id: tt0816692
 rating: 10
-community_score: 8.5
+imdb_score: 8.7
+tmdb_score: 8.5
 genre: "Phim Phiêu Lưu, Phim Chính Kịch, Phim Khoa Học Viễn Tưởng"
 year: 2014
 director: "Christopher Nolan"

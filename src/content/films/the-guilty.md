@@ -2,7 +2,8 @@
 title: "The Guilty"
 imdb_id: tt9421570
 rating: 8
-community_score: 6.4
+imdb_score: 6.3
+tmdb_score: 6.4
 genre: "Phim Chính Kịch, Phim Gây Cấn"
 year: 2021
 director: "Antoine Fuqua"

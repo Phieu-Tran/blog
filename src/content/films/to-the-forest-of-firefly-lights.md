@@ -2,7 +2,8 @@
 title: "To the Forest of Firefly Lights"
 imdb_id: tt2061702
 rating: 7
-community_score: 8.3
+imdb_score: 7.8
+tmdb_score: 8.3
 genre: "Phim Lãng Mạn, Phim Hoạt Hình, Phim Giả Tượng"
 year: 2011
 director: 大森貴弘

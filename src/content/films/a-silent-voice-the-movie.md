@@ -2,7 +2,8 @@
 title: "A Silent Voice: The Movie"
 imdb_id: tt5323662
 rating: 7
-community_score: 8.4
+imdb_score: 8.2
+tmdb_score: 8.4
 genre: "Phim Hoạt Hình, Phim Chính Kịch, Phim Lãng Mạn"
 year: 2016
 director: 山田尚子

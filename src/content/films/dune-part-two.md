@@ -2,7 +2,8 @@
 title: "Dune: Part Two"
 imdb_id: tt15239678
 rating: 9
-community_score: 8.1
+imdb_score: 8.4
+tmdb_score: 8.1
 genre: "Phim Khoa Học Viễn Tưởng, Phim Phiêu Lưu"
 year: 2024
 director: "Denis Villeneuve"

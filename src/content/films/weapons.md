@@ -2,7 +2,8 @@
 title: Weapons
 imdb_id: tt26581740
 rating: 6
-community_score: 7.3
+imdb_score: 7.4
+tmdb_score: 7.3
 genre: "Phim Kinh Dị, Phim Bí Ẩn"
 year: 2025
 director: "Zach Cregger"

@@ -2,7 +2,8 @@
 title: Tusk
 imdb_id: tt3099498
 rating: 4
-community_score: 5.5
+imdb_score: 5.4
+tmdb_score: 5.5
 genre: "Phim Hài, Phim Kinh Dị"
 year: 2014
 director: "Kevin Smith"

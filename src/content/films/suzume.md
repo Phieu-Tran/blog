@@ -2,7 +2,8 @@
 title: Suzume
 imdb_id: tt16428256
 rating: 7
-community_score: 7.9
+imdb_score: 7.6
+tmdb_score: 7.9
 genre: "Phim Hoạt Hình, Phim Chính Kịch, Phim Phiêu Lưu, Phim Giả Tượng"
 year: 2022
 director: 新海誠

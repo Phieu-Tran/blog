@@ -2,7 +2,8 @@
 title: "The Future Diary"
 imdb_id: tt2069441
 rating: 7
-community_score: 7
+imdb_score: 7.4
+tmdb_score: 7
 genre: "Action & Adventure, Phim Hoạt Hình, Phim Chính Kịch, Phim Bí Ẩn"
 year: 2011
 director: N/A

@@ -2,7 +2,8 @@
 title: "The Human Centipede 2 (Full Sequence)"
 imdb_id: tt1530509
 rating: 1
-community_score: 4.8
+imdb_score: 3.8
+tmdb_score: 4.8
 genre: "Phim Chính Kịch, Phim Kinh Dị, Phim Hình Sự"
 year: 2011
 director: "Tom Six"

@@ -2,7 +2,8 @@
 title: Frankenstein
 imdb_id: tt1312221
 rating: 7
-community_score: 7.7
+imdb_score: 7.5
+tmdb_score: 7.7
 genre: "Phim Chính Kịch, Phim Giả Tượng, Phim Kinh Dị"
 year: 2025
 director: "Guillermo del Toro"

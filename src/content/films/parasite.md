@@ -2,7 +2,8 @@
 title: Parasite
 imdb_id: tt6751668
 rating: 9
-community_score: 8.5
+imdb_score: 8.5
+tmdb_score: 8.5
 genre: "Phim Hài, Phim Gây Cấn, Phim Chính Kịch"
 year: 2019
 director: 봉준호

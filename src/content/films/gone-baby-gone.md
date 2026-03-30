@@ -2,7 +2,8 @@
 title: "Gone Baby Gone"
 imdb_id: tt0452623
 rating: 7
-community_score: 7.3
+imdb_score: 7.6
+tmdb_score: 7.3
 genre: "Phim Hình Sự, Phim Chính Kịch, Phim Bí Ẩn"
 year: 2007
 director: "Ben Affleck"

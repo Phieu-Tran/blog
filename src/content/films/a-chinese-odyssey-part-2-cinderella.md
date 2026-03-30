@@ -2,7 +2,8 @@
 title: "A Chinese Odyssey: Part 2 - Cinderella"
 imdb_id: tt0114996
 rating: 8
-community_score: 7.7
+imdb_score: 7.8
+tmdb_score: 7.7
 genre: "Phim Hành Động, Phim Phiêu Lưu, Phim Giả Tượng, Phim Hài, Phim Lãng Mạn"
 year: 1995
 director: 劉鎮偉
