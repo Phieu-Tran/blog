@@ -8,7 +8,7 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { title, imdb_id, tmdb_id, rating, community_score, genre, year, director, status, cover } = entry.data;
+const { title, imdb_id, tmdb_id, rating, community_score, genre, year, director, status, cover, date } = entry.data;
 const myStars = Math.round(rating / 2);
 const communityStars = Math.round((community_score || 0) / 2);
 
@@ -96,6 +96,11 @@ const tmdbUrl = tmdb_id
         </div>
       </div>
 
+      {date && (
+        <p style="font-size:11px;color:var(--text-muted);">
+          Rated on {new Date(date).toLocaleDateString('vi-VN')}
+        </p>
+      )}
     </div>
   </div>
 </BaseLayout>

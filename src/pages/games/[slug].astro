@@ -9,7 +9,7 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
-const { title, rating, genre, year, studio, status, platform, cover } = entry.data;
+const { title, rating, genre, year, studio, status, platform, cover, date } = entry.data;
 
 const scoreColor = rating >= 9 ? '#34D399' : rating >= 7 ? '#FBBF24' : rating >= 5 ? '#FB923C' : '#EF4444';
 const scoreLabel = rating >= 9 ? 'AMAZING' : rating >= 8 ? 'GREAT' : rating >= 7 ? 'GOOD' : rating >= 5 ? 'OKAY' : 'BAD';
@@ -91,6 +91,12 @@ const ignSearchUrl = `https://www.ign.com/search?q=${encodeURIComponent(title)}`
       <div class="prose">
         <Content />
       </div>
+
+      {date && (
+        <p style="font-size:11px;color:var(--text-muted);margin-top:16px;">
+          Rated on {new Date(date).toLocaleDateString('vi-VN')}
+        </p>
+      )}
     </div>
   </div>
 </BaseLayout>
