@@ -1,5 +1,5 @@
 ---
-title: Dororo
+title: "Dororo"
 mal_id: 37520
 rating: 6
 genre: "Action, Adventure, Fantasy, Shounen"
@@ -12,5 +12,6 @@ date: 2026-03-30
 mal_score: 8.26
 episodes_watched: 24
 episodes_total: 24
+updated_at: 2021-01-31
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Beelzebub
+title: "Beelzebub"
 mal_id: 9513
 rating: 7
 genre: "Action, Comedy, Supernatural, Shounen"
@@ -12,5 +12,6 @@ date: 2026-03-30
 mal_score: 7.84
 episodes_watched: 60
 episodes_total: 60
+updated_at: 2021-01-31
 ---
 

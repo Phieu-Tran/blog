@@ -73,7 +73,7 @@ function buildFrontmatter(data) {
 
 // MAL status codes: 1=watching, 2=completed, 3=on_hold, 4=dropped, 6=plan_to_watch
 function mapStatus(malStatus) {
-  const map = { 1: 'watching', 2: 'completed', 3: 'watching', 4: 'dropped', 6: 'plan' };
+  const map = { 1: 'watching', 2: 'completed', 3: 'on_hold', 4: 'dropped', 6: 'plan' };
   return map[malStatus] || 'plan';
 }
 
@@ -173,6 +173,7 @@ async function main() {
       episodes_watched: item.num_watched_episodes || 0,
       episodes_total: item.anime_num_episodes || 0,
       cover,
+      updated_at: item.updated_at ? new Date(item.updated_at * 1000).toISOString().split('T')[0] : new Date().toISOString().split('T')[0],
       date: new Date().toISOString().split('T')[0],
     };
 
@@ -184,6 +185,7 @@ async function main() {
         if (value === undefined || value === null) continue;
         if (key === 'rating' && Number(merged.rating) > 0 && value === 0) continue;
         if (key === 'date' && merged.date) continue;
+        // Always update cover from MAL
         merged[key] = value;
       }
       const newContent = buildFrontmatter(merged) + existing.body;

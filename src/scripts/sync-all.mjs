@@ -196,7 +196,7 @@ async function syncAnime() {
   printStep('🔄', `Processing ${allItems.length} anime...\n`);
   let created = 0, updated = 0;
 
-  const statusMap = { 1: 'watching', 2: 'completed', 3: 'watching', 4: 'dropped', 6: 'plan' };
+  const statusMap = { 1: 'watching', 2: 'completed', 3: 'on_hold', 4: 'dropped', 6: 'plan' };
 
   for (let i = 0; i < allItems.length; i++) {
     const item = allItems[i];

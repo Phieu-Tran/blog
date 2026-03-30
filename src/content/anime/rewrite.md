@@ -1,5 +1,5 @@
 ---
-title: Rewrite
+title: "Rewrite"
 mal_id: 31716
 rating: 8
 genre: "Action, Comedy, Romance, Supernatural"
@@ -12,5 +12,6 @@ date: 2026-03-30
 mal_score: 6.65
 episodes_watched: 13
 episodes_total: 13
+updated_at: 2021-01-31
 ---
 

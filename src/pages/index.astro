@@ -14,7 +14,13 @@ const allMedia = [
   ...allFilms.map(f => ({ ...f.data, slug: f.id, type: 'film' as const, collection: 'films' })),
 ].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
-const active = allMedia.filter(m => m.status === 'watching' || m.status === 'playing');
+const active = allMedia
+  .filter(m => m.status === 'watching' || m.status === 'playing')
+  .sort((a, b) => {
+    const aTime = a.updated_at ? new Date(a.updated_at).getTime() : new Date(a.date).getTime();
+    const bTime = b.updated_at ? new Date(b.updated_at).getTime() : new Date(b.date).getTime();
+    return bTime - aTime;
+  });
 const recent = allMedia.slice(0, 8);
 const recentPosts = allPosts
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())

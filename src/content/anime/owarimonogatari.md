@@ -1,5 +1,5 @@
 ---
-title: Owarimonogatari
+title: "Owarimonogatari"
 mal_id: 31181
 rating: 9
 genre: "Comedy, Mystery, Supernatural"
@@ -12,5 +12,6 @@ date: 2026-03-30
 mal_score: 8.45
 episodes_watched: 12
 episodes_total: 12
+updated_at: 2023-07-15
 ---
 

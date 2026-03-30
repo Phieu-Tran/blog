@@ -1,5 +1,5 @@
 ---
-title: Toradora!
+title: "Toradora!"
 mal_id: 4224
 rating: 8
 genre: "Drama, Romance"
@@ -12,5 +12,6 @@ date: 2026-03-30
 mal_score: 8.04
 episodes_watched: 25
 episodes_total: 25
+updated_at: 2021-02-01
 ---
 

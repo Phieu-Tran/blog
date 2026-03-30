@@ -10,6 +10,7 @@ status: completed
 episodes_watched: 12
 episodes_total: 12
 cover: "https://cdn.myanimelist.net/images/anime/1764/106659.jpg"
+updated_at: 2023-07-15
 date: 2026-03-30
 ---
 

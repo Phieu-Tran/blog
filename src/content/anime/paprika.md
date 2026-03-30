@@ -1,5 +1,5 @@
 ---
-title: Paprika
+title: "Paprika"
 mal_id: 1943
 rating: 10
 genre: "Avant Garde, Award Winning, Mystery, Sci-Fi, Suspense"
@@ -12,5 +12,6 @@ date: 2026-03-30
 mal_score: 8.04
 episodes_watched: 1
 episodes_total: 1
+updated_at: 2023-07-15
 ---
 

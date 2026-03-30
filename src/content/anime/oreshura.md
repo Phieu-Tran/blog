@@ -1,5 +1,5 @@
 ---
-title: Oreshura
+title: "Oreshura"
 mal_id: 14749
 rating: 7
 genre: "Comedy, Romance"
@@ -12,5 +12,6 @@ date: 2026-03-30
 mal_score: 6.89
 episodes_watched: 13
 episodes_total: 13
+updated_at: 2021-01-31
 ---
 

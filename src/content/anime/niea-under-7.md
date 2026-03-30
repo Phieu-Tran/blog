@@ -12,5 +12,6 @@ date: 2026-03-30
 mal_score: 6.89
 episodes_watched: 13
 episodes_total: 13
+updated_at: 2022-06-13
 ---
 

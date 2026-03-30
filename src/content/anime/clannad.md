@@ -1,5 +1,5 @@
 ---
-title: Clannad
+title: "Clannad"
 mal_id: 2167
 rating: 8
 genre: "Drama, Romance"
@@ -12,5 +12,6 @@ date: 2026-03-30
 mal_score: 7.99
 episodes_watched: 23
 episodes_total: 23
+updated_at: 2021-02-01
 ---
 

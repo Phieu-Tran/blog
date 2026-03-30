@@ -1,5 +1,5 @@
 ---
-title: Fuuka
+title: "Fuuka"
 mal_id: 33743
 rating: 7
 genre: "Drama, Romance, Ecchi, Shounen"
@@ -12,5 +12,6 @@ date: 2026-03-30
 mal_score: 6.51
 episodes_watched: 12
 episodes_total: 12
+updated_at: 2021-01-31
 ---
 

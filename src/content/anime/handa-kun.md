@@ -1,5 +1,5 @@
 ---
-title: Handa-kun
+title: "Handa-kun"
 mal_id: 32648
 rating: 7
 genre: "Comedy, Shounen"
@@ -12,5 +12,6 @@ date: 2026-03-30
 mal_score: 7.33
 episodes_watched: 12
 episodes_total: 12
+updated_at: 2021-01-31
 ---
 

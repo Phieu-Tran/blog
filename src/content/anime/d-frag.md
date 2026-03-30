@@ -1,5 +1,5 @@
 ---
-title: D-Frag!
+title: "D-Frag!"
 mal_id: 20031
 rating: 7
 genre: "Comedy, Seinen"
@@ -12,5 +12,6 @@ date: 2026-03-30
 mal_score: 7.49
 episodes_watched: 12
 episodes_total: 12
+updated_at: 2021-01-31
 ---
 

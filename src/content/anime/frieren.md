@@ -12,6 +12,7 @@ date: 2024-12-15
 mal_score: 9.25
 episodes_watched: 28
 episodes_total: 28
+updated_at: 2025-04-28
 ---
 
 Frieren là một kiệt tác về thời gian, ký ức và ý nghĩa của cuộc sống. Anime hay nhất 2023 không cần bàn cãi.

@@ -1,5 +1,5 @@
 ---
-title: Mushi-Shi
+title: "Mushi-Shi"
 mal_id: 457
 rating: 10
 genre: "Adventure, Mystery, Slice of Life, Supernatural, Seinen"
@@ -12,5 +12,6 @@ date: 2026-03-30
 mal_score: 8.65
 episodes_watched: 26
 episodes_total: 26
+updated_at: 2021-02-01
 ---
 

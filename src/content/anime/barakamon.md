@@ -1,5 +1,5 @@
 ---
-title: Barakamon
+title: "Barakamon"
 mal_id: 22789
 rating: 7
 genre: "Slice of Life"
@@ -12,5 +12,6 @@ date: 2026-03-30
 mal_score: 8.36
 episodes_watched: 12
 episodes_total: 12
+updated_at: 2021-01-31
 ---
 

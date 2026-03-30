@@ -1,5 +1,5 @@
 ---
-title: BTOOOM!
+title: "BTOOOM!"
 mal_id: 14345
 rating: 8
 genre: "Action, Suspense, Seinen"
@@ -12,5 +12,6 @@ date: 2026-03-30
 mal_score: 7.26
 episodes_watched: 12
 episodes_total: 12
+updated_at: 2021-01-31
 ---
 

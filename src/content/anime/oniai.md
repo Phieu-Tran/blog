@@ -1,5 +1,5 @@
 ---
-title: OniAi
+title: "OniAi"
 mal_id: 14199
 rating: 5
 genre: "Comedy, Romance, Ecchi"
@@ -12,5 +12,6 @@ date: 2026-03-30
 mal_score: 6.41
 episodes_watched: 12
 episodes_total: 12
+updated_at: 2021-01-31
 ---
 

@@ -10,11 +10,12 @@ const anime = defineCollection({
     genre: z.string(),
     year: z.number(),
     studio: z.string(),
-    status: z.enum(['watching', 'completed', 'plan', 'dropped']),
+    status: z.enum(['watching', 'completed', 'on_hold', 'plan', 'dropped']),
     episodes_watched: z.number().optional(),
     episodes_total: z.number().optional(),
     episodes: z.number().optional(),
     cover: z.string().optional(),
+    updated_at: z.date().optional(),
     date: z.date(),
   }),
 });

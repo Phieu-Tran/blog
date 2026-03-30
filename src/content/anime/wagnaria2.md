@@ -1,5 +1,5 @@
 ---
-title: Wagnaria!!2
+title: "Wagnaria!!2"
 mal_id: 10521
 rating: 7
 genre: "Comedy, Romance, Seinen"
@@ -12,5 +12,6 @@ date: 2026-03-30
 mal_score: 7.81
 episodes_watched: 13
 episodes_total: 13
+updated_at: 2021-01-31
 ---
 

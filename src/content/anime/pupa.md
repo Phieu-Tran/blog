@@ -1,5 +1,5 @@
 ---
-title: Pupa
+title: "Pupa"
 mal_id: 19315
 rating: 5
 genre: "Horror, Suspense"
@@ -12,5 +12,6 @@ date: 2026-03-30
 mal_score: 3.28
 episodes_watched: 12
 episodes_total: 12
+updated_at: 2021-01-31
 ---
 
