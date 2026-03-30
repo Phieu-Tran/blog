@@ -1,0 +1,16 @@
+{
+  "name": "media-vault",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "fetch-data": "node src/scripts/fetch-media-data.mjs",
+    "sync-mal": "node src/scripts/sync-mal.mjs",
+    "sync-tmdb": "node src/scripts/sync-tmdb.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.8.0"
+  }
+}

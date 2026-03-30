@@ -1,0 +1,14 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="404 — Không tìm thấy" activeNav="">
+  <div style="text-align:center;padding:60px 20px;">
+    <p style="font-size:64px;font-weight:700;font-family:'Space Mono',monospace;background:linear-gradient(135deg,#A78BFA,#34D399,#FB923C);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin:0;">404</p>
+    <p style="font-size:16px;color:var(--text-secondary);margin:12px 0 24px;">Trang này không tồn tại hoặc đã bị xóa.</p>
+    <a href={import.meta.env.BASE_URL}
+      style="display:inline-block;padding:10px 24px;border-radius:10px;background:rgba(255,255,255,0.06);border:1px solid var(--border);font-size:13px;color:var(--text-primary);transition:all 0.2s;">
+      Về trang chủ
+    </a>
+  </div>
+</BaseLayout>

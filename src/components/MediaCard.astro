@@ -1,0 +1,50 @@
+---
+interface Props {
+  title: string;
+  type: 'anime' | 'game' | 'film';
+  rating: number;
+  genre: string;
+  year: number;
+  cover?: string;
+  status: string;
+  slug: string;
+  index?: number;
+}
+const { title, type, rating, genre, year, cover, status, slug, index = 0 } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const stars = Math.round(rating / 2);
+const typeMap = { anime: 'anime', game: 'games', film: 'films' };
+const isActive = status === 'watching' || status === 'playing';
+const statusLabels: Record<string, string> = {
+  watching: 'Đang xem', playing: 'Đang chơi', completed: 'Đã xong',
+  watched: 'Đã xem', plan: 'Dự định', dropped: 'Bỏ',
+};
+---
+
+<a href={`${base}${typeMap[type]}/${slug}/`} class="media-card" style={`animation-delay: ${index * 0.06}s`}>
+  <div class="card-cover">
+    {cover && <img src={cover} alt={title} loading="lazy" />}
+    <div class="gradient-overlay"></div>
+    <span class={`badge badge-${type}`} style="position:absolute;top:8px;left:8px;">
+      {type}
+    </span>
+    {isActive && (
+      <span class="badge badge-game" style="position:absolute;top:8px;right:8px;display:flex;align-items:center;gap:4px;">
+        <span style="width:5px;height:5px;border-radius:50%;background:#34D399;animation:pulse 2s infinite;display:inline-block;"></span>
+        {statusLabels[status]}
+      </span>
+    )}
+    <div style="position:absolute;bottom:8px;left:10px;display:flex;align-items:center;gap:6px;">
+      <span class="stars">
+        {[...Array(5)].map((_, i) => (
+          <span class={i < stars ? 'star-on' : 'star-off'}>★</span>
+        ))}
+      </span>
+      <span style="color:#FBBF24;font-size:12px;font-weight:600;">{rating}</span>
+    </div>
+  </div>
+  <div class="card-info">
+    <p class="card-title">{title}</p>
+    <p class="card-meta">{genre.split(',')[0]} — {year}</p>
+  </div>
+</a>

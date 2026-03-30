@@ -1,0 +1,83 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import MediaCard from '../components/MediaCard.astro';
+import { getCollection } from 'astro:content';
+
+const allAnime = await getCollection('anime');
+const allGames = await getCollection('games');
+const allFilms = await getCollection('films');
+
+const allMedia = [
+  ...allAnime.map(a => ({ ...a.data, slug: a.id, type: 'anime' as const, collection: 'anime' })),
+  ...allGames.map(g => ({ ...g.data, slug: g.id, type: 'game' as const, collection: 'games' })),
+  ...allFilms.map(f => ({ ...f.data, slug: f.id, type: 'film' as const, collection: 'films' })),
+].sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+
+const active = allMedia.filter(m => m.status === 'watching' || m.status === 'playing');
+const recent = allMedia.slice(0, 8);
+---
+
+<BaseLayout activeNav="home">
+  {/* Currently active */}
+  {active.length > 0 && (
+    <section style="margin-bottom: 32px;">
+      <p class="section-label">Đang theo dõi</p>
+      <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+        {active.map(item => (
+          <a href={`${import.meta.env.BASE_URL}${item.collection}/${item.slug}/`}
+            style="display:flex;align-items:center;gap:10px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:8px 14px 8px 8px;flex:1 1 200px;transition:all 0.2s;">
+            {item.cover && <img src={item.cover} alt="" style="width:36px;height:50px;object-fit:cover;border-radius:6px;" />}
+            <div>
+              <p style="font-size:13px;font-weight:600;margin:0;">{item.title}</p>
+              <span class={`badge badge-${item.type}`} style="margin-top:4px;display:inline-block;">
+                {item.status === 'watching' ? 'Đang xem' : 'Đang chơi'}
+              </span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {/* Stats */}
+  <section style="margin-bottom: 32px;">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <p class="stat-number" style="color: var(--anime-color);">{allAnime.length}</p>
+        <p class="stat-label">Anime</p>
+      </div>
+      <div class="stat-card">
+        <p class="stat-number" style="color: var(--game-color);">{allGames.length}</p>
+        <p class="stat-label">Games</p>
+      </div>
+      <div class="stat-card">
+        <p class="stat-number" style="color: var(--film-color);">{allFilms.length}</p>
+        <p class="stat-label">Films</p>
+      </div>
+      <div class="stat-card">
+        <p class="stat-number">{allMedia.length}</p>
+        <p class="stat-label">Total</p>
+      </div>
+    </div>
+  </section>
+
+  {/* Recent */}
+  <section>
+    <p class="section-label">Thêm gần đây</p>
+    <div class="media-grid">
+      {recent.map((item, i) => (
+        <MediaCard
+          title={item.title}
+          type={item.type}
+          rating={item.rating}
+          genre={item.genre}
+          year={item.year}
+          cover={item.cover}
+          status={item.status}
+          slug={item.slug}
+          index={i}
+        />
+      ))}
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const games = await getCollection('games');
+  return games.map(entry => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const { title, rating, genre, year, studio, status, platform, cover } = entry.data;
+const stars = Math.round(rating / 2);
+const statusLabels: Record<string, string> = {
+  playing: 'Đang chơi', completed: 'Đã xong', plan: 'Dự định', dropped: 'Bỏ',
+};
+---
+
+<BaseLayout title={title} description={`Review ${title} — ${genre}`} image={cover} activeNav="games">
+  <a href={`${import.meta.env.BASE_URL}games/`} style="font-size:13px;color:rgba(255,255,255,0.4);display:inline-block;margin-bottom:16px;">
+    ← Quay lại Games
+  </a>
+
+  <div style="display:flex;gap:24px;flex-wrap:wrap;">
+    {cover && (
+      <img src={cover} alt={title}
+        style="width:200px;height:280px;object-fit:cover;border-radius:12px;flex-shrink:0;" />
+    )}
+    <div style="flex:1;min-width:250px;">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
+        <span class="badge badge-game">Game</span>
+        <span class="badge" style="background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.5);">
+          {statusLabels[status]}
+        </span>
+      </div>
+      <h1 style="font-size:28px;font-weight:700;margin:0 0 6px;">{title}</h1>
+      <p style="font-size:13px;color:rgba(255,255,255,0.4);margin:0 0 16px;">
+        {genre} — {year} — {studio} — {platform}
+      </p>
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:24px;">
+        <span class="stars" style="font-size:16px;">
+          {[...Array(5)].map((_, i) => (
+            <span class={i < stars ? 'star-on' : 'star-off'}>★</span>
+          ))}
+        </span>
+        <span style="color:#FBBF24;font-size:18px;font-weight:700;">{rating}</span>
+      </div>
+      <div style="font-size:14px;line-height:1.8;color:rgba(255,255,255,0.7);">
+        <Content />
+      </div>
+    </div>
+  </div>
+</BaseLayout>
