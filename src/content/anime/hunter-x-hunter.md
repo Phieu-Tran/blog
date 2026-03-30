@@ -9,5 +9,8 @@ status: completed
 episodes: 148
 cover: "https://cdn.myanimelist.net/images/anime/1337/99013.jpg"
 date: 2026-03-30
+mal_score: 9.03
+episodes_watched: 148
+episodes_total: 148
 ---
 

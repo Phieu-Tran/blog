@@ -1,0 +1,41 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('posts');
+  return posts.map(entry => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const { title, description, tags, cover, date } = entry.data;
+---
+
+<BaseLayout title={title} description={description} image={cover} activeNav="posts">
+  <a href={`${import.meta.env.BASE_URL}posts/`} style="font-size:13px;color:rgba(255,255,255,0.4);display:inline-block;margin-bottom:16px;">
+    ← Back to Posts
+  </a>
+
+  <article>
+    <div style="margin-bottom:24px;">
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
+        <span class="badge badge-post">Post</span>
+        <span style="font-size:12px;color:var(--text-muted);">{new Date(date).toLocaleDateString('vi-VN')}</span>
+      </div>
+      <h1 style="font-size:28px;font-weight:700;margin:0 0 8px;">{title}</h1>
+      {description && <p style="font-size:14px;color:var(--text-secondary);margin:0 0 12px;">{description}</p>}
+      {tags && tags.length > 0 && (
+        <div style="display:flex;gap:6px;flex-wrap:wrap;">
+          {tags.map(tag => <span class="post-tag">{tag}</span>)}
+        </div>
+      )}
+    </div>
+
+    {cover && <img src={cover} alt={title} style="width:100%;max-height:400px;object-fit:cover;border-radius:12px;margin-bottom:24px;" />}
+
+    <div class="prose">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>

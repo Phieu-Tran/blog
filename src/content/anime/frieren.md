@@ -9,6 +9,9 @@ status: completed
 episodes: 28
 cover: "https://cdn.myanimelist.net/images/anime/1015/138006.jpg"
 date: 2024-12-15
+mal_score: 9.25
+episodes_watched: 28
+episodes_total: 28
 ---
 
 Frieren là một kiệt tác về thời gian, ký ức và ý nghĩa của cuộc sống. Anime hay nhất 2023 không cần bàn cãi.

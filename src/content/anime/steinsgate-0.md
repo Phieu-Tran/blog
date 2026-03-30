@@ -9,5 +9,8 @@ status: watching
 episodes: 23
 cover: "https://cdn.myanimelist.net/images/anime/1375/93521.jpg"
 date: 2026-03-30
+mal_score: 8.55
+episodes_watched: 4
+episodes_total: 23
 ---
 

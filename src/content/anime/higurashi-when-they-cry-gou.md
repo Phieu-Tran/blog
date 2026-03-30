@@ -9,5 +9,8 @@ status: plan
 episodes: 24
 cover: "https://cdn.myanimelist.net/images/anime/1716/111533.jpg"
 date: 2026-03-30
+mal_score: 7.21
+episodes_watched: 0
+episodes_total: 24
 ---
 

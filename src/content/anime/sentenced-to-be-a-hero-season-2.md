@@ -8,5 +8,8 @@ studio: N/A
 status: plan
 cover: "https://cdn.myanimelist.net/images/anime/1428/156326.jpg"
 date: 2026-03-30
+mal_score: 0
+episodes_watched: 0
+episodes_total: 0
 ---
 

@@ -9,5 +9,8 @@ status: completed
 episodes: 11
 cover: "https://cdn.myanimelist.net/images/anime/5/79697.jpg"
 date: 2026-03-30
+mal_score: 8.29
+episodes_watched: 11
+episodes_total: 11
 ---
 

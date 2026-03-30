@@ -9,5 +9,8 @@ status: completed
 episodes: 500
 cover: "https://cdn.myanimelist.net/images/anime/1565/111305.jpg"
 date: 2026-03-30
+mal_score: 8.29
+episodes_watched: 500
+episodes_total: 500
 ---
 

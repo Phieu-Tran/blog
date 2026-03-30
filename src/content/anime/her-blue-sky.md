@@ -9,5 +9,8 @@ status: plan
 episodes: 1
 cover: "https://cdn.myanimelist.net/images/anime/1468/102527.jpg"
 date: 2026-03-30
+mal_score: 7.47
+episodes_watched: 0
+episodes_total: 1
 ---
 

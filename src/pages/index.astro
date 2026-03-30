@@ -6,6 +6,7 @@ import { getCollection } from 'astro:content';
 const allAnime = await getCollection('anime');
 const allGames = await getCollection('games');
 const allFilms = await getCollection('films');
+const allPosts = (await getCollection('posts')).filter(p => !p.data.draft);
 
 const allMedia = [
   ...allAnime.map(a => ({ ...a.data, slug: a.id, type: 'anime' as const, collection: 'anime' })),
@@ -15,22 +16,26 @@ const allMedia = [
 
 const active = allMedia.filter(m => m.status === 'watching' || m.status === 'playing');
 const recent = allMedia.slice(0, 8);
+const recentPosts = allPosts
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  .slice(0, 3);
+const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout activeNav="home">
   {/* Currently active */}
   {active.length > 0 && (
     <section style="margin-bottom: 32px;">
-      <p class="section-label">Đang theo dõi</p>
+      <p class="section-label">Now active</p>
       <div style="display: flex; gap: 10px; flex-wrap: wrap;">
         {active.map(item => (
-          <a href={`${import.meta.env.BASE_URL}${item.collection}/${item.slug}/`}
+          <a href={`${base}${item.collection}/${item.slug}/`}
             style="display:flex;align-items:center;gap:10px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:8px 14px 8px 8px;flex:1 1 200px;transition:all 0.2s;">
             {item.cover && <img src={item.cover} alt="" style="width:36px;height:50px;object-fit:cover;border-radius:6px;" />}
             <div>
               <p style="font-size:13px;font-weight:600;margin:0;">{item.title}</p>
               <span class={`badge badge-${item.type}`} style="margin-top:4px;display:inline-block;">
-                {item.status === 'watching' ? 'Đang xem' : 'Đang chơi'}
+                {item.status === 'watching' ? 'Watching' : 'Playing'}
               </span>
             </div>
           </a>
@@ -55,15 +60,36 @@ const recent = allMedia.slice(0, 8);
         <p class="stat-label">Films</p>
       </div>
       <div class="stat-card">
-        <p class="stat-number">{allMedia.length}</p>
-        <p class="stat-label">Total</p>
+        <p class="stat-number" style="color: var(--post-color);">{allPosts.length}</p>
+        <p class="stat-label">Posts</p>
       </div>
     </div>
   </section>
 
-  {/* Recent */}
+  {/* Recent posts */}
+  {recentPosts.length > 0 && (
+    <section style="margin-bottom: 32px;">
+      <p class="section-label">Latest posts</p>
+      <div class="post-list">
+        {recentPosts.map((post, i) => (
+          <a href={`${base}posts/${post.id}/`} class="post-card" style={`animation-delay: ${i * 0.06}s`}>
+            <p class="post-title">{post.data.title}</p>
+            {post.data.description && <p class="post-desc">{post.data.description}</p>}
+            <div class="post-meta">
+              <span>{new Date(post.data.date).toLocaleDateString('vi-VN')}</span>
+              {post.data.tags?.map(tag => (
+                <span class="post-tag">{tag}</span>
+              ))}
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {/* Recent media */}
   <section>
-    <p class="section-label">Thêm gần đây</p>
+    <p class="section-label">Recently added</p>
     <div class="media-grid">
       {recent.map((item, i) => (
         <MediaCard

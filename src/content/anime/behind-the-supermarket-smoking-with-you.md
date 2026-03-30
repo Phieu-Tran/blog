@@ -8,5 +8,8 @@ studio: "Asahi Production"
 status: plan
 cover: "https://cdn.myanimelist.net/images/anime/1768/156339.jpg"
 date: 2026-03-30
+mal_score: 0
+episodes_watched: 0
+episodes_total: 0
 ---
 

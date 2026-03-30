@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { getCollection, render } from 'astro:content';
+import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
   const anime = await getCollection('anime');
@@ -8,47 +8,113 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { Content } = await render(entry);
-const { title, rating, genre, year, studio, status, episodes, cover } = entry.data;
-const stars = Math.round(rating / 2);
+const { title, mal_id, rating, mal_score, genre, year, studio, status, episodes_watched, episodes_total, episodes, cover } = entry.data;
+const myStars = Math.round(rating / 2);
+const malStars = Math.round((mal_score || 0) / 2);
+const totalEps = episodes_total || episodes || 0;
+const watchedEps = episodes_watched || 0;
+const progress = totalEps > 0 ? Math.round((watchedEps / totalEps) * 100) : 0;
+const malUrl = mal_id ? `https://myanimelist.net/anime/${mal_id}` : null;
+
 const statusLabels: Record<string, string> = {
-  watching: 'Đang xem', completed: 'Đã xong', plan: 'Dự định', dropped: 'Bỏ',
+  watching: 'Watching', completed: 'Completed', plan: 'Plan to Watch', dropped: 'Dropped',
+};
+const statusColors: Record<string, string> = {
+  watching: 'var(--game-color)', completed: 'var(--anime-color)', plan: 'var(--text-muted)', dropped: '#EF4444',
 };
 ---
 
-<BaseLayout title={title} description={`Review ${title} — ${genre}`} image={cover} activeNav="anime">
+<BaseLayout title={title} description={`${title} — ${genre}`} image={cover} activeNav="anime">
   <a href={`${import.meta.env.BASE_URL}anime/`} style="font-size:13px;color:rgba(255,255,255,0.4);display:inline-block;margin-bottom:16px;">
-    ← Quay lại Anime
+    ← Back to Anime
   </a>
 
   <div style="display:flex;gap:24px;flex-wrap:wrap;">
-    {cover && (
-      <img src={cover} alt={title}
-        style="width:200px;height:280px;object-fit:cover;border-radius:12px;flex-shrink:0;" />
-    )}
-    <div style="flex:1;min-width:250px;">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
+    {/* Cover */}
+    <div style="flex-shrink:0;">
+      {cover && <img src={cover} alt={title} style="width:220px;border-radius:12px;" />}
+      {malUrl && (
+        <a href={malUrl} target="_blank" rel="noopener noreferrer"
+          style="display:block;text-align:center;margin-top:10px;padding:8px;border-radius:8px;background:rgba(46,81,162,0.15);border:1px solid rgba(46,81,162,0.3);color:#5B8BF5;font-size:12px;font-weight:600;transition:all 0.2s;">
+          View on MyAnimeList ↗
+        </a>
+      )}
+    </div>
+
+    {/* Info */}
+    <div style="flex:1;min-width:280px;">
+      {/* Badges */}
+      <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;">
         <span class="badge badge-anime">Anime</span>
-        <span class="badge" style="background:rgba(255,255,255,0.06);color:rgba(255,255,255,0.5);">
+        <span class="badge" style={`background:rgba(255,255,255,0.06);color:${statusColors[status]};`}>
           {statusLabels[status]}
         </span>
       </div>
-      <h1 style="font-size:28px;font-weight:700;margin:0 0 6px;">{title}</h1>
-      <p style="font-size:13px;color:rgba(255,255,255,0.4);margin:0 0 16px;">
-        {genre} — {year} — {studio}
-        {episodes && ` — ${episodes} eps`}
+
+      <h1 style="font-size:26px;font-weight:700;margin:0 0 4px;">{title}</h1>
+      <p style="font-size:13px;color:var(--text-muted);margin:0 0 20px;">
+        {genre} · {year} · {studio}
       </p>
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:24px;">
-        <span class="stars" style="font-size:16px;">
-          {[...Array(5)].map((_, i) => (
-            <span class={i < stars ? 'star-on' : 'star-off'}>★</span>
-          ))}
-        </span>
-        <span style="color:#FBBF24;font-size:18px;font-weight:700;">{rating}</span>
+
+      {/* Scores */}
+      <div style="display:flex;gap:16px;margin-bottom:20px;">
+        <div style="background:rgba(255,255,255,0.03);border-radius:10px;padding:12px 16px;flex:1;text-align:center;">
+          <p style="font-size:11px;color:var(--text-muted);margin:0 0 4px;text-transform:uppercase;letter-spacing:1px;font-family:'Space Mono',monospace;">My Score</p>
+          <p style="font-size:24px;font-weight:700;color:var(--star-color);margin:0;">
+            {rating > 0 ? rating : '—'}
+          </p>
+          <div class="stars" style="margin-top:4px;">
+            {[...Array(5)].map((_, i) => (
+              <span class={i < myStars ? 'star-on' : 'star-off'}>★</span>
+            ))}
+          </div>
+        </div>
+        <div style="background:rgba(255,255,255,0.03);border-radius:10px;padding:12px 16px;flex:1;text-align:center;">
+          <p style="font-size:11px;color:var(--text-muted);margin:0 0 4px;text-transform:uppercase;letter-spacing:1px;font-family:'Space Mono',monospace;">MAL Score</p>
+          <p style="font-size:24px;font-weight:700;color:var(--anime-color);margin:0;">
+            {mal_score ? mal_score.toFixed(2) : '—'}
+          </p>
+          <div class="stars" style="margin-top:4px;">
+            {[...Array(5)].map((_, i) => (
+              <span class={i < malStars ? 'star-on' : 'star-off'}>★</span>
+            ))}
+          </div>
+        </div>
       </div>
 
-      <div style="font-size:14px;line-height:1.8;color:rgba(255,255,255,0.7);">
-        <Content />
+      {/* Progress */}
+      {totalEps > 0 && (
+        <div style="margin-bottom:20px;">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">
+            <span style="font-size:12px;color:var(--text-secondary);">Progress</span>
+            <span style="font-size:12px;font-weight:600;font-family:'Space Mono',monospace;color:var(--text-primary);">
+              {watchedEps} / {totalEps} eps
+            </span>
+          </div>
+          <div style="height:6px;background:rgba(255,255,255,0.06);border-radius:3px;overflow:hidden;">
+            <div style={`height:100%;width:${progress}%;background:var(--anime-color);border-radius:3px;transition:width 0.5s;`}></div>
+          </div>
+        </div>
+      )}
+
+      {/* Meta grid */}
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+        <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;">
+          <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Studio</p>
+          <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{studio}</p>
+        </div>
+        <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;">
+          <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Year</p>
+          <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{year}</p>
+        </div>
+        <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;">
+          <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Episodes</p>
+          <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{totalEps || '?'}</p>
+        </div>
+        <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;">
+          <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Genre</p>
+          <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{genre.split(',')[0]}</p>
+        </div>
       </div>
     </div>
   </div>
