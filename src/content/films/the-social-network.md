@@ -9,7 +9,7 @@ year: 2010
 director: "David Fincher"
 status: watched
 date: 2026-01-14
-cover: "https://image.tmdb.org/t/p/w500/dqWUPWe8HQSGuZqXTCaqvvxUgsB.jpg"
+cover: "https://image.tmdb.org/t/p/w500/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg"
 tmdb_id: 37799
 ---
 

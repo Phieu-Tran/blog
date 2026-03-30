@@ -9,7 +9,7 @@ year: 2023
 director: "Justin K. Thompson"
 status: watched
 date: 2025-10-15
-cover: "https://image.tmdb.org/t/p/w500/paM6UdMgXuXyAK0jhGfV07o3lRW.jpg"
+cover: "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg"
 tmdb_id: 569094
 ---
 

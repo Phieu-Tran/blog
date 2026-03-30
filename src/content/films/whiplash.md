@@ -1,5 +1,5 @@
 ---
-title: Whiplash
+title: "Whiplash"
 imdb_id: tt2582802
 rating: 9
 imdb_score: 8.5

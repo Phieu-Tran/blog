@@ -9,7 +9,7 @@ year: 2023
 director: "Justine Triet"
 status: watched
 date: 2025-12-18
-cover: "https://image.tmdb.org/t/p/w500/iVVe3ZyThTk3ot09Hg1KPJpc0Hh.jpg"
+cover: "https://image.tmdb.org/t/p/w500/kQs6keheMwCxJxrzV83VUwFtHkB.jpg"
 tmdb_id: 915935
 ---
 

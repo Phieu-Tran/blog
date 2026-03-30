@@ -1,5 +1,5 @@
 ---
-title: Seven
+title: "Se7en"
 imdb_id: tt0114369
 rating: 10
 imdb_score: 8.6

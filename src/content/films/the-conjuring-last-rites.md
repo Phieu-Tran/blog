@@ -9,7 +9,7 @@ year: 2025
 director: "Michael Chaves"
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/sjvW985erG7NSKJScFNhLbjhyma.jpg"
+cover: "https://image.tmdb.org/t/p/w500/byWgphT74ClOVa8EOGzYDkl8DVL.jpg"
 tmdb_id: 1038392
 ---
 

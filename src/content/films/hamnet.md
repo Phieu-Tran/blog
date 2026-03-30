@@ -1,5 +1,5 @@
 ---
-title: Hamnet
+title: "Hamnet"
 imdb_id: tt14905854
 rating: 7
 imdb_score: 8.1

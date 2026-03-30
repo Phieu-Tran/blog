@@ -9,7 +9,7 @@ year: 2012
 director: "Christopher Nolan"
 status: watched
 date: 2025-11-30
-cover: "https://image.tmdb.org/t/p/w500/5WFuvfiHRghbepz3I6zc1KeHIly.jpg"
+cover: "https://image.tmdb.org/t/p/w500/hr0L2aueqlP2BYUblTTjmtn0hw4.jpg"
 tmdb_id: 49026
 ---
 

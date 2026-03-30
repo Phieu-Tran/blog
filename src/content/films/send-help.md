@@ -9,7 +9,7 @@ year: 2026
 director: "Sam Raimi"
 status: watched
 date: 2026-03-26
-cover: "https://image.tmdb.org/t/p/w500/hu5J1hJYToOxjceeqyXogq5nRwt.jpg"
+cover: "https://image.tmdb.org/t/p/w500/mjkS2iAgWj3ik1DTjvI15nHZ7yl.jpg"
 tmdb_id: 1198994
 ---
 

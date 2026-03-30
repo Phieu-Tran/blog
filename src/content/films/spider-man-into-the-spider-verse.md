@@ -9,7 +9,7 @@ year: 2018
 director: "Bob Persichetti"
 status: watched
 date: 2025-10-15
-cover: "https://image.tmdb.org/t/p/w500/kahw25SAqedXIruUGIuSUiq7t98.jpg"
+cover: "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg"
 tmdb_id: 324857
 ---
 

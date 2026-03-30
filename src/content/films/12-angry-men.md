@@ -9,7 +9,7 @@ year: 1957
 director: "Sidney Lumet"
 status: watched
 date: 2025-04-25
-cover: "https://image.tmdb.org/t/p/w500/aa4s7J0ld2UHUooc1H8o1sNuZ2m.jpg"
+cover: "https://image.tmdb.org/t/p/w500/2QXLVh32JKaWTjFJU3n8aIxRK9P.jpg"
 tmdb_id: 389
 ---
 

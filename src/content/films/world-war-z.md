@@ -9,7 +9,7 @@ year: 2013
 director: "Marc Forster"
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/l27wlxJi2NW5SSWpohIZObfkNmm.jpg"
+cover: "https://image.tmdb.org/t/p/w500/aCnVdvExw6UWSeQfr0tUH3jr4qG.jpg"
 tmdb_id: 72190
 ---
 

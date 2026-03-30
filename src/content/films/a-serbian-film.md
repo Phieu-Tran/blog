@@ -9,7 +9,7 @@ year: 2010
 director: "Srđan Spasojević"
 status: watched
 date: 2026-03-28
-cover: "https://image.tmdb.org/t/p/w500/qT312t40YmlOSsOXOoOLDCvRbPx.jpg"
+cover: "https://image.tmdb.org/t/p/w500/cToUzXZ9AcUylfIt8vnXhiy6Y9m.jpg"
 tmdb_id: 73861
 ---
 

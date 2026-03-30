@@ -9,7 +9,7 @@ year: 2007
 director: "Joel Coen"
 status: watched
 date: 2026-03-27
-cover: "https://image.tmdb.org/t/p/w500/cFWCYcOyHkmJIOnYjuh7chYtk76.jpg"
+cover: "https://image.tmdb.org/t/p/w500/6d5XOczc226jECq0LIX0siKtgHR.jpg"
 tmdb_id: 6977
 ---
 

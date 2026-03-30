@@ -1,5 +1,5 @@
 ---
-title: Irreversible
+title: "Irreversible"
 imdb_id: tt0290673
 rating: 4
 imdb_score: 7.3
@@ -9,7 +9,7 @@ year: 2002
 director: "Gaspar Noé"
 status: watched
 date: 2025-12-12
-cover: "https://image.tmdb.org/t/p/w500/AdrItykbv1evqcbIPrItVWnkaKj.jpg"
+cover: "https://image.tmdb.org/t/p/w500/rxeDxo8FvZpLu6iplNpxdtAVnfu.jpg"
 tmdb_id: 979
 ---
 

@@ -6,10 +6,10 @@ imdb_score: 7.4
 tmdb_score: 7.4
 genre: "Phim Kinh Dị, Phim Bí Ẩn"
 year: 2016
-director: 나홍진
+director: "Na Hong-jin"
 status: watched
 date: 2025-12-13
-cover: "https://image.tmdb.org/t/p/w500/k9AKtgRErXjz14lFHL2IJVCgwOT.jpg"
+cover: "https://image.tmdb.org/t/p/w500/aXlL7yYwpXInhltamtzKQFBG08G.jpg"
 tmdb_id: 293670
 ---
 

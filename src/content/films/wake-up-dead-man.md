@@ -1,5 +1,5 @@
 ---
-title: "Wake Up Dead Man"
+title: "Wake Up Dead Man: A Knives Out Mystery"
 imdb_id: tt14364480
 rating: 6
 imdb_score: 7.3
@@ -9,7 +9,7 @@ year: 2025
 director: "Rian Johnson"
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/b1pBFNLcZsEvRS7CJBW4Ribe0Mw.jpg"
+cover: "https://image.tmdb.org/t/p/w500/qCOGGi8JBVEZMc3DVby8rUivyXz.jpg"
 tmdb_id: 812583
 ---
 

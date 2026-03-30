@@ -6,10 +6,10 @@ imdb_score: 8.2
 tmdb_score: 8.4
 genre: "Phim Hoạt Hình, Phim Chính Kịch, Phim Lãng Mạn"
 year: 2016
-director: 山田尚子
+director: "Naoko Yamada"
 status: watched
 date: 2025-10-18
-cover: "https://image.tmdb.org/t/p/w500/aqri8up06zMaCn0oyYcZporiwj3.jpg"
+cover: "https://image.tmdb.org/t/p/w500/tuFaWiqX0TXoWu7DGNcmX3UW7sT.jpg"
 tmdb_id: 378064
 ---
 

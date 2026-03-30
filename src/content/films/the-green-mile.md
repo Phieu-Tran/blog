@@ -9,7 +9,7 @@ year: 1999
 director: "Frank Darabont"
 status: watched
 date: 2025-04-25
-cover: "https://image.tmdb.org/t/p/w500/pTEuy2oti9ITTzzrTRZNeSAXzfC.jpg"
+cover: "https://image.tmdb.org/t/p/w500/8VG8fDNiy50H4FedGwdSVUPoaJe.jpg"
 tmdb_id: 497
 ---
 

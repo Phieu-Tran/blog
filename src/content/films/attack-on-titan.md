@@ -1,15 +1,15 @@
 ---
-title: "Attack on Titan"
+title: "25th Hour"
 imdb_id: tt2560140
 rating: 6
 imdb_score: 9.1
 tmdb_score: 7.3
-genre: "Phim Hoạt Hình, Sci-Fi & Fantasy, Action & Adventure"
-year: 2013
-director: N/A
+genre: "Phim Hình Sự, Phim Chính Kịch"
+year: 2002
+director: "Spike Lee"
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/qDK2qEA5pfUK7Rog8urvgKuaXiP.jpg"
+cover: "https://image.tmdb.org/t/p/w500/uW7tTRElr2tRhmAVESzvHy4ByXg.jpg"
 tmdb_id: 1429
 ---
 

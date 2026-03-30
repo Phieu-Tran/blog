@@ -9,7 +9,7 @@ year: 2025
 director: "Danny Boyle"
 status: watched
 date: 2026-01-14
-cover: "https://image.tmdb.org/t/p/w500/qX7y0GJH2JFxh95wu0kaoFCCM6h.jpg"
+cover: "https://image.tmdb.org/t/p/w500/n5FygjEppOvac6yEaowi26nTyw3.jpg"
 tmdb_id: 1100988
 ---
 

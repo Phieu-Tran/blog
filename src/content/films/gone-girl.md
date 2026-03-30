@@ -9,7 +9,7 @@ year: 2014
 director: "David Fincher"
 status: watched
 date: 2026-01-14
-cover: "https://image.tmdb.org/t/p/w500/aiNGDTuyaBUjuP7jJw7N3WpOGDX.jpg"
+cover: "https://image.tmdb.org/t/p/w500/ts996lKsxvjkO2yiYG0ht4qAicO.jpg"
 tmdb_id: 210577
 ---
 

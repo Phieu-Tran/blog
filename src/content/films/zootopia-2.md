@@ -9,7 +9,7 @@ year: 2025
 director: "Jared Bush"
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/5wXpOF9WPUKliIzNBdAqwAStLHU.jpg"
+cover: "https://image.tmdb.org/t/p/w500/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg"
 tmdb_id: 1084242
 ---
 

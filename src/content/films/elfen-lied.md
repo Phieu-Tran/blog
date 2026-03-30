@@ -1,15 +1,15 @@
 ---
-title: "Elfen Lied"
+title: "Detour"
 imdb_id: tt0480489
 rating: 8
 imdb_score: 7.8
 tmdb_score: 3.4
-genre: "Action & Adventure, Phim Hoạt Hình, Phim Chính Kịch, Phim Bí Ẩn, Sci-Fi & Fantasy"
-year: 2004
-director: N/A
+genre: "Phim Gây Cấn, Phim Kinh Dị"
+year: 2003
+director: "Steve Taylor"
 status: watched
 date: 2025-10-21
-cover: "https://image.tmdb.org/t/p/w500/3UnmNPTDMOThd8Oi9L2pEXqfO0D.jpg"
+cover: "https://image.tmdb.org/t/p/w500/fbohQms0Ot2Kz6A8CWixLcXopKt.jpg"
 tmdb_id: 42671
 ---
 

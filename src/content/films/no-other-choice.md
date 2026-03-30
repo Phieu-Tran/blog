@@ -6,10 +6,10 @@ imdb_score: 7.6
 tmdb_score: 7.6
 genre: "Phim Hài, Phim Hình Sự, Phim Gây Cấn"
 year: 2025
-director: 박찬욱
+director: "Park Chan-wook"
 status: watched
 date: 2025-11-26
-cover: "https://image.tmdb.org/t/p/w500/9w7WGjQes0Cs0s4U3Qr09Tg1Sra.jpg"
+cover: "https://image.tmdb.org/t/p/w500/sBpxTGLzKnvPSVtL5yQYpSxvKEb.jpg"
 tmdb_id: 639988
 ---
 

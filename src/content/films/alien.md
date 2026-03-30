@@ -1,5 +1,5 @@
 ---
-title: Alien
+title: "Alien"
 imdb_id: tt0078748
 rating: 8
 imdb_score: 8.5

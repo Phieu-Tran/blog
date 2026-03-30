@@ -9,7 +9,7 @@ year: 1994
 director: "Frank Darabont"
 status: watched
 date: 2025-04-25
-cover: "https://image.tmdb.org/t/p/w500/zLyG4nquaaZKCA3CJdQCEzTwN1R.jpg"
+cover: "https://image.tmdb.org/t/p/w500/9cqNxx0GxF0bflZmeSMuL5tnGzr.jpg"
 tmdb_id: 278
 ---
 

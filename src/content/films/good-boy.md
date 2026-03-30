@@ -9,7 +9,7 @@ year: 2025
 director: "Ben Leonberg"
 status: watched
 date: 2025-11-30
-cover: "https://image.tmdb.org/t/p/w500/6W3VeKTpuSK34pQ6z62eisFwg7u.jpg"
+cover: "https://image.tmdb.org/t/p/w500/daInKxjoRNLFWIus64fHAy91V0k.jpg"
 tmdb_id: 1422096
 ---
 

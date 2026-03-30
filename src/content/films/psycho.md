@@ -1,5 +1,5 @@
 ---
-title: Psycho
+title: "Psycho"
 imdb_id: tt0054215
 rating: 8
 imdb_score: 8.5
@@ -9,7 +9,7 @@ year: 1960
 director: "Alfred Hitchcock"
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/2ykxn5iCpv9RUr94dhTrCUNvIx4.jpg"
+cover: "https://image.tmdb.org/t/p/w500/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg"
 tmdb_id: 539
 ---
 

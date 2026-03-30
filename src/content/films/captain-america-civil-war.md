@@ -9,7 +9,7 @@ year: 2016
 director: "Joe Russo"
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/hDTVGIG8jsa1ZwO3wV0ccvDN4ZH.jpg"
+cover: "https://image.tmdb.org/t/p/w500/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg"
 tmdb_id: 271110
 ---
 

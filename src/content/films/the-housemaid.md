@@ -9,7 +9,7 @@ year: 2025
 director: "Paul Feig"
 status: watched
 date: 2026-02-10
-cover: "https://image.tmdb.org/t/p/w500/vpHLCt2bwYmmkGH4soqJNIFLOUQ.jpg"
+cover: "https://image.tmdb.org/t/p/w500/cWsBscZzwu5brg9YjNkGewRUvJX.jpg"
 tmdb_id: 1368166
 ---
 

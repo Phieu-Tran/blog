@@ -9,7 +9,7 @@ year: 2019
 director: "Anthony Russo"
 status: watched
 date: 2025-10-15
-cover: "https://image.tmdb.org/t/p/w500/8go3YE9sBMQaCXEx23j6BAfeuxd.jpg"
+cover: "https://image.tmdb.org/t/p/w500/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg"
 tmdb_id: 299534
 ---
 

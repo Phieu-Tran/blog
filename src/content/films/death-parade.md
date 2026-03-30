@@ -1,15 +1,15 @@
 ---
-title: "Death Parade"
+title: "The Prodigies"
 imdb_id: tt4279012
 rating: 8
 imdb_score: 7.8
 tmdb_score: 6
-genre: "Phim Hoạt Hình, Phim Chính Kịch, Phim Bí Ẩn"
-year: 2015
-director: N/A
+genre: "Phim Khoa Học Viễn Tưởng, Phim Hoạt Hình"
+year: 2011
+director: "Antoine Charreyron"
 status: watched
 date: 2025-10-21
-cover: "https://image.tmdb.org/t/p/w500/pgnHXXTn2Uy0unuNCKFKHhL7BHR.jpg"
+cover: "https://image.tmdb.org/t/p/w500/6Xbayov6CSIt3BvrnthNP6btNQs.jpg"
 tmdb_id: 61901
 ---
 

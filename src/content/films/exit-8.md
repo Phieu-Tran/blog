@@ -6,10 +6,10 @@ imdb_score: 6.5
 tmdb_score: 6.5
 genre: "Phim Kinh Dị, Phim Bí Ẩn"
 year: 2025
-director: 川村元気
+director: "Genki Kawamura"
 status: watched
 date: 2025-11-30
-cover: "https://image.tmdb.org/t/p/w500/hq1rqaKBjG6VCMOgYxkI3zXoZhQ.jpg"
+cover: "https://image.tmdb.org/t/p/w500/9Ge8ErFulzsQcNeExb5ufIcZV5o.jpg"
 tmdb_id: 1408208
 ---
 

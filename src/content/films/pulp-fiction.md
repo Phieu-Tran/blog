@@ -9,7 +9,7 @@ year: 1994
 director: "Quentin Tarantino"
 status: watched
 date: 2025-04-25
-cover: "https://image.tmdb.org/t/p/w500/ihynkOAH6FLNgG1kqM5ep9GSHZS.jpg"
+cover: "https://image.tmdb.org/t/p/w500/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg"
 tmdb_id: 680
 ---
 

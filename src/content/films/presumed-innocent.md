@@ -1,15 +1,15 @@
 ---
-title: "Presumed Innocent"
+title: "Tineke Schouten: LOL Inclusive"
 imdb_id: tt17677860
 rating: 7
 imdb_score: 7.7
 tmdb_score: 7.2
-genre: "Phim Chính Kịch, Phim Bí Ẩn"
-year: 2024
-director: "David E. Kelley"
+genre: N/A
+year: 2012
+director: N/A
 status: watched
 date: 2026-03-21
-cover: "https://image.tmdb.org/t/p/w500/q8b4JZS9QCxVomXU77cqukpHH3c.jpg"
+cover: "https://image.tmdb.org/t/p/w500/exocXTzPV5TJeTJCXkWmDR1IDfA.jpg"
 tmdb_id: 156933
 ---
 

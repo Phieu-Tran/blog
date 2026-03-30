@@ -1,5 +1,5 @@
 ---
-title: Heretic
+title: "Heretic"
 imdb_id: tt28015403
 rating: 6
 imdb_score: 7

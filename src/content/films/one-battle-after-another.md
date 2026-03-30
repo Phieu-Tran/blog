@@ -9,7 +9,7 @@ year: 2025
 director: "Paul Thomas Anderson"
 status: watched
 date: 2025-12-11
-cover: "https://image.tmdb.org/t/p/w500/wQ0IDT8rXOvCt6LflxcMEOUNBUS.jpg"
+cover: "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg"
 tmdb_id: 1054867
 ---
 

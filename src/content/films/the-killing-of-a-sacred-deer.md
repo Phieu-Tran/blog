@@ -6,7 +6,7 @@ imdb_score: 7
 tmdb_score: 7
 genre: "Phim Chính Kịch, Phim Gây Cấn, Phim Bí Ẩn"
 year: 2017
-director: "Γιώργος Λάνθιμος"
+director: "Yorgos Lanthimos"
 status: watched
 date: 2026-03-24
 cover: "https://image.tmdb.org/t/p/w500/e4DGlsc9g0h5AyoyvvAuIRnofN7.jpg"

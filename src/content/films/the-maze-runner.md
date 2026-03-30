@@ -9,7 +9,7 @@ year: 2014
 director: "Wes Ball"
 status: watched
 date: 2026-01-14
-cover: "https://image.tmdb.org/t/p/w500/xSPITZs1i89L2DzHjOxp311Mxr9.jpg"
+cover: "https://image.tmdb.org/t/p/w500/ode14q7WtDugFDp78fo9lCsmay9.jpg"
 tmdb_id: 198663
 ---
 

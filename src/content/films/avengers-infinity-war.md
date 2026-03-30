@@ -9,7 +9,7 @@ year: 2018
 director: "Joe Russo"
 status: watched
 date: 2025-10-18
-cover: "https://image.tmdb.org/t/p/w500/8gHc1cthgTOkmMiOREodCVZgJ7P.jpg"
+cover: "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg"
 tmdb_id: 299536
 ---
 

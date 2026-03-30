@@ -9,7 +9,7 @@ year: 2003
 director: "Peter Jackson"
 status: watched
 date: 2025-04-25
-cover: "https://image.tmdb.org/t/p/w500/3Y6eymGHCfQkDKU6rev2WiqXMci.jpg"
+cover: "https://image.tmdb.org/t/p/w500/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg"
 tmdb_id: 122
 ---
 

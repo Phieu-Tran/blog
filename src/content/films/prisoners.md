@@ -1,5 +1,5 @@
 ---
-title: Prisoners
+title: "Prisoners"
 imdb_id: tt1392214
 rating: 9
 imdb_score: 8.2
@@ -9,7 +9,7 @@ year: 2013
 director: "Denis Villeneuve"
 status: watched
 date: 2026-01-14
-cover: "https://image.tmdb.org/t/p/w500/wOViaF0lv8xvYyFdF7bKAG3IZIb.jpg"
+cover: "https://image.tmdb.org/t/p/w500/jsS3a3ep2KyBVmmiwaz3LvK49b1.jpg"
 tmdb_id: 146233
 ---
 

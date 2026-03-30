@@ -1,5 +1,5 @@
 ---
-title: "Tron: Ares"
+title: "TRON: Ares"
 imdb_id: tt6604188
 rating: 5
 imdb_score: 6.2
@@ -9,7 +9,7 @@ year: 2025
 director: "Joachim Rønning"
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/lj7imLGAzI3zKvbJtPH01aYW9lU.jpg"
+cover: "https://image.tmdb.org/t/p/w500/chpWmskl3aKm1aTZqUHRCtviwPy.jpg"
 tmdb_id: 533533
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Inception
+title: "Inception"
 imdb_id: tt1375666
 rating: 10
 imdb_score: 8.8
@@ -9,7 +9,7 @@ year: 2010
 director: "Christopher Nolan"
 status: watched
 date: 2025-04-25
-cover: "https://image.tmdb.org/t/p/w500/eBtqGWtR5KUiNl6OXHLR3ri6nVm.jpg"
+cover: "https://image.tmdb.org/t/p/w500/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg"
 tmdb_id: 27205
 ---
 

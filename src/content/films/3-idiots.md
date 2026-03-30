@@ -9,7 +9,7 @@ year: 2009
 director: "Rajkumar Hirani"
 status: watched
 date: 2025-10-15
-cover: "https://image.tmdb.org/t/p/w500/gmSRHU1Wtiatj8KoyVt8rT9ockx.jpg"
+cover: "https://image.tmdb.org/t/p/w500/66A9MqXOyVFCssoloscw79z8Tew.jpg"
 tmdb_id: 20453
 ---
 

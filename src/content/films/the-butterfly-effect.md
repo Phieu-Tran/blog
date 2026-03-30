@@ -9,7 +9,7 @@ year: 2004
 director: "Eric Bress"
 status: watched
 date: 2026-03-17
-cover: "https://image.tmdb.org/t/p/w500/aBTZCvttnzDNNsrxnAryWgWQRan.jpg"
+cover: "https://image.tmdb.org/t/p/w500/ea5iv7TWMh18fOKoRGgmtcg85Gx.jpg"
 tmdb_id: 1954
 ---
 

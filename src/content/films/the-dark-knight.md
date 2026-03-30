@@ -9,7 +9,7 @@ year: 2008
 director: "Christopher Nolan"
 status: watched
 date: 2025-04-25
-cover: "https://image.tmdb.org/t/p/w500/7EfSqviKvXwbiGhUjHyUBGVdoiW.jpg"
+cover: "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
 tmdb_id: 155
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Zodiac
+title: "Zodiac"
 imdb_id: tt0443706
 rating: 9
 imdb_score: 7.7

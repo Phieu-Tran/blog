@@ -1,5 +1,5 @@
 ---
-title: Frankenstein
+title: "Frankenstein"
 imdb_id: tt1312221
 rating: 7
 imdb_score: 7.5

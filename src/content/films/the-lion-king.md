@@ -9,7 +9,7 @@ year: 1994
 director: "Roger Allers"
 status: watched
 date: 2025-10-15
-cover: "https://image.tmdb.org/t/p/w500/AsGpIREstvwExc3UqczmIPP4pay.jpg"
+cover: "https://image.tmdb.org/t/p/w500/sKCr78MXSLixwmZ8DyJLrpMsd15.jpg"
 tmdb_id: 8587
 ---
 

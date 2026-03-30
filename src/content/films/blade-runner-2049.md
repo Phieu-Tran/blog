@@ -9,7 +9,7 @@ year: 2017
 director: "Denis Villeneuve"
 status: watched
 date: 2026-01-20
-cover: "https://image.tmdb.org/t/p/w500/gK8fMij79A3k3JiryGKYYHq7hb8.jpg"
+cover: "https://image.tmdb.org/t/p/w500/gajva2L0rPYkEWjzgFlBXCAVBE5.jpg"
 tmdb_id: 335984
 ---
 

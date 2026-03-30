@@ -1,5 +1,5 @@
 ---
-title: Together
+title: "Together"
 imdb_id: tt31184028
 rating: 6
 imdb_score: 6.7
@@ -9,7 +9,7 @@ year: 2025
 director: "Michael Shanks"
 status: watched
 date: 2026-01-05
-cover: "https://image.tmdb.org/t/p/w500/mHheVgcXINVdZTyzSyGQf33evc2.jpg"
+cover: "https://image.tmdb.org/t/p/w500/80slKYVM5teFH3kz6ouWrZXveqj.jpg"
 tmdb_id: 1242011
 ---
 

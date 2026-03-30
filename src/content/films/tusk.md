@@ -1,5 +1,5 @@
 ---
-title: Tusk
+title: "Tusk"
 imdb_id: tt3099498
 rating: 4
 imdb_score: 5.4

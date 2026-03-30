@@ -9,7 +9,7 @@ year: 2022
 director: "Daniel Scheinert"
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/p7fgHiFZJaJkbWeQ73rmjDfQfU4.jpg"
+cover: "https://image.tmdb.org/t/p/w500/u68AjlvlutfEIcpmbYpKcdi09ut.jpg"
 tmdb_id: 545611
 ---
 

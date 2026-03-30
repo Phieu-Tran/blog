@@ -9,7 +9,7 @@ year: 1999
 director: "Lana Wachowski"
 status: watched
 date: 2025-04-25
-cover: "https://image.tmdb.org/t/p/w500/fE7S6EwaBgRQeqKoDVFoImMmAF4.jpg"
+cover: "https://image.tmdb.org/t/p/w500/p96dm7sCMn4VYAStA6siNz30G1r.jpg"
 tmdb_id: 603
 ---
 

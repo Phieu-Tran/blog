@@ -9,7 +9,7 @@ year: 2011
 director: "Duncan Jones"
 status: watched
 date: 2026-03-16
-cover: "https://image.tmdb.org/t/p/w500/gsKvYWzJkPsQrjliTqdd5psoEcO.jpg"
+cover: "https://image.tmdb.org/t/p/w500/nTr0lvAzeQmUjgSgDEHTJpnrxTz.jpg"
 tmdb_id: 45612
 ---
 

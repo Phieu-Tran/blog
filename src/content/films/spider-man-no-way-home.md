@@ -9,7 +9,7 @@ year: 2021
 director: "Jon Watts"
 status: watched
 date: 2025-10-18
-cover: "https://image.tmdb.org/t/p/w500/y4SQ2dJ1y2LBUnxTH7hCe8sr29c.jpg"
+cover: "https://image.tmdb.org/t/p/w500/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg"
 tmdb_id: 634649
 ---
 

@@ -9,7 +9,7 @@ year: 2022
 director: "Mark Mylod"
 status: watched
 date: 2025-11-18
-cover: "https://image.tmdb.org/t/p/w500/55JU1cjpkUo6ku2jnoAP0W53OcZ.jpg"
+cover: "https://image.tmdb.org/t/p/w500/fPtUgMcLIboqlTlPrq0bQpKK8eq.jpg"
 tmdb_id: 593643
 ---
 

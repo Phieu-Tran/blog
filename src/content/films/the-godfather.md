@@ -9,7 +9,7 @@ year: 1972
 director: "Francis Ford Coppola"
 status: watched
 date: 2025-04-25
-cover: "https://image.tmdb.org/t/p/w500/84MHN3JvOV4ORHgELrQM6SBlhdB.jpg"
+cover: "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
 tmdb_id: 238
 ---
 

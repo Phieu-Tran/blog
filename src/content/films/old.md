@@ -1,5 +1,5 @@
 ---
-title: Old
+title: "Old"
 imdb_id: tt10954652
 rating: 5
 imdb_score: 5.8
@@ -9,7 +9,7 @@ year: 2021
 director: "M. Night Shyamalan"
 status: watched
 date: 2025-12-20
-cover: "https://image.tmdb.org/t/p/w500/y21z2QrC7G8n3YNMcsznD0BLaUP.jpg"
+cover: "https://image.tmdb.org/t/p/w500/vclShucpUmPhdAOmKgf3B3Z4POD.jpg"
 tmdb_id: 631843
 ---
 

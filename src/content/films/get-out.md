@@ -9,7 +9,7 @@ year: 2017
 director: "Jordan Peele"
 status: watched
 date: 2025-11-30
-cover: "https://image.tmdb.org/t/p/w500/A1nsaaR2rneUakmFwcSXe2MV2KT.jpg"
+cover: "https://image.tmdb.org/t/p/w500/mE24wUCfjK8AoBBjaMjho7Rczr7.jpg"
 tmdb_id: 419430
 ---
 

@@ -9,7 +9,7 @@ year: 2024
 director: "Shawn Levy"
 status: watched
 date: 2025-10-18
-cover: "https://image.tmdb.org/t/p/w500/lfY2CfmxyN9OvxmFuap6aejViJn.jpg"
+cover: "https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg"
 tmdb_id: 533535
 ---
 

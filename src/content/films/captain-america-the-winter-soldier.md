@@ -9,7 +9,7 @@ year: 2014
 director: "Joe Russo"
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/tJYTF29bziPwmjjBVHWsvqvcehb.jpg"
+cover: "https://image.tmdb.org/t/p/w500/tVFRpFw3xTedgPGqxW0AOI8Qhh0.jpg"
 tmdb_id: 100402
 ---
 

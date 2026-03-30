@@ -9,7 +9,7 @@ year: 2025
 director: "Emilie Blichfeldt"
 status: watched
 date: 2025-12-27
-cover: "https://image.tmdb.org/t/p/w500/vKAExpWQWlQjsMdBUnJUAeUaQGe.jpg"
+cover: "https://image.tmdb.org/t/p/w500/rayAREIKtSinuov10GvrZHyXfXH.jpg"
 tmdb_id: 1284120
 ---
 

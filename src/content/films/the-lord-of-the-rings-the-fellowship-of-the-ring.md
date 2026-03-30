@@ -9,7 +9,7 @@ year: 2001
 director: "Peter Jackson"
 status: watched
 date: 2025-11-30
-cover: "https://image.tmdb.org/t/p/w500/2gayIj5yIrvk7BVXUCXHHIomXgR.jpg"
+cover: "https://image.tmdb.org/t/p/w500/6oom5QYQ2yQTMJIbnvbkBL9cHo6.jpg"
 tmdb_id: 120
 ---
 
