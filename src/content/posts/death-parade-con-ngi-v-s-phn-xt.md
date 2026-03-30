@@ -17,7 +17,7 @@ Năm phát hành: 2015
 Quốc gia: Nhật Bản
 Thể loại: Drama, Mystery, Psychological, Thriller
 
-![Exported image](Exported%20image%2020250424131818-0.png)
+
 
 **"MEMENTO MORI"**  
 (“HÃY NHỚ RẰNG NGƯƠI SẼ PHẢI CHẾT”) 

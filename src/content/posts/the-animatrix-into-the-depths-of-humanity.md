@@ -33,7 +33,7 @@ Thể loại: Animation, Action, Sci-Fi
 ==Thành quả của họ là loạt phim anime “The Animatrix”. Một tác phẩm khó hiểu và đầy ám ảnh. Nhưng là một tác phẩm xuất sắc về nội tâm con người.==   
 ==Loạt phim bao gồm 9 phim ngắn. 4 phim được cặp đạo diễn nhà Wachowski chắp bút. Được phân công chỉ đạo từ 7 đạo diễn và được sản xuất bởi 6 studio khác nhau, trong đó có Madhouse.==  
 ==Mỗi phần phim kể lại một câu chuyện diễn ra trong thế giới của phim “The Matrix”với phong cách độc đáo của riêng mình, đồng thời khai thác một khía cạnh sâu xa, và tăm tối trong nội tâm con người.==
- [![https://1.bp.blogspot.com/-frNdfQ67ZWM/XzBD9I1B7SI/AAAAAAAAAL0/yKvusOlSAMIxitPNT4ahw0lo9-M3a-4cwCLcBGAsYHQ/s640/2A5C69CB-9531-4F4F-B308-AE3E3EF6F0CA.jpeg](Exported%20image%2020250424131811-0.jpeg)](https://1.bp.blogspot.com/-frNdfQ67ZWM/XzBD9I1B7SI/AAAAAAAAAL0/yKvusOlSAMIxitPNT4ahw0lo9-M3a-4cwCLcBGAsYHQ/s813/2A5C69CB-9531-4F4F-B308-AE3E3EF6F0CA.jpeg)  
+ [](https://1.bp.blogspot.com/-frNdfQ67ZWM/XzBD9I1B7SI/AAAAAAAAAL0/yKvusOlSAMIxitPNT4ahw0lo9-M3a-4cwCLcBGAsYHQ/s813/2A5C69CB-9531-4F4F-B308-AE3E3EF6F0CA.jpeg)  
 
 ==KHUYẾN CÁO: SPOILER RẤT NẶNG.==  
 ==Phim dành cho người trưởng thành (+17)==  
@@ -94,7 +94,7 @@ Thể loại: Animation, Action, Sci-Fi
 ==Với toàn bộ khả năng xử lý siêu phàm của mình, vị thần cơ khí của The Machines vẫn không đủ khả năng để tính toán hết được tiềm năng của con người.==   
 ==“Program” và “World Record” của Madhouse mang phong cách hoạt hoạ mà nay đã hiếm thấy. Một tập đặt câu hỏi, và một tập  đưa ra câu trả lời.==   
 ==Nếu chính loài người cũng không biết hết tiềm năng của giống loài mình sau hàng triệu năm tiến hoá, thì những cỗ máy vô tri cũng không thể hiểu và giam cầm được họ.==
- [![https://1.bp.blogspot.com/-frNdfQ67ZWM/XzBD9I1B7SI/AAAAAAAAAL0/yKvusOlSAMIxitPNT4ahw0lo9-M3a-4cwCLcBGAsYHQ/s640/2A5C69CB-9531-4F4F-B308-AE3E3EF6F0CA.jpeg](Exported%20image%2020250424131812-1.jpeg)](https://1.bp.blogspot.com/-frNdfQ67ZWM/XzBD9I1B7SI/AAAAAAAAAL0/yKvusOlSAMIxitPNT4ahw0lo9-M3a-4cwCLcBGAsYHQ/s813/2A5C69CB-9531-4F4F-B308-AE3E3EF6F0CA.jpeg)  
+ [](https://1.bp.blogspot.com/-frNdfQ67ZWM/XzBD9I1B7SI/AAAAAAAAAL0/yKvusOlSAMIxitPNT4ahw0lo9-M3a-4cwCLcBGAsYHQ/s813/2A5C69CB-9531-4F4F-B308-AE3E3EF6F0CA.jpeg)  
 
 1. ==THE SECOND RENAISSANCE PART I & II (Mahiro Maeda, Studio 4 °C)==
 

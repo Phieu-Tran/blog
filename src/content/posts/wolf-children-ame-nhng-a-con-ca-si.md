@@ -20,7 +20,7 @@ Thể loại: Animation, Drama, Family, Fantasy
 ==Đây sẽ là bài phân tích nhân vật Ame cũng như câu chuyện của cậu trong “Mưa và Tuyết những đứa con của Sói”.==  
 ==Nếu chưa đọc bài review về Những Đứa Con Của Sói, các bạn có thể nhấp vào Lamp để tìm nhé.==
 
-==[![Exported image](Exported%20image%2020250424131801-0.jpeg)](https://1.bp.blogspot.com/-bc7BHv4fQnw/XvrPIw0qEgI/AAAAAAAAITY/ywHgKskQWvM5SN8E89QaLh7hA97izbj-QCK4BGAsYHg/s960/15401154_172739400011835_7468786759143897810_n.jpg)==
+==[](https://1.bp.blogspot.com/-bc7BHv4fQnw/XvrPIw0qEgI/AAAAAAAAITY/ywHgKskQWvM5SN8E89QaLh7hA97izbj-QCK4BGAsYHg/s960/15401154_172739400011835_7468786759143897810_n.jpg)==
    
 
 ==Hiển nhiên, nói về Ame thì cũng phải nói đôi chút về Yuki, bởi lẽ Mưa và Tuyết dẫu có khác nhau nhưng khởi đầu là một. Ame và Yuki có thể nói là đối nghịch nhau hoàn toàn, từ tính cách cho đến lựa chọn, từ khi còn bé đến lúc trưởng thành, dẫu cho cả hai đều là con của Sói.==

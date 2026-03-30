@@ -20,7 +20,7 @@ Năm phát hành: 1998-1999
 Quốc gia: Nhật Bản
 Thể loại: Action, Sci-Fi, Neo-noir, Space Western
 
-==[![https://1.bp.blogspot.com/-QPk4Eerypug/XvyeXCzkQSI/AAAAAAAAAlA/glqTHtka878cGeAeL4eDmdpdpxkID-N5wCK4BGAsYHg/s320/cb.jpg](Exported%20image%2020250424131926-0.jpeg)](https://1.bp.blogspot.com/-QPk4Eerypug/XvyeXCzkQSI/AAAAAAAAAlA/glqTHtka878cGeAeL4eDmdpdpxkID-N5wCK4BGAsYHg/s802/cb.jpg)==
+==[](https://1.bp.blogspot.com/-QPk4Eerypug/XvyeXCzkQSI/AAAAAAAAAlA/glqTHtka878cGeAeL4eDmdpdpxkID-N5wCK4BGAsYHg/s802/cb.jpg)==
 
 (Spoilers)  
 Cowboy Bebop, một bộ anime đã khá quen thuộc, đặc biệt được cộng đồng fan anime phương tây rất yêu thích và tôn lên hàng classic. Chắc mình sẽ không cần giới thiệu gì nhiều về bộ anime này rồi. Cowboy Bebop không những được cộng đồng yêu mến mà còn được nhiều nhà phê bình đánh giá cao vì những giá trị nội dung và nghệ thuật đặc sắc của nó. Nếu mà muốn phân tích về Cowboy Bebop thì phải nói có khá nhiều khía cạnh để phân tích. Ví dụ như: việc xây dựng thế giới (world building) đầy màu sắc và pha trộn giữa các nền văn hóa khác nhau, việc sử dụng âm nhạc như là một công cụ để truyền tải nội dung, chủ đề bộ phim, nghệ thuật visual storytelling, thuyết siêu hình (metaphysics) liên quan đến các câu hỏi lớn mà khoa học không thể giải thích ví dụ như linh hồn có tồn tại, thế giới mà chúng ta đang sống là có thực hay không,... Điều này là do bộ anime có cốt truyện theo từng tập góp phần tạo nên sự đa dạng, phong phú về nội dung và phong cách nghệ thuật.  
@@ -56,7 +56,7 @@ Một số đặc điểm của thuyết hiện sinh theo J.P Sartre:==
 ==Đến đây, chúng ta sẽ xét đến mặt khác biệt lớn nhất giữa chủ nghĩa hiện sinh với thuyết hư vô, đó là tính tích cực của nó.==  
 ==Điều này thể hiện rõ ở việc Spike tận hưởng cái nghề thợ săn tiền hưởng tạm bợ của mình cũng như thời gian sống cùng với các thành viên khác trên con tàu Bebop. Cho dù họ sẽ cuối cùng đường ai nấy đi và cuộc vui nào cũng có lúc tàn. Thế nhưng, có thể nói, tất cả mọi người đều trân trọng những giây phút gắn kết với nhau.==  
 ==Cũng như cái kết “Bang” của bộ phim. Đối với chúng ta, khán giả, đây là một cái kết buồn. Thế nhưng đối với Spike, anh đã có một cuộc sống đầy mãn nguyện, không hối tiếc. Điều này thể hiện ở gương mặt thanh thản và cái mỉm cười ở cuối bộ phim.==
- ==[![https://1.bp.blogspot.com/-JyMHfjUCoYE/XvyenqnAs-I/AAAAAAAAAlU/rYS6m7EXQVEpLIJRSB6SCt_rUiWI8re2gCK4BGAsYHg/s320/cb2.jpeg](Exported%20image%2020250424131928-1.jpeg)](https://1.bp.blogspot.com/-JyMHfjUCoYE/XvyenqnAs-I/AAAAAAAAAlU/rYS6m7EXQVEpLIJRSB6SCt_rUiWI8re2gCK4BGAsYHg/s2134/cb2.jpeg)==  
+ ==[](https://1.bp.blogspot.com/-JyMHfjUCoYE/XvyenqnAs-I/AAAAAAAAAlU/rYS6m7EXQVEpLIJRSB6SCt_rUiWI8re2gCK4BGAsYHg/s2134/cb2.jpeg)==  
 
 ==Tìm lấy niềm vui trong cuộc sống đầy khổ đau.==  
 ==Tìm lấy ý nghĩa trong cuộc sống đầy vô nghĩa.==  

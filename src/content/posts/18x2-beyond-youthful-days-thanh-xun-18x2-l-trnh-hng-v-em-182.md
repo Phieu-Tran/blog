@@ -23,7 +23,7 @@ Thể loại: Drama, Romance
 _Thanh xuân 18×2: Lữ trình hướng về em_ là một bộ phim chân thực, những cảnh phim đẹp như tranh vẽ, mọi khung hình đều có thể chụp màn hình và dùng làm bưu thiếp nhưng câu chuyện lại đầy cảm xúc cuộc sống và chân thực đến mức chạm đến ký ức tuổi trẻ của mỗi người.  
 Tình yêu tuổi trẻ giống như một tấm lọc, đẹp đẽ, luôn để lại trong lòng mỗi người một khuyết điểm mềm mại khó quên, nếu lúc đó chúng ta dũng cảm và trưởng thành hơn thì liệu cuộc đời đã khác?
 
-[![Chuyện tình giữa Hứa Quang Hán và Kaya Kiyohara lấy đi nước mắt khán giả.](Exported%20image%2020250424132034-0.png)](https://cdn.tuoitre.vn/471584752817336320/2024/4/11/thanh-xuan-18x2-lu-trinh-ve-phia-em-1712807667515349014859.png)
+[](https://cdn.tuoitre.vn/471584752817336320/2024/4/11/thanh-xuan-18x2-lu-trinh-ve-phia-em-1712807667515349014859.png)
 
 Chuyện tình giữa Hứa Quang Hán và Kaya Kiyohara lấy đi nước mắt khán giả.  
 _Thanh xuân 18×2: Lữ trình hướng về em_ - bức thư tình lãng mạn đầy nuối tiếc  
@@ -33,29 +33,29 @@ Trong quá trình đợi học đại học, Jimmy đã có quãng thời gian l
 Hai người làm việc cùng nhau trong suốt mùa hè và dần dần Jimmy nảy sinh tình yêu thuần khiết với Ami. Sau giờ làm việc cả hai hay đi xem phim, ăn uống, trò chuyện hoặc cùng nhau đi chơi đêm.  
 Khi khoảng cách ngày càng gần, Ami chợt muốn quay lại Nhật Bản. Nhìn Jimmy không thể chấp nhận, Ami đề xuất một thỏa thuận: “Hẹn gặp lại nhau khi đạt được ước nguyện", dù biết điều đó không thể thành hiện thực.
 
-[![Câu chuyện giản dị được đạo diễn người Nhật nắm bắt một cách nhẹ nhàng, rõ ràng và đầy chất thơ, khiến người ta phải tĩnh tâm và thưởng thức thật kỹ.](Exported%20image%2020250424132038-1.png)](https://cdn.tuoitre.vn/471584752817336320/2024/4/11/thanh-xuan-18x2-1712807667516612922677.png)
+[](https://cdn.tuoitre.vn/471584752817336320/2024/4/11/thanh-xuan-18x2-1712807667516612922677.png)
 
 Câu chuyện giản dị được đạo diễn người Nhật nắm bắt một cách nhẹ nhàng, rõ ràng và đầy chất thơ, khiến người ta phải tĩnh tâm và thưởng thức thật kỹ.  
 Thời gian trôi nhanh, khi ở độ tuổi 36, thất bại trong công việc, Jimmy trở về quê hương và tìm thấy một tấm bưu thiếp trong căn phòng mà Ami gửi từ Nhật Bản 18 năm trước.  
 Ký ức về mối tình đầu hiện lên trong đầu anh cùng lời hứa “Hẹn gặp lại nhau khi đạt được ước nguyện”, để rồi Jimmy quyết định thực hiện chuyến đi một mình đầu tiên đến Nhật Bản. Đến những nơi Ami nhắc đến, về quê hương của cô.  
 Trong cuộc hành trình, Jimmy đã gặp một số người và kết bạn mới. Thế giới rộng lớn đến mức Jimmy có thể không gặp được Ami, nhưng ít nhất anh có thể tận mắt nhìn thấy thế giới mà cô đã thấy.
 
-[![Hứa Quang Hán hóa thân thành Jimmy - chàng trai khắc khoải về mối tình đầu](Exported%20image%2020250424132044-2.png)](https://cdn.tuoitre.vn/471584752817336320/2024/4/11/hua-quang-han-1-17128076675111107858630.png)
+[](https://cdn.tuoitre.vn/471584752817336320/2024/4/11/hua-quang-han-1-17128076675111107858630.png)
 
 Hứa Quang Hán hóa thân thành Jimmy - chàng trai khắc khoải về mối tình đầu
 
-[![Ami (Kaya Kiyohara) - mối tình đầu mà nam chính thầm thương trộm nhớ](Exported%20image%2020250424132050-3.png)](https://cdn.tuoitre.vn/471584752817336320/2024/4/11/ami-17128076675062109833882.png)
+[](https://cdn.tuoitre.vn/471584752817336320/2024/4/11/ami-17128076675062109833882.png)
 
 Ami (Kaya Kiyohara) - mối tình đầu mà nam chính thầm thương trộm nhớ
 
-[![Mùa hè năm ấy của Jimmy vì có Ami mà trở nên rực rỡ](Exported%20image%2020250424132100-4.png)](https://cdn.tuoitre.vn/471584752817336320/2024/4/11/hua-quang-han-2-17128076675131904898068.png)
+[](https://cdn.tuoitre.vn/471584752817336320/2024/4/11/hua-quang-han-2-17128076675131904898068.png)
 
 Mùa hè năm ấy của Jimmy vì có Ami mà trở nên rực rỡ
 
-[![Nhờ có Ami, Jimmy đã có thể giải mã những rối ren trong lòng mình](Exported%20image%2020250424132103-5.jpeg)](https://cdn.tuoitre.vn/471584752817336320/2024/4/11/screenshot1-17128081346791890778236.jpg)
+[](https://cdn.tuoitre.vn/471584752817336320/2024/4/11/screenshot1-17128081346791890778236.jpg)
 
 Nhờ có Ami, Jimmy đã có thể giải mã những rối ren trong lòng mình
- [![Kaya Kiyohara nhập vai cực 'ngọt' khi sánh vai cùng Hứa Quang Hán](Exported%20image%2020250424132105-6.jpeg)](https://cdn.tuoitre.vn/471584752817336320/2024/4/11/screenshot2-17128081751021446101102.jpg)  
+ [](https://cdn.tuoitre.vn/471584752817336320/2024/4/11/screenshot2-17128081751021446101102.jpg)  
 
 Chàng trai Jimmy 18 tuổi tính tình bốc đồng,lôi thôi có phần hơi trẻ con.  
 Cậu làm việc tại một quán karaoke và gặp đủ loại thành phần cậu không ưa, từ những con người cậu làm cùng. Cậu bạn rủ cậu tới làm chung vì bảo ở đây có nhiều gái đẹp, cô bạn nhân viên làm cùng, cậu đặt biệt danh là con nhỏ xấu xí. Đến những vị khách tới sử dụng dịch vụ.Ngay cả bước từng vẽ hình "Phúc Lộc Thọ" Cậu cũng không tha. Cậu cứ làm thế đến tối rồi về đến nhà lại cày game đến sáng. Đây cũng là lý do cậu hay đi làm muộn,"Lúc nào cũng bật dậy trễ rồi bảo "Mẹ không gọi con dậy à"". Bảo sao ông chủ của quán luôn chửi mắng và đuổi việc cậu.  
