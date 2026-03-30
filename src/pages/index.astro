@@ -25,17 +25,59 @@ const recent = allMedia.slice(0, 8);
 const recentPosts = allPosts
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
   .slice(0, 3);
+
+// Featured picks — top rated from each category
+const topAnime = [...allAnime].sort((a, b) => b.data.rating - a.data.rating).slice(0, 2);
+const topGames = [...allGames].sort((a, b) => b.data.rating - a.data.rating).slice(0, 2);
+const topFilms = [...allFilms].sort((a, b) => b.data.rating - a.data.rating).slice(0, 2);
+const featured = [
+  ...topAnime.map(a => ({ ...a.data, slug: a.id, type: 'anime' as const, collection: 'anime' })),
+  ...topGames.map(g => ({ ...g.data, slug: g.id, type: 'game' as const, collection: 'games' })),
+  ...topFilms.map(f => ({ ...f.data, slug: f.id, type: 'film' as const, collection: 'films' })),
+].sort((a, b) => b.rating - a.rating);
+
+const totalMedia = allAnime.length + allGames.length + allFilms.length;
 const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout activeNav="home">
+  {/* Hero */}
+  <section class="hero">
+    <h1 class="hero-title">mediaVault</h1>
+    <p class="hero-tagline">Anime, games, films — all in one place.</p>
+    <div class="stats-grid-hero">
+      <div class="stat-hero">
+        <p class="stat-hero-number" style="color: var(--anime-color);">{allAnime.length}</p>
+        <p class="stat-hero-label">Anime</p>
+        <div class="stat-hero-bar" style={`background: var(--anime-color);`}></div>
+      </div>
+      <div class="stat-hero">
+        <p class="stat-hero-number" style="color: var(--game-color);">{allGames.length}</p>
+        <p class="stat-hero-label">Games</p>
+        <div class="stat-hero-bar" style={`background: var(--game-color);`}></div>
+      </div>
+      <div class="stat-hero">
+        <p class="stat-hero-number" style="color: var(--film-color);">{allFilms.length}</p>
+        <p class="stat-hero-label">Films</p>
+        <div class="stat-hero-bar" style={`background: var(--film-color);`}></div>
+      </div>
+      <div class="stat-hero">
+        <p class="stat-hero-number" style="color: var(--post-color);">{allPosts.length}</p>
+        <p class="stat-hero-label">Posts</p>
+        <div class="stat-hero-bar" style={`background: var(--post-color);`}></div>
+      </div>
+    </div>
+  </section>
+
   {/* Currently active */}
   {active.length > 0 && (
     <section style="margin-bottom: 32px;">
       <p class="section-label">Now active</p>
+      <hr class="section-divider" />
       <div style="display: flex; gap: 10px; flex-wrap: wrap;">
         {active.map(item => (
           <a href={`${base}${item.collection}/${item.slug}/`}
+            class="active-item"
             style="display:flex;align-items:center;gap:10px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:8px 14px 8px 8px;flex:1 1 200px;transition:all 0.2s;">
             {item.cover && <img src={item.cover} alt="" style="width:36px;height:50px;object-fit:cover;border-radius:6px;" />}
             <div>
@@ -50,25 +92,28 @@ const base = import.meta.env.BASE_URL;
     </section>
   )}
 
-  {/* Stats */}
+  {/* Featured picks */}
   <section style="margin-bottom: 32px;">
-    <div class="stats-grid">
-      <div class="stat-card">
-        <p class="stat-number" style="color: var(--anime-color);">{allAnime.length}</p>
-        <p class="stat-label">Anime</p>
-      </div>
-      <div class="stat-card">
-        <p class="stat-number" style="color: var(--game-color);">{allGames.length}</p>
-        <p class="stat-label">Games</p>
-      </div>
-      <div class="stat-card">
-        <p class="stat-number" style="color: var(--film-color);">{allFilms.length}</p>
-        <p class="stat-label">Films</p>
-      </div>
-      <div class="stat-card">
-        <p class="stat-number" style="color: var(--post-color);">{allPosts.length}</p>
-        <p class="stat-label">Posts</p>
-      </div>
+    <p class="section-label">Top rated</p>
+    <hr class="section-divider" />
+    <div class="featured-grid">
+      {featured.map((item, i) => (
+        <a href={`${base}${item.collection}/${item.slug}/`}
+          class="featured-card" data-type={item.type}
+          style={`animation-delay: ${i * 0.06}s`}>
+          {item.cover && <img src={item.cover} alt="" class="featured-cover" loading="lazy" />}
+          <div class="featured-info">
+            <p class="featured-title">{item.title}</p>
+            <p class="featured-meta">
+              <span class={`badge badge-${item.type}`}>{item.type}</span>
+              {' '}{item.genre?.split(',')[0]} — {item.year}
+            </p>
+            <p class="featured-score" style={`color: var(--${item.type === 'game' ? 'game' : item.type === 'film' ? 'film' : 'anime'}-color);`}>
+              {item.rating}<span style="font-size:12px;color:var(--text-muted);font-weight:400;">/10</span>
+            </p>
+          </div>
+        </a>
+      ))}
     </div>
   </section>
 
@@ -76,6 +121,7 @@ const base = import.meta.env.BASE_URL;
   {recentPosts.length > 0 && (
     <section style="margin-bottom: 32px;">
       <p class="section-label">Latest posts</p>
+      <hr class="section-divider" />
       <div class="post-list">
         {recentPosts.map((post, i) => (
           <a href={`${base}posts/${post.id}/`} class="post-card" style={`animation-delay: ${i * 0.06}s`}>
@@ -96,6 +142,7 @@ const base = import.meta.env.BASE_URL;
   {/* Recent media */}
   <section>
     <p class="section-label">Recently added</p>
+    <hr class="section-divider" />
     <div class="media-grid">
       {recent.map((item, i) => (
         <MediaCard

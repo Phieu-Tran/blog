@@ -1,4 +1,6 @@
 ---
+import { ViewTransitions } from 'astro:transitions';
+
 interface Props {
   title?: string;
   description?: string;
@@ -31,6 +33,7 @@ const pageTitle = title === 'mediaVault' ? 'mediaVault' : `${title} — mediaVau
   <meta property="og:description" content={description} />
   <meta property="og:url" content={canonicalURL} />
   {image && <meta property="og:image" content={image} />}
+  <ViewTransitions />
 
   <!-- Twitter -->
   <meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
