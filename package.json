@@ -8,7 +8,8 @@
     "preview": "astro preview",
     "fetch-data": "node src/scripts/fetch-media-data.mjs",
     "sync-mal": "node src/scripts/sync-mal.mjs",
-    "sync-tmdb": "node src/scripts/sync-tmdb.mjs"
+    "sync-tmdb": "node src/scripts/sync-tmdb.mjs",
+    "sync": "node src/scripts/sync-all.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.18",

@@ -1,15 +1,13 @@
 ---
-title: "Oppenheimer"
-tmdb_id: 872585
-rating: 8.9
-genre: "Drama, History"
+title: Oppenheimer
+imdb_id: tt15398776
+rating: 9
+genre: "Phim Chính Kịch, Phim Lịch Sử"
 year: 2023
 director: "Christopher Nolan"
 status: watched
-cover: "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
-date: 2024-01-10
+date: 2025-10-15
+cover: "https://image.tmdb.org/t/p/w500/ixLH2iM9at8BbuLr5wQWnCfwhJO.jpg"
+tmdb_id: 872585
 ---
 
-Nolan lại một lần nữa chứng minh tài năng kể chuyện phi tuyến tính. Cillian Murphy xứng đáng với mọi giải thưởng.
-
-3 tiếng trôi qua mà không hề thấy dài. Phim vừa là câu chuyện lịch sử vừa là bài học về đạo đức khoa học.

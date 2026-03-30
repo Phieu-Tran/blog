@@ -1,0 +1,13 @@
+---
+title: Weapons
+imdb_id: tt26581740
+rating: 6
+genre: "Phim Kinh Dị, Phim Bí Ẩn"
+year: 2025
+director: "Zach Cregger"
+status: watched
+date: 2026-01-08
+cover: "https://image.tmdb.org/t/p/w500/lVY3xYt7ai6ahduq3D7F2z5wwin.jpg"
+tmdb_id: 1078605
+---
+

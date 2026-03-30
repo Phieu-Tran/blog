@@ -1,0 +1,13 @@
+---
+title: Psycho
+imdb_id: tt0054215
+rating: 8
+genre: "Phim Kinh Dị, Phim Gây Cấn, Phim Bí Ẩn"
+year: 1960
+director: "Alfred Hitchcock"
+status: watched
+date: 2026-01-08
+cover: "https://image.tmdb.org/t/p/w500/2ykxn5iCpv9RUr94dhTrCUNvIx4.jpg"
+tmdb_id: 539
+---
+

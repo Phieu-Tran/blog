@@ -1,0 +1,13 @@
+---
+title: Inception
+imdb_id: tt1375666
+rating: 10
+genre: "Phim Hành Động, Phim Khoa Học Viễn Tưởng, Phim Phiêu Lưu"
+year: 2010
+director: "Christopher Nolan"
+status: watched
+date: 2025-04-25
+cover: "https://image.tmdb.org/t/p/w500/eBtqGWtR5KUiNl6OXHLR3ri6nVm.jpg"
+tmdb_id: 27205
+---
+
