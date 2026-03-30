@@ -9,7 +9,7 @@ year: 1995
 director: "Shunji Iwai"
 status: watched
 date: 2025-07-27
-cover: "https://image.tmdb.org/t/p/w500/daqTAM9nXNlubdFIPZoUfmzPyxR.jpg"
+cover: "https://image.tmdb.org/t/p/w500/9iAgQSkt9z34DTYQfpG0M69SyiL.jpg"
 tmdb_id: 47002
 ---
 
