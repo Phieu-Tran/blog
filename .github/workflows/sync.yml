@@ -29,6 +29,8 @@ jobs:
           TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
           TMDB_SESSION_ID: ${{ secrets.TMDB_SESSION_ID }}
           TMDB_ACCOUNT_ID: ${{ vars.TMDB_ACCOUNT_ID }}
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
+          STEAM_ID: ${{ vars.STEAM_ID }}
         run: node src/scripts/sync-all.mjs
 
       - name: Commit and push

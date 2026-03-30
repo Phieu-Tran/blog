@@ -1,13 +1,15 @@
 # mediaVault — Personal Media Hub
 
-A personal media tracking blog built with Astro. Aggregates anime (MyAnimeList), films (IMDB/TMDB), games, and blog posts from Obsidian. Auto-syncs weekly, deployed on Cloudflare Pages.
+A personal media tracking blog built with Astro. Aggregates anime (MAL), films (IMDB/TMDB), games (Steam/IGN), and blog posts from Obsidian. Auto-syncs weekly, deployed on Cloudflare Pages.
 
 **Live**: [blog.workspacesbeat.site](https://blog.workspacesbeat.site)
 
 ## Features
 
-- **4 sections**: Anime, Films, Games, Posts — each with unique layout
-- **Auto-sync**: Anime from MAL, films from TMDB — weekly via GitHub Actions
+- **5 sections**: Anime, Films, Games, Posts, Steam — each with unique layout
+- **Auto-sync**: Anime (MAL), Films (TMDB), Games (Steam) — weekly via GitHub Actions
+- **3 film scores**: My Score, IMDB Score, TMDB Score
+- **Steam profile page** with playtime bars and Steam-style UI
 - **Dark theme** with per-section color coding
 - **Obsidian compatible** — write posts in Obsidian, push to deploy
 - **SEO ready** — Open Graph, sitemap, canonical URLs
@@ -18,53 +20,39 @@ A personal media tracking blog built with Astro. Aggregates anime (MyAnimeList),
 ```bash
 npm install
 npm run dev          # http://localhost:4321/
+npm run sync         # Sync all data with progress bar
 ```
-
-## Content
-
-Create `.md` files in `src/content/`:
-
-| Section | Directory | Frontmatter |
-|---------|-----------|-------------|
-| Anime | `src/content/anime/` | `title, mal_id, rating, mal_score, genre, year, studio, status, episodes_watched, episodes_total, cover, date` |
-| Films | `src/content/films/` | `title, imdb_id, tmdb_id, rating, genre, year, director, status, cover, date` |
-| Games | `src/content/games/` | `title, rating, genre, year, studio, status, platform, cover, date` |
-| Posts | `src/content/posts/` | `title, description, tags, cover, date, draft` |
 
 ## Scripts
 
 ```bash
-npm run sync         # Sync all (MAL + TMDB + covers + build check) with progress bar
-npm run sync-mal     # Sync anime from MAL only
-npm run sync-tmdb    # Sync films from TMDB only
+npm run sync         # Sync all (MAL + TMDB + Steam + covers + build check)
+npm run sync-mal     # Sync anime from MAL
+npm run sync-tmdb    # Sync films from TMDB
+npm run sync-steam   # Sync games from Steam
 npm run fetch-data   # Fetch missing covers
 npm run build        # Build site
 ```
 
-## Sync Setup
+## Content
 
-### Anime (MyAnimeList)
+| Section | Directory | Frontmatter |
+|---------|-----------|-------------|
+| Anime | `src/content/anime/` | `title, mal_id, rating, mal_score, genre, year, studio, status, episodes_watched, episodes_total, cover, updated_at, date` |
+| Films | `src/content/films/` | `title, imdb_id, tmdb_id, rating, imdb_score, tmdb_score, genre, year, director, status, cover, date` |
+| Games | `src/content/games/` | `title, steam_appid, rating, genre, year, studio, status, platform, playtime_hours, cover, date` |
+| Posts | `src/content/posts/` | `title, description, tags, cover, date, draft` |
 
-```bash
-npm run sync-mal -- YOUR_MAL_USERNAME
-```
-
-Scrapes MAL animelist page directly. Creates/updates `.md` files with score, episodes, cover. Preserves existing review body.
-
-### Films (IMDB → TMDB)
-
-Films are sourced from IMDB ratings (imported via CSV) and enriched with TMDB metadata (poster, genre, director). Each film has both IMDB and TMDB links.
-
-For new films, rate on [TMDB](https://www.themoviedb.org/) and the weekly sync picks them up automatically.
-
-### Weekly Auto-Sync (GitHub Actions)
+## Weekly Auto-Sync
 
 The `sync.yml` workflow runs every Monday at 6 AM (UTC+7):
 
-1. Syncs anime from MAL
+1. Syncs anime from MAL (page scrape)
 2. Syncs rated films from TMDB account
-3. Fetches missing covers
-4. Auto commits and pushes → Cloudflare Pages auto-deploys
+3. Syncs games from Steam library
+4. Fetches missing covers
+5. Runs build check
+6. Auto commits and pushes → Cloudflare Pages deploys
 
 **Required GitHub Secrets/Variables:**
 
@@ -72,8 +60,11 @@ The `sync.yml` workflow runs every Monday at 6 AM (UTC+7):
 |------|------|---------|
 | `TMDB_API_KEY` | Secret | TMDB API key |
 | `TMDB_SESSION_ID` | Secret | TMDB session |
+| `STEAM_API_KEY` | Secret | Steam Web API key |
+| `OMDB_API_KEY` | Secret | OMDB API key (IMDB scores) |
 | `MAL_USERNAME` | Variable | MAL username |
 | `TMDB_ACCOUNT_ID` | Variable | TMDB account ID |
+| `STEAM_ID` | Variable | Steam user ID |
 
 ## Deploy (Cloudflare Pages)
 
@@ -81,21 +72,13 @@ The `sync.yml` workflow runs every Monday at 6 AM (UTC+7):
 2. Select repo → Build command: `npm run build` → Output: `dist`
 3. Add custom domain in Pages settings
 
-## Obsidian Integration
-
-```bash
-# Windows (CMD as Admin):
-mklink /D "C:\obsidian-vault\media-vault" "C:\media-vault\src\content"
-
-# macOS/Linux:
-ln -s /path/to/media-vault/src/content /path/to/obsidian-vault/media-vault
-```
-
 ## Tech Stack
 
 - [Astro](https://astro.build/) — Static site generator
 - Vanilla CSS — Dark theme, responsive
 - [MAL](https://myanimelist.net/) — Anime data (page scrape)
-- [TMDB API](https://www.themoviedb.org/) — Film metadata (free key)
+- [TMDB API](https://www.themoviedb.org/) — Film metadata + ratings
+- [OMDB API](https://www.omdbapi.com/) — IMDB scores
+- [Steam API](https://steamcommunity.com/dev) — Game library + playtime
 - [Cloudflare Pages](https://pages.cloudflare.com/) — Hosting
 - [GitHub Actions](https://github.com/features/actions) — Weekly auto-sync

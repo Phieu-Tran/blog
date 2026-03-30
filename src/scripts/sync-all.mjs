@@ -12,6 +12,8 @@
  *   TMDB_API_KEY        — TMDB API key (required for films)
  *   TMDB_SESSION_ID     — TMDB session ID (required for films)
  *   TMDB_ACCOUNT_ID     — TMDB account ID (required for films)
+ *   STEAM_API_KEY       — Steam Web API key (required for games)
+ *   STEAM_ID            — Steam user ID (required for games)
  */
 
 import fs from 'fs';
@@ -22,6 +24,8 @@ import https from 'https';
 // CONFIG
 // ============================================
 const MAL_USERNAME = process.env.MAL_USERNAME || process.argv[2] || '';
+const STEAM_API_KEY = process.env.STEAM_API_KEY || '';
+const STEAM_ID = process.env.STEAM_ID || '';
 const TMDB_API_KEY = process.env.TMDB_API_KEY || '';
 const TMDB_SESSION_ID = process.env.TMDB_SESSION_ID || '';
 const TMDB_ACCOUNT_ID = process.env.TMDB_ACCOUNT_ID || '';
@@ -29,6 +33,7 @@ const TMDB_BASE = 'https://api.themoviedb.org/3';
 
 const ANIME_DIR = path.resolve('src/content/anime');
 const FILMS_DIR = path.resolve('src/content/films');
+const GAMES_DIR = path.resolve('src/content/games');
 
 // ============================================
 // UI — Progress bar
@@ -363,6 +368,78 @@ async function fetchMissingCovers() {
 }
 
 // ============================================
+// SYNC: GAMES (Steam)
+// ============================================
+async function syncSteam() {
+  if (!STEAM_API_KEY || !STEAM_ID) {
+    return { name: 'Games (Steam)', success: false, message: 'Missing STEAM_API_KEY or STEAM_ID' };
+  }
+
+  printHeader('GAMES — Steam', COLORS.green);
+  printStep('👤', `Steam ID: ${STEAM_ID}`);
+
+  if (!fs.existsSync(GAMES_DIR)) fs.mkdirSync(GAMES_DIR, { recursive: true });
+
+  // Fetch owned games
+  const ownedRes = await fetch(`https://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key=${STEAM_API_KEY}&steamid=${STEAM_ID}&format=json&include_appinfo=true&include_played_free_games=true`);
+  const ownedData = await ownedRes.json();
+  const games = ownedData.response?.games || [];
+
+  // Fetch recent games
+  const recentRes = await fetch(`https://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v0001/?key=${STEAM_API_KEY}&steamid=${STEAM_ID}&format=json`);
+  const recentData = await recentRes.json();
+  const recentAppIds = new Set((recentData.response?.games || []).map(g => g.appid));
+
+  printStep('📦', `Found ${games.length} games (${recentAppIds.size} recently played)\n`);
+
+  let created = 0, updated = 0;
+
+  for (let i = 0; i < games.length; i++) {
+    const game = games[i];
+    const appId = game.appid;
+    const title = game.name;
+    const slug = slugify(title) || `game-${appId}`;
+    const playtimeHours = Math.round(game.playtime_forever / 60);
+    const isRecent = recentAppIds.has(appId);
+    const status = isRecent ? 'playing' : (game.playtime_forever > 60 ? 'completed' : (game.playtime_forever > 0 ? 'playing' : 'plan'));
+    const cover = `https://steamcdn-a.akamaihd.net/steam/apps/${appId}/header.jpg`;
+
+    const data = {
+      title, steam_appid: appId, rating: 0, genre: 'N/A',
+      year: new Date().getFullYear(), studio: 'N/A', status,
+      platform: 'Steam', playtime_hours: playtimeHours, cover,
+      date: new Date().toISOString().split('T')[0],
+    };
+
+    const existing = findFileByField(GAMES_DIR, 'steam_appid', appId);
+    if (existing) {
+      const merged = { ...existing.frontmatter };
+      merged.playtime_hours = playtimeHours;
+      if (isRecent) merged.status = 'playing';
+      if (!merged.cover) merged.cover = cover;
+      for (const [k, v] of Object.entries(data)) {
+        if (v === undefined || v === null) continue;
+        if (k === 'rating' && Number(merged.rating) > 0) continue;
+        if (k === 'genre' && merged.genre !== 'N/A') continue;
+        if (k === 'studio' && merged.studio !== 'N/A') continue;
+        if (k === 'date' && merged.date) continue;
+        merged[k] = v;
+      }
+      fs.writeFileSync(path.join(GAMES_DIR, existing.file), buildFrontmatter(merged) + existing.body);
+      updated++;
+    } else {
+      fs.writeFileSync(path.join(GAMES_DIR, `${slug}.md`), buildFrontmatter(data) + '\n');
+      created++;
+    }
+
+    printProgress('Steam', i + 1, games.length);
+  }
+
+  printResult(created, updated);
+  return { name: 'Games (Steam)', success: true, message: `${games.length} games — ${created} new, ${updated} updated` };
+}
+
+// ============================================
 // BUILD CHECK
 // ============================================
 async function buildCheck() {
@@ -411,14 +488,21 @@ async function main() {
     results.push({ name: 'Films (TMDB)', success: false, message: err.message });
   }
 
-  // Step 3: Missing covers
+  // Step 3: Games (Steam)
+  try {
+    results.push(await syncSteam());
+  } catch (err) {
+    results.push({ name: 'Games (Steam)', success: false, message: err.message });
+  }
+
+  // Step 4: Missing covers
   try {
     results.push(await fetchMissingCovers());
   } catch (err) {
     results.push({ name: 'Cover fetch', success: false, message: err.message });
   }
 
-  // Step 4: Build check
+  // Step 5: Build check
   try {
     results.push(await buildCheck());
   } catch (err) {

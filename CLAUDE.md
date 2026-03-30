@@ -4,7 +4,7 @@ Personal media hub blog by **Phieu-Tran** (GitHub: [Phieu-Tran](https://github.c
 
 ## Project overview
 
-A static blog built with **Astro** that aggregates media tracking (anime, games, films) and personal blog posts. Content is Markdown files, compatible with Obsidian vault workflow. Auto-syncs from MAL + TMDB weekly.
+A static blog built with **Astro** that aggregates media tracking (anime, games, films) and personal blog posts. Auto-syncs from MAL, TMDB, Steam weekly.
 
 - **Live site**: https://blog.workspacesbeat.site
 - **Repo**: https://github.com/Phieu-Tran/blog
@@ -18,20 +18,26 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 - TypeScript content collections
 - `@astrojs/sitemap` + `@astrojs/rss`
 
-## 4 content sections
+## 5 sections + Steam page
 
-| Section | Directory | Source | Color | Layout style |
-|---------|-----------|--------|-------|-------------|
-| **Anime** | `src/content/anime/` | MyAnimeList (scrape) | `#A78BFA` (purple) | My Score vs MAL Score, progress bar, MAL link |
-| **Games** | `src/content/games/` | Manual | `#34D399` (green) | IGN-style score badge, platform, review |
-| **Films** | `src/content/films/` | IMDB (imported) + TMDB (enriched) | `#FB923C` (orange) | My Score, IMDB link + TMDB link, no review |
-| **Posts** | `src/content/posts/` | Obsidian | `#38BDF8` (blue) | Blog list, tags, prose content |
+| Section | Directory | Source | Color | Layout |
+|---------|-----------|--------|-------|--------|
+| **Anime** | `src/content/anime/` | MAL (scrape) | `#A78BFA` | My Score vs MAL Score, progress bar, MAL link |
+| **Games** | `src/content/games/` | Steam + IGN | `#34D399` | IGN-style score, playtime, Steam link |
+| **Films** | `src/content/films/` | IMDB + TMDB | `#FB923C` | 3 scores (My/IMDB/TMDB), IMDB+TMDB links |
+| **Posts** | `src/content/posts/` | Obsidian | `#38BDF8` | Blog list, tags, prose |
+| **Steam** | `/steam/` page | Steam API | Steam blue | Steam-style profile, playtime bars |
 
 ## Accounts & APIs
 
-- **MAL**: username `Rinmatsouka` — 444+ anime, sync via page scrape (not Jikan API)
-- **TMDB**: username `Rinmatsouka`, account ID `22939480` — enriches film metadata (poster, genre, director)
-- **IMDB**: user `ur200491176` — 204 ratings imported via CSV, IMDB IDs stored in frontmatter for direct linking
+| Platform | Username/ID | Purpose |
+|----------|-------------|---------|
+| MAL | `Rinmatsouka` | 444+ anime, sync via page scrape |
+| TMDB | `Rinmatsouka` (ID: 22939480) | Film ratings (My Score source), metadata enrichment |
+| IMDB | `ur200491176` | 204 ratings imported, IMDB score via OMDB API |
+| Steam | `76561198436321684` | 61 games, playtime, library sync |
+| IGN | `Rinmatsuka` | 76 games imported once (no API) |
+| OMDB | API key in secrets | IMDB community scores |
 
 ### GitHub Secrets & Variables
 
@@ -39,65 +45,74 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 |------|------|---------|
 | `TMDB_API_KEY` | Secret | TMDB API v3 key |
 | `TMDB_SESSION_ID` | Secret | TMDB authenticated session |
-| `MAL_USERNAME` | Variable | MAL username for anime sync |
-| `TMDB_ACCOUNT_ID` | Variable | TMDB account ID for rated movies |
+| `STEAM_API_KEY` | Secret | Steam Web API key |
+| `OMDB_API_KEY` | Secret | OMDB API key (IMDB scores) |
+| `MAL_USERNAME` | Variable | MAL username |
+| `TMDB_ACCOUNT_ID` | Variable | TMDB account ID |
+| `STEAM_ID` | Variable | Steam user ID |
 
 ## Scripts
 
 | Command | Script | Description |
 |---------|--------|-------------|
-| `npm run sync` | `sync-all.mjs` | **Main script** — sync all (MAL + TMDB + covers + build check) with progress bar |
-| `npm run sync-mal` | `sync-mal.mjs` | Sync anime only from MAL page scrape |
-| `npm run sync-tmdb` | `sync-tmdb.mjs` | Sync films from TMDB list/account |
-| `npm run fetch-data` | `fetch-media-data.mjs` | Fetch missing covers from APIs |
+| `npm run sync` | `sync-all.mjs` | **Main** — sync all (MAL + TMDB + Steam + covers + build check) with progress bar |
+| `npm run sync-mal` | `sync-mal.mjs` | Anime only (MAL scrape) |
+| `npm run sync-tmdb` | `sync-tmdb.mjs` | Films from TMDB account |
+| `npm run sync-steam` | `sync-steam.mjs` | Games from Steam library |
+| `npm run fetch-data` | `fetch-media-data.mjs` | Fetch missing covers |
 
 ### sync-all.mjs flow
 
 ```
-1. Anime (MAL)     — scrape animelist page → create/update .md files
-2. Films (TMDB)    — fetch rated movies from TMDB account → create/update .md files
-3. Missing covers  — scan files without cover → fetch from TMDB
-4. Build check     — run astro build → report pass/fail
-5. Summary         — print results for all steps
+1. Anime (MAL)     — scrape animelist page
+2. Films (TMDB)    — fetch rated movies from TMDB account
+3. Games (Steam)   — fetch owned games + playtime
+4. Missing covers  — scan files → fetch from TMDB
+5. Build check     — run astro build → pass/fail
+6. Summary         — print all results + total time
 ```
 
 ## Key decisions
 
-- **MAL sync uses page scraping**, not Jikan API. Jikan caches private→public transitions returning 404. Direct scrape of `myanimelist.net/animelist/{username}` extracts `data-items` JSON.
-- **Films have both IMDB + TMDB links**. IMDB IDs from initial CSV import, TMDB IDs from API enrichment. Both links shown on detail page.
-- **IMDB cannot be auto-synced** (WAF + Google login). 204 ratings imported once via CSV. User rates new films on TMDB for auto-sync.
-- **Each section has unique layout**: Anime (dual score + progress), Games (IGN-style badge), Films (IMDB+TMDB links), Posts (blog prose).
-- **Frontmatter title always quoted** — prevents YAML parsing numeric titles (e.g. "1899") as numbers.
-- **sync-all includes build check** — runs `astro build` after sync, exits with error if build fails.
-- **No base path** — site at root `/` on custom domain.
-- **GitHub Actions sync** runs weekly (Monday 6AM UTC+7).
-- **User prefers full automation** — no manual export/import steps.
+- **MAL sync uses page scraping**, not Jikan API (Jikan caches 404s for hours).
+- **Films have 3 scores**: My Score (from TMDB rating), IMDB Score (from OMDB API), TMDB Score (from TMDB vote_average).
+- **My Score for films = TMDB rating**. User rates on TMDB going forward. IMDB ratings were imported once.
+- **Games from 2 sources**: Steam (playtime, auto-sync) + IGN (imported once via browser scrape).
+- **Steam page** (`/steam/`) has dedicated Steam-style UI separate from Games list.
+- **Frontmatter title always quoted** — prevents YAML numeric title parsing.
+- **sync-all includes build check** — exits with error code if build fails.
+- **on_hold status** separated from watching for anime.
+- **updated_at** field for anime — Now Active sorted by most recent update.
+- **Obsidian posts** imported from `H:\My Drive\ObsidianVault\Hiếu - Personal\05_Entertainment` — Obsidian links cleaned.
+- **IGDB/Twitch API** pending — needs 2FA on Twitch account first.
 
 ## File structure
 
 ```
 src/
 ├── content/
-│   ├── anime/          ← 444+ files from MAL sync
-│   ├── games/          ← manual entries (2 files)
-│   ├── films/          ← 204 files from IMDB import + TMDB enrichment
-│   └── posts/          ← blog posts from Obsidian
+│   ├── anime/          ← 444+ files (MAL sync)
+│   ├── games/          ← 127 files (Steam 61 + IGN 64 + manual 2)
+│   ├── films/          ← 204 files (IMDB import + TMDB enrich + 3 scores)
+│   └── posts/          ← 23 files (Obsidian import)
 ├── components/
 │   └── MediaCard.astro
 ├── layouts/
-│   └── BaseLayout.astro  ← SEO meta, OG tags, hamburger nav, 5 nav items
+│   └── BaseLayout.astro  ← SEO, OG tags, hamburger nav, 6 nav items
 ├── pages/
-│   ├── index.astro       ← home (active, stats, recent posts, recent media)
+│   ├── index.astro       ← home (active, stats, posts, recent media)
 │   ├── 404.astro
-│   ├── anime/            ← list + detail (MAL score, progress bar, MAL link)
-│   ├── games/            ← list + detail (IGN-style score, platform, review)
-│   ├── films/            ← list + detail (IMDB link + TMDB link)
+│   ├── steam.astro       ← Steam-style profile page
+│   ├── anime/            ← list + detail (dual score, progress, MAL link)
+│   ├── games/            ← list + detail (IGN-style, playtime, Steam link)
+│   ├── films/            ← list + detail (3 scores, IMDB+TMDB links)
 │   └── posts/            ← list + detail (tags, prose)
 ├── scripts/
-│   ├── sync-all.mjs      ← main sync with progress bar + build check
-│   ├── sync-mal.mjs      ← MAL page scrape
-│   ├── sync-tmdb.mjs     ← TMDB list/account sync
-│   └── fetch-media-data.mjs ← fetch missing covers
+│   ├── sync-all.mjs      ← main sync (MAL + TMDB + Steam + covers + build)
+│   ├── sync-mal.mjs
+│   ├── sync-tmdb.mjs
+│   ├── sync-steam.mjs
+│   └── fetch-media-data.mjs
 └── styles/
-    └── global.css        ← dark theme, 4 color schemes, responsive, hamburger menu
+    └── global.css
 ```
