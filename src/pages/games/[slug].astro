@@ -9,7 +9,7 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
-const { title, rating, genre, year, studio, status, platform, cover, date } = entry.data;
+const { title, steam_appid, rating, genre, year, studio, status, platform, playtime_hours, cover, date } = entry.data;
 
 const scoreColor = rating >= 9 ? '#34D399' : rating >= 7 ? '#FBBF24' : rating >= 5 ? '#FB923C' : '#EF4444';
 const scoreLabel = rating >= 9 ? 'AMAZING' : rating >= 8 ? 'GREAT' : rating >= 7 ? 'GOOD' : rating >= 5 ? 'OKAY' : 'BAD';
@@ -18,6 +18,7 @@ const statusLabels: Record<string, string> = {
   playing: 'Playing', completed: 'Completed', plan: 'Backlog', dropped: 'Dropped',
 };
 
+const steamUrl = steam_appid ? `https://store.steampowered.com/app/${steam_appid}` : null;
 const ignSearchUrl = `https://www.ign.com/search?q=${encodeURIComponent(title)}`;
 ---
 
@@ -30,8 +31,14 @@ const ignSearchUrl = `https://www.ign.com/search?q=${encodeURIComponent(title)}`
     {/* Cover + links */}
     <div style="flex-shrink:0;">
       {cover && <img src={cover} alt={title} style="width:220px;border-radius:12px;" />}
+      {steamUrl && (
+        <a href={steamUrl} target="_blank" rel="noopener noreferrer"
+          style="display:block;text-align:center;margin-top:10px;padding:8px;border-radius:8px;background:rgba(27,40,56,0.4);border:1px solid rgba(102,192,244,0.3);color:#66C0F4;font-size:12px;font-weight:600;transition:all 0.2s;">
+          View on Steam ↗
+        </a>
+      )}
       <a href={ignSearchUrl} target="_blank" rel="noopener noreferrer"
-        style="display:block;text-align:center;margin-top:10px;padding:8px;border-radius:8px;background:rgba(191,35,42,0.15);border:1px solid rgba(191,35,42,0.3);color:#EF4444;font-size:12px;font-weight:600;transition:all 0.2s;">
+        style="display:block;text-align:center;margin-top:6px;padding:8px;border-radius:8px;background:rgba(191,35,42,0.15);border:1px solid rgba(191,35,42,0.3);color:#EF4444;font-size:12px;font-weight:600;transition:all 0.2s;">
         Search on IGN ↗
       </a>
     </div>
@@ -85,6 +92,12 @@ const ignSearchUrl = `https://www.ign.com/search?q=${encodeURIComponent(title)}`
           <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Genre</p>
           <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{genre.split(',')[0]}</p>
         </div>
+        {playtime_hours != null && playtime_hours > 0 && (
+          <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;">
+            <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Playtime</p>
+            <p style="font-size:13px;font-weight:500;margin:2px 0 0;color:var(--game-color);">{playtime_hours}h</p>
+          </div>
+        )}
       </div>
 
       {/* Review content */}
