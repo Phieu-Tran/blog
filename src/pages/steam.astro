@@ -1,0 +1,185 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const allGames = (await getCollection('games'))
+  .filter(g => g.data.steam_appid)
+  .sort((a, b) => (b.data.playtime_hours || 0) - (a.data.playtime_hours || 0));
+
+const totalHours = allGames.reduce((sum, g) => sum + (g.data.playtime_hours || 0), 0);
+const playing = allGames.filter(g => g.data.status === 'playing');
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout title="Steam Library" activeNav="steam">
+  {/* Steam-style header */}
+  <div class="steam-header">
+    <div class="steam-profile">
+      <div class="steam-avatar">
+        <img src="https://avatars.steamstatic.com/19c6fa0ba96030c8cc25130dca324362ee965212_full.jpg" alt="avatar"
+          onerror="this.style.display='none'" />
+        <span class="steam-avatar-fallback">R</span>
+      </div>
+      <div>
+        <h1 class="steam-username">Rinmatsouka</h1>
+        <p class="steam-meta">Level 11 · Ha Tinh, Vietnam</p>
+      </div>
+    </div>
+    <div class="steam-stats">
+      <div class="steam-stat">
+        <span class="steam-stat-num">{allGames.length}</span>
+        <span class="steam-stat-label">Games</span>
+      </div>
+      <div class="steam-stat">
+        <span class="steam-stat-num">{totalHours.toLocaleString()}</span>
+        <span class="steam-stat-label">Hours played</span>
+      </div>
+      <div class="steam-stat">
+        <span class="steam-stat-num">{playing.length}</span>
+        <span class="steam-stat-label">Now playing</span>
+      </div>
+    </div>
+  </div>
+
+  {/* Currently playing */}
+  {playing.length > 0 && (
+    <div style="margin-bottom:24px;">
+      <p class="steam-section-label">Now Playing</p>
+      <div class="steam-playing-grid">
+        {playing.map(game => (
+          <a href={`${base}games/${game.id}/`} class="steam-playing-card">
+            <img src={game.data.cover} alt={game.data.title} />
+            <div class="steam-playing-info">
+              <p class="steam-playing-title">{game.data.title}</p>
+              <p class="steam-playing-hours">{game.data.playtime_hours}h on record</p>
+            </div>
+            <div class="steam-playing-badge">PLAYING</div>
+          </a>
+        ))}
+      </div>
+    </div>
+  )}
+
+  {/* All games */}
+  <p class="steam-section-label">All Games — sorted by playtime</p>
+  <div class="steam-game-list">
+    {allGames.map((game, i) => {
+      const hours = game.data.playtime_hours || 0;
+      const maxHours = allGames[0]?.data.playtime_hours || 1;
+      const barWidth = Math.max(2, (hours / maxHours) * 100);
+      return (
+        <a href={`${base}games/${game.id}/`} class="steam-game-row" style={`animation-delay: ${i * 0.02}s`}>
+          <img src={game.data.cover} alt={game.data.title} class="steam-game-thumb" />
+          <div class="steam-game-info">
+            <p class="steam-game-title">{game.data.title}</p>
+            <div class="steam-game-bar-bg">
+              <div class="steam-game-bar" style={`width:${barWidth}%`}></div>
+            </div>
+          </div>
+          <div class="steam-game-hours">
+            <span class="steam-hours-num">{hours}</span>
+            <span class="steam-hours-label">hrs</span>
+          </div>
+        </a>
+      );
+    })}
+  </div>
+
+  <div style="text-align:center;margin-top:24px;">
+    <a href="https://steamcommunity.com/profiles/76561198436321684" target="_blank" rel="noopener noreferrer"
+      style="display:inline-block;padding:10px 24px;border-radius:8px;background:rgba(27,40,56,0.6);border:1px solid rgba(102,192,244,0.3);color:#66C0F4;font-size:13px;font-weight:600;">
+      View Full Profile on Steam ↗
+    </a>
+  </div>
+</BaseLayout>
+
+<style>
+  /* Steam color palette */
+  .steam-header {
+    background: linear-gradient(135deg, #1b2838 0%, #2a475e 100%);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .steam-profile { display: flex; align-items: center; gap: 16px; }
+  .steam-avatar {
+    width: 64px; height: 64px; border-radius: 4px;
+    background: #2a475e; overflow: hidden; position: relative;
+    border: 2px solid #66C0F4;
+  }
+  .steam-avatar img { width: 100%; height: 100%; object-fit: cover; }
+  .steam-avatar-fallback {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 24px; font-weight: 700; color: #66C0F4;
+  }
+  .steam-username {
+    font-size: 20px; font-weight: 700; color: #66C0F4; margin: 0;
+  }
+  .steam-meta { font-size: 12px; color: #8F98A0; margin: 2px 0 0; }
+  .steam-stats { display: flex; gap: 20px; }
+  .steam-stat { text-align: center; }
+  .steam-stat-num {
+    display: block; font-size: 20px; font-weight: 700;
+    color: #66C0F4; font-family: 'Space Mono', monospace;
+  }
+  .steam-stat-label { font-size: 10px; color: #8F98A0; text-transform: uppercase; letter-spacing: 1px; }
+
+  .steam-section-label {
+    font-size: 12px; text-transform: uppercase; letter-spacing: 2px;
+    color: #8F98A0; font-family: 'Space Mono', monospace;
+    margin-bottom: 12px; padding-bottom: 8px;
+    border-bottom: 1px solid rgba(102,192,244,0.1);
+  }
+
+  /* Playing cards */
+  .steam-playing-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+  .steam-playing-card {
+    display: flex; align-items: center; gap: 12px;
+    background: linear-gradient(135deg, rgba(27,40,56,0.8), rgba(42,71,94,0.4));
+    border: 1px solid rgba(102,192,244,0.2);
+    border-radius: 8px; padding: 8px 12px; transition: all 0.2s;
+    position: relative; overflow: hidden;
+  }
+  .steam-playing-card:hover { border-color: #66C0F4; background: rgba(42,71,94,0.6); }
+  .steam-playing-card img { width: 120px; height: 45px; object-fit: cover; border-radius: 4px; }
+  .steam-playing-title { font-size: 13px; font-weight: 600; color: #c7d5e0; margin: 0; }
+  .steam-playing-hours { font-size: 11px; color: #8F98A0; margin: 2px 0 0; }
+  .steam-playing-badge {
+    position: absolute; top: 6px; right: 8px;
+    font-size: 9px; font-weight: 700; letter-spacing: 1px;
+    color: #a3cf06; background: rgba(163,207,6,0.1);
+    padding: 2px 6px; border-radius: 3px; border: 1px solid rgba(163,207,6,0.3);
+  }
+
+  /* Game list */
+  .steam-game-list { display: flex; flex-direction: column; gap: 2px; }
+  .steam-game-row {
+    display: flex; align-items: center; gap: 12px;
+    padding: 6px 10px; border-radius: 4px;
+    transition: all 0.15s; animation: fadeSlideIn 0.3s ease both;
+  }
+  .steam-game-row:hover { background: rgba(102,192,244,0.08); }
+  .steam-game-thumb { width: 120px; height: 45px; object-fit: cover; border-radius: 3px; flex-shrink: 0; }
+  .steam-game-info { flex: 1; min-width: 0; }
+  .steam-game-title {
+    font-size: 13px; font-weight: 500; color: #c7d5e0; margin: 0 0 4px;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .steam-game-bar-bg { height: 4px; background: rgba(255,255,255,0.06); border-radius: 2px; }
+  .steam-game-bar { height: 100%; background: linear-gradient(90deg, #1a9fff, #66C0F4); border-radius: 2px; transition: width 0.5s; }
+  .steam-game-hours { text-align: right; flex-shrink: 0; min-width: 50px; }
+  .steam-hours-num { font-size: 14px; font-weight: 700; color: #66C0F4; font-family: 'Space Mono', monospace; }
+  .steam-hours-label { font-size: 10px; color: #8F98A0; margin-left: 2px; }
+
+  @media (max-width: 600px) {
+    .steam-header { flex-direction: column; align-items: flex-start; }
+    .steam-game-thumb { width: 80px; height: 30px; }
+    .steam-playing-grid { grid-template-columns: 1fr; }
+  }
+</style>
