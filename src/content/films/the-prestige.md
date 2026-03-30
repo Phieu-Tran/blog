@@ -2,6 +2,7 @@
 title: "The Prestige"
 imdb_id: tt0482571
 rating: 10
+community_score: 8.2
 genre: "Phim Chính Kịch, Phim Bí Ẩn, Phim Khoa Học Viễn Tưởng"
 year: 2006
 director: "Christopher Nolan"

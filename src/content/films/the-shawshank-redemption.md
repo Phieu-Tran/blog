@@ -2,6 +2,7 @@
 title: "The Shawshank Redemption"
 imdb_id: tt0111161
 rating: 10
+community_score: 8.7
 genre: "Phim Chính Kịch, Phim Hình Sự"
 year: 1994
 director: "Frank Darabont"

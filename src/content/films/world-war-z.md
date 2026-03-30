@@ -2,6 +2,7 @@
 title: "World War Z"
 imdb_id: tt0816711
 rating: 7
+community_score: 6.8
 genre: "Phim Hành Động, Phim Kinh Dị, Phim Khoa Học Viễn Tưởng, Phim Gây Cấn"
 year: 2013
 director: "Marc Forster"

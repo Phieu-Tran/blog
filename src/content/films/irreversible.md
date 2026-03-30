@@ -2,6 +2,7 @@
 title: Irreversible
 imdb_id: tt0290673
 rating: 4
+community_score: 7.2
 genre: "Phim Chính Kịch, Phim Gây Cấn, Phim Hình Sự"
 year: 2002
 director: "Gaspar Noé"

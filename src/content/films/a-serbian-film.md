@@ -2,6 +2,7 @@
 title: "A Serbian Film"
 imdb_id: tt1273235
 rating: 5
+community_score: 5.4
 genre: "Phim Hình Sự, Phim Kinh Dị, Phim Gây Cấn"
 year: 2010
 director: "Srđan Spasojević"

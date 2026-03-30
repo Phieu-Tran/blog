@@ -2,6 +2,7 @@
 title: Erased
 imdb_id: tt5249462
 rating: 8
+community_score: 8.5
 genre: "Phim Hoạt Hình, Phim Chính Kịch, Phim Bí Ẩn"
 year: 2016
 director: N/A

@@ -2,6 +2,7 @@
 title: Pluribus
 imdb_id: tt22202452
 rating: 7
+community_score: 7.9
 genre: "Phim Chính Kịch, Sci-Fi & Fantasy"
 year: 2025
 director: "Vince Gilligan"

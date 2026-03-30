@@ -2,6 +2,7 @@
 title: "Wake Up Dead Man"
 imdb_id: tt14364480
 rating: 6
+community_score: 7.2
 genre: "Phim Gây Cấn, Phim Bí Ẩn, Phim Hài"
 year: 2025
 director: "Rian Johnson"

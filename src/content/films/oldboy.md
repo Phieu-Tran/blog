@@ -2,6 +2,7 @@
 title: Oldboy
 imdb_id: tt0364569
 rating: 9
+community_score: 8.2
 genre: "Phim Chính Kịch, Phim Gây Cấn, Phim Bí Ẩn, Phim Hành Động"
 year: 2003
 director: 박찬욱

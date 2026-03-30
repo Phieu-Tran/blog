@@ -2,6 +2,7 @@
 title: "Breaking Bad"
 imdb_id: tt0903747
 rating: 10
+community_score: 8
 genre: "Phim Chính Kịch, Phim Hình Sự"
 year: 2008
 director: "Vince Gilligan"

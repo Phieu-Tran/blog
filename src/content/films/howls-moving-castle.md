@@ -2,6 +2,7 @@
 title: "Howl's Moving Castle"
 imdb_id: tt0347149
 rating: 8
+community_score: 8.4
 genre: "Phim Giả Tượng, Phim Hoạt Hình, Phim Phiêu Lưu"
 year: 2004
 director: 宮崎駿

@@ -2,6 +2,7 @@
 title: "Captain America: The Winter Soldier"
 imdb_id: tt1843866
 rating: 6
+community_score: 7.7
 genre: "Phim Hành Động, Phim Phiêu Lưu, Phim Khoa Học Viễn Tưởng"
 year: 2014
 director: "Joe Russo"

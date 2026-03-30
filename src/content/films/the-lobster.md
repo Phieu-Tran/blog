@@ -2,6 +2,7 @@
 title: "The Lobster"
 imdb_id: tt3464902
 rating: 5
+community_score: 7
 genre: "Phim Hài, Phim Chính Kịch, Phim Lãng Mạn"
 year: 2015
 director: "Γιώργος Λάνθιμος"

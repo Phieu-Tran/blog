@@ -2,6 +2,7 @@
 title: "Toy Story 3"
 imdb_id: tt0435761
 rating: 7
+community_score: 7.8
 genre: "Phim Hoạt Hình, Phim Gia Đình, Phim Hài"
 year: 2010
 director: "Lee Unkrich"

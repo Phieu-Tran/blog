@@ -2,6 +2,7 @@
 title: "The Promised Neverland"
 imdb_id: tt8788458
 rating: 7
+community_score: 5.8
 genre: "Phim Hoạt Hình, Phim Chính Kịch, Phim Bí Ẩn, Sci-Fi & Fantasy"
 year: 2019
 director: N/A

@@ -2,6 +2,7 @@
 title: Zootopia
 imdb_id: tt2948356
 rating: 7
+community_score: 7.8
 genre: "Phim Hoạt Hình, Phim Phiêu Lưu, Phim Gia Đình, Phim Hài"
 year: 2016
 director: "Byron Howard"

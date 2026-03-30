@@ -2,6 +2,7 @@
 title: "The Umbrella Academy"
 imdb_id: tt1312171
 rating: 8
+community_score: 7
 genre: "Action & Adventure, Sci-Fi & Fantasy, Phim Chính Kịch"
 year: 2019
 director: "Steve Blackman"

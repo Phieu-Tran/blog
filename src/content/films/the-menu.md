@@ -2,6 +2,7 @@
 title: "The Menu"
 imdb_id: tt9764362
 rating: 7
+community_score: 7.2
 genre: "Phim Hài, Phim Kinh Dị, Phim Gây Cấn"
 year: 2022
 director: "Mark Mylod"

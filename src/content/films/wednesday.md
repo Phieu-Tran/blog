@@ -2,6 +2,7 @@
 title: Wednesday
 imdb_id: tt13443470
 rating: 8
+community_score: 8.4
 genre: "Sci-Fi & Fantasy, Phim Bí Ẩn, Phim Hài"
 year: 2022
 director: "Miles Millar"

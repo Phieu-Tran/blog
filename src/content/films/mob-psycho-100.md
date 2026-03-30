@@ -2,6 +2,7 @@
 title: "Mob Psycho 100"
 imdb_id: tt5897304
 rating: 7
+community_score: 7
 genre: "Phim Hoạt Hình, Action & Adventure, Phim Hài, Sci-Fi & Fantasy"
 year: 2016
 director: N/A

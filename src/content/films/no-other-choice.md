@@ -2,6 +2,7 @@
 title: "No Other Choice"
 imdb_id: tt1527793
 rating: 8
+community_score: 7.6
 genre: "Phim Hài, Phim Hình Sự, Phim Gây Cấn"
 year: 2025
 director: 박찬욱

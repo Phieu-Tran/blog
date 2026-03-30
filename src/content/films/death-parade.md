@@ -2,6 +2,7 @@
 title: "Death Parade"
 imdb_id: tt4279012
 rating: 8
+community_score: 6
 genre: "Phim Hoạt Hình, Phim Chính Kịch, Phim Bí Ẩn"
 year: 2015
 director: N/A

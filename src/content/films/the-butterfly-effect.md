@@ -2,6 +2,7 @@
 title: "The Butterfly Effect"
 imdb_id: tt0289879
 rating: 9
+community_score: 7.6
 genre: "Phim Khoa Học Viễn Tưởng, Phim Gây Cấn"
 year: 2004
 director: "Eric Bress"

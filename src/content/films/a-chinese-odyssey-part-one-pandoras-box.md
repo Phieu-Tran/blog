@@ -2,6 +2,7 @@
 title: "A Chinese Odyssey: Part One - Pandora's Box"
 imdb_id: tt0112778
 rating: 7
+community_score: 7.6
 genre: "Phim Hành Động, Phim Phiêu Lưu, Phim Giả Tượng, Phim Hài, Phim Lãng Mạn"
 year: 1995
 director: 劉鎮偉

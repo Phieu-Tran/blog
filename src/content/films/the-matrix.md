@@ -2,6 +2,7 @@
 title: "The Matrix"
 imdb_id: tt0133093
 rating: 10
+community_score: 8.2
 genre: "Phim Hành Động, Phim Khoa Học Viễn Tưởng"
 year: 1999
 director: "Lana Wachowski"

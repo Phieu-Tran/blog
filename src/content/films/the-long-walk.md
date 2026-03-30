@@ -2,6 +2,7 @@
 title: "The Long Walk"
 imdb_id: tt10374610
 rating: 6
+community_score: 6.9
 genre: "Phim Khoa Học Viễn Tưởng, Phim Gây Cấn, Phim Kinh Dị"
 year: 2025
 director: "Francis Lawrence"

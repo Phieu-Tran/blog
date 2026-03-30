@@ -2,6 +2,7 @@
 title: "Black Mirror"
 imdb_id: tt2085059
 rating: 8
+community_score: 5.6
 genre: "Sci-Fi & Fantasy, Phim Chính Kịch, Phim Bí Ẩn"
 year: 2011
 director: "Charlie Brooker"

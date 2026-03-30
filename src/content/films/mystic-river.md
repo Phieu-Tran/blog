@@ -2,6 +2,7 @@
 title: "Mystic River"
 imdb_id: tt0327056
 rating: 8
+community_score: 7.7
 genre: "Phim Gây Cấn, Phim Hình Sự, Phim Chính Kịch, Phim Bí Ẩn"
 year: 2003
 director: "Clint Eastwood"

@@ -2,6 +2,7 @@
 title: "Jujutsu Kaisen"
 imdb_id: tt12343534
 rating: 7
+community_score: 8.6
 genre: "Phim Hoạt Hình, Action & Adventure, Sci-Fi & Fantasy"
 year: 2020
 director: N/A

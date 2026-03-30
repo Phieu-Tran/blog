@@ -2,6 +2,7 @@
 title: "The Conjuring"
 imdb_id: tt1457767
 rating: 8
+community_score: 7.5
 genre: "Phim Kinh Dị, Phim Gây Cấn"
 year: 2013
 director: "James Wan"

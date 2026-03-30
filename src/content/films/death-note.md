@@ -2,6 +2,7 @@
 title: "Death Note"
 imdb_id: tt0877057
 rating: 8
+community_score: 5.5
 genre: "Phim Hoạt Hình, Phim Bí Ẩn, Sci-Fi & Fantasy"
 year: 2006
 director: N/A

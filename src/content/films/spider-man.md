@@ -2,6 +2,7 @@
 title: Spider-Man
 imdb_id: tt0145487
 rating: 7
+community_score: 7.3
 genre: "Phim Hành Động, Phim Khoa Học Viễn Tưởng"
 year: 2002
 director: "Sam Raimi"

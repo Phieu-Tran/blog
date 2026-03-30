@@ -2,6 +2,7 @@
 title: Hereditary
 imdb_id: tt7784604
 rating: 9
+community_score: 7.3
 genre: "Phim Kinh Dị, Phim Bí Ẩn, Phim Gây Cấn"
 year: 2018
 director: "Ari Aster"

@@ -2,6 +2,7 @@
 title: "18×2 Beyond Youthful Days"
 imdb_id: tt31039829
 rating: 9
+community_score: 7.5
 genre: "Phim Lãng Mạn, Phim Chính Kịch"
 year: 2024
 director: 藤井道人

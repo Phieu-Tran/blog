@@ -2,6 +2,7 @@
 title: Nobody
 imdb_id: tt36733027
 rating: 7
+community_score: 7.8
 genre: "Phim Hoạt Hình, Phim Phiêu Lưu, Phim Giả Tượng, Phim Hài"
 year: 2025
 director: 於水

@@ -2,6 +2,7 @@
 title: Sinners
 imdb_id: tt31193180
 rating: 7
+community_score: 7.5
 genre: "Phim Kinh Dị, Phim Hành Động, Phim Gây Cấn"
 year: 2025
 director: "Ryan Coogler"

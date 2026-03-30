@@ -2,6 +2,7 @@
 title: "Deadman Wonderland"
 imdb_id: tt1909447
 rating: 5
+community_score: 4
 genre: "Action & Adventure, Phim Hoạt Hình, Sci-Fi & Fantasy"
 year: 2011
 director: N/A

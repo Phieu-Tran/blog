@@ -2,6 +2,7 @@
 title: "American Horror Story"
 imdb_id: tt1844624
 rating: 7
+community_score: 6.6
 genre: "Phim Chính Kịch, Phim Bí Ẩn, Sci-Fi & Fantasy"
 year: 2011
 director: "Ryan Murphy"

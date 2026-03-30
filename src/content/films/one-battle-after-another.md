@@ -2,6 +2,7 @@
 title: "One Battle After Another"
 imdb_id: tt30144839
 rating: 7
+community_score: 7.4
 genre: "Phim Gây Cấn, Phim Hình Sự, Phim Hài"
 year: 2025
 director: "Paul Thomas Anderson"

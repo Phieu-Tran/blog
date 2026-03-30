@@ -2,6 +2,7 @@
 title: "Spirited Away"
 imdb_id: tt0245429
 rating: 9
+community_score: 8.5
 genre: "Phim Hoạt Hình, Phim Gia Đình, Phim Giả Tượng"
 year: 2001
 director: 宮崎駿

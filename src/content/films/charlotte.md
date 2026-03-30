@@ -2,6 +2,7 @@
 title: Charlotte
 imdb_id: tt4574736
 rating: 7
+community_score: 9
 genre: "Phim Hoạt Hình, Phim Chính Kịch, Sci-Fi & Fantasy"
 year: 2015
 director: N/A

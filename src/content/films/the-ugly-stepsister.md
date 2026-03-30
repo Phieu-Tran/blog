@@ -2,6 +2,7 @@
 title: "The Ugly Stepsister"
 imdb_id: tt29344903
 rating: 7
+community_score: 7.3
 genre: "Phim Kinh Dị, Phim Hài, Phim Chính Kịch"
 year: 2025
 director: "Emilie Blichfeldt"

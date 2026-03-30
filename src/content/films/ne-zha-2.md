@@ -2,6 +2,7 @@
 title: "Ne Zha 2"
 imdb_id: tt34956443
 rating: 7
+community_score: 8.1
 genre: "Phim Hoạt Hình, Phim Giả Tượng, Phim Phiêu Lưu, Phim Hành Động"
 year: 2025
 director: 饺子

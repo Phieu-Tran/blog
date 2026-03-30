@@ -2,6 +2,7 @@
 title: "The Dark Knight"
 imdb_id: tt0468569
 rating: 10
+community_score: 8.5
 genre: "Phim Hành Động, Phim Hình Sự, Phim Gây Cấn"
 year: 2008
 director: "Christopher Nolan"

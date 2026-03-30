@@ -2,6 +2,7 @@
 title: Oppenheimer
 imdb_id: tt15398776
 rating: 9
+community_score: 8
 genre: "Phim Chính Kịch, Phim Lịch Sử"
 year: 2023
 director: "Christopher Nolan"

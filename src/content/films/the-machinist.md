@@ -2,6 +2,7 @@
 title: "The Machinist"
 imdb_id: tt0361862
 rating: 8
+community_score: 7.5
 genre: "Phim Gây Cấn, Phim Chính Kịch"
 year: 2004
 director: "Brad Anderson"

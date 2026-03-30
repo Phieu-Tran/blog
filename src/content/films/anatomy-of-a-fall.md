@@ -2,6 +2,7 @@
 title: "Anatomy of a Fall"
 imdb_id: tt17009710
 rating: 7
+community_score: 7.5
 genre: "Phim Gây Cấn, Phim Bí Ẩn, Phim Hình Sự"
 year: 2023
 director: "Justine Triet"

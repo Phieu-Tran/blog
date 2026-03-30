@@ -2,6 +2,7 @@
 title: "Truth & Treason"
 imdb_id: tt21825416
 rating: 7
+community_score: 8
 genre: "Phim Lịch Sử, Phim Chính Kịch, Phim Gây Cấn"
 year: 2025
 director: "Matt Whitaker"

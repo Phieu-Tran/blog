@@ -2,6 +2,7 @@
 title: "Back to the Future"
 imdb_id: tt0088763
 rating: 8
+community_score: 8.3
 genre: "Phim Phiêu Lưu, Phim Hài, Phim Khoa Học Viễn Tưởng"
 year: 1985
 director: "Robert Zemeckis"

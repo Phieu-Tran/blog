@@ -2,6 +2,7 @@
 title: "Frieren: Beyond Journey's End"
 imdb_id: tt22248376
 rating: 9
+community_score: 8.8
 genre: "Phim Hoạt Hình, Action & Adventure, Phim Chính Kịch, Sci-Fi & Fantasy"
 year: 2023
 director: N/A

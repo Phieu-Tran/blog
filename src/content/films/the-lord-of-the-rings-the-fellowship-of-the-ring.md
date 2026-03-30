@@ -2,6 +2,7 @@
 title: "The Lord of the Rings: The Fellowship of the Ring"
 imdb_id: tt0120737
 rating: 10
+community_score: 8.4
 genre: "Phim Phiêu Lưu, Phim Giả Tượng, Phim Hành Động"
 year: 2001
 director: "Peter Jackson"

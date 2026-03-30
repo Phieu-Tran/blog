@@ -2,6 +2,7 @@
 title: "Parasyte: The Maxim"
 imdb_id: tt3358020
 rating: 7
+community_score: 8.3
 genre: "Phim Hoạt Hình, Phim Chính Kịch, Sci-Fi & Fantasy, Action & Adventure"
 year: 2014
 director: N/A

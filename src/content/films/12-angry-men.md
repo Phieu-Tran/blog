@@ -2,6 +2,7 @@
 title: "12 Angry Men"
 imdb_id: tt0050083
 rating: 9
+community_score: 8.6
 genre: "Phim Chính Kịch"
 year: 1957
 director: "Sidney Lumet"

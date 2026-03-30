@@ -2,6 +2,7 @@
 title: Berserk
 imdb_id: tt0318871
 rating: 10
+community_score: 6.5
 genre: "Action & Adventure, Sci-Fi & Fantasy, Phim Hoạt Hình"
 year: 1997
 director: N/A

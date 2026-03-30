@@ -2,6 +2,7 @@
 title: "Detective Conan"
 imdb_id: tt0131179
 rating: 7
+community_score: 8
 genre: "Phim Hoạt Hình, Phim Hình Sự, Phim Bí Ẩn, Phim Hài"
 year: 1996
 director: N/A

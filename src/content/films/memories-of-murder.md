@@ -2,6 +2,7 @@
 title: "Memories of Murder"
 imdb_id: tt0353969
 rating: 9
+community_score: 8.1
 genre: "Phim Hình Sự, Phim Chính Kịch, Phim Gây Cấn"
 year: 2003
 director: 봉준호

@@ -2,6 +2,7 @@
 title: Joker
 imdb_id: tt7286456
 rating: 9
+community_score: 8.1
 genre: "Phim Hình Sự, Phim Gây Cấn, Phim Chính Kịch"
 year: 2019
 director: "Todd Phillips"

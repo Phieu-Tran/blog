@@ -2,6 +2,7 @@
 title: "Finding Nemo"
 imdb_id: tt0266543
 rating: 8
+community_score: 7.8
 genre: "Phim Hoạt Hình, Phim Gia Đình, Phim Phiêu Lưu"
 year: 2003
 director: "Andrew Stanton"

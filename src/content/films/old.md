@@ -2,6 +2,7 @@
 title: Old
 imdb_id: tt10954652
 rating: 5
+community_score: 6.3
 genre: "Phim Gây Cấn, Phim Bí Ẩn, Phim Kinh Dị"
 year: 2021
 director: "M. Night Shyamalan"

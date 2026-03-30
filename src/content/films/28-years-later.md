@@ -2,6 +2,7 @@
 title: "28 Years Later"
 imdb_id: tt10548174
 rating: 7
+community_score: 6.6
 genre: "Phim Kinh Dị, Phim Gây Cấn, Phim Khoa Học Viễn Tưởng"
 year: 2025
 director: "Danny Boyle"

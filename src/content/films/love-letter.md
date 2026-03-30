@@ -2,6 +2,7 @@
 title: "Love Letter"
 imdb_id: tt0113703
 rating: 9
+community_score: 7.8
 genre: "Phim Chính Kịch, Phim Lãng Mạn"
 year: 1995
 director: 岩井俊二

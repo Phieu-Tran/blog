@@ -2,6 +2,7 @@
 title: Alien
 imdb_id: tt0078748
 rating: 8
+community_score: 8.2
 genre: "Phim Kinh Dị, Phim Khoa Học Viễn Tưởng"
 year: 1979
 director: "Ridley Scott"

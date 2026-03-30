@@ -2,6 +2,7 @@
 title: "Send Help"
 imdb_id: tt8036976
 rating: 5
+community_score: 7.1
 genre: "Phim Kinh Dị, Phim Gây Cấn, Phim Hài"
 year: 2026
 director: "Sam Raimi"

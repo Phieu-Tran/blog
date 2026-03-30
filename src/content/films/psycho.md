@@ -2,6 +2,7 @@
 title: Psycho
 imdb_id: tt0054215
 rating: 8
+community_score: 8.4
 genre: "Phim Kinh Dị, Phim Gây Cấn, Phim Bí Ẩn"
 year: 1960
 director: "Alfred Hitchcock"

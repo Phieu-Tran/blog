@@ -2,6 +2,7 @@
 title: Nightcrawler
 imdb_id: tt2872718
 rating: 8
+community_score: 7.7
 genre: "Phim Hình Sự, Phim Chính Kịch, Phim Gây Cấn"
 year: 2014
 director: "Dan Gilroy"

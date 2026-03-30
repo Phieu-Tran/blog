@@ -2,6 +2,7 @@
 title: WALL·E
 imdb_id: tt0910970
 rating: 9
+community_score: 8.1
 genre: "Phim Hoạt Hình, Phim Gia Đình, Phim Khoa Học Viễn Tưởng"
 year: 2008
 director: "Andrew Stanton"

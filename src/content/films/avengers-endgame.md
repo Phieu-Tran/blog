@@ -2,6 +2,7 @@
 title: "Avengers: Endgame"
 imdb_id: tt4154796
 rating: 7
+community_score: 8.2
 genre: "Phim Phiêu Lưu, Phim Khoa Học Viễn Tưởng, Phim Hành Động"
 year: 2019
 director: "Anthony Russo"

@@ -2,6 +2,7 @@
 title: "Love, Death & Robots"
 imdb_id: tt9561862
 rating: 10
+community_score: 8.2
 genre: "Phim Hoạt Hình, Sci-Fi & Fantasy"
 year: 2019
 director: "Tim Miller"

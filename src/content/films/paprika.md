@@ -2,6 +2,7 @@
 title: Paprika
 imdb_id: tt0851578
 rating: 9
+community_score: 7.8
 genre: "Phim Khoa Học Viễn Tưởng, Phim Gây Cấn, Phim Hoạt Hình"
 year: 2006
 director: 今敏

@@ -2,6 +2,7 @@
 title: "Tron: Ares"
 imdb_id: tt6604188
 rating: 5
+community_score: 6.5
 genre: "Phim Khoa Học Viễn Tưởng, Phim Phiêu Lưu, Phim Hành Động"
 year: 2025
 director: "Joachim Rønning"

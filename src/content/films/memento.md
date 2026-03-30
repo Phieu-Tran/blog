@@ -2,6 +2,7 @@
 title: Memento
 imdb_id: tt0209144
 rating: 9
+community_score: 8.2
 genre: "Phim Bí Ẩn, Phim Gây Cấn"
 year: 2000
 director: "Christopher Nolan"

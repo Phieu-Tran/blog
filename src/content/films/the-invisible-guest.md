@@ -2,6 +2,7 @@
 title: "The Invisible Guest"
 imdb_id: tt4857264
 rating: 8
+community_score: 8.1
 genre: "Phim Chính Kịch, Phim Bí Ẩn, Phim Gây Cấn"
 year: 2016
 director: "Oriol Paulo"

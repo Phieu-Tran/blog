@@ -2,6 +2,7 @@
 title: Another
 imdb_id: tt2176165
 rating: 10
+community_score: 6.3
 genre: "Phim Hoạt Hình, Phim Chính Kịch, Phim Bí Ẩn"
 year: 2012
 director: N/A

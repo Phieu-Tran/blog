@@ -2,6 +2,7 @@
 title: Moana
 imdb_id: tt3521164
 rating: 6
+community_score: 7.6
 genre: "Phim Phiêu Lưu, Phim Hài, Phim Gia Đình, Phim Hoạt Hình"
 year: 2016
 director: "Ron Clements"

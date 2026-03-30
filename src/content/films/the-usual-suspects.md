@@ -2,6 +2,7 @@
 title: "The Usual Suspects"
 imdb_id: tt0114814
 rating: 10
+community_score: 8.2
 genre: "Phim Chính Kịch, Phim Hình Sự, Phim Gây Cấn"
 year: 1995
 director: "Bryan Singer"

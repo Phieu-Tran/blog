@@ -2,6 +2,7 @@
 title: "Stranger Things"
 imdb_id: tt4574334
 rating: 8
+community_score: 8.6
 genre: "Sci-Fi & Fantasy, Phim Bí Ẩn, Action & Adventure"
 year: 2016
 director: "Ross Duffer"

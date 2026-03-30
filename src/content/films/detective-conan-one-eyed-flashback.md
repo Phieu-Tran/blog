@@ -2,6 +2,7 @@
 title: "Detective Conan: One-Eyed Flashback"
 imdb_id: tt35444710
 rating: 6
+community_score: 7.4
 genre: "Phim Hoạt Hình, Phim Hành Động, Phim Bí Ẩn, Phim Hình Sự"
 year: 2025
 director: 重原克也

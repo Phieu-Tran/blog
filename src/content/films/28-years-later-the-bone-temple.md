@@ -2,6 +2,7 @@
 title: "28 Years Later: The Bone Temple"
 imdb_id: tt32141377
 rating: 7
+community_score: 7.2
 genre: "Phim Kinh Dị, Phim Gây Cấn, Phim Khoa Học Viễn Tưởng"
 year: 2026
 director: "Nia DaCosta"

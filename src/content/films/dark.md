@@ -2,6 +2,7 @@
 title: Dark
 imdb_id: tt5753856
 rating: 10
+community_score: 6.7
 genre: "Phim Hình Sự, Phim Chính Kịch, Sci-Fi & Fantasy, Phim Bí Ẩn"
 year: 2017
 director: "Baran bo Odar"

@@ -2,6 +2,7 @@
 title: "One Flew Over the Cuckoo's Nest"
 imdb_id: tt0073486
 rating: 8
+community_score: 8.4
 genre: "Phim Chính Kịch"
 year: 1975
 director: "Miloš Forman"

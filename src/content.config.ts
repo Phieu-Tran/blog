@@ -41,6 +41,7 @@ const films = defineCollection({
     imdb_id: z.string().optional(),
     tmdb_id: z.number().optional(),
     rating: z.number().min(0).max(10),
+    community_score: z.number().optional(),
     genre: z.string(),
     year: z.number(),
     director: z.string(),

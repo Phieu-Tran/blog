@@ -2,6 +2,7 @@
 title: "Perfect Blue"
 imdb_id: tt0156887
 rating: 9
+community_score: 8.3
 genre: "Phim Hoạt Hình, Phim Gây Cấn"
 year: 1997
 director: 今敏
