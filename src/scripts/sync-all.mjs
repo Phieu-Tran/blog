@@ -126,6 +126,8 @@ function parseFrontmatter(content) {
 function buildFrontmatter(data) {
   const lines = Object.entries(data).map(([k, v]) => {
     if (v === undefined || v === null || v === '') return null;
+    // Always quote title to avoid YAML parsing numbers as non-string
+    if (k === 'title') return `${k}: "${String(v).replace(/"/g, '\\"')}"`;
     if (typeof v === 'string' && (v.includes(':') || v.includes(',') || v.includes(' ') || v.includes('"')))
       return `${k}: "${v.replace(/"/g, '\\"')}"`;
     return `${k}: ${v}`;
@@ -361,6 +363,31 @@ async function fetchMissingCovers() {
 }
 
 // ============================================
+// BUILD CHECK
+// ============================================
+async function buildCheck() {
+  printHeader('BUILD CHECK', COLORS.green);
+  printStep('🔨', 'Running astro build...\n');
+
+  const { execSync } = await import('child_process');
+  try {
+    execSync('npx astro build', {
+      cwd: path.resolve('.'),
+      stdio: ['pipe', 'pipe', 'pipe'],
+      timeout: 300000,
+    });
+    printStep('✅', 'Build successful!\n');
+    return { name: 'Build', success: true, message: 'Build passed' };
+  } catch (err) {
+    const stderr = err.stderr?.toString() || '';
+    const match = stderr.match(/\[InvalidContentEntryDataError\].*$/m) || stderr.match(/Error:.*/m);
+    const errorMsg = match ? match[0] : 'Build failed (check logs)';
+    printStep('❌', `Build FAILED: ${errorMsg}\n`);
+    return { name: 'Build', success: false, message: errorMsg };
+  }
+}
+
+// ============================================
 // MAIN
 // ============================================
 async function main() {
@@ -391,9 +418,22 @@ async function main() {
     results.push({ name: 'Cover fetch', success: false, message: err.message });
   }
 
+  // Step 4: Build check
+  try {
+    results.push(await buildCheck());
+  } catch (err) {
+    results.push({ name: 'Build', success: false, message: err.message });
+  }
+
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   printSummary(results);
   console.log(`  ${COLORS.dim}Total time: ${elapsed}s${COLORS.reset}\n`);
+
+  // Exit with error if build failed
+  const buildResult = results.find(r => r.name === 'Build');
+  if (buildResult && !buildResult.success) {
+    process.exit(1);
+  }
 }
 
 main().catch(err => {

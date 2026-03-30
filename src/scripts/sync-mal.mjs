@@ -62,6 +62,7 @@ function parseFrontmatter(content) {
 function buildFrontmatter(data) {
   const lines = Object.entries(data).map(([key, value]) => {
     if (value === undefined || value === null) return null;
+    if (key === 'title') return `${key}: "${String(value).replace(/"/g, '\\"')}"`;
     if (typeof value === 'string' && (value.includes(':') || value.includes(',') || value.includes(' ') || value.includes('"'))) {
       return `${key}: "${value.replace(/"/g, '\\"')}"`;
     }
