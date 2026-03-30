@@ -10,5 +10,6 @@ platform: Steam
 playtime_hours: 96
 cover: "https://steamcdn-a.akamaihd.net/steam/apps/1203220/header.jpg"
 date: 2026-03-30
+ign_source: true
 ---
 

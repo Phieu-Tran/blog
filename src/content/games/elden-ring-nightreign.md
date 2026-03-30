@@ -1,21 +1,12 @@
 ---
-title: "Elden Ring: Nightreign"
-rating: 9.3
-genre: "Action RPG, Soulslike, Co-op"
-year: 2025
+title: "Elden Ring Nightreign"
+rating: 0
+genre: N/A
+year: 2026
 studio: "FromSoftware"
-status: playing
-platform: "PC"
-cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co5w2g.jpg"
-date: 2025-03-25
+status: plan
+platform: Multi
+cover: "https://assets-prd.ignimgs.com/2024/12/13/nightreign-1734052852377.jpg?crop=1%3A1%2Csmart&width=164&height=164&format=jpg&auto=webp&quality=80"
+date: 2026-03-30
 ---
 
-Nightreign mang đến trải nghiệm co-op roguelike trong thế giới Elden Ring. Mỗi session kéo dài khoảng 40 phút, phù hợp cho những ai không có nhiều thời gian.
-
-## Gameplay loop
-- Mỗi run gồm 3 ngày + đêm, boss cuối ở ngày 3
-- Map thu nhỏ dần theo thời gian, tạo áp lực
-- Loot và build reset mỗi run — nhưng progression dài hạn vẫn giữ
-
-## Đánh giá
-FromSoftware lại chứng minh họ là bậc thầy action RPG. Combat vẫn tight và satisfying như mọi khi.
