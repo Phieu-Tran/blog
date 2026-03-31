@@ -6,23 +6,128 @@ import { getCollection } from 'astro:content';
 const allFilms = (await getCollection('films')).sort(
   (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
 );
+const top10 = [...allFilms].sort((a, b) => b.data.rating - a.data.rating).slice(0, 10);
+const genres = [...new Set(allFilms.flatMap(f => f.data.genre.split(',').map(g => g.trim())).filter(Boolean))].sort();
+const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout title="Films" activeNav="films">
-  <p class="section-label">Bộ sưu tập Film — {allFilms.length} tựa</p>
-  <div class="media-grid">
+  {/* Top 10 */}
+  <section class="reveal" style="margin-bottom: 32px;">
+    <p class="section-label">Top 10 — Điểm cao nhất</p>
+    <hr class="section-divider" />
+    <div class="top-carousel">
+      {top10.map((item, i) => (
+        <a href={`${base}films/${item.id}/`} class="top-card" data-type="film">
+          <span class="top-rank">#{i + 1}</span>
+          {item.data.cover && <img src={item.data.cover} alt={item.data.title} loading="lazy" />}
+          <div class="top-overlay">
+            <p class="top-title">{item.data.title}</p>
+            <div class="top-scores">
+              <span class="top-score" style="color: var(--film-color);">{item.data.rating}<small>/10</small></span>
+              {item.data.imdb_score && <span class="top-score-sub">IMDB {item.data.imdb_score}</span>}
+              {item.data.tmdb_score && <span class="top-score-sub">TMDB {item.data.tmdb_score}</span>}
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  {/* Search + Filter */}
+  <section style="margin-bottom: 24px;">
+    <div class="filter-bar">
+      <input type="text" id="search" class="filter-input" placeholder="Tìm film..." autocomplete="off" />
+      <select id="genre-filter" class="filter-select">
+        <option value="">Tất cả thể loại</option>
+        {genres.map(g => <option value={g}>{g}</option>)}
+      </select>
+      <select id="status-filter" class="filter-select">
+        <option value="">Tất cả trạng thái</option>
+        <option value="watched">Đã xem</option>
+        <option value="plan">Dự định</option>
+      </select>
+      <select id="sort-filter" class="filter-select">
+        <option value="date">Mới nhất</option>
+        <option value="rating">My Score ↓</option>
+        <option value="imdb">IMDB Score ↓</option>
+        <option value="tmdb">TMDB Score ↓</option>
+        <option value="title">A → Z</option>
+        <option value="year">Năm ↓</option>
+      </select>
+    </div>
+    <p class="section-label" style="margin-top: 16px;">
+      Bộ sưu tập Film — <span id="count">{allFilms.length}</span> tựa
+    </p>
+  </section>
+
+  <div class="media-grid" id="media-grid">
     {allFilms.map((item, i) => (
-      <MediaCard
-        title={item.data.title}
-        type="film"
-        rating={item.data.rating}
-        genre={item.data.genre}
-        year={item.data.year}
-        cover={item.data.cover}
-        status={item.data.status}
-        slug={item.id}
-        index={i}
-      />
+      <div class="filter-item"
+        data-title={item.data.title.toLowerCase()}
+        data-genre={item.data.genre.toLowerCase()}
+        data-status={item.data.status}
+        data-rating={item.data.rating}
+        data-imdb={item.data.imdb_score || 0}
+        data-tmdb={item.data.tmdb_score || 0}
+        data-year={item.data.year}
+        data-date={new Date(item.data.date).getTime()}>
+        <MediaCard
+          title={item.data.title}
+          type="film"
+          rating={item.data.rating}
+          genre={item.data.genre}
+          year={item.data.year}
+          cover={item.data.cover}
+          status={item.data.status}
+          slug={item.id}
+          index={i}
+        />
+      </div>
     ))}
   </div>
+
+  <script>
+    function initFilters() {
+      const search = document.getElementById('search') as HTMLInputElement;
+      const genre = document.getElementById('genre-filter') as HTMLSelectElement;
+      const status = document.getElementById('status-filter') as HTMLSelectElement;
+      const sort = document.getElementById('sort-filter') as HTMLSelectElement;
+      const grid = document.getElementById('media-grid');
+      const count = document.getElementById('count');
+      if (!search || !genre || !status || !sort || !grid || !count) return;
+
+      function apply() {
+        const q = search.value.toLowerCase();
+        const g = genre.value.toLowerCase();
+        const s = status.value;
+        const items = [...grid.querySelectorAll('.filter-item')] as HTMLElement[];
+        const sv = sort.value;
+        items.sort((a, b) => {
+          if (sv === 'rating') return parseFloat(b.dataset.rating!) - parseFloat(a.dataset.rating!);
+          if (sv === 'imdb') return parseFloat(b.dataset.imdb!) - parseFloat(a.dataset.imdb!);
+          if (sv === 'tmdb') return parseFloat(b.dataset.tmdb!) - parseFloat(a.dataset.tmdb!);
+          if (sv === 'title') return a.dataset.title!.localeCompare(b.dataset.title!);
+          if (sv === 'year') return parseInt(b.dataset.year!) - parseInt(a.dataset.year!);
+          return parseFloat(b.dataset.date!) - parseFloat(a.dataset.date!);
+        });
+        items.forEach(el => grid.appendChild(el));
+        let v = 0;
+        items.forEach(el => {
+          const ok = (!q || el.dataset.title!.includes(q)) &&
+                     (!g || el.dataset.genre!.includes(g)) &&
+                     (!s || el.dataset.status === s);
+          el.style.display = ok ? '' : 'none';
+          if (ok) v++;
+        });
+        count.textContent = String(v);
+      }
+      search.addEventListener('input', apply);
+      genre.addEventListener('change', apply);
+      status.addEventListener('change', apply);
+      sort.addEventListener('change', apply);
+    }
+    initFilters();
+    document.addEventListener('astro:after-swap', initFilters);
+  </script>
 </BaseLayout>
