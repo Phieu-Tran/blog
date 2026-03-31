@@ -37,27 +37,26 @@ const featured = [
 ].sort((a, b) => b.rating - a.rating);
 
 // ─── Handpicked crowd covers ───
-// Back row: anime + film + game covers (smaller, blurred)
+// Back row: remaining covers (smaller, blurred)
 const crowdBack = [
   { cover: 'https://cdn.myanimelist.net/images/anime/2/73862.jpg', label: 'Mushi-Shi' },
   { cover: 'https://cdn.myanimelist.net/images/anime/1208/94745.jpg', label: 'FMA:B' },
   { cover: 'https://cdn.myanimelist.net/images/anime/4/19644.jpg', label: 'Cowboy Bebop' },
   { cover: 'https://cdn.myanimelist.net/images/anime/1314/108941.jpg', label: 'Evangelion' },
   { cover: 'https://cdn.myanimelist.net/images/anime/4/75509.jpg', label: 'Another' },
-  { cover: 'https://image.tmdb.org/t/p/w500/neZ0ykEsPqxamsX6o5QNUFILQrz.jpg', label: 'Akira' },
   { cover: 'https://image.tmdb.org/t/p/w500/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg', label: 'Interstellar' },
   { cover: 'https://image.tmdb.org/t/p/w500/gDzOcq0pfeCeqMBwKIJlSmQpjkZ.jpg', label: 'Dune' },
   { cover: 'https://image.tmdb.org/t/p/w500/191nKfP0ehp3uIvWqgPbFmI4lv9.jpg', label: 'Se7en' },
-  { cover: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co2a23.jpg', label: 'Sekiro' },
   { cover: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co95gk.jpg', label: 'Elden Ring' },
   { cover: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co2wn5.jpg', label: 'RE4' },
   { cover: 'https://steamcdn-a.akamaihd.net/steam/apps/632470/header.jpg', label: 'Disco Elysium' },
   { cover: 'https://images.igdb.com/igdb/image/upload/t_cover_big/cob9k6.jpg', label: 'FF7 Rebirth' },
 ];
 
-// Front row: character images (sharp, larger, prominent)
-// Put YOUR character PNG/WebP files in public/crowd/
+// Front row: Akira + Sekiro + characters (sharp, larger, prominent)
 const crowdFront = [
+  { cover: `${import.meta.env.BASE_URL}crowd/akira.webp`, label: 'Akira' },
+  { cover: `${import.meta.env.BASE_URL}crowd/sekiro.webp`, label: 'Sekiro' },
   { cover: `${import.meta.env.BASE_URL}crowd/leon.webp`, label: 'Leon S. Kennedy' },
   { cover: `${import.meta.env.BASE_URL}crowd/ada-wong.webp`, label: 'Ada Wong' },
   { cover: `${import.meta.env.BASE_URL}crowd/joker.webp`, label: 'The Joker' },
