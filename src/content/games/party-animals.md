@@ -2,7 +2,7 @@
 title: "Party Animals"
 steam_appid: 1260320
 rating: 0
-genre: N/A
+genre: Puzzle
 year: 2026
 studio: N/A
 status: completed

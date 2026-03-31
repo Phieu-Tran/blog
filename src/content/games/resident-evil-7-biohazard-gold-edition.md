@@ -1,12 +1,13 @@
 ---
 title: "Resident Evil 7: Biohazard - Gold Edition"
 rating: 0
-genre: N/A
-year: 2026
-studio: "Capcom"
+genre: "Shooter, Adventure"
+year: 2017
+studio: Capcom
 status: plan
 platform: Multi
-cover: "https://assets-prd.ignimgs.com/2024/04/22/rebiogold-1713803370238.jpg?crop=1%3A1%2Csmart&width=164&height=164&format=jpg&auto=webp&quality=80"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9fad.jpg"
 date: 2026-03-30
+igdb_score: 9.1
 ---
 

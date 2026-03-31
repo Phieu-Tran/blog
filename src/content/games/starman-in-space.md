@@ -2,9 +2,9 @@
 title: "Starman in space"
 steam_appid: 804440
 rating: 0
-genre: N/A
-year: 2026
-studio: N/A
+genre: "Simulator, Indie, Arcade"
+year: 2018
+studio: "Laush Dmitriy Sergeevich"
 status: plan
 platform: Steam
 playtime_hours: 0

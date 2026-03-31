@@ -5,9 +5,10 @@ genre: "CRPG, Turn-based, RPG"
 year: 2023
 studio: "Larian Studios"
 status: completed
-platform: "PC"
-cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co6120.jpg"
+platform: PC
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co670h.jpg"
 date: 2024-06-10
+igdb_score: 9.6
 ---
 
 GOTY 2023 xứng đáng. BG3 đặt lại tiêu chuẩn cho RPG với mức độ tự do gần như vô hạn trong mọi quyết định.

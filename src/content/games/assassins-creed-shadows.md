@@ -1,12 +1,13 @@
 ---
 title: "Assassin's Creed Shadows"
 rating: 0
-genre: N/A
-year: 2026
+genre: "Role-playing (RPG), Adventure"
+year: 2025
 studio: "Ubisoft Quebec"
 status: plan
 platform: Multi
-cover: "https://assets-prd.ignimgs.com/2024/05/15/acshadows-1715789601294.jpg?crop=1%3A1%2Csmart&width=164&height=164&format=jpg&auto=webp&quality=80"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co87cu.jpg"
 date: 2026-03-30
+igdb_score: 7.4
 ---
 

@@ -2,8 +2,8 @@
 title: "Green Hell"
 steam_appid: 815370
 rating: 0
-genre: N/A
-year: 2026
+genre: Indie
+year: 2022
 studio: N/A
 status: completed
 platform: Steam

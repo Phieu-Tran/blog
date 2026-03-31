@@ -2,8 +2,8 @@
 title: "Cube Racer"
 steam_appid: 705210
 rating: 0
-genre: N/A
-year: 2026
+genre: "Racing, Indie"
+year: 2017
 studio: N/A
 status: completed
 platform: Steam

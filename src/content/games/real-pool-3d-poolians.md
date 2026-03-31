@@ -2,8 +2,8 @@
 title: "Real Pool 3D - Poolians"
 steam_appid: 670290
 rating: 0
-genre: N/A
-year: 2026
+genre: "Simulator, Sport, Strategy, Indie"
+year: 2017
 studio: N/A
 status: completed
 platform: Steam

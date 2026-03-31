@@ -1,12 +1,13 @@
 ---
 title: "Red Dead Redemption 2"
 rating: 0
-genre: N/A
-year: 2026
+genre: "Shooter, Role-playing (RPG), Adventure"
+year: 2018
 studio: "Rockstar Studios"
 status: plan
 platform: Multi
-cover: "https://assets1.ignimgs.com/2016/10/18/red-dead-redemption-2-buttonjpg-f9ad35.jpg?crop=1%3A1%2Csmart&width=164&height=164&format=jpg&auto=webp&quality=80"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q1f.jpg"
 date: 2026-03-30
+igdb_score: 9.3
 ---
 

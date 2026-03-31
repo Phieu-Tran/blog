@@ -2,8 +2,8 @@
 title: "Prop and Seek"
 steam_appid: 1131720
 rating: 0
-genre: N/A
-year: 2026
+genre: Strategy
+year: 2020
 studio: N/A
 status: playing
 platform: Steam

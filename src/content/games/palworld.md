@@ -1,12 +1,13 @@
 ---
 title: "Palworld"
 rating: 0
-genre: N/A
-year: 2026
-studio: "Pocketpair"
+genre: "Shooter, Role-playing (RPG), Hack and slash/Beat 'em up, Adventure, Indie"
+year: 2024
+studio: Pocketpair
 status: plan
 platform: Multi
-cover: "https://assets-prd.ignimgs.com/2024/01/19/palworld-1705691572614.jpg?crop=1%3A1%2Csmart&width=164&height=164&format=jpg&auto=webp&quality=80"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co7n02.jpg"
 date: 2026-03-30
+igdb_score: 7.2
 ---
 

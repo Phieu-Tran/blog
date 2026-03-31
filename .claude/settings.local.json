@@ -5,7 +5,12 @@
       "Bash(gh auth:*)",
       "Bash(npm install:*)",
       "Bash(gh api:*)",
-      "Read(//h/My Drive/ObsidianVault/Hiếu - Personal/05_Entertainment 🎬/**)"
+      "Read(//h/My Drive/ObsidianVault/Hiếu - Personal/05_Entertainment 🎬/**)",
+      "Bash(npx astro:*)",
+      "Bash(git -C /e/media-vault status)",
+      "Bash(git -C /e/media-vault diff)",
+      "Bash(git -C /e/media-vault log --oneline -5)",
+      "WebFetch(domain:pastepaw.com)"
     ]
   }
 }
