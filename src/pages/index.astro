@@ -121,7 +121,7 @@ const base = import.meta.env.BASE_URL;
       {/* Front row — characters, sharp, larger, prominent */}
       <div class="crowd-row crowd-front">
         {crowdFront.map((item, i) => (
-          <div class="crowd-item crowd-character"
+          <div class="crowd-item"
             data-speed={0.4 + (i % 3) * 0.2}
             data-dir={i < Math.ceil(crowdFront.length / 2) ? 'left' : 'right'}
             style={`--crowd-y: 0px;`}>
