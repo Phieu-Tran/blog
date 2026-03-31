@@ -472,8 +472,8 @@ a { color: inherit; text-decoration: none; }
 }
 .crowd-back .crowd-item {
   width: 52px; height: 72px;
-  filter: blur(2px);
-  opacity: 0.4;
+  filter: blur(1.5px);
+  opacity: 0.25;
 }
 /* Front row: larger, sharp */
 .crowd-front {
@@ -484,17 +484,18 @@ a { color: inherit; text-decoration: none; }
   width: 68px; height: 96px;
   opacity: 0.85;
 }
-/* Character items — larger, no border-radius crop, show full figure */
+/* Character items — larger, face visible, prominent */
 .crowd-character {
   width: 80px !important; height: 120px !important;
   opacity: 1 !important;
-  border-radius: 0;
-  overflow: visible;
+  border-radius: 10px;
+  overflow: hidden;
   position: relative;
 }
 .crowd-character img {
-  border-radius: 0;
-  object-fit: contain;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: top center;
   filter: drop-shadow(0 4px 12px rgba(0,0,0,0.5));
 }
 .crowd-label {
