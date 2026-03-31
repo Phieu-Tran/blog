@@ -26,3 +26,8 @@ Cái chết luôn là điều ám ảnh đối với con người. Nó không ph
 Vậy khi người họ không còn mục tiêu không còn mực đích sống thì họ sẽ tìm tới cái chết nhưng lại vi phạm nguyên tắc "Đừng tìm cái chết", khi đó người nay không còn mục đích sống lại không thể chết về bản chất họ lại không sợ của sự việc này thì họ lại thoả nguyên tắc "Đừng sợ chết", họ chỉ chờ đợi và bản thân họ bị bào mòn đến khi cái chết tìm đến họ để họ được giải thoát thì lại vi phạm nguyên tắc "Đừng chờ đợt cái chết". Rõ ràng như vậy 3 nguyên tắc kia mâu thuẫn lẫn nhau. Mục đích của 3 nguyên tắc này là gì ? Câu trả lời rất đơn giản Đừng Chết cho dù bất kì lý do gì,  
 Mục tiêu được đặt ra là không được chết và trốn tránh cái chết 2  
 mục tiêu này đặt lên trên 1 bàn cân được gọi là thuyết nhân sinh,
+![](/posts/Exported image 20250424131818-0.png)
+
+![](/posts/DeathParade_0.jpg)
+
+![](/posts/DeathParade_1.jpg)

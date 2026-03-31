@@ -5,7 +5,7 @@ tags: ["Analysis", "Explained"]
 date: 2026-03-29
 ---
 
-!NGE_0.jpg
+![](/posts/NGE_0.jpg)
 
 
 Anime:
@@ -121,3 +121,7 @@ P/s: Nhân tiện thì nhiều người thắc mắc về 2 cảnh. Đó là Shi
 
 
 
+
+![](/posts/NGE_1.jpg)
+
+![](/posts/NGE_2.jpg)

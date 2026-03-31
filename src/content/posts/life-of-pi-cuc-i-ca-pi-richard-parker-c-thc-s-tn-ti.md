@@ -18,7 +18,7 @@ Thời lượng: 127 phút
 Quốc gia: Mỹ / Đài Loan / Anh
 Thể loại: Adventure, Drama, Fantasy
 
-!Pasted image 20250424125603.png
+![](/posts/Pasted image 20250424125603.png)
 
 Có lẽ không cần phải giới thiệu quá nhiều, Life of Pi là một bộ phim vô cùng nổi tiếng và thành công mà có lẽ ai cũng đã từng xem qua hay được nghe nhắc tới. Xoay quanh nhân vật chính- cậu bé Pi 16 tuổi cùng chuyến hành trình lênh đênh trên biển trong hơn 200 ngày, tác phẩm như một câu chuyện ngụ ngôn hiện đại, với nhiều ý nghĩa về hy vọng, mạo hiểm, sinh tồn cũng như niềm tin và tôn giáo.  
   

@@ -45,3 +45,9 @@ Cái này thì sao? Đầu óc khôn ngoan chắc sẽ hơn hẳn dăm ba cái c
 Đó chính là nhờ…
  **Bạn.**
  Chính bạn, bạn là người xem, bạn có quyền quyết định, mình thích ai, ghét ai, nhìn nhận ai thế nào. Chính người xem bị ấn tượng bởi những yếu tố trên và xóa nhòa đi motif về một phản diện đáng để ta yêu thích. Vì vậy, ghét bỏ ai, thích ai, tất cả là ở bạn, đừng lệ thuộc vào người khác cũng như các chuẩn mực đạo đức xã hội đặt ra, họ là phản diện, họ là ảo mà, sao lại bị bó buộc được chứ?
+
+![](/posts/NhanVatPhanDien_0.jpg)
+
+![](/posts/284603686_488450386367766_3923164776305478648_n.jpg)
+
+![](/posts/285157969_3394356757459802_3857194930414277232_n.jpg)

@@ -149,3 +149,10 @@ Thể loại: Animation, Action, Sci-Fi
 ==Rủi thay, các Agent đã phát hiện các hiện tượng kỳ lạ trong khu nhà bỏ hoang nên tiến hành san bằng nơi đây để xây một bãi giữ xe. Lũ trẻ tiu ngỉu mất sân chơi đành phải bỏ đi nơi khác.==  
    
 ==Beyond không có cái đen tối vốn có của một tập phim về thế giới của The Matrix.  Nếu không có các hiện tượng kỳ lạ do lỗi chương trình của The Matrix, thì Beyond cũng giống như câu truyện tuổi thơ của bất kỳ ai. Nó càng trở nên quen thuộc hơn đối với những cư dân của đô thị, khi các sân chơi bí mật của tuổi thơ bị phát hiện, bị chiếm mất bởi những toà nhà mới, cao và đẹp hơn. Nó tạo cho người xem cảm giác bồi hồi nhớ nhung về một tuổi thơ đã xa.==
+![](/posts/Exported image 20250424131811-0.jpeg)
+
+![](/posts/Exported image 20250424131812-1.jpeg)
+
+![](/posts/Animatrix_0.jpg)
+
+![](/posts/Animatrix_1.jpg)

@@ -5,7 +5,7 @@ tags: ["Review", "Analysis"]
 date: 2026-03-29
 ---
 
-!Umibe_0.jpg
+![](/posts/Umibe_0.jpg)
 
 
 Manga:
@@ -56,3 +56,7 @@ Biển thì lại khác, nó không giống như mưa, nó không giai giẳng h
 Phần kết của UmiOnna làm tôi khá khó chịu, 2 chap cuối cùng cảm giác mạch truyện như bị rush. Sự phục hồi chóng vánh của Isobe hoàn toàn không cân xứng với những gì cậu đã trải qua. Chỉ sau 1 chap, từ 1 kẻ trầm cảm và “ghét người” rồi BÙM chúng ta có một Isobe lạc quan, luôn hướng về tương lai. Koume cũng tương tự, chap 20 khắc họa một Koume giờ đã là một học sinh cao trung và đã có bạn trai, time-skip cũng khá ổn thôi nhưng cái kết chỉ đơn giản như là một sự chấp nhận cho tình cảnh của mình có phần làm cho tôi cảm thấy không thỏa mãn lắm. Nhìn chung đối với tôi cách xử lý phần kết của Asano trong UmiOnna không thực sự ổn lắm so với những gì nó đã xây dựng ở những chap trước.
 Dù sao thì Umibe no Onnanoko vẫn là một manga mang trong nó yếu tố realism cao, đem lại cho tôi một góc nhìn có phần “trần trụi” về mối quan hệ giữa tình dục và tình yêu, một manga rất đáng để đọc !
 Hmmmmmmmm…vậy đó là cảm nhận của tôi sau khi đọc xong UmiOnna, tôi cũng chẳng biết nói gì nữa :v Cảm ơn các bạn đã đọc đến đây :v Adios!!
+
+![](/posts/Umibe_1.jpg)
+
+![](/posts/Umibe_2.jpg)

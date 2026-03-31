@@ -64,3 +64,12 @@ Một số đặc điểm của thuyết hiện sinh theo J.P Sartre:==
 ==SEE YOU SPACE COWBOY...==  
 ==P/s:==  
 ==- Nếu mà ngẫm nghĩ lại thì cái chủ nghĩa hiện sinh này rất phổ biến trong anime và không hề xa lạ. Ví dụ như bộ Kino’s Journey mà mình mới xem xong, rất là đậm chất hiện sinh, rồi mấy bộ của Gen Urobuchi nữa, ngoài ra mấy bộ Mushishi hay Homunculus cũng có nét hiện sinh trong đó,... Nếu mà bỏ thời gian ra tìm hiểu thì thấy rằng chủ đề hiện sinh là khá thú vị.==
+![](/posts/CowboyBebop_0.jpg)
+
+![](/posts/Exported image 20250424131926-0.jpeg)
+
+![](/posts/CowboyBebop_1.jpg)
+
+![](/posts/Exported image 20250424131928-1.jpeg)
+
+![](/posts/CowboyBebop_2.jpg)

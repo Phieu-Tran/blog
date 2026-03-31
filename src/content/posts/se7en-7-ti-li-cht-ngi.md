@@ -61,3 +61,8 @@ Về mặt hình ảnh, Se7en lại là một bộ phim mang dấu ấn đậm n
 Để kết thúc bài viết này, mình xin trích dẫn câu nói rất hay của Somerset ở cuối phim  
 **“THẾ GIỚI LÀ MỘT NƠI ĐẸP ĐẼ VÀ ĐÁNG ĐỂ ĐẤU TRANH”,**  
 TÔI ĐỒNG Ý VỚI VẾ THỨ HAI
+![](/posts/Exported image 20250424131818-0.png)
+
+![](/posts/DeathParade_0.jpg)
+
+![](/posts/DeathParade_1.jpg)

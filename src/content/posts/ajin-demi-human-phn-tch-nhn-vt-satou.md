@@ -5,7 +5,7 @@ tags: ["Character", "Analysis"]
 date: 2026-03-29
 ---
 
-!Ajin_0.jpg
+![](/posts/Ajin_0.jpg)
 
 
 Anime:
@@ -47,3 +47,7 @@ Lời thoại của Satou luôn có những câu cực ngầu giúp tạo điể
 Satou, có thể nói, giống như một sự thách đố đối với khái niệm của từ lương tâm. Đối với chúng ta, những con người bình thường, việc làm của Satou là một việc hoàn toàn sai trái và cần bị trừng trị, nhưng đối với Satou, việc ông giết chóc đơn thuần chỉ là việc làm theo bản năng của con người ông và nó không có gì sai trái. Điều này giống như việc một con hổ vồ chết người. Đối với chúng ta, con hổ có tội vì đã giết người, nhưng đối với con hổ nó chỉ là đơn thuần tuân theo bản năng tự vệ và kiếm ăn của giống loài.
 Yếu tố trên là một thứ rất quan trọng góp phần hoàn thiện bức tranh chung về “thế giới xám” của Ajin khi mà lương tâm và đạo đức không gì hơn chỉ là một ranh giới mập mờ và vô nghĩa.
 P/s: Mình thấy một số bạn có thắc mắc về sự khác nhau giữa Satou và nhân vật chính (Kei) và một số bạn khác đưa ra khái niệm psychopath vs sociopath nghe có vẻ khá phức tạp. Theo mình thì ta chỉ cần hiểu theo nghĩa đơn giản là Satou hoàn toàn không có lương tâm từ khi mới sinh ra còn Kei thì có lương tâm nhưng lại quá coi trọng lý trí và thường hay đặt lý trí lên trên.
+
+![](/posts/Ajin_2.jpg)
+
+![](/posts/Ajin_1.png)

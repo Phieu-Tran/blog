@@ -5,7 +5,7 @@ tags: ["Explained", "Analysis", "Thriller"]
 date: 2026-03-29
 ---
 
-!DonnieDarko_0.jpg
+![](/posts/DonnieDarko_0.jpg)
 
 
 Movie:
@@ -78,3 +78,7 @@ Tuy nhiên bộ phim này được chống chỉ định với những ai xem ch
 Bài viết này đủ sức hấp dẫn với bạn chứ? Nếu có thì hãy để lại ý kiến xuống dưới, đừng quên chia sẻ bài viết bởi nó sẽ trở thành một nguồn động lực lớn đối với tác giả. Mình rất cảm ơn.
 Để kết thúc bài viết này, mình xin trích dẫn một câu nói hay trong phim, đó là khi Donnie gặp Grandma Death lần đầu, bà có nói với cậu rằng
 MỌI SINH VẬT SỐNG TRÊN TRÁI ĐẤT ĐỀU SẼ CHẾT TRONG SỰ CÔ ĐỘC
+
+![](/posts/DonnieDarko_1.jpg)
+
+![](/posts/DonnieDarko_2.jpg)

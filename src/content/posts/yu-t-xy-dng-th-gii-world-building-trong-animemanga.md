@@ -5,7 +5,7 @@ tags: ["Explained", "Theme"]
 date: 2026-03-29
 ---
 
-!WorldBuilding_0.jpg
+![](/posts/WorldBuilding_0.jpg)
 
 
 YẾU TỐ XÂY DỰNG THẾ GIỚI (WORLD-BUILDING) TRONG ANIME/MANGA
@@ -83,3 +83,13 @@ Nghe có vẻ là những ví dụ lạ phải không? Thông thường khi nói
 Theo mình, xây dựng thế giới là phải tạo ra một thế giới sống, có chiều sâu, có “linh hồn” riêng biệt, có một sự hấp dẫn, lôi cuốn riêng khiến chúng ta muốn khám phá, muốn hòa mình thực sự vào thế giới đó.
 
 Mình muốn yếu tố xây dựng thế giới được nâng tầm hơn nữa, trở thành một yếu tố đầy nghệ thuật và mang lại sự hấp dẫn, lôi cuốn chính yếu cho tất cả những bộ phiêu lưu, khám phá nói chung mà bất cứ một tác giả nào cũng phải đặc biệt chú ý.
+
+![](/posts/CowboyBebop_0.jpg)
+
+![](/posts/Exported image 20250424131926-0.jpeg)
+
+![](/posts/CowboyBebop_1.jpg)
+
+![](/posts/Exported image 20250424131928-1.jpeg)
+
+![](/posts/CowboyBebop_2.jpg)

@@ -5,7 +5,7 @@ tags: ["Explained", "Theme"]
 date: 2026-03-29
 ---
 
-!KichBan_1.jpg
+![](/posts/KichBan_1.jpg)
 
 
 CÂU CHUYỆN VỀ KỊCH BẢN (P1): MẪU CHUYỆN TRONG ANIME TRÔNG NHƯ THẾ NÀO?
@@ -43,3 +43,13 @@ Tuy nhiên việc sử dụng mẫu chuyện này cũng như một con dao hai l
 ⚅ Trên đây, mình cũng chỉ giới thiệu sơ qua 1 vài mẫu chuyện thường được sử dụng trong Anime. Ngoài ra, nhiều tác giả còn kết hợp rất tài tình các mẫu chuyện khác nhau để tạo nên một tác phẩm hoàn chỉnh. Đây là một cách rất hay và mình xin phép hẹn lại chủ đề này ở những lần sau.
 Qua bài viết này mình cũng chỉ muốn truyền tải một số kiến thức cơ bản về kịch bản – một thứ đòi hỏi rất nhiều tư duy cũng như tâm huyết của người viết. Nếu như bạn thấy phí nhiều phút đồng hồ chỉ xem một bài viết dài dòng cứng nhắc thì mình thật sự xin lỗi, vì đây là một chủ đề khó có thể thêm quá nhiều tình tiết joke để làm giảm cơn “buồn ngủ” của người đọc. Mọi ý kiến đóng góp xin vui lòng comment bên dưới để mình cải thiện hơn ở các bài viết sau này. Cảm ơn các bạn đã theo dõi. Còn bây giờ thì xin chào và hẹn gặp lại.
 Bài viết có tham khảo tài liệu trong cuốn “Giáo trình kỹ thuật viết kịch bản điện ảnh” của tác giả Đào Lê Na
+
+![](/posts/CowboyBebop_0.jpg)
+
+![](/posts/Exported image 20250424131926-0.jpeg)
+
+![](/posts/CowboyBebop_1.jpg)
+
+![](/posts/Exported image 20250424131928-1.jpeg)
+
+![](/posts/CowboyBebop_2.jpg)

@@ -5,7 +5,7 @@ tags: ["Analysis", "Explained"]
 date: 2026-03-29
 ---
 
-!Lain3_1.jpg
+![](/posts/Lain3_1.jpg)
 
 
 SERIAL EXPERIMENTS LAIN KỲ 3: SỰ ‘PHÂN LY’ NHÂN CÁCH CỦA LAIN, “MỌI NGƯỜI ĐỀU KẾT NỐI”
@@ -72,3 +72,9 @@ Hay một ví dụ dễ hình dung nhất đó là việc một cặp tình nhâ
 Do đó, sự phát triển của công nghệ thông tin là một sự phát triển có tính kế thừa và phát huy không phải là một sự thay thế hoàn toàn. Tương tác vật lý truyền thống vẫn luôn quan trọng và là thứ mà tương tác “ảo” dù có phát triển đến đâu cũng không thể sánh được.
 
 Khi xem Serial experiments lain, mình cũng có đọc comment, một số bạn cho rằng Lain là một tác phẩm cảnh báo những hậu quả của Internet và giúp chúng ta tránh xa thứ công nghệ này đi. Tuy nhiên mình không nghĩ vậy, cái nhìn của Lain là đa chiều. Không những cảnh báo cho ta những hệ quả của một mạng lưới toàn cầu mà bên cạnh đó lại có cái nhìn tích cực tin tưởng vào tương lai. Có lợi hay có hại tất cả điều do ta có coi trọng những vấn đề trên và có sử dụng internet hợp lý hay không.
+
+![](/posts/Lain1_0.png)
+
+![](/posts/Lain1_1.jpg)
+
+![](/posts/Lain1_2.jpg)

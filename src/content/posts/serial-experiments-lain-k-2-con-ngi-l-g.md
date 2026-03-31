@@ -5,7 +5,7 @@ tags: ["Analysis", "Explained"]
 date: 2026-03-29
 ---
 
-!Lain2_2.jpg
+![](/posts/Lain2_2.jpg)
 
 
 SERIAL EXPERIMENTS LAIN KỲ 2: CON NGƯỜI LÀ GÌ?
@@ -46,3 +46,9 @@ Bởi vì “cha đẻ” của ngành khoa học máy tính – Alan Turing, tr
 Theo mình nghĩ thì không quan trọng chúng có cùng cấu tạo với chúng ta hay có phải là “sinh vật” hay không. Chỉ cần chúng có đầy đủ những phẩm chất xã hội như một con người và thể hiện sự tôn trọng giá trị của một con người thì chúng ta hãy xem chúng là một con người.
 Với bước đi tiên phong trong lĩnh vực anime của những tác phẩm như Ghost in the Shell (1995) và Lain (1998), đã có ngày càng nhiều bộ anime khai thác và phân tích chủ đề đầy thú vị này với góc nhìn khác nhau như Chobits, Plastic Memory, Dear S, Eve no Jikan, GITS:SAC,... Trong tương lai khi công nghệ AI trở nên càng quan trọng và ngày càng ảnh hưởng mạnh mẽ đến cuộc sống của chúng ta thì những vấn đề mà bài viết này đã đề cập cũng sẽ có tác động to lớn đến rất nhiều sản phẩm giải trí, đặc biệt là những bộ anime sau này sẽ ra mắt.
 Còn đối với các bạn, sau khi xem Serial experiments Lain, liệu các bạn có coi Lain như là một con người? 
+
+![](/posts/Lain1_0.png)
+
+![](/posts/Lain1_1.jpg)
+
+![](/posts/Lain1_2.jpg)

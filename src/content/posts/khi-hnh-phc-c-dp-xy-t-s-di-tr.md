@@ -5,7 +5,7 @@ tags: ["Explained", "Theme", "Theme"]
 date: 2026-03-29
 ---
 
-!HanhPhuc_0.png
+![](/posts/HanhPhuc_0.png)
 
 
 Khi Gotham còn đang vỡ bờ, hỗn loạn giữa hàng đống những hậu quả do The Joker, Rachel đã viết một bức thư gửi đến cho Bruce Wayne, mà mãi mãi chàng kỵ sĩ bóng đêm sẽ chẳng bao giờ biết được sự tồn tại của nó. Trong những dòng thư đầy tình cảm ấy, Rachel thừa nhận, Bruce sẽ mãi và mãi mãi tồn tại trong trái tim của bản thân mình như người cô yêu nhất.
