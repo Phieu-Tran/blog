@@ -7,9 +7,17 @@ export async function getStaticPaths() {
   return games.map(entry => ({ params: { slug: entry.id }, props: { entry } }));
 }
 
+const allPosts = (await getCollection('posts')).filter(p => !p.data.draft);
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 const { title, steam_appid, rating, genre, year, studio, status, platform, playtime_hours, cover, date } = entry.data;
+
+const titleLower = title.toLowerCase();
+const titleWords = titleLower.split(/[\s:,|—]+/).filter(w => w.length > 3);
+const relatedPosts = allPosts.filter(p => {
+  const pt = p.data.title.toLowerCase();
+  return titleWords.some(w => pt.includes(w)) || pt.includes(titleLower);
+});
 
 const scoreColor = rating >= 9 ? '#34D399' : rating >= 7 ? '#FBBF24' : rating >= 5 ? '#FB923C' : '#EF4444';
 const scoreLabel = rating >= 9 ? 'AMAZING' : rating >= 8 ? 'GREAT' : rating >= 7 ? 'GOOD' : rating >= 5 ? 'OKAY' : 'BAD';
@@ -112,4 +120,25 @@ const ignSearchUrl = `https://www.ign.com/search?q=${encodeURIComponent(title)}`
       )}
     </div>
   </div>
+
+  {relatedPosts.length > 0 && (
+    <section style="margin-top: 40px;">
+      <p class="section-label">Bài viết liên quan</p>
+      <hr class="section-divider" />
+      <div class="post-list">
+        {relatedPosts.map(post => (
+          <a href={`${import.meta.env.BASE_URL}posts/${post.id}/`} class="post-card">
+            <p class="post-title">{post.data.title}</p>
+            {post.data.description && <p class="post-desc">{post.data.description}</p>}
+            <div class="post-meta">
+              <span>{new Date(post.data.date).toLocaleDateString('vi-VN')}</span>
+              {post.data.tags?.map(tag => (
+                <span class="post-tag">{tag}</span>
+              ))}
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
 </BaseLayout>

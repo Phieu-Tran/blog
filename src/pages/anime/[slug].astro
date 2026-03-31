@@ -7,8 +7,17 @@ export async function getStaticPaths() {
   return anime.map(entry => ({ params: { slug: entry.id }, props: { entry } }));
 }
 
+const allPosts = (await getCollection('posts')).filter(p => !p.data.draft);
 const { entry } = Astro.props;
 const { title, mal_id, rating, mal_score, genre, year, studio, status, episodes_watched, episodes_total, episodes, cover, updated_at, date } = entry.data;
+
+// Match related posts — check if post title contains this anime's title
+const titleLower = title.toLowerCase();
+const titleWords = titleLower.split(/[\s:,|—]+/).filter(w => w.length > 3);
+const relatedPosts = allPosts.filter(p => {
+  const pt = p.data.title.toLowerCase();
+  return titleWords.some(w => pt.includes(w)) || pt.includes(titleLower);
+});
 const lastUpdated = updated_at || date;
 const myStars = Math.round(rating / 2);
 const malStars = Math.round((mal_score || 0) / 2);
@@ -125,4 +134,26 @@ const statusColors: Record<string, string> = {
       )}
     </div>
   </div>
+
+  {/* Related Posts */}
+  {relatedPosts.length > 0 && (
+    <section style="margin-top: 40px;">
+      <p class="section-label">Bài viết liên quan</p>
+      <hr class="section-divider" />
+      <div class="post-list">
+        {relatedPosts.map(post => (
+          <a href={`${import.meta.env.BASE_URL}posts/${post.id}/`} class="post-card">
+            <p class="post-title">{post.data.title}</p>
+            {post.data.description && <p class="post-desc">{post.data.description}</p>}
+            <div class="post-meta">
+              <span>{new Date(post.data.date).toLocaleDateString('vi-VN')}</span>
+              {post.data.tags?.map(tag => (
+                <span class="post-tag">{tag}</span>
+              ))}
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
 </BaseLayout>

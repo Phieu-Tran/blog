@@ -7,8 +7,16 @@ export async function getStaticPaths() {
   return films.map(entry => ({ params: { slug: entry.id }, props: { entry } }));
 }
 
+const allPosts = (await getCollection('posts')).filter(p => !p.data.draft);
 const { entry } = Astro.props;
 const { title, imdb_id, tmdb_id, rating, imdb_score, tmdb_score, genre, year, director, status, cover, date } = entry.data;
+
+const titleLower = title.toLowerCase();
+const titleWords = titleLower.split(/[\s:,|—]+/).filter(w => w.length > 3);
+const relatedPosts = allPosts.filter(p => {
+  const pt = p.data.title.toLowerCase();
+  return titleWords.some(w => pt.includes(w)) || pt.includes(titleLower);
+});
 const myStars = Math.round(rating / 2);
 const imdbStars = Math.round((imdb_score || 0) / 2);
 const tmdbStars = Math.round((tmdb_score || 0) / 2);
@@ -115,4 +123,25 @@ const tmdbUrl = tmdb_id
       )}
     </div>
   </div>
+
+  {relatedPosts.length > 0 && (
+    <section style="margin-top: 40px;">
+      <p class="section-label">Bài viết liên quan</p>
+      <hr class="section-divider" />
+      <div class="post-list">
+        {relatedPosts.map(post => (
+          <a href={`${import.meta.env.BASE_URL}posts/${post.id}/`} class="post-card">
+            <p class="post-title">{post.data.title}</p>
+            {post.data.description && <p class="post-desc">{post.data.description}</p>}
+            <div class="post-meta">
+              <span>{new Date(post.data.date).toLocaleDateString('vi-VN')}</span>
+              {post.data.tags?.map(tag => (
+                <span class="post-tag">{tag}</span>
+              ))}
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
 </BaseLayout>
