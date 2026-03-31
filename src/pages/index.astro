@@ -36,6 +36,20 @@ const featured = [
   ...topFilms.map(f => ({ ...f.data, slug: f.id, type: 'film' as const, collection: 'films' })),
 ].sort((a, b) => b.rating - a.rating);
 
+// Cover crowd — pick covers for the scatter effect
+// Mix of top-rated + recent, deduplicated, only those with covers
+const crowdPool = [...allMedia.filter(m => m.cover)];
+// Shuffle deterministically by taking every Nth item
+const crowdCovers: { cover: string; type: string }[] = [];
+const seen = new Set<string>();
+for (const item of crowdPool) {
+  if (crowdCovers.length >= 24) break;
+  if (!seen.has(item.cover!)) {
+    seen.add(item.cover!);
+    crowdCovers.push({ cover: item.cover!, type: item.type });
+  }
+}
+
 const base = import.meta.env.BASE_URL;
 ---
 
@@ -67,6 +81,36 @@ const base = import.meta.env.BASE_URL;
       </div>
     </div>
   </section>
+
+  {/* Cover crowd — scatters on scroll like Mirofish */}
+  <div class="crowd-wrapper" aria-hidden="true">
+    <div class="crowd-band">
+      {/* Back row — blurred, smaller */}
+      <div class="crowd-row crowd-back">
+        {crowdCovers.slice(0, 12).map((item, i) => (
+          <div class="crowd-item"
+            data-speed={0.3 + (i % 3) * 0.15}
+            data-dir={i < 6 ? 'left' : 'right'}
+            style={`--crowd-y: ${-8 + (i % 4) * 6}px;`}>
+            <img src={item.cover} alt="" loading="lazy" />
+          </div>
+        ))}
+      </div>
+      {/* Front row — sharp, larger */}
+      <div class="crowd-row crowd-front">
+        {crowdCovers.slice(12, 24).map((item, i) => (
+          <div class="crowd-item"
+            data-speed={0.5 + (i % 3) * 0.2}
+            data-dir={i < 6 ? 'left' : 'right'}
+            style={`--crowd-y: ${-4 + (i % 3) * 8}px;`}>
+            <img src={item.cover} alt="" loading="lazy" />
+          </div>
+        ))}
+      </div>
+    </div>
+    {/* Gradient fade to content */}
+    <div class="crowd-fade"></div>
+  </div>
 
   {/* Currently active */}
   {active.length > 0 && (

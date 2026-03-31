@@ -98,6 +98,30 @@ const pageTitle = title === 'mediaVault' ? 'mediaVault' : `${title} — mediaVau
         reveals.forEach(el => observer.observe(el));
       }
 
+      // Cover crowd scatter — driven by scroll position
+      const crowdItems = document.querySelectorAll('.crowd-item');
+      const crowdWrapper = document.querySelector('.crowd-wrapper');
+      if (crowdItems.length && crowdWrapper) {
+        const onScroll = () => {
+          const rect = crowdWrapper.getBoundingClientRect();
+          const wh = window.innerHeight;
+          // progress: 0 when crowd is in view, 1 when scrolled past
+          const progress = Math.max(0, Math.min(1, -rect.top / (rect.height + 100)));
+
+          crowdItems.forEach(item => {
+            const el = item as HTMLElement;
+            const speed = parseFloat(el.dataset.speed || '0.5');
+            const dir = el.dataset.dir === 'left' ? -1 : 1;
+            const distance = progress * speed * window.innerWidth * 0.8;
+            const fade = Math.max(0, 1 - progress * 1.5);
+            el.style.transform = `translateX(${dir * distance}px) translateY(${el.style.getPropertyValue('--crowd-y') || '0px'})`;
+            el.style.opacity = String(fade);
+          });
+        };
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll(); // initial position
+      }
+
       // Counter animation — counts from 0 to data-count
       const counters = document.querySelectorAll('[data-count]');
       if (counters.length) {
