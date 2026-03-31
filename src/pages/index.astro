@@ -36,33 +36,32 @@ const featured = [
   ...topFilms.map(f => ({ ...f.data, slug: f.id, type: 'film' as const, collection: 'films' })),
 ].sort((a, b) => b.rating - a.rating);
 
-const totalMedia = allAnime.length + allGames.length + allFilms.length;
 const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout activeNav="home">
-  {/* Hero */}
+  {/* Hero — visible immediately, no reveal */}
   <section class="hero">
     <h1 class="hero-title">mediaVault</h1>
     <p class="hero-tagline">Anime, games, films — all in one place.</p>
     <div class="stats-grid-hero">
-      <div class="stat-hero">
-        <p class="stat-hero-number" style="color: var(--anime-color);">{allAnime.length}</p>
+      <div class="stat-hero reveal">
+        <p class="stat-hero-number" data-count={allAnime.length} style="color: var(--anime-color);">0</p>
         <p class="stat-hero-label">Anime</p>
         <div class="stat-hero-bar" style={`background: var(--anime-color);`}></div>
       </div>
-      <div class="stat-hero">
-        <p class="stat-hero-number" style="color: var(--game-color);">{allGames.length}</p>
+      <div class="stat-hero reveal">
+        <p class="stat-hero-number" data-count={allGames.length} style="color: var(--game-color);">0</p>
         <p class="stat-hero-label">Games</p>
         <div class="stat-hero-bar" style={`background: var(--game-color);`}></div>
       </div>
-      <div class="stat-hero">
-        <p class="stat-hero-number" style="color: var(--film-color);">{allFilms.length}</p>
+      <div class="stat-hero reveal">
+        <p class="stat-hero-number" data-count={allFilms.length} style="color: var(--film-color);">0</p>
         <p class="stat-hero-label">Films</p>
         <div class="stat-hero-bar" style={`background: var(--film-color);`}></div>
       </div>
-      <div class="stat-hero">
-        <p class="stat-hero-number" style="color: var(--post-color);">{allPosts.length}</p>
+      <div class="stat-hero reveal">
+        <p class="stat-hero-number" data-count={allPosts.length} style="color: var(--post-color);">0</p>
         <p class="stat-hero-label">Posts</p>
         <div class="stat-hero-bar" style={`background: var(--post-color);`}></div>
       </div>
@@ -71,14 +70,14 @@ const base = import.meta.env.BASE_URL;
 
   {/* Currently active */}
   {active.length > 0 && (
-    <section style="margin-bottom: 32px;">
+    <section class="reveal" style="margin-bottom: 32px;">
       <p class="section-label">Now active</p>
       <hr class="section-divider" />
-      <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+      <div class="stagger-children" style="display: flex; gap: 10px; flex-wrap: wrap;">
         {active.map(item => (
           <a href={`${base}${item.collection}/${item.slug}/`}
-            class="active-item"
-            style="display:flex;align-items:center;gap:10px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:10px;padding:8px 14px 8px 8px;flex:1 1 200px;transition:all 0.2s;">
+            class="active-item reveal"
+            style="display:flex;align-items:center;gap:10px;border-radius:10px;padding:8px 14px 8px 8px;flex:1 1 200px;transition:all 0.2s;">
             {item.cover && <img src={item.cover} alt="" style="width:36px;height:50px;object-fit:cover;border-radius:6px;" />}
             <div>
               <p style="font-size:13px;font-weight:600;margin:0;">{item.title}</p>
@@ -93,14 +92,13 @@ const base = import.meta.env.BASE_URL;
   )}
 
   {/* Featured picks */}
-  <section style="margin-bottom: 32px;">
+  <section class="reveal" style="margin-bottom: 32px;">
     <p class="section-label">Top rated</p>
     <hr class="section-divider" />
-    <div class="featured-grid">
-      {featured.map((item, i) => (
+    <div class="featured-grid stagger-children">
+      {featured.map((item) => (
         <a href={`${base}${item.collection}/${item.slug}/`}
-          class="featured-card" data-type={item.type}
-          style={`animation-delay: ${i * 0.06}s`}>
+          class="featured-card reveal" data-type={item.type}>
           {item.cover && <img src={item.cover} alt="" class="featured-cover" loading="lazy" />}
           <div class="featured-info">
             <p class="featured-title">{item.title}</p>
@@ -119,12 +117,12 @@ const base = import.meta.env.BASE_URL;
 
   {/* Recent posts */}
   {recentPosts.length > 0 && (
-    <section style="margin-bottom: 32px;">
+    <section class="reveal" style="margin-bottom: 32px;">
       <p class="section-label">Latest posts</p>
       <hr class="section-divider" />
-      <div class="post-list">
-        {recentPosts.map((post, i) => (
-          <a href={`${base}posts/${post.id}/`} class="post-card" style={`animation-delay: ${i * 0.06}s`}>
+      <div class="post-list stagger-children">
+        {recentPosts.map((post) => (
+          <a href={`${base}posts/${post.id}/`} class="post-card reveal">
             <p class="post-title">{post.data.title}</p>
             {post.data.description && <p class="post-desc">{post.data.description}</p>}
             <div class="post-meta">
@@ -140,10 +138,10 @@ const base = import.meta.env.BASE_URL;
   )}
 
   {/* Recent media */}
-  <section>
+  <section class="reveal">
     <p class="section-label">Recently added</p>
     <hr class="section-divider" />
-    <div class="media-grid">
+    <div class="media-grid stagger-children">
       {recent.map((item, i) => (
         <MediaCard
           title={item.title}

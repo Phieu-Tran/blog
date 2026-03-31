@@ -21,7 +21,7 @@ const statusLabels: Record<string, string> = {
 };
 ---
 
-<a href={`${base}${typeMap[type]}/${slug}/`} class="media-card" style={`animation-delay: ${index * 0.06}s`}>
+<a href={`${base}${typeMap[type]}/${slug}/`} class="media-card reveal">
   <div class="card-cover">
     {cover && <img src={cover} alt={title} loading="lazy" />}
     <div class="gradient-overlay"></div>
