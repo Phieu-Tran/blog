@@ -1,4 +1,4 @@
-# mediaVault — Personal Media Hub
+# Phieu.work — Personal Media Hub
 
 A personal media tracking blog built with Astro. Aggregates anime (MAL), films (IMDB/TMDB), games (Steam/IGN), and blog posts from Obsidian. Auto-syncs weekly, deployed on Cloudflare Pages.
 

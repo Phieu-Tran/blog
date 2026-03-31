@@ -469,7 +469,7 @@ async function buildCheck() {
 // ============================================
 async function main() {
   console.clear();
-  printHeader('mediaVault — SYNC ALL', COLORS.cyan);
+  printHeader('Phieu.work — SYNC ALL', COLORS.cyan);
 
   const startTime = Date.now();
   const results = [];
