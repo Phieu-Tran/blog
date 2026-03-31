@@ -8,14 +8,14 @@ interface Props {
   activeNav?: string;
 }
 const {
-  title = 'mediaVault',
-  description = 'Blog cá nhân tập hợp review game, anime, film',
+  title = 'Phieu.work',
+  description = 'Anime, games, films — all in one place',
   image,
   activeNav = 'home'
 } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const pageTitle = title === 'mediaVault' ? 'mediaVault' : `${title} — mediaVault`;
+const pageTitle = title === 'Phieu.work' ? 'Phieu.work' : `${title} — Phieu.work`;
 ---
 <!DOCTYPE html>
 <html lang="vi">
@@ -45,8 +45,23 @@ const pageTitle = title === 'mediaVault' ? 'mediaVault' : `${title} — mediaVau
   <nav class="nav">
     <div class="nav-logo">
       <a href={base} style="display:flex;align-items:center;gap:10px;">
-        <div class="nav-logo-icon">M</div>
-        <span class="nav-logo-text">mediaVault</span>
+        <svg class="nav-logo-svg" width="30" height="30" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="nav-g" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#A78BFA"/>
+              <stop offset="50%" stop-color="#34D399"/>
+              <stop offset="100%" stop-color="#FB923C"/>
+            </linearGradient>
+          </defs>
+          <rect x="3" y="4" width="26" height="18" rx="3" stroke="url(#nav-g)" stroke-width="2"/>
+          <line x1="16" y1="22" x2="16" y2="26" stroke="url(#nav-g)" stroke-width="2" stroke-linecap="round"/>
+          <line x1="11" y1="26" x2="21" y2="26" stroke="url(#nav-g)" stroke-width="2" stroke-linecap="round"/>
+          <polygon points="13,9 13,17 20,13" fill="url(#nav-g)" opacity="0.9"/>
+          <rect x="22" y="7" width="2" height="2" rx="0.5" fill="#A78BFA" opacity="0.6"/>
+          <rect x="22" y="11" width="2" height="2" rx="0.5" fill="#34D399" opacity="0.6"/>
+          <rect x="22" y="15" width="2" height="2" rx="0.5" fill="#FB923C" opacity="0.6"/>
+        </svg>
+        <span class="nav-logo-text">Phieu.work</span>
       </a>
     </div>
     <button class="nav-toggle" aria-label="Menu">
@@ -68,7 +83,7 @@ const pageTitle = title === 'mediaVault' ? 'mediaVault' : `${title} — mediaVau
 
   <footer style="border-top: 1px solid rgba(255,255,255,0.06); padding: 16px 24px; text-align: center;">
     <p style="font-size: 11px; color: rgba(255,255,255,0.2); font-family: 'Space Mono', monospace;">
-      mediaVault — powered by Obsidian + Astro
+      Phieu.work — powered by Obsidian + Astro
     </p>
   </footer>
 

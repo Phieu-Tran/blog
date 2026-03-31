@@ -1,10 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <defs>
     <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#A78BFA"/>
-      <stop offset="100%" style="stop-color:#34D399"/>
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="50%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#FB923C"/>
     </linearGradient>
   </defs>
-  <rect width="32" height="32" rx="8" fill="url(#g)"/>
-  <text x="16" y="22" text-anchor="middle" fill="#0a0a14" font-family="sans-serif" font-weight="700" font-size="18">M</text>
+  <!-- Monitor frame -->
+  <rect x="3" y="4" width="26" height="18" rx="3" fill="none" stroke="url(#g)" stroke-width="2"/>
+  <!-- Monitor stand -->
+  <line x1="16" y1="22" x2="16" y2="26" stroke="url(#g)" stroke-width="2" stroke-linecap="round"/>
+  <line x1="11" y1="26" x2="21" y2="26" stroke="url(#g)" stroke-width="2" stroke-linecap="round"/>
+  <!-- Play triangle inside screen -->
+  <polygon points="13,9 13,17 20,13" fill="url(#g)" opacity="0.9"/>
+  <!-- Film strip marks on right side of screen -->
+  <rect x="22" y="7" width="2" height="2" rx="0.5" fill="#A78BFA" opacity="0.6"/>
+  <rect x="22" y="11" width="2" height="2" rx="0.5" fill="#34D399" opacity="0.6"/>
+  <rect x="22" y="15" width="2" height="2" rx="0.5" fill="#FB923C" opacity="0.6"/>
 </svg>

@@ -188,11 +188,12 @@ a { color: inherit; text-decoration: none; }
 .nav-logo {
   display: flex; align-items: center; gap: 10px;
 }
-.nav-logo-icon {
-  width: 28px; height: 28px; border-radius: 8px;
-  background: linear-gradient(135deg, #A78BFA, #34D399);
-  display: flex; align-items: center; justify-content: center;
-  font-size: 12px; font-weight: 700; color: #0a0a14;
+.nav-logo-svg {
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+.nav-logo a:hover .nav-logo-svg {
+  transform: scale(1.1);
 }
 .nav-logo-text {
   font-family: 'Space Mono', monospace;
