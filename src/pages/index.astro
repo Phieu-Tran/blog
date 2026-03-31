@@ -36,25 +36,47 @@ const featured = [
   ...topFilms.map(f => ({ ...f.data, slug: f.id, type: 'film' as const, collection: 'films' })),
 ].sort((a, b) => b.rating - a.rating);
 
-// Cover crowd — pick covers for the scatter effect
-// Mix of top-rated + recent, deduplicated, only those with covers
-const crowdPool = [...allMedia.filter(m => m.cover)];
-// Shuffle deterministically by taking every Nth item
-const crowdCovers: { cover: string; type: string }[] = [];
-const seen = new Set<string>();
-for (const item of crowdPool) {
-  if (crowdCovers.length >= 24) break;
-  if (!seen.has(item.cover!)) {
-    seen.add(item.cover!);
-    crowdCovers.push({ cover: item.cover!, type: item.type });
-  }
-}
+// ─── Handpicked crowd covers ───
+// Back row: anime + film + game covers (smaller, blurred)
+const crowdBack = [
+  { cover: 'https://cdn.myanimelist.net/images/anime/2/73862.jpg', label: 'Mushi-Shi' },
+  { cover: 'https://cdn.myanimelist.net/images/anime/1208/94745.jpg', label: 'FMA:B' },
+  { cover: 'https://cdn.myanimelist.net/images/anime/4/19644.jpg', label: 'Cowboy Bebop' },
+  { cover: 'https://cdn.myanimelist.net/images/anime/1314/108941.jpg', label: 'Evangelion' },
+  { cover: 'https://cdn.myanimelist.net/images/anime/4/75509.jpg', label: 'Another' },
+  { cover: 'https://image.tmdb.org/t/p/w500/yQvGrMoipbRoddT0ZR8tPoR7NfX.jpg', label: 'Interstellar' },
+  { cover: 'https://image.tmdb.org/t/p/w500/gDzOcq0pfeCeqMBwKIJlSmQpjkZ.jpg', label: 'Dune' },
+  { cover: 'https://image.tmdb.org/t/p/w500/191nKfP0ehp3uIvWqgPbFmI4lv9.jpg', label: 'Se7en' },
+  { cover: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co2a23.jpg', label: 'Sekiro' },
+  { cover: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co95gk.jpg', label: 'Elden Ring' },
+  { cover: 'https://images.igdb.com/igdb/image/upload/t_cover_big/co2wn5.jpg', label: 'RE4' },
+  { cover: 'https://steamcdn-a.akamaihd.net/steam/apps/632470/header.jpg', label: 'Disco Elysium' },
+  { cover: 'https://images.igdb.com/igdb/image/upload/t_cover_big/cob9k6.jpg', label: 'FF7 Rebirth' },
+];
+
+// Front row: character images (sharp, larger, prominent)
+// Put YOUR character PNG/WebP files in public/crowd/
+const crowdFront = [
+  { cover: `${import.meta.env.BASE_URL}crowd/leon.webp`, label: 'Leon S. Kennedy' },
+  { cover: `${import.meta.env.BASE_URL}crowd/ada-wong.webp`, label: 'Ada Wong' },
+  { cover: `${import.meta.env.BASE_URL}crowd/joker.webp`, label: 'The Joker' },
+  { cover: `${import.meta.env.BASE_URL}crowd/knight.webp`, label: 'The Knight' },
+  { cover: `${import.meta.env.BASE_URL}crowd/hornet.webp`, label: 'Hornet' },
+];
+
+// Personal links
+const socials = [
+  { name: 'GitHub', url: 'https://github.com/Phieu-Tran', icon: 'github' },
+  { name: 'Instagram', url: 'https://instagram.com/', icon: 'instagram' },
+  { name: 'Facebook', url: 'https://facebook.com/', icon: 'facebook' },
+  { name: 'LinkedIn', url: 'https://linkedin.com/in/', icon: 'linkedin' },
+];
 
 const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout activeNav="home">
-  {/* Hero — visible immediately, no reveal */}
+  {/* Hero */}
   <section class="hero">
     <h1 class="hero-title">Phieu.work</h1>
     <p class="hero-tagline">Anime, games, films — all in one place.</p>
@@ -82,33 +104,33 @@ const base = import.meta.env.BASE_URL;
     </div>
   </section>
 
-  {/* Cover crowd — scatters on scroll like Mirofish */}
+  {/* Cover crowd — handpicked, scatters on scroll */}
   <div class="crowd-wrapper" aria-hidden="true">
     <div class="crowd-band">
-      {/* Back row — blurred, smaller */}
+      {/* Back row — media covers, blurred, smaller */}
       <div class="crowd-row crowd-back">
-        {crowdCovers.slice(0, 12).map((item, i) => (
+        {crowdBack.map((item, i) => (
           <div class="crowd-item"
-            data-speed={0.3 + (i % 3) * 0.15}
-            data-dir={i < 6 ? 'left' : 'right'}
-            style={`--crowd-y: ${-8 + (i % 4) * 6}px;`}>
-            <img src={item.cover} alt="" loading="lazy" />
+            data-speed={0.3 + (i % 4) * 0.12}
+            data-dir={i < Math.ceil(crowdBack.length / 2) ? 'left' : 'right'}
+            style={`--crowd-y: ${-8 + (i % 4) * 5}px;`}>
+            <img src={item.cover} alt={item.label} loading="lazy" />
           </div>
         ))}
       </div>
-      {/* Front row — sharp, larger */}
+      {/* Front row — characters, sharp, larger, prominent */}
       <div class="crowd-row crowd-front">
-        {crowdCovers.slice(12, 24).map((item, i) => (
-          <div class="crowd-item"
-            data-speed={0.5 + (i % 3) * 0.2}
-            data-dir={i < 6 ? 'left' : 'right'}
-            style={`--crowd-y: ${-4 + (i % 3) * 8}px;`}>
-            <img src={item.cover} alt="" loading="lazy" />
+        {crowdFront.map((item, i) => (
+          <div class="crowd-item crowd-character"
+            data-speed={0.4 + (i % 3) * 0.2}
+            data-dir={i < Math.ceil(crowdFront.length / 2) ? 'left' : 'right'}
+            style={`--crowd-y: 0px;`}>
+            <img src={item.cover} alt={item.label} loading="lazy" />
+            <span class="crowd-label">{item.label}</span>
           </div>
         ))}
       </div>
     </div>
-    {/* Gradient fade to content */}
     <div class="crowd-fade"></div>
   </div>
 
@@ -182,7 +204,7 @@ const base = import.meta.env.BASE_URL;
   )}
 
   {/* Recent media */}
-  <section class="reveal">
+  <section class="reveal" style="margin-bottom: 48px;">
     <p class="section-label">Recently added</p>
     <hr class="section-divider" />
     <div class="media-grid stagger-children">
@@ -199,6 +221,71 @@ const base = import.meta.env.BASE_URL;
           index={i}
         />
       ))}
+    </div>
+  </section>
+
+  {/* ─── Projects & Links ─── */}
+  <section class="reveal" style="margin-bottom: 48px;">
+    <p class="section-label">Projects</p>
+    <hr class="section-divider" />
+    <div class="projects-grid stagger-children">
+      <a href="https://github.com/Phieu-Tran" class="project-card reveal" target="_blank" rel="noopener">
+        <div class="project-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+          </svg>
+        </div>
+        <div>
+          <p class="project-title">Phieu.work</p>
+          <p class="project-desc">Personal media hub — anime, games, films tracker</p>
+        </div>
+        <span class="badge badge-game" style="margin-left:auto;">Live</span>
+      </a>
+      <a href="https://github.com/Phieu-Tran" class="project-card reveal" target="_blank" rel="noopener">
+        <div class="project-icon" style="color: var(--post-color);">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="9" y="2" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="16" y="16" width="6" height="6" rx="1"/>
+            <line x1="12" y1="8" x2="12" y2="13"/><line x1="5" y1="16" x2="12" y2="13"/><line x1="19" y1="16" x2="12" y2="13"/>
+          </svg>
+        </div>
+        <div>
+          <p class="project-title">ClipPaste</p>
+          <p class="project-desc">Clipboard manager tool</p>
+        </div>
+        <span class="badge badge-anime" style="margin-left:auto;">WIP</span>
+      </a>
+    </div>
+  </section>
+
+  {/* ─── Social links ─── */}
+  <section class="reveal" style="margin-bottom: 32px;">
+    <p class="section-label">Connect</p>
+    <hr class="section-divider" />
+    <div class="socials-row">
+      <a href="https://github.com/Phieu-Tran" class="social-link" target="_blank" rel="noopener" title="GitHub">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+        </svg>
+        <span>GitHub</span>
+      </a>
+      <a href="https://instagram.com/" class="social-link" target="_blank" rel="noopener" title="Instagram">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/>
+        </svg>
+        <span>Instagram</span>
+      </a>
+      <a href="https://facebook.com/" class="social-link" target="_blank" rel="noopener" title="Facebook">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+        </svg>
+        <span>Facebook</span>
+      </a>
+      <a href="https://linkedin.com/in/" class="social-link" target="_blank" rel="noopener" title="LinkedIn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+        <span>LinkedIn</span>
+      </a>
     </div>
   </section>
 </BaseLayout>
