@@ -3,7 +3,7 @@ title: "Middle-earth™: Shadow of War™"
 steam_appid: 356190
 rating: 0
 genre: "Strategy, Tactical"
-year: 2017
+year: 2026
 studio: "IUGO Mobile Entertainment"
 status: completed
 platform: Steam

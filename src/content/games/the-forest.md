@@ -3,7 +3,7 @@ title: "The Forest"
 steam_appid: 242760
 rating: 0
 genre: "Role-playing (RPG), Adventure, Indie"
-year: 2018
+year: 2026
 studio: "Primary Orbit"
 status: completed
 platform: Steam

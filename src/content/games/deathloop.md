@@ -3,7 +3,7 @@ title: "DEATHLOOP"
 steam_appid: 1252330
 rating: 0
 genre: "Shooter, Adventure"
-year: 2021
+year: 2026
 studio: "Arkane Studios"
 status: completed
 platform: Steam

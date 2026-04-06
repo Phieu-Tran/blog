@@ -3,7 +3,7 @@ title: "Omno"
 steam_appid: 969760
 rating: 0
 genre: "Platform, Puzzle, Adventure, Indie"
-year: 2021
+year: 2026
 studio: "Studio Inkyfox"
 status: plan
 platform: Steam

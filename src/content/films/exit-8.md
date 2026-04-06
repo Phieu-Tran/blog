@@ -9,7 +9,7 @@ year: 2025
 director: "Genki Kawamura"
 status: watched
 date: 2025-11-30
-cover: "https://image.tmdb.org/t/p/w500/9Ge8ErFulzsQcNeExb5ufIcZV5o.jpg"
+cover: "https://image.tmdb.org/t/p/w500/nQXYTvm6AY4WmtcPskroqC7Skh.jpg"
 tmdb_id: 1408208
 ---
 

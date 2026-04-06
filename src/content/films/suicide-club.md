@@ -9,7 +9,7 @@ year: 2001
 director: "Sion Sono"
 status: watched
 date: 2026-03-27
-cover: "https://image.tmdb.org/t/p/w500/pnmP8OdxzzoYskyx7GbO0EGL6Dk.jpg"
+cover: "https://image.tmdb.org/t/p/w500/oMjWlKHzR9cwhf3oCUy9j57o67O.jpg"
 tmdb_id: 12720
 ---
 

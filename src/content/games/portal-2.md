@@ -3,7 +3,7 @@ title: "Portal 2"
 steam_appid: 620
 rating: 0
 genre: "Shooter, Platform, Puzzle"
-year: 2021
+year: 2026
 studio: "PlayStal Games"
 status: completed
 platform: Steam

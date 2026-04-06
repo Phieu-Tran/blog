@@ -4,7 +4,7 @@ imdb_id: tt31050594
 rating: 5
 imdb_score: 6.2
 tmdb_score: 7
-genre: "Phim Khoa Học Viễn Tưởng, Phim Hành Động, Phim Gây Cấn"
+genre: "Phim Khoa Học Viễn Tưởng, Phim Hành Động, Phim Gây Cấn, Phim Hình Sự"
 year: 2026
 director: "Timur Bekmambetov"
 status: watched

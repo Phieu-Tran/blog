@@ -3,7 +3,7 @@ title: "Terraria"
 steam_appid: 105600
 rating: 0
 genre: "Platform, Role-playing (RPG), Simulator, Strategy, Adventure, Indie"
-year: 2011
+year: 2026
 studio: Re-Logic
 status: completed
 platform: Steam

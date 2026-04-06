@@ -4,7 +4,7 @@ imdb_id: tt4712810
 rating: 5
 imdb_score: 5.9
 tmdb_score: 6.5
-genre: "Phim Gây Cấn, Phim Hình Sự"
+genre: "Phim Hình Sự, Phim Gây Cấn"
 year: 2025
 director: "Ruben Fleischer"
 status: watched

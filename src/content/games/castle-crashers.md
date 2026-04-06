@@ -3,7 +3,7 @@ title: "Castle Crashers"
 steam_appid: 204360
 rating: 0
 genre: "Role-playing (RPG), Hack and slash/Beat 'em up, Adventure, Indie"
-year: 2008
+year: 2026
 studio: "The Behemoth"
 status: completed
 platform: Steam

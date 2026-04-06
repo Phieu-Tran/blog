@@ -3,7 +3,7 @@ title: "Deep Rock Galactic"
 steam_appid: 548430
 rating: 0
 genre: "Shooter, Adventure, Indie"
-year: 2020
+year: 2026
 studio: "Ghost Ship Games"
 status: completed
 platform: Steam

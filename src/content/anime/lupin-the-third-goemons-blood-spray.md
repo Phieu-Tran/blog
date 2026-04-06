@@ -9,7 +9,7 @@ status: completed
 episodes: 1
 cover: "https://cdn.myanimelist.net/images/anime/8/83091.jpg"
 date: 2026-03-30
-mal_score: 7.87
+mal_score: 7.88
 episodes_watched: 1
 episodes_total: 1
 updated_at: 2021-01-31

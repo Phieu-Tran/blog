@@ -3,7 +3,7 @@ title: "Sea of Thieves"
 steam_appid: 1172620
 rating: 0
 genre: "Simulator, Adventure"
-year: 2018
+year: 2026
 studio: Rare
 status: completed
 platform: Steam

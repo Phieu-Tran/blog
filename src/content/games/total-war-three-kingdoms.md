@@ -3,7 +3,7 @@ title: "Total War: THREE KINGDOMS"
 steam_appid: 779340
 rating: 0
 genre: Strategy
-year: 2020
+year: 2026
 studio: "CREATIVE ASSEMBLY"
 status: completed
 platform: Steam

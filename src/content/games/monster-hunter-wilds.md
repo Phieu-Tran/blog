@@ -3,7 +3,7 @@ title: "Monster Hunter Wilds"
 steam_appid: 2246340
 rating: 0
 genre: "Role-playing (RPG), Hack and slash/Beat 'em up, Adventure"
-year: 2025
+year: 2026
 studio: Capcom
 status: completed
 platform: Steam

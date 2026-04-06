@@ -3,7 +3,7 @@ title: "Warhammer 40,000: Gladius - Relics of War"
 steam_appid: 489630
 rating: 0
 genre: "Strategy, Turn-based strategy (TBS)"
-year: 2018
+year: 2026
 studio: "Proxy Studios"
 status: plan
 platform: Steam

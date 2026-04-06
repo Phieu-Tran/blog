@@ -4,7 +4,7 @@ imdb_id: tt26443597
 rating: 6
 imdb_score: 7.4
 tmdb_score: 7.6
-genre: "Phim Hoạt Hình, Phim Hài, Phim Phiêu Lưu, Phim Gia Đình, Phim Bí Ẩn"
+genre: "Phim Hoạt Hình, Phim Gia Đình, Phim Bí Ẩn, Phim Phiêu Lưu, Phim Hài"
 year: 2025
 director: "Jared Bush"
 status: watched

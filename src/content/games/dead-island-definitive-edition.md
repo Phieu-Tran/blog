@@ -3,7 +3,7 @@ title: "Dead Island Definitive Edition"
 steam_appid: 383150
 rating: 0
 genre: "Shooter, Hack and slash/Beat 'em up"
-year: 2016
+year: 2026
 studio: Techland
 status: completed
 platform: Steam

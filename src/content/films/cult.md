@@ -9,7 +9,7 @@ year: 2013
 director: "Koji Shiraishi"
 status: watched
 date: 2025-11-30
-cover: "https://image.tmdb.org/t/p/w500/tqSLzhc3f2LqqBd2iNn1hM62JCK.jpg"
+cover: "https://image.tmdb.org/t/p/w500/j2acim7xoRErW4WmzFihmKE0pn8.jpg"
 tmdb_id: 225666
 ---
 

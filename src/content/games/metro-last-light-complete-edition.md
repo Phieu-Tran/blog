@@ -3,7 +3,7 @@ title: "Metro: Last Light Complete Edition"
 steam_appid: 43160
 rating: 0
 genre: Shooter
-year: 2013
+year: 2026
 studio: "4A Games"
 status: plan
 platform: Steam

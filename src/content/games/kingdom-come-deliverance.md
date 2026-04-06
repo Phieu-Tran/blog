@@ -3,7 +3,7 @@ title: "Kingdom Come: Deliverance"
 steam_appid: 379430
 rating: 0
 genre: "Role-playing (RPG), Simulator, Adventure"
-year: 2025
+year: 2026
 studio: "Warhorse Studios"
 status: completed
 platform: Steam

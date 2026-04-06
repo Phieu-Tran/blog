@@ -3,7 +3,7 @@ title: "MONSTER HUNTER RISE"
 steam_appid: 1446780
 rating: 0
 genre: N/A
-year: 2022
+year: 2026
 studio: N/A
 status: completed
 platform: Steam

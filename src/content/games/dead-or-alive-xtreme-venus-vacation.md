@@ -3,7 +3,7 @@ title: "DEAD OR ALIVE Xtreme Venus Vacation"
 steam_appid: 958260
 rating: 0
 genre: Sport
-year: 2017
+year: 2026
 studio: "Team NINJA"
 status: playing
 platform: Steam

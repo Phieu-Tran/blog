@@ -3,7 +3,7 @@ title: "Goose Goose Duck"
 steam_appid: 1568590
 rating: 0
 genre: Indie
-year: 2020
+year: 2026
 studio: N/A
 status: completed
 platform: Steam

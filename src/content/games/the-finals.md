@@ -3,7 +3,7 @@ title: "THE FINALS"
 steam_appid: 2073850
 rating: 0
 genre: "Role-playing (RPG), Adventure"
-year: 2007
+year: 2026
 studio: "Matrix Software"
 status: playing
 platform: Steam

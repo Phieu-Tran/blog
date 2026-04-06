@@ -3,7 +3,7 @@ title: "Don't Starve Together"
 steam_appid: 322330
 rating: 0
 genre: "Simulator, Strategy, Adventure, Indie"
-year: 2016
+year: 2026
 studio: "Klei Entertainment"
 status: completed
 platform: Steam

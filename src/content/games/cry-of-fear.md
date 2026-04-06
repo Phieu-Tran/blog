@@ -3,7 +3,7 @@ title: "Cry of Fear"
 steam_appid: 223710
 rating: 0
 genre: "Shooter, Adventure, Indie"
-year: 2013
+year: 2026
 studio: "Team Psykskallar"
 status: playing
 platform: Steam

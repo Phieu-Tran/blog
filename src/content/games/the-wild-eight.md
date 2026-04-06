@@ -3,7 +3,7 @@ title: "The Wild Eight"
 steam_appid: 526160
 rating: 0
 genre: "Role-playing (RPG), Simulator, Adventure, Indie"
-year: 2018
+year: 2026
 studio: Fntastic
 status: completed
 platform: Steam

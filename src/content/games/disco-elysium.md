@@ -3,7 +3,7 @@ title: "Disco Elysium"
 steam_appid: 632470
 rating: 0
 genre: "Role-playing (RPG), Adventure"
-year: 2020
+year: 2026
 studio: Colin
 status: completed
 platform: Steam

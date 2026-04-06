@@ -3,7 +3,7 @@ title: "The Lord of the Rings Online™"
 steam_appid: 212500
 rating: 0
 genre: "Role-playing (RPG), Adventure"
-year: 2007
+year: 2026
 studio: "Standing Stone Games"
 status: playing
 platform: Steam

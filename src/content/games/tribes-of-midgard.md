@@ -3,7 +3,7 @@ title: "Tribes of Midgard"
 steam_appid: 858820
 rating: 0
 genre: "Fighting, Role-playing (RPG), Adventure, Indie"
-year: 2021
+year: 2026
 studio: Norsfell
 status: completed
 platform: Steam

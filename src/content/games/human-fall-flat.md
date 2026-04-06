@@ -3,7 +3,7 @@ title: "Human Fall Flat"
 steam_appid: 477160
 rating: 0
 genre: "Platform, Puzzle, Simulator, Adventure, Indie"
-year: 2016
+year: 2026
 studio: "No Brakes Games"
 status: completed
 platform: Steam

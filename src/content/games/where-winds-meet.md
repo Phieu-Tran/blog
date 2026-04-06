@@ -3,7 +3,7 @@ title: "Where Winds Meet"
 steam_appid: 3564740
 rating: 0
 genre: "Role-playing (RPG), Adventure"
-year: 2024
+year: 2026
 studio: "Everstone Studio"
 status: completed
 platform: Steam

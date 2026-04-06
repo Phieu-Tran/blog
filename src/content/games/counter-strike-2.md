@@ -3,7 +3,7 @@ title: "Counter-Strike 2"
 steam_appid: 730
 rating: 0
 genre: "Shooter, Tactical"
-year: 2023
+year: 2026
 studio: Valve
 status: completed
 platform: Steam

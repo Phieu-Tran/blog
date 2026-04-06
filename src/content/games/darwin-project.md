@@ -3,7 +3,7 @@ title: "Darwin Project"
 steam_appid: 544920
 rating: 0
 genre: Indie
-year: 2020
+year: 2026
 studio: "Scavengers Studio"
 status: playing
 platform: Steam

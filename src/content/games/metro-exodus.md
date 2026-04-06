@@ -3,7 +3,7 @@ title: "Metro Exodus"
 steam_appid: 412020
 rating: 0
 genre: "Shooter, Adventure"
-year: 2019
+year: 2026
 studio: "4A Games"
 status: plan
 platform: Steam

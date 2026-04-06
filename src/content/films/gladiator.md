@@ -9,7 +9,7 @@ year: 2000
 director: "Ridley Scott"
 status: watched
 date: 2025-04-25
-cover: "https://image.tmdb.org/t/p/w500/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg"
+cover: "https://image.tmdb.org/t/p/w500/wN2xWp1eIwCKOD0BHTcErTBv1Uq.jpg"
 tmdb_id: 98
 ---
 

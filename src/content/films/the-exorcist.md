@@ -4,7 +4,7 @@ imdb_id: tt0070047
 rating: 9
 imdb_score: 8.1
 tmdb_score: 7.7
-genre: "Phim Kinh Dị"
+genre: "Phim Kinh Dị, Phim Chính Kịch"
 year: 1973
 director: "William Friedkin"
 status: watched

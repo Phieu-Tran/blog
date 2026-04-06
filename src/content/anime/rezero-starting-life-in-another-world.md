@@ -9,7 +9,7 @@ status: completed
 episodes: 25
 cover: "https://cdn.myanimelist.net/images/anime/1522/128039.jpg"
 date: 2026-03-30
-mal_score: 8.24
+mal_score: 8.25
 episodes_watched: 25
 episodes_total: 25
 updated_at: 2021-01-31

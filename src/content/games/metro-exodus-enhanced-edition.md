@@ -3,7 +3,7 @@ title: "Metro Exodus Enhanced Edition"
 steam_appid: 1449560
 rating: 0
 genre: "Shooter, Adventure"
-year: 2021
+year: 2026
 studio: "4A Games"
 status: completed
 platform: Steam
