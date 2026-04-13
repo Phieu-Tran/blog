@@ -9,7 +9,7 @@ year: 2001
 director: "Richard Kelly"
 status: watched
 date: 2026-03-16
-cover: "https://image.tmdb.org/t/p/w500/fhQoQfejY1hUcwyuLgpBrYs6uFt.jpg"
+cover: "https://image.tmdb.org/t/p/w500/sv7D4vlfIH25lNjQYoXzoOFCYaz.jpg"
 tmdb_id: 141
 ---
 

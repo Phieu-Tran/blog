@@ -4,7 +4,7 @@ imdb_id: tt9764362
 rating: 7
 imdb_score: 7.2
 tmdb_score: 7.2
-genre: "Phim Hài, Phim Kinh Dị, Phim Gây Cấn"
+genre: "Phim Hài, Phim Kinh Dị"
 year: 2022
 director: "Mark Mylod"
 status: watched

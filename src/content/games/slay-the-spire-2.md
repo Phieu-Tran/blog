@@ -5,7 +5,7 @@ rating: 0
 genre: "Strategy, Indie, Card & Board Game"
 year: 2026
 studio: "Mega Crit Games"
-status: playing
+status: completed
 platform: Steam
 playtime_hours: 58
 cover: "https://steamcdn-a.akamaihd.net/steam/apps/2868840/header.jpg"
