@@ -9,7 +9,7 @@ status: plan
 episodes: 16
 cover: "https://cdn.myanimelist.net/images/anime/3/73527.jpg"
 date: 2026-03-30
-mal_score: 6.74
+mal_score: 6.75
 episodes_watched: 0
 episodes_total: 16
 updated_at: 2021-01-31

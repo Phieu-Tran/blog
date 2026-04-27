@@ -4,7 +4,7 @@ imdb_id: tt34956443
 rating: 7
 imdb_score: 7.9
 tmdb_score: 8.1
-genre: "Phim Hoạt Hình, Phim Giả Tượng, Phim Phiêu Lưu"
+genre: "Phim Hành Động, Phim Phiêu Lưu, Phim Hoạt Hình, Phim Giả Tượng"
 year: 2025
 director: "Jiao Zi"
 status: watched
