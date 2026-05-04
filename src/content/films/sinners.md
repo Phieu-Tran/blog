@@ -9,7 +9,7 @@ year: 2025
 director: "Ryan Coogler"
 status: watched
 date: 2025-12-30
-cover: "https://image.tmdb.org/t/p/w500/705nQHqe4JGdEisrQmVYmXyjs1U.jpg"
+cover: "https://image.tmdb.org/t/p/w500/fWPgbnt2LSqkQ6cdQc0SZN9CpLm.jpg"
 tmdb_id: 1233413
 ---
 

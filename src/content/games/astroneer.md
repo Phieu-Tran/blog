@@ -5,7 +5,7 @@ rating: 0
 genre: N/A
 year: 2026
 studio: N/A
-status: playing
+status: completed
 platform: Steam
 playtime_hours: 15
 cover: "https://steamcdn-a.akamaihd.net/steam/apps/361420/header.jpg"
