@@ -9,7 +9,7 @@ year: 2005
 director: "Vera Glagoleva"
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/sG6GDvy3FmV7gHX2sVr22N5tHUz.jpg"
+cover: "https://image.tmdb.org/t/p/w500/pOOj2JJ9QwdwocXG5kGAnRFJWF1.jpg"
 tmdb_id: 67075
 ---
 

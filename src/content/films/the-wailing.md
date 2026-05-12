@@ -9,7 +9,7 @@ year: 2016
 director: "Na Hong-jin"
 status: watched
 date: 2025-12-13
-cover: "https://image.tmdb.org/t/p/w500/aXlL7yYwpXInhltamtzKQFBG08G.jpg"
+cover: "https://image.tmdb.org/t/p/w500/RbymxgEM5SpDfO2Io2JMFG10Vi.jpg"
 tmdb_id: 293670
 ---
 

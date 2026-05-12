@@ -9,7 +9,7 @@ year: 2003
 director: "Andrew Stanton"
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/eHuGQ10FUzK1mdOY69wF5pGgEf5.jpg"
+cover: "https://image.tmdb.org/t/p/w500/5lc6nQc0VhWFYFbNv016xze8Jvy.jpg"
 tmdb_id: 12
 ---
 
