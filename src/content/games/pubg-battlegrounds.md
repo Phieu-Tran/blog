@@ -5,7 +5,7 @@ rating: 0
 genre: Shooter
 year: 2026
 studio: "PUBG Corp"
-status: playing
+status: completed
 platform: Steam
 playtime_hours: 1615
 cover: "https://steamcdn-a.akamaihd.net/steam/apps/578080/header.jpg"
