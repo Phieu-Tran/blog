@@ -5,7 +5,7 @@ rating: 0
 genre: "Role-playing (RPG), Adventure"
 year: 2026
 studio: Colin
-status: playing
+status: completed
 platform: Steam
 playtime_hours: 36
 cover: "https://steamcdn-a.akamaihd.net/steam/apps/632470/header.jpg"
