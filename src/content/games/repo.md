@@ -7,7 +7,7 @@ year: 2026
 studio: N/A
 status: playing
 platform: Steam
-playtime_hours: 2
+playtime_hours: 17
 cover: "https://steamcdn-a.akamaihd.net/steam/apps/3241660/header.jpg"
 date: 2026-05-26
 ---

@@ -2,7 +2,7 @@
 title: "Kagerou Daze: In a Day's"
 mal_id: 33219
 rating: 8
-genre: "Comedy, Romance, Sci-Fi, Supernatural"
+genre: "Comedy, Romance, Sci-Fi"
 year: 2016
 studio: Jumonji
 status: completed

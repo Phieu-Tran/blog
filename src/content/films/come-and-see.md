@@ -4,7 +4,7 @@ imdb_id: tt0091251
 rating: 7
 imdb_score: 8.3
 tmdb_score: 8.2
-genre: "Phim Chính Kịch, Phim Chiến Tranh"
+genre: "Phim Chính Kịch, Phim Chiến Tranh, Phim Kinh Dị"
 year: 1985
 director: "Elem Klimov"
 status: watched
