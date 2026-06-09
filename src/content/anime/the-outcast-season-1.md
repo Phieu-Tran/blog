@@ -4,7 +4,7 @@ mal_id: 33421
 rating: 8
 genre: "Action, Supernatural"
 year: 2016
-studio: "Namu Animation"
+studio: Pandanium
 status: completed
 episodes: 12
 cover: "https://cdn.myanimelist.net/images/anime/12/80346.jpg"

@@ -9,7 +9,7 @@ status: completed
 episodes: 1
 cover: "https://cdn.myanimelist.net/images/anime/1665/140360.jpg"
 date: 2026-03-30
-mal_score: 8.61
+mal_score: 8.62
 episodes_watched: 1
 episodes_total: 1
 updated_at: 2025-04-28

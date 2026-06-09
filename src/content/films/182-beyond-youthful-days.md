@@ -9,7 +9,7 @@ year: 2024
 director: "Michihito Fujii"
 status: watched
 date: 2025-07-27
-cover: "https://image.tmdb.org/t/p/w500/iIP6QxXC4sJE5yCMTYuP4fAYrEQ.jpg"
+cover: "https://image.tmdb.org/t/p/w500/nt68WTFgtZdLBwpLBF2q7GFq5Fw.jpg"
 tmdb_id: 1188258
 ---
 

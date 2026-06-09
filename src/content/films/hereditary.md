@@ -9,7 +9,7 @@ year: 2018
 director: "Ari Aster"
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/hjlZSXM86wJrfCv5VKfR5DI2VeU.jpg"
+cover: "https://image.tmdb.org/t/p/w500/4GFPuL14eXi66V96xBWY73Y9PfR.jpg"
 tmdb_id: 493922
 ---
 
