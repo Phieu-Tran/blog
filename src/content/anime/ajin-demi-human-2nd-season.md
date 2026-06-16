@@ -7,7 +7,7 @@ year: 2016
 studio: "Polygon Pictures"
 status: completed
 episodes: 13
-cover: "https://cdn.myanimelist.net/images/anime/12/81858.jpg"
+cover: "https://cdn.myanimelist.net/images/anime/1292/157314.jpg"
 date: 2026-03-30
 mal_score: 7.55
 episodes_watched: 13

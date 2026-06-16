@@ -1,5 +1,5 @@
 ---
-title: "Behind the Supermarket, Smoking with You."
+title: "Smoking Behind the Supermarket with You"
 mal_id: 62076
 rating: 0
 genre: "Romance, Seinen"
@@ -8,7 +8,7 @@ studio: "Asahi Production"
 status: plan
 cover: "https://cdn.myanimelist.net/images/anime/1768/156339.jpg"
 date: 2026-03-30
-mal_score: 8.56
+mal_score: 8.59
 episodes_watched: 0
 episodes_total: 0
 updated_at: 2026-01-19

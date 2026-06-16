@@ -9,7 +9,7 @@ year: 2026
 director: "Joe Carnahan"
 status: watched
 date: 2026-01-17
-cover: "https://image.tmdb.org/t/p/w500/eZo31Dhl5BQ6GfbMNf3oU0tUvPZ.jpg"
+cover: "https://image.tmdb.org/t/p/w500/4wsYWH73Hb1B6noGIFaRQSAkuXj.jpg"
 tmdb_id: 1306368
 ---
 
