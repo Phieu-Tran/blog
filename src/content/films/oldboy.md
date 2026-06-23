@@ -4,7 +4,7 @@ imdb_id: tt0364569
 rating: 9
 imdb_score: 8.3
 tmdb_score: 8.2
-genre: "Phim Chính Kịch, Phim Gây Cấn, Phim Bí Ẩn, Phim Hành Động"
+genre: "Phim Gây Cấn, Phim Bí Ẩn"
 year: 2003
 director: "Park Chan-wook"
 status: watched

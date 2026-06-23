@@ -4,7 +4,7 @@ imdb_id: tt0117381
 rating: 8
 imdb_score: 7.7
 tmdb_score: 7.7
-genre: "Phim Hình Sự, Phim Chính Kịch, Phim Bí Ẩn, Phim Gây Cấn"
+genre: "Phim Hình Sự, Phim Chính Kịch, Phim Gây Cấn"
 year: 1996
 director: "Gregory Hoblit"
 status: watched

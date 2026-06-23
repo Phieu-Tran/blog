@@ -9,7 +9,7 @@ year: 2024
 director: "Denis Villeneuve"
 status: watched
 date: 2025-10-15
-cover: "https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg"
+cover: "https://image.tmdb.org/t/p/w500/heM4XKC0jA8fTSNe8F7oUkcJV7Z.jpg"
 tmdb_id: 693134
 ---
 

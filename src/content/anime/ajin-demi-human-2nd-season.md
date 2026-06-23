@@ -1,5 +1,5 @@
 ---
-title: "Ajin: Demi-Human 2nd Season"
+title: "Ajin: Demi-Human Season 2"
 mal_id: 33253
 rating: 8
 genre: "Action, Horror, Mystery, Supernatural, Seinen"
