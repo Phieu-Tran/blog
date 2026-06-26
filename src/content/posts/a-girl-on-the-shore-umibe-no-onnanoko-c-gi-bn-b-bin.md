@@ -45,8 +45,6 @@ Nhưng buồn thay Isobe của chúng ta lại bị cuốn vào một thứ khá
 
 Trái ngược với Isobe thì Koume lại dần dần có tình cảm với cậu…trớ trêu làm sao ! "Cô gái bên bờ biển" đã khơi lên trong Koume sự "ghen" dành cho Isobe, điều này có thể khiến vài người thấy Koume chẳng khác gì một kẻ có tính kiểm soát và có phần trơ trẽn. Đối với cô tới thời điểm đó, Isobe chỉ đơn giản là một thứ để cô thỏa mãn, không có một mối ràng buộc nào cả. Vậy mà giờ cô lại bắt đầu lo về việc người khác nghĩ sai về mối quan hệ giữa hai người, cô cho mình cái quyền được tự ý xóa đi bức ảnh của "cô gái bên bờ biển", cô làm thế để làm gì trong khi cô không có tình cảm với Isobe ? Thực ra là có, Koume đang phải đấu tranh với sự bất ổn của bản thân và có lẽ chính cô cũng cảm thấy có lỗi với Isobe. Cô không muốn bị tổn thương hơn nữa trong một mối quan hệ, Koume vừa muốn hiểu hơn Isobe, lại vừa không thể nói ra cảm xúc của mình. Sự lạc lối ban đầu khiến Koume không thể xác định được cảm xúc của mình dành cho Isobe để rồi khi cô có đủ sự tự tin để nói ra tình cảm của mình thì cũng đã quá muộn. Đây chính là hậu quả của giao kèo sai lầm giữa Koume với Isobe khi đã lợi dụng tình dục để thỏa mãn dục vọng của riêng mình.
 
-![](/posts/Umibe_1.jpg)
-
 ## 2. Tình dục và tình yêu
 
 Tình dục là bản năng căn bản của các loài sinh vật sống. Để tiến hóa chúng ta cần sinh sản và để sinh sản chúng ta cần tình dục. Khoái cảm theo quan điểm của tôi có lẽ là thứ để kích thích 2 cá thể quan hệ với nhau nhằm mục đích cuối cùng là sinh sản duy trì nòi giống. Tuy nhiên chúng ta sẽ không bàn về vấn đề tiến hóa hay sinh sản gì ở đây cả :v Tôi sẽ nói về vấn đề lớn nhất được đặt ra trong UmiOnna đó là mối quan hệ giữa tình dục và tình yêu. Tình dục đem lại cho ta sự khoái cảm hay nói cách khác nó thỏa mãn thể xác ta. Nếu chỉ sự thỏa mãn về thể xác là đủ vậy tại sao ta lại cần có tình yêu ? UmiOnna cho thấy sự đáng sợ của tình dục khi không có tình yêu là như thế nào. Nó vô cùng đau khổ, trống rỗng và vô vị…Kiểu quan hệ gì mà chỉ có động chạm thể xác chứ không được hôn, không được gần gũi ???…Thông qua UmiOnna tôi phần nào nhận thức được rằng tình dục không chỉ đơn giản là "tra khóa vào ổ", nó không hoạt động như thế.
@@ -71,8 +69,6 @@ Biển thì lại khác, nó không giống như mưa, nó không giai giẳng h
 > "Ah…tớ tìm thấy rồi!..."
 > "Cậu có nghe tớ nói gì không thế ?"
 > "Tất nhiên rồi… Nhưng cậu biết đấy… Sau cùng, có một một thứ lớn hơn tất cả…là BIỂN!!"
-
-![](/posts/Umibe_2.jpg)
 
 ## 4. Đôi lời về kết truyện
 

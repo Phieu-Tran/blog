@@ -21,6 +21,7 @@ const FILMS_DIR = path.resolve('src/content/films');
 
 const args = process.argv.slice(2);
 const DRY_RUN = args.includes('--dry-run') || process.env.DRY_RUN === '1';
+const ENRICH_EXISTING = args.includes('--enrich-existing') || process.env.ENRICH_EXISTING === '1';
 const csvPath = args.find(arg => !arg.startsWith('--')) || process.env.IMDB_CSV_PATH || process.env.IMDB_CSV;
 
 const FRONTMATTER_ORDER = [
@@ -282,22 +283,75 @@ function mergeFilmData(existing, imdbData, tmdbData) {
   return merged;
 }
 
+function mergeTmdbData(existing, tmdbData) {
+  const merged = { ...existing.frontmatter };
+
+  for (const [key, value] of Object.entries(tmdbData)) {
+    if (value !== undefined && value !== null && value !== '') merged[key] = value;
+  }
+
+  if (existing.frontmatter.director && existing.frontmatter.director !== 'N/A') {
+    merged.director = existing.frontmatter.director;
+  }
+
+  return merged;
+}
+
 function writeFilm(filePath, data, body) {
   if (DRY_RUN) return;
   fs.writeFileSync(filePath, buildFrontmatter(data) + (body || '\n'));
 }
 
-async function main() {
-  if (!csvPath) {
-    console.error('Missing IMDb CSV path. Pass it as an argument or set IMDB_CSV_PATH.');
+async function enrichExistingFilms() {
+  if (!TMDB_API_KEY) {
+    console.error('Missing TMDB_API_KEY. Existing-film enrichment needs TMDB API access.');
     process.exit(1);
   }
 
-  if (!fs.existsSync(csvPath)) {
-    console.error(`IMDb CSV not found: ${csvPath}`);
-    process.exit(1);
+  const existingFilms = readExistingFilms();
+  let checked = 0;
+  let enriched = 0;
+  let updated = 0;
+  let unchanged = 0;
+  let missing = 0;
+
+  for (const existing of existingFilms.values()) {
+    const { imdb_id, tmdb_type } = existing.frontmatter;
+    if (!imdb_id) continue;
+
+    checked++;
+    const expectedType = tmdb_type === 'tv' ? 'tv' : 'movie';
+    const tmdbData = await findTmdbByImdbId(String(imdb_id), expectedType);
+
+    if (!tmdbData) {
+      missing++;
+      continue;
+    }
+
+    enriched++;
+    const merged = mergeTmdbData(existing, tmdbData);
+    const nextContent = buildFrontmatter(merged) + (existing.body || '\n');
+    const prevContent = fs.readFileSync(existing.path, 'utf-8');
+
+    if (nextContent === prevContent) {
+      unchanged++;
+    } else {
+      writeFilm(existing.path, merged, existing.body);
+      updated++;
+    }
+
+    await sleep(250);
   }
 
+  console.log(`Existing IMDb films checked: ${checked}`);
+  console.log(`TMDB enriched: ${enriched}`);
+  console.log(`Updated: ${updated}`);
+  console.log(`Unchanged: ${unchanged}`);
+  console.log(`Missing on TMDB: ${missing}`);
+  if (DRY_RUN) console.log('Dry run only; no files written.');
+}
+
+async function importImdbCsv() {
   if (!fs.existsSync(FILMS_DIR) && !DRY_RUN) {
     fs.mkdirSync(FILMS_DIR, { recursive: true });
   }
@@ -347,6 +401,25 @@ async function main() {
   console.log(`TMDB enriched: ${enriched}${TMDB_API_KEY ? '' : ' (no TMDB_API_KEY set)'}`);
   console.log(`Stale TMDB cover/score cleared: ${staleCleared}`);
   if (DRY_RUN) console.log('Dry run only; no files written.');
+}
+
+async function main() {
+  if (ENRICH_EXISTING) {
+    await enrichExistingFilms();
+    return;
+  }
+
+  if (!csvPath) {
+    console.error('Missing IMDb CSV path. Pass it as an argument, set IMDB_CSV_PATH, or use --enrich-existing.');
+    process.exit(1);
+  }
+
+  if (!fs.existsSync(csvPath)) {
+    console.error(`IMDb CSV not found: ${csvPath}`);
+    process.exit(1);
+  }
+
+  await importImdbCsv();
 }
 
 main().catch(err => {

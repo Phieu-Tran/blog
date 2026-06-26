@@ -55,7 +55,7 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 |---------|--------|-------------|
 | `npm run sync` | `sync-all.mjs` | **Main** — sync all (MAL + TMDB + Steam + covers + build check) with progress bar |
 | `npm run sync-mal` | `sync-mal.mjs` | Anime only (MAL scrape) |
-| `npm run sync-imdb` | `sync-imdb.mjs` | Import films/TV from an IMDb ratings CSV; TMDB enriches by IMDb ID |
+| `npm run sync-imdb` | `sync-imdb.mjs` | Import films/TV from an IMDb ratings CSV; `--enrich-existing` refreshes TMDB metadata by IMDb ID |
 | `npm run sync-tmdb` | `sync-tmdb.mjs` | Films from TMDB account |
 | `npm run sync-steam` | `sync-steam.mjs` | Games from Steam library |
 | `npm run fetch-data` | `fetch-media-data.mjs` | Fetch missing covers |
@@ -77,6 +77,7 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 - **Films have 3 scores**: My Score (from IMDb CSV or TMDB account rating), IMDB Score (from IMDb CSV), TMDB Score (from TMDB vote_average).
 - **IMDb ID is the identity anchor for imports**. `sync-imdb` uses TMDB `/find/{imdb_id}` for enrichment, never title search.
 - **Film entries store `tmdb_type`** (`movie` or `tv`) so TV IDs do not resolve through TMDB movie endpoints.
+- **Weekly sync enriches IMDb-backed films/TV** with TMDB IDs, TMDB scores, and poster covers using the GitHub `TMDB_API_KEY` secret.
 - **Games from 2 sources**: Steam (playtime, auto-sync) + IGN (imported once via browser scrape).
 - **Steam page** (`/steam/`) has dedicated Steam-style UI separate from Games list.
 - **Frontmatter title always quoted** — prevents YAML numeric title parsing.

@@ -28,7 +28,7 @@ npm run sync         # Sync all data with progress bar
 ```bash
 npm run sync         # Sync all (MAL + TMDB + Steam + covers + build check)
 npm run sync-mal     # Sync anime from MAL
-npm run sync-imdb    # Import films/TV from an IMDb ratings CSV
+npm run sync-imdb    # Import films/TV from an IMDb ratings CSV; use -- --enrich-existing to refresh TMDB metadata
 npm run sync-tmdb    # Sync films from TMDB
 npm run sync-steam   # Sync games from Steam
 npm run fetch-data   # Fetch missing covers
@@ -49,7 +49,7 @@ npm run build        # Build site
 - IMDb ratings CSV import is the source of truth for film identity, title, user rating, IMDb score, year, and whether an entry is a movie or TV series.
 - TMDB enrichment resolves by IMDb ID through TMDB's external ID endpoint, not by title search.
 - `tmdb_type` is stored as `movie` or `tv` so TMDB links and covers do not confuse TV IDs with movie IDs.
-- The weekly TMDB account sync still imports rated TMDB movies and keeps missing covers fresh.
+- The weekly sync enriches existing IMDb-backed entries with TMDB IDs, TMDB scores, and poster covers using the GitHub `TMDB_API_KEY` secret.
 
 ## Weekly Auto-Sync
 
