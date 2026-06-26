@@ -52,6 +52,8 @@ npm run build        # Build site
 - TMDB enrichment resolves existing IMDb-backed entries by IMDb ID through TMDB's external ID endpoint, not by title search.
 - `tmdb_type` is stored as `movie` or `tv` so TMDB links and covers do not confuse TV IDs with movie IDs.
 - The weekly sync can create/update films from TMDB ratings and enrich IMDb-backed entries with TMDB IDs, TMDB scores, and poster covers using the GitHub `TMDB_API_KEY` secret.
+- TMDB/MAL delete flow is guarded: items removed from TMDB ratings or the MAL list are removed from local content only when the upstream list is non-empty and the delete count is at or below `SYNC_MAX_AUTO_DELETE` (default `20`). Disable with `SYNC_DELETE_MISSING=false`.
+- Steam sync does not auto-delete local game files because Steam library visibility and ownership data can be noisy.
 - `sync-imdb-to-tmdb` syncs IMDb-backed repo ratings back to the TMDB account. It is dry-run by default; deleting extra TMDB ratings requires `--apply --delete-extra` plus `CONFIRM_TMDB_DELETE=DELETE`.
 
 ## Weekly Auto-Sync
@@ -61,10 +63,11 @@ The `sync.yml` workflow runs every Monday at 6 AM (UTC+7):
 1. Syncs anime from MAL (page scrape)
 2. Syncs rated movies and rated TV from TMDB account
 3. Syncs games from Steam library
-4. Fetches missing covers
-5. Enriches IMDb-backed films/TV with TMDB metadata
-6. Runs final build check
-7. Auto commits and pushes → Cloudflare Pages deploys
+4. Deletes missing MAL/TMDB-managed entries within the safety guard
+5. Fetches missing covers
+6. Enriches IMDb-backed films/TV with TMDB metadata
+7. Runs final build check
+8. Auto commits and pushes → Cloudflare Pages deploys
 
 **Required GitHub Secrets/Variables:**
 
@@ -76,6 +79,8 @@ The `sync.yml` workflow runs every Monday at 6 AM (UTC+7):
 | `MAL_USERNAME` | Variable | MAL username |
 | `TMDB_ACCOUNT_ID` | Variable | TMDB account ID |
 | `STEAM_ID` | Variable | Steam user ID |
+| `SYNC_DELETE_MISSING` | Env/Variable | Optional; set `false` to disable guarded MAL/TMDB local deletes |
+| `SYNC_MAX_AUTO_DELETE` | Env/Variable | Optional; maximum guarded local deletes per source, default `20` |
 
 ## Deploy (Cloudflare Pages)
 

@@ -48,6 +48,8 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 | `MAL_USERNAME` | Variable | MAL username |
 | `TMDB_ACCOUNT_ID` | Variable | TMDB account ID |
 | `STEAM_ID` | Variable | Steam user ID |
+| `SYNC_DELETE_MISSING` | Env/Variable | Optional; set `false` to disable guarded MAL/TMDB local deletes |
+| `SYNC_MAX_AUTO_DELETE` | Env/Variable | Optional; maximum guarded local deletes per source, default `20` |
 
 ## Scripts
 
@@ -67,9 +69,10 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 1. Anime (MAL)     — scrape animelist page
 2. Films/TV (TMDB) — fetch rated movies and rated TV from TMDB account
 3. Games (Steam)   — fetch owned games + playtime
-4. Missing covers  — scan files → fetch from TMDB
-5. Build check     — run astro build → pass/fail
-6. Summary         — print all results + total time
+4. Guarded deletes — remove missing MAL/TMDB-managed files only when upstream is non-empty and the count is safe
+5. Missing covers  — scan files → fetch from TMDB
+6. Build check     — run astro build → pass/fail
+7. Summary         — print all results + total time
 
 The GitHub workflow then runs `sync-imdb --enrich-existing` and a final `npm run build`
 before committing changes.
@@ -83,6 +86,7 @@ before committing changes.
 - **IMDb ID is the identity anchor for CSV imports**. `sync-imdb` uses TMDB `/find/{imdb_id}` for enrichment, never title search.
 - **TMDB identity is `tmdb_id` + `tmdb_type`** (`movie` or `tv`) so TV IDs do not resolve through TMDB movie endpoints.
 - **Weekly sync reads both TMDB rated movies and rated TV**, then enriches IMDb-backed films/TV with TMDB IDs, TMDB scores, and poster covers using the GitHub `TMDB_API_KEY` secret.
+- **Weekly sync has guarded delete flow for MAL/TMDB only**: entries missing upstream are removed from local content only when the upstream list is non-empty and delete count is at or below `SYNC_MAX_AUTO_DELETE` (default `20`). Steam files are not auto-deleted.
 - **IMDb/content can be pushed back to TMDB** with `sync-imdb-to-tmdb`. It plans changes by default; deleting old TMDB account ratings requires `--apply --delete-extra` and `CONFIRM_TMDB_DELETE=DELETE`.
 - **Games from 2 sources**: Steam (playtime, auto-sync) + IGN (imported once via browser scrape).
 - **Steam page** (`/steam/`) has dedicated Steam-style UI separate from Games list.

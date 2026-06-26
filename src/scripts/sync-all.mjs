@@ -30,6 +30,9 @@ const TMDB_API_KEY = process.env.TMDB_API_KEY || '';
 const TMDB_SESSION_ID = process.env.TMDB_SESSION_ID || '';
 const TMDB_ACCOUNT_ID = process.env.TMDB_ACCOUNT_ID || '';
 const TMDB_BASE = 'https://api.themoviedb.org/3';
+const SYNC_DELETE_MISSING = String(process.env.SYNC_DELETE_MISSING || 'true').toLowerCase() !== 'false';
+const parsedMaxAutoDelete = Number(process.env.SYNC_MAX_AUTO_DELETE || 20);
+const SYNC_MAX_AUTO_DELETE = Number.isFinite(parsedMaxAutoDelete) ? Math.max(0, Math.floor(parsedMaxAutoDelete)) : 20;
 
 const ANIME_DIR = path.resolve('src/content/anime');
 const FILMS_DIR = path.resolve('src/content/films');
@@ -150,6 +153,51 @@ function findFileByField(dir, field, value) {
   return null;
 }
 
+function listMarkdownEntries(dir) {
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir)
+    .filter(file => file.endsWith('.md'))
+    .map(file => {
+      const content = fs.readFileSync(path.join(dir, file), 'utf-8');
+      const parsed = parseFrontmatter(content);
+      return parsed ? { file, ...parsed } : null;
+    })
+    .filter(Boolean);
+}
+
+function deleteMissingManagedEntries({ dir, label, currentKeys, isManaged, keyFor }) {
+  if (!SYNC_DELETE_MISSING) {
+    printStep('SKIP', `${label}: delete-missing disabled.`);
+    return { deleted: 0, skipped: true, reason: 'disabled' };
+  }
+
+  if (!currentKeys.size) {
+    printStep('SKIP', `${label}: delete-missing skipped because upstream returned 0 items.`);
+    return { deleted: 0, skipped: true, reason: 'empty upstream' };
+  }
+
+  const candidates = listMarkdownEntries(dir).filter(entry => {
+    if (!isManaged(entry.frontmatter)) return false;
+    const key = keyFor(entry.frontmatter);
+    return key && !currentKeys.has(key);
+  });
+
+  if (candidates.length > SYNC_MAX_AUTO_DELETE) {
+    printStep('SKIP', `${label}: delete-missing skipped (${candidates.length} candidates exceeds SYNC_MAX_AUTO_DELETE=${SYNC_MAX_AUTO_DELETE}).`);
+    return { deleted: 0, skipped: true, reason: 'delete guard' };
+  }
+
+  for (const entry of candidates) {
+    fs.unlinkSync(path.join(dir, entry.file));
+  }
+
+  if (candidates.length) {
+    printStep('DEL', `${label}: deleted ${candidates.length} entries no longer present upstream.`);
+  }
+
+  return { deleted: candidates.length, skipped: false };
+}
+
 function normalizeTmdbType(type) {
   return type === 'tv' ? 'tv' : 'movie';
 }
@@ -240,11 +288,15 @@ async function syncAnime() {
   // Fetch all pages
   const allItems = [];
   let offset = 0;
+  let upstreamComplete = true;
   while (true) {
     printStep('📡', `Fetching page offset=${offset}...`);
     const html = await fetchPage(`https://myanimelist.net/animelist/${MAL_USERNAME}?offset=${offset}`);
     const match = html.match(/data-items="([^"]*)"/);
-    if (!match) break;
+    if (!match) {
+      upstreamComplete = false;
+      break;
+    }
     const decoded = match[1].replace(/&quot;/g, '"').replace(/&amp;/g, '&').replace(/&#039;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>');
     const items = JSON.parse(decoded);
     if (items.length === 0) break;
@@ -258,6 +310,7 @@ async function syncAnime() {
   printStep('🔄', `Processing ${allItems.length} anime...\n`);
   let created = 0, updated = 0;
 
+  const currentMalIds = new Set(allItems.map(item => Number(item.anime_id)));
   const statusMap = { 1: 'watching', 2: 'completed', 3: 'on_hold', 4: 'dropped', 6: 'plan' };
 
   for (let i = 0; i < allItems.length; i++) {
@@ -287,8 +340,22 @@ async function syncAnime() {
     printProgress('Anime', i + 1, allItems.length);
   }
 
+  const deletion = upstreamComplete
+    ? deleteMissingManagedEntries({
+        dir: ANIME_DIR,
+        label: 'Anime (MAL)',
+        currentKeys: currentMalIds,
+        isManaged: frontmatter => Number.isFinite(Number(frontmatter.mal_id)),
+        keyFor: frontmatter => Number(frontmatter.mal_id),
+      })
+    : { deleted: 0, skipped: true, reason: 'incomplete upstream' };
+
+  if (!upstreamComplete) {
+    printStep('SKIP', 'Anime (MAL): delete-missing skipped because MAL list fetch was incomplete.');
+  }
+
   printResult(created, updated);
-  return { name: 'Anime (MAL)', success: true, message: `${allItems.length} anime — ${created} new, ${updated} updated` };
+  return { name: 'Anime (MAL)', success: true, message: `${allItems.length} anime — ${created} new, ${updated} updated, ${deletion.deleted} deleted${deletion.skipped ? ` (${deletion.reason})` : ''}` };
 }
 
 // ============================================
@@ -297,6 +364,7 @@ async function syncAnime() {
 async function fetchRatedTmdbItems(tmdbType) {
   const endpoint = tmdbType === 'tv' ? 'tv' : 'movies';
   const allItems = [];
+  let complete = true;
   let page = 1;
   let totalPages = 1;
 
@@ -304,7 +372,10 @@ async function fetchRatedTmdbItems(tmdbType) {
     printStep('📡', `Fetching ${tmdbType} page ${page}/${totalPages}...`);
     const url = `${TMDB_BASE}/account/${TMDB_ACCOUNT_ID}/rated/${endpoint}?api_key=${TMDB_API_KEY}&session_id=${TMDB_SESSION_ID}&page=${page}&sort_by=created_at.desc`;
     const res = await fetch(url);
-    if (!res.ok) break;
+    if (!res.ok) {
+      complete = false;
+      break;
+    }
     const json = await res.json();
     totalPages = json.total_pages || 1;
     allItems.push(...(json.results || []).map(item => ({ ...item, tmdb_type: tmdbType })));
@@ -313,7 +384,7 @@ async function fetchRatedTmdbItems(tmdbType) {
     await sleep(300);
   }
 
-  return allItems;
+  return { items: allItems, complete };
 }
 
 async function fetchTmdbDetails(tmdbId, tmdbType) {
@@ -362,9 +433,12 @@ async function syncFilms() {
 
   if (!fs.existsSync(FILMS_DIR)) fs.mkdirSync(FILMS_DIR, { recursive: true });
 
+  const movieRatings = await fetchRatedTmdbItems('movie');
+  const tvRatings = await fetchRatedTmdbItems('tv');
+  const upstreamComplete = movieRatings.complete && tvRatings.complete;
   const allItems = [
-    ...(await fetchRatedTmdbItems('movie')),
-    ...(await fetchRatedTmdbItems('tv')),
+    ...movieRatings.items,
+    ...tvRatings.items,
   ];
 
   if (allItems.length === 0) {
@@ -374,6 +448,7 @@ async function syncFilms() {
 
   printStep('🔄', `Processing ${allItems.length} TMDB-rated items...\n`);
   let created = 0, updated = 0, skipped = 0;
+  const currentTmdbKeys = new Set(allItems.map(item => `${normalizeTmdbType(item.tmdb_type)}:${Number(item.id)}`));
 
   for (let i = 0; i < allItems.length; i++) {
     const item = allItems[i];
@@ -413,8 +488,26 @@ async function syncFilms() {
     printProgress('Films/TV', i + 1, allItems.length);
   }
 
+  const deletion = upstreamComplete
+    ? deleteMissingManagedEntries({
+        dir: FILMS_DIR,
+        label: 'Films/TV (TMDB)',
+        currentKeys: currentTmdbKeys,
+        isManaged: frontmatter => (
+          frontmatter.status === 'watched' &&
+          Number.isFinite(Number(frontmatter.tmdb_id)) &&
+          ['movie', 'tv'].includes(frontmatter.tmdb_type)
+        ),
+        keyFor: frontmatter => `${normalizeTmdbType(frontmatter.tmdb_type)}:${Number(frontmatter.tmdb_id)}`,
+      })
+    : { deleted: 0, skipped: true, reason: 'incomplete upstream' };
+
+  if (!upstreamComplete) {
+    printStep('SKIP', 'Films/TV (TMDB): delete-missing skipped because TMDB rated list fetch was incomplete.');
+  }
+
   printResult(created, updated, skipped);
-  return { name: 'Films/TV (TMDB)', success: true, message: `${allItems.length} items — ${created} new, ${updated} updated, ${skipped} skipped` };
+  return { name: 'Films/TV (TMDB)', success: true, message: `${allItems.length} items — ${created} new, ${updated} updated, ${skipped} skipped, ${deletion.deleted} deleted${deletion.skipped ? ` (${deletion.reason})` : ''}` };
 }
 
 // ============================================
