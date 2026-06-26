@@ -1,14 +1,14 @@
 ---
-title: "Avengers 4: Hồi Kết"
+title: "Avengers: Endgame"
 imdb_id: tt4154796
 tmdb_id: 299534
 tmdb_type: movie
 rating: 7
 imdb_score: 8.4
 tmdb_score: 8.2
-genre: "Phim Phiêu Lưu, Phim Khoa Học Viễn Tưởng, Phim Hành Động"
+genre: "Action, Sci-Fi, Adventure"
 year: 2019
-director: "Anthony Russo"
+director: "Anthony Russo,Joe Russo"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/8go3YE9sBMQaCXEx23j6BAfeuxd.jpg"

@@ -1,12 +1,12 @@
 ---
-title: "Tổng Đài Truy Vết"
+title: "The Guilty"
 imdb_id: tt9421570
 tmdb_id: 567748
 tmdb_type: movie
 rating: 8
 imdb_score: 6.3
 tmdb_score: 6.4
-genre: "Phim Chính Kịch, Phim Gây Cấn"
+genre: "Drama, Thriller, Crime"
 year: 2021
 director: "Antoine Fuqua"
 status: watched

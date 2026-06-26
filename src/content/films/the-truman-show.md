@@ -1,12 +1,12 @@
 ---
-title: "Buổi Diễn Của Truman"
+title: "The Truman Show"
 imdb_id: tt0120382
 tmdb_id: 37165
 tmdb_type: movie
 rating: 8
 imdb_score: 8.2
 tmdb_score: 8.2
-genre: "Phim Hài, Phim Chính Kịch"
+genre: "Comedy, Drama"
 year: 1998
 director: "Peter Weir"
 status: watched

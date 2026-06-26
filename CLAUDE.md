@@ -56,6 +56,7 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 | `npm run sync` | `sync-all.mjs` | **Main** — sync all (MAL + TMDB movies/TV + Steam + covers + build check) with progress bar |
 | `npm run sync-mal` | `sync-mal.mjs` | Anime only (MAL scrape) |
 | `npm run sync-imdb` | `sync-imdb.mjs` | Import films/TV from an IMDb ratings CSV; `--enrich-existing` refreshes TMDB metadata by IMDb ID |
+| `npm run sync-imdb-to-tmdb` | `sync-imdb-to-tmdb.mjs` | Dry-run sync IMDb-backed repo ratings back to TMDB account; destructive deletes require explicit confirmation |
 | `npm run sync-tmdb` | `sync-tmdb.mjs` | TMDB list/metadata helper for films |
 | `npm run sync-steam` | `sync-steam.mjs` | Games from Steam library |
 | `npm run fetch-data` | `fetch-media-data.mjs` | Fetch missing covers |
@@ -82,6 +83,7 @@ before committing changes.
 - **IMDb ID is the identity anchor for CSV imports**. `sync-imdb` uses TMDB `/find/{imdb_id}` for enrichment, never title search.
 - **TMDB identity is `tmdb_id` + `tmdb_type`** (`movie` or `tv`) so TV IDs do not resolve through TMDB movie endpoints.
 - **Weekly sync reads both TMDB rated movies and rated TV**, then enriches IMDb-backed films/TV with TMDB IDs, TMDB scores, and poster covers using the GitHub `TMDB_API_KEY` secret.
+- **IMDb/content can be pushed back to TMDB** with `sync-imdb-to-tmdb`. It plans changes by default; deleting old TMDB account ratings requires `--apply --delete-extra` and `CONFIRM_TMDB_DELETE=DELETE`.
 - **Games from 2 sources**: Steam (playtime, auto-sync) + IGN (imported once via browser scrape).
 - **Steam page** (`/steam/`) has dedicated Steam-style UI separate from Games list.
 - **Frontmatter title always quoted** — prevents YAML numeric title parsing.

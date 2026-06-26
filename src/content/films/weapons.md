@@ -1,12 +1,12 @@
 ---
-title: "Giờ Mất Tích"
+title: "Weapons"
 imdb_id: tt26581740
 tmdb_id: 1078605
 tmdb_type: movie
 rating: 6
 imdb_score: 7.4
 tmdb_score: 7.3
-genre: "Phim Kinh Dị, Phim Bí Ẩn"
+genre: "Horror, Mystery"
 year: 2025
 director: "Zach Cregger"
 status: watched

@@ -1,12 +1,12 @@
 ---
-title: "Thực Đơn Bí Ẩn"
+title: "The Menu"
 imdb_id: tt9764362
 tmdb_id: 593643
 tmdb_type: movie
 rating: 7
 imdb_score: 7.1
 tmdb_score: 7.2
-genre: "Phim Hài, Phim Kinh Dị"
+genre: "Horror, Thriller, Comedy"
 year: 2022
 director: "Mark Mylod"
 status: watched

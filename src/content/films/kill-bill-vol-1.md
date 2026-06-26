@@ -1,12 +1,12 @@
 ---
-title: "Cô Dâu Báo Thù 1"
+title: "Kill Bill: Vol. 1"
 imdb_id: tt0266697
 tmdb_id: 24
 tmdb_type: movie
 rating: 6
 imdb_score: 8.2
 tmdb_score: 8
-genre: "Phim Hành Động, Phim Hình Sự"
+genre: "Action, Thriller, Crime"
 year: 2003
 director: "Quentin Tarantino"
 status: watched

@@ -1,12 +1,12 @@
 ---
-title: "Ranh giới tội ác"
+title: "The Rip"
 imdb_id: tt32642706
 tmdb_id: 1306368
 tmdb_type: movie
 rating: 7
 imdb_score: 6.8
 tmdb_score: 7.1
-genre: "Phim Hành Động, Phim Gây Cấn, Phim Hình Sự"
+genre: "Crime, Thriller, Drama, Mystery, Action"
 year: 2026
 director: "Joe Carnahan"
 status: watched

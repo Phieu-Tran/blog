@@ -1,12 +1,12 @@
 ---
-title: "Con Rết Người 2"
+title: "The Human Centipede 2 (Full Sequence)"
 imdb_id: tt1530509
 tmdb_id: 74997
 tmdb_type: movie
 rating: 1
 imdb_score: 3.8
 tmdb_score: 4.8
-genre: "Phim Chính Kịch, Phim Kinh Dị, Phim Hình Sự"
+genre: Horror
 year: 2011
 director: "Tom Six"
 status: watched

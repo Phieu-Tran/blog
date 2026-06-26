@@ -1,12 +1,12 @@
 ---
-title: "Đồng Phạm Bất Đắc Dĩ"
+title: "Caught Stealing"
 imdb_id: tt1493274
 tmdb_id: 1245993
 tmdb_type: movie
 rating: 5
 imdb_score: 6.8
 tmdb_score: 6.9
-genre: "Phim Hình Sự, Phim Gây Cấn, Phim Hài"
+genre: "Crime, Thriller, Comedy"
 year: 2025
 director: "Darren Aronofsky"
 status: watched

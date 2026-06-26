@@ -1,12 +1,12 @@
 ---
-title: "Chúa Tể Của Những Chiếc Nhẫn: Sự Trở Lại Của Nhà Vua"
+title: "The Lord of the Rings: The Return of the King"
 imdb_id: tt0167260
 tmdb_id: 122
 tmdb_type: movie
 rating: 10
 imdb_score: 9
 tmdb_score: 8.5
-genre: "Phim Phiêu Lưu, Phim Giả Tượng, Phim Hành Động"
+genre: "Drama, Adventure, Fantasy"
 year: 2003
 director: "Peter Jackson"
 status: watched

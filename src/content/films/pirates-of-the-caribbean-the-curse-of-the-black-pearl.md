@@ -1,12 +1,12 @@
 ---
-title: "Cướp Biển Vùng Caribbean: Lời Nguyền Tàu Ngọc Trai Đen"
+title: "Pirates of the Caribbean: The Curse of the Black Pearl"
 imdb_id: tt0325980
 tmdb_id: 22
 tmdb_type: movie
 rating: 7
 imdb_score: 8.1
 tmdb_score: 7.8
-genre: "Phim Phiêu Lưu, Phim Giả Tượng, Phim Hành Động"
+genre: "Fantasy, Action, Adventure"
 year: 2003
 director: "Gore Verbinski"
 status: watched

@@ -8,7 +8,7 @@ imdb_score: 7.8
 tmdb_score: 8
 genre: "Animation, Drama, Mystery, Thriller"
 year: 2015
-director: 立川譲
+director: N/A
 status: watched
 date: 2025-10-21
 cover: "https://image.tmdb.org/t/p/w500/pgnHXXTn2Uy0unuNCKFKHhL7BHR.jpg"

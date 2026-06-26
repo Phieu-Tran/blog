@@ -1,12 +1,12 @@
 ---
-title: "Chuyện Đã Rồi"
+title: "Irreversible"
 imdb_id: tt0290673
 tmdb_id: 979
 tmdb_type: movie
 rating: 4
 imdb_score: 7.3
 tmdb_score: 7.2
-genre: "Phim Chính Kịch, Phim Gây Cấn, Phim Hình Sự"
+genre: "Crime, Mystery, Drama, Thriller"
 year: 2002
 director: "Gaspar Noé"
 status: watched

@@ -8,7 +8,7 @@ imdb_score: 9.3
 tmdb_score: 8.7
 genre: "Drama, History, Thriller"
 year: 2019
-director: "Craig Mazin"
+director: N/A
 status: watched
 date: 2026-01-26
 cover: "https://image.tmdb.org/t/p/w500/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg"

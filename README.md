@@ -29,6 +29,7 @@ npm run sync         # Sync all data with progress bar
 npm run sync         # Sync all (MAL + TMDB movies/TV + Steam + covers + build check)
 npm run sync-mal     # Sync anime from MAL
 npm run sync-imdb    # Import films/TV from an IMDb ratings CSV; use -- --enrich-existing to refresh TMDB metadata
+npm run sync-imdb-to-tmdb # Dry-run sync IMDb-backed repo ratings back to TMDB account
 npm run sync-tmdb    # Sync/enrich films from TMDB
 npm run sync-steam   # Sync games from Steam
 npm run fetch-data   # Fetch missing covers
@@ -51,6 +52,7 @@ npm run build        # Build site
 - TMDB enrichment resolves existing IMDb-backed entries by IMDb ID through TMDB's external ID endpoint, not by title search.
 - `tmdb_type` is stored as `movie` or `tv` so TMDB links and covers do not confuse TV IDs with movie IDs.
 - The weekly sync can create/update films from TMDB ratings and enrich IMDb-backed entries with TMDB IDs, TMDB scores, and poster covers using the GitHub `TMDB_API_KEY` secret.
+- `sync-imdb-to-tmdb` syncs IMDb-backed repo ratings back to the TMDB account. It is dry-run by default; deleting extra TMDB ratings requires `--apply --delete-extra` plus `CONFIRM_TMDB_DELETE=DELETE`.
 
 ## Weekly Auto-Sync
 

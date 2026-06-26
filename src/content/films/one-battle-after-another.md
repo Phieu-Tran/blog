@@ -1,12 +1,12 @@
 ---
-title: "Trận Chiến Sau Trận Chiến"
+title: "One Battle After Another"
 imdb_id: tt30144839
 tmdb_id: 1054867
 tmdb_type: movie
 rating: 7
 imdb_score: 7.6
 tmdb_score: 7.4
-genre: "Phim Gây Cấn, Phim Hình Sự, Phim Hài"
+genre: "Crime, Thriller"
 year: 2025
 director: "Paul Thomas Anderson"
 status: watched

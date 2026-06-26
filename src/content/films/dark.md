@@ -8,7 +8,7 @@ imdb_score: 8.7
 tmdb_score: 8.4
 genre: "Mystery, Crime, Drama, Thriller, Sci-Fi"
 year: 2017
-director: "Baran bo Odar, Jantje Friese"
+director: N/A
 status: watched
 date: 2026-01-14
 cover: "https://image.tmdb.org/t/p/w500/dnV2mR2Hivccf94alWDHLC0Ki4Z.jpg"

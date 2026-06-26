@@ -8,7 +8,7 @@ imdb_score: 8.7
 tmdb_score: 8.3
 genre: "Drama, Thriller, Sci-Fi, Mystery, Crime"
 year: 2011
-director: "Charlie Brooker"
+director: N/A
 status: watched
 date: 2026-01-14
 cover: "https://image.tmdb.org/t/p/w500/vaw1zvKcRtDsHoIXA5CxmM7QVYF.jpg"

@@ -1,12 +1,12 @@
 ---
-title: "Trò Chơi Cân Não"
+title: "The Game"
 imdb_id: tt0119174
 tmdb_id: 2649
 tmdb_type: movie
 rating: 7
 imdb_score: 7.7
 tmdb_score: 7.6
-genre: "Phim Chính Kịch, Phim Gây Cấn, Phim Bí Ẩn"
+genre: "Drama, Thriller, Mystery"
 year: 1997
 director: "David Fincher"
 status: watched

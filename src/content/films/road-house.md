@@ -1,12 +1,12 @@
 ---
-title: "Nhà Ven Đường"
+title: "Road House"
 imdb_id: tt3359350
 tmdb_id: 359410
 tmdb_type: movie
 rating: 5
 imdb_score: 6.2
 tmdb_score: 6.9
-genre: "Phim Hành Động, Phim Gây Cấn, Phim Chính Kịch"
+genre: "Action, Thriller, Drama"
 year: 2024
 director: "Doug Liman"
 status: watched

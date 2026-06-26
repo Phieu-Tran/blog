@@ -1,12 +1,12 @@
 ---
-title: "Bay Trên Tổ Chim Cúc Cu"
+title: "One Flew Over the Cuckoo's Nest"
 imdb_id: tt0073486
 tmdb_id: 510
 tmdb_type: movie
 rating: 8
 imdb_score: 8.6
 tmdb_score: 8.4
-genre: "Phim Chính Kịch"
+genre: Drama
 year: 1975
 director: "Miloš Forman"
 status: watched

@@ -1,14 +1,14 @@
 ---
-title: "Captain America: Nội Chiến Siêu Anh Hùng"
+title: "Captain America: Civil War"
 imdb_id: tt3498820
 tmdb_id: 271110
 tmdb_type: movie
 rating: 7
 imdb_score: 7.8
 tmdb_score: 7.4
-genre: "Phim Phiêu Lưu, Phim Hành Động, Phim Khoa Học Viễn Tưởng"
+genre: "Action, Sci-Fi"
 year: 2016
-director: "Joe Russo"
+director: "Anthony Russo,Joe Russo"
 status: watched
 date: 2026-01-08
 cover: "https://image.tmdb.org/t/p/w500/hDTVGIG8jsa1ZwO3wV0ccvDN4ZH.jpg"

@@ -1,12 +1,12 @@
 ---
-title: "Giải Cứu Binh Nhì Ryan"
+title: "Saving Private Ryan"
 imdb_id: tt0120815
 tmdb_id: 857
 tmdb_type: movie
 rating: 9
 imdb_score: 8.6
 tmdb_score: 8.2
-genre: "Phim Chiến Tranh, Phim Chính Kịch, Phim Lịch Sử"
+genre: "Drama, War"
 year: 1998
 director: "Steven Spielberg"
 status: watched

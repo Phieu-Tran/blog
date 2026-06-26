@@ -1,12 +1,12 @@
 ---
-title: "Kẻ Mất Trí Nhớ"
+title: "Memento"
 imdb_id: tt0209144
 tmdb_id: 77
 tmdb_type: movie
 rating: 9
 imdb_score: 8.4
 tmdb_score: 8.2
-genre: "Phim Bí Ẩn, Phim Gây Cấn"
+genre: "Thriller, Mystery"
 year: 2000
 director: "Christopher Nolan"
 status: watched

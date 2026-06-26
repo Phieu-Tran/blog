@@ -1,12 +1,12 @@
 ---
-title: "Đứa Bé Mất Tích"
+title: "Gone Baby Gone"
 imdb_id: tt0452623
 tmdb_id: 4771
 tmdb_type: movie
 rating: 7
 imdb_score: 7.6
 tmdb_score: 7.3
-genre: "Phim Hình Sự, Phim Chính Kịch, Phim Bí Ẩn"
+genre: "Drama, Mystery, Crime, Thriller"
 year: 2007
 director: "Ben Affleck"
 status: watched

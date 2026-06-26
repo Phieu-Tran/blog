@@ -1,12 +1,12 @@
 ---
-title: "Ảo Thuật Gia Đấu Trí"
+title: "The Prestige"
 imdb_id: tt0482571
 tmdb_id: 1124
 tmdb_type: movie
 rating: 10
 imdb_score: 8.5
 tmdb_score: 8.2
-genre: "Phim Chính Kịch, Phim Bí Ẩn, Phim Khoa Học Viễn Tưởng"
+genre: "Drama, Thriller, Mystery, Sci-Fi"
 year: 2006
 director: "Christopher Nolan"
 status: watched

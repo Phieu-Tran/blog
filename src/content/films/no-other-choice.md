@@ -1,12 +1,12 @@
 ---
-title: "Không Còn Lựa Chọn"
+title: "No Other Choice"
 imdb_id: tt1527793
 tmdb_id: 639988
 tmdb_type: movie
 rating: 8
 imdb_score: 7.5
 tmdb_score: 7.5
-genre: "Phim Hài, Phim Hình Sự, Phim Gây Cấn"
+genre: "Comedy, Crime, Drama, Thriller"
 year: 2025
 director: "Park Chan-wook"
 status: watched

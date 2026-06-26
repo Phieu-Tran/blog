@@ -6,8 +6,8 @@ tmdb_type: movie
 rating: 7
 imdb_score: 6.8
 tmdb_score: 6.8
-genre: "Phim Gây Cấn, Phim Bí Ẩn"
-year: 2014
+genre: "Thriller, Mystery, Drama"
+year: 2013
 director: "Denis Villeneuve"
 status: watched
 date: 2026-03-16

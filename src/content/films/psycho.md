@@ -1,12 +1,12 @@
 ---
-title: "Tâm Thần Hoảng Loạn"
+title: "Psycho"
 imdb_id: tt0054215
 tmdb_id: 539
 tmdb_type: movie
 rating: 8
 imdb_score: 8.5
 tmdb_score: 8.4
-genre: "Phim Kinh Dị, Phim Gây Cấn, Phim Bí Ẩn"
+genre: "Mystery, Thriller, Horror, Drama"
 year: 1960
 director: "Alfred Hitchcock"
 status: watched

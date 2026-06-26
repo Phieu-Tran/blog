@@ -8,7 +8,7 @@ imdb_score: 8.8
 tmdb_score: 8.3
 genre: "Crime, Drama, Mystery, Thriller"
 year: 2014
-director: "Nic Pizzolatto, Issa López"
+director: N/A
 status: watched
 date: 2026-03-13
 cover: "https://image.tmdb.org/t/p/w500/dC7jkj2g1aU8sxKqM6D4g44xA6w.jpg"

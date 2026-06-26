@@ -1,12 +1,12 @@
 ---
-title: "12 Người Đàn Ông Giận Dữ"
+title: "12 Angry Men"
 imdb_id: tt0050083
 tmdb_id: 389
 tmdb_type: movie
 rating: 9
 imdb_score: 9
 tmdb_score: 8.6
-genre: "Phim Chính Kịch"
+genre: "Crime, Drama"
 year: 1957
 director: "Sidney Lumet"
 status: watched
