@@ -1,15 +1,14 @@
 ---
-title: "The Order"
+title: "Mob Psycho 100"
 imdb_id: tt5897304
+tmdb_id: 67075
+tmdb_type: tv
 rating: 7
 imdb_score: 8.5
-tmdb_score: 7
-genre: "Phim Chính Kịch"
-year: 2005
-director: "Vera Glagoleva"
+genre: "Animation, Action, Horror, Comedy, Fantasy, Drama, Sci-Fi"
+year: 2016
+director: N/A
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/pOOj2JJ9QwdwocXG5kGAnRFJWF1.jpg"
-tmdb_id: 67075
 ---
 

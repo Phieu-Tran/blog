@@ -4,7 +4,7 @@ description: "[[Thảo Luận]]"
 tags: ["Character", "Explained"]
 date: 2026-02-04
 ---
-
+![](/posts/NhanVatPhanDien_0.jpg)
 
 Nhân vật phản diện- ta có thể định nghĩa là người sẽ xuất hiện đối lập với nhân vật chính trong hầu hết các phim/ truyện để cản đường nhân vật chính. Và chính sự đấu đá giữa họ làm cho bộ phim có tiền đề để thể hiện những ý nghĩa, bài học muốn truyền tải. Tuy nhiên, cũng có trường hợp kẻ phản diện không phải người, mà là một... hiện tượng như bão gió, vỡ đê...
  
@@ -24,10 +24,14 @@ Uầy, câu trên chém vậy thôi, chứ đúng ra phải là “Rất ít ai 
 
 
 
+![](/posts/284603686_488450386367766_3923164776305478648_n.jpg)
+
 **-SỨC MẠNH BÁ ĐẠO?**
  
 Hợp lý nhỉ? Voldermort bá đạo mà ai cũng sợ. Thanos to khỏe hành các Avenger như vui chơi. Predator săn người như săn thú. Darth Vader giơ tay lên là có đứa bị bóp cổ chết. Ồ, vậy hẳn đây là lý do rồi? Không. Joker (2008) có mạnh không, khi mà đấu tay đôi với Batman vẫn dễ dàng thua cuộc vì hắn chỉ là người thường? Dr. Oc từ phần Spider man 2 có mạnh không, khi ông chỉ là người thường, mù quáng đập nhau với Nhện để rồi ăn cả rổ hành? Killmonger từ Phim Black Panther có thể mạnh, nhưng vẫn sẽ thua nhân vật chính, sức mạnh ấy cũng chỉ bình thường chứ chẳng phải bá đạo. Golum từ The Lord of Rings còn... yếu hơn nữa, khi mà hắn chỉ là một kẻ nhỏ bé mà thôi. Vậy rõ ràng, sức mạnh không phải là yếu tố dẫn đến thành công.
  
+![](/posts/285157969_3394356757459802_3857194930414277232_n.jpg)
+
 **-QUÁ KHỨ ĐEN TỐI?**
  
 Cái này nghe hay này. Quá khứ đen tối chính là động lực thúc đẩy kẻ phản diện đối nghịch với nhân vật chính. Rất nhiều kẻ phản diện có một quá khứ tồi tệ mà ta có thể cảm thông, thấu hiểu và để lại ảnh hưởng lên nhân vật của chúng ta. Tuy nhiên, không ít những nhân vật phản diện được xây dựng với một quá khứ chẳng vui vẻ, nhưng ảnh hưởng lên họ lại rất hời hợt, vô tình biến quá khứ ấy không khác gì một “chiêu trò” để câu nước mắt nước mũi từ khán giả, chứ chẳng phải góp phần xây dựng đáng kể gì. Lấy một ví dụ hơi... ngứa tai cho các bạn nhé: mấy con quỷ trong Kimetsu no Yaiba ấy, quá khứ được xây dựng khá là... hời hợt. Mặc dù quá khứ ấy rõ ràng ảnh hưởng nhiều đến hành động và tính cách của chúng và ảnh hưởng rất logic đấy, tuy nhiên, việc show cho ta một cuộc đời không mấy hạnh phúc của con quỷ trong 1 chap ngắn ngủi và không có bất kì dấu hiệu nào từ trước, khiến mạch cảm xúc bị đổi một cách hơi gượng gập và rập khuôn (cứ một quỷ chết= một chap hồi tưởng), đồng thời các tương tác thể hiện điều đó vốn đã ít, vô tình khiến ít nhiều người xem khó chịu. Còn đối với các nhân vật có quá khứ tệ được xây dựng tốt thì sao? Thanos có quá khứ đấy, ta không được thấy nhưng ta được nghe kể, đồng thời tất cả hành động cũng như sự đặc biệt từ đó đều chịu ảnh hưởng lớn. Loki cũng có vấn đề riêng của mình, và điều này là động lực cho anh thành kẻ phản diện, tất cả những gì anh làm đều từ đó mà ra cả. Darth Vader cũng vậy, vô số nhân vật khác thành công đều vậy. Chính quá khứ ấy lấy được sự đồng cảm từ người đọc cũng như khiến ta thấu hiểu cho hành động của họ. Tuy nhiên, chẳng khó để nhận ra, Predator chẳng hề có một quá khứ... IT- chú hề Pennywise thì quá khứ còn... huy hoàng nữa cơ. Thế nên, rõ ràng, cũng không phải là nhờ một quá khứ.
@@ -45,9 +49,3 @@ Cái này thì sao? Đầu óc khôn ngoan chắc sẽ hơn hẳn dăm ba cái c
 Đó chính là nhờ…
  **Bạn.**
  Chính bạn, bạn là người xem, bạn có quyền quyết định, mình thích ai, ghét ai, nhìn nhận ai thế nào. Chính người xem bị ấn tượng bởi những yếu tố trên và xóa nhòa đi motif về một phản diện đáng để ta yêu thích. Vì vậy, ghét bỏ ai, thích ai, tất cả là ở bạn, đừng lệ thuộc vào người khác cũng như các chuẩn mực đạo đức xã hội đặt ra, họ là phản diện, họ là ảo mà, sao lại bị bó buộc được chứ?
-
-![](/posts/NhanVatPhanDien_0.jpg)
-
-![](/posts/284603686_488450386367766_3923164776305478648_n.jpg)
-
-![](/posts/285157969_3394356757459802_3857194930414277232_n.jpg)

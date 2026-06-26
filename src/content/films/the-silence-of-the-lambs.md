@@ -1,15 +1,16 @@
 ---
 title: "The Silence of the Lambs"
 imdb_id: tt0102926
+tmdb_id: 274
+tmdb_type: movie
 rating: 7
 imdb_score: 8.6
 tmdb_score: 8.3
-genre: "Phim Hình Sự, Phim Gây Cấn, Phim Chính Kịch"
+genre: "Crime, Drama, Horror, Thriller"
 year: 1991
 director: "Jonathan Demme"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg"
-tmdb_id: 274
 ---
 

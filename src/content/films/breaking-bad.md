@@ -1,15 +1,14 @@
 ---
-title: "Mirror"
+title: "Breaking Bad"
 imdb_id: tt0903747
+tmdb_id: 1396
+tmdb_type: tv
 rating: 10
 imdb_score: 9.5
-tmdb_score: 8
-genre: "Phim Chính Kịch, Phim Lịch Sử"
-year: 1975
-director: "Andrei Tarkovsky"
+genre: "Drama, Crime, Thriller"
+year: 2008
+director: N/A
 status: watched
 date: 2025-11-18
-cover: "https://image.tmdb.org/t/p/w500/AttDP5OEsMxtHPPN7Z92p2Ntnmd.jpg"
-tmdb_id: 1396
 ---
 

@@ -1,15 +1,14 @@
 ---
-title: "M. Butterfly"
+title: "American Horror Story"
 imdb_id: tt1844624
+tmdb_id: 1413
+tmdb_type: tv
 rating: 7
 imdb_score: 7.9
-tmdb_score: 6.6
-genre: "Phim Lãng Mạn, Phim Chính Kịch, Phim Lịch Sử"
-year: 1993
-director: "David Cronenberg"
+genre: "Drama, Horror, Thriller, Sci-Fi"
+year: 2011
+director: N/A
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/vfutnJ9sgpAtNuPemksd26gd5dC.jpg"
-tmdb_id: 1413
 ---
 

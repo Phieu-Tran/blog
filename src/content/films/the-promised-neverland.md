@@ -1,15 +1,14 @@
 ---
-title: "Research in the Interest of Families"
+title: "The Promised Neverland"
 imdb_id: tt8788458
+tmdb_id: 83097
+tmdb_type: tv
 rating: 7
 imdb_score: 8.1
-tmdb_score: 5.8
-genre: "Phim Gây Cấn, Phim Hình Sự"
-year: 2011
-director: "Franck Mancuso"
+genre: "Animation, Mystery, Thriller, Sci-Fi, Adventure, Drama, Fantasy, Horror, Action"
+year: 2019
+director: N/A
 status: watched
 date: 2025-10-25
-cover: "https://image.tmdb.org/t/p/w500/6vC6Sx4gT5xSwN3TAXeaHSPf1fc.jpg"
-tmdb_id: 83097
 ---
 

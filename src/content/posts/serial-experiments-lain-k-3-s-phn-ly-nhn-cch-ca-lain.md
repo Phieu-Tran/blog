@@ -4,15 +4,11 @@ description: "Analysis — Ryutaro Nakamura"
 tags: ["Analysis", "Explained"]
 date: 2026-03-29
 ---
-
 ![](/posts/Lain3_1.jpg)
 
+# SERIAL EXPERIMENTS LAIN KỲ 3: SỰ ‘PHÂN LY’ NHÂN CÁCH CỦA LAIN, “MỌI NGƯỜI ĐỀU KẾT NỐI”
 
-SERIAL EXPERIMENTS LAIN KỲ 3: SỰ ‘PHÂN LY’ NHÂN CÁCH CỦA LAIN, “MỌI NGƯỜI ĐỀU KẾT NỐI”
-
-
-
-I. SỰ PHÂN LY NHÂN CÁCH CỦA LAIN:
+## I. SỰ PHÂN LY NHÂN CÁCH CỦA LAIN:
 
 Khi xem Lain, có một điều mà chắc hẳn các bạn đều nhận ra khá rõ ràng đó là sự phân ly nhân cách của nhân vật chính của chúng ta. Lain đã thể hiện những nhân cách trái ngược nhau như triêu chứng của một người bị bệnh tâm thần đa nhân cách. Tại sao lại như vậy? Do Lain “hút quá nhiều thuốc” à? 
 
@@ -30,11 +26,13 @@ Thế thì cái nhìn của Lain đối với vấn đề này như thế nào? 
 
 Lain khi bắt đầu nhận ra những nhân cách khác của mình, cô cảm thấy ghét điều đó và cho rằng chúng không phải là cô mà là thứ do nhóm Knight tự tạo ra. Thế nhưng dần dần cô phải chấp nhận sự thật rằng bản thân mình còn có những mặt tối mà bấy lâu đã bị chôn kín. Thực tế cũng vậy, khi chúng ta phát ngôn những thứ vô văn hóa trên mạng xã hội thì cũng chỉ là do não chúng ta tự nghĩ ra, máy tính không thể tự tạo ra những câu đó cũng như không thể khiến chúng ta phát ra những câu đó. Lain là Lain. Chúng ta là chúng ta. Việc có những hành vi trên mạng như vậy hoàn toàn là do lỗi của chúng ta, không phải ai khác.
 
+![](/posts/Lain3_0.png)
+
 Khác với những người cho rằng chúng ta nên tránh xa thế giới ảo, Lain, một cách đối ngược lại truyền thông điệp cho rằng chúng ta nên COI TRỌNG bất cứ loại tương tác nào cho dù nó có là “thực” hay “ảo” đi chăng nữa. Vì nếu suy cho cùng, tất cả những trường hợp phát ngôn bừa bãi trên mạng dẫn đến hậu quả đều là do chúng ta không coi trọng thế giới ảo, chúng ta chỉ coi nó như một thứ công cụ để ta xả hết tất cả mọi thứ mà không suy nghĩ rằng thứ tương tác thực sự với ta là rất nhiều con người ngoài kia.
 
 Ngày nay, nếu như lướt qua các trang báo, các phương tiện thông tin đại chúng các bạn không khó bắt gặp tình trạng báo động đời sống con người bị tổn hại bởi các phát ngôn trên mạng như danh tiếng của những nghệ sĩ bị phá hỏng bởi vài dòng post, comment, thậm chí đến cả việc tự tử vì bị bắt nạt trên mạng (cyber-bulling),.. Do đó, mỗi khi lên mạng chúng ta hãy tưởng tượng rằng phía sau màn hình đó có những con người thực sự đang đọc những bài post, những comment của ta và nhớ rằng lời dạy của ông bà “đánh lưỡi 7 lần trước khi nói” đúng với mọi thế hệ.
 
-II. Tầm quan trọng của sự riêng tư (privacy):
+## II. Tầm quan trọng của sự riêng tư (privacy):
 
 Với sự phát triển mạnh mẽ của mạng Internet như ngày nay, một điều dễ dàng suy ra là lượng thông tin khổng lồ của mạng lưới toàn cầu này không phải lúc nào cũng có ích cho ta. Theo một thống kê chỉ có 22% dữ liệu trên Internet là có ích hay đến tới 80% email là thư rác. (https://www.24h.com.vn/cong-nghe-thong-tin/giat-minh-voi-luu-luong-du-lieu-truyen-tai-tren-internet-moi-ngay-c55a754330.html). Do đó, chúng ta cần phải có sự chọn lọc thông tin.
 
@@ -48,7 +46,9 @@ Cùng với một thực trạng hiện nay mà mình nhận thấy đó là vi�
 
 Do đó, bên cạnh việc nên kiểm soát phát ngôn khi lên mạng thì mình nghĩ một việc cũng không kém phần quan trọng đó là kiểm soát nút chế độ công khai/riêng tư. Chúng ta cần phải biết kiểm soát những đối tượng nào mà chúng ta muốn chia sẻ thông tin đó. Chứ không nên chia sẻ công khai vô tội vạ, dẫn đến những sự đổ vỡ mối quan hệ đáng tiếc như tình huống trong bộ anime Lain đã đề cập.
 
-III. “Mọi người đều kết nối”
+![](/posts/Lain3_2.jpg)
+
+## III. “Mọi người đều kết nối”
 
 “Mọi người đều kết nối” là một câu được lặp đi lặp lại khá nhiều trong bộ anime và hình ảnh tượng trưng cho điều này đó là mạng lưới điện chằng chịt cũng được nhấn mạnh liên tục. Bên cạnh đó nếu ta để ý là thiết bị mà Lain sử dụng để truy cập vào WIRED đã có sự phát triển ngày càng phức tạp. Nếu như đầu bộ anime cô đã sử dụng một chiếc máy tính khá là cũ kỹ trong như những chiếc computer thời 90s. Thì từ từ xuyên suốt bộ anime, cô đã bắt đầu làm quen với những thiết bị cầm tay, tương tự như cách mà chúng ta chuyển sang sử dụng những chiếc smartphone ngày càng nhiều. Cuối cùng là một viễn cảnh mà Lain có thể kết nối trực tiếp não bộ mình vào WIRED nhờ vào một cỗ máy khổng lồ chằng chịt dây điện đến nổi quấn quanh người cô.
 
@@ -72,9 +72,3 @@ Hay một ví dụ dễ hình dung nhất đó là việc một cặp tình nhâ
 Do đó, sự phát triển của công nghệ thông tin là một sự phát triển có tính kế thừa và phát huy không phải là một sự thay thế hoàn toàn. Tương tác vật lý truyền thống vẫn luôn quan trọng và là thứ mà tương tác “ảo” dù có phát triển đến đâu cũng không thể sánh được.
 
 Khi xem Serial experiments lain, mình cũng có đọc comment, một số bạn cho rằng Lain là một tác phẩm cảnh báo những hậu quả của Internet và giúp chúng ta tránh xa thứ công nghệ này đi. Tuy nhiên mình không nghĩ vậy, cái nhìn của Lain là đa chiều. Không những cảnh báo cho ta những hệ quả của một mạng lưới toàn cầu mà bên cạnh đó lại có cái nhìn tích cực tin tưởng vào tương lai. Có lợi hay có hại tất cả điều do ta có coi trọng những vấn đề trên và có sử dụng internet hợp lý hay không.
-
-![](/posts/Lain1_0.png)
-
-![](/posts/Lain1_1.jpg)
-
-![](/posts/Lain1_2.jpg)

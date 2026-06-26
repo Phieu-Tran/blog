@@ -1,15 +1,14 @@
 ---
-title: "The Darkest Light"
+title: "Alice in Borderland"
 imdb_id: tt10795658
+tmdb_id: 110316
+tmdb_type: tv
 rating: 9
 imdb_score: 7.8
-tmdb_score: 5.2
-genre: "Phim Chính Kịch"
-year: 2000
-director: "Simon Beaufoy"
+genre: "Drama, Sci-Fi, Thriller, Mystery, Horror, Action"
+year: 2020
+director: N/A
 status: watched
 date: 2025-11-30
-cover: "https://image.tmdb.org/t/p/w500/gazU0r4oZ4Lteax2Y75Tuyozece.jpg"
-tmdb_id: 110316
 ---
 

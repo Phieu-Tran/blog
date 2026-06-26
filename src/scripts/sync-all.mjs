@@ -113,10 +113,10 @@ function fetchPage(url) {
 }
 
 function parseFrontmatter(content) {
-  const match = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+  const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
   if (!match) return null;
   const fm = {};
-  match[1].split('\n').forEach(line => {
+  match[1].split(/\r?\n/).forEach(line => {
     const idx = line.indexOf(':');
     if (idx === -1) return;
     const key = line.slice(0, idx).trim();
@@ -150,16 +150,39 @@ function findFileByField(dir, field, value) {
   return null;
 }
 
+function normalizeTmdbType(type) {
+  return type === 'tv' ? 'tv' : 'movie';
+}
+
+function findFilmByTmdbRef(tmdbId, tmdbType = 'movie') {
+  if (!fs.existsSync(FILMS_DIR)) return null;
+  const expectedType = normalizeTmdbType(tmdbType);
+  for (const file of fs.readdirSync(FILMS_DIR).filter(f => f.endsWith('.md'))) {
+    const content = fs.readFileSync(path.join(FILMS_DIR, file), 'utf-8');
+    const parsed = parseFrontmatter(content);
+    if (!parsed || Number(parsed.frontmatter.tmdb_id) !== Number(tmdbId)) continue;
+
+    const existingType = normalizeTmdbType(parsed.frontmatter.tmdb_type);
+    if (existingType === expectedType) return { file, ...parsed };
+  }
+  return null;
+}
+
+function mergeFrontmatter(existingFrontmatter, data) {
+  const merged = { ...existingFrontmatter };
+  for (const [k, v] of Object.entries(data)) {
+    if (v === undefined || v === null) continue;
+    if (k === 'rating' && Number(merged.rating) > 0 && v === 0) continue;
+    if (k === 'date' && merged.date) continue;
+    merged[k] = v;
+  }
+  return merged;
+}
+
 function saveEntry(dir, slug, data, existingField, existingValue) {
   const existing = findFileByField(dir, existingField, existingValue);
   if (existing) {
-    const merged = { ...existing.frontmatter };
-    for (const [k, v] of Object.entries(data)) {
-      if (v === undefined || v === null) continue;
-      if (k === 'rating' && Number(merged.rating) > 0 && v === 0) continue;
-      if (k === 'date' && merged.date) continue;
-      merged[k] = v;
-    }
+    const merged = mergeFrontmatter(existing.frontmatter, data);
     fs.writeFileSync(path.join(dir, existing.file), buildFrontmatter(merged) + existing.body);
     return 'updated';
   } else {
@@ -167,6 +190,23 @@ function saveEntry(dir, slug, data, existingField, existingValue) {
     fs.writeFileSync(path.join(dir, filename), buildFrontmatter(data) + '\n');
     return 'created';
   }
+}
+
+function saveFilmEntry(slug, data) {
+  const existing = findFilmByTmdbRef(data.tmdb_id, data.tmdb_type);
+  if (existing) {
+    const merged = mergeFrontmatter(existing.frontmatter, data);
+    fs.writeFileSync(path.join(FILMS_DIR, existing.file), buildFrontmatter(merged) + existing.body);
+    return 'updated';
+  }
+
+  const filename = `${slug}.md`;
+  fs.writeFileSync(path.join(FILMS_DIR, filename), buildFrontmatter(data) + '\n');
+  return 'created';
+}
+
+function tmdbEndpoint(type, tmdbId) {
+  return `${TMDB_BASE}/${normalizeTmdbType(type)}/${tmdbId}`;
 }
 
 // ============================================
@@ -279,12 +319,14 @@ async function syncFilms() {
     const title = movie.title;
     const slug = slugify(title) || `film-${tmdbId}`;
 
-    // Fetch details for director
+    // TMDB rated account returns movies only. Keep the type explicit so it
+    // never overwrites a TV entry that happens to share the same numeric ID.
     let director = 'N/A';
+    let detail = null;
     try {
-      const detailRes = await fetch(`${TMDB_BASE}/movie/${tmdbId}?api_key=${TMDB_API_KEY}&append_to_response=credits`);
+      const detailRes = await fetch(`${tmdbEndpoint('movie', tmdbId)}?api_key=${TMDB_API_KEY}&append_to_response=credits`);
       if (detailRes.ok) {
-        const detail = await detailRes.json();
+        detail = await detailRes.json();
         const dir = detail.credits?.crew?.find(c => c.job === 'Director');
         if (dir) director = dir.name;
       }
@@ -292,27 +334,32 @@ async function syncFilms() {
     } catch (e) {}
 
     const data = {
-      title,
+      title: detail?.title || title,
+      imdb_id: detail?.imdb_id,
       tmdb_id: tmdbId,
+      tmdb_type: 'movie',
       rating: movie.rating || 0,
       genre: movie.genre_ids ? 'N/A' : 'N/A', // will be enriched
-      year: movie.release_date ? new Date(movie.release_date).getFullYear() : new Date().getFullYear(),
+      year: (detail?.release_date || movie.release_date)
+        ? new Date(detail?.release_date || movie.release_date).getFullYear()
+        : new Date().getFullYear(),
       director,
+      tmdb_score: detail?.vote_average ? Number(detail.vote_average.toFixed(1)) : undefined,
       status: 'watched',
-      cover: movie.poster_path ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` : undefined,
+      cover: (detail?.poster_path || movie.poster_path) ? `https://image.tmdb.org/t/p/w500${detail?.poster_path || movie.poster_path}` : undefined,
       date: new Date().toISOString().split('T')[0],
     };
 
     // Enrich genre
     try {
-      const genreRes = await fetch(`${TMDB_BASE}/movie/${tmdbId}?api_key=${TMDB_API_KEY}&language=vi-VN`);
+      const genreRes = await fetch(`${tmdbEndpoint('movie', tmdbId)}?api_key=${TMDB_API_KEY}&language=vi-VN`);
       if (genreRes.ok) {
         const genreData = await genreRes.json();
         data.genre = genreData.genres?.map(g => g.name).join(', ') || 'N/A';
       }
     } catch (e) {}
 
-    const result = saveEntry(FILMS_DIR, slug, data, 'tmdb_id', tmdbId);
+    const result = saveFilmEntry(slug, data);
     if (result === 'created') created++;
     else updated++;
 
@@ -344,10 +391,11 @@ async function fetchMissingCovers() {
       if (!parsed || parsed.frontmatter.cover) continue;
 
       const tmdbId = parsed.frontmatter.tmdb_id;
+      const tmdbType = normalizeTmdbType(parsed.frontmatter.tmdb_type);
       if (!tmdbId) continue;
 
       try {
-        const res = await fetch(`${TMDB_BASE}/movie/${tmdbId}?api_key=${TMDB_API_KEY}`);
+        const res = await fetch(`${tmdbEndpoint(tmdbType, tmdbId)}?api_key=${TMDB_API_KEY}`);
         if (res.ok) {
           const data = await res.json();
           if (data.poster_path) {

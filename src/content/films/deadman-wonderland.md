@@ -1,15 +1,14 @@
 ---
-title: "Teat Beat of Sex"
+title: "Deadman Wonderland"
 imdb_id: tt1909447
+tmdb_id: 42503
+tmdb_type: tv
 rating: 5
 imdb_score: 7
-tmdb_score: 4
-genre: "Phim Hoạt Hình, Phim Hài"
-year: 2008
-director: "Signe Baumane"
+genre: "Animation, Thriller, Action, Drama, Horror"
+year: 2011
+director: N/A
 status: watched
 date: 2025-10-25
-cover: "https://image.tmdb.org/t/p/w500/lhPJvL41StMeD6ZRpEkde63xyPw.jpg"
-tmdb_id: 42503
 ---
 

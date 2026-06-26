@@ -1,15 +1,16 @@
 ---
 title: "Zootopia 2"
 imdb_id: tt26443597
+tmdb_id: 1084242
+tmdb_type: movie
 rating: 6
-imdb_score: 7.4
+imdb_score: 7.3
 tmdb_score: 7.6
-genre: "Phim Hoạt Hình, Phim Phiêu Lưu, Phim Hài, Phim Bí Ẩn, Phim Gia Đình"
+genre: "Animation, Adventure, Comedy, Family, Mystery, Crime"
 year: 2025
-director: "Jared Bush"
+director: "Jared Bush,Byron Howard"
 status: watched
 date: 2026-01-08
 cover: "https://image.tmdb.org/t/p/w500/oJ7g2CifqpStmoYQyaLQgEU32qO.jpg"
-tmdb_id: 1084242
 ---
 

@@ -4,34 +4,36 @@ description: "Analysis — Ryutaro Nakamura"
 tags: ["Analysis", "Explained"]
 date: 2026-03-29
 ---
-
 ![](/posts/Lain1_0.png)
 
+**Anime:**
+**Serial Experiments Lain**
+**シリアルエクスペリメンツレイン**
+- **Đạo diễn:** Ryutaro Nakamura
+- **Kịch bản:** Chiaki J. Konaka
+- **Character Design:** Yoshitoshi Abe
+- **Seiyuu:** Kaori Shimizu (Lain), Yoko Asada (Arisu), Ayako Kawasumi (Mika)
+- **Studio:** Triangle Staff
+- **Số tập:** 13 tập x 24 phút
+- **Năm phát hành:** 1998
+- **Quốc gia:** Nhật Bản
+- **Thể loại:** Animation, Drama, Horror, Mystery, Sci-Fi
 
-Anime:
-Serial Experiments Lain
-シリアルエクスペリメンツレイン
-Đạo diễn: Ryutaro Nakamura
-Kịch bản: Chiaki J. Konaka
-Character Design: Yoshitoshi Abe
-Seiyuu: Kaori Shimizu (Lain), Yoko Asada (Arisu), Ayako Kawasumi (Mika)
-Studio: Triangle Staff
-Số tập: 13 tập x 24 phút
-Năm phát hành: 1998
-Quốc gia: Nhật Bản
-Thể loại: Animation, Drama, Horror, Mystery, Sci-Fi
-
-SERIAL EXPERIMENTS LAIN KỲ 1: GIẢI MÃ “LAIN”, THỰC TẠI LÀ GÌ ?
-
+# SERIAL EXPERIMENTS LAIN KỲ 1: GIẢI MÃ “LAIN”, THỰC TẠI LÀ GÌ ?
 
 
-1. Tại sao lại là “Lain”?
+
+## 1. Tại sao lại là “Lain”?
+
 Trước khi bước vào kỳ phân tích lần này, mình muốn được giải thích tại sao mình lại chọn “Serial experiments lain” là chủ đề chính trong series review tiếp theo của mình sau series review về các bộ anime ngắn. 
 Serial experiment lain, hay thường được gọi tắt là Lain là một bộ TV anime được trình chiếu vào năm 1998, đây là một trong những bộ TV series rất hiếm hoi là một tác phẩm nghệ thuật mang tính thử nghiệm (experimental works). Bởi vì các “experimental works” thường là những tác phẩm có ý tưởng đầy đột phá, tính nghệ thuật cao và gần như không có tác dụng giải trí nên rất kén người xem. Đối với những “experimental works” như vậy, người ta thường ưu tiên ở dạng anime ngắn hơn, nghĩ đến việc cấp kinh phí cho Lain ở dạng TV series thực sự là một bước đi mạo hiểm. Thế nhưng với hoài bão lớn, các nhà sản xuất Yasuyuki Ueda, Yoshitoshi Abe cùng với đạo diễn Ryuutarou Nakamura đã tạo ra một trong những classic ấn tượng và hack não nhất trong anime. Mặc dù chất lượng sản xuất (production value) có bị thiếu hụt về mặt art và animation, thế nhưng có thể nói, những ý tưởng, giá trị về nội dung và nghệ thuật mà Lain đem lại xứng đáng để nó vẫn là chủ đề nghiên cứu của các nhà phê bình đánh giá cùng với sự ảnh hưởng mạnh mẽ đến các tác phẩm khác trong suốt 20 năm qua. 
 Một điểm rất đặc biệt nữa của Lain đó là sự dự đoán về tương lai của công nghệ thông tin. Mặc dù ra mắt vào thời điểm máy tính chỉ là một trào lưu manh nha mới nổi thế nhưng Lain đã “đi trước thời đại” đưa ra những dự đoán về mối tương quan giữa thế giới thực và ảo cũng như những vấn đề về xã hội, con người khi ranh giới thực-ảo bị phá vỡ hoàn toàn. Điều này càng làm tăng thêm giá trị cho tác phẩm này khi mà đúng 20 năm sau, nội dung của Lain ngày càng thiết thực với đời sống chúng ta và Lain càng ngày càng đáng xem hơn.
 Một điều nữa là đây là thời điểm mà Lain kỷ niệm đúng 20 năm lần đầu công chiếu, mình cho đây là một sự trùng hợp đầy bất ngờ với bài viết của mình. Bởi vì, ban đầu thực sự mình không tính xem lại Lain vì việc kỷ niệm lần này. Thế nhưng, đây có thể là một “chi tiết đầy thú vị” giúp làm tăng ý nghĩa cho series review này của mình.
 Rồi, với tất cả lý do trên, chúng ta hãy đến ngay đến phần phân tích luôn cho nóng đi nào!
-2. Giải mã bí ẩn mang tên “Lain”
+
+![](/posts/Lain1_1.jpg)
+## 2. Giải mã bí ẩn mang tên “Lain”
+
 Ơ... mà khoan cái đã! Như mình đã đề cập, Lain là một bộ anime rất “hack não”. Chắc rằng phần lớn các bạn đã xem Lain đều cảm thấy rối loạn và không hiểu cái quái gì đang diễn ra, đúng như câu đầu tiên của bài opening huyền thoại: “And you don't seem to understand” phải không nào? Vậy thì, mình nghĩ rằng, trước hết chúng ta cần phải giải thích cốt truyện cho rõ ràng đi nhé. Chứ vào thẳng phần phân tích thì mình sợ rằng sẽ có nhiều bạn đọc giả bị “lạc trôi” luôn vì không nắm bắt được. 
 (Các bạn lưu ý rằng Lain là một tác phẩm mang tính “đa chiều, đa góc nhìn” nên có nhiều cách hiểu khác nhau. Các bạn nếu có cách nhìn nhận khác với mình thì cứ mạnh dạn đóng góp ở phần bình luận nhé.)
 Nội dung của Lain dựa trên khá nhiều giả thuyết khác nhau (trong đó vừa có cả giả thuyết khoa học và thuyết âm mưu). Nhưng chính yếu vẫn là hai giả thuyết sau:
@@ -66,7 +68,10 @@ Cách diễn giải như trên của mình có thể giải thích phần lớn 
 - Người ngoài hành tinh này thực ra chỉ là một nhân cách khác xa lạ và “khác người” của Lain. Khi mà sự cô đơn và ý thức rằng mình không phải là một con người mà chỉ là một chương trình chiếm lĩnh tâm trí cô.
 Cảnh thứ hai cũng khá khó hiểu có là đoạn hội thoại và sự gặp gỡ của Lain với cha nuôi của cô ở cuối anime. Như ta biết, lúc này Lain đã gần như xóa bỏ mọi sự tồn tại của mình và theo như giả thuyết được nhiều người chấp nhận thì cha của Lain chỉ là một nhân viên trong phòng thí nghiệm Tachibana thôi. Vậy thì làm sao có thể gặp cô được. Mình cho rằng cảnh này chắc chỉ là do Lain tự tưởng tượng ra mà thôi, có vẻ như cô đã tự đối thoại với chính mình.
 Theo mình thì có vẻ như chỉ một lý thuyết không thể giải thích hoàn toàn mọi chi tiết của Lain. Đến các nhà sản xuất anime cũng nói rằng: mọi góc nhìn về Lain đều hợp lệ, thậm chí nếu bạn cho rằng toàn bộ câu chuyện là chỉ là một ảo giác, do con Lain hút “lá đu đủ” quá nhiều thì đó cũng là một phần của tác phẩm. Điều này vô hình chung tạo cho mình một chút không được thỏa mãn khi xem lại Lain, bởi vì mình những tưởng là với lần xem này mình sẽ hiểu tất cả về Lain. Thế nhưng mình lại cho đây là một điểm mạnh của Lain, điều này khiến cho Lain là một bộ hoàn hảo cho việc xem đi xem lại. Bởi vì, cứ mỗi lần xem lại thì ta lại có những cách tiếp cận mới và có nhiều khám phá đặc sắc hơn nữa. Có thể nhiều người sẽ bảo làm sao mà mình có thể “thích” Lain cho được, bởi vì đây là một bộ đầy khó hiểu và không có tính giải trí. Thế nhưng, thực sự ban đầu, mình đã xác định Lain không phải là một bộ anime xem để “thưởng thức” mà giống như một “thử thách” phải vượt qua hơn. Vì Lain là một thử thách đầy thú vị đối với mình thế nên nó là tác phẩm mà mình yêu thich – có vẻ là như vậy.
-3. Thực tại là gì?
+![](/posts/Lain1_2.jpg)
+
+## 3. Thực tại là gì?
+
 Khi mà được hỏi rằng thế giới mà bạn đang sống có “thực” hay không, chắc chắn nhiều người sẽ không ngần ngại mà trả lời rằng là thực. Thế nhưng khi được hỏi tiếp là tại sao bạn lại cho rằng đó là thực thì họ chỉ biết trả lời rằng nó được mặc định là vậy. Phải, “thực tại” từ xa xưa đã được chúng ta mặc định là chỉ có một và dựa vào những cảm nhận đơn thuần thông qua các giác quan của con người.
 Thế nhưng các nhà triết học đã không thỏa mãn với câu trả lời này. Mục đích của triết học nói riêng và khoa học nói chung là tìm hiểu lý do cho mọi thứ. Do đó, các nhà triết học từ thời xa xưa đã luôn dành rất nhiều thời gian dễ ngẫm nghĩ và tranh luận với nhau về bản chất của thực tại. Trong đó có nhà triết học vĩ đại Plato với câu truyện ngụ ngôn “Cái hang của Plato” nổi tiếng của mình.
 
@@ -81,7 +86,3 @@ Do đó, khi khám phá ra “Protocol 7” và chứng minh được rằng th�
 Lain, cụ thể ở đây là phần “Lain ác” đã từng bị thuyết phục bởi lý tưởng của Eiri và giúp đỡ ông ta thực hiện ý đồ của mình. Và kể cả mặt “Lain bình thường” ở thế giới vật lý cũng không phản đối Eiri, thậm chí là một phần đồng tình với ông ta. Thế nhưng, tại sao ở cuối anime, Lain lại quyết định chống lại Eiri và reset lại mọi thứ? 
 Theo mình, đơn giản chỉ là Lain muốn bảo vệ những thứ quan trọng đối với mình (cụ thể ở đây là Arisu-chan). Mặc dù, phải chịu đựng đau khổ vì sự cô độc tận cùng nhưng Lain vẫn quyết định bảo vệ thế giới vật lý. Bởi vì thế giới đó có Arisu, người bạn quý giá nhất của cô và cũng là người duy nhất mang đến cho cô những giá trị về mặt tình cảm của một con người. Cô đơn giản là không quan tâm những gì mà Masami Eiri nói, cho dù hắn có đúng đi chăng nữa. Và cho dù là Wired có “siêu việt” hơn thế giới vật lý đi chăng nữa thì Eiri cũng chỉ là một kẻ từ bỏ cơ thể, từ bỏ thực tại của mình chỉ vì những sự khó khăn, giới hạn nhất định. 
 Vậy thì sau cùng giữa hành động của Lain và Eiri-san, ai đúng ai sai? Bản chất cốt lõi của thực tại là gì? Lain đã không trả lời cho chúng ta. Bởi vì những câu hỏi về thực tại vẫn luôn là những bí ẩn lớn nhất trong suốt lịch sử hình thành và phát triển của xã hội loài người và tiếp tục làm đau đầu, là chủ đề tranh luận của các nhà khoa học, triết học trong nhiều, nhiều năm hơn nữa. Dĩ nhiên là chỉ một bộ anime không thể trả lời được rồi. Thế nhưng bên cạnh đó, Lain cũng đã gửi cho chúng ta một thông điệp đầy ý nghĩa đó là cho dù thực tại của chúng ta có khắc nghiệt, khó khăn đến dường nào thì cũng đừng nên vội vàng từ bỏ hoàn toàn nó và hãy cố gắng trân trọng, bảo vệ những gì quý giá của mình.
-
-![](/posts/Lain1_1.jpg)
-
-![](/posts/Lain1_2.jpg)

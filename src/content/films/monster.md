@@ -1,8 +1,9 @@
 ---
-title: Monster
+title: "Monster"
 imdb_id: tt13207736
+tmdb_type: tv
 rating: 8
-imdb_score: 7.8
+imdb_score: 7.7
 genre: "Crime, Drama, Biography, Thriller"
 year: 2022
 director: N/A

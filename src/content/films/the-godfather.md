@@ -1,15 +1,16 @@
 ---
 title: "The Godfather"
 imdb_id: tt0068646
+tmdb_id: 238
+tmdb_type: movie
 rating: 10
 imdb_score: 9.2
 tmdb_score: 8.7
-genre: "Phim Chính Kịch, Phim Hình Sự"
+genre: "Crime, Drama"
 year: 1972
 director: "Francis Ford Coppola"
 status: watched
 date: 2025-04-25
 cover: "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
-tmdb_id: 238
 ---
 

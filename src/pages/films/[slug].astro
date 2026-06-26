@@ -9,7 +9,7 @@ export async function getStaticPaths() {
 
 const allPosts = (await getCollection('posts')).filter(p => !p.data.draft);
 const { entry } = Astro.props;
-const { title, imdb_id, tmdb_id, rating, imdb_score, tmdb_score, genre, year, director, status, cover, date } = entry.data;
+const { title, imdb_id, tmdb_id, tmdb_type, rating, imdb_score, tmdb_score, genre, year, director, status, cover, date } = entry.data;
 
 const titleLower = title.toLowerCase();
 const titleWords = titleLower.split(/[\s:,|—]+/).filter(w => w.length > 3);
@@ -25,7 +25,7 @@ const imdbUrl = imdb_id
   ? `https://www.imdb.com/title/${imdb_id}`
   : `https://www.imdb.com/find/?q=${encodeURIComponent(title)}`;
 const tmdbUrl = tmdb_id
-  ? `https://www.themoviedb.org/movie/${tmdb_id}`
+  ? `https://www.themoviedb.org/${tmdb_type === 'tv' ? 'tv' : 'movie'}/${tmdb_id}`
   : `https://www.themoviedb.org/search?query=${encodeURIComponent(title)}`;
 ---
 

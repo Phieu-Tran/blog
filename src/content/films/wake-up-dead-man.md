@@ -1,15 +1,16 @@
 ---
-title: "Wake Up Dead Man: A Knives Out Mystery"
+title: "Wake Up Dead Man"
 imdb_id: tt14364480
+tmdb_id: 812583
+tmdb_type: movie
 rating: 6
 imdb_score: 7.3
 tmdb_score: 7.2
-genre: "Phim Gây Cấn, Phim Bí Ẩn, Phim Hài"
+genre: "Thriller, Comedy, Crime, Drama, Mystery"
 year: 2025
 director: "Rian Johnson"
 status: watched
 date: 2026-01-08
 cover: "https://image.tmdb.org/t/p/w500/qCOGGi8JBVEZMc3DVby8rUivyXz.jpg"
-tmdb_id: 812583
 ---
 

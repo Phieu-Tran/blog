@@ -1,15 +1,16 @@
 ---
 title: "Ne Zha 2"
 imdb_id: tt34956443
+tmdb_id: 980477
+tmdb_type: movie
 rating: 7
 imdb_score: 7.9
 tmdb_score: 8.1
-genre: "Phim Hoạt Hình, Phim Hành Động, Phim Giả Tượng, Phim Phiêu Lưu"
+genre: "Animation, Drama, Fantasy, Action, Adventure, Comedy"
 year: 2025
-director: "Jiao Zi"
+director: "Yu Yang"
 status: watched
 date: 2026-01-08
 cover: "https://image.tmdb.org/t/p/w500/cb5NyNrqiCNNoDkA8FfxHAtypdG.jpg"
-tmdb_id: 980477
 ---
 

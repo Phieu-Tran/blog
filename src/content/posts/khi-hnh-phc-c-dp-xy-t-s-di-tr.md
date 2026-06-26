@@ -4,7 +4,6 @@ description: "[[Thảo Luận]]"
 tags: ["Explained", "Theme", "Theme"]
 date: 2026-03-29
 ---
-
 ![](/posts/HanhPhuc_0.png)
 
 
@@ -13,6 +12,8 @@ Khi Gotham còn đang vỡ bờ, hỗn loạn giữa hàng đống những hậu
 Giữa hai người đã từng hẹn thề, khi Gotham bình yên, sẽ cùng nhau về chung một mái nhà. Giờ đây, Rachel ngậm ngùi nhận ra, điều đó sẽ không bao giờ trở thành sự thật, bởi Gotham lẫn người dân của nó cần Bruce nhiều hơn hết thảy những gì cô từng mường tượng.
 
 Rachel sẵn sàng bước thêm một nấc trong cuộc đời với Harvey, cũng là lúc cô đã hy sinh hạnh phúc cá nhân để bảo toàn lấy hạnh phúc cho cả thành phố.
+
+![](/posts/HanhPhuc_1.jpg)
 
 Nhưng ở chiều hướng ngược lại, Alfred đã đốt bức thư, cho nó cháy thành từng vụn một.
 Vị quản gia đáng kính của nhà Wayne, đã giấu nhẹm sự thật về tình yêu Rachel dành cho Bruce nhiều đến mức nào. Để kỵ sĩ bóng đêm sẽ không bao giờ bị lung lay lý tưởng, về một Gotham được bình yên.
@@ -156,3 +157,5 @@ Những chuyến hành trình kì diệu tiếp theo
 Một sự thật sẽ theo Baku cho đến ngày ông tàn cuộc, nhưng miễn nó mang đến cho con trai ông những nấc thang kì diệu tiếp theo trong cuộc hành trình mà Heart đã chọn. Cái giá Baku phải trả rất đắt, nhưng nó đáng đến từng giọt máu đã ứa ra trong trận chiến giữa ông và Heart giữa trời tuyết. Nó xứng đáng để Baku tự làm tổn thương chính mình.
 
 Bởi lẽ con trai Baku không chỉ giống ông, mà cuộc đời của nó, còn là những chuyến hành trình hạnh phúc. Và để bồi đắp cho cuộc đời của Heart, sự hy sinh, cùng những lời dối trá của ông là điều cần thiết, để con trai ông mãi luôn được hạnh phúc về điều mà nó đã chọn.
+
+![](/posts/HanhPhuc_5.png)

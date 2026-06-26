@@ -33,11 +33,11 @@ function slugify(text) {
 }
 
 function parseFrontmatter(content) {
-  const match = content.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/);
+  const match = content.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n([\s\S]*)$/);
   if (!match) return null;
 
   const frontmatter = {};
-  match[1].split('\n').forEach(line => {
+  match[1].split(/\r?\n/).forEach(line => {
     const colonIdx = line.indexOf(':');
     if (colonIdx === -1) return;
     const key = line.slice(0, colonIdx).trim();
@@ -56,6 +56,7 @@ function parseFrontmatter(content) {
 function buildFrontmatter(data) {
   const lines = Object.entries(data).map(([key, value]) => {
     if (value === undefined || value === null) return null;
+    if (key === 'title') return `${key}: "${String(value).replace(/"/g, '\\"')}"`;
     if (typeof value === 'string' && (value.includes(':') || value.includes(',') || value.includes(' ') || value.includes('"'))) {
       return `${key}: "${value.replace(/"/g, '\\"')}"`;
     }
@@ -64,24 +65,58 @@ function buildFrontmatter(data) {
   return `---\n${lines.join('\n')}\n---\n`;
 }
 
-function findExistingFile(tmdbId) {
+function normalizeTmdbType(type) {
+  return type === 'tv' ? 'tv' : 'movie';
+}
+
+function tmdbEndpoint(type, tmdbId) {
+  return `${TMDB_BASE}/${normalizeTmdbType(type)}/${tmdbId}`;
+}
+
+function findExistingFile(tmdbId, tmdbType = 'movie') {
   if (!fs.existsSync(FILMS_DIR)) return null;
+  const expectedType = normalizeTmdbType(tmdbType);
   const files = fs.readdirSync(FILMS_DIR).filter(f => f.endsWith('.md'));
   for (const file of files) {
     const content = fs.readFileSync(path.join(FILMS_DIR, file), 'utf-8');
     const parsed = parseFrontmatter(content);
-    if (parsed && Number(parsed.frontmatter.tmdb_id) === tmdbId) {
+    const existingType = normalizeTmdbType(parsed?.frontmatter?.tmdb_type);
+    if (parsed && Number(parsed.frontmatter.tmdb_id) === tmdbId && existingType === expectedType) {
       return { file, ...parsed };
     }
   }
   return null;
 }
 
-async function fetchMovieDetails(tmdbId) {
-  const url = `${TMDB_BASE}/movie/${tmdbId}?api_key=${TMDB_API_KEY}&language=vi-VN&append_to_response=credits`;
+async function fetchTitleDetails(tmdbId, tmdbType = 'movie') {
+  const url = `${tmdbEndpoint(tmdbType, tmdbId)}?api_key=${TMDB_API_KEY}&language=vi-VN&append_to_response=credits,external_ids`;
   const res = await fetch(url);
   if (!res.ok) return null;
   return res.json();
+}
+
+function getTitle(details, tmdbType) {
+  return tmdbType === 'tv'
+    ? details.name || details.original_name
+    : details.title || details.original_title;
+}
+
+function getYear(details, tmdbType) {
+  const date = tmdbType === 'tv' ? details.first_air_date : details.release_date;
+  return date ? new Date(date).getFullYear() : new Date().getFullYear();
+}
+
+function getDirector(details, tmdbType) {
+  if (tmdbType === 'tv' && details.created_by?.length) {
+    return details.created_by.map(person => person.name).join(', ');
+  }
+
+  const director = details.credits?.crew?.find(c => c.job === 'Director');
+  return director?.name || 'N/A';
+}
+
+function getImdbId(details, tmdbType) {
+  return tmdbType === 'tv' ? details.external_ids?.imdb_id : details.imdb_id;
 }
 
 async function fetchList(listId) {
@@ -104,19 +139,20 @@ async function fetchList(listId) {
   return allMovies;
 }
 
-async function processMovie(tmdbId, existingRating) {
-  const details = await fetchMovieDetails(tmdbId);
+async function processTitle(tmdbId, existingRating, tmdbType = 'movie') {
+  const details = await fetchTitleDetails(tmdbId, tmdbType);
   if (!details) return null;
 
-  const director = details.credits?.crew?.find(c => c.job === 'Director');
-
   return {
-    title: details.title,
+    title: getTitle(details, tmdbType),
+    imdb_id: getImdbId(details, tmdbType),
     tmdb_id: tmdbId,
+    tmdb_type: normalizeTmdbType(tmdbType),
     rating: existingRating || 0,
     genre: details.genres?.map(g => g.name).join(', ') || 'N/A',
-    year: details.release_date ? new Date(details.release_date).getFullYear() : new Date().getFullYear(),
-    director: director?.name || 'N/A',
+    year: getYear(details, tmdbType),
+    director: getDirector(details, tmdbType),
+    tmdb_score: details.vote_average ? Number(details.vote_average.toFixed(1)) : undefined,
     status: 'watched',
     cover: details.poster_path ? `https://image.tmdb.org/t/p/w500${details.poster_path}` : undefined,
     date: new Date().toISOString().split('T')[0],
@@ -145,10 +181,11 @@ async function main() {
 
     for (const movie of movies) {
       const tmdbId = movie.id;
-      console.log(`Processing: ${movie.title} (TMDB: ${tmdbId})`);
+      const tmdbType = normalizeTmdbType(movie.media_type);
+      console.log(`Processing: ${movie.title || movie.name} (TMDB ${tmdbType}: ${tmdbId})`);
 
-      const existing = findExistingFile(tmdbId);
-      const data = await processMovie(tmdbId, existing?.frontmatter?.rating);
+      const existing = findExistingFile(tmdbId, tmdbType);
+      const data = await processTitle(tmdbId, existing?.frontmatter?.rating, tmdbType);
       await sleep(300);
 
       if (!data) {
@@ -189,9 +226,10 @@ async function main() {
     if (parsed.frontmatter.cover) continue; // Đã có đủ thông tin
 
     const tmdbId = Number(parsed.frontmatter.tmdb_id);
-    console.log(`  Fetching metadata: ${parsed.frontmatter.title} (TMDB: ${tmdbId})`);
+    const tmdbType = normalizeTmdbType(parsed.frontmatter.tmdb_type);
+    console.log(`  Fetching metadata: ${parsed.frontmatter.title} (TMDB ${tmdbType}: ${tmdbId})`);
 
-    const data = await processMovie(tmdbId, parsed.frontmatter.rating);
+    const data = await processTitle(tmdbId, parsed.frontmatter.rating, tmdbType);
     await sleep(300);
 
     if (data) {

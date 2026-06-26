@@ -1,15 +1,16 @@
 ---
 title: "12 Angry Men"
 imdb_id: tt0050083
+tmdb_id: 389
+tmdb_type: movie
 rating: 9
 imdb_score: 9
 tmdb_score: 8.6
-genre: "Phim Chính Kịch"
+genre: "Crime, Drama"
 year: 1957
 director: "Sidney Lumet"
 status: watched
 date: 2025-04-25
 cover: "https://image.tmdb.org/t/p/w500/zhG3vKWyDRaZYoaww1UVAi29T9h.jpg"
-tmdb_id: 389
 ---
 

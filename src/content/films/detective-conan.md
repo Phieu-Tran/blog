@@ -1,15 +1,16 @@
 ---
 title: "Detective Conan"
 imdb_id: tt0131179
+tmdb_id: 30983
+tmdb_type: tv
 rating: 7
 imdb_score: 8.5
 tmdb_score: 8
-genre: "Phim Hoạt Hình, Phim Hình Sự, Phim Bí Ẩn, Phim Hài"
+genre: "Animation, Crime, Comedy, Thriller, Drama, Romance, Action, Sci-Fi, Mystery"
 year: 1996
 director: N/A
 status: watched
 date: 2025-11-30
 cover: "https://image.tmdb.org/t/p/w500/atFAo8rJNQQwyhKSXGrYrbgslsx.jpg"
-tmdb_id: 30983
 ---
 
