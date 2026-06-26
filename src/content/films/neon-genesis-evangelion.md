@@ -6,7 +6,7 @@ tmdb_type: tv
 rating: 10
 imdb_score: 8.5
 tmdb_score: 8.6
-genre: "Animation, Drama, Action, Sci-Fi"
+genre: "Sci-Fi & Fantasy, Phim Hoạt Hình, Phim Chính Kịch"
 year: 1995
 director: N/A
 status: watched

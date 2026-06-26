@@ -1,12 +1,12 @@
 ---
-title: "Good Boy"
+title: "Chó Cưng Đừng Sợ"
 imdb_id: tt35521922
 tmdb_id: 1422096
 tmdb_type: movie
 rating: 4
 imdb_score: 6.1
 tmdb_score: 6.7
-genre: "Horror, Thriller"
+genre: "Phim Kinh Dị"
 year: 2025
 director: "Ben Leonberg"
 status: watched

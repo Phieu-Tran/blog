@@ -1,12 +1,12 @@
 ---
-title: "Nightcrawler"
+title: "Kẻ Săn Tin Đen"
 imdb_id: tt2872718
 tmdb_id: 242582
 tmdb_type: movie
 rating: 8
 imdb_score: 7.8
 tmdb_score: 7.7
-genre: "Crime, Thriller, Drama"
+genre: "Phim Hình Sự, Phim Chính Kịch, Phim Gây Cấn"
 year: 2014
 director: "Dan Gilroy"
 status: watched

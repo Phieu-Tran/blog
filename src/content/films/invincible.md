@@ -1,12 +1,12 @@
 ---
-title: "Invincible"
+title: "BẤT KHẢ CHIẾN BẠI"
 imdb_id: tt6741278
 tmdb_id: 95557
 tmdb_type: tv
 rating: 8
 imdb_score: 8.7
 tmdb_score: 8.6
-genre: "Animation, Sci-Fi, Action, Drama, Adventure, Fantasy, Thriller"
+genre: "Phim Hoạt Hình, Phim Chính Kịch, Sci-Fi & Fantasy, Action & Adventure"
 year: 2021
 director: N/A
 status: watched

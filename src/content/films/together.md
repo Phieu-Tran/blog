@@ -1,12 +1,12 @@
 ---
-title: "Together"
+title: "Dính Lẹo"
 imdb_id: tt31184028
 tmdb_id: 1242011
 tmdb_type: movie
 rating: 6
 imdb_score: 6.7
 tmdb_score: 6.9
-genre: "Horror, Romance"
+genre: "Phim Kinh Dị, Phim Lãng Mạn"
 year: 2025
 director: "Michael Shanks"
 status: watched

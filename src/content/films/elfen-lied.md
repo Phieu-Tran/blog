@@ -1,12 +1,12 @@
 ---
-title: "Elfen Lied"
+title: "Khúc Hát Yêu Nhân"
 imdb_id: tt0480489
 tmdb_id: 42671
 tmdb_type: tv
 rating: 8
 imdb_score: 7.8
 tmdb_score: 8.3
-genre: "Animation, Drama, Horror, Sci-Fi, Thriller, Action, Mystery"
+genre: "Action & Adventure, Phim Hoạt Hình, Phim Chính Kịch, Phim Bí Ẩn, Sci-Fi & Fantasy"
 year: 2004
 director: N/A
 status: watched

@@ -1,12 +1,12 @@
 ---
-title: "Deadpool & Wolverine"
+title: "Deadpool và Wolverine"
 imdb_id: tt6263850
 tmdb_id: 533535
 tmdb_type: movie
 rating: 6
 imdb_score: 7.5
 tmdb_score: 7.6
-genre: "Action, Comedy, Sci-Fi, Adventure"
+genre: "Phim Hành Động, Phim Hài, Phim Khoa Học Viễn Tưởng"
 year: 2024
 director: "Shawn Levy"
 status: watched

@@ -1,14 +1,14 @@
 ---
-title: "To the Forest of Firefly Lights"
+title: "Lạc Vào Khu Rừng Đom Đóm"
 imdb_id: tt2061702
 tmdb_id: 92321
 tmdb_type: movie
 rating: 7
 imdb_score: 7.8
 tmdb_score: 8.3
-genre: "Animation, Drama, Fantasy"
+genre: "Phim Lãng Mạn, Phim Hoạt Hình, Phim Giả Tượng"
 year: 2011
-director: "Takahiro Ômori"
+director: 大森貴弘
 status: watched
 date: 2025-12-03
 cover: "https://image.tmdb.org/t/p/w500/j2tZAhVgNqWHNEZPgJLH3LBsoAM.jpg"

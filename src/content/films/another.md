@@ -6,7 +6,7 @@ tmdb_type: tv
 rating: 10
 imdb_score: 7.5
 tmdb_score: 8.3
-genre: "Animation, Horror, Drama, Mystery, Fantasy, Thriller"
+genre: "Phim Hoạt Hình, Phim Chính Kịch, Phim Bí Ẩn"
 year: 2012
 director: N/A
 status: watched

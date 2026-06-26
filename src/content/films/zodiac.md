@@ -1,12 +1,12 @@
 ---
-title: "Zodiac"
+title: "Tên Sát Nhân Hoàn Hảo"
 imdb_id: tt0443706
 tmdb_id: 1949
 tmdb_type: movie
 rating: 9
 imdb_score: 7.7
 tmdb_score: 7.5
-genre: "Drama, Thriller, Crime, Mystery"
+genre: "Phim Hình Sự, Phim Bí Ẩn, Phim Gây Cấn"
 year: 2007
 director: "David Fincher"
 status: watched

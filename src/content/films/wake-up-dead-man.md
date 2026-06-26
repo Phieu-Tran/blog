@@ -1,12 +1,12 @@
 ---
-title: "Wake Up Dead Man"
+title: "Kẻ đâm lén: Đánh thức người chết"
 imdb_id: tt14364480
 tmdb_id: 812583
 tmdb_type: movie
 rating: 6
 imdb_score: 7.3
 tmdb_score: 7.2
-genre: "Thriller, Comedy, Crime, Drama, Mystery"
+genre: "Phim Gây Cấn, Phim Bí Ẩn, Phim Hài"
 year: 2025
 director: "Rian Johnson"
 status: watched

@@ -1,12 +1,12 @@
 ---
-title: "Now You See Me: Now You Don't"
+title: "Phi Vụ Thế Kỷ 3: Thoắt Ẩn Thoắt Hiện"
 imdb_id: tt4712810
 tmdb_id: 425274
 tmdb_type: movie
 rating: 5
 imdb_score: 5.9
 tmdb_score: 6.5
-genre: "Crime, Thriller"
+genre: "Phim Hình Sự, Phim Gây Cấn"
 year: 2025
 director: "Ruben Fleischer"
 status: watched

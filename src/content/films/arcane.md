@@ -6,9 +6,9 @@ tmdb_type: tv
 rating: 9
 imdb_score: 9
 tmdb_score: 8.8
-genre: "Animation, Action, Adventure, Drama, Fantasy, Sci-Fi"
+genre: "Phim Hoạt Hình, Action & Adventure, Sci-Fi & Fantasy"
 year: 2021
-director: N/A
+director: "Christian Linke, Alex Yee"
 status: watched
 date: 2025-10-18
 cover: "https://image.tmdb.org/t/p/w500/abf8tHznhSvl9BAElD2cQeRr7do.jpg"

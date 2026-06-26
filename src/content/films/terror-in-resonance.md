@@ -1,12 +1,12 @@
 ---
-title: "Terror in Resonance"
+title: "残響のテロル"
 imdb_id: tt3613454
 tmdb_id: 61421
 tmdb_type: tv
 rating: 8
 imdb_score: 7.8
 tmdb_score: 7.8
-genre: "Animation, Drama, Thriller, Mystery, Crime"
+genre: "Phim Hoạt Hình, Phim Chính Kịch, Phim Bí Ẩn, Phim Hình Sự"
 year: 2014
 director: N/A
 status: watched

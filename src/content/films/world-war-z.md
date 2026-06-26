@@ -1,12 +1,12 @@
 ---
-title: "World War Z"
+title: "Thế Chiến Z"
 imdb_id: tt0816711
 tmdb_id: 72190
 tmdb_type: movie
 rating: 7
 imdb_score: 7
 tmdb_score: 6.8
-genre: "Action, Adventure, Horror, Sci-Fi"
+genre: "Phim Hành Động, Phim Kinh Dị, Phim Khoa Học Viễn Tưởng"
 year: 2013
 director: "Marc Forster"
 status: watched

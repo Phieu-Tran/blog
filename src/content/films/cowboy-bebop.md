@@ -6,7 +6,7 @@ tmdb_type: tv
 rating: 10
 imdb_score: 8.9
 tmdb_score: 8.5
-genre: "Animation, Action, Drama, Comedy, Sci-Fi, Adventure"
+genre: "Phim Hoạt Hình, Action & Adventure, Sci-Fi & Fantasy, Phim Miền Tây"
 year: 1998
 director: N/A
 status: watched

@@ -1,12 +1,12 @@
 ---
-title: "Charlotte"
+title: "シャーロット"
 imdb_id: tt4574736
 tmdb_id: 63145
 tmdb_type: tv
 rating: 7
 imdb_score: 7.5
 tmdb_score: 8.3
-genre: "Animation, Drama, Fantasy, Comedy"
+genre: "Phim Hoạt Hình, Phim Chính Kịch, Sci-Fi & Fantasy"
 year: 2015
 director: N/A
 status: watched

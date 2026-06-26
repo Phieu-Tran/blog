@@ -1,12 +1,12 @@
 ---
-title: "Joker"
+title: "Joker: Gã Hề"
 imdb_id: tt7286456
 tmdb_id: 475557
 tmdb_type: movie
 rating: 9
 imdb_score: 8.3
 tmdb_score: 8.1
-genre: Drama
+genre: "Phim Hình Sự, Phim Gây Cấn, Phim Chính Kịch"
 year: 2019
 director: "Todd Phillips"
 status: watched

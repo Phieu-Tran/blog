@@ -1,12 +1,12 @@
 ---
-title: "Shutter Island"
+title: "Đảo Kinh Hoàng"
 imdb_id: tt1130884
 tmdb_id: 11324
 tmdb_type: movie
 rating: 8
 imdb_score: 8.2
 tmdb_score: 8.2
-genre: "Thriller, Mystery, Drama"
+genre: "Phim Chính Kịch, Phim Gây Cấn, Phim Bí Ẩn"
 year: 2010
 director: "Martin Scorsese"
 status: watched

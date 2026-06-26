@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 7
 imdb_score: 7.4
 tmdb_score: 7.6
-genre: "Horror, Sci-Fi, Drama, Fantasy"
+genre: "Phim Chính Kịch, Phim Giả Tượng, Phim Kinh Dị"
 year: 2025
 director: "Guillermo del Toro"
 status: watched

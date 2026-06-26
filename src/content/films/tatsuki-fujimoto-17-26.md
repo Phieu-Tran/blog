@@ -6,7 +6,7 @@ tmdb_type: tv
 rating: 9
 imdb_score: 7.9
 tmdb_score: 8.5
-genre: "Animation, Drama, Fantasy, Sci-Fi"
+genre: "Phim Hoạt Hình, Phim Chính Kịch, Phim Hài, Sci-Fi & Fantasy"
 year: 2025
 director: N/A
 status: watched

@@ -1,12 +1,12 @@
 ---
-title: "Berserk"
+title: "Berserk: Kiếm Sĩ Đen"
 imdb_id: tt0318871
 tmdb_id: 35935
 tmdb_type: tv
 rating: 10
 imdb_score: 8.8
 tmdb_score: 8.5
-genre: "Animation, Adventure, Fantasy, Horror, Action, Drama, Romance"
+genre: "Action & Adventure, Sci-Fi & Fantasy, Phim Hoạt Hình"
 year: 1997
 director: N/A
 status: watched

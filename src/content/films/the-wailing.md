@@ -1,14 +1,14 @@
 ---
-title: "The Wailing"
+title: "Tiếng Than"
 imdb_id: tt5215952
 tmdb_id: 293670
 tmdb_type: movie
 rating: 8
 imdb_score: 7.4
 tmdb_score: 7.4
-genre: "Horror, Drama"
+genre: "Phim Kinh Dị, Phim Bí Ẩn"
 year: 2016
-director: "Na Hong-jin"
+director: 나홍진
 status: watched
 date: 2025-12-13
 cover: "https://image.tmdb.org/t/p/w500/k9AKtgRErXjz14lFHL2IJVCgwOT.jpg"

@@ -1,12 +1,12 @@
 ---
-title: "Doctor Strange"
+title: "Phù Thuỷ Tối Thượng"
 imdb_id: tt1211837
 tmdb_id: 284052
 tmdb_type: movie
 rating: 6
 imdb_score: 7.5
 tmdb_score: 7.4
-genre: "Fantasy, Adventure, Action, Sci-Fi"
+genre: "Phim Giả Tượng, Phim Phiêu Lưu, Phim Hành Động"
 year: 2016
 director: "Scott Derrickson"
 status: watched

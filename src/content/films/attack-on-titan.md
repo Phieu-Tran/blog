@@ -1,12 +1,12 @@
 ---
-title: "Attack on Titan"
+title: "Đại Chiến Người Khổng Lồ"
 imdb_id: tt2560140
 tmdb_id: 1429
 tmdb_type: tv
 rating: 6
 imdb_score: 9.1
 tmdb_score: 8.7
-genre: "Animation, Fantasy, Horror, Adventure, Drama, Action"
+genre: "Phim Hoạt Hình, Sci-Fi & Fantasy, Action & Adventure"
 year: 2013
 director: N/A
 status: watched

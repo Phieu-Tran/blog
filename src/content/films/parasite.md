@@ -1,12 +1,12 @@
 ---
-title: "Parasite"
+title: "Ký Sinh Trùng"
 imdb_id: tt6751668
 tmdb_id: 496243
 tmdb_type: movie
 rating: 9
 imdb_score: 8.5
 tmdb_score: 8.5
-genre: "Drama, Thriller"
+genre: "Phim Hài, Phim Gây Cấn, Phim Chính Kịch"
 year: 2019
 director: "Bong Joon Ho"
 status: watched

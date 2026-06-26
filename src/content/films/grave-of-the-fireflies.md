@@ -1,14 +1,14 @@
 ---
-title: "Grave of the Fireflies"
+title: "Mộ Đom Đóm"
 imdb_id: tt0095327
 tmdb_id: 12477
 tmdb_type: movie
 rating: 8
 imdb_score: 8.5
 tmdb_score: 8.4
-genre: "Animation, Drama, War"
+genre: "Phim Hoạt Hình, Phim Chính Kịch, Phim Chiến Tranh"
 year: 1988
-director: "Isao Takahata"
+director: "Takahata Isao"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/j8QTuEVpaTJAbysQToI8sAj5MDB.jpg"

@@ -1,12 +1,12 @@
 ---
-title: "Interstellar"
+title: "Hố Đen Tử Thần"
 imdb_id: tt0816692
 tmdb_id: 157336
 tmdb_type: movie
 rating: 10
 imdb_score: 8.7
 tmdb_score: 8.5
-genre: "Sci-Fi, Adventure, Drama"
+genre: "Phim Phiêu Lưu, Phim Chính Kịch, Phim Khoa Học Viễn Tưởng"
 year: 2014
 director: "Christopher Nolan"
 status: watched

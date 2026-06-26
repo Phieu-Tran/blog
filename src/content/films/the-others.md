@@ -1,12 +1,12 @@
 ---
-title: "The Others"
+title: "Ngôi Nhà Toàn Ma"
 imdb_id: tt0230600
 tmdb_id: 1933
 tmdb_type: movie
 rating: 8
 imdb_score: 7.6
 tmdb_score: 7.6
-genre: "Mystery, Thriller, Horror"
+genre: "Phim Kinh Dị, Phim Bí Ẩn, Phim Gây Cấn"
 year: 2001
 director: "Alejandro Amenábar"
 status: watched

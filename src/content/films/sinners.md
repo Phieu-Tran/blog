@@ -1,12 +1,12 @@
 ---
-title: "Sinners"
+title: "Tội Đồ"
 imdb_id: tt31193180
 tmdb_id: 1233413
 tmdb_type: movie
 rating: 7
 imdb_score: 7.5
 tmdb_score: 7.5
-genre: Horror
+genre: "Phim Kinh Dị, Phim Hành Động, Phim Gây Cấn"
 year: 2025
 director: "Ryan Coogler"
 status: watched

@@ -1,14 +1,14 @@
 ---
-title: "Love Letter"
+title: "Bức Thư Tình"
 imdb_id: tt0113703
 tmdb_id: 47002
 tmdb_type: movie
 rating: 9
 imdb_score: 7.9
 tmdb_score: 7.8
-genre: "Romance, Drama"
+genre: "Phim Chính Kịch, Phim Lãng Mạn"
 year: 1995
-director: "Shunji Iwai"
+director: 岩井俊二
 status: watched
 date: 2025-07-27
 cover: "https://image.tmdb.org/t/p/w500/fAEmGO4A08LUms2ji0uphpu5DDN.jpg"

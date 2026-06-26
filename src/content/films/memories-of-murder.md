@@ -1,12 +1,12 @@
 ---
-title: "Memories of Murder"
+title: "Hồi Ức Kẻ Sát Nhân"
 imdb_id: tt0353969
 tmdb_id: 11423
 tmdb_type: movie
 rating: 9
 imdb_score: 8.1
 tmdb_score: 8.1
-genre: "Mystery, Crime, Drama, Thriller"
+genre: "Phim Hình Sự, Phim Chính Kịch, Phim Gây Cấn"
 year: 2003
 director: "Bong Joon Ho"
 status: watched

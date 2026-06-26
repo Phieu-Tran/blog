@@ -1,12 +1,12 @@
 ---
-title: "Taxi Driver"
+title: "Tài Xế Taxi"
 imdb_id: tt0075314
 tmdb_id: 103
 tmdb_type: movie
 rating: 9
 imdb_score: 8.2
 tmdb_score: 8.1
-genre: "Crime, Drama"
+genre: "Phim Hình Sự, Phim Chính Kịch"
 year: 1976
 director: "Martin Scorsese"
 status: watched

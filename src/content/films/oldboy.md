@@ -1,12 +1,12 @@
 ---
-title: "Oldboy"
+title: "Báo Thù"
 imdb_id: tt0364569
 tmdb_id: 670
 tmdb_type: movie
 rating: 9
 imdb_score: 8.3
 tmdb_score: 8.2
-genre: "Mystery, Thriller, Action, Drama"
+genre: "Phim Gây Cấn, Phim Bí Ẩn"
 year: 2003
 director: "Park Chan-wook"
 status: watched

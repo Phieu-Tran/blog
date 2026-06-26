@@ -1,12 +1,12 @@
 ---
-title: "Gone Girl"
+title: "Cô Gái Mất Tích"
 imdb_id: tt2267998
 tmdb_id: 210577
 tmdb_type: movie
 rating: 8
 imdb_score: 8.1
 tmdb_score: 7.9
-genre: "Thriller, Drama, Mystery"
+genre: "Phim Bí Ẩn, Phim Gây Cấn, Phim Chính Kịch"
 year: 2014
 director: "David Fincher"
 status: watched

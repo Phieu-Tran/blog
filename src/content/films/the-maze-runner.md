@@ -1,12 +1,12 @@
 ---
-title: "The Maze Runner"
+title: "Giải Mã Mê Cung"
 imdb_id: tt1790864
 tmdb_id: 198663
 tmdb_type: movie
 rating: 7
 imdb_score: 6.8
 tmdb_score: 7.2
-genre: "Sci-Fi, Mystery, Thriller, Action"
+genre: "Phim Hành Động, Phim Bí Ẩn, Phim Khoa Học Viễn Tưởng, Phim Gây Cấn"
 year: 2014
 director: "Wes Ball"
 status: watched

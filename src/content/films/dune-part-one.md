@@ -1,12 +1,12 @@
 ---
-title: "Dune: Part One"
+title: "Hành Tinh Cát"
 imdb_id: tt1160419
 tmdb_id: 438631
 tmdb_type: movie
 rating: 8
 imdb_score: 8
 tmdb_score: 7.8
-genre: "Sci-Fi, Adventure, Drama, Action"
+genre: "Phim Khoa Học Viễn Tưởng, Phim Phiêu Lưu"
 year: 2021
 director: "Denis Villeneuve"
 status: watched

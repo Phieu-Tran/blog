@@ -1,12 +1,12 @@
 ---
-title: "Tokyo Ghoul"
+title: "Ngạ Quỷ Vùng Tokyo Ghoul"
 imdb_id: tt3741634
 tmdb_id: 61374
 tmdb_type: tv
 rating: 7
 imdb_score: 7.7
 tmdb_score: 8.3
-genre: "Animation, Action, Drama, Fantasy, Horror, Thriller"
+genre: "Phim Hoạt Hình, Phim Chính Kịch, Sci-Fi & Fantasy"
 year: 2014
 director: N/A
 status: watched

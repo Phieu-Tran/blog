@@ -1,12 +1,12 @@
 ---
-title: "The Conjuring"
+title: "Ám Ảnh Kinh Hoàng"
 imdb_id: tt1457767
 tmdb_id: 138843
 tmdb_type: movie
 rating: 8
 imdb_score: 7.5
 tmdb_score: 7.5
-genre: "Horror, Mystery, Thriller"
+genre: "Phim Kinh Dị, Phim Gây Cấn"
 year: 2013
 director: "James Wan"
 status: watched

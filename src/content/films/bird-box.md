@@ -1,12 +1,12 @@
 ---
-title: "Bird Box"
+title: "Lồng Chim"
 imdb_id: tt2737304
 tmdb_id: 405774
 tmdb_type: movie
 rating: 7
 imdb_score: 6.6
 tmdb_score: 6.8
-genre: "Horror, Mystery, Sci-Fi"
+genre: "Phim Kinh Dị, Phim Gây Cấn, Phim Chính Kịch"
 year: 2018
 director: "Susanne Bier"
 status: watched

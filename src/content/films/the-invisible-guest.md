@@ -1,13 +1,13 @@
 ---
-title: "The Invisible Guest"
+title: "Sát thủ vô hình"
 imdb_id: tt4857264
 tmdb_id: 411088
 tmdb_type: movie
 rating: 8
 imdb_score: 8
 tmdb_score: 8.1
-genre: "Thriller, Crime, Mystery, Drama"
-year: 2016
+genre: "Phim Chính Kịch, Phim Bí Ẩn, Phim Gây Cấn"
+year: 2017
 director: "Oriol Paulo"
 status: watched
 date: 2026-03-17

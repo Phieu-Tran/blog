@@ -1,12 +1,12 @@
 ---
-title: "The Usual Suspects"
+title: "Kẻ Chủ Mưu"
 imdb_id: tt0114814
 tmdb_id: 629
 tmdb_type: movie
 rating: 10
 imdb_score: 8.5
 tmdb_score: 8.2
-genre: "Drama, Crime, Mystery, Thriller"
+genre: "Phim Chính Kịch, Phim Hình Sự, Phim Gây Cấn"
 year: 1995
 director: "Bryan Singer"
 status: watched

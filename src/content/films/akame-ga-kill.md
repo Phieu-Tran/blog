@@ -1,12 +1,12 @@
 ---
-title: "Akame ga Kill!"
+title: "Sát Thủ Akame"
 imdb_id: tt3742982
 tmdb_id: 61223
 tmdb_type: tv
 rating: 7
 imdb_score: 7.7
 tmdb_score: 8.3
-genre: "Animation, Action, Comedy, Drama, Fantasy, Thriller, Horror"
+genre: "Phim Hoạt Hình, Phim Chính Kịch, Action & Adventure"
 year: 2014
 director: N/A
 status: watched

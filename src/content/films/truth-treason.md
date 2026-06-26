@@ -1,12 +1,12 @@
 ---
-title: "Truth & Treason"
+title: "Sự Thật và Phản Quốc"
 imdb_id: tt21825416
 tmdb_id: 1443940
 tmdb_type: movie
 rating: 7
 imdb_score: 7.1
 tmdb_score: 8
-genre: "Drama, History, Thriller"
+genre: "Phim Lịch Sử, Phim Chính Kịch, Phim Gây Cấn"
 year: 2025
 director: "Matt Whitaker"
 status: watched

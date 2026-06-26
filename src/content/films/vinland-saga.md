@@ -1,12 +1,12 @@
 ---
-title: "Vinland Saga"
+title: "Bản hùng ca Viking"
 imdb_id: tt10233448
 tmdb_id: 88803
 tmdb_type: tv
 rating: 9
 imdb_score: 8.9
 tmdb_score: 8.5
-genre: "Animation, Action, Adventure, History, Drama"
+genre: "Phim Hoạt Hình, War & Politics, Action & Adventure, Phim Chính Kịch"
 year: 2019
 director: N/A
 status: watched

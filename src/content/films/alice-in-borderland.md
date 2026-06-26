@@ -1,12 +1,12 @@
 ---
-title: "Alice in Borderland"
+title: "Thế Giới Không Lối Thoát"
 imdb_id: tt10795658
 tmdb_id: 110316
 tmdb_type: tv
 rating: 9
 imdb_score: 7.8
 tmdb_score: 8.1
-genre: "Drama, Sci-Fi, Thriller, Mystery, Horror, Action"
+genre: "Phim Bí Ẩn, Phim Chính Kịch, Action & Adventure"
 year: 2020
 director: N/A
 status: watched

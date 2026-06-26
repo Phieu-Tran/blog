@@ -1,12 +1,12 @@
 ---
-title: "Mystic River"
+title: "Dòng Sông Kỳ Bí"
 imdb_id: tt0327056
 tmdb_id: 322
 tmdb_type: movie
 rating: 8
 imdb_score: 7.9
 tmdb_score: 7.7
-genre: "Crime, Mystery, Thriller, Drama"
+genre: "Phim Gây Cấn, Phim Hình Sự, Phim Chính Kịch, Phim Bí Ẩn"
 year: 2003
 director: "Clint Eastwood"
 status: watched

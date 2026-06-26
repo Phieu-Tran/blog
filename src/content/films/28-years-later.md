@@ -1,12 +1,12 @@
 ---
-title: "28 Years Later"
+title: "28 Năm Sau: Hậu Tận Thế"
 imdb_id: tt10548174
 tmdb_id: 1100988
 tmdb_type: movie
 rating: 7
 imdb_score: 6.6
 tmdb_score: 6.6
-genre: "Horror, Thriller, Sci-Fi"
+genre: "Phim Kinh Dị, Phim Gây Cấn, Phim Khoa Học Viễn Tưởng"
 year: 2025
 director: "Danny Boyle"
 status: watched

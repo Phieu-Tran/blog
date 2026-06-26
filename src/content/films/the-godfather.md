@@ -1,12 +1,12 @@
 ---
-title: "The Godfather"
+title: "Bố Già"
 imdb_id: tt0068646
 tmdb_id: 238
 tmdb_type: movie
 rating: 10
 imdb_score: 9.2
 tmdb_score: 8.7
-genre: "Crime, Drama"
+genre: "Phim Chính Kịch, Phim Hình Sự"
 year: 1972
 director: "Francis Ford Coppola"
 status: watched

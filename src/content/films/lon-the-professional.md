@@ -1,12 +1,12 @@
 ---
-title: "Léon: The Professional"
+title: "Sát Thủ Chuyên Nghiệp"
 imdb_id: tt0110413
 tmdb_id: 101
 tmdb_type: movie
 rating: 8
 imdb_score: 8.5
 tmdb_score: 8.3
-genre: "Action, Drama, Crime, Thriller"
+genre: "Phim Hình Sự, Phim Chính Kịch, Phim Hành Động"
 year: 1994
 director: "Luc Besson"
 status: watched

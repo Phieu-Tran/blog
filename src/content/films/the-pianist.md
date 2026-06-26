@@ -1,12 +1,12 @@
 ---
-title: "The Pianist"
+title: "Nghệ Sĩ Dương Cầm"
 imdb_id: tt0253474
 tmdb_id: 423
 tmdb_type: movie
 rating: 9
 imdb_score: 8.5
 tmdb_score: 8.4
-genre: "Biography, Music, Drama, War"
+genre: "Phim Chính Kịch, Phim Chiến Tranh"
 year: 2002
 director: "Roman Polanski"
 status: watched

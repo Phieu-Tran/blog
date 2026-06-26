@@ -1,12 +1,12 @@
 ---
-title: "Death Note"
+title: "Cuốn Sổ Tử Thần"
 imdb_id: tt0877057
 tmdb_id: 13916
 tmdb_type: tv
 rating: 8
 imdb_score: 8.9
 tmdb_score: 8.6
-genre: "Animation, Mystery, Crime, Thriller, Fantasy, Drama"
+genre: "Phim Hoạt Hình, Phim Bí Ẩn, Sci-Fi & Fantasy"
 year: 2006
 director: N/A
 status: watched

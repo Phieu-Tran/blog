@@ -1,12 +1,12 @@
 ---
-title: "Spider-Man: No Way Home"
+title: "Người Nhện: Không Còn Nhà"
 imdb_id: tt10872600
 tmdb_id: 634649
 tmdb_type: movie
 rating: 6
 imdb_score: 8.1
 tmdb_score: 7.9
-genre: "Action, Adventure, Sci-Fi, Fantasy"
+genre: "Phim Hành Động, Phim Phiêu Lưu, Phim Khoa Học Viễn Tưởng"
 year: 2021
 director: "Jon Watts"
 status: watched

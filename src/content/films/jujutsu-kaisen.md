@@ -1,14 +1,16 @@
 ---
-title: "Jujutsu Kaisen"
+title: "Chú Thuật Hồi Chiến"
 imdb_id: tt12343534
 tmdb_id: 95479
 tmdb_type: tv
 rating: 7
 imdb_score: 8.5
-genre: "Animation, Action, Adventure, Fantasy, Thriller"
+tmdb_score: 8.6
+genre: "Phim Hoạt Hình, Action & Adventure, Sci-Fi & Fantasy"
 year: 2020
 director: N/A
 status: watched
 date: 2026-01-08
+cover: "https://image.tmdb.org/t/p/w500/9TCtCKTb03Lm4xzNq4bMenbKUfx.jpg"
 ---
 

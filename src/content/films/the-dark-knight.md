@@ -1,12 +1,12 @@
 ---
-title: "The Dark Knight"
+title: "Kỵ Sĩ Bóng Đêm"
 imdb_id: tt0468569
 tmdb_id: 155
 tmdb_type: movie
 rating: 10
 imdb_score: 9.1
 tmdb_score: 8.5
-genre: "Crime, Thriller"
+genre: "Phim Hành Động, Phim Hình Sự, Phim Gây Cấn"
 year: 2008
 director: "Christopher Nolan"
 status: watched

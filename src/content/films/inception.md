@@ -1,12 +1,12 @@
 ---
-title: "Inception"
+title: "Kẻ Cắp Giấc Mơ"
 imdb_id: tt1375666
 tmdb_id: 27205
 tmdb_type: movie
 rating: 10
 imdb_score: 8.8
 tmdb_score: 8.4
-genre: "Sci-Fi, Thriller, Adventure"
+genre: "Phim Hành Động, Phim Khoa Học Viễn Tưởng, Phim Phiêu Lưu"
 year: 2010
 director: "Christopher Nolan"
 status: watched

@@ -1,12 +1,12 @@
 ---
-title: "Old"
+title: "Già"
 imdb_id: tt10954652
 tmdb_id: 631843
 tmdb_type: movie
 rating: 5
 imdb_score: 5.8
 tmdb_score: 6.3
-genre: "Thriller, Drama, Mystery"
+genre: "Phim Gây Cấn, Phim Bí Ẩn, Phim Kinh Dị"
 year: 2021
 director: "M. Night Shyamalan"
 status: watched

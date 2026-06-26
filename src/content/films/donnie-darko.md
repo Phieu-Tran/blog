@@ -1,12 +1,12 @@
 ---
-title: "Donnie Darko"
+title: "Giấc Mơ"
 imdb_id: tt0246578
 tmdb_id: 141
 tmdb_type: movie
 rating: 10
 imdb_score: 8
 tmdb_score: 7.8
-genre: "Sci-Fi, Thriller, Mystery, Drama"
+genre: "Phim Giả Tượng, Phim Chính Kịch, Phim Bí Ẩn"
 year: 2001
 director: "Richard Kelly"
 status: watched

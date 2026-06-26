@@ -1,12 +1,12 @@
 ---
-title: "Prisoners"
+title: "Lần Theo Dấu Vết"
 imdb_id: tt1392214
 tmdb_id: 146233
 tmdb_type: movie
 rating: 9
 imdb_score: 8.2
 tmdb_score: 8.1
-genre: "Crime, Drama, Thriller, Mystery"
+genre: "Phim Chính Kịch, Phim Gây Cấn, Phim Hình Sự"
 year: 2013
 director: "Denis Villeneuve"
 status: watched

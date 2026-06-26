@@ -1,12 +1,12 @@
 ---
-title: "Back to the Future"
+title: "Trở Về Tương Lai"
 imdb_id: tt0088763
 tmdb_id: 105
 tmdb_type: movie
 rating: 8
 imdb_score: 8.5
 tmdb_score: 8.3
-genre: "Comedy, Sci-Fi, Adventure"
+genre: "Phim Phiêu Lưu, Phim Hài, Phim Khoa Học Viễn Tưởng"
 year: 1985
 director: "Robert Zemeckis"
 status: watched

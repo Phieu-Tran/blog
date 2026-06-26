@@ -1,12 +1,12 @@
 ---
-title: "The Green Mile"
+title: "Dặm Xanh"
 imdb_id: tt0120689
 tmdb_id: 497
 tmdb_type: movie
 rating: 8
 imdb_score: 8.6
 tmdb_score: 8.5
-genre: "Crime, Fantasy, Mystery, Drama"
+genre: "Phim Giả Tượng, Phim Chính Kịch, Phim Hình Sự"
 year: 1999
 director: "Frank Darabont"
 status: watched

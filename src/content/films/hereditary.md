@@ -1,12 +1,12 @@
 ---
-title: "Hereditary"
+title: "Di Truyền"
 imdb_id: tt7784604
 tmdb_id: 493922
 tmdb_type: movie
 rating: 9
 imdb_score: 7.3
 tmdb_score: 7.3
-genre: "Horror, Drama, Mystery, Thriller"
+genre: "Phim Kinh Dị, Phim Bí Ẩn, Phim Gây Cấn"
 year: 2018
 director: "Ari Aster"
 status: watched

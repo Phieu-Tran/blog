@@ -1,14 +1,14 @@
 ---
-title: "Howl's Moving Castle"
+title: "Lâu Đài Bay Của Pháp Sư Howl"
 imdb_id: tt0347149
 tmdb_id: 4935
 tmdb_type: movie
 rating: 8
 imdb_score: 8.2
 tmdb_score: 8.4
-genre: "Animation, Adventure, Family, Fantasy"
+genre: "Phim Giả Tượng, Phim Hoạt Hình, Phim Phiêu Lưu"
 year: 2004
-director: "Hayao Miyazaki"
+director: 宮崎駿
 status: watched
 date: 2025-11-30
 cover: "https://image.tmdb.org/t/p/w500/jEa7VIZvKYr3iACvcfNqGWDUIun.jpg"

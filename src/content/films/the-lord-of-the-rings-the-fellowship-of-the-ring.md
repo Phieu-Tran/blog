@@ -1,12 +1,12 @@
 ---
-title: "The Lord of the Rings: The Fellowship of the Ring"
+title: "Chúa Tể Của Những Chiếc Nhẫn: Hiệp Hội Nhẫn Thần"
 imdb_id: tt0120737
 tmdb_id: 120
 tmdb_type: movie
 rating: 10
 imdb_score: 8.9
 tmdb_score: 8.4
-genre: "Drama, Adventure, Fantasy"
+genre: "Phim Phiêu Lưu, Phim Giả Tượng, Phim Hành Động"
 year: 2001
 director: "Peter Jackson"
 status: watched

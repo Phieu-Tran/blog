@@ -1,12 +1,12 @@
 ---
-title: "The Dark Knight Rises"
+title: "Kỵ Sĩ Bóng Đêm Trỗi Dậy"
 imdb_id: tt1345836
 tmdb_id: 49026
 tmdb_type: movie
 rating: 8
 imdb_score: 8.4
 tmdb_score: 7.8
-genre: "Thriller, Crime"
+genre: "Phim Hành Động, Phim Hình Sự, Phim Chính Kịch, Phim Gây Cấn"
 year: 2012
 director: "Christopher Nolan"
 status: watched

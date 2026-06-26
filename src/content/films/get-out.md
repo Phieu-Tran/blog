@@ -1,12 +1,12 @@
 ---
-title: "Get Out"
+title: "Trốn Thoát"
 imdb_id: tt5052448
 tmdb_id: 419430
 tmdb_type: movie
 rating: 8
 imdb_score: 7.8
 tmdb_score: 7.6
-genre: "Horror, Mystery, Thriller"
+genre: "Phim Bí Ẩn, Phim Gây Cấn, Phim Kinh Dị"
 year: 2017
 director: "Jordan Peele"
 status: watched

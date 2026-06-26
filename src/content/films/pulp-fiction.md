@@ -1,12 +1,12 @@
 ---
-title: "Pulp Fiction"
+title: "Chuyện Tào Lao"
 imdb_id: tt0110912
 tmdb_id: 680
 tmdb_type: movie
 rating: 9
 imdb_score: 8.8
 tmdb_score: 8.5
-genre: "Crime, Drama"
+genre: "Phim Gây Cấn, Phim Hình Sự, Phim Hài"
 year: 1994
 director: "Quentin Tarantino"
 status: watched

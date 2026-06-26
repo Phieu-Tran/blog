@@ -1,12 +1,12 @@
 ---
-title: "The Future Diary"
+title: "未来日記"
 imdb_id: tt2069441
 tmdb_id: 46671
 tmdb_type: tv
 rating: 7
 imdb_score: 7.4
 tmdb_score: 7.6
-genre: "Animation, Action, Drama, Romance, Thriller, Mystery, Comedy, Horror"
+genre: "Action & Adventure, Phim Hoạt Hình, Phim Chính Kịch, Phim Bí Ẩn"
 year: 2011
 director: N/A
 status: watched

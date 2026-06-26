@@ -1,14 +1,14 @@
 ---
-title: "Everything Everywhere All at Once"
+title: "Cuộc Chiến Đa Vũ Trụ"
 imdb_id: tt6710474
 tmdb_id: 545611
 tmdb_type: movie
 rating: 6
 imdb_score: 7.7
 tmdb_score: 7.7
-genre: "Sci-Fi, Adventure, Comedy, Fantasy, Action, Drama"
+genre: "Phim Hành Động, Phim Phiêu Lưu, Phim Khoa Học Viễn Tưởng"
 year: 2022
-director: "Daniel Kwan,Daniel Scheinert"
+director: "Daniel Scheinert"
 status: watched
 date: 2026-01-08
 cover: "https://image.tmdb.org/t/p/w500/p7fgHiFZJaJkbWeQ73rmjDfQfU4.jpg"

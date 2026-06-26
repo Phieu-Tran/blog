@@ -1,12 +1,12 @@
 ---
-title: "Steins; Gate"
+title: "Cánh Cổng Thời Gian"
 imdb_id: tt1910272
 tmdb_id: 42509
 tmdb_type: tv
 rating: 9
 imdb_score: 8.8
 tmdb_score: 8.5
-genre: "Animation, Sci-Fi, Thriller, Comedy, Drama, Romance, Mystery"
+genre: "Phim Hoạt Hình, Sci-Fi & Fantasy, Phim Bí Ẩn, Phim Hài"
 year: 2011
 director: N/A
 status: watched
