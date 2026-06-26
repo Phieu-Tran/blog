@@ -1,13 +1,13 @@
 # Phieu.work — Personal Media Hub
 
-A personal media tracking blog built with Astro. Aggregates anime (MAL), films (IMDB/TMDB), games (Steam/IGN), and blog posts from Obsidian. Auto-syncs weekly, deployed on Cloudflare Pages.
+A personal media tracking blog built with Astro. Aggregates anime (MAL), films (IMDb CSV + TMDB), games (Steam/IGN), and blog posts from Obsidian. Auto-syncs weekly, deployed on Cloudflare Pages.
 
 **Live**: [blog.workspacesbeat.site](https://blog.workspacesbeat.site)
 
 ## Features
 
 - **5 sections**: Anime, Films, Games, Posts, Steam — each with unique layout
-- **Auto-sync**: Anime (MAL), Films (TMDB), Games (Steam) — weekly via GitHub Actions
+- **Auto-sync**: Anime (MAL), TMDB rated movies, Games (Steam) — weekly via GitHub Actions
 - **3 film scores**: My Score, IMDB Score, TMDB Score
 - **Steam profile page** with playtime bars and Steam-style UI
 - **Dark theme** with per-section color coding
@@ -28,6 +28,7 @@ npm run sync         # Sync all data with progress bar
 ```bash
 npm run sync         # Sync all (MAL + TMDB + Steam + covers + build check)
 npm run sync-mal     # Sync anime from MAL
+npm run sync-imdb    # Import films/TV from an IMDb ratings CSV
 npm run sync-tmdb    # Sync films from TMDB
 npm run sync-steam   # Sync games from Steam
 npm run fetch-data   # Fetch missing covers
@@ -39,16 +40,23 @@ npm run build        # Build site
 | Section | Directory | Frontmatter |
 |---------|-----------|-------------|
 | Anime | `src/content/anime/` | `title, mal_id, rating, mal_score, genre, year, studio, status, episodes_watched, episodes_total, cover, updated_at, date` |
-| Films | `src/content/films/` | `title, imdb_id, tmdb_id, rating, imdb_score, tmdb_score, genre, year, director, status, cover, date` |
+| Films | `src/content/films/` | `title, imdb_id, tmdb_id, tmdb_type, rating, imdb_score, tmdb_score, genre, year, director, status, cover, date` |
 | Games | `src/content/games/` | `title, steam_appid, rating, genre, year, studio, status, platform, playtime_hours, cover, date` |
 | Posts | `src/content/posts/` | `title, description, tags, cover, date, draft` |
+
+## Film Sync Notes
+
+- IMDb ratings CSV import is the source of truth for film identity, title, user rating, IMDb score, year, and whether an entry is a movie or TV series.
+- TMDB enrichment resolves by IMDb ID through TMDB's external ID endpoint, not by title search.
+- `tmdb_type` is stored as `movie` or `tv` so TMDB links and covers do not confuse TV IDs with movie IDs.
+- The weekly TMDB account sync still imports rated TMDB movies and keeps missing covers fresh.
 
 ## Weekly Auto-Sync
 
 The `sync.yml` workflow runs every Monday at 6 AM (UTC+7):
 
 1. Syncs anime from MAL (page scrape)
-2. Syncs rated films from TMDB account
+2. Syncs rated movies from TMDB account
 3. Syncs games from Steam library
 4. Fetches missing covers
 5. Runs build check
@@ -61,7 +69,6 @@ The `sync.yml` workflow runs every Monday at 6 AM (UTC+7):
 | `TMDB_API_KEY` | Secret | TMDB API key |
 | `TMDB_SESSION_ID` | Secret | TMDB session |
 | `STEAM_API_KEY` | Secret | Steam Web API key |
-| `OMDB_API_KEY` | Secret | OMDB API key (IMDB scores) |
 | `MAL_USERNAME` | Variable | MAL username |
 | `TMDB_ACCOUNT_ID` | Variable | TMDB account ID |
 | `STEAM_ID` | Variable | Steam user ID |
@@ -77,8 +84,8 @@ The `sync.yml` workflow runs every Monday at 6 AM (UTC+7):
 - [Astro](https://astro.build/) — Static site generator
 - Vanilla CSS — Dark theme, responsive
 - [MAL](https://myanimelist.net/) — Anime data (page scrape)
-- [TMDB API](https://www.themoviedb.org/) — Film metadata + ratings
-- [OMDB API](https://www.omdbapi.com/) — IMDB scores
+- IMDb ratings export — Film and TV ratings source
+- [TMDB API](https://www.themoviedb.org/) — Film/TV metadata + ratings
 - [Steam API](https://steamcommunity.com/dev) — Game library + playtime
 - [Cloudflare Pages](https://pages.cloudflare.com/) — Hosting
 - [GitHub Actions](https://github.com/features/actions) — Weekly auto-sync
