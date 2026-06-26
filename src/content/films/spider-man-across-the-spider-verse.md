@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 7
 imdb_score: 8.5
 tmdb_score: 8.3
-genre: "Animation, Action, Adventure, Sci-Fi, Fantasy, Family"
+genre: "Phim Hoạt Hình, Phim Hành Động, Phim Phiêu Lưu, Phim Khoa Học Viễn Tưởng"
 year: 2023
-director: "Joaquim Dos Santos,Kemp Powers,Justin K. Thompson"
+director: "Justin K. Thompson"
 status: watched
 date: 2025-10-15
-cover: "https://image.tmdb.org/t/p/w500/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg"
+cover: "https://image.tmdb.org/t/p/w500/paM6UdMgXuXyAK0jhGfV07o3lRW.jpg"
 ---
 

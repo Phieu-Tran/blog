@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 5
 imdb_score: 7.1
 tmdb_score: 7
-genre: "Romance, Sci-Fi, Drama, Thriller"
+genre: "Phim Hài, Phim Chính Kịch, Phim Lãng Mạn"
 year: 2015
 director: "Yorgos Lanthimos"
 status: watched

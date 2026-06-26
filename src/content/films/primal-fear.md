@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 8
 imdb_score: 7.7
 tmdb_score: 7.7
-genre: "Crime, Mystery, Drama, Thriller"
+genre: "Phim Hình Sự, Phim Chính Kịch, Phim Gây Cấn"
 year: 1996
 director: "Gregory Hoblit"
 status: watched

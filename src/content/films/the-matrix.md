@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 10
 imdb_score: 8.7
 tmdb_score: 8.2
-genre: "Action, Sci-Fi"
+genre: "Phim Hành Động, Phim Khoa Học Viễn Tưởng"
 year: 1999
-director: "Lana Wachowski,Lilly Wachowski"
+director: "Lana Wachowski"
 status: watched
 date: 2025-04-25
-cover: "https://image.tmdb.org/t/p/w500/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg"
+cover: "https://image.tmdb.org/t/p/w500/fE7S6EwaBgRQeqKoDVFoImMmAF4.jpg"
 ---
 

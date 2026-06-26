@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 7
 imdb_score: 7.6
 tmdb_score: 7.4
-genre: "Crime, Thriller"
+genre: "Phim Gây Cấn, Phim Hình Sự, Phim Hài"
 year: 2025
 director: "Paul Thomas Anderson"
 status: watched
 date: 2025-12-11
-cover: "https://image.tmdb.org/t/p/w500/lbBWwxBht4JFP5PsuJ5onpMqugW.jpg"
+cover: "https://image.tmdb.org/t/p/w500/wQ0IDT8rXOvCt6LflxcMEOUNBUS.jpg"
 ---
 

@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 8
 imdb_score: 8.5
 tmdb_score: 8.3
-genre: "Comedy, Sci-Fi, Adventure"
+genre: "Phim Phiêu Lưu, Phim Hài, Phim Khoa Học Viễn Tưởng"
 year: 1985
 director: "Robert Zemeckis"
 status: watched
 date: 2025-10-18
-cover: "https://image.tmdb.org/t/p/w500/vN5B5WgYscRGcQpVhHl6p9DDTP0.jpg"
+cover: "https://image.tmdb.org/t/p/w500/d8O1txQtDobdenlyL7uArsRezdj.jpg"
 ---
 

@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 9
 imdb_score: 7.7
 tmdb_score: 7.8
-genre: "Animation, Mystery, Sci-Fi, Thriller, Fantasy, Drama"
+genre: "Phim Hoạt Hình, Phim Khoa Học Viễn Tưởng, Phim Gây Cấn"
 year: 2006
 director: "Satoshi Kon"
 status: watched
 date: 2025-11-30
-cover: "https://image.tmdb.org/t/p/w500/bLUUr474Go1DfeN1HLjE3rnZXBq.jpg"
+cover: "https://image.tmdb.org/t/p/w500/a7r2jDONMLbwuKjLjjq03Q1n0zr.jpg"
 ---
 

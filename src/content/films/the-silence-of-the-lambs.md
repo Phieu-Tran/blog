@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 7
 imdb_score: 8.6
 tmdb_score: 8.3
-genre: "Crime, Drama, Horror, Thriller"
+genre: "Phim Hình Sự, Phim Gây Cấn, Phim Chính Kịch"
 year: 1991
 director: "Jonathan Demme"
 status: watched
 date: 2025-10-15
-cover: "https://image.tmdb.org/t/p/w500/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg"
+cover: "https://image.tmdb.org/t/p/w500/7h6frYSP6wE3knBG9bpnYFLDA5I.jpg"
 ---
 

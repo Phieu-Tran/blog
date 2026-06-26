@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 6
 imdb_score: 7.4
 tmdb_score: 7.3
-genre: "Horror, Mystery"
+genre: "Phim Kinh Dị, Phim Bí Ẩn"
 year: 2025
 director: "Zach Cregger"
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/cpf7vsRZ0MYRQcnLWteD5jK9ymT.jpg"
+cover: "https://image.tmdb.org/t/p/w500/lVY3xYt7ai6ahduq3D7F2z5wwin.jpg"
 ---
 

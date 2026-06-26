@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 9
 imdb_score: 7.4
 tmdb_score: 7.6
-genre: "Animation, Romance, Drama"
+genre: "Phim Hoạt Hình, Phim Chính Kịch, Phim Lãng Mạn"
 year: 2013
 director: "Makoto Shinkai"
 status: watched
 date: 2025-12-03
-cover: "https://image.tmdb.org/t/p/w500/mXUCVq3HMtS4Y9IQ8vmEOPyN0vH.jpg"
+cover: "https://image.tmdb.org/t/p/w500/vOVQY2otrYGXfFpQ2FT2N2GlAgO.jpg"
 ---
 

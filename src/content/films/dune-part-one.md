@@ -1,16 +1,16 @@
 ---
-title: "Dune: Part One"
+title: "Dune"
 imdb_id: tt1160419
 tmdb_id: 438631
 tmdb_type: movie
 rating: 8
 imdb_score: 8
 tmdb_score: 7.8
-genre: "Sci-Fi, Adventure, Drama, Action"
+genre: "Phim Khoa Học Viễn Tưởng, Phim Phiêu Lưu"
 year: 2021
 director: "Denis Villeneuve"
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/gDzOcq0pfeCeqMBwKIJlSmQpjkZ.jpg"
+cover: "https://image.tmdb.org/t/p/w500/kZpP3t5wxOlHscZiDP3LuhuvkiI.jpg"
 ---
 

@@ -5,8 +5,8 @@ tmdb_id: 745
 tmdb_type: movie
 rating: 8
 imdb_score: 8.2
-tmdb_score: 7.9
-genre: "Mystery, Drama, Thriller"
+tmdb_score: 8
+genre: "Phim Bí Ẩn, Phim Gây Cấn, Phim Chính Kịch"
 year: 1999
 director: "M. Night Shyamalan"
 status: watched

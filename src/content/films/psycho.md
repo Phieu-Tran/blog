@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 8
 imdb_score: 8.5
 tmdb_score: 8.4
-genre: "Mystery, Thriller, Horror, Drama"
+genre: "Phim Kinh Dị, Phim Gây Cấn, Phim Bí Ẩn"
 year: 1960
 director: "Alfred Hitchcock"
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/yz4QVqPx3h1hD1DfqqQkCq3rmxW.jpg"
+cover: "https://image.tmdb.org/t/p/w500/2ykxn5iCpv9RUr94dhTrCUNvIx4.jpg"
 ---
 

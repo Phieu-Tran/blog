@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 10
 imdb_score: 8
 tmdb_score: 7.8
-genre: "Sci-Fi, Thriller, Mystery, Drama"
+genre: "Phim Giả Tượng, Phim Chính Kịch, Phim Bí Ẩn"
 year: 2001
 director: "Richard Kelly"
 status: watched
 date: 2026-03-16
-cover: "https://image.tmdb.org/t/p/w500/nlHKLhTHTIW9f8KDgDeiain6d6f.jpg"
+cover: "https://image.tmdb.org/t/p/w500/j2AtZFsflxiluaNtajMTI0Avm8C.jpg"
 ---
 

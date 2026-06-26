@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 9
 imdb_score: 8.8
 tmdb_score: 8.5
-genre: "Crime, Drama"
+genre: "Phim Gây Cấn, Phim Hình Sự, Phim Hài"
 year: 1994
 director: "Quentin Tarantino"
 status: watched
 date: 2025-04-25
-cover: "https://image.tmdb.org/t/p/w500/vQWk5YBFWF4bZaofAbv0tShwBvQ.jpg"
+cover: "https://image.tmdb.org/t/p/w500/ihynkOAH6FLNgG1kqM5ep9GSHZS.jpg"
 ---
 

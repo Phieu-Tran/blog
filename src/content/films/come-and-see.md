@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 7
 imdb_score: 8.3
 tmdb_score: 8.2
-genre: "Thriller, Drama, War"
+genre: "Phim Chính Kịch, Phim Chiến Tranh"
 year: 1985
 director: "Elem Klimov"
 status: watched
 date: 2025-10-15
-cover: "https://image.tmdb.org/t/p/w500/qNbMsKVzigERgJUbwf8pKyZogpb.jpg"
+cover: "https://image.tmdb.org/t/p/w500/baK79h2An0J8mzTue13KThAeYC5.jpg"
 ---
 

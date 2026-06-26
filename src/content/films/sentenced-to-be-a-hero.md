@@ -5,7 +5,7 @@ tmdb_id: 249907
 tmdb_type: tv
 rating: 9
 imdb_score: 8
-tmdb_score: 8.6
+tmdb_score: 8.4
 genre: "Animation, Action, Adventure, Comedy, Fantasy, Drama, War"
 year: 2026
 director: N/A

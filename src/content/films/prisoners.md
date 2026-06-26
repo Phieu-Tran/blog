@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 9
 imdb_score: 8.2
 tmdb_score: 8.1
-genre: "Crime, Drama, Thriller, Mystery"
+genre: "Phim Chính Kịch, Phim Gây Cấn, Phim Hình Sự"
 year: 2013
 director: "Denis Villeneuve"
 status: watched
 date: 2026-01-14
-cover: "https://image.tmdb.org/t/p/w500/jsS3a3ep2KyBVmmiwaz3LvK49b1.jpg"
+cover: "https://image.tmdb.org/t/p/w500/wOViaF0lv8xvYyFdF7bKAG3IZIb.jpg"
 ---
 

@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 9
 imdb_score: 8.3
 tmdb_score: 8.2
-genre: "Mystery, Thriller, Action, Drama"
+genre: "Phim Gây Cấn, Phim Bí Ẩn"
 year: 2003
 director: "Park Chan-wook"
 status: watched
 date: 2025-10-15
-cover: "https://image.tmdb.org/t/p/w500/pWDtjs568ZfOTMbURQBYuT4Qxka.jpg"
+cover: "https://image.tmdb.org/t/p/w500/xpa9ybm6tYGna5LseqSXvKpSSJn.jpg"
 ---
 

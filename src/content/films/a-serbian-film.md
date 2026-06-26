@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 5
 imdb_score: 4.9
 tmdb_score: 5.4
-genre: "Horror, Thriller, Mystery"
+genre: "Phim Hình Sự, Phim Kinh Dị, Phim Gây Cấn"
 year: 2010
-director: "Srdjan Spasojevic"
+director: "Srđan Spasojević"
 status: watched
 date: 2026-03-28
-cover: "https://image.tmdb.org/t/p/w500/yIQqiw3Az5QYNHLCUoCTtxXH24G.jpg"
+cover: "https://image.tmdb.org/t/p/w500/qT312t40YmlOSsOXOoOLDCvRbPx.jpg"
 ---
 

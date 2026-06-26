@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 9
 imdb_score: 7.3
 tmdb_score: 7.3
-genre: "Horror, Drama, Mystery, Thriller"
+genre: "Phim Kinh Dị, Phim Bí Ẩn, Phim Gây Cấn"
 year: 2018
 director: "Ari Aster"
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/4GFPuL14eXi66V96xBWY73Y9PfR.jpg"
+cover: "https://image.tmdb.org/t/p/w500/a3Lf8D4r6wzk4pJrnuBpvyuYsXi.jpg"
 ---
 

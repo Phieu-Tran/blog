@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 8
 imdb_score: 8.6
 tmdb_score: 8.4
-genre: Drama
+genre: "Phim Chính Kịch"
 year: 1975
 director: "Miloš Forman"
 status: watched

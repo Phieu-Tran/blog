@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 7
 imdb_score: 7.8
 tmdb_score: 7.4
-genre: "Drama, Biography"
+genre: "Phim Chính Kịch"
 year: 2010
 director: "David Fincher"
 status: watched
 date: 2026-01-14
-cover: "https://image.tmdb.org/t/p/w500/n0ybibhJtQ5icDqTp8eRytcIHJx.jpg"
+cover: "https://image.tmdb.org/t/p/w500/dqWUPWe8HQSGuZqXTCaqvvxUgsB.jpg"
 ---
 

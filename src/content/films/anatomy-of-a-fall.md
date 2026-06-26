@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 7
 imdb_score: 7.6
 tmdb_score: 7.5
-genre: "Drama, Thriller, Crime, Mystery"
+genre: "Phim Gây Cấn, Phim Bí Ẩn, Phim Hình Sự"
 year: 2023
 director: "Justine Triet"
 status: watched
 date: 2025-12-18
-cover: "https://image.tmdb.org/t/p/w500/1ho0d4LNZw3Y0voeKmSvPSgJOJ2.jpg"
+cover: "https://image.tmdb.org/t/p/w500/iVVe3ZyThTk3ot09Hg1KPJpc0Hh.jpg"
 ---
 

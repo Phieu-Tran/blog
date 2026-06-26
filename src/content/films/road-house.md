@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 5
 imdb_score: 6.2
 tmdb_score: 6.9
-genre: "Action, Thriller, Drama"
+genre: "Phim Hành Động, Phim Gây Cấn, Phim Chính Kịch"
 year: 2024
 director: "Doug Liman"
 status: watched

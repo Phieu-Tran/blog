@@ -8,7 +8,7 @@ imdb_score: 7.9
 tmdb_score: 7.9
 genre: "Mystery, Thriller, Drama, Action, Crime"
 year: 2021
-director: N/A
+director: 황동혁
 status: watched
 date: 2025-10-18
 cover: "https://image.tmdb.org/t/p/w500/uK5GDq2xuRH4TqhOZkKuyRnM85.jpg"

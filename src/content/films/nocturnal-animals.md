@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 7
 imdb_score: 7.4
 tmdb_score: 7.4
-genre: "Drama, Thriller"
+genre: "Phim Chính Kịch, Phim Gây Cấn"
 year: 2016
 director: "Tom Ford"
 status: watched

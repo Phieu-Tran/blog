@@ -6,9 +6,9 @@ tmdb_type: movie
 rating: 6
 imdb_score: 7
 tmdb_score: 7
-genre: "Horror, Thriller"
+genre: "Phim Gây Cấn, Phim Kinh Dị"
 year: 2024
-director: "Scott Beck,Bryan Woods"
+director: "Scott Beck"
 status: watched
 date: 2026-03-08
 cover: "https://image.tmdb.org/t/p/w500/fr96XzlzsONrQrGfdLMiwtQjott.jpg"

@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 9
 imdb_score: 8
 tmdb_score: 8.3
-genre: "Animation, Mystery, Crime, Drama, Thriller"
-year: 1997
+genre: "Phim Hoạt Hình, Phim Gây Cấn"
+year: 1998
 director: "Satoshi Kon"
 status: watched
 date: 2025-11-30
-cover: "https://image.tmdb.org/t/p/w500/6WTiOCfDPP8XV4jqfloiVWf7KHq.jpg"
+cover: "https://image.tmdb.org/t/p/w500/rfxmLMjSSD709PbsoRbge3K79DO.jpg"
 ---
 

@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 6
 imdb_score: 7
 tmdb_score: 7
-genre: "Drama, Mystery, Thriller, Horror"
+genre: "Phim Chính Kịch, Phim Gây Cấn, Phim Bí Ẩn"
 year: 2017
 director: "Yorgos Lanthimos"
 status: watched

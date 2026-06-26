@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 10
 imdb_score: 8
 tmdb_score: 7.9
-genre: "Animation, Drama, Fantasy, Action, Sci-Fi"
+genre: "Phim Hoạt Hình, Phim Khoa Học Viễn Tưởng, Phim Hành Động"
 year: 1988
-director: "Katsuhiro Ōtomo"
+director: "Katsuhiro Otomo"
 status: watched
 date: 2025-11-30
-cover: "https://image.tmdb.org/t/p/w500/neZ0ykEsPqxamsX6o5QNUFILQrz.jpg"
+cover: "https://image.tmdb.org/t/p/w500/zQwWFbQf2zAXExdCDASdKbXNkLb.jpg"
 ---
 

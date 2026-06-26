@@ -8,7 +8,7 @@ imdb_score: 7.8
 tmdb_score: 8.2
 genre: "Animation, Fantasy, Comedy, Adventure, Action"
 year: 2014
-director: N/A
+director: あだちとか
 status: watched
 date: 2025-10-25
 cover: "https://image.tmdb.org/t/p/w500/8yGBg40I36c98OeKMMjkJkCThkf.jpg"

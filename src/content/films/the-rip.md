@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 7
 imdb_score: 6.8
 tmdb_score: 7.1
-genre: "Crime, Thriller, Drama, Mystery, Action"
+genre: "Phim Hành Động, Phim Gây Cấn, Phim Hình Sự"
 year: 2026
 director: "Joe Carnahan"
 status: watched
 date: 2026-01-17
-cover: "https://image.tmdb.org/t/p/w500/4wsYWH73Hb1B6noGIFaRQSAkuXj.jpg"
+cover: "https://image.tmdb.org/t/p/w500/6xL4Ei29kVIR8BXYyTAVMsggs87.jpg"
 ---
 

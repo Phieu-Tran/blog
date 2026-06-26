@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 9
 imdb_score: 8.4
 tmdb_score: 8.4
-genre: "Animation, Action, Sci-Fi, Adventure, Family, Fantasy"
+genre: "Phim Hoạt Hình, Phim Hành Động, Phim Phiêu Lưu, Phim Khoa Học Viễn Tưởng"
 year: 2018
-director: "Bob Persichetti,Peter Ramsey,Rodney Rothman"
+director: "Bob Persichetti"
 status: watched
 date: 2025-10-15
-cover: "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg"
+cover: "https://image.tmdb.org/t/p/w500/kahw25SAqedXIruUGIuSUiq7t98.jpg"
 ---
 

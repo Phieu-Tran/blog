@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 10
 imdb_score: 9.1
 tmdb_score: 8.5
-genre: "Crime, Thriller"
+genre: "Phim Hành Động, Phim Hình Sự, Phim Gây Cấn"
 year: 2008
 director: "Christopher Nolan"
 status: watched
 date: 2025-04-25
-cover: "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+cover: "https://image.tmdb.org/t/p/w500/7EfSqviKvXwbiGhUjHyUBGVdoiW.jpg"
 ---
 

@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 7
 imdb_score: 8.1
 tmdb_score: 7.8
-genre: "Fantasy, Action, Adventure"
+genre: "Phim Phiêu Lưu, Phim Giả Tượng, Phim Hành Động"
 year: 2003
 director: "Gore Verbinski"
 status: watched

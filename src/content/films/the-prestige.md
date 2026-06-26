@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 10
 imdb_score: 8.5
 tmdb_score: 8.2
-genre: "Drama, Thriller, Mystery, Sci-Fi"
+genre: "Phim Chính Kịch, Phim Bí Ẩn, Phim Khoa Học Viễn Tưởng"
 year: 2006
 director: "Christopher Nolan"
 status: watched

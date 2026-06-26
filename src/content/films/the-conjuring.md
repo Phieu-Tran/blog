@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 8
 imdb_score: 7.5
 tmdb_score: 7.5
-genre: "Horror, Mystery, Thriller"
+genre: "Phim Kinh Dị, Phim Gây Cấn"
 year: 2013
 director: "James Wan"
 status: watched
 date: 2025-11-30
-cover: "https://image.tmdb.org/t/p/w500/wVYREutTvI2tmxr6ujrHT704wGF.jpg"
+cover: "https://image.tmdb.org/t/p/w500/qic7Xa1fnwLyEsjvjapDTEMYXsR.jpg"
 ---
 

@@ -8,7 +8,7 @@ imdb_score: 8.6
 tmdb_score: 8.6
 genre: "Drama, Horror, Thriller, Sci-Fi, Mystery, Fantasy"
 year: 2016
-director: N/A
+director: "Ross Duffer, Matt Duffer"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/3AJr9B1Yn4TyaFeZ4OkaTVP1LNr.jpg"

@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 9
 imdb_score: 8.2
 tmdb_score: 8
-genre: "Biography, Drama, History"
+genre: "Phim Chính Kịch, Phim Lịch Sử"
 year: 2023
 director: "Christopher Nolan"
 status: watched
 date: 2025-10-15
-cover: "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+cover: "https://image.tmdb.org/t/p/w500/ixLH2iM9at8BbuLr5wQWnCfwhJO.jpg"
 ---
 

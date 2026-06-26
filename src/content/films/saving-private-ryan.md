@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 9
 imdb_score: 8.6
 tmdb_score: 8.2
-genre: "Drama, War"
+genre: "Phim Chiến Tranh, Phim Chính Kịch, Phim Lịch Sử"
 year: 1998
 director: "Steven Spielberg"
 status: watched
 date: 2025-04-25
-cover: "https://image.tmdb.org/t/p/w500/uqx37cS8cpHg8U35f9U5IBlrCV3.jpg"
+cover: "https://image.tmdb.org/t/p/w500/wz11UlVEmJjmNnRnrWH8MqItj5A.jpg"
 ---
 

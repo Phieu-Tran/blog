@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 8
 imdb_score: 7.6
 tmdb_score: 7.5
-genre: "Thriller, Drama"
+genre: "Phim Gây Cấn, Phim Chính Kịch"
 year: 2004
 director: "Brad Anderson"
 status: watched

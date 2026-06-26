@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 8
 imdb_score: 8.5
 tmdb_score: 8.3
-genre: "Action, Drama, Crime, Thriller"
+genre: "Phim Hình Sự, Phim Chính Kịch, Phim Hành Động"
 year: 1994
 director: "Luc Besson"
 status: watched
 date: 2025-10-15
-cover: "https://image.tmdb.org/t/p/w500/bxB2q91nKYp8JNzqE7t7TWBVupB.jpg"
+cover: "https://image.tmdb.org/t/p/w500/efqJtlo5J1hBNFmbwyjyAR9Mpr2.jpg"
 ---
 

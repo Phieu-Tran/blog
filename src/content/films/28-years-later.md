@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 7
 imdb_score: 6.6
 tmdb_score: 6.6
-genre: "Horror, Thriller, Sci-Fi"
+genre: "Phim Kinh Dị, Phim Gây Cấn, Phim Khoa Học Viễn Tưởng"
 year: 2025
 director: "Danny Boyle"
 status: watched
 date: 2026-01-14
-cover: "https://image.tmdb.org/t/p/w500/n5FygjEppOvac6yEaowi26nTyw3.jpg"
+cover: "https://image.tmdb.org/t/p/w500/qX7y0GJH2JFxh95wu0kaoFCCM6h.jpg"
 ---
 

@@ -5,12 +5,12 @@ tmdb_id: 980477
 tmdb_type: movie
 rating: 7
 imdb_score: 7.9
-tmdb_score: 8.1
-genre: "Animation, Drama, Fantasy, Action, Adventure, Comedy"
+tmdb_score: 8.2
+genre: "Phim Hoạt Hình, Phim Hành Động, Phim Giả Tượng, Phim Phiêu Lưu"
 year: 2025
-director: "Yu Yang"
+director: "Jiao Zi"
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/cb5NyNrqiCNNoDkA8FfxHAtypdG.jpg"
+cover: "https://image.tmdb.org/t/p/w500/qJh6xpfFUg030ldvZruBob3i0Z7.jpg"
 ---
 

@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 9
 imdb_score: 8.6
 tmdb_score: 8.5
-genre: "Animation, Family, Adventure, Fantasy"
+genre: "Phim Hoạt Hình, Phim Gia Đình, Phim Giả Tượng"
 year: 2001
 director: "Hayao Miyazaki"
 status: watched
 date: 2025-04-25
-cover: "https://image.tmdb.org/t/p/w500/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg"
+cover: "https://image.tmdb.org/t/p/w500/pNHppsjxGBcRUCFlXQh0briymTN.jpg"
 ---
 

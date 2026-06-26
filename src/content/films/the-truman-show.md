@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 8
 imdb_score: 8.2
 tmdb_score: 8.2
-genre: "Comedy, Drama"
+genre: "Phim Hài, Phim Chính Kịch"
 year: 1998
 director: "Peter Weir"
 status: watched

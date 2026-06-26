@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 7
 imdb_score: 8.4
 tmdb_score: 8.2
-genre: "Action, Sci-Fi, Adventure"
+genre: "Phim Phiêu Lưu, Phim Hành Động, Phim Khoa Học Viễn Tưởng"
 year: 2018
-director: "Anthony Russo,Joe Russo"
+director: "Anthony Russo"
 status: watched
 date: 2025-10-18
-cover: "https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg"
+cover: "https://image.tmdb.org/t/p/w500/8gHc1cthgTOkmMiOREodCVZgJ7P.jpg"
 ---
 

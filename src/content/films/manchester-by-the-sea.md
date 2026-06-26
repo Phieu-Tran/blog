@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 7
 imdb_score: 7.8
 tmdb_score: 7.6
-genre: Drama
+genre: "Phim Chính Kịch"
 year: 2016
 director: "Kenneth Lonergan"
 status: watched

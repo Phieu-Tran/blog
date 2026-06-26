@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 10
 imdb_score: 9.2
 tmdb_score: 8.7
-genre: "Crime, Drama"
+genre: "Phim Chính Kịch, Phim Hình Sự"
 year: 1972
 director: "Francis Ford Coppola"
 status: watched
 date: 2025-04-25
-cover: "https://image.tmdb.org/t/p/w500/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
+cover: "https://image.tmdb.org/t/p/w500/84MHN3JvOV4ORHgELrQM6SBlhdB.jpg"
 ---
 

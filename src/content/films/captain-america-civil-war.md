@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 7
 imdb_score: 7.8
 tmdb_score: 7.4
-genre: "Action, Sci-Fi"
+genre: "Phim Phiêu Lưu, Phim Hành Động, Phim Khoa Học Viễn Tưởng"
 year: 2016
-director: "Anthony Russo,Joe Russo"
+director: "Joe Russo"
 status: watched
 date: 2026-01-08
-cover: "https://image.tmdb.org/t/p/w500/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg"
+cover: "https://image.tmdb.org/t/p/w500/hDTVGIG8jsa1ZwO3wV0ccvDN4ZH.jpg"
 ---
 

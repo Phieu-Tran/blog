@@ -6,11 +6,11 @@ tmdb_type: movie
 rating: 9
 imdb_score: 8.4
 tmdb_score: 8.1
-genre: "Animation, Sci-Fi, Adventure, Family"
+genre: "Phim Hoạt Hình, Phim Gia Đình, Phim Khoa Học Viễn Tưởng"
 year: 2008
 director: "Andrew Stanton"
 status: watched
 date: 2025-10-15
-cover: "https://image.tmdb.org/t/p/w500/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg"
+cover: "https://image.tmdb.org/t/p/w500/jNPu8FFumN2gTdUn4Np4kFVobtU.jpg"
 ---
 

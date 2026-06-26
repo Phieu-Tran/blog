@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 7
 imdb_score: 7.7
 tmdb_score: 7.6
-genre: "Drama, Thriller, Mystery"
+genre: "Phim Chính Kịch, Phim Gây Cấn, Phim Bí Ẩn"
 year: 1997
 director: "David Fincher"
 status: watched
