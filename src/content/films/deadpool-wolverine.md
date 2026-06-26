@@ -1,5 +1,5 @@
 ---
-title: "Deadpool & Wolverine"
+title: "Deadpool và Wolverine"
 imdb_id: tt6263850
 tmdb_id: 533535
 tmdb_type: movie

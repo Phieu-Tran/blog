@@ -1,5 +1,5 @@
 ---
-title: "Black Phone 2"
+title: "Điện Thoại Đen 2"
 imdb_id: tt29644189
 tmdb_id: 1197137
 tmdb_type: movie

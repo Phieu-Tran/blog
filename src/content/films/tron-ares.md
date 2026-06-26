@@ -1,5 +1,5 @@
 ---
-title: "TRON: Ares"
+title: "Trò Chơi Ảo Giác: Ares"
 imdb_id: tt6604188
 tmdb_id: 533533
 tmdb_type: movie

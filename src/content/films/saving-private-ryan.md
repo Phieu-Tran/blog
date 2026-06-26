@@ -1,5 +1,5 @@
 ---
-title: "Saving Private Ryan"
+title: "Giải Cứu Binh Nhì Ryan"
 imdb_id: tt0120815
 tmdb_id: 857
 tmdb_type: movie

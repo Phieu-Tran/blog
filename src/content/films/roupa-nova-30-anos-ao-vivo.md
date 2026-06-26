@@ -1,5 +1,5 @@
 ---
-title: "Roupa Nova - 30 Anos Ao Vivo"
+title: "Roupa Nova: 30 Anos Ao Vivo"
 tmdb_id: 63145
 tmdb_type: movie
 rating: 7

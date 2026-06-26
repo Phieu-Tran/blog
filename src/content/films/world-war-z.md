@@ -1,5 +1,5 @@
 ---
-title: "World War Z"
+title: "Thế Chiến Z"
 imdb_id: tt0816711
 tmdb_id: 72190
 tmdb_type: movie

@@ -1,5 +1,5 @@
 ---
-title: "Pirates of the Caribbean: The Curse of the Black Pearl"
+title: "Cướp Biển Vùng Caribbean: Lời Nguyền Tàu Ngọc Trai Đen"
 imdb_id: tt0325980
 tmdb_id: 22
 tmdb_type: movie

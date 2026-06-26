@@ -1,5 +1,5 @@
 ---
-title: "Gladiator"
+title: "Võ Sĩ Giác Đấu"
 imdb_id: tt0172495
 tmdb_id: 98
 tmdb_type: movie

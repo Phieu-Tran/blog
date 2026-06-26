@@ -1,5 +1,5 @@
 ---
-title: "The Conjuring: Last Rites"
+title: "Ám Ảnh Kinh Hoàng: Nghi Lễ Cuối Cùng"
 imdb_id: tt22898462
 tmdb_id: 1038392
 tmdb_type: movie

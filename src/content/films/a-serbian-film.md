@@ -1,5 +1,5 @@
 ---
-title: "A Serbian Film"
+title: "Srpski film"
 imdb_id: tt1273235
 tmdb_id: 73861
 tmdb_type: movie

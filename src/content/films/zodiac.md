@@ -1,5 +1,5 @@
 ---
-title: "Zodiac"
+title: "Tên Sát Nhân Hoàn Hảo"
 imdb_id: tt0443706
 tmdb_id: 1949
 tmdb_type: movie

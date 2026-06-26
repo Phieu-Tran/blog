@@ -1,5 +1,5 @@
 ---
-title: "Heretic"
+title: "Kẻ Dị Giáo"
 imdb_id: tt28015403
 tmdb_id: 1138194
 tmdb_type: movie

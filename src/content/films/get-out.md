@@ -1,5 +1,5 @@
 ---
-title: "Get Out"
+title: "Trốn Thoát"
 imdb_id: tt5052448
 tmdb_id: 419430
 tmdb_type: movie

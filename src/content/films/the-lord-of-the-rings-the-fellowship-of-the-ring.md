@@ -1,5 +1,5 @@
 ---
-title: "The Lord of the Rings: The Fellowship of the Ring"
+title: "Chúa Tể Của Những Chiếc Nhẫn: Hiệp Hội Nhẫn Thần"
 imdb_id: tt0120737
 tmdb_id: 120
 tmdb_type: movie

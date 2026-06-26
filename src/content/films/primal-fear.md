@@ -1,5 +1,5 @@
 ---
-title: "Primal Fear"
+title: "Tột Cùng Sợ Hãi"
 imdb_id: tt0117381
 tmdb_id: 1592
 tmdb_type: movie

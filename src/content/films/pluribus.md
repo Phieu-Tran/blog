@@ -1,12 +1,12 @@
 ---
-title: "Pluribus"
+title: "Kẻ Lạc Loài - Pluribus"
 imdb_id: tt22202452
 tmdb_id: 225171
 tmdb_type: tv
 rating: 7
 imdb_score: 7.9
 tmdb_score: 7.9
-genre: "Drama, Sci-Fi"
+genre: "Phim Chính Kịch, Sci-Fi & Fantasy"
 year: 2025
 director: "Vince Gilligan"
 status: watched

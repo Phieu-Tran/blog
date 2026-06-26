@@ -1,5 +1,5 @@
 ---
-title: "Oldboy"
+title: "Báo Thù"
 imdb_id: tt0364569
 tmdb_id: 670
 tmdb_type: movie

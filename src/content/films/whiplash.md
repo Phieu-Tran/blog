@@ -1,5 +1,5 @@
 ---
-title: "Whiplash"
+title: "Khát Vọng Nhịp Điệu"
 imdb_id: tt2582802
 tmdb_id: 244786
 tmdb_type: movie

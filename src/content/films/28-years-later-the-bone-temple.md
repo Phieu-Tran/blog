@@ -1,5 +1,5 @@
 ---
-title: "28 Years Later: The Bone Temple"
+title: "28 Năm Sau: Ngôi Đền Tử Thần"
 imdb_id: tt32141377
 tmdb_id: 1272837
 tmdb_type: movie

@@ -1,5 +1,5 @@
 ---
-title: "The Killing of a Sacred Deer"
+title: "Giết Con Nai Thần"
 imdb_id: tt5715874
 tmdb_id: 399057
 tmdb_type: movie
@@ -8,7 +8,7 @@ imdb_score: 7
 tmdb_score: 7
 genre: "Phim Chính Kịch, Phim Gây Cấn, Phim Bí Ẩn"
 year: 2017
-director: "Yorgos Lanthimos"
+director: "Γιώργος Λάνθιμος"
 status: watched
 date: 2026-03-24
 cover: "https://image.tmdb.org/t/p/w500/e4DGlsc9g0h5AyoyvvAuIRnofN7.jpg"

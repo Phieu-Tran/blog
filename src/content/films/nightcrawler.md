@@ -1,5 +1,5 @@
 ---
-title: "Nightcrawler"
+title: "Kẻ Săn Tin Đen"
 imdb_id: tt2872718
 tmdb_id: 242582
 tmdb_type: movie

@@ -1,5 +1,5 @@
 ---
-title: "The Prestige"
+title: "Ảo Thuật Gia Đấu Trí"
 imdb_id: tt0482571
 tmdb_id: 1124
 tmdb_type: movie

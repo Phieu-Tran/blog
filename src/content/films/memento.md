@@ -1,5 +1,5 @@
 ---
-title: "Memento"
+title: "Kẻ Mất Trí Nhớ"
 imdb_id: tt0209144
 tmdb_id: 77
 tmdb_type: movie

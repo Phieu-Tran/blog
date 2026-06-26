@@ -1,5 +1,5 @@
 ---
-title: "The Lion King"
+title: "Vua Sư Tử"
 imdb_id: tt0110357
 tmdb_id: 8587
 tmdb_type: movie

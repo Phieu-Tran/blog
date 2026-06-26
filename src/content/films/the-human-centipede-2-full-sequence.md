@@ -1,5 +1,5 @@
 ---
-title: "The Human Centipede 2 (Full Sequence)"
+title: "Con Rết Người 2"
 imdb_id: tt1530509
 tmdb_id: 74997
 tmdb_type: movie

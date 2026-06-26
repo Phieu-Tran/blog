@@ -1,5 +1,5 @@
 ---
-title: "The Pursuit of Happyness"
+title: "Mưu Cầu Hạnh Phúc"
 imdb_id: tt0454921
 tmdb_id: 1402
 tmdb_type: movie

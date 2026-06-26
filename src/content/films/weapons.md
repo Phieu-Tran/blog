@@ -1,5 +1,5 @@
 ---
-title: "Weapons"
+title: "Giờ Mất Tích"
 imdb_id: tt26581740
 tmdb_id: 1078605
 tmdb_type: movie

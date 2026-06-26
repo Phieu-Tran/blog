@@ -1,5 +1,5 @@
 ---
-title: "The Machinist"
+title: "Gã Thợ Máy"
 imdb_id: tt0361862
 tmdb_id: 4553
 tmdb_type: movie

@@ -1,5 +1,5 @@
 ---
-title: "12 Angry Men"
+title: "12 Người Đàn Ông Giận Dữ"
 imdb_id: tt0050083
 tmdb_id: 389
 tmdb_type: movie

@@ -1,5 +1,5 @@
 ---
-title: "Audition"
+title: "Buổi Thử Giọng"
 imdb_id: tt0235198
 tmdb_id: 11075
 tmdb_type: movie
@@ -8,7 +8,7 @@ imdb_score: 7.1
 tmdb_score: 7.1
 genre: "Phim Kinh Dị, Phim Chính Kịch"
 year: 2000
-director: "Takashi Miike"
+director: 三池崇史
 status: watched
 date: 2025-12-13
 cover: "https://image.tmdb.org/t/p/w500/hkjpeUkXbsCjj0FrG1nNxVCxUid.jpg"

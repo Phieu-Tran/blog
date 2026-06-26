@@ -1,5 +1,5 @@
 ---
-title: "Kill Bill: Vol. 1"
+title: "Cô Dâu Báo Thù 1"
 imdb_id: tt0266697
 tmdb_id: 24
 tmdb_type: movie

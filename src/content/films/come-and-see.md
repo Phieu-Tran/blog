@@ -1,5 +1,5 @@
 ---
-title: "Come and See"
+title: "Иди и смотри"
 imdb_id: tt0091251
 tmdb_id: 25237
 tmdb_type: movie
@@ -8,7 +8,7 @@ imdb_score: 8.3
 tmdb_score: 8.2
 genre: "Phim Chính Kịch, Phim Chiến Tranh"
 year: 1985
-director: "Elem Klimov"
+director: "Элем Климов"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/baK79h2An0J8mzTue13KThAeYC5.jpg"

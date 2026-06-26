@@ -1,5 +1,5 @@
 ---
-title: "The Dark Knight Rises"
+title: "Kỵ Sĩ Bóng Đêm Trỗi Dậy"
 imdb_id: tt1345836
 tmdb_id: 49026
 tmdb_type: movie

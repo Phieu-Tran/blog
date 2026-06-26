@@ -1,5 +1,5 @@
 ---
-title: "Alien"
+title: "Quái Vật Không Gian"
 imdb_id: tt0078748
 tmdb_id: 348
 tmdb_type: movie

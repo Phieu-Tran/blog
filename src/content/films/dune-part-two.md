@@ -1,5 +1,5 @@
 ---
-title: "Dune: Part Two"
+title: "Hành Tinh Cát: Phần Hai"
 imdb_id: tt15239678
 tmdb_id: 693134
 tmdb_type: movie

@@ -1,5 +1,5 @@
 ---
-title: "One Flew Over the Cuckoo's Nest"
+title: "Bay Trên Tổ Chim Cúc Cu"
 imdb_id: tt0073486
 tmdb_id: 510
 tmdb_type: movie

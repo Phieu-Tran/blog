@@ -1,5 +1,5 @@
 ---
-title: "Memories of Murder"
+title: "Hồi Ức Kẻ Sát Nhân"
 imdb_id: tt0353969
 tmdb_id: 11423
 tmdb_type: movie

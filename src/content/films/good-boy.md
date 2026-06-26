@@ -1,5 +1,5 @@
 ---
-title: "Good Boy"
+title: "Chó Cưng Đừng Sợ"
 imdb_id: tt35521922
 tmdb_id: 1422096
 tmdb_type: movie

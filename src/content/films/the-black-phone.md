@@ -1,5 +1,5 @@
 ---
-title: "The Black Phone"
+title: "Điện Thoại Đen"
 imdb_id: tt7144666
 tmdb_id: 756999
 tmdb_type: movie

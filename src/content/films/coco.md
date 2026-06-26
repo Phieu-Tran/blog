@@ -1,5 +1,5 @@
 ---
-title: "Coco"
+title: "Coco: Hội Ngộ Diệu Kỳ"
 imdb_id: tt2380307
 tmdb_id: 354912
 tmdb_type: movie

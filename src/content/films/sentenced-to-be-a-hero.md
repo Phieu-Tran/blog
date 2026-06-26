@@ -1,12 +1,12 @@
 ---
-title: "Sentenced to Be a Hero"
+title: "Án Phạt Dũng Giả"
 imdb_id: tt32536168
 tmdb_id: 249907
 tmdb_type: tv
 rating: 9
 imdb_score: 8
 tmdb_score: 8.4
-genre: "Animation, Action, Adventure, Comedy, Fantasy, Drama, War"
+genre: "Phim Hoạt Hình, Sci-Fi & Fantasy, Action & Adventure"
 year: 2026
 director: N/A
 status: watched

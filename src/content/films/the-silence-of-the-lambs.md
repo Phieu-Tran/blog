@@ -1,5 +1,5 @@
 ---
-title: "The Silence of the Lambs"
+title: "Sự Im Lặng Của Bầy Cừu"
 imdb_id: tt0102926
 tmdb_id: 274
 tmdb_type: movie

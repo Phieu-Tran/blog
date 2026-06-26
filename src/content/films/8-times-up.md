@@ -1,5 +1,5 @@
 ---
-title: "8 Times Up"
+title: "8 fois debout"
 imdb_id: tt1318061
 tmdb_id: 61374
 tmdb_type: movie

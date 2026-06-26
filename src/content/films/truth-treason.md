@@ -1,5 +1,5 @@
 ---
-title: "Truth & Treason"
+title: "Sự Thật và Phản Quốc"
 imdb_id: tt21825416
 tmdb_id: 1443940
 tmdb_type: movie

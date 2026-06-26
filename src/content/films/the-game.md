@@ -1,5 +1,5 @@
 ---
-title: "The Game"
+title: "Trò Chơi Cân Não"
 imdb_id: tt0119174
 tmdb_id: 2649
 tmdb_type: movie

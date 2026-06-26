@@ -1,5 +1,5 @@
 ---
-title: "Village of Dreams"
+title: "絵の中のぼくの村"
 imdb_id: tt0112923
 tmdb_id: 36304
 tmdb_type: movie
@@ -8,7 +8,7 @@ imdb_score: 6.8
 tmdb_score: 6
 genre: "Phim Gia Đình, Phim Chính Kịch"
 year: 1996
-director: "Yōichi Higashi"
+director: 東陽一
 status: watched
 date: 2026-03-21
 cover: "https://image.tmdb.org/t/p/w500/pXir2xJB8wSpwI9fqNBEUKhkBwI.jpg"

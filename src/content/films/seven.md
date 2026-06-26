@@ -1,5 +1,5 @@
 ---
-title: "Se7en"
+title: "Thất Đại Tội"
 imdb_id: tt0114369
 tmdb_id: 807
 tmdb_type: movie

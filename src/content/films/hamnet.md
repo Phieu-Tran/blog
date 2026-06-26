@@ -1,5 +1,5 @@
 ---
-title: "Hamnet"
+title: "Con trai của Shakespeare"
 imdb_id: tt14905854
 tmdb_id: 858024
 tmdb_type: movie

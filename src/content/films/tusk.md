@@ -1,5 +1,5 @@
 ---
-title: "Tusk"
+title: "Răng Nanh"
 imdb_id: tt3099498
 tmdb_id: 246403
 tmdb_type: movie

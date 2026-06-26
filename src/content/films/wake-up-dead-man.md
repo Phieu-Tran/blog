@@ -1,5 +1,5 @@
 ---
-title: "Wake Up Dead Man: A Knives Out Mystery"
+title: "Kẻ đâm lén: Đánh thức người chết"
 imdb_id: tt14364480
 tmdb_id: 812583
 tmdb_type: movie

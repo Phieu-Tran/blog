@@ -1,5 +1,5 @@
 ---
-title: "The Lord of the Rings: The Return of the King"
+title: "Chúa Tể Của Những Chiếc Nhẫn: Sự Trở Lại Của Nhà Vua"
 imdb_id: tt0167260
 tmdb_id: 122
 tmdb_type: movie

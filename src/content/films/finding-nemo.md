@@ -1,5 +1,5 @@
 ---
-title: "Finding Nemo"
+title: "Đi Tìm Nemo"
 imdb_id: tt0266543
 tmdb_id: 12
 tmdb_type: movie

@@ -1,5 +1,5 @@
 ---
-title: "The Pianist"
+title: "Nghệ Sĩ Dương Cầm"
 imdb_id: tt0253474
 tmdb_id: 423
 tmdb_type: movie

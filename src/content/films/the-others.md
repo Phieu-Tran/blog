@@ -1,5 +1,5 @@
 ---
-title: "The Others"
+title: "Ngôi Nhà Toàn Ma"
 imdb_id: tt0230600
 tmdb_id: 1933
 tmdb_type: movie

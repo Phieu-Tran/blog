@@ -1,5 +1,5 @@
 ---
-title: "Moby Dick"
+title: "모비딕"
 imdb_id: tt1984208
 tmdb_id: 75006
 tmdb_type: movie

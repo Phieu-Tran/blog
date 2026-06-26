@@ -1,5 +1,5 @@
 ---
-title: "Sinners"
+title: "Tội Đồ"
 imdb_id: tt31193180
 tmdb_id: 1233413
 tmdb_type: movie

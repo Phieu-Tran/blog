@@ -1,5 +1,5 @@
 ---
-title: "No Other Choice"
+title: "Không Còn Lựa Chọn"
 imdb_id: tt1527793
 tmdb_id: 639988
 tmdb_type: movie

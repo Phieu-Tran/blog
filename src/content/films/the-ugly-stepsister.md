@@ -1,5 +1,5 @@
 ---
-title: "The Ugly Stepsister"
+title: "Cắt Ngón Thử Hài"
 imdb_id: tt29344903
 tmdb_id: 1284120
 tmdb_type: movie

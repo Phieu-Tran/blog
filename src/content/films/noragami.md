@@ -1,12 +1,12 @@
 ---
-title: "Noragami"
+title: "Thần Vô Gia Cư"
 imdb_id: tt3225270
 tmdb_id: 64710
 tmdb_type: tv
 rating: 7
 imdb_score: 7.8
 tmdb_score: 8.2
-genre: "Animation, Fantasy, Comedy, Adventure, Action"
+genre: "Phim Hoạt Hình, Action & Adventure, Sci-Fi & Fantasy"
 year: 2014
 director: あだちとか
 status: watched

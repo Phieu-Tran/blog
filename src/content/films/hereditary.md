@@ -1,5 +1,5 @@
 ---
-title: "Hereditary"
+title: "Di Truyền"
 imdb_id: tt7784604
 tmdb_id: 493922
 tmdb_type: movie

@@ -1,5 +1,5 @@
 ---
-title: "The Maze Runner"
+title: "Giải Mã Mê Cung"
 imdb_id: tt1790864
 tmdb_id: 198663
 tmdb_type: movie

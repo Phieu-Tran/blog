@@ -1,5 +1,5 @@
 ---
-title: "Spider-Man: Into the Spider-Verse"
+title: "Người Nhện: Vũ Trụ Mới"
 imdb_id: tt4633694
 tmdb_id: 324857
 tmdb_type: movie

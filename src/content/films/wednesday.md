@@ -6,7 +6,7 @@ tmdb_type: tv
 rating: 8
 imdb_score: 8
 tmdb_score: 8.3
-genre: "Comedy, Fantasy, Mystery, Crime, Horror"
+genre: "Sci-Fi & Fantasy, Phim Bí Ẩn, Phim Hài"
 year: 2022
 director: "Miles Millar, Alfred Gough"
 status: watched

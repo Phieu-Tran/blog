@@ -1,5 +1,5 @@
 ---
-title: "The Exorcist"
+title: "Người Trừ Tà"
 imdb_id: tt0070047
 tmdb_id: 9552
 tmdb_type: movie

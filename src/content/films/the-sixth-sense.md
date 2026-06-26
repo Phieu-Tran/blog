@@ -1,5 +1,5 @@
 ---
-title: "The Sixth Sense"
+title: "Giác Quan Thứ Sáu"
 imdb_id: tt0167404
 tmdb_id: 745
 tmdb_type: movie

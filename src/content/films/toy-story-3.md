@@ -1,5 +1,5 @@
 ---
-title: "Toy Story 3"
+title: "Câu Chuyện Đồ Chơi 3"
 imdb_id: tt0435761
 tmdb_id: 10193
 tmdb_type: movie

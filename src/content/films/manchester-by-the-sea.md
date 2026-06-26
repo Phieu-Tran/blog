@@ -1,5 +1,5 @@
 ---
-title: "Manchester by the Sea"
+title: "Thị Trấn Bên Bờ Biển"
 imdb_id: tt4034228
 tmdb_id: 334541
 tmdb_type: movie

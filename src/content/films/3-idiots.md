@@ -1,5 +1,5 @@
 ---
-title: "3 Idiots"
+title: "3 Chàng Ngốc"
 imdb_id: tt1187043
 tmdb_id: 20453
 tmdb_type: movie

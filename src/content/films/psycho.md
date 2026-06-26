@@ -1,5 +1,5 @@
 ---
-title: "Psycho"
+title: "Tâm Thần Hoảng Loạn"
 imdb_id: tt0054215
 tmdb_id: 539
 tmdb_type: movie

@@ -1,5 +1,5 @@
 ---
-title: "Spider-Man: No Way Home"
+title: "Người Nhện: Không Còn Nhà"
 imdb_id: tt10872600
 tmdb_id: 634649
 tmdb_type: movie

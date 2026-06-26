@@ -1,5 +1,5 @@
 ---
-title: "Beatrice"
+title: "La Passion Béatrice"
 imdb_id: tt0093709
 tmdb_id: 42009
 tmdb_type: movie

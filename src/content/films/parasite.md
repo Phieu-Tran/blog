@@ -1,5 +1,5 @@
 ---
-title: "Parasite"
+title: "Ký Sinh Trùng"
 imdb_id: tt6751668
 tmdb_id: 496243
 tmdb_type: movie

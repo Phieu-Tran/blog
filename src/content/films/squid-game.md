@@ -1,12 +1,12 @@
 ---
-title: "Squid Game"
+title: "Trò chơi con mực"
 imdb_id: tt10919420
 tmdb_id: 93405
 tmdb_type: tv
 rating: 5
 imdb_score: 7.9
 tmdb_score: 7.9
-genre: "Mystery, Thriller, Drama, Action, Crime"
+genre: "Action & Adventure, Phim Bí Ẩn, Phim Chính Kịch"
 year: 2021
 director: 황동혁
 status: watched

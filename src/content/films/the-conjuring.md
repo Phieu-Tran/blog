@@ -1,5 +1,5 @@
 ---
-title: "The Conjuring"
+title: "Ám Ảnh Kinh Hoàng"
 imdb_id: tt1457767
 tmdb_id: 138843
 tmdb_type: movie

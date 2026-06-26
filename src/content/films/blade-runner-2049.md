@@ -1,5 +1,5 @@
 ---
-title: "Blade Runner 2049"
+title: "Tội Phạm Nhân Bản 2049"
 imdb_id: tt1856101
 tmdb_id: 335984
 tmdb_type: movie

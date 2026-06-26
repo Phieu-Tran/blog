@@ -1,5 +1,5 @@
 ---
-title: "The Usual Suspects"
+title: "Kẻ Chủ Mưu"
 imdb_id: tt0114814
 tmdb_id: 629
 tmdb_type: movie

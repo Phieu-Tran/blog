@@ -1,5 +1,5 @@
 ---
-title: "The Shawshank Redemption"
+title: "Nhà Tù Shawshank"
 imdb_id: tt0111161
 tmdb_id: 278
 tmdb_type: movie

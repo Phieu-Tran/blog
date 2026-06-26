@@ -1,5 +1,5 @@
 ---
-title: "Doctor Strange"
+title: "Phù Thuỷ Tối Thượng"
 imdb_id: tt1211837
 tmdb_id: 284052
 tmdb_type: movie

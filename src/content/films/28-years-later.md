@@ -1,5 +1,5 @@
 ---
-title: "28 Years Later"
+title: "28 Năm Sau: Hậu Tận Thế"
 imdb_id: tt10548174
 tmdb_id: 1100988
 tmdb_type: movie

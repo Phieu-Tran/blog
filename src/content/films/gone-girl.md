@@ -1,5 +1,5 @@
 ---
-title: "Gone Girl"
+title: "Cô Gái Mất Tích"
 imdb_id: tt2267998
 tmdb_id: 210577
 tmdb_type: movie

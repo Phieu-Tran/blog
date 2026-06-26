@@ -6,7 +6,7 @@ tmdb_type: tv
 rating: 10
 imdb_score: 8.4
 tmdb_score: 8.2
-genre: "Animation, Short, Comedy, Fantasy, Horror, Sci-Fi, Action, Adventure, Drama, Mystery, Thriller"
+genre: "Phim Hoạt Hình, Sci-Fi & Fantasy"
 year: 2019
 director: "Tim Miller"
 status: watched

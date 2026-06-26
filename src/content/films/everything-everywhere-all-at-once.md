@@ -1,5 +1,5 @@
 ---
-title: "Everything Everywhere All at Once"
+title: "Cuộc Chiến Đa Vũ Trụ"
 imdb_id: tt6710474
 tmdb_id: 545611
 tmdb_type: movie
