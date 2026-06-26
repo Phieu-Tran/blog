@@ -1,0 +1,91 @@
+name: Sync IMDb Ratings To TMDB
+
+on:
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "Write ratings to TMDB"
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+      delete_extra:
+        description: "Delete TMDB ratings not present in repo/IMDb source"
+        required: true
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+      confirm_delete:
+        description: "Type DELETE to allow deleting extra TMDB ratings"
+        required: false
+        default: ""
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Sync IMDb-backed ratings to TMDB account
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TMDB_SESSION_ID: ${{ secrets.TMDB_SESSION_ID }}
+          TMDB_ACCOUNT_ID: ${{ vars.TMDB_ACCOUNT_ID }}
+          CONFIRM_TMDB_DELETE: ${{ inputs.confirm_delete }}
+          APPLY: ${{ inputs.apply }}
+          DELETE_EXTRA: ${{ inputs.delete_extra }}
+        run: |
+          set -euo pipefail
+
+          args=()
+          if [ "$APPLY" = "true" ]; then
+            args+=(--apply)
+          fi
+
+          if [ "$DELETE_EXTRA" = "true" ]; then
+            args+=(--delete-extra)
+          fi
+
+          node src/scripts/sync-imdb-to-tmdb.mjs "${args[@]}"
+
+      - name: Sync repo from cleaned sources and build
+        if: ${{ inputs.apply == 'true' }}
+        env:
+          MAL_USERNAME: ${{ vars.MAL_USERNAME }}
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TMDB_SESSION_ID: ${{ secrets.TMDB_SESSION_ID }}
+          TMDB_ACCOUNT_ID: ${{ vars.TMDB_ACCOUNT_ID }}
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
+          STEAM_ID: ${{ vars.STEAM_ID }}
+        run: |
+          node src/scripts/sync-all.mjs
+          node src/scripts/sync-imdb.mjs --enrich-existing
+          npm run build
+
+      - name: Commit and push content changes
+        if: ${{ inputs.apply == 'true' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/content/
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            git commit -m "chore: sync imdb ratings to tmdb"
+            git push
+          fi
