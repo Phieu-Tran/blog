@@ -1,8 +1,8 @@
 /**
  * sync-all.mjs
  *
- * Đồng bộ tất cả dữ liệu: Anime (MAL) + Films (TMDB)
- * Hiển thị progress bar và tiến trình chi tiết.
+ * Sync automated data: Anime (MAL), Films/TV (TMDB), Steam games, and covers.
+ * IMDb CSV imports can also seed films; TMDB identity is always tmdb_id + tmdb_type.
  *
  * Cách dùng:
  *   node src/scripts/sync-all.mjs
@@ -10,8 +10,8 @@
  * Environment variables:
  *   MAL_USERNAME        — MAL username (required for anime)
  *   TMDB_API_KEY        — TMDB API key (required for films)
- *   TMDB_SESSION_ID     — TMDB session ID (required for films)
- *   TMDB_ACCOUNT_ID     — TMDB account ID (required for films)
+ *   TMDB_SESSION_ID     — TMDB session ID (required for TMDB account ratings)
+ *   TMDB_ACCOUNT_ID     — TMDB account ID (required for TMDB account ratings)
  *   STEAM_API_KEY       — Steam Web API key (required for games)
  *   STEAM_ID            — Steam user ID (required for games)
  */
@@ -168,6 +168,20 @@ function findFilmByTmdbRef(tmdbId, tmdbType = 'movie') {
   return null;
 }
 
+function findFilmByIdentity(data) {
+  if (data.imdb_id) {
+    const byImdb = findFileByField(FILMS_DIR, 'imdb_id', data.imdb_id);
+    if (byImdb) return byImdb;
+  }
+
+  if (data.tmdb_id) {
+    const byTmdb = findFilmByTmdbRef(data.tmdb_id, data.tmdb_type);
+    if (byTmdb) return byTmdb;
+  }
+
+  return null;
+}
+
 function mergeFrontmatter(existingFrontmatter, data) {
   const merged = { ...existingFrontmatter };
   for (const [k, v] of Object.entries(data)) {
@@ -193,14 +207,17 @@ function saveEntry(dir, slug, data, existingField, existingValue) {
 }
 
 function saveFilmEntry(slug, data) {
-  const existing = findFilmByTmdbRef(data.tmdb_id, data.tmdb_type);
+  const existing = findFilmByIdentity(data);
   if (existing) {
     const merged = mergeFrontmatter(existing.frontmatter, data);
     fs.writeFileSync(path.join(FILMS_DIR, existing.file), buildFrontmatter(merged) + existing.body);
     return 'updated';
   }
 
-  const filename = `${slug}.md`;
+  let filename = `${slug}.md`;
+  if (fs.existsSync(path.join(FILMS_DIR, filename))) {
+    filename = `${slug}-${normalizeTmdbType(data.tmdb_type)}-${data.tmdb_id}.md`;
+  }
   fs.writeFileSync(path.join(FILMS_DIR, filename), buildFrontmatter(data) + '\n');
   return 'created';
 }
@@ -275,99 +292,129 @@ async function syncAnime() {
 }
 
 // ============================================
-// SYNC: FILMS (TMDB account rated)
+// SYNC: FILMS (TMDB account rated, movies + TV)
 // ============================================
-async function syncFilms() {
-  if (!TMDB_API_KEY || !TMDB_SESSION_ID || !TMDB_ACCOUNT_ID) {
-    return { name: 'Films (TMDB)', success: false, message: 'Missing TMDB_API_KEY, TMDB_SESSION_ID, or TMDB_ACCOUNT_ID' };
-  }
-
-  printHeader('FILMS — TMDB', COLORS.yellow);
-  printStep('👤', `Account ID: ${TMDB_ACCOUNT_ID}`);
-
-  if (!fs.existsSync(FILMS_DIR)) fs.mkdirSync(FILMS_DIR, { recursive: true });
-
-  // Fetch all rated movies
-  const allMovies = [];
+async function fetchRatedTmdbItems(tmdbType) {
+  const endpoint = tmdbType === 'tv' ? 'tv' : 'movies';
+  const allItems = [];
   let page = 1;
   let totalPages = 1;
 
   while (page <= totalPages) {
-    printStep('📡', `Fetching page ${page}/${totalPages}...`);
-    const url = `${TMDB_BASE}/account/${TMDB_ACCOUNT_ID}/rated/movies?api_key=${TMDB_API_KEY}&session_id=${TMDB_SESSION_ID}&page=${page}&sort_by=created_at.desc`;
+    printStep('📡', `Fetching ${tmdbType} page ${page}/${totalPages}...`);
+    const url = `${TMDB_BASE}/account/${TMDB_ACCOUNT_ID}/rated/${endpoint}?api_key=${TMDB_API_KEY}&session_id=${TMDB_SESSION_ID}&page=${page}&sort_by=created_at.desc`;
     const res = await fetch(url);
     if (!res.ok) break;
     const json = await res.json();
     totalPages = json.total_pages || 1;
-    allMovies.push(...(json.results || []));
-    printStep('📦', `Got ${json.results?.length || 0} movies (total: ${allMovies.length})`);
+    allItems.push(...(json.results || []).map(item => ({ ...item, tmdb_type: tmdbType })));
+    printStep('📦', `Got ${json.results?.length || 0} ${tmdbType} items (total: ${allItems.length})`);
     page++;
     await sleep(300);
   }
 
-  if (allMovies.length === 0) {
-    printStep('ℹ️', 'No rated movies found. Rate movies on TMDB to start syncing!');
-    return { name: 'Films (TMDB)', success: true, message: '0 rated movies — rate on TMDB to start' };
+  return allItems;
+}
+
+async function fetchTmdbDetails(tmdbId, tmdbType) {
+  const url = `${tmdbEndpoint(tmdbType, tmdbId)}?api_key=${TMDB_API_KEY}&language=vi-VN&append_to_response=credits,external_ids`;
+  const res = await fetch(url);
+  if (!res.ok) return null;
+  return res.json();
+}
+
+function tmdbTitle(details, tmdbType, fallback) {
+  return tmdbType === 'tv'
+    ? details.name || details.original_name || fallback.name || fallback.original_name
+    : details.title || details.original_title || fallback.title || fallback.original_title;
+}
+
+function tmdbYear(details, tmdbType, fallback) {
+  const date = tmdbType === 'tv'
+    ? details.first_air_date || fallback.first_air_date
+    : details.release_date || fallback.release_date;
+  const year = date ? new Date(date).getFullYear() : undefined;
+  return Number.isFinite(year) ? year : new Date().getFullYear();
+}
+
+function tmdbDirector(details, tmdbType) {
+  if (tmdbType === 'tv' && details.created_by?.length) {
+    return details.created_by.map(person => person.name).join(', ');
   }
 
-  printStep('🔄', `Processing ${allMovies.length} films...\n`);
-  let created = 0, updated = 0;
+  const director = details.credits?.crew?.find(person => person.job === 'Director');
+  return director?.name || 'N/A';
+}
 
-  for (let i = 0; i < allMovies.length; i++) {
-    const movie = allMovies[i];
-    const tmdbId = movie.id;
-    const title = movie.title;
-    const slug = slugify(title) || `film-${tmdbId}`;
+function tmdbImdbId(details, tmdbType) {
+  return tmdbType === 'tv'
+    ? details.external_ids?.imdb_id
+    : details.imdb_id || details.external_ids?.imdb_id;
+}
 
-    // TMDB rated account returns movies only. Keep the type explicit so it
-    // never overwrites a TV entry that happens to share the same numeric ID.
-    let director = 'N/A';
-    let detail = null;
-    try {
-      const detailRes = await fetch(`${tmdbEndpoint('movie', tmdbId)}?api_key=${TMDB_API_KEY}&append_to_response=credits`);
-      if (detailRes.ok) {
-        detail = await detailRes.json();
-        const dir = detail.credits?.crew?.find(c => c.job === 'Director');
-        if (dir) director = dir.name;
-      }
-      await sleep(300);
-    } catch (e) {}
+async function syncFilms() {
+  if (!TMDB_API_KEY || !TMDB_SESSION_ID || !TMDB_ACCOUNT_ID) {
+    return { name: 'Films/TV (TMDB)', success: false, message: 'Missing TMDB_API_KEY, TMDB_SESSION_ID, or TMDB_ACCOUNT_ID' };
+  }
 
+  printHeader('FILMS & TV - TMDB', COLORS.yellow);
+  printStep('👤', `Account ID: ${TMDB_ACCOUNT_ID}`);
+
+  if (!fs.existsSync(FILMS_DIR)) fs.mkdirSync(FILMS_DIR, { recursive: true });
+
+  const allItems = [
+    ...(await fetchRatedTmdbItems('movie')),
+    ...(await fetchRatedTmdbItems('tv')),
+  ];
+
+  if (allItems.length === 0) {
+    printStep('ℹ️', 'No rated movies or TV shows found on TMDB.');
+    return { name: 'Films/TV (TMDB)', success: true, message: '0 rated items' };
+  }
+
+  printStep('🔄', `Processing ${allItems.length} TMDB-rated items...\n`);
+  let created = 0, updated = 0, skipped = 0;
+
+  for (let i = 0; i < allItems.length; i++) {
+    const item = allItems[i];
+    const tmdbId = item.id;
+    const tmdbType = normalizeTmdbType(item.tmdb_type);
+
+    const details = await fetchTmdbDetails(tmdbId, tmdbType);
+    await sleep(300);
+
+    if (!details) {
+      skipped++;
+      printProgress('Films/TV', i + 1, allItems.length);
+      continue;
+    }
+
+    const title = tmdbTitle(details, tmdbType, item);
+    const slug = slugify(title) || `film-${tmdbType}-${tmdbId}`;
     const data = {
-      title: detail?.title || title,
-      imdb_id: detail?.imdb_id,
+      title,
+      imdb_id: tmdbImdbId(details, tmdbType),
       tmdb_id: tmdbId,
-      tmdb_type: 'movie',
-      rating: movie.rating || 0,
-      genre: movie.genre_ids ? 'N/A' : 'N/A', // will be enriched
-      year: (detail?.release_date || movie.release_date)
-        ? new Date(detail?.release_date || movie.release_date).getFullYear()
-        : new Date().getFullYear(),
-      director,
-      tmdb_score: detail?.vote_average ? Number(detail.vote_average.toFixed(1)) : undefined,
+      tmdb_type: tmdbType,
+      rating: item.rating || 0,
+      genre: details.genres?.map(g => g.name).join(', ') || 'N/A',
+      year: tmdbYear(details, tmdbType, item),
+      director: tmdbDirector(details, tmdbType),
+      tmdb_score: details.vote_average ? Number(details.vote_average.toFixed(1)) : undefined,
       status: 'watched',
-      cover: (detail?.poster_path || movie.poster_path) ? `https://image.tmdb.org/t/p/w500${detail?.poster_path || movie.poster_path}` : undefined,
+      cover: details.poster_path ? `https://image.tmdb.org/t/p/w500${details.poster_path}` : undefined,
       date: new Date().toISOString().split('T')[0],
     };
-
-    // Enrich genre
-    try {
-      const genreRes = await fetch(`${tmdbEndpoint('movie', tmdbId)}?api_key=${TMDB_API_KEY}&language=vi-VN`);
-      if (genreRes.ok) {
-        const genreData = await genreRes.json();
-        data.genre = genreData.genres?.map(g => g.name).join(', ') || 'N/A';
-      }
-    } catch (e) {}
 
     const result = saveFilmEntry(slug, data);
     if (result === 'created') created++;
     else updated++;
 
-    printProgress('Films', i + 1, allMovies.length);
+    printProgress('Films/TV', i + 1, allItems.length);
   }
 
-  printResult(created, updated);
-  return { name: 'Films (TMDB)', success: true, message: `${allMovies.length} films — ${created} new, ${updated} updated` };
+  printResult(created, updated, skipped);
+  return { name: 'Films/TV (TMDB)', success: true, message: `${allItems.length} items — ${created} new, ${updated} updated, ${skipped} skipped` };
 }
 
 // ============================================
@@ -533,7 +580,7 @@ async function main() {
   try {
     results.push(await syncFilms());
   } catch (err) {
-    results.push({ name: 'Films (TMDB)', success: false, message: err.message });
+    results.push({ name: 'Films/TV (TMDB)', success: false, message: err.message });
   }
 
   // Step 3: Games (Steam)

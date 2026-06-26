@@ -4,7 +4,7 @@ Personal media hub blog by **Phieu-Tran** (GitHub: [Phieu-Tran](https://github.c
 
 ## Project overview
 
-A static blog built with **Astro** that aggregates media tracking (anime, games, films) and personal blog posts. Auto-syncs from MAL, TMDB, Steam weekly; IMDb CSV imports are supported manually.
+A static blog built with **Astro** that aggregates media tracking (anime, games, films) and personal blog posts. Auto-syncs from MAL, TMDB, Steam weekly; IMDb CSV imports are supported manually for bulk film updates.
 
 - **Live site**: https://blog.workspacesbeat.site
 - **Repo**: https://github.com/Phieu-Tran/blog
@@ -24,7 +24,7 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 |---------|-----------|--------|-------|--------|
 | **Anime** | `src/content/anime/` | MAL (scrape) | `#A78BFA` | My Score vs MAL Score, progress bar, MAL link |
 | **Games** | `src/content/games/` | Steam + IGN | `#34D399` | IGN-style score, playtime, Steam link |
-| **Films** | `src/content/films/` | IMDB + TMDB | `#FB923C` | 3 scores (My/IMDB/TMDB), IMDB+TMDB links |
+| **Films** | `src/content/films/` | IMDb CSV + TMDB account | `#FB923C` | 3 scores (My/IMDB/TMDB), IMDB+TMDB links |
 | **Posts** | `src/content/posts/` | Obsidian | `#38BDF8` | Blog list, tags, prose |
 | **Steam** | `/steam/` page | Steam API | Steam blue | Steam-style profile, playtime bars |
 
@@ -33,8 +33,8 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 | Platform | Username/ID | Purpose |
 |----------|-------------|---------|
 | MAL | `Rinmatsouka` | 444+ anime, sync via page scrape |
-| TMDB | `Rinmatsouka` (ID: 22939480) | Rated movies, metadata enrichment |
-| IMDB | `ur200491176` | 211 ratings imported from CSV, including movie/TV type |
+| TMDB | `Rinmatsouka` (ID: 22939480) | Rated movies/TV, metadata enrichment |
+| IMDB | `ur200491176` | Ratings imported from CSV when available, including movie/TV type |
 | Steam | `76561198436321684` | 61 games, playtime, library sync |
 | IGN | `Rinmatsuka` | 76 games imported once (no API) |
 
@@ -53,10 +53,10 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 
 | Command | Script | Description |
 |---------|--------|-------------|
-| `npm run sync` | `sync-all.mjs` | **Main** — sync all (MAL + TMDB + Steam + covers + build check) with progress bar |
+| `npm run sync` | `sync-all.mjs` | **Main** — sync all (MAL + TMDB movies/TV + Steam + covers + build check) with progress bar |
 | `npm run sync-mal` | `sync-mal.mjs` | Anime only (MAL scrape) |
 | `npm run sync-imdb` | `sync-imdb.mjs` | Import films/TV from an IMDb ratings CSV; `--enrich-existing` refreshes TMDB metadata by IMDb ID |
-| `npm run sync-tmdb` | `sync-tmdb.mjs` | Films from TMDB account |
+| `npm run sync-tmdb` | `sync-tmdb.mjs` | TMDB list/metadata helper for films |
 | `npm run sync-steam` | `sync-steam.mjs` | Games from Steam library |
 | `npm run fetch-data` | `fetch-media-data.mjs` | Fetch missing covers |
 
@@ -64,20 +64,24 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 
 ```
 1. Anime (MAL)     — scrape animelist page
-2. Films (TMDB)    — fetch rated movies from TMDB account
+2. Films/TV (TMDB) — fetch rated movies and rated TV from TMDB account
 3. Games (Steam)   — fetch owned games + playtime
 4. Missing covers  — scan files → fetch from TMDB
 5. Build check     — run astro build → pass/fail
 6. Summary         — print all results + total time
+
+The GitHub workflow then runs `sync-imdb --enrich-existing` and a final `npm run build`
+before committing changes.
 ```
 
 ## Key decisions
 
 - **MAL sync uses page scraping**, not Jikan API (Jikan caches 404s for hours).
 - **Films have 3 scores**: My Score (from IMDb CSV or TMDB account rating), IMDB Score (from IMDb CSV), TMDB Score (from TMDB vote_average).
-- **IMDb ID is the identity anchor for imports**. `sync-imdb` uses TMDB `/find/{imdb_id}` for enrichment, never title search.
-- **Film entries store `tmdb_type`** (`movie` or `tv`) so TV IDs do not resolve through TMDB movie endpoints.
-- **Weekly sync enriches IMDb-backed films/TV** with TMDB IDs, TMDB scores, and poster covers using the GitHub `TMDB_API_KEY` secret.
+- **IMDb CSV and TMDB account ratings are both valid film sources**. IMDb CSV is best for bulk import; TMDB keeps weekly automatic updates working when no CSV export is available.
+- **IMDb ID is the identity anchor for CSV imports**. `sync-imdb` uses TMDB `/find/{imdb_id}` for enrichment, never title search.
+- **TMDB identity is `tmdb_id` + `tmdb_type`** (`movie` or `tv`) so TV IDs do not resolve through TMDB movie endpoints.
+- **Weekly sync reads both TMDB rated movies and rated TV**, then enriches IMDb-backed films/TV with TMDB IDs, TMDB scores, and poster covers using the GitHub `TMDB_API_KEY` secret.
 - **Games from 2 sources**: Steam (playtime, auto-sync) + IGN (imported once via browser scrape).
 - **Steam page** (`/steam/`) has dedicated Steam-style UI separate from Games list.
 - **Frontmatter title always quoted** — prevents YAML numeric title parsing.
@@ -94,7 +98,7 @@ src/
 ├── content/
 │   ├── anime/          ← 444+ files (MAL sync)
 │   ├── games/          ← 127 files (Steam 61 + IGN 64 + manual 2)
-│   ├── films/          ← 211 files (IMDb CSV import + TMDB enrich + 3 scores)
+│   ├── films/          ← 240+ files (IMDb CSV import + TMDB account/enrich + 3 scores)
 │   └── posts/          ← 23 files (Obsidian import)
 ├── components/
 │   └── MediaCard.astro

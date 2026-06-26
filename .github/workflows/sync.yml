@@ -34,6 +34,7 @@ jobs:
         run: |
           node src/scripts/sync-all.mjs
           node src/scripts/sync-imdb.mjs --enrich-existing
+          npm run build
 
       - name: Commit and push
         run: |

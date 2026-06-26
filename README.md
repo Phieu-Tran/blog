@@ -7,7 +7,7 @@ A personal media tracking blog built with Astro. Aggregates anime (MAL), films (
 ## Features
 
 - **5 sections**: Anime, Films, Games, Posts, Steam — each with unique layout
-- **Auto-sync**: Anime (MAL), TMDB rated movies, Games (Steam) — weekly via GitHub Actions
+- **Auto-sync**: Anime (MAL), TMDB rated movies/TV, Games (Steam) — weekly via GitHub Actions
 - **3 film scores**: My Score, IMDB Score, TMDB Score
 - **Steam profile page** with playtime bars and Steam-style UI
 - **Dark theme** with per-section color coding
@@ -26,10 +26,10 @@ npm run sync         # Sync all data with progress bar
 ## Scripts
 
 ```bash
-npm run sync         # Sync all (MAL + TMDB + Steam + covers + build check)
+npm run sync         # Sync all (MAL + TMDB movies/TV + Steam + covers + build check)
 npm run sync-mal     # Sync anime from MAL
 npm run sync-imdb    # Import films/TV from an IMDb ratings CSV; use -- --enrich-existing to refresh TMDB metadata
-npm run sync-tmdb    # Sync films from TMDB
+npm run sync-tmdb    # Sync/enrich films from TMDB
 npm run sync-steam   # Sync games from Steam
 npm run fetch-data   # Fetch missing covers
 npm run build        # Build site
@@ -46,21 +46,23 @@ npm run build        # Build site
 
 ## Film Sync Notes
 
-- IMDb ratings CSV import is the source of truth for film identity, title, user rating, IMDb score, year, and whether an entry is a movie or TV series.
-- TMDB enrichment resolves by IMDb ID through TMDB's external ID endpoint, not by title search.
+- IMDb ratings CSV import is a bulk source for film identity, title, user rating, IMDb score, year, and whether an entry is a movie or TV series.
+- TMDB account ratings are also a live source. Weekly sync reads both rated movies and rated TV, then stores `tmdb_id` with `tmdb_type`.
+- TMDB enrichment resolves existing IMDb-backed entries by IMDb ID through TMDB's external ID endpoint, not by title search.
 - `tmdb_type` is stored as `movie` or `tv` so TMDB links and covers do not confuse TV IDs with movie IDs.
-- The weekly sync enriches existing IMDb-backed entries with TMDB IDs, TMDB scores, and poster covers using the GitHub `TMDB_API_KEY` secret.
+- The weekly sync can create/update films from TMDB ratings and enrich IMDb-backed entries with TMDB IDs, TMDB scores, and poster covers using the GitHub `TMDB_API_KEY` secret.
 
 ## Weekly Auto-Sync
 
 The `sync.yml` workflow runs every Monday at 6 AM (UTC+7):
 
 1. Syncs anime from MAL (page scrape)
-2. Syncs rated movies from TMDB account
+2. Syncs rated movies and rated TV from TMDB account
 3. Syncs games from Steam library
 4. Fetches missing covers
-5. Runs build check
-6. Auto commits and pushes → Cloudflare Pages deploys
+5. Enriches IMDb-backed films/TV with TMDB metadata
+6. Runs final build check
+7. Auto commits and pushes → Cloudflare Pages deploys
 
 **Required GitHub Secrets/Variables:**
 
