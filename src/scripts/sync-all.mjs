@@ -752,7 +752,20 @@ function escapeIgdbString(value) {
   return String(value).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
 }
 
-const IGDB_GAME_FIELDS = 'name,cover.image_id,genres.name,involved_companies.company.name,involved_companies.developer,involved_companies.publisher,first_release_date,total_rating,aggregated_rating,rating';
+const IGDB_GAME_FIELDS = 'name,category,cover.image_id,genres.name,involved_companies.company.name,involved_companies.developer,involved_companies.publisher,first_release_date,total_rating,aggregated_rating,rating';
+
+function compareIgdbTitleCandidates(a, b) {
+  const categoryA = Number.isFinite(Number(a.category)) ? Number(a.category) : 0;
+  const categoryB = Number.isFinite(Number(b.category)) ? Number(b.category) : 0;
+  if (categoryA !== categoryB) return categoryA - categoryB;
+
+  const releaseA = Number(a.first_release_date || Number.MAX_SAFE_INTEGER);
+  const releaseB = Number(b.first_release_date || Number.MAX_SAFE_INTEGER);
+  if (releaseA !== releaseB) return releaseA - releaseB;
+
+  return Number(b.total_rating || b.aggregated_rating || b.rating || 0) -
+    Number(a.total_rating || a.aggregated_rating || a.rating || 0);
+}
 
 async function mapSteamAppIdsToIgdbIds(appIds, accessToken) {
   const mapping = new Map();
@@ -809,7 +822,8 @@ async function findIgdbGameByTitle(title, accessToken) {
   );
 
   const expected = normalizeGameTitle(title);
-  return rows.find(row => normalizeGameTitle(row.name) === expected) || null;
+  const exactMatches = rows.filter(row => normalizeGameTitle(row.name) === expected);
+  return exactMatches.sort(compareIgdbTitleCandidates)[0] || null;
 }
 
 async function syncIgdb() {
