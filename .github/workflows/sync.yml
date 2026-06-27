@@ -5,6 +5,11 @@ on:
     # Mỗi thứ 2 lúc 23:00 UTC (6:00 sáng UTC+7)
     - cron: '0 23 * * 1'
   workflow_dispatch:
+    inputs:
+      max_auto_delete:
+        description: "Maximum guarded local deletes for this manual run"
+        required: false
+        default: "20"
 
 jobs:
   sync:
@@ -36,7 +41,7 @@ jobs:
           TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
           SYNC_DELETE_MISSING: "true"
-          SYNC_MAX_AUTO_DELETE: "20"
+          SYNC_MAX_AUTO_DELETE: ${{ github.event.inputs.max_auto_delete || '20' }}
         run: |
           node src/scripts/sync-all.mjs
           node src/scripts/sync-imdb.mjs --enrich-existing

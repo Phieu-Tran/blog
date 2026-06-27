@@ -204,6 +204,14 @@ function listMarkdownEntries(dir) {
     .filter(Boolean);
 }
 
+function describeManagedEntry(entry) {
+  const frontmatter = entry.frontmatter || {};
+  const refs = [];
+  if (frontmatter.tmdb_id) refs.push(`tmdb:${frontmatter.tmdb_type || 'movie'}:${frontmatter.tmdb_id}`);
+  if (frontmatter.mal_id) refs.push(`mal:${frontmatter.mal_id}`);
+  return [entry.file, frontmatter.title, ...refs].filter(Boolean).join(' | ');
+}
+
 function deleteMissingManagedEntries({ dir, label, currentKeys, isManaged, keyFor }) {
   if (!SYNC_DELETE_MISSING) {
     printStep('SKIP', `${label}: delete-missing disabled.`);
@@ -220,6 +228,13 @@ function deleteMissingManagedEntries({ dir, label, currentKeys, isManaged, keyFo
     const key = keyFor(entry.frontmatter);
     return key && !currentKeys.has(key);
   });
+
+  if (candidates.length) {
+    printStep('INFO', `${label}: delete candidates:`);
+    for (const entry of candidates) {
+      printStep('-', describeManagedEntry(entry));
+    }
+  }
 
   if (candidates.length > SYNC_MAX_AUTO_DELETE) {
     printStep('SKIP', `${label}: delete-missing skipped (${candidates.length} candidates exceeds SYNC_MAX_AUTO_DELETE=${SYNC_MAX_AUTO_DELETE}).`);
