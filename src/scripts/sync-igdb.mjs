@@ -194,6 +194,11 @@ function compareIgdbTitleCandidates(a, b) {
     Number(a.total_rating || a.aggregated_rating || a.rating || 0);
 }
 
+function shouldResolveByTitle(entry) {
+  const appId = Number(entry.frontmatter.steam_appid);
+  return !Number.isFinite(appId) && entry.frontmatter.platform === 'IGDB';
+}
+
 async function mapSteamAppIdsToIgdbIds(appIds, accessToken) {
   const mapping = new Map();
   const uniqueAppIds = [...new Set(appIds.map(id => String(id)).filter(Boolean))];
@@ -272,6 +277,8 @@ async function main() {
 
   const entryToIgdb = new Map();
   for (const entry of entries) {
+    if (shouldResolveByTitle(entry)) continue;
+
     const existingIgdbId = Number(entry.frontmatter.igdb_id);
     const appId = Number(entry.frontmatter.steam_appid);
     const mappedIgdbId = Number.isFinite(appId) ? appToIgdb.get(String(appId)) : undefined;
