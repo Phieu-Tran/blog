@@ -1,7 +1,7 @@
 ---
 title: "Made in Abyss: Dawn of the Deep Soul"
 mal_id: 36862
-rating: 10
+rating: 9
 genre: "Adventure, Drama, Fantasy, Mystery, Sci-Fi"
 year: 2020
 studio: "Kinema Citrus"

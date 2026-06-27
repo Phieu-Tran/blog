@@ -1,7 +1,7 @@
 ---
 title: "Inuyashiki: Last Hero"
 mal_id: 34542
-rating: 9
+rating: 8
 genre: "Action, Drama, Sci-Fi, Suspense, Seinen"
 year: 2017
 studio: MAPPA

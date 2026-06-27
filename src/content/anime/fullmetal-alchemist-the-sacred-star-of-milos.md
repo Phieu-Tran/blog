@@ -1,7 +1,7 @@
 ---
 title: "Fullmetal Alchemist: The Sacred Star of Milos"
 mal_id: 9135
-rating: 10
+rating: 8
 genre: "Action, Adventure, Drama, Fantasy, Shounen"
 year: 2011
 studio: Bones

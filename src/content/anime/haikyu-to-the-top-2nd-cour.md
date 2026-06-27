@@ -1,7 +1,7 @@
 ---
 title: "Haikyu!! To the Top 2nd-cour"
 mal_id: 40776
-rating: 10
+rating: 8
 genre: "Sports, Shounen"
 year: 2020
 studio: "Production I.G"

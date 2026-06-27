@@ -1,7 +1,7 @@
 ---
 title: "Bungo Stray Dogs 4"
 mal_id: 50330
-rating: 9
+rating: 8
 genre: "Action, Mystery, Seinen"
 year: 2023
 studio: Bones

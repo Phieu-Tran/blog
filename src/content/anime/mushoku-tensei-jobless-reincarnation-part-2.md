@@ -1,7 +1,7 @@
 ---
 title: "Mushoku Tensei: Jobless Reincarnation Part 2"
 mal_id: 45576
-rating: 10
+rating: 9
 genre: "Adventure, Drama, Fantasy, Ecchi"
 year: 2021
 studio: "Studio Bind"

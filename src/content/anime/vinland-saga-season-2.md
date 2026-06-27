@@ -1,7 +1,7 @@
 ---
 title: "Vinland Saga Season 2"
 mal_id: 49387
-rating: 9
+rating: 8
 genre: "Action, Adventure, Drama, Seinen"
 year: 2023
 studio: MAPPA

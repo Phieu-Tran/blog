@@ -1,7 +1,7 @@
 ---
 title: "Fullmetal Alchemist"
 mal_id: 121
-rating: 10
+rating: 8
 genre: "Action, Adventure, Award Winning, Drama, Fantasy, Shounen"
 year: 2003
 studio: Bones

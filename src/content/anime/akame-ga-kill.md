@@ -1,7 +1,7 @@
 ---
 title: "Akame ga Kill!"
 mal_id: 22199
-rating: 9
+rating: 8
 genre: "Action, Fantasy, Shounen"
 year: 2014
 studio: "White Fox"

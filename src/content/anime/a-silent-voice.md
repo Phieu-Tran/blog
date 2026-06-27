@@ -1,7 +1,7 @@
 ---
 title: "A Silent Voice"
 mal_id: 28851
-rating: 9
+rating: 8
 genre: "Award Winning, Drama, Shounen"
 year: 2016
 studio: "Kyoto Animation"

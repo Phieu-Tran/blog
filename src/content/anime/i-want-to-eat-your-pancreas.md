@@ -1,7 +1,7 @@
 ---
 title: "I Want To Eat Your Pancreas"
 mal_id: 36098
-rating: 9
+rating: 8
 genre: "Drama, Romance"
 year: 2018
 studio: "Studio VOLN"

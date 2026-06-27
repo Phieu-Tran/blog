@@ -1,7 +1,7 @@
 ---
 title: "Slam Dunk"
 mal_id: 170
-rating: 8
+rating: 9
 genre: "Sports, Shounen"
 year: 1993
 studio: "Toei Animation"

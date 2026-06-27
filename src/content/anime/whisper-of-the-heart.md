@@ -1,7 +1,7 @@
 ---
 title: "Whisper of the Heart"
 mal_id: 585
-rating: 9
+rating: 8
 genre: "Drama, Romance, Shoujo"
 year: 1995
 studio: "Studio Ghibli"

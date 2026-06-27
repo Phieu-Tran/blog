@@ -1,7 +1,7 @@
 ---
 title: "ef - a tale of melodies."
 mal_id: 4789
-rating: 9
+rating: 8
 genre: "Drama, Mystery, Romance, Supernatural"
 year: 2008
 studio: Shaft

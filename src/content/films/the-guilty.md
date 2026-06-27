@@ -8,7 +8,7 @@ imdb_score: 6.3
 tmdb_score: 6.4
 genre: "Phim Chính Kịch, Phim Gây Cấn"
 year: 2021
-director: "Antoine Fuqua"
+director: N/A
 status: watched
 date: 2026-03-16
 cover: "https://image.tmdb.org/t/p/w500/6lB6XVd1QpK5oXy32YNJKQo4Z9S.jpg"

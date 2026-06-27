@@ -1,7 +1,7 @@
 ---
 title: "Cyberpunk: Edgerunners"
 mal_id: 42310
-rating: 10
+rating: 8
 genre: "Action, Sci-Fi"
 year: 2022
 studio: Trigger

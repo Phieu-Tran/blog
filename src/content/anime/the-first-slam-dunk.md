@@ -1,7 +1,7 @@
 ---
 title: "The First Slam Dunk"
 mal_id: 45649
-rating: 10
+rating: 9
 genre: "Award Winning, Sports, Shounen"
 year: 2022
 studio: "Toei Animation"
