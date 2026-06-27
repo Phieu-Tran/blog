@@ -42,6 +42,8 @@ const games = defineCollection({
     status: z.enum(['playing', 'completed', 'plan', 'dropped']),
     platform: z.string(),
     playtime_hours: z.number().optional(),
+    steam_recent: z.boolean().optional(),
+    steam_recent_hours: z.number().optional(),
     cover: z.string().optional(),
     igdb_updated_at: z.date().optional(),
     date: z.date(),

@@ -44,7 +44,7 @@ npm run build        # Build site
 |---------|-----------|-------------|
 | Anime | `src/content/anime/` | `title, mal_id, rating, mal_score, genre, year, studio, status, episodes_watched, episodes_total, cover, updated_at, date` |
 | Films | `src/content/films/` | `title, imdb_id, tmdb_id, tmdb_type, rating, imdb_score, tmdb_score, genre, year, director, status, cover, date` |
-| Games | `src/content/games/` | `title, steam_appid, igdb_id, igdb_slug, igdb_url, steam_url, ign_url, metacritic_url, official_url, rating, igdb_score, genre, year, studio, publisher, author, status, platform, playtime_hours, cover, igdb_updated_at, date` |
+| Games | `src/content/games/` | `title, steam_appid, igdb_id, igdb_slug, igdb_url, steam_url, ign_url, metacritic_url, official_url, rating, igdb_score, genre, year, studio, publisher, author, status, platform, playtime_hours, steam_recent, steam_recent_hours, cover, igdb_updated_at, date` |
 | Posts | `src/content/posts/` | `title, description, tags, cover, date, draft` |
 
 ## Film Sync Notes
@@ -61,6 +61,7 @@ npm run build        # Build site
 ## Game Sync Notes
 
 - Steam is the account/library source for games. It provides owned games, playtime, recent play activity, and Steam AppIDs.
+- Steam recent activity is stored as `steam_recent`/`steam_recent_hours` and rendered as "Recently Played". It is not treated as the personal `status: playing`.
 - IGDB is the metadata source for games. Weekly sync maps `steam_appid` through IGDB `external_games`, stores `igdb_id`, and refreshes `title`, `genre`, `studio`, `publisher`, `year`, `cover`, `igdb_score`, `igdb_url`, `steam_url`, `official_url`, and any IGN/Metacritic links IGDB exposes.
 - IGDB GDPR export imports personal `rating` and `Played` list data into local game markdown. The metadata sync can then exact-match titles against IGDB to fill missing `igdb_id`.
 - Local markdown remains where the site stores `rating`, `status`, and notes/body content. IGDB metadata sync does not overwrite those fields.

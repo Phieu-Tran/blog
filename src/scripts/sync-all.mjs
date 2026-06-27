@@ -615,7 +615,9 @@ async function syncSteam() {
   // Fetch recent games
   const recentRes = await fetch(`https://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v0001/?key=${STEAM_API_KEY}&steamid=${STEAM_ID}&format=json`);
   const recentData = await recentRes.json();
-  const recentAppIds = new Set((recentData.response?.games || []).map(g => g.appid));
+  const recentGames = recentData.response?.games || [];
+  const recentByAppId = new Map(recentGames.map(game => [Number(game.appid), game]));
+  const recentAppIds = new Set(recentGames.map(g => Number(g.appid)));
 
   printStep('📦', `Found ${games.length} games (${recentAppIds.size} recently played)\n`);
 
@@ -628,14 +630,17 @@ async function syncSteam() {
     const slug = slugify(title) || `game-${appId}`;
     const playtimeHours = Math.round(game.playtime_forever / 60);
     const isRecent = recentAppIds.has(appId);
-    const status = isRecent ? 'playing' : (game.playtime_forever > 60 ? 'completed' : (game.playtime_forever > 0 ? 'playing' : 'plan'));
+    const recentMinutes = Number(recentByAppId.get(appId)?.playtime_2weeks || 0);
+    const recentHours = Math.round(recentMinutes / 60);
+    const status = game.playtime_forever > 60 ? 'completed' : 'plan';
     const cover = `https://steamcdn-a.akamaihd.net/steam/apps/${appId}/header.jpg`;
     const steamUrl = `https://store.steampowered.com/app/${appId}`;
 
     const data = {
       title, steam_appid: appId, steam_url: steamUrl, rating: 0, genre: 'N/A',
       year: new Date().getFullYear(), studio: 'N/A', status,
-      platform: 'Steam', playtime_hours: playtimeHours, cover,
+      platform: 'Steam', playtime_hours: playtimeHours, steam_recent: isRecent,
+      steam_recent_hours: recentHours, cover,
       date: new Date().toISOString().split('T')[0],
     };
 
@@ -643,7 +648,8 @@ async function syncSteam() {
     if (existing) {
       const merged = { ...existing.frontmatter };
       merged.playtime_hours = playtimeHours;
-      if (isRecent) merged.status = 'playing';
+      merged.steam_recent = isRecent;
+      merged.steam_recent_hours = recentHours;
       if (!merged.cover) merged.cover = cover;
       for (const [k, v] of Object.entries(data)) {
         if (v === undefined || v === null) continue;

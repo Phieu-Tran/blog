@@ -67,10 +67,8 @@ function findExistingFile(steamAppId) {
   return null;
 }
 
-function getStatus(playtimeMinutes, recentPlaytime) {
-  if (recentPlaytime > 0) return 'playing';
+function getStatus(playtimeMinutes) {
   if (playtimeMinutes > 60) return 'completed'; // >1h = likely played
-  if (playtimeMinutes > 0) return 'playing';
   return 'plan';
 }
 
@@ -92,11 +90,13 @@ async function main() {
 
   console.log(`Found ${games.length} games\n`);
 
-  // Fetch recent games for "playing" status
+  // Fetch recent games separately from the personal status field.
   const recentUrl = `https://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v0001/?key=${STEAM_API_KEY}&steamid=${STEAM_ID}&format=json`;
   const recentRes = await fetch(recentUrl);
   const recentData = await recentRes.json();
-  const recentAppIds = new Set((recentData.response?.games || []).map(g => g.appid));
+  const recentGames = recentData.response?.games || [];
+  const recentByAppId = new Map(recentGames.map(game => [Number(game.appid), game]));
+  const recentAppIds = new Set(recentGames.map(g => Number(g.appid)));
 
   let created = 0, updated = 0;
 
@@ -106,7 +106,9 @@ async function main() {
     const slug = slugify(title) || `game-${appId}`;
     const playtimeHours = Math.round(game.playtime_forever / 60);
     const isRecent = recentAppIds.has(appId);
-    const status = getStatus(game.playtime_forever, isRecent ? 1 : 0);
+    const recentMinutes = Number(recentByAppId.get(appId)?.playtime_2weeks || 0);
+    const recentHours = Math.round(recentMinutes / 60);
+    const status = getStatus(game.playtime_forever);
 
     const cover = `https://steamcdn-a.akamaihd.net/steam/apps/${appId}/header.jpg`;
     const steamUrl = `https://store.steampowered.com/app/${appId}`;
@@ -122,6 +124,8 @@ async function main() {
       status,
       platform: 'Steam',
       playtime_hours: playtimeHours,
+      steam_recent: isRecent,
+      steam_recent_hours: recentHours,
       cover,
       date: new Date().toISOString().split('T')[0],
     };
@@ -130,9 +134,10 @@ async function main() {
 
     if (existing) {
       const merged = { ...existing.frontmatter };
-      // Always update playtime and status
+      // Always update playtime and recent Steam activity.
       merged.playtime_hours = playtimeHours;
-      if (isRecent) merged.status = 'playing';
+      merged.steam_recent = isRecent;
+      merged.steam_recent_hours = recentHours;
       // Update cover if missing
       if (!merged.cover) merged.cover = cover;
       // Don't overwrite manual fields

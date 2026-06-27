@@ -7,7 +7,7 @@ const allGames = (await getCollection('games'))
   .sort((a, b) => (b.data.playtime_hours || 0) - (a.data.playtime_hours || 0));
 
 const totalHours = allGames.reduce((sum, g) => sum + (g.data.playtime_hours || 0), 0);
-const playing = allGames.filter(g => g.data.status === 'playing');
+const recentGames = allGames.filter(g => g.data.steam_recent);
 const base = import.meta.env.BASE_URL;
 ---
 
@@ -35,25 +35,27 @@ const base = import.meta.env.BASE_URL;
         <span class="steam-stat-label">Hours played</span>
       </div>
       <div class="steam-stat">
-        <span class="steam-stat-num">{playing.length}</span>
-        <span class="steam-stat-label">Now playing</span>
+        <span class="steam-stat-num">{recentGames.length}</span>
+        <span class="steam-stat-label">Recently played</span>
       </div>
     </div>
   </div>
 
-  {/* Currently playing */}
-  {playing.length > 0 && (
+  {/* Recently played */}
+  {recentGames.length > 0 && (
     <div style="margin-bottom:24px;">
-      <p class="steam-section-label">Now Playing</p>
+      <p class="steam-section-label">Recently Played</p>
       <div class="steam-playing-grid">
-        {playing.map(game => (
+        {recentGames.map(game => (
           <a href={`${base}games/${game.id}/`} class="steam-playing-card">
             <img src={game.data.cover} alt={game.data.title} />
             <div class="steam-playing-info">
               <p class="steam-playing-title">{game.data.title}</p>
-              <p class="steam-playing-hours">{game.data.playtime_hours}h on record</p>
+              <p class="steam-playing-hours">
+                {game.data.steam_recent_hours ?? 0}h recently · {game.data.playtime_hours}h on record
+              </p>
             </div>
-            <div class="steam-playing-badge">PLAYING</div>
+            <div class="steam-playing-badge">RECENT</div>
           </a>
         ))}
       </div>
