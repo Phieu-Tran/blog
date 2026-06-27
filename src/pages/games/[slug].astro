@@ -20,6 +20,7 @@ const {
   metacritic_url,
   official_url,
   rating,
+  igdb_score,
   genre,
   year,
   studio,
@@ -39,8 +40,25 @@ const relatedPosts = allPosts.filter(p => {
   return titleWords.some(w => pt.includes(w)) || pt.includes(titleLower);
 });
 
-const scoreColor = rating >= 9 ? '#34D399' : rating >= 7 ? '#FBBF24' : rating >= 5 ? '#FB923C' : '#EF4444';
-const scoreLabel = rating >= 9 ? 'AMAZING' : rating >= 8 ? 'GREAT' : rating >= 7 ? 'GOOD' : rating >= 5 ? 'OKAY' : 'BAD';
+function scoreColorFor(score: number) {
+  if (score >= 9) return '#34D399';
+  if (score >= 7) return '#FBBF24';
+  if (score >= 5) return '#FB923C';
+  return '#EF4444';
+}
+
+function scoreLabelFor(score: number) {
+  if (score >= 9) return 'AMAZING';
+  if (score >= 8) return 'GREAT';
+  if (score >= 7) return 'GOOD';
+  if (score >= 5) return 'OKAY';
+  return 'BAD';
+}
+
+const scoreColor = rating > 0 ? scoreColorFor(rating) : '#6B7280';
+const scoreLabel = rating > 0 ? scoreLabelFor(rating) : 'UNRATED';
+const igdbScoreColor = igdb_score && igdb_score > 0 ? scoreColorFor(igdb_score) : '#6B7280';
+const igdbScoreLabel = igdb_score && igdb_score > 0 ? scoreLabelFor(igdb_score) : 'NO SCORE';
 
 const statusLabels: Record<string, string> = {
   playing: 'Playing',
@@ -100,11 +118,27 @@ const metaItems = [
       <h1>{title}</h1>
       <p class="game-subtitle">{studio} · {year}</p>
 
-      <section class="score-panel" style={`--score-color:${scoreColor};`}>
-        <div class="score-box">{rating}</div>
-        <div>
-          <p class="score-label">{scoreLabel}</p>
-          <p class="score-genre">{genre}</p>
+      <section class="score-grid" aria-label="Game scores">
+        <div class="score-panel" style={`--score-color:${scoreColor};`}>
+          <p class="score-kicker">My Score</p>
+          <div class="score-row">
+            <div class="score-box">{rating > 0 ? rating : '—'}</div>
+            <div>
+              <p class="score-label">{scoreLabel}</p>
+              <p class="score-genre">{genre}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="score-panel score-panel-secondary" style={`--score-color:${igdbScoreColor};`}>
+          <p class="score-kicker">IGDB</p>
+          <div class="score-row">
+            <div class="score-box score-box-secondary">{igdb_score ? igdb_score.toFixed(1) : '—'}</div>
+            <div>
+              <p class="score-label">{igdbScoreLabel}</p>
+              <p class="score-genre">Community score</p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -268,14 +302,38 @@ const metaItems = [
     margin: 0 0 20px;
   }
 
+  .score-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-bottom: 24px;
+  }
+
   .score-panel {
-    align-items: center;
     background: rgba(255, 255, 255, 0.03);
     border-radius: 12px;
+    min-width: 0;
+    padding: 16px 20px;
+  }
+
+  .score-panel-secondary {
+    background: rgba(255, 255, 255, 0.025);
+  }
+
+  .score-kicker {
+    color: var(--text-muted);
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+  }
+
+  .score-row {
+    align-items: center;
     display: flex;
     gap: 16px;
-    margin-bottom: 24px;
-    padding: 16px 20px;
+    min-width: 0;
   }
 
   .score-box {
@@ -292,6 +350,12 @@ const metaItems = [
     justify-content: center;
   }
 
+  .score-box-secondary {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--score-color);
+    color: var(--score-color);
+  }
+
   .score-label {
     color: var(--score-color);
     font-size: 18px;
@@ -303,6 +367,7 @@ const metaItems = [
     color: var(--text-muted);
     font-size: 12px;
     margin: 2px 0 0;
+    overflow-wrap: anywhere;
   }
 
   .meta-grid {
@@ -363,6 +428,10 @@ const metaItems = [
 
     .external-links {
       max-width: 260px;
+    }
+
+    .score-grid {
+      grid-template-columns: 1fr;
     }
 
     .meta-grid {
