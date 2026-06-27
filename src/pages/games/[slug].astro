@@ -10,10 +10,30 @@ export async function getStaticPaths() {
 const allPosts = (await getCollection('posts')).filter(p => !p.data.draft);
 const { entry } = Astro.props;
 const { Content } = await render(entry);
-const { title, steam_appid, rating, genre, year, studio, status, platform, playtime_hours, cover, date } = entry.data;
+const {
+  title,
+  steam_appid,
+  igdb_id,
+  igdb_url,
+  steam_url,
+  ign_url,
+  metacritic_url,
+  official_url,
+  rating,
+  genre,
+  year,
+  studio,
+  publisher,
+  author,
+  status,
+  platform,
+  playtime_hours,
+  cover,
+  date,
+} = entry.data;
 
 const titleLower = title.toLowerCase();
-const titleWords = titleLower.split(/[\s:,|—]+/).filter(w => w.length > 3);
+const titleWords = titleLower.split(/[\s:,|-]+/).filter(w => w.length > 3);
 const relatedPosts = allPosts.filter(p => {
   const pt = p.data.title.toLowerCase();
   return titleWords.some(w => pt.includes(w)) || pt.includes(titleLower);
@@ -23,107 +43,95 @@ const scoreColor = rating >= 9 ? '#34D399' : rating >= 7 ? '#FBBF24' : rating >=
 const scoreLabel = rating >= 9 ? 'AMAZING' : rating >= 8 ? 'GREAT' : rating >= 7 ? 'GOOD' : rating >= 5 ? 'OKAY' : 'BAD';
 
 const statusLabels: Record<string, string> = {
-  playing: 'Playing', completed: 'Completed', plan: 'Backlog', dropped: 'Dropped',
+  playing: 'Playing',
+  completed: 'Completed',
+  plan: 'Backlog',
+  dropped: 'Dropped',
 };
 
-const steamUrl = steam_appid ? `https://store.steampowered.com/app/${steam_appid}` : null;
-const ignSearchUrl = `https://www.ign.com/search?q=${encodeURIComponent(title)}`;
+const encodedTitle = encodeURIComponent(title);
+const steamStoreUrl = steam_url || (steam_appid ? `https://store.steampowered.com/app/${steam_appid}` : null);
+const igdbPageUrl = igdb_url || (igdb_id ? `https://www.igdb.com/search?type=1&q=${encodedTitle}` : null);
+const ignPageUrl = ign_url || `https://www.ign.com/search?q=${encodedTitle}`;
+const metacriticPageUrl = metacritic_url || `https://www.metacritic.com/search/${encodedTitle}/?category=13`;
+const externalLinks = [
+  igdbPageUrl && { label: 'IGDB', href: igdbPageUrl, className: 'external-link igdb-link' },
+  ignPageUrl && { label: 'IGN', href: ignPageUrl, className: 'external-link ign-link' },
+  metacriticPageUrl && { label: 'Metacritic', href: metacriticPageUrl, className: 'external-link metacritic-link' },
+  steamStoreUrl && { label: 'Steam', href: steamStoreUrl, className: 'external-link steam-link' },
+  official_url && official_url !== steamStoreUrl && { label: 'Official', href: official_url, className: 'external-link official-link' },
+].filter(Boolean) as Array<{ label: string; href: string; className: string }>;
+
+const metaItems = [
+  { label: 'Developer', value: studio },
+  publisher && { label: 'Publisher', value: publisher },
+  author && { label: 'Author', value: author },
+  { label: 'Platform', value: platform },
+  { label: 'Year', value: String(year) },
+  { label: 'Genre', value: genre.split(',')[0] },
+  playtime_hours != null && playtime_hours > 0 && { label: 'Playtime', value: `${playtime_hours}h`, highlight: true },
+].filter(Boolean) as Array<{ label: string; value: string; highlight?: boolean }>;
 ---
 
-<BaseLayout title={title} description={`${title} — ${genre}`} image={cover} activeNav="games">
-  <a href={`${import.meta.env.BASE_URL}games/`} style="font-size:13px;color:rgba(255,255,255,0.4);display:inline-block;margin-bottom:16px;">
-    ← Back to Games
-  </a>
+<BaseLayout title={title} description={`${title} - ${genre}`} image={cover} activeNav="games">
+  <a href={`${import.meta.env.BASE_URL}games/`} class="back-link">Back to Games</a>
 
-  <div style="display:flex;gap:24px;flex-wrap:wrap;">
-    {/* Cover + links */}
-    <div style="flex-shrink:0;">
-      {cover && <img src={cover} alt={title} style="width:220px;border-radius:12px;" />}
-      {steamUrl && (
-        <a href={steamUrl} target="_blank" rel="noopener noreferrer"
-          style="display:block;text-align:center;margin-top:10px;padding:8px;border-radius:8px;background:rgba(27,40,56,0.4);border:1px solid rgba(102,192,244,0.3);color:#66C0F4;font-size:12px;font-weight:600;transition:all 0.2s;">
-          View on Steam ↗
-        </a>
-      )}
-      <a href={ignSearchUrl} target="_blank" rel="noopener noreferrer"
-        style="display:block;text-align:center;margin-top:6px;padding:8px;border-radius:8px;background:rgba(191,35,42,0.15);border:1px solid rgba(191,35,42,0.3);color:#EF4444;font-size:12px;font-weight:600;transition:all 0.2s;">
-        Search on IGN ↗
-      </a>
-    </div>
+  <div class="game-detail">
+    <aside class="game-side">
+      {cover && <img src={cover} alt={title} class="game-cover" />}
 
-    {/* Info */}
-    <div style="flex:1;min-width:280px;">
-      {/* Badges */}
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap;">
+      <nav class="external-links" aria-label="External game links">
+        {externalLinks.map(link => (
+          <a href={link.href} target="_blank" rel="noopener noreferrer" class={link.className}>
+            {link.label}
+            <span aria-hidden="true">↗</span>
+          </a>
+        ))}
+      </nav>
+    </aside>
+
+    <main class="game-main">
+      <div class="badges">
         <span class="badge badge-game">Game</span>
-        <span class="badge" style="background:rgba(255,255,255,0.06);color:var(--text-secondary);">
-          {statusLabels[status]}
-        </span>
-        <span class="badge" style="background:rgba(255,255,255,0.06);color:var(--text-secondary);">
-          {platform}
-        </span>
+        <span class="badge soft-badge">{statusLabels[status] || status}</span>
+        <span class="badge soft-badge">{platform}</span>
       </div>
 
-      <h1 style="font-size:26px;font-weight:700;margin:0 0 4px;">{title}</h1>
-      <p style="font-size:13px;color:var(--text-muted);margin:0 0 20px;">
-        {studio} · {year}
-      </p>
+      <h1>{title}</h1>
+      <p class="game-subtitle">{studio} · {year}</p>
 
-      {/* Score — IGN style */}
-      <div style="display:flex;align-items:center;gap:16px;margin-bottom:24px;background:rgba(255,255,255,0.03);border-radius:12px;padding:16px 20px;">
-        <div style={`width:64px;height:64px;border-radius:12px;background:${scoreColor};display:flex;align-items:center;justify-content:center;flex-shrink:0;`}>
-          <span style="font-size:24px;font-weight:800;color:#0a0a14;font-family:'Space Mono',monospace;">
-            {rating}
-          </span>
-        </div>
+      <section class="score-panel" style={`--score-color:${scoreColor};`}>
+        <div class="score-box">{rating}</div>
         <div>
-          <p style={`font-size:18px;font-weight:700;margin:0;color:${scoreColor};`}>{scoreLabel}</p>
-          <p style="font-size:12px;color:var(--text-muted);margin:2px 0 0;">{genre}</p>
+          <p class="score-label">{scoreLabel}</p>
+          <p class="score-genre">{genre}</p>
         </div>
-      </div>
+      </section>
 
-      {/* Meta */}
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:24px;">
-        <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;">
-          <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Developer</p>
-          <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{studio}</p>
-        </div>
-        <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;">
-          <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Platform</p>
-          <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{platform}</p>
-        </div>
-        <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;">
-          <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Year</p>
-          <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{year}</p>
-        </div>
-        <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;">
-          <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Genre</p>
-          <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{genre.split(',')[0]}</p>
-        </div>
-        {playtime_hours != null && playtime_hours > 0 && (
-          <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;">
-            <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Playtime</p>
-            <p style="font-size:13px;font-weight:500;margin:2px 0 0;color:var(--game-color);">{playtime_hours}h</p>
+      <section class="meta-grid" aria-label="Game metadata">
+        {metaItems.map(item => (
+          <div class="meta-card">
+            <p>{item.label}</p>
+            <strong class={item.highlight ? 'highlight' : ''}>{item.value}</strong>
           </div>
-        )}
-      </div>
+        ))}
+      </section>
 
-      {/* Review content */}
       <div class="prose">
         <Content />
       </div>
 
       {date && (
-        <p style="font-size:11px;color:var(--text-muted);margin-top:16px;">
+        <p class="rated-date">
           Rated on {new Date(date).toLocaleDateString('vi-VN')}
         </p>
       )}
-    </div>
+    </main>
   </div>
 
   {relatedPosts.length > 0 && (
-    <section style="margin-top: 40px;">
-      <p class="section-label">Bài viết liên quan</p>
+    <section class="related-section">
+      <p class="section-label">Bai viet lien quan</p>
       <hr class="section-divider" />
       <div class="post-list">
         {relatedPosts.map(post => (
@@ -142,3 +150,223 @@ const ignSearchUrl = `https://www.ign.com/search?q=${encodeURIComponent(title)}`
     </section>
   )}
 </BaseLayout>
+
+<style>
+  .back-link {
+    color: rgba(255, 255, 255, 0.45);
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 16px;
+    text-decoration: none;
+  }
+
+  .back-link::before {
+    content: '< ';
+  }
+
+  .game-detail {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .game-side {
+    flex: 0 0 220px;
+  }
+
+  .game-cover {
+    border-radius: 12px;
+    display: block;
+    width: 220px;
+  }
+
+  .external-links {
+    display: grid;
+    gap: 8px;
+    margin-top: 14px;
+  }
+
+  .external-link {
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    display: flex;
+    font-size: 12px;
+    font-weight: 700;
+    justify-content: center;
+    min-height: 38px;
+    padding: 8px 10px;
+    text-decoration: none;
+    transition: background 0.2s, border-color 0.2s, transform 0.2s;
+  }
+
+  .external-link:hover {
+    transform: translateY(-1px);
+  }
+
+  .external-link span {
+    margin-left: 6px;
+  }
+
+  .igdb-link {
+    background: rgba(145, 71, 255, 0.16);
+    border-color: rgba(145, 71, 255, 0.35);
+    color: #b794ff;
+  }
+
+  .ign-link {
+    background: rgba(191, 35, 42, 0.16);
+    border-color: rgba(191, 35, 42, 0.35);
+    color: #ff5d5d;
+  }
+
+  .metacritic-link {
+    background: rgba(255, 204, 51, 0.13);
+    border-color: rgba(255, 204, 51, 0.32);
+    color: #ffd65a;
+  }
+
+  .steam-link {
+    background: rgba(27, 40, 56, 0.55);
+    border-color: rgba(102, 192, 244, 0.35);
+    color: #66c0f4;
+  }
+
+  .official-link {
+    background: rgba(52, 211, 153, 0.12);
+    border-color: rgba(52, 211, 153, 0.3);
+    color: #34d399;
+  }
+
+  .game-main {
+    flex: 1;
+    min-width: 280px;
+  }
+
+  .badges {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+
+  .soft-badge {
+    background: rgba(255, 255, 255, 0.06);
+    color: var(--text-secondary);
+  }
+
+  h1 {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 0 4px;
+  }
+
+  .game-subtitle {
+    color: var(--text-muted);
+    font-size: 13px;
+    margin: 0 0 20px;
+  }
+
+  .score-panel {
+    align-items: center;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+    padding: 16px 20px;
+  }
+
+  .score-box {
+    align-items: center;
+    background: var(--score-color);
+    border-radius: 12px;
+    color: #0a0a14;
+    display: flex;
+    flex: 0 0 64px;
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    font-weight: 800;
+    height: 64px;
+    justify-content: center;
+  }
+
+  .score-label {
+    color: var(--score-color);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+  }
+
+  .score-genre {
+    color: var(--text-muted);
+    font-size: 12px;
+    margin: 2px 0 0;
+  }
+
+  .meta-grid {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-bottom: 24px;
+  }
+
+  .meta-card {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 8px;
+    padding: 10px 12px;
+  }
+
+  .meta-card p {
+    color: var(--text-muted);
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  .meta-card strong {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 2px;
+  }
+
+  .meta-card .highlight {
+    color: var(--game-color);
+  }
+
+  .rated-date {
+    color: var(--text-muted);
+    font-size: 11px;
+    margin-top: 16px;
+  }
+
+  .related-section {
+    margin-top: 40px;
+  }
+
+  @media (max-width: 640px) {
+    .game-detail {
+      gap: 18px;
+    }
+
+    .game-side {
+      flex-basis: 100%;
+    }
+
+    .game-cover {
+      max-width: 260px;
+      width: 100%;
+    }
+
+    .external-links {
+      max-width: 260px;
+    }
+
+    .meta-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

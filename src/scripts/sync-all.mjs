@@ -630,9 +630,10 @@ async function syncSteam() {
     const isRecent = recentAppIds.has(appId);
     const status = isRecent ? 'playing' : (game.playtime_forever > 60 ? 'completed' : (game.playtime_forever > 0 ? 'playing' : 'plan'));
     const cover = `https://steamcdn-a.akamaihd.net/steam/apps/${appId}/header.jpg`;
+    const steamUrl = `https://store.steampowered.com/app/${appId}`;
 
     const data = {
-      title, steam_appid: appId, rating: 0, genre: 'N/A',
+      title, steam_appid: appId, steam_url: steamUrl, rating: 0, genre: 'N/A',
       year: new Date().getFullYear(), studio: 'N/A', status,
       platform: 'Steam', playtime_hours: playtimeHours, cover,
       date: new Date().toISOString().split('T')[0],
@@ -686,6 +687,10 @@ function igdbYear(game) {
   return Number.isFinite(year) ? year : undefined;
 }
 
+function uniqueValues(values) {
+  return [...new Set(values.filter(Boolean))];
+}
+
 function igdbStudio(game) {
   const companies = game.involved_companies || [];
   const developers = companies
@@ -700,19 +705,65 @@ function igdbStudio(game) {
   return names.length ? [...new Set(names)].join(', ') : undefined;
 }
 
+function igdbPublisher(game) {
+  const names = (game.involved_companies || [])
+    .filter(item => item.publisher)
+    .map(item => item.company?.name)
+    .filter(Boolean);
+  return names.length ? uniqueValues(names).join(', ') : undefined;
+}
+
 function igdbScore(game) {
   const raw = game.total_rating || game.aggregated_rating || game.rating;
   if (!Number.isFinite(Number(raw))) return undefined;
   return Number((Number(raw) / 10).toFixed(1));
 }
 
+function normalizeUrl(url) {
+  if (!url) return undefined;
+  const value = String(url).trim();
+  if (!value) return undefined;
+  return value.startsWith('http://') || value.startsWith('https://') ? value : `https://${value}`;
+}
+
+function urlsFromIgdbLinks(game) {
+  return [
+    ...(game.websites || []).map(item => ({ url: normalizeUrl(item.url), category: Number(item.category) })),
+    ...(game.external_games || []).map(item => ({ url: normalizeUrl(item.url), category: Number(item.category), uid: item.uid })),
+  ].filter(item => item.url);
+}
+
+function findUrlByHost(game, hosts) {
+  const needles = hosts.map(host => host.toLowerCase());
+  return urlsFromIgdbLinks(game).find(item => {
+    const url = item.url.toLowerCase();
+    return needles.some(host => url.includes(host));
+  })?.url;
+}
+
+function findWebsiteUrlByCategory(game, category) {
+  return (game.websites || []).find(item => Number(item.category) === category)?.url;
+}
+
+function igdbSteamUrl(game, existing) {
+  return findUrlByHost(game, ['store.steampowered.com']) ||
+    (existing.steam_appid ? `https://store.steampowered.com/app/${existing.steam_appid}` : undefined);
+}
+
 function igdbMetadata(game, existing) {
   return {
     title: game.name || existing.title,
     igdb_id: Number(game.id),
+    igdb_slug: game.slug,
+    igdb_url: game.url || (game.slug ? `https://www.igdb.com/games/${game.slug}` : undefined),
+    steam_url: igdbSteamUrl(game, existing),
+    ign_url: findUrlByHost(game, ['ign.com']),
+    metacritic_url: findUrlByHost(game, ['metacritic.com']),
+    official_url: normalizeUrl(findWebsiteUrlByCategory(game, 1)),
     genre: game.genres?.length ? game.genres.map(item => item.name).filter(Boolean).join(', ') : undefined,
     year: igdbYear(game),
     studio: igdbStudio(game),
+    publisher: igdbPublisher(game),
     cover: igdbCoverUrl(game),
     igdb_score: igdbScore(game),
     igdb_updated_at: new Date().toISOString().split('T')[0],
@@ -752,7 +803,7 @@ function escapeIgdbString(value) {
   return String(value).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
 }
 
-const IGDB_GAME_FIELDS = 'name,category,cover.image_id,genres.name,involved_companies.company.name,involved_companies.developer,involved_companies.publisher,first_release_date,total_rating,aggregated_rating,rating';
+const IGDB_GAME_FIELDS = 'name,slug,url,category,cover.image_id,genres.name,involved_companies.company.name,involved_companies.developer,involved_companies.publisher,first_release_date,total_rating,aggregated_rating,rating,websites.url,websites.category,external_games.url,external_games.category,external_games.uid';
 
 function compareIgdbTitleCandidates(a, b) {
   const categoryA = Number.isFinite(Number(a.category)) ? Number(a.category) : 0;

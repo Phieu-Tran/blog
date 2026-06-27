@@ -23,7 +23,7 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 | Section | Directory | Source | Color | Layout |
 |---------|-----------|--------|-------|--------|
 | **Anime** | `src/content/anime/` | MAL (scrape) | `#A78BFA` | My Score vs MAL Score, progress bar, MAL link |
-| **Games** | `src/content/games/` | Steam + IGDB | `#34D399` | IGN-style score, playtime, Steam link |
+| **Games** | `src/content/games/` | Steam + IGDB | `#34D399` | IGN-style score, playtime, IGDB/IGN/Metacritic/Steam links |
 | **Films** | `src/content/films/` | IMDb CSV + TMDB account | `#FB923C` | 3 scores (My/IMDB/TMDB), IMDB+TMDB links |
 | **Posts** | `src/content/posts/` | Obsidian | `#38BDF8` | Blog list, tags, prose |
 | **Steam** | `/steam/` page | Steam API | Steam blue | Steam-style profile, playtime bars |
@@ -93,7 +93,8 @@ before committing changes.
 - **Weekly sync reads both TMDB rated movies and rated TV**, then enriches IMDb-backed films/TV with TMDB IDs, TMDB scores, and poster covers using the GitHub `TMDB_API_KEY` secret.
 - **Weekly sync has guarded delete flow for MAL/TMDB only**: entries missing upstream are removed from local content only when the upstream list is non-empty and delete count is at or below `SYNC_MAX_AUTO_DELETE` (default `20`). Steam files are not auto-deleted.
 - **IMDb/content can be pushed back to TMDB** with `sync-imdb-to-tmdb`. It plans changes by default; deleting old TMDB account ratings requires `--apply --delete-extra` and `CONFIRM_TMDB_DELETE=DELETE`.
-- **Games source split**: Steam is the account/library/playtime source; IGDB is the metadata source. IGDB metadata sync updates `igdb_id`, `genre`, `studio`, `year`, `cover`, and `igdb_score` by Steam AppID, existing `igdb_id`, or exact title match, but keeps local `rating`, `status`, and body notes. IGDB GDPR import can update personal `rating` and Played-list status.
+- **Games source split**: Steam is the account/library/playtime source; IGDB is the metadata source. IGDB metadata sync updates `igdb_id`, `igdb_slug`, external URLs, `genre`, `studio`, `publisher`, `year`, `cover`, and `igdb_score` by Steam AppID, existing `igdb_id`, or exact title match, but keeps local `rating`, `status`, and body notes. IGDB GDPR import can update personal `rating` and Played-list status.
+- **Game detail external links**: Game detail pages show IGDB, IGN, Metacritic, Steam, and Official links. IGDB/Steam/Official are metadata-backed when available; IGN/Metacritic fall back to search URLs. IGDB does not expose a stable author/creator field, so automated sync fills developer/publisher and leaves optional `author` for manual or future sources.
 - **Steam page** (`/steam/`) has dedicated Steam-style UI separate from Games list.
 - **Frontmatter title always quoted** — prevents YAML numeric title parsing.
 - **sync-all includes build check** — exits with error code if build fails.

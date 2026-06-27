@@ -109,10 +109,12 @@ async function main() {
     const status = getStatus(game.playtime_forever, isRecent ? 1 : 0);
 
     const cover = `https://steamcdn-a.akamaihd.net/steam/apps/${appId}/header.jpg`;
+    const steamUrl = `https://store.steampowered.com/app/${appId}`;
 
     const frontmatterData = {
       title,
       steam_appid: appId,
+      steam_url: steamUrl,
       rating: 0,
       genre: 'N/A',
       year: new Date().getFullYear(),
