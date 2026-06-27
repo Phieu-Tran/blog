@@ -4,7 +4,7 @@ Personal media hub blog by **Phieu-Tran** (GitHub: [Phieu-Tran](https://github.c
 
 ## Project overview
 
-A static blog built with **Astro** that aggregates media tracking (anime, games, films) and personal blog posts. Auto-syncs from MAL, TMDB, Steam weekly; IMDb CSV imports are supported manually for bulk film updates.
+A static blog built with **Astro** that aggregates media tracking (anime, games, films) and personal blog posts. Auto-syncs from MAL, TMDB, Steam, and IGDB weekly; IMDb CSV imports are supported manually for bulk film updates.
 
 - **Live site**: https://blog.workspacesbeat.site
 - **Repo**: https://github.com/Phieu-Tran/blog
@@ -23,7 +23,7 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 | Section | Directory | Source | Color | Layout |
 |---------|-----------|--------|-------|--------|
 | **Anime** | `src/content/anime/` | MAL (scrape) | `#A78BFA` | My Score vs MAL Score, progress bar, MAL link |
-| **Games** | `src/content/games/` | Steam + IGN | `#34D399` | IGN-style score, playtime, Steam link |
+| **Games** | `src/content/games/` | Steam + IGDB | `#34D399` | IGN-style score, playtime, Steam link |
 | **Films** | `src/content/films/` | IMDb CSV + TMDB account | `#FB923C` | 3 scores (My/IMDB/TMDB), IMDB+TMDB links |
 | **Posts** | `src/content/posts/` | Obsidian | `#38BDF8` | Blog list, tags, prose |
 | **Steam** | `/steam/` page | Steam API | Steam blue | Steam-style profile, playtime bars |
@@ -36,7 +36,7 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 | TMDB | `Rinmatsouka` (ID: 22939480) | Rated movies/TV, metadata enrichment |
 | IMDB | `ur200491176` | Ratings imported from CSV when available, including movie/TV type |
 | Steam | `76561198436321684` | 61 games, playtime, library sync |
-| IGN | `Rinmatsuka` | 76 games imported once (no API) |
+| IGDB | Twitch API app | Game metadata enrichment by Steam AppID / IGDB ID |
 
 ### GitHub Secrets & Variables
 
@@ -45,6 +45,8 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 | `TMDB_API_KEY` | Secret | TMDB API v3 key |
 | `TMDB_SESSION_ID` | Secret | TMDB authenticated session |
 | `STEAM_API_KEY` | Secret | Steam Web API key |
+| `IGDB_CLIENT_ID` | Secret | Twitch/IGDB client ID for game metadata |
+| `IGDB_CLIENT_SECRET` | Secret | Twitch/IGDB client secret for game metadata |
 | `MAL_USERNAME` | Variable | MAL username |
 | `TMDB_ACCOUNT_ID` | Variable | TMDB account ID |
 | `STEAM_ID` | Variable | Steam user ID |
@@ -55,12 +57,13 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 
 | Command | Script | Description |
 |---------|--------|-------------|
-| `npm run sync` | `sync-all.mjs` | **Main** — sync all (MAL + TMDB movies/TV + Steam + covers + build check) with progress bar |
+| `npm run sync` | `sync-all.mjs` | **Main** — sync all (MAL + TMDB movies/TV + Steam + IGDB + covers + build check) with progress bar |
 | `npm run sync-mal` | `sync-mal.mjs` | Anime only (MAL scrape) |
 | `npm run sync-imdb` | `sync-imdb.mjs` | Import films/TV from an IMDb ratings CSV; `--enrich-existing` refreshes TMDB metadata by IMDb ID |
 | `npm run sync-imdb-to-tmdb` | `sync-imdb-to-tmdb.mjs` | Dry-run sync IMDb-backed repo ratings back to TMDB account; destructive deletes require explicit confirmation |
 | `npm run sync-tmdb` | `sync-tmdb.mjs` | TMDB list/metadata helper for films |
 | `npm run sync-steam` | `sync-steam.mjs` | Games from Steam library |
+| `npm run sync-igdb` | `sync-igdb.mjs` | Enrich games from IGDB metadata |
 | `npm run fetch-data` | `fetch-media-data.mjs` | Fetch missing covers |
 
 ### sync-all.mjs flow
@@ -69,10 +72,11 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 1. Anime (MAL)     — scrape animelist page
 2. Films/TV (TMDB) — fetch rated movies and rated TV from TMDB account
 3. Games (Steam)   — fetch owned games + playtime
-4. Guarded deletes — remove missing MAL/TMDB-managed files only when upstream is non-empty and the count is safe
-5. Missing covers  — scan files → fetch from TMDB
-6. Build check     — run astro build → pass/fail
-7. Summary         — print all results + total time
+4. Games (IGDB)    — map Steam AppIDs through IGDB and refresh game metadata
+5. Guarded deletes — remove missing MAL/TMDB-managed files only when upstream is non-empty and the count is safe
+6. Missing covers  — scan files → fetch from TMDB
+7. Build check     — run astro build → pass/fail
+8. Summary         — print all results + total time
 
 The GitHub workflow then runs `sync-imdb --enrich-existing` and a final `npm run build`
 before committing changes.
@@ -88,14 +92,13 @@ before committing changes.
 - **Weekly sync reads both TMDB rated movies and rated TV**, then enriches IMDb-backed films/TV with TMDB IDs, TMDB scores, and poster covers using the GitHub `TMDB_API_KEY` secret.
 - **Weekly sync has guarded delete flow for MAL/TMDB only**: entries missing upstream are removed from local content only when the upstream list is non-empty and delete count is at or below `SYNC_MAX_AUTO_DELETE` (default `20`). Steam files are not auto-deleted.
 - **IMDb/content can be pushed back to TMDB** with `sync-imdb-to-tmdb`. It plans changes by default; deleting old TMDB account ratings requires `--apply --delete-extra` and `CONFIRM_TMDB_DELETE=DELETE`.
-- **Games from 2 sources**: Steam (playtime, auto-sync) + IGN (imported once via browser scrape).
+- **Games source split**: Steam is the account/library/playtime source; IGDB is the metadata source. IGDB sync updates `igdb_id`, `genre`, `studio`, `year`, `cover`, and `igdb_score`, but keeps local `rating`, `status`, and body notes.
 - **Steam page** (`/steam/`) has dedicated Steam-style UI separate from Games list.
 - **Frontmatter title always quoted** — prevents YAML numeric title parsing.
 - **sync-all includes build check** — exits with error code if build fails.
 - **on_hold status** separated from watching for anime.
 - **updated_at** field for anime — Now Active sorted by most recent update.
 - **Obsidian posts** imported from the local Obsidian media vault — Obsidian links cleaned.
-- **IGDB/Twitch API** pending — needs 2FA on Twitch account first.
 
 ## File structure
 
@@ -103,7 +106,7 @@ before committing changes.
 src/
 ├── content/
 │   ├── anime/          ← 444+ files (MAL sync)
-│   ├── games/          ← 127 files (Steam 61 + IGN 64 + manual 2)
+│   ├── games/          ← Steam library + IGDB metadata + manual ratings
 │   ├── films/          ← 240+ files (IMDb CSV import + TMDB account/enrich + 3 scores)
 │   └── posts/          ← 23 files (Obsidian import)
 ├── components/
@@ -119,11 +122,12 @@ src/
 │   ├── films/            ← list + detail (3 scores, IMDB+TMDB links)
 │   └── posts/            ← list + detail (tags, prose)
 ├── scripts/
-│   ├── sync-all.mjs      ← main sync (MAL + TMDB + Steam + covers + build)
+│   ├── sync-all.mjs      ← main sync (MAL + TMDB + Steam + IGDB + covers + build)
 │   ├── sync-mal.mjs
 │   ├── sync-imdb.mjs
 │   ├── sync-tmdb.mjs
 │   ├── sync-steam.mjs
+│   ├── sync-igdb.mjs
 │   └── fetch-media-data.mjs
 └── styles/
     └── global.css

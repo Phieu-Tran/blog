@@ -25,7 +25,9 @@ const games = defineCollection({
   schema: z.object({
     title: z.string(),
     steam_appid: z.number().optional(),
+    igdb_id: z.number().optional(),
     rating: z.number().min(0).max(10),
+    igdb_score: z.number().optional(),
     genre: z.string(),
     year: z.number(),
     studio: z.string(),
@@ -33,6 +35,7 @@ const games = defineCollection({
     platform: z.string(),
     playtime_hours: z.number().optional(),
     cover: z.string().optional(),
+    igdb_updated_at: z.date().optional(),
     date: z.date(),
   }),
 });

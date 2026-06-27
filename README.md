@@ -1,13 +1,13 @@
 # Phieu.work — Personal Media Hub
 
-A personal media tracking blog built with Astro. Aggregates anime (MAL), films (IMDb CSV + TMDB), games (Steam/IGN), and blog posts from Obsidian. Auto-syncs weekly, deployed on Cloudflare Pages.
+A personal media tracking blog built with Astro. Aggregates anime (MAL), films (IMDb CSV + TMDB), games (Steam + IGDB), and blog posts from Obsidian. Auto-syncs weekly, deployed on Cloudflare Pages.
 
 **Live**: [blog.workspacesbeat.site](https://blog.workspacesbeat.site)
 
 ## Features
 
 - **5 sections**: Anime, Films, Games, Posts, Steam — each with unique layout
-- **Auto-sync**: Anime (MAL), TMDB rated movies/TV, Games (Steam) — weekly via GitHub Actions
+- **Auto-sync**: Anime (MAL), TMDB rated movies/TV, Games (Steam + IGDB) — weekly via GitHub Actions
 - **3 film scores**: My Score, IMDB Score, TMDB Score
 - **Steam profile page** with playtime bars and Steam-style UI
 - **Dark theme** with per-section color coding
@@ -26,12 +26,13 @@ npm run sync         # Sync all data with progress bar
 ## Scripts
 
 ```bash
-npm run sync         # Sync all (MAL + TMDB movies/TV + Steam + covers + build check)
+npm run sync         # Sync all (MAL + TMDB movies/TV + Steam + IGDB + covers + build check)
 npm run sync-mal     # Sync anime from MAL
 npm run sync-imdb    # Import films/TV from an IMDb ratings CSV; use -- --enrich-existing to refresh TMDB metadata
 npm run sync-imdb-to-tmdb # Dry-run sync IMDb-backed repo ratings back to TMDB account
 npm run sync-tmdb    # Sync/enrich films from TMDB
 npm run sync-steam   # Sync games from Steam
+npm run sync-igdb    # Enrich games from IGDB metadata
 npm run fetch-data   # Fetch missing covers
 npm run build        # Build site
 ```
@@ -42,7 +43,7 @@ npm run build        # Build site
 |---------|-----------|-------------|
 | Anime | `src/content/anime/` | `title, mal_id, rating, mal_score, genre, year, studio, status, episodes_watched, episodes_total, cover, updated_at, date` |
 | Films | `src/content/films/` | `title, imdb_id, tmdb_id, tmdb_type, rating, imdb_score, tmdb_score, genre, year, director, status, cover, date` |
-| Games | `src/content/games/` | `title, steam_appid, rating, genre, year, studio, status, platform, playtime_hours, cover, date` |
+| Games | `src/content/games/` | `title, steam_appid, igdb_id, rating, igdb_score, genre, year, studio, status, platform, playtime_hours, cover, igdb_updated_at, date` |
 | Posts | `src/content/posts/` | `title, description, tags, cover, date, draft` |
 
 ## Film Sync Notes
@@ -56,6 +57,14 @@ npm run build        # Build site
 - Steam sync does not auto-delete local game files because Steam library visibility and ownership data can be noisy.
 - `sync-imdb-to-tmdb` syncs IMDb-backed repo ratings back to the TMDB account. It is dry-run by default; deleting extra TMDB ratings requires `--apply --delete-extra` plus `CONFIRM_TMDB_DELETE=DELETE`.
 
+## Game Sync Notes
+
+- Steam is the account/library source for games. It provides owned games, playtime, recent play activity, and Steam AppIDs.
+- IGDB is the metadata source for games. Weekly sync maps `steam_appid` through IGDB `external_games`, stores `igdb_id`, and refreshes `title`, `genre`, `studio`, `year`, `cover`, and `igdb_score`.
+- Local markdown remains the personal source for `rating`, `status`, and notes/body content. IGDB sync does not overwrite those fields.
+- Non-Steam games are enriched by IGDB only when an `igdb_id` already exists in the frontmatter.
+- Steam sync does not auto-delete local game files because Steam library visibility and ownership data can be noisy.
+
 ## Weekly Auto-Sync
 
 The `sync.yml` workflow runs every Monday at 6 AM (UTC+7):
@@ -63,11 +72,12 @@ The `sync.yml` workflow runs every Monday at 6 AM (UTC+7):
 1. Syncs anime from MAL (page scrape)
 2. Syncs rated movies and rated TV from TMDB account
 3. Syncs games from Steam library
-4. Deletes missing MAL/TMDB-managed entries within the safety guard
-5. Fetches missing covers
-6. Enriches IMDb-backed films/TV with TMDB metadata
-7. Runs final build check
-8. Auto commits and pushes → Cloudflare Pages deploys
+4. Enriches game metadata from IGDB
+5. Deletes missing MAL/TMDB-managed entries within the safety guard
+6. Fetches missing covers
+7. Enriches IMDb-backed films/TV with TMDB metadata
+8. Runs final build check
+9. Auto commits and pushes → Cloudflare Pages deploys
 
 **Required GitHub Secrets/Variables:**
 
@@ -76,6 +86,8 @@ The `sync.yml` workflow runs every Monday at 6 AM (UTC+7):
 | `TMDB_API_KEY` | Secret | TMDB API key |
 | `TMDB_SESSION_ID` | Secret | TMDB session |
 | `STEAM_API_KEY` | Secret | Steam Web API key |
+| `IGDB_CLIENT_ID` | Secret | Twitch/IGDB client ID for game metadata |
+| `IGDB_CLIENT_SECRET` | Secret | Twitch/IGDB client secret for game metadata |
 | `MAL_USERNAME` | Variable | MAL username |
 | `TMDB_ACCOUNT_ID` | Variable | TMDB account ID |
 | `STEAM_ID` | Variable | Steam user ID |
@@ -96,5 +108,6 @@ The `sync.yml` workflow runs every Monday at 6 AM (UTC+7):
 - IMDb ratings export — Film and TV ratings source
 - [TMDB API](https://www.themoviedb.org/) — Film/TV metadata + ratings
 - [Steam API](https://steamcommunity.com/dev) — Game library + playtime
+- [IGDB API](https://api-docs.igdb.com/) — Game metadata
 - [Cloudflare Pages](https://pages.cloudflare.com/) — Hosting
 - [GitHub Actions](https://github.com/features/actions) — Weekly auto-sync

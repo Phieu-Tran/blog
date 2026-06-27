@@ -12,7 +12,8 @@
     "sync-imdb-to-tmdb": "node src/scripts/sync-imdb-to-tmdb.mjs",
     "sync-tmdb": "node src/scripts/sync-tmdb.mjs",
     "sync": "node src/scripts/sync-all.mjs",
-    "sync-steam": "node src/scripts/sync-steam.mjs"
+    "sync-steam": "node src/scripts/sync-steam.mjs",
+    "sync-igdb": "node src/scripts/sync-igdb.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.18",

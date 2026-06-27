@@ -1,7 +1,7 @@
 /**
  * sync-all.mjs
  *
- * Sync automated data: Anime (MAL), Films/TV (TMDB), Steam games, and covers.
+ * Sync automated data: Anime (MAL), Films/TV (TMDB), Steam games, IGDB metadata, and covers.
  * IMDb CSV imports can also seed films; TMDB identity is always tmdb_id + tmdb_type.
  *
  * Cách dùng:
@@ -14,6 +14,8 @@
  *   TMDB_ACCOUNT_ID     — TMDB account ID (required for TMDB account ratings)
  *   STEAM_API_KEY       — Steam Web API key (required for games)
  *   STEAM_ID            — Steam user ID (required for games)
+ *   IGDB_CLIENT_ID      — Twitch/IGDB client ID (optional for game metadata)
+ *   IGDB_CLIENT_SECRET  — Twitch/IGDB client secret (optional for game metadata)
  */
 
 import fs from 'fs';
@@ -26,6 +28,9 @@ import https from 'https';
 const MAL_USERNAME = process.env.MAL_USERNAME || process.argv[2] || '';
 const STEAM_API_KEY = process.env.STEAM_API_KEY || '';
 const STEAM_ID = process.env.STEAM_ID || '';
+const IGDB_CLIENT_ID = process.env.IGDB_CLIENT_ID || '';
+const IGDB_CLIENT_SECRET = process.env.IGDB_CLIENT_SECRET || '';
+const IGDB_ACCESS_TOKEN = process.env.IGDB_ACCESS_TOKEN || '';
 const TMDB_API_KEY = process.env.TMDB_API_KEY || '';
 const TMDB_SESSION_ID = process.env.TMDB_SESSION_ID || '';
 const TMDB_ACCOUNT_ID = process.env.TMDB_ACCOUNT_ID || '';
@@ -113,6 +118,40 @@ function fetchPage(url) {
       res.on('end', () => resolve(data));
     }).on('error', reject);
   });
+}
+
+async function fetchIgdbAccessToken() {
+  if (IGDB_ACCESS_TOKEN) return IGDB_ACCESS_TOKEN;
+  if (!IGDB_CLIENT_ID || !IGDB_CLIENT_SECRET) return '';
+
+  const tokenUrl = new URL('https://id.twitch.tv/oauth2/token');
+  tokenUrl.searchParams.set('client_id', IGDB_CLIENT_ID);
+  tokenUrl.searchParams.set('client_secret', IGDB_CLIENT_SECRET);
+  tokenUrl.searchParams.set('grant_type', 'client_credentials');
+
+  const res = await fetch(tokenUrl, { method: 'POST' });
+  if (!res.ok) throw new Error(`IGDB token request failed: ${res.status}`);
+  const data = await res.json();
+  return data.access_token || '';
+}
+
+async function igdbPost(endpoint, query, accessToken) {
+  const res = await fetch(`https://api.igdb.com/v4/${endpoint}`, {
+    method: 'POST',
+    headers: {
+      'Client-ID': IGDB_CLIENT_ID,
+      Authorization: `Bearer ${accessToken}`,
+      'Content-Type': 'text/plain',
+    },
+    body: query,
+  });
+
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(`IGDB ${endpoint} failed: ${res.status} ${text.slice(0, 120)}`);
+  }
+
+  return res.json();
 }
 
 function parseFrontmatter(content) {
@@ -628,6 +667,169 @@ async function syncSteam() {
 }
 
 // ============================================
+// SYNC: GAME METADATA (IGDB)
+// ============================================
+function chunkArray(items, size) {
+  const chunks = [];
+  for (let i = 0; i < items.length; i += size) chunks.push(items.slice(i, i + size));
+  return chunks;
+}
+
+function igdbCoverUrl(game) {
+  const imageId = game.cover?.image_id;
+  return imageId ? `https://images.igdb.com/igdb/image/upload/t_cover_big/${imageId}.jpg` : undefined;
+}
+
+function igdbYear(game) {
+  if (!game.first_release_date) return undefined;
+  const year = new Date(Number(game.first_release_date) * 1000).getUTCFullYear();
+  return Number.isFinite(year) ? year : undefined;
+}
+
+function igdbStudio(game) {
+  const companies = game.involved_companies || [];
+  const developers = companies
+    .filter(item => item.developer)
+    .map(item => item.company?.name)
+    .filter(Boolean);
+  const publishers = companies
+    .filter(item => item.publisher)
+    .map(item => item.company?.name)
+    .filter(Boolean);
+  const names = developers.length ? developers : publishers;
+  return names.length ? [...new Set(names)].join(', ') : undefined;
+}
+
+function igdbScore(game) {
+  const raw = game.total_rating || game.aggregated_rating || game.rating;
+  if (!Number.isFinite(Number(raw))) return undefined;
+  return Number((Number(raw) / 10).toFixed(1));
+}
+
+function igdbMetadata(game, existing) {
+  return {
+    title: game.name || existing.title,
+    igdb_id: Number(game.id),
+    genre: game.genres?.length ? game.genres.map(item => item.name).filter(Boolean).join(', ') : undefined,
+    year: igdbYear(game),
+    studio: igdbStudio(game),
+    cover: igdbCoverUrl(game),
+    igdb_score: igdbScore(game),
+    igdb_updated_at: new Date().toISOString().split('T')[0],
+  };
+}
+
+async function mapSteamAppIdsToIgdbIds(appIds, accessToken) {
+  const mapping = new Map();
+  const uniqueAppIds = [...new Set(appIds.map(id => String(id)).filter(Boolean))];
+
+  for (const group of chunkArray(uniqueAppIds, 100)) {
+    const quoted = group.map(id => `"${id.replace(/"/g, '\\"')}"`).join(',');
+    const rows = await igdbPost(
+      'external_games',
+      `fields game,uid,category,url; where category = 1 & uid = (${quoted}); limit 500;`,
+      accessToken,
+    );
+
+    for (const row of rows) {
+      if (row.uid && row.game && !mapping.has(String(row.uid))) {
+        mapping.set(String(row.uid), Number(row.game));
+      }
+    }
+
+    await sleep(250);
+  }
+
+  return mapping;
+}
+
+async function fetchIgdbGames(igdbIds, accessToken) {
+  const games = new Map();
+  const uniqueIds = [...new Set(igdbIds.map(id => Number(id)).filter(id => Number.isFinite(id)))];
+
+  for (const group of chunkArray(uniqueIds, 100)) {
+    const ids = group.join(',');
+    const rows = await igdbPost(
+      'games',
+      `fields name,cover.image_id,genres.name,involved_companies.company.name,involved_companies.developer,involved_companies.publisher,first_release_date,total_rating,aggregated_rating,rating; where id = (${ids}); limit 500;`,
+      accessToken,
+    );
+
+    for (const row of rows) {
+      if (row.id) games.set(Number(row.id), row);
+    }
+
+    await sleep(250);
+  }
+
+  return games;
+}
+
+async function syncIgdb() {
+  if (!IGDB_CLIENT_ID || (!IGDB_CLIENT_SECRET && !IGDB_ACCESS_TOKEN)) {
+    return { name: 'Games metadata (IGDB)', success: true, message: 'Skipped: missing IGDB_CLIENT_ID and IGDB_CLIENT_SECRET/IGDB_ACCESS_TOKEN' };
+  }
+
+  printHeader('GAMES METADATA - IGDB', COLORS.green);
+
+  if (!fs.existsSync(GAMES_DIR)) {
+    return { name: 'Games metadata (IGDB)', success: true, message: '0 games' };
+  }
+
+  const entries = listMarkdownEntries(GAMES_DIR);
+  const accessToken = await fetchIgdbAccessToken();
+  if (!accessToken) {
+    return { name: 'Games metadata (IGDB)', success: false, message: 'Could not get IGDB access token' };
+  }
+
+  const steamEntries = entries.filter(entry => Number.isFinite(Number(entry.frontmatter.steam_appid)));
+  const appIds = steamEntries.map(entry => Number(entry.frontmatter.steam_appid));
+  printStep('ID', `Mapping ${appIds.length} Steam app IDs to IGDB...`);
+
+  const appToIgdb = await mapSteamAppIdsToIgdbIds(appIds, accessToken);
+  const entryToIgdb = new Map();
+
+  for (const entry of entries) {
+    const existingIgdbId = Number(entry.frontmatter.igdb_id);
+    const appId = Number(entry.frontmatter.steam_appid);
+    const mappedIgdbId = Number.isFinite(appId) ? appToIgdb.get(String(appId)) : undefined;
+    const igdbId = mappedIgdbId || (Number.isFinite(existingIgdbId) ? existingIgdbId : undefined);
+    if (igdbId) entryToIgdb.set(entry.file, igdbId);
+  }
+
+  const igdbIds = [...entryToIgdb.values()];
+  printStep('DB', `Fetching ${new Set(igdbIds).size} IGDB game records...`);
+  const igdbGames = await fetchIgdbGames(igdbIds, accessToken);
+
+  let updated = 0, skipped = 0;
+  for (let i = 0; i < entries.length; i++) {
+    const entry = entries[i];
+    const igdbId = entryToIgdb.get(entry.file);
+    const game = igdbId ? igdbGames.get(Number(igdbId)) : null;
+
+    if (!game) {
+      skipped++;
+      printProgress('IGDB', i + 1, entries.length);
+      continue;
+    }
+
+    const merged = { ...entry.frontmatter };
+    const metadata = igdbMetadata(game, merged);
+    for (const [key, value] of Object.entries(metadata)) {
+      if (value === undefined || value === null || value === '') continue;
+      merged[key] = value;
+    }
+
+    fs.writeFileSync(path.join(GAMES_DIR, entry.file), buildFrontmatter(merged) + entry.body);
+    updated++;
+    printProgress('IGDB', i + 1, entries.length);
+  }
+
+  printResult(0, updated, skipped);
+  return { name: 'Games metadata (IGDB)', success: true, message: `${updated} updated, ${skipped} skipped` };
+}
+
+// ============================================
 // BUILD CHECK
 // ============================================
 async function buildCheck() {
@@ -683,14 +885,21 @@ async function main() {
     results.push({ name: 'Games (Steam)', success: false, message: err.message });
   }
 
-  // Step 4: Missing covers
+  // Step 4: Game metadata (IGDB)
+  try {
+    results.push(await syncIgdb());
+  } catch (err) {
+    results.push({ name: 'Games metadata (IGDB)', success: false, message: err.message });
+  }
+
+  // Step 5: Missing covers
   try {
     results.push(await fetchMissingCovers());
   } catch (err) {
     results.push({ name: 'Cover fetch', success: false, message: err.message });
   }
 
-  // Step 5: Build check
+  // Step 6: Build check
   try {
     results.push(await buildCheck());
   } catch (err) {
