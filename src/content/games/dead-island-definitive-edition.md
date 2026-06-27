@@ -13,5 +13,9 @@ date: 2026-03-30
 igdb_score: 7.2
 igdb_id: 34951
 igdb_updated_at: 2026-06-27
+steam_url: "https://store.steampowered.com/app/383150"
+igdb_slug: dead-island-definitive-edition
+igdb_url: "https://www.igdb.com/games/dead-island-definitive-edition"
+publisher: "Deep Silver"
 ---
 

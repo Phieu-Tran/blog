@@ -12,5 +12,8 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co958d.jpg"
 date: 2026-03-30
 igdb_id: 325379
 igdb_updated_at: 2026-06-27
+steam_url: "https://store.steampowered.com/app/40990"
+igdb_slug: mafia--2
+igdb_url: "https://www.igdb.com/games/mafia--2"
 ---
 

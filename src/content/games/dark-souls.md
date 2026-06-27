@@ -11,5 +11,8 @@ date: 2026-03-30
 igdb_score: 8.9
 igdb_id: 2155
 igdb_updated_at: 2026-06-27
+igdb_slug: dark-souls
+igdb_url: "https://www.igdb.com/games/dark-souls"
+publisher: "Bandai Namco Entertainment"
 ---
 

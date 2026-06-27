@@ -14,5 +14,9 @@ ign_source: true
 igdb_score: 8.1
 igdb_id: 27134
 igdb_updated_at: 2026-06-27
+steam_url: "https://store.steampowered.com/app/548430"
+igdb_slug: deep-rock-galactic
+igdb_url: "https://www.igdb.com/games/deep-rock-galactic"
+publisher: "Coffee Stain Publishing"
 ---
 

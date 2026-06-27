@@ -13,5 +13,9 @@ date: 2026-03-30
 igdb_score: 7
 igdb_id: 17479
 igdb_updated_at: 2026-06-27
+steam_url: "https://store.steampowered.com/app/526160"
+igdb_slug: the-wild-eight
+igdb_url: "https://www.igdb.com/games/the-wild-eight"
+publisher: "HypeTrain Digital"
 ---
 

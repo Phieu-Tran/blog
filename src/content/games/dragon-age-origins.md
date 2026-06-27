@@ -11,5 +11,9 @@ igdb_id: 76
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mvs.jpg"
 igdb_score: 8.8
 igdb_updated_at: 2026-06-27
+igdb_slug: dragon-age-origins
+igdb_url: "https://www.igdb.com/games/dragon-age-origins"
+steam_url: "https://store.steampowered.com/app/17450"
+publisher: "Electronic Arts"
 ---
 

@@ -11,5 +11,9 @@ date: 2026-03-30
 igdb_score: 7.8
 igdb_id: 329130
 igdb_updated_at: 2026-06-27
+igdb_slug: ninja-gaiden-4
+igdb_url: "https://www.igdb.com/games/ninja-gaiden-4"
+steam_url: "https://store.steampowered.com/app/2627260"
+publisher: "Xbox Game Studios"
 ---
 

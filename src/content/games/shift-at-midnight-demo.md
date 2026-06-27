@@ -10,5 +10,6 @@ platform: Steam
 playtime_hours: 2
 cover: "https://steamcdn-a.akamaihd.net/steam/apps/4050060/header.jpg"
 date: 2026-06-23
+steam_url: "https://store.steampowered.com/app/4050060"
 ---
 

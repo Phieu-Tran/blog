@@ -11,5 +11,8 @@ date: 2026-03-30
 igdb_id: 8173
 igdb_score: 8.5
 igdb_updated_at: 2026-06-27
+igdb_slug: overwatch
+igdb_url: "https://www.igdb.com/games/overwatch"
+publisher: "Blizzard Entertainment, Square Enix"
 ---
 

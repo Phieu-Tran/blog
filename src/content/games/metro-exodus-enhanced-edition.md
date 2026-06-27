@@ -13,5 +13,9 @@ date: 2026-03-30
 igdb_score: 8.5
 igdb_id: 143292
 igdb_updated_at: 2026-06-27
+steam_url: "https://store.steampowered.com/app/412020"
+igdb_slug: metro-exodus-enhanced-edition
+igdb_url: "https://www.igdb.com/games/metro-exodus-enhanced-edition"
+publisher: "Deep Silver"
 ---
 

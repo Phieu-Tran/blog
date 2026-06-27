@@ -13,5 +13,9 @@ date: 2026-06-27
 igdb_id: 207383
 igdb_score: 6
 igdb_updated_at: 2026-06-27
+steam_url: "https://store.steampowered.com/app/2021910"
+igdb_slug: fps-chess
+igdb_url: "https://www.igdb.com/games/fps-chess"
+publisher: "DigiPen Institute of Technology"
 ---
 

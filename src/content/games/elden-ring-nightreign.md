@@ -11,5 +11,9 @@ date: 2026-03-30
 igdb_score: 8.2
 igdb_id: 325591
 igdb_updated_at: 2026-06-27
+igdb_slug: elden-ring-nightreign
+igdb_url: "https://www.igdb.com/games/elden-ring-nightreign"
+steam_url: "https://store.steampowered.com/app/2622380"
+publisher: "Bandai Namco Entertainment"
 ---
 

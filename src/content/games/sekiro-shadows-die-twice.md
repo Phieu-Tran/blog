@@ -11,5 +11,9 @@ date: 2026-03-30
 igdb_score: 9
 igdb_id: 76882
 igdb_updated_at: 2026-06-27
+igdb_slug: sekiro-shadows-die-twice
+igdb_url: "https://www.igdb.com/games/sekiro-shadows-die-twice"
+steam_url: "https://store.steampowered.com/app/814380"
+publisher: Activision
 ---
 

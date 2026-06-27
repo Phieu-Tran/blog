@@ -14,5 +14,9 @@ ign_source: true
 igdb_score: 8.2
 igdb_id: 1879
 igdb_updated_at: 2026-06-27
+steam_url: "https://store.steampowered.com/app/105600"
+igdb_slug: terraria
+igdb_url: "https://www.igdb.com/games/terraria"
+publisher: "Headup Games, Re-Logic, 505 Games"
 ---
 

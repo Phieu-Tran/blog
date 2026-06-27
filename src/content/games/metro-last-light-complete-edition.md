@@ -13,5 +13,9 @@ date: 2026-03-30
 igdb_score: 7
 igdb_id: 42992
 igdb_updated_at: 2026-06-27
+steam_url: "https://store.steampowered.com/app/43160"
+igdb_slug: metro-last-light-complete-edition
+igdb_url: "https://www.igdb.com/games/metro-last-light-complete-edition"
+publisher: "Deep Silver"
 ---
 

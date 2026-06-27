@@ -13,5 +13,9 @@ date: 2026-03-30
 igdb_score: 7.3
 igdb_id: 65832
 igdb_updated_at: 2026-06-27
+steam_url: "https://store.steampowered.com/app/674940"
+igdb_slug: stick-fight-the-game
+igdb_url: "https://www.igdb.com/games/stick-fight-the-game"
+publisher: "NetEase Games, Landfall Games"
 ---
 

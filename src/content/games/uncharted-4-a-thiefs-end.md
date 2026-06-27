@@ -11,5 +11,8 @@ date: 2026-03-30
 igdb_score: 9.2
 igdb_id: 7331
 igdb_updated_at: 2026-06-27
+igdb_slug: uncharted-4-a-thief-s-end
+igdb_url: "https://www.igdb.com/games/uncharted-4-a-thief-s-end"
+publisher: "Sony Interactive Entertainment"
 ---
 

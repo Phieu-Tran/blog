@@ -11,5 +11,9 @@ date: 2026-03-30
 igdb_id: 141503
 igdb_score: 8.9
 igdb_updated_at: 2026-06-27
+igdb_slug: forza-horizon-5
+igdb_url: "https://www.igdb.com/games/forza-horizon-5"
+steam_url: "https://store.steampowered.com/app/1551360"
+publisher: "Xbox Game Studios, Microsoft Corporation"
 ---
 

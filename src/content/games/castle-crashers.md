@@ -13,5 +13,9 @@ date: 2026-03-30
 igdb_score: 7.8
 igdb_id: 3153
 igdb_updated_at: 2026-06-27
+steam_url: "https://store.steampowered.com/app/204360"
+igdb_slug: castle-crashers
+igdb_url: "https://www.igdb.com/games/castle-crashers"
+publisher: "The Behemoth"
 ---
 

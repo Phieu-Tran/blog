@@ -13,5 +13,9 @@ date: 2026-03-30
 igdb_score: 6.9
 igdb_id: 242408
 igdb_updated_at: 2026-06-27
+steam_url: "https://store.steampowered.com/app/730"
+igdb_slug: counter-strike-2
+igdb_url: "https://www.igdb.com/games/counter-strike-2"
+publisher: Valve
 ---
 

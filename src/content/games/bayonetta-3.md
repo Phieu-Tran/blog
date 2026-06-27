@@ -11,5 +11,8 @@ igdb_id: 76888
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4z2i.jpg"
 igdb_score: 8.6
 igdb_updated_at: 2026-06-27
+igdb_slug: bayonetta-3
+igdb_url: "https://www.igdb.com/games/bayonetta-3"
+publisher: Nintendo
 ---
 

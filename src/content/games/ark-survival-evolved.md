@@ -14,5 +14,9 @@ ign_source: true
 igdb_score: 6.8
 igdb_id: 10239
 igdb_updated_at: 2026-06-27
+steam_url: "https://store.steampowered.com/app/346110"
+igdb_slug: ark-survival-evolved
+igdb_url: "https://www.igdb.com/games/ark-survival-evolved"
+publisher: "Studio Wildcard, Snail Games, Snail Games USA"
 ---
 

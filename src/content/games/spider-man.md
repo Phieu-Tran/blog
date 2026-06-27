@@ -11,4 +11,7 @@ date: 2026-03-30
 igdb_id: 19565
 igdb_score: 8.8
 igdb_updated_at: 2026-06-27
+igdb_slug: marvels-spider-man
+igdb_url: "https://www.igdb.com/games/marvels-spider-man"
+publisher: "Sony Interactive Entertainment"
 ---

@@ -13,5 +13,9 @@ date: 2026-03-30
 igdb_score: 1.5
 igdb_id: 24412
 igdb_updated_at: 2026-06-27
+steam_url: "https://store.steampowered.com/app/407530"
+igdb_slug: ark-survival-of-the-fittest
+igdb_url: "https://www.igdb.com/games/ark-survival-of-the-fittest"
+publisher: "Studio Wildcard"
 ---
 

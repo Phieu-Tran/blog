@@ -11,6 +11,10 @@ date: 2024-06-10
 igdb_score: 9.5
 igdb_id: 119171
 igdb_updated_at: 2026-06-27
+igdb_slug: baldurs-gate-iii
+igdb_url: "https://www.igdb.com/games/baldurs-gate-iii"
+steam_url: "https://store.steampowered.com/app/1086940"
+publisher: "Larian Studios"
 ---
 
 GOTY 2023 xứng đáng. BG3 đặt lại tiêu chuẩn cho RPG với mức độ tự do gần như vô hạn trong mọi quyết định.

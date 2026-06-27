@@ -11,5 +11,8 @@ date: 2026-03-30
 igdb_score: 8.3
 igdb_id: 103330
 igdb_updated_at: 2026-06-27
+igdb_slug: nioh-2
+igdb_url: "https://www.igdb.com/games/nioh-2"
+publisher: "Koei Tecmo Games, Sony Interactive Entertainment"
 ---
 

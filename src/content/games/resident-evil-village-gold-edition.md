@@ -11,5 +11,8 @@ date: 2026-03-30
 igdb_score: 8.1
 igdb_id: 204722
 igdb_updated_at: 2026-06-27
+igdb_slug: resident-evil-village-gold-edition
+igdb_url: "https://www.igdb.com/games/resident-evil-village-gold-edition"
+publisher: Capcom
 ---
 

@@ -11,5 +11,6 @@ playtime_hours: 0
 cover: "https://steamcdn-a.akamaihd.net/steam/apps/2073850/header.jpg"
 date: 2026-03-30
 igdb_score: 8.2
+steam_url: "https://store.steampowered.com/app/2073850"
 ---
 

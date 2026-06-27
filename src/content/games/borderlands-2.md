@@ -13,5 +13,9 @@ date: 2026-03-30
 igdb_id: 1011
 igdb_score: 8.2
 igdb_updated_at: 2026-06-27
+steam_url: "https://store.steampowered.com/app/49520"
+igdb_slug: borderlands-2
+igdb_url: "https://www.igdb.com/games/borderlands-2"
+publisher: "2K Games, Sony Computer Entertainment of America, Aspyr Media"
 ---
 

@@ -11,5 +11,8 @@ date: 2026-03-30
 igdb_id: 191411
 igdb_score: 8.8
 igdb_updated_at: 2026-06-27
+igdb_slug: xenoblade-chronicles-3
+igdb_url: "https://www.igdb.com/games/xenoblade-chronicles-3"
+publisher: Nintendo
 ---
 

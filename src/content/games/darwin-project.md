@@ -13,5 +13,9 @@ date: 2026-03-30
 igdb_score: 6.6
 igdb_id: 27741
 igdb_updated_at: 2026-06-27
+steam_url: "https://store.steampowered.com/app/544920"
+igdb_slug: darwin-project
+igdb_url: "https://www.igdb.com/games/darwin-project"
+publisher: "Scavengers Studio"
 ---
 

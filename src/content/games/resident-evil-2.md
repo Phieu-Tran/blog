@@ -11,5 +11,8 @@ date: 2026-03-30
 igdb_id: 880
 igdb_score: 6.9
 igdb_updated_at: 2026-06-27
+igdb_slug: resident-evil-2
+igdb_url: "https://www.igdb.com/games/resident-evil-2"
+publisher: "Nintendo, Virgin Interactive Entertainment, Capcom"
 ---
 

@@ -14,5 +14,9 @@ ign_source: true
 igdb_score: 8.7
 igdb_id: 185258
 igdb_updated_at: 2026-06-27
+steam_url: "https://store.steampowered.com/app/1808500/ARC_Raiders"
+igdb_slug: arc-raiders
+igdb_url: "https://www.igdb.com/games/arc-raiders"
+publisher: "Embark Studios"
 ---
 

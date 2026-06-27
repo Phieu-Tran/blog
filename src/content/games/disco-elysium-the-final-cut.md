@@ -11,5 +11,9 @@ date: 2026-03-30
 igdb_score: 9.3
 igdb_id: 141540
 igdb_updated_at: 2026-06-27
+igdb_slug: disco-elysium-the-final-cut
+igdb_url: "https://www.igdb.com/games/disco-elysium-the-final-cut"
+steam_url: "https://store.steampowered.com/app/632470/Disco_Elysium__The_Final_Cut"
+publisher: ZA/UM
 ---
 

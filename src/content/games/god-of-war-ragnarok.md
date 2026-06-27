@@ -11,5 +11,9 @@ date: 2026-03-30
 igdb_id: 112875
 igdb_score: 9.3
 igdb_updated_at: 2026-06-27
+igdb_slug: god-of-war-ragnarok
+igdb_url: "https://www.igdb.com/games/god-of-war-ragnarok"
+steam_url: "https://store.steampowered.com/app/2322010/God_of_War_Ragnark/"
+publisher: "Sony Interactive Entertainment"
 ---
 

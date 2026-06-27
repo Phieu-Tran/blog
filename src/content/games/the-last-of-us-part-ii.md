@@ -11,5 +11,8 @@ igdb_id: 26192
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ziw.jpg"
 igdb_score: 9.3
 igdb_updated_at: 2026-06-27
+igdb_slug: the-last-of-us-part-ii
+igdb_url: "https://www.igdb.com/games/the-last-of-us-part-ii"
+publisher: "Sony Interactive Entertainment"
 ---
 

@@ -13,5 +13,9 @@ date: 2026-03-30
 igdb_score: 6.9
 igdb_id: 11137
 igdb_updated_at: 2026-06-27
+steam_url: "https://store.steampowered.com/app/1172620"
+igdb_slug: sea-of-thieves
+igdb_url: "https://www.igdb.com/games/sea-of-thieves"
+publisher: "Xbox Game Studios"
 ---
 
