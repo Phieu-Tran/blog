@@ -1,10 +1,10 @@
 ---
 title: "Hogwarts Legacy"
-rating: 0
+rating: 6
 genre: "Role-playing (RPG), Adventure"
 year: 2023
 studio: Avalanche
-status: plan
+status: completed
 platform: Multi
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coaav6.jpg"
 date: 2026-03-30

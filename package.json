@@ -13,7 +13,8 @@
     "sync-tmdb": "node src/scripts/sync-tmdb.mjs",
     "sync": "node src/scripts/sync-all.mjs",
     "sync-steam": "node src/scripts/sync-steam.mjs",
-    "sync-igdb": "node src/scripts/sync-igdb.mjs"
+    "sync-igdb": "node src/scripts/sync-igdb.mjs",
+    "import-igdb-gdpr": "node src/scripts/import-igdb-gdpr.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.18",

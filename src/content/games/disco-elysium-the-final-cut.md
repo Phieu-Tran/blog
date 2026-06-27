@@ -1,10 +1,10 @@
 ---
 title: "Disco Elysium: The Final Cut"
-rating: 0
+rating: 10
 genre: "Role-playing (RPG), Adventure, Indie"
 year: 2021
 studio: ZA/UM
-status: plan
+status: completed
 platform: Multi
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ve1.jpg"
 date: 2026-03-30

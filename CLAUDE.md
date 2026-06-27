@@ -36,7 +36,7 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 | TMDB | `Rinmatsouka` (ID: 22939480) | Rated movies/TV, metadata enrichment |
 | IMDB | `ur200491176` | Ratings imported from CSV when available, including movie/TV type |
 | Steam | `76561198436321684` | 61 games, playtime, library sync |
-| IGDB | Twitch API app | Game metadata enrichment by Steam AppID / IGDB ID |
+| IGDB | Twitch API app | Game metadata enrichment by Steam AppID / IGDB ID / exact title |
 
 ### GitHub Secrets & Variables
 
@@ -45,8 +45,8 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 | `TMDB_API_KEY` | Secret | TMDB API v3 key |
 | `TMDB_SESSION_ID` | Secret | TMDB authenticated session |
 | `STEAM_API_KEY` | Secret | Steam Web API key |
-| `IGDB_CLIENT_ID` | Secret | Twitch/IGDB client ID for game metadata |
-| `IGDB_CLIENT_SECRET` | Secret | Twitch/IGDB client secret for game metadata |
+| `IGDB_CLIENT_ID` or `TWITCH_CLIENT_ID` | Secret | Twitch/IGDB client ID for game metadata |
+| `IGDB_CLIENT_SECRET` or `TWITCH_CLIENT_SECRET` | Secret | Twitch/IGDB client secret for game metadata |
 | `MAL_USERNAME` | Variable | MAL username |
 | `TMDB_ACCOUNT_ID` | Variable | TMDB account ID |
 | `STEAM_ID` | Variable | Steam user ID |
@@ -64,6 +64,7 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 | `npm run sync-tmdb` | `sync-tmdb.mjs` | TMDB list/metadata helper for films |
 | `npm run sync-steam` | `sync-steam.mjs` | Games from Steam library |
 | `npm run sync-igdb` | `sync-igdb.mjs` | Enrich games from IGDB metadata |
+| `npm run import-igdb-gdpr -- path/to/index.html` | `import-igdb-gdpr.mjs` | Import personal IGDB GDPR ratings/played export |
 | `npm run fetch-data` | `fetch-media-data.mjs` | Fetch missing covers |
 
 ### sync-all.mjs flow
@@ -92,7 +93,7 @@ before committing changes.
 - **Weekly sync reads both TMDB rated movies and rated TV**, then enriches IMDb-backed films/TV with TMDB IDs, TMDB scores, and poster covers using the GitHub `TMDB_API_KEY` secret.
 - **Weekly sync has guarded delete flow for MAL/TMDB only**: entries missing upstream are removed from local content only when the upstream list is non-empty and delete count is at or below `SYNC_MAX_AUTO_DELETE` (default `20`). Steam files are not auto-deleted.
 - **IMDb/content can be pushed back to TMDB** with `sync-imdb-to-tmdb`. It plans changes by default; deleting old TMDB account ratings requires `--apply --delete-extra` and `CONFIRM_TMDB_DELETE=DELETE`.
-- **Games source split**: Steam is the account/library/playtime source; IGDB is the metadata source. IGDB sync updates `igdb_id`, `genre`, `studio`, `year`, `cover`, and `igdb_score`, but keeps local `rating`, `status`, and body notes.
+- **Games source split**: Steam is the account/library/playtime source; IGDB is the metadata source. IGDB metadata sync updates `igdb_id`, `genre`, `studio`, `year`, `cover`, and `igdb_score` by Steam AppID, existing `igdb_id`, or exact title match, but keeps local `rating`, `status`, and body notes. IGDB GDPR import can update personal `rating` and Played-list status.
 - **Steam page** (`/steam/`) has dedicated Steam-style UI separate from Games list.
 - **Frontmatter title always quoted** — prevents YAML numeric title parsing.
 - **sync-all includes build check** — exits with error code if build fails.
@@ -128,6 +129,7 @@ src/
 │   ├── sync-tmdb.mjs
 │   ├── sync-steam.mjs
 │   ├── sync-igdb.mjs
+│   ├── import-igdb-gdpr.mjs
 │   └── fetch-media-data.mjs
 └── styles/
     └── global.css

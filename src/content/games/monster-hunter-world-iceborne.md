@@ -1,10 +1,10 @@
 ---
 title: "Monster Hunter World: Iceborne"
-rating: 0
+rating: 8
 genre: "Role-playing (RPG), Adventure"
 year: 2019
 studio: Capcom
-status: plan
+status: completed
 platform: Multi
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pds.jpg"
 date: 2026-03-30

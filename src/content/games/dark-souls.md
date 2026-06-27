@@ -1,10 +1,10 @@
 ---
 title: "Dark Souls"
-rating: 0
+rating: 9
 genre: "Role-playing (RPG), Adventure"
 year: 2011
 studio: FromSoftware
-status: plan
+status: completed
 platform: Multi
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x78.jpg"
 date: 2026-03-30

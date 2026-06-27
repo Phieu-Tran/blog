@@ -4,18 +4,18 @@
  * Enrich game frontmatter from IGDB.
  *
  * Steam-backed games are matched by steam_appid through IGDB external_games.
- * Non-Steam games are updated only when igdb_id already exists in frontmatter.
+ * Non-Steam games are matched by igdb_id, then exact IGDB title search.
  *
  * Required:
- *   IGDB_CLIENT_ID
- *   IGDB_CLIENT_SECRET or IGDB_ACCESS_TOKEN
+ *   IGDB_CLIENT_ID or TWITCH_CLIENT_ID
+ *   IGDB_CLIENT_SECRET, TWITCH_CLIENT_SECRET, or IGDB_ACCESS_TOKEN
  */
 
 import fs from 'fs';
 import path from 'path';
 
-const IGDB_CLIENT_ID = process.env.IGDB_CLIENT_ID || '';
-const IGDB_CLIENT_SECRET = process.env.IGDB_CLIENT_SECRET || '';
+const IGDB_CLIENT_ID = process.env.IGDB_CLIENT_ID || process.env.TWITCH_CLIENT_ID || '';
+const IGDB_CLIENT_SECRET = process.env.IGDB_CLIENT_SECRET || process.env.TWITCH_CLIENT_SECRET || '';
 const IGDB_ACCESS_TOKEN = process.env.IGDB_ACCESS_TOKEN || '';
 const GAMES_DIR = path.resolve('src/content/games');
 
@@ -146,6 +146,41 @@ function igdbMetadata(game, existing) {
   };
 }
 
+function romanToArabicToken(token) {
+  const map = {
+    i: '1',
+    ii: '2',
+    iii: '3',
+    iv: '4',
+    v: '5',
+    vi: '6',
+    vii: '7',
+    viii: '8',
+    ix: '9',
+    x: '10',
+  };
+  return map[token.toLowerCase()] || token;
+}
+
+function normalizeGameTitle(title) {
+  return String(title || '')
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/\b(i|ii|iii|iv|v|vi|vii|viii|ix|x)\b/g, romanToArabicToken)
+    .replace(/^marvel'?s\s+/, '')
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .replace(/^marvels\s+/, '')
+    .trim();
+}
+
+function escapeIgdbString(value) {
+  return String(value).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+}
+
+const IGDB_GAME_FIELDS = 'name,cover.image_id,genres.name,involved_companies.company.name,involved_companies.developer,involved_companies.publisher,first_release_date,total_rating,aggregated_rating,rating';
+
 async function mapSteamAppIdsToIgdbIds(appIds, accessToken) {
   const mapping = new Map();
   const uniqueAppIds = [...new Set(appIds.map(id => String(id)).filter(Boolean))];
@@ -178,7 +213,7 @@ async function fetchIgdbGames(igdbIds, accessToken) {
     const ids = group.join(',');
     const rows = await igdbPost(
       'games',
-      `fields name,cover.image_id,genres.name,involved_companies.company.name,involved_companies.developer,involved_companies.publisher,first_release_date,total_rating,aggregated_rating,rating; where id = (${ids}); limit 500;`,
+      `fields ${IGDB_GAME_FIELDS}; where id = (${ids}); limit 500;`,
       accessToken,
     );
 
@@ -192,9 +227,22 @@ async function fetchIgdbGames(igdbIds, accessToken) {
   return games;
 }
 
+async function findIgdbGameByTitle(title, accessToken) {
+  if (!title) return null;
+  const rows = await igdbPost(
+    'games',
+    `search "${escapeIgdbString(title)}"; fields ${IGDB_GAME_FIELDS}; limit 10;`,
+    accessToken,
+  );
+
+  const expected = normalizeGameTitle(title);
+  return rows.find(row => normalizeGameTitle(row.name) === expected) || null;
+}
+
 async function main() {
   if (!IGDB_CLIENT_ID || (!IGDB_CLIENT_SECRET && !IGDB_ACCESS_TOKEN)) {
     console.error('Usage: IGDB_CLIENT_ID=xxx IGDB_CLIENT_SECRET=xxx node src/scripts/sync-igdb.mjs');
+    console.error('       TWITCH_CLIENT_ID/TWITCH_CLIENT_SECRET also work.');
     process.exit(1);
   }
 
@@ -218,11 +266,20 @@ async function main() {
   }
 
   const igdbGames = await fetchIgdbGames([...entryToIgdb.values()], accessToken);
+  const titleMatchedGames = new Map();
+  const titleLookupEntries = entries.filter(entry => !entryToIgdb.has(entry.file));
+
+  for (const entry of titleLookupEntries) {
+    const game = await findIgdbGameByTitle(entry.frontmatter.title, accessToken);
+    if (game) titleMatchedGames.set(entry.file, game);
+    await sleep(250);
+  }
+
   let updated = 0;
   let skipped = 0;
 
   for (const entry of entries) {
-    const game = igdbGames.get(Number(entryToIgdb.get(entry.file)));
+    const game = igdbGames.get(Number(entryToIgdb.get(entry.file))) || titleMatchedGames.get(entry.file);
     if (!game) {
       skipped++;
       continue;

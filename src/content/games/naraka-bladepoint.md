@@ -1,7 +1,7 @@
 ---
 title: "NARAKA: BLADEPOINT"
 steam_appid: 1203220
-rating: 0
+rating: 7
 genre: "Fighting, Hack and slash/Beat 'em up"
 year: 2026
 studio: "24 Entertainment"

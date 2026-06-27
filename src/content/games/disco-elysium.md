@@ -1,7 +1,7 @@
 ---
 title: "Disco Elysium"
 steam_appid: 632470
-rating: 0
+rating: 10
 genre: "Role-playing (RPG), Adventure"
 year: 2026
 studio: Colin

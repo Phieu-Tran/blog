@@ -1,10 +1,10 @@
 ---
 title: "Grand Theft Auto V"
-rating: 0
+rating: 9
 genre: "Shooter, Racing, Arcade"
 year: 2015
 studio: "Rockstar North"
-status: plan
+status: completed
 platform: Multi
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9751.jpg"
 date: 2026-03-30

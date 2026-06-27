@@ -1,7 +1,7 @@
 ---
 title: "It Takes Two"
 steam_appid: 1426210
-rating: 0
+rating: 8
 genre: "Platform, Puzzle, Adventure"
 year: 2026
 studio: "Hazelight Studios"

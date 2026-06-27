@@ -14,8 +14,8 @@
  *   TMDB_ACCOUNT_ID     — TMDB account ID (required for TMDB account ratings)
  *   STEAM_API_KEY       — Steam Web API key (required for games)
  *   STEAM_ID            — Steam user ID (required for games)
- *   IGDB_CLIENT_ID      — Twitch/IGDB client ID (optional for game metadata)
- *   IGDB_CLIENT_SECRET  — Twitch/IGDB client secret (optional for game metadata)
+ *   IGDB_CLIENT_ID      — Twitch/IGDB client ID (optional for game metadata; TWITCH_CLIENT_ID also works)
+ *   IGDB_CLIENT_SECRET  — Twitch/IGDB client secret (optional for game metadata; TWITCH_CLIENT_SECRET also works)
  */
 
 import fs from 'fs';
@@ -28,8 +28,8 @@ import https from 'https';
 const MAL_USERNAME = process.env.MAL_USERNAME || process.argv[2] || '';
 const STEAM_API_KEY = process.env.STEAM_API_KEY || '';
 const STEAM_ID = process.env.STEAM_ID || '';
-const IGDB_CLIENT_ID = process.env.IGDB_CLIENT_ID || '';
-const IGDB_CLIENT_SECRET = process.env.IGDB_CLIENT_SECRET || '';
+const IGDB_CLIENT_ID = process.env.IGDB_CLIENT_ID || process.env.TWITCH_CLIENT_ID || '';
+const IGDB_CLIENT_SECRET = process.env.IGDB_CLIENT_SECRET || process.env.TWITCH_CLIENT_SECRET || '';
 const IGDB_ACCESS_TOKEN = process.env.IGDB_ACCESS_TOKEN || '';
 const TMDB_API_KEY = process.env.TMDB_API_KEY || '';
 const TMDB_SESSION_ID = process.env.TMDB_SESSION_ID || '';
@@ -719,6 +719,41 @@ function igdbMetadata(game, existing) {
   };
 }
 
+function romanToArabicToken(token) {
+  const map = {
+    i: '1',
+    ii: '2',
+    iii: '3',
+    iv: '4',
+    v: '5',
+    vi: '6',
+    vii: '7',
+    viii: '8',
+    ix: '9',
+    x: '10',
+  };
+  return map[token.toLowerCase()] || token;
+}
+
+function normalizeGameTitle(title) {
+  return String(title || '')
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/\b(i|ii|iii|iv|v|vi|vii|viii|ix|x)\b/g, romanToArabicToken)
+    .replace(/^marvel'?s\s+/, '')
+    .replace(/&/g, 'and')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .replace(/^marvels\s+/, '')
+    .trim();
+}
+
+function escapeIgdbString(value) {
+  return String(value).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+}
+
+const IGDB_GAME_FIELDS = 'name,cover.image_id,genres.name,involved_companies.company.name,involved_companies.developer,involved_companies.publisher,first_release_date,total_rating,aggregated_rating,rating';
+
 async function mapSteamAppIdsToIgdbIds(appIds, accessToken) {
   const mapping = new Map();
   const uniqueAppIds = [...new Set(appIds.map(id => String(id)).filter(Boolean))];
@@ -751,7 +786,7 @@ async function fetchIgdbGames(igdbIds, accessToken) {
     const ids = group.join(',');
     const rows = await igdbPost(
       'games',
-      `fields name,cover.image_id,genres.name,involved_companies.company.name,involved_companies.developer,involved_companies.publisher,first_release_date,total_rating,aggregated_rating,rating; where id = (${ids}); limit 500;`,
+      `fields ${IGDB_GAME_FIELDS}; where id = (${ids}); limit 500;`,
       accessToken,
     );
 
@@ -765,9 +800,21 @@ async function fetchIgdbGames(igdbIds, accessToken) {
   return games;
 }
 
+async function findIgdbGameByTitle(title, accessToken) {
+  if (!title) return null;
+  const rows = await igdbPost(
+    'games',
+    `search "${escapeIgdbString(title)}"; fields ${IGDB_GAME_FIELDS}; limit 10;`,
+    accessToken,
+  );
+
+  const expected = normalizeGameTitle(title);
+  return rows.find(row => normalizeGameTitle(row.name) === expected) || null;
+}
+
 async function syncIgdb() {
   if (!IGDB_CLIENT_ID || (!IGDB_CLIENT_SECRET && !IGDB_ACCESS_TOKEN)) {
-    return { name: 'Games metadata (IGDB)', success: true, message: 'Skipped: missing IGDB_CLIENT_ID and IGDB_CLIENT_SECRET/IGDB_ACCESS_TOKEN' };
+    return { name: 'Games metadata (IGDB)', success: true, message: 'Skipped: missing IGDB/Twitch client credentials' };
   }
 
   printHeader('GAMES METADATA - IGDB', COLORS.green);
@@ -800,12 +847,24 @@ async function syncIgdb() {
   const igdbIds = [...entryToIgdb.values()];
   printStep('DB', `Fetching ${new Set(igdbIds).size} IGDB game records...`);
   const igdbGames = await fetchIgdbGames(igdbIds, accessToken);
+  const titleMatchedGames = new Map();
+
+  const titleLookupEntries = entries.filter(entry => !entryToIgdb.has(entry.file));
+  if (titleLookupEntries.length) {
+    printStep('TITLE', `Resolving ${titleLookupEntries.length} games by exact IGDB title...`);
+  }
+
+  for (const entry of titleLookupEntries) {
+    const game = await findIgdbGameByTitle(entry.frontmatter.title, accessToken);
+    if (game) titleMatchedGames.set(entry.file, game);
+    await sleep(250);
+  }
 
   let updated = 0, skipped = 0;
   for (let i = 0; i < entries.length; i++) {
     const entry = entries[i];
     const igdbId = entryToIgdb.get(entry.file);
-    const game = igdbId ? igdbGames.get(Number(igdbId)) : null;
+    const game = igdbId ? igdbGames.get(Number(igdbId)) : titleMatchedGames.get(entry.file);
 
     if (!game) {
       skipped++;

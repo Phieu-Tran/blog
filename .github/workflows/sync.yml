@@ -33,6 +33,8 @@ jobs:
           STEAM_ID: ${{ vars.STEAM_ID }}
           IGDB_CLIENT_ID: ${{ secrets.IGDB_CLIENT_ID }}
           IGDB_CLIENT_SECRET: ${{ secrets.IGDB_CLIENT_SECRET }}
+          TWITCH_CLIENT_ID: ${{ secrets.TWITCH_CLIENT_ID }}
+          TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
           SYNC_DELETE_MISSING: "true"
           SYNC_MAX_AUTO_DELETE: "20"
         run: |

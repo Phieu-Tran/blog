@@ -33,6 +33,7 @@ npm run sync-imdb-to-tmdb # Dry-run sync IMDb-backed repo ratings back to TMDB a
 npm run sync-tmdb    # Sync/enrich films from TMDB
 npm run sync-steam   # Sync games from Steam
 npm run sync-igdb    # Enrich games from IGDB metadata
+npm run import-igdb-gdpr -- path/to/index.html # Import IGDB GDPR ratings/played export
 npm run fetch-data   # Fetch missing covers
 npm run build        # Build site
 ```
@@ -61,8 +62,9 @@ npm run build        # Build site
 
 - Steam is the account/library source for games. It provides owned games, playtime, recent play activity, and Steam AppIDs.
 - IGDB is the metadata source for games. Weekly sync maps `steam_appid` through IGDB `external_games`, stores `igdb_id`, and refreshes `title`, `genre`, `studio`, `year`, `cover`, and `igdb_score`.
-- Local markdown remains the personal source for `rating`, `status`, and notes/body content. IGDB sync does not overwrite those fields.
-- Non-Steam games are enriched by IGDB only when an `igdb_id` already exists in the frontmatter.
+- IGDB GDPR export imports personal `rating` and `Played` list data into local game markdown. The metadata sync can then exact-match titles against IGDB to fill missing `igdb_id`.
+- Local markdown remains where the site stores `rating`, `status`, and notes/body content. IGDB metadata sync does not overwrite those fields.
+- Non-Steam games are enriched by IGDB when an `igdb_id` exists, or by exact title match for imported IGDB GDPR entries.
 - Steam sync does not auto-delete local game files because Steam library visibility and ownership data can be noisy.
 
 ## Weekly Auto-Sync
@@ -86,8 +88,8 @@ The `sync.yml` workflow runs every Monday at 6 AM (UTC+7):
 | `TMDB_API_KEY` | Secret | TMDB API key |
 | `TMDB_SESSION_ID` | Secret | TMDB session |
 | `STEAM_API_KEY` | Secret | Steam Web API key |
-| `IGDB_CLIENT_ID` | Secret | Twitch/IGDB client ID for game metadata |
-| `IGDB_CLIENT_SECRET` | Secret | Twitch/IGDB client secret for game metadata |
+| `IGDB_CLIENT_ID` or `TWITCH_CLIENT_ID` | Secret | Twitch/IGDB client ID for game metadata |
+| `IGDB_CLIENT_SECRET` or `TWITCH_CLIENT_SECRET` | Secret | Twitch/IGDB client secret for game metadata |
 | `MAL_USERNAME` | Variable | MAL username |
 | `TMDB_ACCOUNT_ID` | Variable | TMDB account ID |
 | `STEAM_ID` | Variable | Steam user ID |

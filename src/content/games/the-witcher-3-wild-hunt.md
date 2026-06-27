@@ -1,7 +1,7 @@
 ---
 title: "The Witcher 3: Wild Hunt"
 steam_appid: 292030
-rating: 0
+rating: 8
 genre: "Role-playing (RPG), Adventure"
 year: 2026
 studio: N/A

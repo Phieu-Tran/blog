@@ -1,7 +1,7 @@
 ---
 title: "ARC Raiders"
 steam_appid: 1808500
-rating: 0
+rating: 8
 genre: Shooter
 year: 2026
 studio: "Embark Studios"

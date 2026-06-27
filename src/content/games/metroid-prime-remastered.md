@@ -1,10 +1,10 @@
 ---
 title: "Metroid Prime: Remastered"
-rating: 0
+rating: 7
 genre: "Shooter, Platform, Adventure"
 year: 2023
 studio: Retro
-status: plan
+status: completed
 platform: Multi
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/cobbn9.jpg"
 date: 2026-03-30

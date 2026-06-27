@@ -1,6 +1,6 @@
 ---
 title: "Baldur's Gate 3"
-rating: 9.7
+rating: 9
 genre: "CRPG, Turn-based, RPG"
 year: 2023
 studio: "Larian Studios"

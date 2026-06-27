@@ -1,7 +1,7 @@
 ---
 title: "ARK: Survival Evolved"
 steam_appid: 346110
-rating: 0
+rating: 6
 genre: "Shooter, Role-playing (RPG), Simulator, Adventure, Indie"
 year: 2026
 studio: "Studio Wildcard"
