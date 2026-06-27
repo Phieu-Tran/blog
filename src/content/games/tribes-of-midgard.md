@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/858820/Tribes_of_Midgard"
 igdb_slug: tribes-of-midgard
 igdb_url: "https://www.igdb.com/games/tribes-of-midgard"
 publisher: "Gearbox Publishing"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

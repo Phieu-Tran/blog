@@ -18,5 +18,7 @@ steam_url: "https://store.steampowered.com/app/346110"
 igdb_slug: ark-survival-evolved
 igdb_url: "https://www.igdb.com/games/ark-survival-evolved"
 publisher: "Studio Wildcard, Snail Games, Snail Games USA"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

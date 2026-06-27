@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/1426210/It_Takes_Two"
 igdb_slug: it-takes-two
 igdb_url: "https://www.igdb.com/games/it-takes-two"
 publisher: "Electronic Arts"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

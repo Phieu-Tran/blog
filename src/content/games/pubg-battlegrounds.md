@@ -18,5 +18,7 @@ steam_url: "https://store.steampowered.com/app/578080"
 igdb_slug: pubg-battlegrounds
 igdb_url: "https://www.igdb.com/games/pubg-battlegrounds"
 publisher: "Bluehole Studio, Microsoft Studios"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

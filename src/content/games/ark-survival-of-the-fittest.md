@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/407530"
 igdb_slug: ark-survival-of-the-fittest
 igdb_url: "https://www.igdb.com/games/ark-survival-of-the-fittest"
 publisher: "Studio Wildcard"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

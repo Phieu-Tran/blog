@@ -12,5 +12,7 @@ cover: "https://steamcdn-a.akamaihd.net/steam/apps/242760/header.jpg"
 date: 2026-03-30
 igdb_score: 7
 steam_url: "https://store.steampowered.com/app/242760"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

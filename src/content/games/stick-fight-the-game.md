@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/674940"
 igdb_slug: stick-fight-the-game
 igdb_url: "https://www.igdb.com/games/stick-fight-the-game"
 publisher: "NetEase Games, Landfall Games"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

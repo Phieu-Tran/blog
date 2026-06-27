@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/383150"
 igdb_slug: dead-island-definitive-edition
 igdb_url: "https://www.igdb.com/games/dead-island-definitive-edition"
 publisher: "Deep Silver"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

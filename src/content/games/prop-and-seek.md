@@ -5,7 +5,7 @@ rating: 0
 genre: Strategy
 year: 2020
 studio: N/A
-status: playing
+status: plan
 platform: Steam
 playtime_hours: 1
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2opi.jpg"
@@ -15,5 +15,7 @@ igdb_updated_at: 2026-06-27
 steam_url: "https://store.steampowered.com/app/1131720"
 igdb_slug: prop-and-seek
 igdb_url: "https://www.igdb.com/games/prop-and-seek"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

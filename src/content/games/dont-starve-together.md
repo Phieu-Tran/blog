@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/322330"
 igdb_slug: dont-starve-together
 igdb_url: "https://www.igdb.com/games/dont-starve-together"
 publisher: "Klei Entertainment"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/204360"
 igdb_slug: castle-crashers
 igdb_url: "https://www.igdb.com/games/castle-crashers"
 publisher: "The Behemoth"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

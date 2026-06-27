@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/477160"
 igdb_slug: human-fall-flat
 igdb_url: "https://www.igdb.com/games/human-fall-flat"
 publisher: "Curve Digital, 505 Games"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

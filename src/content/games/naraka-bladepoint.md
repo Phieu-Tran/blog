@@ -18,5 +18,7 @@ steam_url: "https://store.steampowered.com/app/1203220"
 igdb_slug: naraka-bladepoint
 igdb_url: "https://www.igdb.com/games/naraka-bladepoint"
 publisher: "NetEase Games Montréal"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

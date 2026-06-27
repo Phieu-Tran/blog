@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/412020"
 igdb_slug: metro-exodus
 igdb_url: "https://www.igdb.com/games/metro-exodus"
 publisher: "Deep Silver"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

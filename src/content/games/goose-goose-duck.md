@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/1568590"
 igdb_slug: goose-goose-duck
 igdb_url: "https://www.igdb.com/games/goose-goose-duck"
 publisher: "Gaggle Studios, Inc."
+steam_recent: false
+steam_recent_hours: 0
 ---
 

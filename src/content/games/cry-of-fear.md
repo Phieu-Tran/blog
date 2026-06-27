@@ -5,7 +5,7 @@ rating: 0
 genre: "Shooter, Adventure, Indie"
 year: 2013
 studio: "Team Psykskallar"
-status: playing
+status: plan
 platform: Steam
 playtime_hours: 0
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co6m51.jpg"
@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/223710"
 igdb_slug: cry-of-fear
 igdb_url: "https://www.igdb.com/games/cry-of-fear"
 publisher: "Team Psykskallar"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

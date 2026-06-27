@@ -18,5 +18,7 @@ steam_url: "https://store.steampowered.com/app/2246340"
 igdb_slug: monster-hunter-wilds
 igdb_url: "https://www.igdb.com/games/monster-hunter-wilds"
 publisher: Capcom
+steam_recent: false
+steam_recent_hours: 0
 ---
 

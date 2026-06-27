@@ -1,7 +1,7 @@
 ---
 title: "Deadman Wonderland"
 mal_id: 6880
-rating: 7
+rating: 5
 genre: "Action, Sci-Fi, Supernatural, Suspense, Shounen"
 year: 2011
 studio: Manglobe

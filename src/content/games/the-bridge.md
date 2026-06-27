@@ -16,5 +16,7 @@ steam_url: "https://store.steampowered.com/app/204240"
 igdb_slug: the-bridge--1
 igdb_url: "https://www.igdb.com/games/the-bridge--1"
 publisher: "Interactive Dreams"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

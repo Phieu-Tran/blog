@@ -15,5 +15,7 @@ igdb_updated_at: 2026-06-27
 steam_url: "https://store.steampowered.com/app/705210"
 igdb_slug: cube-racer
 igdb_url: "https://www.igdb.com/games/cube-racer"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

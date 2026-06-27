@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/815370"
 igdb_slug: green-hell
 igdb_url: "https://www.igdb.com/games/green-hell"
 publisher: "Creepy Jar, Forever Entertainment S.A."
+steam_recent: false
+steam_recent_hours: 0
 ---
 

@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/526160"
 igdb_slug: the-wild-eight
 igdb_url: "https://www.igdb.com/games/the-wild-eight"
 publisher: "HypeTrain Digital"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

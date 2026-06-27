@@ -16,5 +16,7 @@ steam_url: "https://store.steampowered.com/app/632470"
 igdb_slug: disco-elysium--1
 igdb_url: "https://www.igdb.com/games/disco-elysium--1"
 publisher: ZA/UM
+steam_recent: false
+steam_recent_hours: 0
 ---
 

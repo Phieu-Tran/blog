@@ -18,5 +18,7 @@ steam_url: "https://store.steampowered.com/app/1808500/ARC_Raiders"
 igdb_slug: arc-raiders
 igdb_url: "https://www.igdb.com/games/arc-raiders"
 publisher: "Embark Studios"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

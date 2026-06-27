@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/43160"
 igdb_slug: metro-last-light-complete-edition
 igdb_url: "https://www.igdb.com/games/metro-last-light-complete-edition"
 publisher: "Deep Silver"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

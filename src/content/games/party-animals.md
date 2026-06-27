@@ -15,5 +15,7 @@ igdb_updated_at: 2026-06-27
 steam_url: "https://store.steampowered.com/app/1260320"
 igdb_slug: party-animals--1
 igdb_url: "https://www.igdb.com/games/party-animals--1"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

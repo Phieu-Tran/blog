@@ -5,7 +5,7 @@ rating: 0
 genre: Indie
 year: 2020
 studio: "Scavengers Studio"
-status: playing
+status: plan
 platform: Steam
 playtime_hours: 0
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wv8.jpg"
@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/544920"
 igdb_slug: darwin-project
 igdb_url: "https://www.igdb.com/games/darwin-project"
 publisher: "Scavengers Studio"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

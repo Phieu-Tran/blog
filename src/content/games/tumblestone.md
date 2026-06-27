@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/269710"
 igdb_slug: tumblestone
 igdb_url: "https://www.igdb.com/games/tumblestone"
 publisher: "The Quantum Astrophysicists Guild"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

@@ -11,5 +11,7 @@ playtime_hours: 6
 cover: "https://steamcdn-a.akamaihd.net/steam/apps/1726400/header.jpg"
 date: 2026-03-30
 steam_url: "https://store.steampowered.com/app/1726400"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/489630"
 igdb_slug: warhammer-40000-gladius-relics-of-war
 igdb_url: "https://www.igdb.com/games/warhammer-40000-gladius-relics-of-war"
 publisher: "Slitherine Ltd."
+steam_recent: false
+steam_recent_hours: 0
 ---
 

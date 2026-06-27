@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/49520"
 igdb_slug: borderlands-2
 igdb_url: "https://www.igdb.com/games/borderlands-2"
 publisher: "2K Games, Sony Computer Entertainment of America, Aspyr Media"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

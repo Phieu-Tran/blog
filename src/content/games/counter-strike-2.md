@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/730"
 igdb_slug: counter-strike-2
 igdb_url: "https://www.igdb.com/games/counter-strike-2"
 publisher: Valve
+steam_recent: false
+steam_recent_hours: 0
 ---
 

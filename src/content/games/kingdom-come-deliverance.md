@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/379430"
 igdb_slug: kingdom-come-deliverance
 igdb_url: "https://www.igdb.com/games/kingdom-come-deliverance"
 publisher: "Warhorse Studios, Deep Silver"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

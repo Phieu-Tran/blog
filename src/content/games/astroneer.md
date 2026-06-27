@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/361420/ASTRONEER/"
 igdb_slug: astroneer
 igdb_url: "https://www.igdb.com/games/astroneer"
 publisher: "System Era Softworks"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

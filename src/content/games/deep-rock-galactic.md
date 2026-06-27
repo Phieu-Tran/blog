@@ -18,5 +18,7 @@ steam_url: "https://store.steampowered.com/app/548430"
 igdb_slug: deep-rock-galactic
 igdb_url: "https://www.igdb.com/games/deep-rock-galactic"
 publisher: "Coffee Stain Publishing"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

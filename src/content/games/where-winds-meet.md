@@ -18,5 +18,7 @@ steam_url: "https://store.steampowered.com/app/3564740"
 igdb_slug: where-winds-meet
 igdb_url: "https://www.igdb.com/games/where-winds-meet"
 publisher: "NetEase Games"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

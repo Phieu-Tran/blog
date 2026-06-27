@@ -18,5 +18,7 @@ steam_url: "https://store.steampowered.com/app/1252330"
 igdb_slug: deathloop
 igdb_url: "https://www.igdb.com/games/deathloop"
 publisher: "Bethesda Softworks"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

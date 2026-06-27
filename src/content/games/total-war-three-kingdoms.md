@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/779340"
 igdb_slug: total-war-three-kingdoms
 igdb_url: "https://www.igdb.com/games/total-war-three-kingdoms"
 publisher: "Sega Games, Sega"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

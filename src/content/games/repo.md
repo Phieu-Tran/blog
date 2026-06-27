@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/3241660"
 igdb_slug: repo
 igdb_url: "https://www.igdb.com/games/repo"
 publisher: semiwork
+steam_recent: false
+steam_recent_hours: 0
 ---
 

@@ -18,5 +18,7 @@ steam_url: "https://store.steampowered.com/app/1446780"
 igdb_slug: monster-hunter-rise
 igdb_url: "https://www.igdb.com/games/monster-hunter-rise"
 publisher: Capcom
+steam_recent: false
+steam_recent_hours: 0
 ---
 

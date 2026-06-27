@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/1172620"
 igdb_slug: sea-of-thieves
 igdb_url: "https://www.igdb.com/games/sea-of-thieves"
 publisher: "Xbox Game Studios"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

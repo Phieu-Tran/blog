@@ -3,7 +3,7 @@ title: "Thánh chức"
 imdb_id: tt0123948
 tmdb_id: 36095
 tmdb_type: movie
-rating: 8
+rating: 9
 imdb_score: 7.5
 tmdb_score: 7.6
 genre: "Phim Hình Sự, Phim Gây Cấn, Phim Kinh Dị, Phim Bí Ẩn"

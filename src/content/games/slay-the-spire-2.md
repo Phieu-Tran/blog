@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/2868840"
 igdb_slug: slay-the-spire-ii
 igdb_url: "https://www.igdb.com/games/slay-the-spire-ii"
 publisher: "Mega Crit Games"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

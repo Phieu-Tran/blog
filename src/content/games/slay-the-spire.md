@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/646570"
 igdb_slug: slay-the-spire
 igdb_url: "https://www.igdb.com/games/slay-the-spire"
 publisher: "Humble Games"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

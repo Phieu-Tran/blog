@@ -17,5 +17,7 @@ steam_url: "https://store.steampowered.com/app/969760/Omno"
 igdb_slug: omno
 igdb_url: "https://www.igdb.com/games/omno"
 publisher: "Studio Inkyfox, Future Friends Games"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

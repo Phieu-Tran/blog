@@ -18,5 +18,7 @@ steam_url: "https://store.steampowered.com/app/105600"
 igdb_slug: terraria
 igdb_url: "https://www.igdb.com/games/terraria"
 publisher: "Headup Games, Re-Logic, 505 Games"
+steam_recent: false
+steam_recent_hours: 0
 ---
 

@@ -16,5 +16,7 @@ steam_url: "https://store.steampowered.com/app/804440"
 igdb_slug: starman-in-space
 igdb_url: "https://www.igdb.com/games/starman-in-space"
 publisher: "Laush Studio"
+steam_recent: false
+steam_recent_hours: 0
 ---
 
