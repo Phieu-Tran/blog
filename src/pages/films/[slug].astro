@@ -9,7 +9,25 @@ export async function getStaticPaths() {
 
 const allPosts = (await getCollection('posts')).filter(p => !p.data.draft);
 const { entry } = Astro.props;
-const { title, imdb_id, tmdb_id, tmdb_type, rating, imdb_score, tmdb_score, genre, year, director, status, cover, date } = entry.data;
+const {
+  title,
+  imdb_id,
+  tmdb_id,
+  tmdb_type,
+  rating,
+  imdb_score,
+  tmdb_score,
+  genre,
+  year,
+  director,
+  creator,
+  writer,
+  composer,
+  author,
+  status,
+  cover,
+  date,
+} = entry.data;
 
 const titleLower = title.toLowerCase();
 const titleWords = titleLower.split(/[\s:,|—]+/).filter(w => w.length > 3);
@@ -27,6 +45,16 @@ const imdbUrl = imdb_id
 const tmdbUrl = tmdb_id
   ? `https://www.themoviedb.org/${tmdb_type === 'tv' ? 'tv' : 'movie'}/${tmdb_id}`
   : `https://www.themoviedb.org/search?query=${encodeURIComponent(title)}`;
+
+const metaItems = [
+  { label: 'Director', value: director },
+  creator && { label: 'Creator', value: creator },
+  writer && { label: 'Writer', value: writer },
+  composer && { label: 'Composer', value: composer },
+  author && { label: 'Author', value: author },
+  { label: 'Year', value: String(year) },
+  { label: 'Genre', value: genre },
+].filter(Boolean) as Array<{ label: string; value: string }>;
 ---
 
 <BaseLayout title={title} description={`${title} — ${genre}`} image={cover} activeNav="films">
@@ -102,18 +130,12 @@ const tmdbUrl = tmdb_id
 
       {/* Meta grid */}
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:24px;">
-        <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;">
-          <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Director</p>
-          <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{director}</p>
-        </div>
-        <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;">
-          <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Year</p>
-          <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{year}</p>
-        </div>
-        <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;grid-column:span 2;">
-          <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Genre</p>
-          <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{genre}</p>
-        </div>
+        {metaItems.map(item => (
+          <div style={`background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;${item.label === 'Genre' ? 'grid-column:span 2;' : ''}`}>
+            <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">{item.label}</p>
+            <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{item.value}</p>
+          </div>
+        ))}
       </div>
 
       {date && (

@@ -9,7 +9,27 @@ export async function getStaticPaths() {
 
 const allPosts = (await getCollection('posts')).filter(p => !p.data.draft);
 const { entry } = Astro.props;
-const { title, mal_id, rating, mal_score, genre, year, studio, status, episodes_watched, episodes_total, episodes, cover, updated_at, date } = entry.data;
+const {
+  title,
+  mal_id,
+  rating,
+  mal_score,
+  genre,
+  year,
+  studio,
+  director,
+  creator,
+  writer,
+  composer,
+  author,
+  status,
+  episodes_watched,
+  episodes_total,
+  episodes,
+  cover,
+  updated_at,
+  date,
+} = entry.data;
 
 // Match related posts — check if post title contains this anime's title
 const titleLower = title.toLowerCase();
@@ -32,6 +52,18 @@ const statusLabels: Record<string, string> = {
 const statusColors: Record<string, string> = {
   watching: 'var(--game-color)', completed: 'var(--anime-color)', plan: 'var(--text-muted)', dropped: '#EF4444',
 };
+
+const metaItems = [
+  { label: 'Studio', value: studio },
+  director && { label: 'Director', value: director },
+  creator && { label: 'Creator', value: creator },
+  writer && { label: 'Writer', value: writer },
+  composer && { label: 'Composer', value: composer },
+  author && { label: 'Author', value: author },
+  { label: 'Year', value: String(year) },
+  { label: 'Episodes', value: totalEps ? String(totalEps) : '?' },
+  { label: 'Genre', value: genre.split(',')[0] },
+].filter(Boolean) as Array<{ label: string; value: string }>;
 ---
 
 <BaseLayout title={title} description={`${title} — ${genre}`} image={cover} activeNav="anime">
@@ -109,22 +141,12 @@ const statusColors: Record<string, string> = {
 
       {/* Meta grid */}
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
-        <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;">
-          <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Studio</p>
-          <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{studio}</p>
-        </div>
-        <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;">
-          <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Year</p>
-          <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{year}</p>
-        </div>
-        <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;">
-          <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Episodes</p>
-          <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{totalEps || '?'}</p>
-        </div>
-        <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;">
-          <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">Genre</p>
-          <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{genre.split(',')[0]}</p>
-        </div>
+        {metaItems.map(item => (
+          <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;">
+            <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">{item.label}</p>
+            <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{item.value}</p>
+          </div>
+        ))}
       </div>
 
       {lastUpdated && (

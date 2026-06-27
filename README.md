@@ -42,9 +42,9 @@ npm run build        # Build site
 
 | Section | Directory | Frontmatter |
 |---------|-----------|-------------|
-| Anime | `src/content/anime/` | `title, mal_id, rating, mal_score, genre, year, studio, status, episodes_watched, episodes_total, cover, updated_at, date` |
-| Films | `src/content/films/` | `title, imdb_id, tmdb_id, tmdb_type, rating, imdb_score, tmdb_score, genre, year, director, status, cover, date` |
-| Games | `src/content/games/` | `title, steam_appid, igdb_id, igdb_slug, igdb_url, steam_url, ign_url, metacritic_url, official_url, rating, igdb_score, genre, year, studio, publisher, author, status, platform, playtime_hours, steam_recent, steam_recent_hours, cover, igdb_updated_at, date` |
+| Anime | `src/content/anime/` | `title, mal_id, rating, mal_score, genre, year, studio, director, creator, writer, composer, author, status, episodes_watched, episodes_total, cover, updated_at, date` |
+| Films | `src/content/films/` | `title, imdb_id, tmdb_id, tmdb_type, rating, imdb_score, tmdb_score, genre, year, director, creator, writer, composer, author, status, cover, date` |
+| Games | `src/content/games/` | `title, steam_appid, igdb_id, igdb_slug, igdb_url, steam_url, ign_url, metacritic_url, official_url, rating, igdb_score, genre, year, studio, publisher, director, creator, writer, composer, author, status, platform, playtime_hours, steam_recent, steam_recent_hours, cover, igdb_updated_at, date` |
 | Posts | `src/content/posts/` | `title, description, tags, cover, date, draft` |
 
 ## Film Sync Notes
@@ -57,6 +57,7 @@ npm run build        # Build site
 - TMDB/MAL delete flow is guarded: items removed from TMDB ratings or the MAL list are removed from local content only when the upstream list is non-empty and the delete count is at or below `SYNC_MAX_AUTO_DELETE` (default `20`). Disable with `SYNC_DELETE_MISSING=false`.
 - Steam sync does not auto-delete local game files because Steam library visibility and ownership data can be noisy.
 - `sync-imdb-to-tmdb` syncs IMDb-backed repo ratings back to the TMDB account. It is dry-run by default; deleting extra TMDB ratings requires `--apply --delete-extra` plus `CONFIRM_TMDB_DELETE=DELETE`.
+- Detail pages support optional manual creator credits across Anime, Films, and Games: `director`, `creator`, `writer`, `composer`, and `author`. Sync keeps these local fields unless a trusted source explicitly updates them.
 
 ## Game Sync Notes
 
@@ -67,7 +68,7 @@ npm run build        # Build site
 - Local markdown remains where the site stores `rating`, `status`, and notes/body content. IGDB metadata sync does not overwrite those fields.
 - Non-Steam games are enriched by IGDB when an `igdb_id` exists, or by exact title match for imported IGDB GDPR entries.
 - Game detail pages show external links for IGDB, IGN, Metacritic, Steam, and Official. IGDB/Steam/Official are filled from metadata when available; IGN and Metacritic fall back to search links when exact URLs are not present.
-- `author` is optional for manual entries or future sources. Current IGDB metadata does not expose a stable game author/creator field, so the automated sync fills developer/publisher instead.
+- Creator credit fields are optional for manual entries or future sources. Current IGDB metadata does not expose stable game director/composer/writer/creator fields, so the automated sync fills developer/publisher instead.
 - Steam sync does not auto-delete local game files because Steam library visibility and ownership data can be noisy.
 
 ## Weekly Auto-Sync
