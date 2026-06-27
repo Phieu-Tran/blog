@@ -2,14 +2,16 @@
 title: "Kingdom Come: Deliverance"
 steam_appid: 379430
 rating: 0
-genre: "Role-playing (RPG), Simulator, Adventure"
-year: 2026
+genre: "Role-playing (RPG), Adventure"
+year: 2018
 studio: "Warhorse Studios"
 status: completed
 platform: Steam
 playtime_hours: 38
-cover: "https://steamcdn-a.akamaihd.net/steam/apps/379430/header.jpg"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4aqi.jpg"
 date: 2026-03-30
-igdb_score: 9.1
+igdb_score: 7.6
+igdb_id: 4843
+igdb_updated_at: 2026-06-27
 ---
 

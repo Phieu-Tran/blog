@@ -2,14 +2,16 @@
 title: "Slay the Spire"
 steam_appid: 646570
 rating: 0
-genre: "Strategy, Indie, Card & Board Game"
-year: 2026
+genre: "Role-playing (RPG), Strategy, Turn-based strategy (TBS), Adventure, Indie, Card & Board Game"
+year: 2019
 studio: "Mega Crit Games"
 status: completed
 platform: Steam
 playtime_hours: 12
-cover: "https://steamcdn-a.akamaihd.net/steam/apps/646570/header.jpg"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1iyf.jpg"
 date: 2026-03-30
-igdb_score: 9.9
+igdb_score: 8.9
+igdb_id: 40477
+igdb_updated_at: 2026-06-27
 ---
 

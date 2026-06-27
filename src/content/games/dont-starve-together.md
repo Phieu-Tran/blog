@@ -3,13 +3,15 @@ title: "Don't Starve Together"
 steam_appid: 322330
 rating: 0
 genre: "Simulator, Strategy, Adventure, Indie"
-year: 2026
+year: 2016
 studio: "Klei Entertainment"
 status: completed
 platform: Steam
 playtime_hours: 98
-cover: "https://steamcdn-a.akamaihd.net/steam/apps/322330/header.jpg"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqp.jpg"
 date: 2026-03-30
 igdb_score: 7.6
+igdb_id: 17832
+igdb_updated_at: 2026-06-27
 ---
 

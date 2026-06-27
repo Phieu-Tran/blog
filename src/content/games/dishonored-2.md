@@ -1,11 +1,15 @@
 ---
 title: "Dishonored 2"
 rating: 7
-genre: N/A
-year: 2026
-studio: N/A
+genre: "Shooter, Role-playing (RPG), Adventure"
+year: 2016
+studio: "Arkane Studios"
 status: completed
 platform: IGDB
 date: 2026-06-27
+igdb_id: 11118
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9e29.jpg"
+igdb_score: 8.5
+igdb_updated_at: 2026-06-27
 ---
 

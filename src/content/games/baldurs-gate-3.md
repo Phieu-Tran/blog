@@ -1,14 +1,16 @@
 ---
-title: "Baldur's Gate 3"
+title: "Baldur's Gate III"
 rating: 9
-genre: "CRPG, Turn-based, RPG"
+genre: "Role-playing (RPG), Strategy, Turn-based strategy (TBS)"
 year: 2023
 studio: "Larian Studios"
 status: completed
 platform: PC
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co670h.jpg"
 date: 2024-06-10
-igdb_score: 9.6
+igdb_score: 9.5
+igdb_id: 119171
+igdb_updated_at: 2026-06-27
 ---
 
 GOTY 2023 xứng đáng. BG3 đặt lại tiêu chuẩn cho RPG với mức độ tự do gần như vô hạn trong mọi quyết định.

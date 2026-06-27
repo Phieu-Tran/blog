@@ -7,7 +7,7 @@ genre: "Drama, Fantasy, Suspense"
 year: 2026
 studio: "White Fox"
 status: watching
-episodes_watched: 0
+episodes_watched: 19
 episodes_total: 19
 cover: "https://cdn.myanimelist.net/images/anime/1540/155824.jpg"
 date: 2026-06-23

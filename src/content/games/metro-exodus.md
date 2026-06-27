@@ -3,13 +3,15 @@ title: "Metro Exodus"
 steam_appid: 412020
 rating: 0
 genre: "Shooter, Adventure"
-year: 2026
+year: 2019
 studio: "4A Games"
 status: plan
 platform: Steam
 playtime_hours: 0
-cover: "https://steamcdn-a.akamaihd.net/steam/apps/412020/header.jpg"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coaroh.jpg"
 date: 2026-03-30
 igdb_score: 8.3
+igdb_id: 37016
+igdb_updated_at: 2026-06-27
 ---
 

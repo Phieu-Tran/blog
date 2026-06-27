@@ -3,13 +3,15 @@ title: "The Wild Eight"
 steam_appid: 526160
 rating: 0
 genre: "Role-playing (RPG), Simulator, Adventure, Indie"
-year: 2026
+year: 2018
 studio: Fntastic
 status: completed
 platform: Steam
 playtime_hours: 8
-cover: "https://steamcdn-a.akamaihd.net/steam/apps/526160/header.jpg"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qhc.jpg"
 date: 2026-03-30
 igdb_score: 7
+igdb_id: 17479
+igdb_updated_at: 2026-06-27
 ---
 

@@ -1,11 +1,15 @@
 ---
 title: "Pragmata"
 rating: 8
-genre: N/A
+genre: "Shooter, Adventure"
 year: 2026
-studio: N/A
+studio: Capcom
 status: completed
 platform: IGDB
 date: 2026-06-27
+igdb_id: 134612
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/cobxnx.jpg"
+igdb_score: 8.7
+igdb_updated_at: 2026-06-27
 ---
 

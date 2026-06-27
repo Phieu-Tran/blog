@@ -10,5 +10,7 @@ platform: Steam
 playtime_hours: 9
 cover: "https://steamcdn-a.akamaihd.net/steam/apps/1260320/header.jpg"
 date: 2026-03-30
+igdb_id: 180445
+igdb_updated_at: 2026-06-27
 ---
 

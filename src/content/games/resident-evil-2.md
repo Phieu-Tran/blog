@@ -1,12 +1,15 @@
 ---
 title: "Resident Evil 2"
 rating: 0
-genre: Adventure
-year: 2026
-studio: Capcom
+genre: "Shooter, Puzzle, Adventure"
+year: 1998
+studio: "Capcom Planning Room 2"
 status: completed
 platform: Multi
-cover: "https://assets1.ignimgs.com/2018/11/30/resident-evil-2-remake---button-fin-1543614996402.jpg?crop=1%3A1%2Csmart&width=164&height=164&format=jpg&auto=webp&quality=80"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vz0.jpg"
 date: 2026-03-30
+igdb_id: 880
+igdb_score: 6.9
+igdb_updated_at: 2026-06-27
 ---
 

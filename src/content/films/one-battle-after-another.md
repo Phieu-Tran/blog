@@ -5,7 +5,7 @@ tmdb_id: 1054867
 tmdb_type: movie
 rating: 7
 imdb_score: 7.6
-tmdb_score: 7.4
+tmdb_score: 7.3
 genre: "Phim Gây Cấn, Phim Hình Sự, Phim Hài"
 year: 2025
 director: "Paul Thomas Anderson"

@@ -3,11 +3,13 @@ title: "Star Wars Jedi: Fallen Order"
 rating: 0
 genre: Adventure
 year: 2019
-studio: Respawn
+studio: "Respawn Entertainment"
 status: plan
 platform: Multi
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rbi.jpg"
 date: 2026-03-30
-igdb_score: 8.1
+igdb_score: 8.2
+igdb_id: 74701
+igdb_updated_at: 2026-06-27
 ---
 

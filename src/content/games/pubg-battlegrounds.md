@@ -1,16 +1,18 @@
 ---
-title: "PUBG: BATTLEGROUNDS"
+title: "PUBG: Battlegrounds"
 steam_appid: 578080
 rating: 0
 genre: Shooter
-year: 2026
+year: 2017
 studio: "PUBG Corp"
 status: completed
 platform: Steam
 playtime_hours: 1615
-cover: "https://steamcdn-a.akamaihd.net/steam/apps/578080/header.jpg"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coaam4.jpg"
 date: 2026-03-30
 ign_source: true
-igdb_score: 7.2
+igdb_score: 7.3
+igdb_id: 27789
+igdb_updated_at: 2026-06-27
 ---
 

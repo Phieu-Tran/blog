@@ -1,5 +1,5 @@
 ---
-title: "Monster Hunter World: Iceborne"
+title: "Monster Hunter: World - Iceborne"
 rating: 8
 genre: "Role-playing (RPG), Adventure"
 year: 2019
@@ -8,6 +8,8 @@ status: completed
 platform: Multi
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pds.jpg"
 date: 2026-03-30
-igdb_score: 8.6
+igdb_score: 8.8
+igdb_id: 113344
+igdb_updated_at: 2026-06-27
 ---
 

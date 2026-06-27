@@ -9,5 +9,7 @@ platform: Multi
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8h3y.jpg"
 date: 2026-03-30
 igdb_score: 8.9
+igdb_id: 136879
+igdb_updated_at: 2026-06-27
 ---
 

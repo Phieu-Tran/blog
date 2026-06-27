@@ -1,16 +1,18 @@
 ---
-title: "MONSTER HUNTER RISE"
+title: "Monster Hunter Rise"
 steam_appid: 1446780
 rating: 0
-genre: N/A
-year: 2026
-studio: N/A
+genre: "Role-playing (RPG), Hack and slash/Beat 'em up, Adventure"
+year: 2021
+studio: "Capcom Development Division 2"
 status: completed
 platform: Steam
 playtime_hours: 143
-cover: "https://steamcdn-a.akamaihd.net/steam/apps/1446780/header.jpg"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co3uzk.jpg"
 date: 2026-03-30
 ign_source: true
-igdb_score: 8.7
+igdb_score: 8.5
+igdb_id: 138950
+igdb_updated_at: 2026-06-27
 ---
 

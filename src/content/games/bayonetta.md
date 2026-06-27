@@ -1,11 +1,15 @@
 ---
 title: "Bayonetta"
 rating: 8
-genre: N/A
-year: 2026
-studio: N/A
+genre: "Shooter, Hack and slash/Beat 'em up, Adventure"
+year: 2020
+studio: PlatinumGames
 status: completed
 platform: IGDB
 date: 2026-06-27
+igdb_id: 238884
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xp1.jpg"
+igdb_score: 9
+igdb_updated_at: 2026-06-27
 ---
 

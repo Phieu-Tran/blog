@@ -1,5 +1,5 @@
 ---
-title: "Slay the Spire 2"
+title: "Slay the Spire II"
 steam_appid: 2868840
 rating: 0
 genre: "Strategy, Indie, Card & Board Game"
@@ -8,8 +8,10 @@ studio: "Mega Crit Games"
 status: completed
 platform: Steam
 playtime_hours: 59
-cover: "https://steamcdn-a.akamaihd.net/steam/apps/2868840/header.jpg"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co82c5.jpg"
 date: 2026-03-30
-igdb_score: 9.9
+igdb_score: 8.5
+igdb_id: 296831
+igdb_updated_at: 2026-06-27
 ---
 

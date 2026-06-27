@@ -1,11 +1,15 @@
 ---
 title: "Dark Souls III"
 rating: 10
-genre: N/A
-year: 2026
-studio: N/A
+genre: "Role-playing (RPG), Adventure"
+year: 2016
+studio: FromSoftware
 status: completed
 platform: IGDB
 date: 2026-06-27
+igdb_id: 11133
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9ed.jpg"
+igdb_score: 8.7
+igdb_updated_at: 2026-06-27
 ---
 

@@ -1,14 +1,17 @@
 ---
-title: "Total War: THREE KINGDOMS"
+title: "Total War: Three Kingdoms"
 steam_appid: 779340
 rating: 0
-genre: Strategy
-year: 2026
-studio: "CREATIVE ASSEMBLY"
+genre: "Real Time Strategy (RTS), Strategy, Turn-based strategy (TBS)"
+year: 2019
+studio: "The Creative Assembly"
 status: completed
 platform: Steam
 playtime_hours: 40
-cover: "https://steamcdn-a.akamaihd.net/steam/apps/779340/header.jpg"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coc2o2.jpg"
 date: 2026-03-30
+igdb_id: 80961
+igdb_score: 8.1
+igdb_updated_at: 2026-06-27
 ---
 

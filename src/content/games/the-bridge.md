@@ -2,13 +2,15 @@
 title: "The Bridge"
 steam_appid: 204240
 rating: 0
-genre: N/A
-year: 2026
-studio: N/A
+genre: Adventure
+year: 2024
+studio: "Interactive Dreams"
 status: plan
 platform: Steam
 playtime_hours: 0
-cover: "https://steamcdn-a.akamaihd.net/steam/apps/204240/header.jpg"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coa2ub.jpg"
 date: 2026-03-30
+igdb_id: 352753
+igdb_updated_at: 2026-06-27
 ---
 

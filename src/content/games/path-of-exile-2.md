@@ -1,11 +1,15 @@
 ---
 title: "Path of Exile 2"
 rating: 8
-genre: N/A
-year: 2026
-studio: N/A
+genre: "Role-playing (RPG), Hack and slash/Beat 'em up, Adventure"
+year: 2024
+studio: "Grinding Gear Games"
 status: completed
 platform: IGDB
 date: 2026-06-27
+igdb_id: 125642
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ae0.jpg"
+igdb_score: 8.8
+igdb_updated_at: 2026-06-27
 ---
 

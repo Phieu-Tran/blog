@@ -3,13 +3,15 @@ title: "Tumblestone"
 steam_appid: 269710
 rating: 0
 genre: "Fighting, Puzzle, Strategy, Indie, Arcade"
-year: 2026
+year: 2016
 studio: "The Quantum Astrophysicists Guild"
 status: plan
 platform: Steam
 playtime_hours: 0
-cover: "https://steamcdn-a.akamaihd.net/steam/apps/269710/header.jpg"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co24m0.jpg"
 date: 2026-03-30
-igdb_score: 5
+igdb_score: 6.8
+igdb_id: 16926
+igdb_updated_at: 2026-06-27
 ---
 

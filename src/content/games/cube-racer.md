@@ -3,12 +3,14 @@ title: "Cube Racer"
 steam_appid: 705210
 rating: 0
 genre: "Racing, Indie"
-year: 2026
+year: 2017
 studio: N/A
 status: completed
 platform: Steam
 playtime_hours: 134
-cover: "https://steamcdn-a.akamaihd.net/steam/apps/705210/header.jpg"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ygf.jpg"
 date: 2026-03-30
+igdb_id: 74217
+igdb_updated_at: 2026-06-27
 ---
 

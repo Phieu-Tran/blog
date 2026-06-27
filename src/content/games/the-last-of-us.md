@@ -1,11 +1,15 @@
 ---
 title: "The Last of Us"
 rating: 6
-genre: N/A
-year: 2026
-studio: N/A
+genre: "Shooter, Adventure"
+year: 2013
+studio: "Naughty Dog"
 status: completed
 platform: IGDB
 date: 2026-06-27
+igdb_id: 1009
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r7f.jpg"
+igdb_score: 9.2
+igdb_updated_at: 2026-06-27
 ---
 

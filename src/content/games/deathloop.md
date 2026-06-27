@@ -1,16 +1,18 @@
 ---
-title: "DEATHLOOP"
+title: "Deathloop"
 steam_appid: 1252330
 rating: 8
 genre: "Shooter, Adventure"
-year: 2026
+year: 2021
 studio: "Arkane Studios"
 status: completed
 platform: Steam
 playtime_hours: 37
-cover: "https://steamcdn-a.akamaihd.net/steam/apps/1252330/header.jpg"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4nzt.jpg"
 date: 2026-03-30
 ign_source: true
-igdb_score: 8.1
+igdb_score: 8.5
+igdb_id: 113598
+igdb_updated_at: 2026-06-27
 ---
 

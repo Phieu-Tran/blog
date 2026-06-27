@@ -3,13 +3,15 @@ title: "Castle Crashers"
 steam_appid: 204360
 rating: 0
 genre: "Role-playing (RPG), Hack and slash/Beat 'em up, Adventure, Indie"
-year: 2026
+year: 2008
 studio: "The Behemoth"
 status: completed
 platform: Steam
 playtime_hours: 4
-cover: "https://steamcdn-a.akamaihd.net/steam/apps/204360/header.jpg"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coaskv.jpg"
 date: 2026-03-30
 igdb_score: 7.8
+igdb_id: 3153
+igdb_updated_at: 2026-06-27
 ---
 

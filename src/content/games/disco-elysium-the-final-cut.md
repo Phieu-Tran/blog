@@ -8,6 +8,8 @@ status: completed
 platform: Multi
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ve1.jpg"
 date: 2026-03-30
-igdb_score: 9.5
+igdb_score: 9.3
+igdb_id: 141540
+igdb_updated_at: 2026-06-27
 ---
 

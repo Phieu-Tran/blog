@@ -1,16 +1,18 @@
 ---
-title: "NARAKA: BLADEPOINT"
+title: "Naraka: Bladepoint"
 steam_appid: 1203220
 rating: 7
 genre: "Fighting, Hack and slash/Beat 'em up"
-year: 2026
+year: 2021
 studio: "24 Entertainment"
 status: completed
 platform: Steam
 playtime_hours: 96
-cover: "https://steamcdn-a.akamaihd.net/steam/apps/1203220/header.jpg"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coabde.jpg"
 date: 2026-03-30
 ign_source: true
 igdb_score: 6.3
+igdb_id: 127352
+igdb_updated_at: 2026-06-27
 ---
 

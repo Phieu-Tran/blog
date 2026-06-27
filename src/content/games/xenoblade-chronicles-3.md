@@ -1,12 +1,15 @@
 ---
 title: "Xenoblade Chronicles 3"
 rating: 0
-genre: N/A
+genre: "Role-playing (RPG), Adventure"
 year: 2022
-studio: "Monolith Software (JP)"
+studio: "Monolith Soft"
 status: plan
 platform: Multi
-cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8jeg.jpg"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ocq.jpg"
 date: 2026-03-30
+igdb_id: 191411
+igdb_score: 8.8
+igdb_updated_at: 2026-06-27
 ---
 

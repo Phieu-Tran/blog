@@ -3,13 +3,16 @@ title: "The Witcher 3: Wild Hunt"
 steam_appid: 292030
 rating: 8
 genre: "Role-playing (RPG), Adventure"
-year: 2026
-studio: N/A
+year: 2015
+studio: "CD Projekt RED"
 status: completed
 platform: Steam
 playtime_hours: 60
-cover: "https://steamcdn-a.akamaihd.net/steam/apps/292030/header.jpg"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coaarl.jpg"
 date: 2026-03-30
 ign_source: true
+igdb_id: 1942
+igdb_score: 9.3
+igdb_updated_at: 2026-06-27
 ---
 

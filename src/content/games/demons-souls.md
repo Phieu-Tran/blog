@@ -1,12 +1,15 @@
 ---
 title: "Demon's Souls"
 rating: 10
-genre: "Role-playing (RPG), Strategy, Indie"
-year: 2025
-studio: "SIE Japan Studio"
+genre: "Role-playing (RPG), Hack and slash/Beat 'em up, Adventure"
+year: 2020
+studio: "Bluepoint Games"
 status: completed
 platform: Multi
-cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coamv6.jpg"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kj9.jpg"
 date: 2026-03-30
+igdb_id: 134606
+igdb_score: 8.9
+igdb_updated_at: 2026-06-27
 ---
 
