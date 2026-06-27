@@ -1,7 +1,7 @@
 ---
 title: "Neuro: Supernatural Detective"
 mal_id: 2985
-rating: 8
+rating: 7
 genre: "Comedy, Mystery, Supernatural, Shounen"
 year: 2007
 studio: Madhouse

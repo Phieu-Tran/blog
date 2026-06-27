@@ -1,7 +1,7 @@
 ---
 title: "Kuroko's Basketball 2"
 mal_id: 16894
-rating: 7
+rating: 6
 genre: "Sports, Shounen"
 year: 2013
 studio: "Production I.G"

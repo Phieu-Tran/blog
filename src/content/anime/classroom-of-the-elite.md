@@ -1,7 +1,7 @@
 ---
 title: "Classroom of the Elite"
 mal_id: 35507
-rating: 10
+rating: 8
 genre: "Drama, Suspense"
 year: 2017
 studio: Lerche

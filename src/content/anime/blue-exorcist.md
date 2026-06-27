@@ -1,7 +1,7 @@
 ---
 title: "Blue Exorcist"
 mal_id: 9919
-rating: 8
+rating: 7
 genre: "Action, Supernatural, Shounen"
 year: 2011
 studio: "A-1 Pictures"

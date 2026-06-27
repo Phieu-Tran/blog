@@ -1,7 +1,7 @@
 ---
 title: "My Teen Romantic Comedy SNAFU TOO!"
 mal_id: 23847
-rating: 7
+rating: 9
 genre: "Comedy, Romance"
 year: 2015
 studio: feel.

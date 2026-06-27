@@ -1,7 +1,7 @@
 ---
 title: "MM!"
 mal_id: 8424
-rating: 7
+rating: 5
 genre: "Comedy, Ecchi"
 year: 2010
 studio: Xebec

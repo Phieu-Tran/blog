@@ -7,7 +7,7 @@ rating: 5
 tmdb_score: 8.1
 genre: "Phim Hoạt Hình, Phim Giả Tượng, Phim Hành Động, Phim Phiêu Lưu"
 year: 2021
-director: "Amp Wong"
+director: N/A
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/g1d3uFf3eGvVJQ5Coh793Zi1ASq.jpg"

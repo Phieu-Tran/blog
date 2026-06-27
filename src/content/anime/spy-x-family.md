@@ -1,7 +1,7 @@
 ---
 title: "Spy x Family"
 mal_id: 50265
-rating: 8
+rating: 6
 genre: "Action, Award Winning, Comedy, Shounen"
 year: 2022
 studio: "Wit Studio"

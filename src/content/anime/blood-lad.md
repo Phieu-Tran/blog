@@ -1,7 +1,7 @@
 ---
 title: "Blood Lad"
 mal_id: 11633
-rating: 7
+rating: 6
 genre: "Action, Comedy, Fantasy, Seinen"
 year: 2013
 studio: "Brain's Base"

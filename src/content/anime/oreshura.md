@@ -1,7 +1,7 @@
 ---
 title: "Oreshura"
 mal_id: 14749
-rating: 7
+rating: 6
 genre: "Comedy, Romance"
 year: 2013
 studio: "A-1 Pictures"

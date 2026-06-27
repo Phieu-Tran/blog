@@ -1,7 +1,7 @@
 ---
 title: "Devilman: Crybaby"
 mal_id: 35120
-rating: 8
+rating: 6
 genre: "Action, Avant Garde, Horror, Supernatural, Shounen"
 year: 2018
 studio: "Science SARU"

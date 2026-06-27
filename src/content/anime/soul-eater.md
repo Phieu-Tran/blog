@@ -1,7 +1,7 @@
 ---
 title: "Soul Eater"
 mal_id: 3588
-rating: 7
+rating: 6
 genre: "Action, Comedy, Fantasy, Shounen"
 year: 2008
 studio: Bones

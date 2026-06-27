@@ -1,7 +1,7 @@
 ---
 title: "My Teen Romantic Comedy SNAFU"
 mal_id: 14813
-rating: 7
+rating: 8
 genre: "Comedy, Romance"
 year: 2013
 studio: "Brain's Base"

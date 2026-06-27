@@ -1,7 +1,7 @@
 ---
 title: "Fire Force"
 mal_id: 38671
-rating: 8
+rating: 6
 genre: "Action, Fantasy, Sci-Fi, Shounen"
 year: 2019
 studio: "David Production"

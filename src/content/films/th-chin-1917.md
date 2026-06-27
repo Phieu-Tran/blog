@@ -7,7 +7,7 @@ rating: 8
 tmdb_score: 8
 genre: "Phim Chiến Tranh, Phim Lịch Sử, Phim Chính Kịch"
 year: 2019
-director: "Sam Mendes"
+director: N/A
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/hqWpVp3FwuLAD48uVzFu79I61Ym.jpg"

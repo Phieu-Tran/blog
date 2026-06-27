@@ -1,7 +1,7 @@
 ---
 title: "Boogiepop Phantom"
 mal_id: 369
-rating: 7
+rating: 8
 genre: "Avant Garde, Drama, Horror, Mystery, Supernatural, Suspense"
 year: 2000
 studio: Madhouse

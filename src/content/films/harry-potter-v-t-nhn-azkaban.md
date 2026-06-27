@@ -7,7 +7,7 @@ rating: 7
 tmdb_score: 8
 genre: "Phim Phiêu Lưu, Phim Giả Tượng"
 year: 2004
-director: "Alfonso Cuarón"
+director: N/A
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/vUwrS4EeRbhs183aK3MCGUhjIOX.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Doukyusei: Classmates"
 mal_id: 30346
-rating: 8
+rating: 7
 genre: "Boys Love"
 year: 2016
 studio: "A-1 Pictures"

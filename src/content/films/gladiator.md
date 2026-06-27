@@ -8,7 +8,7 @@ imdb_score: 8.5
 tmdb_score: 8.2
 genre: "Phim Hành Động, Phim Chính Kịch, Phim Phiêu Lưu"
 year: 2000
-director: "Ridley Scott"
+director: N/A
 status: watched
 date: 2025-04-25
 cover: "https://image.tmdb.org/t/p/w500/usBP3JEXW7iyDfpSfgYFCncg1NA.jpg"

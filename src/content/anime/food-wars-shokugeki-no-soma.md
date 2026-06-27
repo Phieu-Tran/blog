@@ -1,7 +1,7 @@
 ---
 title: "Food Wars! Shokugeki no Soma"
 mal_id: 28171
-rating: 8
+rating: 7
 genre: "Gourmet, Ecchi, Shounen"
 year: 2015
 studio: J.C.Staff

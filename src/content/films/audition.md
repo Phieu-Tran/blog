@@ -8,7 +8,7 @@ imdb_score: 7.1
 tmdb_score: 7.1
 genre: "Phim Kinh Dị, Phim Chính Kịch"
 year: 2000
-director: 三池崇史
+director: N/A
 status: watched
 date: 2025-12-13
 cover: "https://image.tmdb.org/t/p/w500/hkjpeUkXbsCjj0FrG1nNxVCxUid.jpg"

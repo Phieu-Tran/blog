@@ -8,7 +8,7 @@ imdb_score: 8.4
 tmdb_score: 8.4
 genre: "Phim Hoạt Hình, Phim Hành Động, Phim Phiêu Lưu, Phim Khoa Học Viễn Tưởng"
 year: 2018
-director: "Bob Persichetti"
+director: N/A
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/kahw25SAqedXIruUGIuSUiq7t98.jpg"

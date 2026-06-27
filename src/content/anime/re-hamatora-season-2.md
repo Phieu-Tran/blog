@@ -1,7 +1,7 @@
 ---
 title: "Re: Hamatora: Season 2"
 mal_id: 23421
-rating: 8
+rating: 7
 genre: "Action, Mystery"
 year: 2014
 studio: Lerche

@@ -1,7 +1,7 @@
 ---
 title: "The Place Promised in Our Early Days"
 mal_id: 433
-rating: 10
+rating: 8
 genre: "Award Winning, Drama, Romance, Sci-Fi"
 year: 2004
 studio: "CoMix Wave Films"

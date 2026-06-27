@@ -1,7 +1,7 @@
 ---
 title: "Snow White with the Red Hair"
 mal_id: 30123
-rating: 8
+rating: 7
 genre: "Drama, Romance, Shoujo"
 year: 2015
 studio: Bones

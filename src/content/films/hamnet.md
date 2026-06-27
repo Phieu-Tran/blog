@@ -8,7 +8,7 @@ imdb_score: 7.8
 tmdb_score: 7.7
 genre: "Phim Chính Kịch, Phim Lãng Mạn, Phim Lịch Sử"
 year: 2025
-director: "Chloé Zhao"
+director: N/A
 status: watched
 date: 2026-03-24
 cover: "https://image.tmdb.org/t/p/w500/zIcd6yuBucRNof5t9KVuGBHIhXU.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "Blue Exorcist: The Movie"
 mal_id: 11737
-rating: 7
+rating: 5
 genre: "Action, Supernatural, Shounen"
 year: 2012
 studio: "A-1 Pictures"

@@ -8,7 +8,7 @@ imdb_score: 7.6
 tmdb_score: 7.3
 genre: "Phim Gây Cấn, Phim Hình Sự, Phim Hài"
 year: 2025
-director: N/A
+director: "Paul Thomas Anderson"
 status: watched
 date: 2025-12-11
 cover: "https://image.tmdb.org/t/p/w500/wQ0IDT8rXOvCt6LflxcMEOUNBUS.jpg"

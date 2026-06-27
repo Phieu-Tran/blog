@@ -1,7 +1,7 @@
 ---
 title: "Kuroko's Basketball 3"
 mal_id: 24415
-rating: 7
+rating: 5
 genre: "Sports, Shounen"
 year: 2015
 studio: "Production I.G"

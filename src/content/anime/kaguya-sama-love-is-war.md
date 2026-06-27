@@ -1,7 +1,7 @@
 ---
 title: "Kaguya-sama: Love is War?"
 mal_id: 40591
-rating: 8
+rating: 7
 mal_score: 8.61
 genre: "Comedy, Romance, Seinen"
 year: 2020

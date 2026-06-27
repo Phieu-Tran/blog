@@ -1,7 +1,7 @@
 ---
 title: "Kaguya-sama: Love is War -The First Kiss That Never Ends-"
 mal_id: 52198
-rating: 8
+rating: 7
 genre: "Comedy, Drama, Romance, Seinen"
 year: 2022
 studio: "A-1 Pictures"

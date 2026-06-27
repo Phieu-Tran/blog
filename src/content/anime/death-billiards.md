@@ -1,7 +1,7 @@
 ---
 title: "Death Billiards"
 mal_id: 14353
-rating: 7
+rating: 6
 genre: "Drama, Fantasy, Suspense"
 year: 2013
 studio: Madhouse

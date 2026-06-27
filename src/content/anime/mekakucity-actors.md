@@ -1,7 +1,7 @@
 ---
 title: "Mekakucity Actors"
 mal_id: 21603
-rating: 8
+rating: 7
 genre: "Drama, Mystery, Sci-Fi"
 year: 2014
 studio: Shaft

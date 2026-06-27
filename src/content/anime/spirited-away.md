@@ -1,7 +1,7 @@
 ---
 title: "Spirited Away"
 mal_id: 199
-rating: 10
+rating: 9
 genre: "Adventure, Award Winning, Fantasy"
 year: 2001
 studio: "Studio Ghibli"
