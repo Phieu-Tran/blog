@@ -3,7 +3,7 @@ title: "Bố Già"
 imdb_id: tt0068646
 tmdb_id: 238
 tmdb_type: movie
-rating: 10
+rating: 9
 imdb_score: 9.2
 tmdb_score: 8.7
 genre: "Phim Chính Kịch, Phim Hình Sự"

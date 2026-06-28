@@ -7,13 +7,13 @@ year: 2008
 studio: "The Behemoth"
 status: completed
 source: steam
-platform: PC
+platform: "PlayStation, PC, Xbox"
 playtime_hours: 4
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coaskv.jpg"
 date: 2026-03-30
 igdb_score: 7.8
 igdb_id: 3153
-igdb_updated_at: 2026-06-27
+igdb_updated_at: 2026-06-28
 steam_url: "https://store.steampowered.com/app/204360"
 igdb_slug: castle-crashers
 igdb_url: "https://www.igdb.com/games/castle-crashers"

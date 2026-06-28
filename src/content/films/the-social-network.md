@@ -8,7 +8,7 @@ imdb_score: 7.8
 tmdb_score: 7.4
 genre: "Phim Chính Kịch"
 year: 2010
-director: N/A
+director: "David Fincher"
 status: watched
 date: 2026-01-14
 cover: "https://image.tmdb.org/t/p/w500/dqWUPWe8HQSGuZqXTCaqvvxUgsB.jpg"

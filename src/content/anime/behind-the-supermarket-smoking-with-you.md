@@ -5,10 +5,10 @@ rating: 8
 genre: "Romance, Seinen"
 year: 2026
 studio: "Asahi Production"
-status: completed
+status: watching
 cover: "https://cdn.myanimelist.net/images/anime/1768/156339.jpg"
 date: 2026-03-30
-mal_score: 8.54
+mal_score: 8.53
 episodes_watched: 0
 episodes_total: 0
 updated_at: 2026-01-19

@@ -7,14 +7,14 @@ year: 2015
 studio: "CD Projekt RED"
 status: completed
 source: steam
-platform: PC
+platform: Multi-platform
 playtime_hours: 60
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coaarl.jpg"
 date: 2026-03-30
 ign_source: true
 igdb_id: 1942
 igdb_score: 9.3
-igdb_updated_at: 2026-06-27
+igdb_updated_at: 2026-06-28
 steam_url: "https://store.steampowered.com/app/292030"
 igdb_slug: the-witcher-3-wild-hunt
 igdb_url: "https://www.igdb.com/games/the-witcher-3-wild-hunt"

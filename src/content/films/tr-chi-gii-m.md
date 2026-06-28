@@ -7,7 +7,7 @@ rating: 7
 tmdb_score: 8
 genre: "Phim Lịch Sử, Phim Chính Kịch, Phim Gây Cấn, Phim Chiến Tranh"
 year: 2014
-director: N/A
+director: "Morten Tyldum"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/zSqJ1qFq8NXFfi7JeIYMlzyR0dx.jpg"

@@ -3,7 +3,7 @@ title: "Khát Vọng Nhịp Điệu"
 imdb_id: tt2582802
 tmdb_id: 244786
 tmdb_type: movie
-rating: 9
+rating: 8
 imdb_score: 8.5
 tmdb_score: 8.4
 genre: "Phim Chính Kịch, Phim Nhạc, Phim Gây Cấn"

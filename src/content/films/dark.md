@@ -3,7 +3,7 @@ title: "Đêm lặng"
 imdb_id: tt5753856
 tmdb_id: 70523
 tmdb_type: tv
-rating: 10
+rating: 9
 imdb_score: 8.7
 tmdb_score: 8.4
 genre: "Phim Hình Sự, Phim Chính Kịch, Sci-Fi & Fantasy, Phim Bí Ẩn"

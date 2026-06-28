@@ -3,12 +3,12 @@ title: "Chúa Tể Của Những Chiếc Nhẫn: Hiệp Hội Nhẫn Thần"
 imdb_id: tt0120737
 tmdb_id: 120
 tmdb_type: movie
-rating: 10
+rating: 8
 imdb_score: 8.9
 tmdb_score: 8.4
 genre: "Phim Phiêu Lưu, Phim Giả Tượng, Phim Hành Động"
 year: 2001
-director: N/A
+director: "Peter Jackson"
 status: watched
 date: 2025-11-30
 cover: "https://image.tmdb.org/t/p/w500/2gayIj5yIrvk7BVXUCXHHIomXgR.jpg"

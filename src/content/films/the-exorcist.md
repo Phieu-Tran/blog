@@ -3,7 +3,7 @@ title: "Người Trừ Tà"
 imdb_id: tt0070047
 tmdb_id: 9552
 tmdb_type: movie
-rating: 9
+rating: 8
 imdb_score: 8.1
 tmdb_score: 7.7
 genre: "Phim Kinh Dị, Phim Chính Kịch"

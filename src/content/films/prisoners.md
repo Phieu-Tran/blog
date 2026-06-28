@@ -8,7 +8,7 @@ imdb_score: 8.2
 tmdb_score: 8.1
 genre: "Phim Chính Kịch, Phim Gây Cấn, Phim Hình Sự"
 year: 2013
-director: N/A
+director: "Denis Villeneuve"
 status: watched
 date: 2026-01-14
 cover: "https://image.tmdb.org/t/p/w500/wOViaF0lv8xvYyFdF7bKAG3IZIb.jpg"

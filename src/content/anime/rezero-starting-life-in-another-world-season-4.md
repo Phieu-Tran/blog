@@ -6,7 +6,7 @@ mal_score: 9.2
 genre: "Drama, Fantasy, Suspense"
 year: 2026
 studio: "White Fox"
-status: completed
+status: watching
 episodes_watched: 19
 episodes_total: 19
 cover: "https://cdn.myanimelist.net/images/anime/1540/155824.jpg"

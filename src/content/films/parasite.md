@@ -3,7 +3,7 @@ title: "Ký Sinh Trùng"
 imdb_id: tt6751668
 tmdb_id: 496243
 tmdb_type: movie
-rating: 9
+rating: 8
 imdb_score: 8.5
 tmdb_score: 8.5
 genre: "Phim Hài, Phim Gây Cấn, Phim Chính Kịch"

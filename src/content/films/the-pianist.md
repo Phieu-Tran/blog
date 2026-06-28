@@ -3,7 +3,7 @@ title: "Nghệ Sĩ Dương Cầm"
 imdb_id: tt0253474
 tmdb_id: 423
 tmdb_type: movie
-rating: 9
+rating: 8
 imdb_score: 8.5
 tmdb_score: 8.4
 genre: "Phim Chính Kịch, Phim Chiến Tranh"
