@@ -2,6 +2,7 @@
 title: "God of War | World-Building Và Cốt Truyện"
 description: "Analysis — Cory Barlog (Game Director)"
 tags: ["Analysis", "Story"]
+related_media: ["games:god-of-war"]
 date: 2026-03-29
 ---
 ![](/posts/GoW_0.png)

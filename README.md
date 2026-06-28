@@ -45,7 +45,7 @@ npm run build        # Build site
 | Anime | `src/content/anime/` | `title, mal_id, rating, mal_score, genre, year, studio, director, creator, writer, composer, author, status, episodes_watched, episodes_total, cover, updated_at, date` |
 | Films | `src/content/films/` | `title, imdb_id, tmdb_id, tmdb_type, rating, imdb_score, tmdb_score, genre, year, director, creator, writer, composer, author, status, cover, date` |
 | Games | `src/content/games/` | `title, steam_appid, igdb_id, igdb_slug, igdb_url, steam_url, ign_url, metacritic_url, official_url, rating, igdb_score, genre, year, studio, publisher, director, creator, writer, composer, author, status, platform, playtime_hours, steam_recent, steam_recent_hours, cover, igdb_updated_at, date` |
-| Posts | `src/content/posts/` | `title, description, tags, cover, date, draft` |
+| Posts | `src/content/posts/` | `title, description, tags, related_media, cover, date, draft` |
 
 ## Film Sync Notes
 
@@ -58,6 +58,7 @@ npm run build        # Build site
 - Steam sync does not auto-delete local game files because Steam library visibility and ownership data can be noisy.
 - `sync-imdb-to-tmdb` syncs IMDb-backed repo ratings back to the TMDB account. It is dry-run by default; deleting extra TMDB ratings requires `--apply --delete-extra` plus `CONFIRM_TMDB_DELETE=DELETE`.
 - Detail pages support optional manual creator credits across Anime, Films, and Games: `director`, `creator`, `writer`, `composer`, and `author`. Sync keeps these local fields unless a trusted source explicitly updates them.
+- Blog posts can use `related_media` values like `anime:ajin-demi-human`, `games:god-of-war`, or `films:donnie-darko`. Media detail pages use this explicit relation for related posts instead of fuzzy title matching.
 
 ## Game Sync Notes
 

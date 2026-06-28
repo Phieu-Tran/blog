@@ -2,6 +2,7 @@
 title: "Cowboy Bebop | カウボーイビバップ | Chủ Nghĩa Hiện Sinh Trong Cowboy Bebop"
 description: "Analysis — Shinichiro Watanabe"
 tags: ["Analysis", "Explained"]
+related_media: ["anime:cowboy-bebop"]
 date: 2026-02-04
 ---
 ![](/posts/CowboyBebop_0.jpg)

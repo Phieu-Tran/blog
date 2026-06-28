@@ -2,6 +2,7 @@
 title: "Se7en | 7 Tội Lỗi Chết Người"
 description: "Review — David Fincher"
 tags: ["Review", "Analysis", "Thriller"]
+related_media: ["films:seven"]
 date: 2026-02-04
 ---
 ### CẢM NHẬN PHIM SE7VEN -- 7 TỘI LỖI CHẾT NGƯỜI

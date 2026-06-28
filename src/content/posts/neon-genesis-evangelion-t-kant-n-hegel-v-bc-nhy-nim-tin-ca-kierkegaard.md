@@ -2,6 +2,7 @@
 title: "Neon Genesis Evangelion | 新世紀エヴァンゲリオン | Từ Kant Đến Hegel Và Bước Nhảy Niềm Tin Của Kierkegaard"
 description: "Analysis — Hideaki Anno"
 tags: ["Analysis", "Explained"]
+related_media: ["anime:neon-genesis-evangelion"]
 date: 2026-03-29
 ---
 ![](/posts/NGE_0.jpg)

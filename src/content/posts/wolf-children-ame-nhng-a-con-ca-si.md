@@ -2,6 +2,7 @@
 title: "Wolf Children | おおかみこどもの雨と雪 | Ame - Những Đứa Con Của Sói"
 description: "Character — Hosoda Mamoru"
 tags: ["Character"]
+related_media: ["anime:wolf-children"]
 date: 2026-02-04
 ---
 ![](/posts/Exported image 20250424131801-0.jpeg)

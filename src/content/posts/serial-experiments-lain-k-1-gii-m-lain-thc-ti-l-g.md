@@ -2,6 +2,7 @@
 title: "Serial Experiments Lain | シリアルエクスペリメンツレイン | Kỳ 1: Giải Mã Lain, Thực Tại Là Gì?"
 description: "Analysis — Ryutaro Nakamura"
 tags: ["Analysis", "Explained"]
+related_media: ["anime:serial-experiments-lain"]
 date: 2026-03-29
 ---
 ![](/posts/Lain1_0.png)

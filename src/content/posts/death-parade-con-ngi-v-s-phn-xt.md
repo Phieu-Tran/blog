@@ -2,6 +2,7 @@
 title: "Death Parade | デス・パレード | Con Người Và Sự Phán Xét"
 description: "Analysis — Yuzuru Tachikawa"
 tags: ["Analysis", "Explained"]
+related_media: ["anime:death-parade"]
 date: 2026-02-04
 ---
 Anime:

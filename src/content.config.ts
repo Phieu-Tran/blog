@@ -88,6 +88,7 @@ const posts = defineCollection({
     title: z.string(),
     description: z.string().optional(),
     tags: z.array(z.string()).optional(),
+    related_media: z.array(z.string()).optional(),
     cover: z.string().optional(),
     date: z.date(),
     draft: z.boolean().optional(),

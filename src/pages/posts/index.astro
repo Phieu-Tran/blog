@@ -1,26 +1,433 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { firstMarkdownImage, mediaRelationKey, parseMediaRelation } from '../../lib/mediaRelations';
 
-const allPosts = (await getCollection('posts'))
-  .filter(p => !p.data.draft)
+const base = import.meta.env.BASE_URL;
+const rawPosts = (await getCollection('posts'))
+  .filter(post => !post.data.draft)
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+
+const [anime, games, films] = await Promise.all([
+  getCollection('anime'),
+  getCollection('games'),
+  getCollection('films'),
+]);
+
+type MediaPreview = {
+  href: string;
+  label: string;
+  title: string;
+  type: 'anime' | 'game' | 'film';
+};
+
+const mediaByKey = new Map<string, MediaPreview>();
+
+anime.forEach(item => mediaByKey.set(mediaRelationKey('anime', item.id), {
+  href: `${base}anime/${item.id}/`,
+  label: 'Anime',
+  title: item.data.title,
+  type: 'anime',
+}));
+
+games.forEach(item => mediaByKey.set(mediaRelationKey('games', item.id), {
+  href: `${base}games/${item.id}/`,
+  label: 'Game',
+  title: item.data.title,
+  type: 'game',
+}));
+
+films.forEach(item => mediaByKey.set(mediaRelationKey('films', item.id), {
+  href: `${base}films/${item.id}/`,
+  label: 'Film',
+  title: item.data.title,
+  type: 'film',
+}));
+
+function relatedMediaFor(post: typeof rawPosts[number]) {
+  return (post.data.related_media || [])
+    .map(parseMediaRelation)
+    .filter(Boolean)
+    .map(relation => mediaByKey.get(relation!.key))
+    .filter(Boolean) as MediaPreview[];
+}
+
+function readingMinutes(body: string) {
+  const words = body.replace(/!\[[^\]]*\]\([^)]+\)/g, '').trim().split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.round(words / 220));
+}
+
+const posts = rawPosts.map(post => ({
+  entry: post,
+  cover: post.data.cover || firstMarkdownImage(post.body),
+  relatedMedia: relatedMediaFor(post),
+  readingMinutes: readingMinutes(post.body),
+}));
+
+const tags = [...new Set(rawPosts.flatMap(post => post.data.tags || []))].sort((a, b) => a.localeCompare(b));
+const linkedCount = posts.filter(post => post.relatedMedia.length > 0).length;
 ---
 
 <BaseLayout title="Posts" activeNav="posts">
-  <p class="section-label">Blog posts — {allPosts.length} articles</p>
-  <div class="post-list">
-    {allPosts.map((post, i) => (
-      <a href={`${import.meta.env.BASE_URL}posts/${post.id}/`} class="post-card" style={`animation-delay: ${i * 0.06}s`}>
-        <p class="post-title">{post.data.title}</p>
-        {post.data.description && <p class="post-desc">{post.data.description}</p>}
-        <div class="post-meta">
-          <span>{new Date(post.data.date).toLocaleDateString('vi-VN')}</span>
-          {post.data.tags?.map(tag => (
-            <span class="post-tag">{tag}</span>
-          ))}
-        </div>
-      </a>
-    ))}
-  </div>
+  <section class="posts-hero">
+    <div>
+      <p class="section-label">Blog posts - {posts.length} articles</p>
+      <h1>Essays, reviews, and notes</h1>
+      <p class="posts-hero-copy">
+        Bài viết phân tích, review, nhân vật, chủ đề, và mấy ghi chú dài hơi được nối lại với media tương ứng trong vault.
+      </p>
+    </div>
+    <div class="posts-stats" aria-label="Post stats">
+      <div>
+        <strong>{posts.length}</strong>
+        <span>Posts</span>
+      </div>
+      <div>
+        <strong>{tags.length}</strong>
+        <span>Tags</span>
+      </div>
+      <div>
+        <strong>{linkedCount}</strong>
+        <span>Linked</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="posts-toolbar" aria-label="Post filters">
+    <input id="post-search" class="filter-input" type="text" placeholder="Tim bai viet..." autocomplete="off" />
+    <select id="tag-filter" class="filter-select">
+      <option value="">Tat ca tag</option>
+      {tags.map(tag => <option value={tag.toLowerCase()}>{tag}</option>)}
+    </select>
+  </section>
+
+  <p class="section-label posts-count">
+    Dang hien <span id="post-count">{posts.length}</span> bai
+  </p>
+
+  <section id="post-grid" class="posts-grid">
+    {posts.map((post, i) => {
+      const { entry, cover, relatedMedia } = post;
+      const tagsText = (entry.data.tags || []).join(' ').toLowerCase();
+      const searchText = `${entry.data.title} ${entry.data.description || ''} ${tagsText}`.toLowerCase();
+
+      return (
+        <article
+          class="post-tile"
+          data-search={searchText}
+          data-tags={tagsText}
+          style={`animation-delay: ${i * 0.04}s`}
+        >
+          <a href={`${base}posts/${entry.id}/`} class="post-cover-link" aria-label={entry.data.title}>
+            {cover ? (
+              <img src={cover} alt="" loading={i < 3 ? 'eager' : 'lazy'} />
+            ) : (
+              <span class="post-cover-fallback">{entry.data.title.slice(0, 1)}</span>
+            )}
+          </a>
+
+          <div class="post-tile-body">
+            <div class="post-kicker">
+              <span>{new Date(entry.data.date).toLocaleDateString('vi-VN')}</span>
+              <span>{post.readingMinutes} min read</span>
+            </div>
+
+            <h2>
+              <a href={`${base}posts/${entry.id}/`}>{entry.data.title}</a>
+            </h2>
+
+            {entry.data.description && <p class="post-summary">{entry.data.description}</p>}
+
+            <div class="post-tags">
+              {entry.data.tags?.map(tag => <span>{tag}</span>)}
+            </div>
+
+            {relatedMedia.length > 0 && (
+              <div class="linked-media" aria-label="Linked media">
+                {relatedMedia.map(media => (
+                  <a href={media.href} class={`linked-media-chip ${media.type}`}>
+                    <span>{media.label}</span>
+                    {media.title}
+                  </a>
+                ))}
+              </div>
+            )}
+          </div>
+        </article>
+      );
+    })}
+  </section>
+
+  <script>
+    function initPostFilters() {
+      const search = document.getElementById('post-search') as HTMLInputElement | null;
+      const tag = document.getElementById('tag-filter') as HTMLSelectElement | null;
+      const count = document.getElementById('post-count');
+      const items = [...document.querySelectorAll('.post-tile')] as HTMLElement[];
+      if (!search || !tag || !count || !items.length) return;
+      if (search.dataset.postFilterBound === 'true') return;
+      search.dataset.postFilterBound = 'true';
+
+      function apply() {
+        const query = search!.value.trim().toLowerCase();
+        const selectedTag = tag!.value.toLowerCase();
+        let visible = 0;
+
+        items.forEach(item => {
+          const matchesSearch = !query || item.dataset.search?.includes(query);
+          const matchesTag = !selectedTag || item.dataset.tags?.split(' ').includes(selectedTag);
+          const show = Boolean(matchesSearch && matchesTag);
+          item.hidden = !show;
+          if (show) visible++;
+        });
+
+        count!.textContent = String(visible);
+      }
+
+      search.addEventListener('input', apply);
+      tag.addEventListener('change', apply);
+      apply();
+    }
+
+    initPostFilters();
+    document.addEventListener('astro:after-swap', initPostFilters);
+  </script>
 </BaseLayout>
+
+<style>
+  .posts-hero {
+    align-items: end;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: minmax(0, 1fr) auto;
+    margin-bottom: 24px;
+  }
+
+  .posts-hero h1 {
+    font-size: clamp(30px, 5vw, 56px);
+    letter-spacing: 0;
+    line-height: 1;
+    margin: 0 0 12px;
+  }
+
+  .posts-hero-copy {
+    color: var(--text-secondary);
+    font-size: 15px;
+    margin: 0;
+    max-width: 620px;
+  }
+
+  .posts-stats {
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(3, 86px);
+  }
+
+  .posts-stats div {
+    background: rgba(255, 255, 255, 0.035);
+    border: 1px solid var(--glass-border);
+    border-radius: 10px;
+    padding: 12px;
+  }
+
+  .posts-stats strong {
+    color: var(--post-color);
+    display: block;
+    font-family: 'Space Mono', monospace;
+    font-size: 22px;
+    line-height: 1;
+  }
+
+  .posts-stats span {
+    color: var(--text-muted);
+    display: block;
+    font-size: 11px;
+    margin-top: 6px;
+    text-transform: uppercase;
+  }
+
+  .posts-toolbar {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: minmax(0, 1fr) minmax(180px, 240px);
+    margin-bottom: 18px;
+  }
+
+  .posts-count {
+    margin-bottom: 12px;
+  }
+
+  .posts-grid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .post-tile {
+    animation: fadeSlideIn 0.5s ease both;
+    background: rgba(255, 255, 255, 0.035);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns: 172px minmax(0, 1fr);
+    min-height: 216px;
+    overflow: hidden;
+    transition: background 0.2s, border-color 0.2s, transform 0.2s;
+  }
+
+  .post-tile:hover {
+    background: rgba(255, 255, 255, 0.055);
+    border-color: var(--post-border);
+    transform: translateY(-2px);
+  }
+
+  .post-tile[hidden] {
+    display: none;
+  }
+
+  .post-tile:nth-child(1) {
+    grid-column: 1 / -1;
+    grid-template-columns: minmax(280px, 42%) minmax(0, 1fr);
+    min-height: 320px;
+  }
+
+  .post-cover-link {
+    background: rgba(56, 189, 248, 0.08);
+    display: block;
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .post-cover-link img {
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.45s ease;
+    width: 100%;
+  }
+
+  .post-tile:hover .post-cover-link img {
+    transform: scale(1.05);
+  }
+
+  .post-cover-fallback {
+    align-items: center;
+    color: var(--post-color);
+    display: flex;
+    font-family: 'Space Mono', monospace;
+    font-size: 52px;
+    font-weight: 700;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .post-tile-body {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 20px;
+  }
+
+  .post-kicker {
+    color: var(--text-muted);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    gap: 10px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+  }
+
+  .post-tile h2 {
+    font-size: 20px;
+    line-height: 1.2;
+    margin: 0 0 8px;
+  }
+
+  .post-tile:nth-child(1) h2 {
+    font-size: clamp(26px, 4vw, 40px);
+    max-width: 780px;
+  }
+
+  .post-summary {
+    color: var(--text-secondary);
+    font-size: 14px;
+    margin: 0 0 14px;
+  }
+
+  .post-tags,
+  .linked-media {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .post-tags {
+    margin-top: auto;
+  }
+
+  .post-tags span {
+    background: var(--post-bg);
+    border: 1px solid var(--post-border);
+    border-radius: 6px;
+    color: var(--post-color);
+    font-size: 11px;
+    padding: 3px 8px;
+  }
+
+  .linked-media {
+    border-top: 1px solid var(--glass-border);
+    margin-top: 14px;
+    padding-top: 12px;
+  }
+
+  .linked-media-chip {
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 12px;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 5px 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .linked-media-chip span {
+    color: var(--text-muted);
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    margin-right: 6px;
+    text-transform: uppercase;
+  }
+
+  .linked-media-chip.anime { border-color: var(--anime-border); }
+  .linked-media-chip.game { border-color: var(--game-border); }
+  .linked-media-chip.film { border-color: var(--film-border); }
+
+  @media (max-width: 760px) {
+    .posts-hero,
+    .posts-toolbar,
+    .posts-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .posts-stats {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      width: 100%;
+    }
+
+    .post-tile,
+    .post-tile:nth-child(1) {
+      grid-column: auto;
+      grid-template-columns: 1fr;
+    }
+
+    .post-cover-link {
+      aspect-ratio: 16 / 9;
+      min-height: 0;
+    }
+  }
+</style>

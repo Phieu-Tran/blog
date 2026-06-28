@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
+import { postMatchesMedia } from '../../lib/mediaRelations';
 
 export async function getStaticPaths() {
   const games = await getCollection('games');
@@ -37,12 +38,7 @@ const {
   date,
 } = entry.data;
 
-const titleLower = title.toLowerCase();
-const titleWords = titleLower.split(/[\s:,|-]+/).filter(w => w.length > 3);
-const relatedPosts = allPosts.filter(p => {
-  const pt = p.data.title.toLowerCase();
-  return titleWords.some(w => pt.includes(w)) || pt.includes(titleLower);
-});
+const relatedPosts = allPosts.filter(post => postMatchesMedia(post, 'games', entry.id));
 
 function scoreColorFor(score: number) {
   if (score >= 9) return '#34D399';

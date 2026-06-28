@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection, render } from 'astro:content';
+import { mediaRelationKey, parseMediaRelation } from '../../lib/mediaRelations';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
@@ -10,32 +11,182 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 const { title, description, tags, cover, date } = entry.data;
+const base = import.meta.env.BASE_URL;
+
+const [anime, games, films] = await Promise.all([
+  getCollection('anime'),
+  getCollection('games'),
+  getCollection('films'),
+]);
+
+type MediaPreview = {
+  href: string;
+  label: string;
+  title: string;
+  type: 'anime' | 'game' | 'film';
+};
+
+const mediaByKey = new Map<string, MediaPreview>();
+
+anime.forEach(item => mediaByKey.set(mediaRelationKey('anime', item.id), {
+  href: `${base}anime/${item.id}/`,
+  label: 'Anime',
+  title: item.data.title,
+  type: 'anime',
+}));
+
+games.forEach(item => mediaByKey.set(mediaRelationKey('games', item.id), {
+  href: `${base}games/${item.id}/`,
+  label: 'Game',
+  title: item.data.title,
+  type: 'game',
+}));
+
+films.forEach(item => mediaByKey.set(mediaRelationKey('films', item.id), {
+  href: `${base}films/${item.id}/`,
+  label: 'Film',
+  title: item.data.title,
+  type: 'film',
+}));
+
+const relatedMedia = (entry.data.related_media || [])
+  .map(parseMediaRelation)
+  .filter(Boolean)
+  .map(relation => mediaByKey.get(relation!.key))
+  .filter(Boolean) as MediaPreview[];
 ---
 
 <BaseLayout title={title} description={description} image={cover} activeNav="posts">
-  <a href={`${import.meta.env.BASE_URL}posts/`} style="font-size:13px;color:rgba(255,255,255,0.4);display:inline-block;margin-bottom:16px;">
-    ← Back to Posts
-  </a>
+  <a href={`${base}posts/`} class="post-back">Back to Posts</a>
 
-  <article>
-    <div style="margin-bottom:24px;">
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;">
+  <article class="post-detail">
+    <header class="post-detail-header">
+      <div class="post-kicker">
         <span class="badge badge-post">Post</span>
-        <span style="font-size:12px;color:var(--text-muted);">{new Date(date).toLocaleDateString('vi-VN')}</span>
+        <span>{new Date(date).toLocaleDateString('vi-VN')}</span>
       </div>
-      <h1 style="font-size:28px;font-weight:700;margin:0 0 8px;">{title}</h1>
-      {description && <p style="font-size:14px;color:var(--text-secondary);margin:0 0 12px;">{description}</p>}
+
+      <h1>{title}</h1>
+      {description && <p class="post-description">{description}</p>}
+
       {tags && tags.length > 0 && (
-        <div style="display:flex;gap:6px;flex-wrap:wrap;">
+        <div class="post-tags">
           {tags.map(tag => <span class="post-tag">{tag}</span>)}
         </div>
       )}
-    </div>
 
-    {cover && <img src={cover} alt={title} style="width:100%;max-height:400px;object-fit:cover;border-radius:12px;margin-bottom:24px;" />}
+      {relatedMedia.length > 0 && (
+        <nav class="post-linked-media" aria-label="Linked media">
+          {relatedMedia.map(media => (
+            <a href={media.href} class={`post-linked-chip ${media.type}`}>
+              <span>{media.label}</span>
+              {media.title}
+            </a>
+          ))}
+        </nav>
+      )}
+    </header>
+
+    {cover && <img src={cover} alt={title} class="post-cover" />}
 
     <div class="prose">
       <Content />
     </div>
   </article>
 </BaseLayout>
+
+<style>
+  .post-back {
+    color: rgba(255, 255, 255, 0.45);
+    display: inline-block;
+    font-size: 13px;
+    margin-bottom: 18px;
+  }
+
+  .post-back::before {
+    content: '< ';
+  }
+
+  .post-detail {
+    margin: 0 auto;
+    max-width: 820px;
+  }
+
+  .post-detail-header {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--glass-border);
+    border-radius: 14px;
+    margin-bottom: 24px;
+    padding: 22px;
+  }
+
+  .post-kicker {
+    align-items: center;
+    color: var(--text-muted);
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Space Mono', monospace;
+    font-size: 12px;
+    gap: 8px;
+    margin-bottom: 12px;
+  }
+
+  .post-detail h1 {
+    font-size: clamp(30px, 5vw, 52px);
+    letter-spacing: 0;
+    line-height: 1.05;
+    margin: 0 0 12px;
+  }
+
+  .post-description {
+    color: var(--text-secondary);
+    font-size: 15px;
+    margin: 0 0 14px;
+  }
+
+  .post-tags,
+  .post-linked-media {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .post-linked-media {
+    border-top: 1px solid var(--glass-border);
+    margin-top: 16px;
+    padding-top: 14px;
+  }
+
+  .post-linked-chip {
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-size: 13px;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 7px 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .post-linked-chip span {
+    color: var(--text-muted);
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    margin-right: 6px;
+    text-transform: uppercase;
+  }
+
+  .post-linked-chip.anime { border-color: var(--anime-border); }
+  .post-linked-chip.game { border-color: var(--game-border); }
+  .post-linked-chip.film { border-color: var(--film-border); }
+
+  .post-cover {
+    border-radius: 14px;
+    display: block;
+    margin-bottom: 24px;
+    max-height: 440px;
+    object-fit: cover;
+    width: 100%;
+  }
+</style>

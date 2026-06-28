@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { postMatchesMedia } from '../../lib/mediaRelations';
 
 export async function getStaticPaths() {
   const anime = await getCollection('anime');
@@ -31,13 +32,7 @@ const {
   date,
 } = entry.data;
 
-// Match related posts — check if post title contains this anime's title
-const titleLower = title.toLowerCase();
-const titleWords = titleLower.split(/[\s:,|—]+/).filter(w => w.length > 3);
-const relatedPosts = allPosts.filter(p => {
-  const pt = p.data.title.toLowerCase();
-  return titleWords.some(w => pt.includes(w)) || pt.includes(titleLower);
-});
+const relatedPosts = allPosts.filter(post => postMatchesMedia(post, 'anime', entry.id));
 const lastUpdated = updated_at || date;
 const myStars = Math.round(rating / 2);
 const malStars = Math.round((mal_score || 0) / 2);

@@ -2,6 +2,7 @@
 title: "18x2 Beyond Youthful Days | Thanh xuân 18x2: Lữ trình hướng về em | 青春18×2 君へと続く道"
 description: "Review — Fujii Michihito"
 tags: ["Review", "RomanticDrama"]
+related_media: ["films:182-beyond-youthful-days"]
 date: 2026-02-04
 ---
 ### **Cảm nhận Thanh xuân 18x2: Lữ trình hướng về em**

@@ -2,6 +2,7 @@
 title: "Ajin: Demi-Human | 亜人 | Phân Tích Nhân Vật Satou"
 description: "Character — Hiroaki Ando (anime), Gamon Sakurai (manga)"
 tags: ["Character", "Analysis"]
+related_media: ["anime:ajin-demi-human"]
 date: 2026-03-29
 ---
 ![](/posts/Ajin_0.jpg)

@@ -2,6 +2,7 @@
 title: "Donnie Darko | Giải Thích Phim Donnie Darko"
 description: "Analysis — Richard Kelly"
 tags: ["Explained", "Analysis", "Thriller"]
+related_media: ["films:donnie-darko"]
 date: 2026-03-29
 ---
 ![](/posts/DonnieDarko_0.jpg)

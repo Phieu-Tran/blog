@@ -2,6 +2,7 @@
 title: "Serial Experiments Lain | シリアルエクスペリメンツレイン | Kỳ 3: Sự Phân Ly Nhân Cách Của Lain"
 description: "Analysis — Ryutaro Nakamura"
 tags: ["Analysis", "Explained"]
+related_media: ["anime:serial-experiments-lain"]
 date: 2026-03-29
 ---
 ![](/posts/Lain3_1.jpg)

@@ -2,6 +2,7 @@
 title: "Khi Hạnh Phúc Được Dắp Xây Từ Sự Dối Trá"
 description: "[[Thảo Luận]]"
 tags: ["Explained", "Theme", "Theme"]
+related_media: ["anime:happy-sugar-life"]
 date: 2026-03-29
 ---
 ![](/posts/HanhPhuc_0.png)
