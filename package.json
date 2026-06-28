@@ -16,6 +16,7 @@
     "sync-igdb": "node src/scripts/sync-igdb.mjs",
     "import-igdb-gdpr": "node src/scripts/import-igdb-gdpr.mjs",
     "normalize-games": "node src/scripts/normalize-game-frontmatter.mjs",
+    "check:site": "node src/scripts/check-site-guards.mjs",
     "cache-images": "node src/scripts/cache-remote-images.mjs --apply",
     "cache-images:check": "node src/scripts/cache-remote-images.mjs --check"
   },
