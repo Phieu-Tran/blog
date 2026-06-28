@@ -594,13 +594,16 @@ a { color: inherit; text-decoration: none; }
   gap: 14px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
+  overscroll-behavior-inline: contain;
   -webkit-overflow-scrolling: touch;
-  padding-bottom: 8px;
+  padding-bottom: 10px;
+  scroll-behavior: smooth;
   scrollbar-width: thin;
-  scrollbar-color: rgba(255,255,255,0.1) transparent;
+  scrollbar-color: rgba(255,255,255,0.2) transparent;
 }
-.top-carousel::-webkit-scrollbar { height: 4px; }
-.top-carousel::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 4px; }
+.top-carousel::-webkit-scrollbar { height: 8px; }
+.top-carousel::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.18); border-radius: 999px; }
+.top-carousel::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.32); }
 .top-card {
   flex: 0 0 140px;
   scroll-snap-align: start;

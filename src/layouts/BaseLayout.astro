@@ -113,6 +113,29 @@ const pageTitle = title === 'Phieu.work' ? 'Phieu.work' : `${title} — Phieu.wo
         reveals.forEach(el => observer.observe(el));
       }
 
+      // Top carousel horizontal wheel scroll
+      const carousels = document.querySelectorAll('.top-carousel');
+      carousels.forEach(carousel => {
+        const el = carousel as HTMLElement;
+        if (el.dataset.wheelScrollBound === 'true') return;
+        el.dataset.wheelScrollBound = 'true';
+
+        el.addEventListener('wheel', event => {
+          const wheelEvent = event as WheelEvent;
+          if (el.scrollWidth <= el.clientWidth) return;
+
+          const isMostlyHorizontal = Math.abs(wheelEvent.deltaX) > Math.abs(wheelEvent.deltaY);
+          if (isMostlyHorizontal) return;
+
+          const maxScroll = el.scrollWidth - el.clientWidth;
+          const nextScroll = Math.max(0, Math.min(maxScroll, el.scrollLeft + wheelEvent.deltaY));
+          if (nextScroll === el.scrollLeft) return;
+
+          wheelEvent.preventDefault();
+          el.scrollLeft = nextScroll;
+        }, { passive: false });
+      });
+
       // Cover crowd scatter — driven by scroll position
       const crowdItems = document.querySelectorAll('.crowd-item');
       const crowdWrapper = document.querySelector('.crowd-wrapper');
