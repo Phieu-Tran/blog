@@ -105,9 +105,10 @@ const metaItems = [
 ---
 
 <BaseLayout title={title} description={`${title} - ${genre}`} image={cover} activeNav="games">
-  <a href={`${import.meta.env.BASE_URL}games/`} class="back-link">Back to Games</a>
+  <section class="media-detail-shell media-detail-game" style={cover ? `--detail-image: url("${cover}")` : undefined}>
+    <a href={`${import.meta.env.BASE_URL}games/`} class="back-link">Back to Games</a>
 
-  <div class="game-detail">
+    <div class="game-detail">
     <aside class="game-side">
       {cover ? (
         <img src={cover} alt={title} class="game-cover" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
@@ -178,7 +179,8 @@ const metaItems = [
         </p>
       )}
     </main>
-  </div>
+    </div>
+  </section>
 
   {relatedPosts.length > 0 && (
     <section class="related-section">

@@ -66,15 +66,21 @@ const posts = rawPosts.map(post => ({
 
 const tags = [...new Set(rawPosts.flatMap(post => post.data.tags || []))].sort((a, b) => a.localeCompare(b));
 const linkedCount = posts.filter(post => post.relatedMedia.length > 0).length;
+const mediaCounts = {
+  anime: posts.filter(post => post.relatedMedia.some(media => media.type === 'anime')).length,
+  game: posts.filter(post => post.relatedMedia.some(media => media.type === 'game')).length,
+  film: posts.filter(post => post.relatedMedia.some(media => media.type === 'film')).length,
+  unlinked: posts.filter(post => post.relatedMedia.length === 0).length,
+};
 ---
 
 <BaseLayout title="Posts" activeNav="posts">
   <section class="posts-hero">
     <div>
       <p class="section-label">Blog posts - {posts.length} articles</p>
-      <h1>Essays, reviews, and notes</h1>
+      <h1>Media notebook</h1>
       <p class="posts-hero-copy">
-        Bài viết phân tích, review, nhân vật, chủ đề, và mấy ghi chú dài hơi được nối lại với media tương ứng trong vault.
+        Reviews, essays, character notes, and long-form thoughts tied back to the anime, games, and films in the vault.
       </p>
     </div>
     <div class="posts-stats" aria-label="Post stats">
@@ -93,8 +99,27 @@ const linkedCount = posts.filter(post => post.relatedMedia.length > 0).length;
     </div>
   </section>
 
+  <section class="posts-lanes" aria-label="Related media shortcuts">
+    <button type="button" data-post-jump="anime" class="posts-lane anime">
+      <span>Anime notes</span>
+      <strong>{mediaCounts.anime}</strong>
+    </button>
+    <button type="button" data-post-jump="game" class="posts-lane game">
+      <span>Game notes</span>
+      <strong>{mediaCounts.game}</strong>
+    </button>
+    <button type="button" data-post-jump="film" class="posts-lane film">
+      <span>Film notes</span>
+      <strong>{mediaCounts.film}</strong>
+    </button>
+    <button type="button" data-post-jump="unlinked" class="posts-lane post">
+      <span>Loose notes</span>
+      <strong>{mediaCounts.unlinked}</strong>
+    </button>
+  </section>
+
   <section class="posts-toolbar" aria-label="Post filters">
-    <input id="post-search" class="filter-input" type="text" placeholder="Tim bai viet..." autocomplete="off" />
+    <input id="post-search" class="filter-input" type="text" placeholder="Tim bai viet trong Posts..." autocomplete="off" />
     <select id="media-filter" class="filter-select">
       <option value="">Tat ca media</option>
       <option value="anime">Anime linked</option>
@@ -199,6 +224,17 @@ const linkedCount = posts.filter(post => post.relatedMedia.length > 0).length;
       search.addEventListener('input', apply);
       media.addEventListener('change', apply);
       tag.addEventListener('change', apply);
+
+      document.querySelectorAll('[data-post-jump]').forEach(button => {
+        if ((button as HTMLElement).dataset.postJumpBound === 'true') return;
+        (button as HTMLElement).dataset.postJumpBound = 'true';
+        button.addEventListener('click', () => {
+          media.value = (button as HTMLElement).dataset.postJump || '';
+          apply();
+          document.getElementById('post-grid')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+      });
+
       apply();
     }
 
@@ -213,7 +249,8 @@ const linkedCount = posts.filter(post => post.relatedMedia.length > 0).length;
     display: grid;
     gap: 20px;
     grid-template-columns: minmax(0, 1fr) auto;
-    margin-bottom: 24px;
+    margin-bottom: 18px;
+    padding-top: 10px;
   }
 
   .posts-hero h1 {
@@ -259,6 +296,54 @@ const linkedCount = posts.filter(post => post.relatedMedia.length > 0).length;
     text-transform: uppercase;
   }
 
+  .posts-lanes {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-bottom: 18px;
+  }
+
+  .posts-lane {
+    align-items: center;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--glass-border);
+    border-radius: 10px;
+    color: var(--text-primary);
+    cursor: pointer;
+    display: flex;
+    font-family: 'DM Sans', sans-serif;
+    justify-content: space-between;
+    min-height: 58px;
+    padding: 12px 14px;
+    text-align: left;
+    transition: background 0.2s, border-color 0.2s, transform 0.2s;
+  }
+
+  .posts-lane:hover {
+    background: rgba(255, 255, 255, 0.055);
+    transform: translateY(-1px);
+  }
+
+  .posts-lane span {
+    color: var(--text-secondary);
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .posts-lane strong {
+    font-family: 'Space Mono', monospace;
+    font-size: 22px;
+  }
+
+  .posts-lane.anime { border-color: var(--anime-border); }
+  .posts-lane.game { border-color: var(--game-border); }
+  .posts-lane.film { border-color: var(--film-border); }
+  .posts-lane.post { border-color: var(--post-border); }
+  .posts-lane.anime strong { color: var(--anime-color); }
+  .posts-lane.game strong { color: var(--game-color); }
+  .posts-lane.film strong { color: var(--film-color); }
+  .posts-lane.post strong { color: var(--post-color); }
+
   .posts-toolbar {
     display: grid;
     gap: 10px;
@@ -285,7 +370,17 @@ const linkedCount = posts.filter(post => post.relatedMedia.length > 0).length;
     grid-template-columns: 172px minmax(0, 1fr);
     min-height: 216px;
     overflow: hidden;
+    position: relative;
     transition: background 0.2s, border-color 0.2s, transform 0.2s;
+  }
+
+  .post-tile::before {
+    background: linear-gradient(180deg, var(--post-color), transparent);
+    content: '';
+    inset: 0 auto 0 0;
+    opacity: 0.38;
+    position: absolute;
+    width: 2px;
   }
 
   .post-tile:hover {
@@ -305,7 +400,9 @@ const linkedCount = posts.filter(post => post.relatedMedia.length > 0).length;
   }
 
   .post-cover-link {
-    background: rgba(56, 189, 248, 0.08);
+    background:
+      linear-gradient(135deg, rgba(56, 189, 248, 0.12), rgba(167, 139, 250, 0.08)),
+      rgba(255,255,255,0.03);
     display: block;
     min-height: 100%;
     overflow: hidden;
@@ -357,6 +454,10 @@ const linkedCount = posts.filter(post => post.relatedMedia.length > 0).length;
     font-size: 20px;
     line-height: 1.2;
     margin: 0 0 8px;
+  }
+
+  .post-tile h2 a:hover {
+    color: var(--post-color);
   }
 
   .post-tile:nth-child(1) h2 {
@@ -422,6 +523,7 @@ const linkedCount = posts.filter(post => post.relatedMedia.length > 0).length;
 
   @media (max-width: 760px) {
     .posts-hero,
+    .posts-lanes,
     .posts-toolbar,
     .posts-grid {
       grid-template-columns: 1fr;

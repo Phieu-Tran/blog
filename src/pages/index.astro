@@ -7,6 +7,7 @@ const allAnime = await getCollection('anime');
 const allGames = await getCollection('games');
 const allFilms = await getCollection('films');
 const allPosts = (await getCollection('posts')).filter(p => !p.data.draft);
+const base = import.meta.env.BASE_URL;
 
 const allMedia = [
   ...allAnime.map(a => ({ ...a.data, slug: a.id, type: 'anime' as const, collection: 'anime' })),
@@ -25,6 +26,43 @@ const recent = allMedia.slice(0, 8);
 const recentPosts = allPosts
   .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
   .slice(0, 3);
+
+const siteSearchItems = [
+  ...allAnime.map(item => ({
+    title: item.data.title,
+    type: 'anime',
+    href: `${base}anime/${item.id}/`,
+    cover: item.data.cover,
+    meta: `${item.data.genre?.split(',')[0] || 'Anime'} - ${item.data.year}`,
+    search: `${item.data.title} ${item.data.genre} ${item.data.studio} anime`.toLowerCase(),
+  })),
+  ...allGames.map(item => ({
+    title: item.data.title,
+    type: 'game',
+    href: `${base}games/${item.id}/`,
+    cover: item.data.cover,
+    meta: `${item.data.genre?.split(',')[0] || 'Game'} - ${item.data.year}`,
+    search: `${item.data.title} ${item.data.genre} ${item.data.studio} ${item.data.publisher || ''} game`.toLowerCase(),
+  })),
+  ...allFilms.map(item => ({
+    title: item.data.title,
+    type: 'film',
+    href: `${base}films/${item.id}/`,
+    cover: item.data.cover,
+    meta: `${item.data.genre?.split(',')[0] || 'Film'} - ${item.data.year}`,
+    search: `${item.data.title} ${item.data.genre} ${item.data.director} film`.toLowerCase(),
+  })),
+  ...allPosts.map(item => ({
+    title: item.data.title,
+    type: 'post',
+    href: `${base}posts/${item.id}/`,
+    cover: item.data.cover,
+    meta: `${new Date(item.data.date).toLocaleDateString('vi-VN')} - ${(item.data.tags || []).slice(0, 2).join(', ') || 'Post'}`,
+    search: `${item.data.title} ${item.data.description || ''} ${(item.data.tags || []).join(' ')} post`.toLowerCase(),
+  })),
+].sort((a, b) => a.title.localeCompare(b.title));
+
+const siteSearchJson = JSON.stringify(siteSearchItems).replace(/</g, '\\u003c');
 
 // Featured picks — top rated from each category
 const topAnime = [...allAnime].sort((a, b) => b.data.rating - a.data.rating).slice(0, 2);
@@ -71,8 +109,6 @@ const socials = [
   { name: 'Facebook', url: 'https://www.facebook.com/T.Phuc.Hieu/', icon: 'facebook' },
   { name: 'LinkedIn', url: 'https://www.linkedin.com/in/tr%C3%A3n-ph%C3%BAc-hi%E1%BA%BFu-3987b2285', icon: 'linkedin' },
 ];
-
-const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout activeNav="home">
@@ -102,6 +138,21 @@ const base = import.meta.env.BASE_URL;
         <div class="stat-hero-bar" style={`background: var(--post-color);`}></div>
       </div>
     </div>
+
+    <div class="home-search reveal" data-home-search>
+      <label for="global-search" class="home-search-label">Search all</label>
+      <div class="home-search-box">
+        <input
+          id="global-search"
+          type="search"
+          placeholder="Tim anime, game, film, post..."
+          autocomplete="off"
+          aria-controls="global-search-results"
+        />
+      </div>
+      <div id="global-search-results" class="home-search-results" hidden></div>
+    </div>
+    <script id="global-search-data" type="application/json" set:html={siteSearchJson}></script>
   </section>
 
   {/* Cover crowd — handpicked, scatters on scroll */}
@@ -288,4 +339,103 @@ const base = import.meta.env.BASE_URL;
       </a>
     </div>
   </section>
+
+  <script>
+    function initHomeSearch() {
+      const root = document.querySelector('[data-home-search]');
+      const input = document.getElementById('global-search');
+      const results = document.getElementById('global-search-results');
+      const dataNode = document.getElementById('global-search-data');
+      if (!root || !input || !results || !dataNode) return;
+      if ((input as HTMLInputElement).dataset.homeSearchBound === 'true') return;
+      (input as HTMLInputElement).dataset.homeSearchBound = 'true';
+
+      const items = JSON.parse(dataNode.textContent || '[]') as Array<{
+        title: string;
+        type: string;
+        href: string;
+        cover?: string;
+        meta: string;
+        search: string;
+      }>;
+
+      function clearResults() {
+        results!.replaceChildren();
+        results!.setAttribute('hidden', '');
+      }
+
+      function makeResult(item: typeof items[number]) {
+        const link = document.createElement('a');
+        link.href = item.href;
+        link.className = `home-search-result ${item.type}`;
+
+        const media = document.createElement('span');
+        media.className = 'home-search-thumb';
+        if (item.cover) {
+          const img = document.createElement('img');
+          img.src = item.cover;
+          img.alt = '';
+          img.loading = 'lazy';
+          img.addEventListener('error', () => img.remove());
+          media.appendChild(img);
+        } else {
+          media.textContent = item.title.slice(0, 1);
+        }
+
+        const body = document.createElement('span');
+        body.className = 'home-search-result-body';
+
+        const title = document.createElement('strong');
+        title.textContent = item.title;
+        const meta = document.createElement('span');
+        meta.textContent = item.meta;
+
+        body.append(title, meta);
+
+        const badge = document.createElement('span');
+        badge.className = `badge badge-${item.type}`;
+        badge.textContent = item.type;
+
+        link.append(media, body, badge);
+        return link;
+      }
+
+      function apply() {
+        const query = (input as HTMLInputElement).value.trim().toLowerCase();
+        results!.replaceChildren();
+        if (query.length < 2) {
+          clearResults();
+          return;
+        }
+
+        const matches = items
+          .filter(item => item.search.includes(query))
+          .slice(0, 8);
+
+        if (!matches.length) {
+          const empty = document.createElement('p');
+          empty.className = 'home-search-empty';
+          empty.textContent = 'Khong tim thay ket qua phu hop.';
+          results!.appendChild(empty);
+        } else {
+          matches.forEach(item => results!.appendChild(makeResult(item)));
+        }
+        results!.removeAttribute('hidden');
+      }
+
+      input.addEventListener('input', apply);
+      input.addEventListener('keydown', event => {
+        if ((event as KeyboardEvent).key === 'Escape') {
+          (input as HTMLInputElement).value = '';
+          clearResults();
+        }
+      });
+      document.addEventListener('click', event => {
+        if (!root.contains(event.target as Node)) clearResults();
+      });
+    }
+
+    initHomeSearch();
+    document.addEventListener('astro:after-swap', initHomeSearch);
+  </script>
 </BaseLayout>

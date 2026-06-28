@@ -49,6 +49,7 @@ const statusColors: Record<string, string> = {
 };
 
 const metaItems = [
+  { label: 'Source', value: mal_id ? 'MAL' : 'Manual' },
   { label: 'Studio', value: studio },
   director && { label: 'Director', value: director },
   creator && { label: 'Creator', value: creator },
@@ -62,98 +63,83 @@ const metaItems = [
 ---
 
 <BaseLayout title={title} description={`${title} — ${genre}`} image={cover} activeNav="anime">
-  <a href={`${import.meta.env.BASE_URL}anime/`} style="font-size:13px;color:rgba(255,255,255,0.4);display:inline-block;margin-bottom:16px;">
-    ← Back to Anime
-  </a>
+  <section class="media-detail-shell media-detail-anime" style={cover ? `--detail-image: url("${cover}")` : undefined}>
+    <a href={`${import.meta.env.BASE_URL}anime/`} class="detail-back">Back to Anime</a>
 
-  <div style="display:flex;gap:24px;flex-wrap:wrap;">
-    {/* Cover */}
-    <div style="flex-shrink:0;">
-      {cover ? (
-        <img src={cover} alt={title} class="detail-cover" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
-      ) : null}
-      <span class="detail-cover-fallback" hidden={Boolean(cover)}>{title.slice(0, 1)}</span>
-      {malUrl && (
-        <a href={malUrl} target="_blank" rel="noopener noreferrer"
-          style="display:block;text-align:center;margin-top:10px;padding:8px;border-radius:8px;background:rgba(46,81,162,0.15);border:1px solid rgba(46,81,162,0.3);color:#5B8BF5;font-size:12px;font-weight:600;transition:all 0.2s;">
-          View on MyAnimeList ↗
-        </a>
-      )}
+    <div class="media-detail-grid">
+      <aside class="detail-side">
+        {cover ? (
+          <img src={cover} alt={title} class="detail-cover" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+        ) : null}
+        <span class="detail-cover-fallback" hidden={Boolean(cover)}>{title.slice(0, 1)}</span>
+
+        {malUrl && (
+          <nav class="detail-actions" aria-label="External anime links">
+            <a href={malUrl} target="_blank" rel="noopener noreferrer" class="detail-action mal">
+              View on MyAnimeList
+            </a>
+          </nav>
+        )}
+      </aside>
+
+      <main class="detail-main">
+        <div class="detail-badges">
+          <span class="badge badge-anime">Anime</span>
+          <span class="badge soft-badge" style={`color:${statusColors[status]};`}>{statusLabels[status]}</span>
+          <span class="badge soft-badge">Source: {mal_id ? 'MAL' : 'Manual'}</span>
+        </div>
+
+        <h1 class="detail-title">{title}</h1>
+        <p class="detail-subtitle">{genre} - {year} - {studio}</p>
+
+        <section class="detail-score-grid" aria-label="Anime scores">
+          <div class="detail-score-card">
+            <p>My Score</p>
+            <span class="detail-score-value" style="color:var(--star-color);">{rating > 0 ? rating : '-'}</span>
+            <div class="stars">
+              {[...Array(5)].map((_, i) => (
+                <span class={i < myStars ? 'star-on' : 'star-off'}>&#9733;</span>
+              ))}
+            </div>
+          </div>
+          <div class="detail-score-card">
+            <p>MAL Score</p>
+            <span class="detail-score-value" style="color:var(--anime-color);">{mal_score ? mal_score.toFixed(2) : '-'}</span>
+            <div class="stars">
+              {[...Array(5)].map((_, i) => (
+                <span class={i < malStars ? 'star-on' : 'star-off'}>&#9733;</span>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {totalEps > 0 && (
+          <section class="detail-progress" aria-label="Episode progress">
+            <div class="detail-progress-head">
+              <span>Progress</span>
+              <strong>{watchedEps} / {totalEps} eps</strong>
+            </div>
+            <div class="detail-progress-track">
+              <div class="detail-progress-fill" style={`width:${progress}%;`}></div>
+            </div>
+          </section>
+        )}
+
+        <section class="detail-meta-grid" aria-label="Anime metadata">
+          {metaItems.map(item => (
+            <div class={`detail-meta-card ${item.label === 'Genre' ? 'wide' : ''}`}>
+              <p>{item.label}</p>
+              <strong>{item.value}</strong>
+            </div>
+          ))}
+        </section>
+
+        {lastUpdated && (
+          <p class="detail-date">Last updated {new Date(lastUpdated).toLocaleDateString('vi-VN')}</p>
+        )}
+      </main>
     </div>
-
-    {/* Info */}
-    <div style="flex:1;min-width:280px;">
-      {/* Badges */}
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;">
-        <span class="badge badge-anime">Anime</span>
-        <span class="badge" style={`background:rgba(255,255,255,0.06);color:${statusColors[status]};`}>
-          {statusLabels[status]}
-        </span>
-      </div>
-
-      <h1 style="font-size:26px;font-weight:700;margin:0 0 4px;">{title}</h1>
-      <p style="font-size:13px;color:var(--text-muted);margin:0 0 20px;">
-        {genre} · {year} · {studio}
-      </p>
-
-      {/* Scores */}
-      <div style="display:flex;gap:16px;margin-bottom:20px;">
-        <div style="background:rgba(255,255,255,0.03);border-radius:10px;padding:12px 16px;flex:1;text-align:center;">
-          <p style="font-size:11px;color:var(--text-muted);margin:0 0 4px;text-transform:uppercase;letter-spacing:1px;font-family:'Space Mono',monospace;">My Score</p>
-          <p style="font-size:24px;font-weight:700;color:var(--star-color);margin:0;">
-            {rating > 0 ? rating : '—'}
-          </p>
-          <div class="stars" style="margin-top:4px;">
-            {[...Array(5)].map((_, i) => (
-              <span class={i < myStars ? 'star-on' : 'star-off'}>★</span>
-            ))}
-          </div>
-        </div>
-        <div style="background:rgba(255,255,255,0.03);border-radius:10px;padding:12px 16px;flex:1;text-align:center;">
-          <p style="font-size:11px;color:var(--text-muted);margin:0 0 4px;text-transform:uppercase;letter-spacing:1px;font-family:'Space Mono',monospace;">MAL Score</p>
-          <p style="font-size:24px;font-weight:700;color:var(--anime-color);margin:0;">
-            {mal_score ? mal_score.toFixed(2) : '—'}
-          </p>
-          <div class="stars" style="margin-top:4px;">
-            {[...Array(5)].map((_, i) => (
-              <span class={i < malStars ? 'star-on' : 'star-off'}>★</span>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* Progress */}
-      {totalEps > 0 && (
-        <div style="margin-bottom:20px;">
-          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">
-            <span style="font-size:12px;color:var(--text-secondary);">Progress</span>
-            <span style="font-size:12px;font-weight:600;font-family:'Space Mono',monospace;color:var(--text-primary);">
-              {watchedEps} / {totalEps} eps
-            </span>
-          </div>
-          <div style="height:6px;background:rgba(255,255,255,0.06);border-radius:3px;overflow:hidden;">
-            <div style={`height:100%;width:${progress}%;background:var(--anime-color);border-radius:3px;transition:width 0.5s;`}></div>
-          </div>
-        </div>
-      )}
-
-      {/* Meta grid */}
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
-        {metaItems.map(item => (
-          <div style="background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;">
-            <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">{item.label}</p>
-            <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{item.value}</p>
-          </div>
-        ))}
-      </div>
-
-      {lastUpdated && (
-        <p style="font-size:11px;color:var(--text-muted);margin-top:16px;">
-          Last updated {new Date(lastUpdated).toLocaleDateString('vi-VN')}
-        </p>
-      )}
-    </div>
-  </div>
+  </section>
 
   {/* Related Posts */}
   {relatedPosts.length > 0 && (

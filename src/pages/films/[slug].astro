@@ -43,6 +43,7 @@ const tmdbUrl = tmdb_id
   : `https://www.themoviedb.org/search?query=${encodeURIComponent(title)}`;
 
 const metaItems = [
+  { label: 'Source', value: tmdb_id ? 'TMDB' : 'Manual' },
   { label: 'Director', value: director },
   creator && { label: 'Creator', value: creator },
   writer && { label: 'Writer', value: writer },
@@ -54,96 +55,81 @@ const metaItems = [
 ---
 
 <BaseLayout title={title} description={`${title} — ${genre}`} image={cover} activeNav="films">
-  <a href={`${import.meta.env.BASE_URL}films/`} style="font-size:13px;color:rgba(255,255,255,0.4);display:inline-block;margin-bottom:16px;">
-    ← Back to Films
-  </a>
+  <section class="media-detail-shell media-detail-film" style={cover ? `--detail-image: url("${cover}")` : undefined}>
+    <a href={`${import.meta.env.BASE_URL}films/`} class="detail-back">Back to Films</a>
 
-  <div style="display:flex;gap:24px;flex-wrap:wrap;">
-    {/* Cover + links */}
-    <div style="flex-shrink:0;">
-      {cover ? (
-        <img src={cover} alt={title} class="detail-cover" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
-      ) : null}
-      <span class="detail-cover-fallback" hidden={Boolean(cover)}>{title.slice(0, 1)}</span>
-      <a href={imdbUrl} target="_blank" rel="noopener noreferrer"
-        style="display:block;text-align:center;margin-top:10px;padding:8px;border-radius:8px;background:rgba(245,197,24,0.12);border:1px solid rgba(245,197,24,0.3);color:#F5C518;font-size:12px;font-weight:600;transition:all 0.2s;">
-        {imdb_id ? 'View on IMDB ↗' : 'Search on IMDB ↗'}
-      </a>
-      <a href={tmdbUrl} target="_blank" rel="noopener noreferrer"
-        style="display:block;text-align:center;margin-top:6px;padding:8px;border-radius:8px;background:rgba(1,180,228,0.12);border:1px solid rgba(1,180,228,0.3);color:#01B4E4;font-size:12px;font-weight:600;transition:all 0.2s;">
-        {tmdb_id ? 'View on TMDB ↗' : 'Search on TMDB ↗'}
-      </a>
+    <div class="media-detail-grid">
+      <aside class="detail-side">
+        {cover ? (
+          <img src={cover} alt={title} class="detail-cover" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+        ) : null}
+        <span class="detail-cover-fallback" hidden={Boolean(cover)}>{title.slice(0, 1)}</span>
+
+        <nav class="detail-actions" aria-label="External film links">
+          <a href={imdbUrl} target="_blank" rel="noopener noreferrer" class="detail-action imdb">
+            {imdb_id ? 'View on IMDB' : 'Search on IMDB'}
+          </a>
+          <a href={tmdbUrl} target="_blank" rel="noopener noreferrer" class="detail-action tmdb">
+            {tmdb_id ? 'View on TMDB' : 'Search on TMDB'}
+          </a>
+        </nav>
+      </aside>
+
+      <main class="detail-main">
+        <div class="detail-badges">
+          <span class="badge badge-film">Film</span>
+          <span class="badge soft-badge">{status === 'watched' ? 'Watched' : 'Plan to Watch'}</span>
+          <span class="badge soft-badge">Source: {tmdb_id ? 'TMDB' : 'Manual'}</span>
+        </div>
+
+        <h1 class="detail-title">{title}</h1>
+        <p class="detail-subtitle">{genre} - {year} - {director}</p>
+
+        <section class="detail-score-grid three" aria-label="Film scores">
+          <div class="detail-score-card">
+            <p>My Score</p>
+            <span class="detail-score-value" style="color:var(--star-color);">{rating > 0 ? rating : '-'}</span>
+            <div class="stars">
+              {[...Array(5)].map((_, i) => (
+                <span class={i < myStars ? 'star-on' : 'star-off'}>&#9733;</span>
+              ))}
+            </div>
+          </div>
+          <div class="detail-score-card">
+            <p>IMDB</p>
+            <span class="detail-score-value" style="color:#F5C518;">{imdb_score ? imdb_score.toFixed(1) : '-'}</span>
+            <div class="stars">
+              {[...Array(5)].map((_, i) => (
+                <span class={i < imdbStars ? 'star-on' : 'star-off'}>&#9733;</span>
+              ))}
+            </div>
+          </div>
+          <div class="detail-score-card">
+            <p>TMDB</p>
+            <span class="detail-score-value" style="color:#01B4E4;">{tmdb_score ? tmdb_score.toFixed(1) : '-'}</span>
+            <div class="stars">
+              {[...Array(5)].map((_, i) => (
+                <span class={i < tmdbStars ? 'star-on' : 'star-off'}>&#9733;</span>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section class="detail-meta-grid" aria-label="Film metadata">
+          {metaItems.map(item => (
+            <div class={`detail-meta-card ${item.label === 'Genre' ? 'wide' : ''}`}>
+              <p>{item.label}</p>
+              <strong>{item.value}</strong>
+            </div>
+          ))}
+        </section>
+
+        {date && (
+          <p class="detail-date">Rated on {new Date(date).toLocaleDateString('vi-VN')}</p>
+        )}
+      </main>
     </div>
-
-    {/* Info */}
-    <div style="flex:1;min-width:280px;">
-      {/* Badges */}
-      <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px;">
-        <span class="badge badge-film">Film</span>
-        <span class="badge" style="background:rgba(255,255,255,0.06);color:var(--text-secondary);">
-          {status === 'watched' ? 'Watched' : 'Plan to Watch'}
-        </span>
-      </div>
-
-      <h1 style="font-size:26px;font-weight:700;margin:0 0 4px;">{title}</h1>
-      <p style="font-size:13px;color:var(--text-muted);margin:0 0 20px;">
-        {genre} · {year} · {director}
-      </p>
-
-      {/* 3 Scores */}
-      <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:24px;">
-        <div style="background:rgba(255,255,255,0.03);border-radius:10px;padding:12px 10px;text-align:center;">
-          <p style="font-size:10px;color:var(--text-muted);margin:0 0 4px;text-transform:uppercase;letter-spacing:0.5px;font-family:'Space Mono',monospace;">My Score</p>
-          <p style="font-size:22px;font-weight:700;color:var(--star-color);margin:0;">
-            {rating > 0 ? rating : '—'}
-          </p>
-          <div class="stars" style="margin-top:4px;">
-            {[...Array(5)].map((_, i) => (
-              <span class={i < myStars ? 'star-on' : 'star-off'}>★</span>
-            ))}
-          </div>
-        </div>
-        <div style="background:rgba(255,255,255,0.03);border-radius:10px;padding:12px 10px;text-align:center;">
-          <p style="font-size:10px;color:var(--text-muted);margin:0 0 4px;text-transform:uppercase;letter-spacing:0.5px;font-family:'Space Mono',monospace;">IMDB</p>
-          <p style="font-size:22px;font-weight:700;color:#F5C518;margin:0;">
-            {imdb_score ? imdb_score.toFixed(1) : '—'}
-          </p>
-          <div class="stars" style="margin-top:4px;">
-            {[...Array(5)].map((_, i) => (
-              <span class={i < imdbStars ? 'star-on' : 'star-off'}>★</span>
-            ))}
-          </div>
-        </div>
-        <div style="background:rgba(255,255,255,0.03);border-radius:10px;padding:12px 10px;text-align:center;">
-          <p style="font-size:10px;color:var(--text-muted);margin:0 0 4px;text-transform:uppercase;letter-spacing:0.5px;font-family:'Space Mono',monospace;">TMDB</p>
-          <p style="font-size:22px;font-weight:700;color:#01B4E4;margin:0;">
-            {tmdb_score ? tmdb_score.toFixed(1) : '—'}
-          </p>
-          <div class="stars" style="margin-top:4px;">
-            {[...Array(5)].map((_, i) => (
-              <span class={i < tmdbStars ? 'star-on' : 'star-off'}>★</span>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* Meta grid */}
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:24px;">
-        {metaItems.map(item => (
-          <div style={`background:rgba(255,255,255,0.03);border-radius:8px;padding:10px 12px;${item.label === 'Genre' ? 'grid-column:span 2;' : ''}`}>
-            <p style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.5px;margin:0;">{item.label}</p>
-            <p style="font-size:13px;font-weight:500;margin:2px 0 0;">{item.value}</p>
-          </div>
-        ))}
-      </div>
-
-      {date && (
-        <p style="font-size:11px;color:var(--text-muted);">
-          Rated on {new Date(date).toLocaleDateString('vi-VN')}
-        </p>
-      )}
-    </div>
-  </div>
+  </section>
 
   {relatedPosts.length > 0 && (
     <section style="margin-top: 40px;">
