@@ -6,7 +6,8 @@ genre: "Simulator, Strategy, Adventure, Indie"
 year: 2016
 studio: "Klei Entertainment"
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 98
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coaaqp.jpg"
 date: 2026-03-30

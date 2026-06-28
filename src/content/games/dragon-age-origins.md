@@ -5,7 +5,8 @@ genre: "Role-playing (RPG)"
 year: 2009
 studio: "BioWare Edmonton"
 status: completed
-platform: IGDB
+source: igdb
+platform: Unknown
 date: 2026-06-27
 igdb_id: 76
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mvs.jpg"

@@ -6,7 +6,8 @@ genre: N/A
 year: 2026
 studio: N/A
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 2
 cover: "https://steamcdn-a.akamaihd.net/steam/apps/4050060/header.jpg"
 date: 2026-06-23

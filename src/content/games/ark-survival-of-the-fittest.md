@@ -6,7 +6,8 @@ genre: "Shooter, Role-playing (RPG), Strategy, Adventure, Indie"
 year: 2016
 studio: "Studio Wildcard, Efecto Studios, Instinct Games, Virtual Basement LLC"
 status: plan
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 0
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9k2x.jpg"
 date: 2026-03-30

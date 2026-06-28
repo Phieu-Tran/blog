@@ -5,7 +5,8 @@ genre: "Role-playing (RPG), Hack and slash/Beat 'em up, Adventure"
 year: 2024
 studio: "Grinding Gear Games"
 status: completed
-platform: IGDB
+source: igdb
+platform: Unknown
 date: 2026-06-27
 igdb_id: 125642
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8ae0.jpg"

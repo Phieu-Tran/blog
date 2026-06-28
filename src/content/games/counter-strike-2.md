@@ -6,7 +6,8 @@ genre: "Shooter, Tactical"
 year: 2023
 studio: Valve
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 3
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coaczd.jpg"
 date: 2026-03-30

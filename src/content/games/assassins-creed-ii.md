@@ -5,7 +5,8 @@ genre: "Platform, Adventure"
 year: 2009
 studio: "Ubisoft Montreal"
 status: completed
-platform: IGDB
+source: igdb
+platform: Unknown
 date: 2026-06-27
 igdb_id: 127
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rcf.jpg"

@@ -6,7 +6,8 @@ genre: "Strategy, Indie, Card & Board Game"
 year: 2026
 studio: "Mega Crit Games"
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 59
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co82c5.jpg"
 date: 2026-03-30

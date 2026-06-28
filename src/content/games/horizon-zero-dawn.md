@@ -5,7 +5,8 @@ genre: "Shooter, Role-playing (RPG), Adventure"
 year: 2017
 studio: "Guerrilla Games"
 status: completed
-platform: IGDB
+source: igdb
+platform: Unknown
 date: 2026-06-27
 igdb_id: 11156
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2una.jpg"

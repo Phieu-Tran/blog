@@ -6,7 +6,8 @@ genre: "Role-playing (RPG), Hack and slash/Beat 'em up, Adventure"
 year: 2025
 studio: Capcom
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 93
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co904o.jpg"
 date: 2026-03-30

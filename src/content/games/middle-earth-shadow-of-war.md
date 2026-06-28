@@ -6,7 +6,8 @@ genre: "Strategy, Tactical"
 year: 2026
 studio: "IUGO Mobile Entertainment"
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 48
 cover: "https://steamcdn-a.akamaihd.net/steam/apps/356190/header.jpg"
 date: 2026-03-30

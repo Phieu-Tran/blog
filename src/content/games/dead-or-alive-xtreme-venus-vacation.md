@@ -6,7 +6,8 @@ genre: "Simulator, Sport"
 year: 2017
 studio: "Team NINJA"
 status: plan
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 1
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2f7e.jpg"
 date: 2026-03-30

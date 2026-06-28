@@ -6,7 +6,8 @@ genre: "Role-playing (RPG), Adventure, Indie"
 year: 2026
 studio: "Primary Orbit"
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 16
 cover: "https://steamcdn-a.akamaihd.net/steam/apps/242760/header.jpg"
 date: 2026-03-30

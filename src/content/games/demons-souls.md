@@ -5,7 +5,8 @@ genre: "Role-playing (RPG), Hack and slash/Beat 'em up, Adventure"
 year: 2020
 studio: "Bluepoint Games"
 status: completed
-platform: Multi
+source: igdb
+platform: Multi-platform
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kj9.jpg"
 date: 2026-03-30
 igdb_id: 134606

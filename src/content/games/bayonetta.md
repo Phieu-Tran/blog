@@ -5,7 +5,8 @@ genre: "Shooter, Hack and slash/Beat 'em up, Adventure"
 year: 2009
 studio: "Nex Entertainment, PlatinumGames"
 status: completed
-platform: IGDB
+source: igdb
+platform: Unknown
 date: 2026-06-27
 igdb_id: 2136
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8nf4.jpg"

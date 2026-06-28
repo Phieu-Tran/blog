@@ -5,7 +5,8 @@ genre: "Hack and slash/Beat 'em up, Adventure"
 year: 2018
 studio: "Insomniac Games"
 status: completed
-platform: Multi
+source: igdb
+platform: Multi-platform
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r77.jpg"
 date: 2026-03-30
 igdb_id: 19565

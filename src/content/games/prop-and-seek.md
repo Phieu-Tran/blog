@@ -6,7 +6,8 @@ genre: Strategy
 year: 2020
 studio: N/A
 status: plan
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 1
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2opi.jpg"
 date: 2026-03-30

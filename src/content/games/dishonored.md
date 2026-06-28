@@ -5,7 +5,8 @@ genre: "Puzzle, Role-playing (RPG), Adventure"
 year: 2012
 studio: "Arkane Studios"
 status: completed
-platform: IGDB
+source: igdb
+platform: Unknown
 date: 2026-06-27
 igdb_id: 533
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coabgu.jpg"

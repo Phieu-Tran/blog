@@ -6,7 +6,8 @@ genre: Indie
 year: 2020
 studio: "Scavengers Studio"
 status: plan
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 0
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1wv8.jpg"
 date: 2026-03-30

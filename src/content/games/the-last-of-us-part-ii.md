@@ -5,7 +5,8 @@ genre: "Shooter, Adventure"
 year: 2020
 studio: "Naughty Dog"
 status: completed
-platform: IGDB
+source: igdb
+platform: Unknown
 date: 2026-06-27
 igdb_id: 26192
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ziw.jpg"

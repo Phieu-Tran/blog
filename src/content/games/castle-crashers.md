@@ -6,7 +6,8 @@ genre: "Role-playing (RPG), Hack and slash/Beat 'em up, Adventure, Indie"
 year: 2008
 studio: "The Behemoth"
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 4
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coaskv.jpg"
 date: 2026-03-30

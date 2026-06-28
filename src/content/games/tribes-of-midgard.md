@@ -6,7 +6,8 @@ genre: "Fighting, Role-playing (RPG), Adventure, Indie"
 year: 2021
 studio: Norsfell
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 5
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co3djv.jpg"
 date: 2026-03-30

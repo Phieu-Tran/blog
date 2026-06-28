@@ -6,7 +6,8 @@ genre: "Strategy, Indie"
 year: 2021
 studio: "Gaggle Studios, Inc."
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 7
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2uqr.jpg"
 date: 2026-03-30

@@ -5,7 +5,8 @@ genre: "Shooter, Adventure"
 year: 2021
 studio: "Capcom Development Division 1"
 status: plan
-platform: Multi
+source: igdb
+platform: Multi-platform
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coab9q.jpg"
 date: 2026-03-30
 igdb_id: 55163

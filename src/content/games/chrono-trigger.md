@@ -5,7 +5,8 @@ genre: "Role-playing (RPG)"
 year: 1995
 studio: "Bird Studio, Square"
 status: completed
-platform: IGDB
+source: igdb
+platform: Unknown
 date: 2026-06-27
 igdb_id: 1802
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co3plw.jpg"

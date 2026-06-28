@@ -5,7 +5,8 @@ genre: Shooter
 year: 1995
 studio: Ablex
 status: completed
-platform: IGDB
+source: igdb
+platform: Unknown
 date: 2026-06-27
 igdb_id: 80529
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4rs3.jpg"

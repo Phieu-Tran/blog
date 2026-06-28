@@ -6,7 +6,8 @@ genre: "Role-playing (RPG), Strategy, Turn-based strategy (TBS), Adventure, Indi
 year: 2019
 studio: "Mega Crit Games"
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 12
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1iyf.jpg"
 date: 2026-03-30

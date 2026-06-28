@@ -5,7 +5,8 @@ genre: "Shooter, Role-playing (RPG), Hack and slash/Beat 'em up, Adventure"
 year: 2023
 studio: "Dambuster Studios"
 status: completed
-platform: Multi
+source: igdb
+platform: Multi-platform
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co5469.jpg"
 date: 2026-03-30
 igdb_id: 7329

@@ -5,7 +5,8 @@ genre: "Role-playing (RPG), Simulator, Adventure"
 year: 2025
 studio: "Warhorse Studios"
 status: completed
-platform: Multi
+source: igdb
+platform: Multi-platform
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8qmv.jpg"
 date: 2026-03-30
 igdb_id: 298526

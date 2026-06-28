@@ -6,7 +6,8 @@ genre: "Shooter, Adventure"
 year: 2021
 studio: "4A Games"
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 4
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coab4r.jpg"
 date: 2026-03-30

@@ -6,7 +6,8 @@ genre: "Shooter, Adventure"
 year: 2019
 studio: "4A Games"
 status: plan
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 0
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coaroh.jpg"
 date: 2026-03-30

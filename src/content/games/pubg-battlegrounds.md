@@ -6,7 +6,8 @@ genre: Shooter
 year: 2017
 studio: "PUBG Corp"
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 1615
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coaam4.jpg"
 date: 2026-03-30

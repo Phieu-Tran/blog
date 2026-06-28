@@ -6,7 +6,8 @@ genre: "Fighting, Hack and slash/Beat 'em up"
 year: 2021
 studio: "24 Entertainment"
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 96
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coabde.jpg"
 date: 2026-03-30

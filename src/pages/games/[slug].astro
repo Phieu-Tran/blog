@@ -32,6 +32,7 @@ const {
   composer,
   author,
   status,
+  source,
   platform,
   playtime_hours,
   cover,
@@ -67,6 +68,13 @@ const statusLabels: Record<string, string> = {
   dropped: 'Dropped',
 };
 
+const sourceLabels: Record<string, string> = {
+  steam: 'Steam',
+  igdb: 'IGDB',
+  manual: 'Manual',
+};
+const sourceLabel = sourceLabels[source] || 'Manual';
+
 const encodedTitle = encodeURIComponent(title);
 const steamStoreUrl = steam_url || (steam_appid ? `https://store.steampowered.com/app/${steam_appid}` : null);
 const igdbPageUrl = igdb_url || (igdb_id ? `https://www.igdb.com/search?type=1&q=${encodedTitle}` : null);
@@ -88,6 +96,7 @@ const metaItems = [
   writer && { label: 'Writer', value: writer },
   composer && { label: 'Composer', value: composer },
   author && { label: 'Author', value: author },
+  { label: 'Source', value: sourceLabel },
   { label: 'Platform', value: platform },
   { label: 'Year', value: String(year) },
   { label: 'Genre', value: genre.split(',')[0] },
@@ -119,6 +128,7 @@ const metaItems = [
       <div class="badges">
         <span class="badge badge-game">Game</span>
         <span class="badge soft-badge">{statusLabels[status] || status}</span>
+        <span class="badge soft-badge">Source: {sourceLabel}</span>
         <span class="badge soft-badge">{platform}</span>
       </div>
 

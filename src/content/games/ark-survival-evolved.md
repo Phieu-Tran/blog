@@ -6,7 +6,8 @@ genre: "Shooter, Role-playing (RPG), Simulator, Adventure, Indie"
 year: 2017
 studio: "Studio Wildcard"
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 80
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co493k.jpg"
 date: 2026-03-30

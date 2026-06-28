@@ -5,7 +5,8 @@ genre: "Shooter, Adventure"
 year: 2026
 studio: Capcom
 status: completed
-platform: IGDB
+source: igdb
+platform: Unknown
 date: 2026-06-27
 igdb_id: 134612
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/cobxnx.jpg"

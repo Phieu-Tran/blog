@@ -6,7 +6,8 @@ genre: "Shooter, Strategy, Card & Board Game"
 year: 2022
 studio: "DigiPen Institute of Technology"
 status: plan
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 1
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ocd.jpg"
 date: 2026-06-27

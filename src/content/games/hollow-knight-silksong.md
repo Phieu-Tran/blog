@@ -5,7 +5,8 @@ genre: "Platform, Adventure"
 year: 2021
 studio: Elvies
 status: completed
-platform: IGDB
+source: igdb
+platform: Unknown
 date: 2026-06-27
 igdb_id: 372563
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coaob9.jpg"

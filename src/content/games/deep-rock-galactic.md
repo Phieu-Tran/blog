@@ -6,7 +6,8 @@ genre: "Shooter, Adventure, Indie"
 year: 2020
 studio: "Ghost Ship Games"
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 12
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coaat4.jpg"
 date: 2026-03-30

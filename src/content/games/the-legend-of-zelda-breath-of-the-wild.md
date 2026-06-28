@@ -5,7 +5,8 @@ genre: "Puzzle, Adventure"
 year: 2017
 studio: "Nintendo EPD Production Group No. 3"
 status: completed
-platform: IGDB
+source: igdb
+platform: Unknown
 date: 2026-06-27
 igdb_id: 7346
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p2d.jpg"

@@ -8,6 +8,7 @@ const allGames = (await getCollection('games')).sort(
 );
 const top10 = [...allGames].sort((a, b) => b.data.rating - a.data.rating).slice(0, 10);
 const genres = [...new Set(allGames.flatMap(g => g.data.genre.split(',').map(x => x.trim())).filter(Boolean))].sort();
+const platforms = [...new Set(allGames.flatMap(g => g.data.platform.split(',').map(x => x.trim())).filter(Boolean))].sort();
 const base = import.meta.env.BASE_URL;
 ---
 
@@ -51,12 +52,15 @@ const base = import.meta.env.BASE_URL;
       </select>
       <select id="source-filter" class="filter-select">
         <option value="">All sources</option>
-        <option value="steam">Steam</option>
-        <option value="igdb">IGDB</option>
-        <option value="playstation">PlayStation</option>
-        <option value="multi">Multi</option>
+        <option value="steam">Steam library</option>
+        <option value="igdb">IGDB list</option>
+        <option value="manual">Manual</option>
         <option value="igdb-score">Has IGDB Score</option>
         <option value="recent">Recently Played</option>
+      </select>
+      <select id="platform-filter" class="filter-select">
+        <option value="">All platforms</option>
+        {platforms.map(p => <option value={p}>{p}</option>)}
       </select>
       <select id="sort-filter" class="filter-select">
         <option value="rating">My Score ↓</option>
@@ -85,6 +89,7 @@ const base = import.meta.env.BASE_URL;
         data-title={item.data.title.toLowerCase()}
         data-genre={item.data.genre.toLowerCase()}
         data-status={item.data.status}
+        data-source={item.data.source}
         data-rating={item.data.rating}
         data-igdb={item.data.igdb_score || 0}
         data-platform={item.data.platform.toLowerCase()}
@@ -114,11 +119,12 @@ const base = import.meta.env.BASE_URL;
       const genre = document.getElementById('genre-filter') as HTMLSelectElement;
       const status = document.getElementById('status-filter') as HTMLSelectElement;
       const source = document.getElementById('source-filter') as HTMLSelectElement;
+      const platformFilter = document.getElementById('platform-filter') as HTMLSelectElement;
       const sort = document.getElementById('sort-filter') as HTMLSelectElement;
       const quickButtons = [...document.querySelectorAll('.quick-filter')] as HTMLButtonElement[];
       const grid = document.getElementById('media-grid');
       const count = document.getElementById('count');
-      if (!search || !genre || !status || !source || !sort || !grid || !count) return;
+      if (!search || !genre || !status || !source || !platformFilter || !sort || !grid || !count) return;
       let quick = '';
 
       function apply() {
@@ -126,6 +132,7 @@ const base = import.meta.env.BASE_URL;
         const g = genre.value.toLowerCase();
         const s = status.value;
         const sourceValue = source.value;
+        const platformValue = platformFilter.value.toLowerCase();
         const items = [...grid.querySelectorAll('.filter-item')] as HTMLElement[];
         const sv = sort.value;
         items.sort((a, b) => {
@@ -139,13 +146,12 @@ const base = import.meta.env.BASE_URL;
         let v = 0;
         items.forEach(el => {
           const platform = el.dataset.platform || '';
+          const itemSource = el.dataset.source || 'manual';
           const sourceOk = !sourceValue ||
-            (sourceValue === 'steam' && platform.includes('steam')) ||
-            (sourceValue === 'igdb' && platform.includes('igdb')) ||
-            (sourceValue === 'playstation' && platform.includes('playstation')) ||
-            (sourceValue === 'multi' && platform.includes('multi')) ||
+            (sourceValue === itemSource) ||
             (sourceValue === 'igdb-score' && parseFloat(el.dataset.igdb || '0') > 0) ||
             (sourceValue === 'recent' && el.dataset.steamRecent === 'true');
+          const platformOk = !platformValue || platform.includes(platformValue);
           const quickOk = !quick ||
             (quick === 'active' && (el.dataset.status === 'playing' || el.dataset.steamRecent === 'true')) ||
             (quick === 'completed' && el.dataset.status === 'completed') ||
@@ -156,6 +162,7 @@ const base = import.meta.env.BASE_URL;
                      (!g || el.dataset.genre!.includes(g)) &&
                      (!s || el.dataset.status === s) &&
                      sourceOk &&
+                     platformOk &&
                      quickOk;
           el.style.display = ok ? '' : 'none';
           if (ok) v++;
@@ -166,6 +173,7 @@ const base = import.meta.env.BASE_URL;
       genre.addEventListener('change', apply);
       status.addEventListener('change', apply);
       source.addEventListener('change', apply);
+      platformFilter.addEventListener('change', apply);
       sort.addEventListener('change', apply);
       quickButtons.forEach(button => {
         button.addEventListener('click', () => {

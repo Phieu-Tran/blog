@@ -6,7 +6,8 @@ genre: "Platform, Role-playing (RPG), Simulator, Strategy, Adventure, Indie"
 year: 2011
 studio: Re-Logic
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 5
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coaamg.jpg"
 date: 2026-03-30

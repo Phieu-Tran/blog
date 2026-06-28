@@ -5,7 +5,8 @@ genre: "Shooter, Platform, Adventure"
 year: 2023
 studio: "Retro Studios, Nintendo EPD Production Group No. 6"
 status: completed
-platform: Multi
+source: igdb
+platform: Multi-platform
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/cobbn9.jpg"
 date: 2026-03-30
 igdb_score: 9.1

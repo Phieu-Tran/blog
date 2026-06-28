@@ -6,7 +6,8 @@ genre: "Strategy, Indie"
 year: 2025
 studio: semiwork
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 24
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9lxz.jpg"
 date: 2026-05-26

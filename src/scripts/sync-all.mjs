@@ -768,7 +768,7 @@ async function syncSteam() {
     const data = {
       title, steam_appid: appId, steam_url: steamUrl, rating: 0, genre: 'N/A',
       year: new Date().getFullYear(), studio: 'N/A', status,
-      platform: 'Steam', playtime_hours: playtimeHours, steam_recent: isRecent,
+      source: 'steam', platform: 'PC', playtime_hours: playtimeHours, steam_recent: isRecent,
       steam_recent_hours: recentHours, cover,
       date: new Date().toISOString().split('T')[0],
     };
@@ -785,6 +785,7 @@ async function syncSteam() {
         if (k === 'rating' && Number(merged.rating) > 0) continue;
         if (k === 'genre' && merged.genre !== 'N/A') continue;
         if (k === 'studio' && merged.studio !== 'N/A') continue;
+        if (k === 'platform' && merged.platform && !['Steam', 'IGDB', 'N/A'].includes(merged.platform)) continue;
         if (k === 'date' && merged.date) continue;
         merged[k] = v;
       }
@@ -854,6 +855,52 @@ function igdbScore(game) {
   return Number((Number(raw) / 10).toFixed(1));
 }
 
+function inferGameSource(existing) {
+  if (existing.source) return existing.source;
+  if (Number.isFinite(Number(existing.steam_appid))) return 'steam';
+  if (Number.isFinite(Number(existing.igdb_id)) || existing.platform === 'IGDB') return 'igdb';
+  return 'manual';
+}
+
+function normalizePlatformName(name) {
+  const value = String(name || '').trim();
+  const aliases = {
+    'PC (Microsoft Windows)': 'PC',
+    'Mac': 'PC',
+    'Linux': 'PC',
+    'PlayStation 3': 'PlayStation',
+    'PlayStation 4': 'PlayStation',
+    'PlayStation 5': 'PlayStation',
+    'PlayStation Network': 'PlayStation',
+    'Xbox 360': 'Xbox',
+    'Xbox One': 'Xbox',
+    'Xbox Series X|S': 'Xbox',
+    'Nintendo Switch': 'Nintendo',
+    'Wii': 'Nintendo',
+    'Wii U': 'Nintendo',
+    'Nintendo 3DS': 'Nintendo',
+    'New Nintendo 3DS': 'Nintendo',
+    'Android': 'Mobile',
+    'iOS': 'Mobile',
+  };
+  return aliases[value] || value;
+}
+
+function igdbPlatform(game, existing) {
+  const names = uniqueValues((game.platforms || [])
+    .map(item => normalizePlatformName(item.name))
+    .filter(Boolean));
+
+  if (!names.length) {
+    if (existing.platform === 'Steam') return 'PC';
+    if (existing.platform === 'IGDB') return 'Unknown';
+    return existing.platform;
+  }
+
+  if (names.length > 3) return 'Multi-platform';
+  return names.join(', ');
+}
+
 function normalizeUrl(url) {
   if (!url) return undefined;
   const value = String(url).trim();
@@ -888,6 +935,7 @@ function igdbSteamUrl(game, existing) {
 function igdbMetadata(game, existing) {
   return {
     title: game.name || existing.title,
+    source: inferGameSource(existing),
     igdb_id: Number(game.id),
     igdb_slug: game.slug,
     igdb_url: game.url || (game.slug ? `https://www.igdb.com/games/${game.slug}` : undefined),
@@ -899,6 +947,7 @@ function igdbMetadata(game, existing) {
     year: igdbYear(game),
     studio: igdbStudio(game),
     publisher: igdbPublisher(game),
+    platform: igdbPlatform(game, existing),
     cover: igdbCoverUrl(game),
     igdb_score: igdbScore(game),
     igdb_updated_at: new Date().toISOString().split('T')[0],
@@ -938,7 +987,7 @@ function escapeIgdbString(value) {
   return String(value).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
 }
 
-const IGDB_GAME_FIELDS = 'name,slug,url,category,cover.image_id,genres.name,involved_companies.company.name,involved_companies.developer,involved_companies.publisher,first_release_date,total_rating,aggregated_rating,rating,websites.url,websites.category,external_games.url,external_games.category,external_games.uid';
+const IGDB_GAME_FIELDS = 'name,slug,url,category,cover.image_id,genres.name,platforms.name,involved_companies.company.name,involved_companies.developer,involved_companies.publisher,first_release_date,total_rating,aggregated_rating,rating,websites.url,websites.category,external_games.url,external_games.category,external_games.uid';
 
 function compareIgdbTitleCandidates(a, b) {
   const categoryA = Number.isFinite(Number(a.category)) ? Number(a.category) : 0;
@@ -955,7 +1004,12 @@ function compareIgdbTitleCandidates(a, b) {
 
 function shouldResolveByTitle(entry) {
   const appId = Number(entry.frontmatter.steam_appid);
-  return !Number.isFinite(appId) && entry.frontmatter.platform === 'IGDB';
+  const igdbId = Number(entry.frontmatter.igdb_id);
+  const source = String(entry.frontmatter.source || '').toLowerCase();
+  const legacyPlatform = String(entry.frontmatter.platform || '').toLowerCase();
+  return !Number.isFinite(appId) &&
+    !Number.isFinite(igdbId) &&
+    (source === 'igdb' || legacyPlatform === 'igdb');
 }
 
 async function mapSteamAppIdsToIgdbIds(appIds, accessToken) {

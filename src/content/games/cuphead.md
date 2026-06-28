@@ -5,7 +5,8 @@ genre: "Shooter, Platform, Adventure, Indie, Arcade"
 year: 2017
 studio: "Studio MDHR"
 status: completed
-platform: IGDB
+source: igdb
+platform: Unknown
 date: 2026-06-27
 igdb_id: 9061
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co62ao.jpg"

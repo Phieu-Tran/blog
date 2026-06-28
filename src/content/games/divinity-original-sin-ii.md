@@ -5,7 +5,8 @@ genre: "Role-playing (RPG), Strategy, Adventure"
 year: 2017
 studio: "Larian Studios, Elverils LLC"
 status: completed
-platform: IGDB
+source: igdb
+platform: Unknown
 date: 2026-06-27
 igdb_id: 11800
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y5v.jpg"

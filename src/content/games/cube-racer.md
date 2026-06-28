@@ -6,7 +6,8 @@ genre: "Racing, Indie"
 year: 2017
 studio: N/A
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 134
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ygf.jpg"
 date: 2026-03-30

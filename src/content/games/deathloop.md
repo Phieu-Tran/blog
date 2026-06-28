@@ -6,7 +6,8 @@ genre: "Shooter, Adventure"
 year: 2021
 studio: "Arkane Studios"
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 37
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4nzt.jpg"
 date: 2026-03-30

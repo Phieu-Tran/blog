@@ -6,7 +6,8 @@ genre: "Role-playing (RPG), Adventure"
 year: 2026
 studio: "Matrix Software"
 status: plan
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 0
 cover: "https://steamcdn-a.akamaihd.net/steam/apps/2073850/header.jpg"
 date: 2026-03-30

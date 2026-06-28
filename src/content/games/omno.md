@@ -6,7 +6,8 @@ genre: "Platform, Puzzle, Adventure, Indie"
 year: 2021
 studio: "Studio Inkyfox"
 status: plan
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 0
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co3dli.jpg"
 date: 2026-03-30

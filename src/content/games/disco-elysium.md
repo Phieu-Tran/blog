@@ -6,7 +6,8 @@ genre: Adventure
 year: 2025
 studio: ZA/UM
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 36
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9j3v.jpg"
 date: 2026-03-30

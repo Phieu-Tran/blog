@@ -6,7 +6,8 @@ genre: "Simulator, Strategy, Adventure, Indie"
 year: 2019
 studio: "Creepy Jar"
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 3
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9d3h.jpg"
 date: 2026-03-30

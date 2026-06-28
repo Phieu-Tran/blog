@@ -214,7 +214,8 @@ function main() {
       const merged = { ...current.frontmatter };
       if (rating) merged.rating = rating.rating;
       if (played.has(key) && (!merged.status || merged.status === 'plan')) merged.status = 'completed';
-      if (!merged.platform) merged.platform = 'IGDB';
+      if (!merged.source) merged.source = 'igdb';
+      if (!merged.platform || merged.platform === 'IGDB') merged.platform = 'Unknown';
       if (!merged.date) merged.date = date;
       writeGame(current.file, merged, current.body);
       updated++;
@@ -229,7 +230,8 @@ function main() {
       year: new Date().getFullYear(),
       studio: 'N/A',
       status: played.has(key) ? 'completed' : 'plan',
-      platform: 'IGDB',
+      source: 'igdb',
+      platform: 'Unknown',
       date,
     };
     writeGame(filename, frontmatter, '\n');

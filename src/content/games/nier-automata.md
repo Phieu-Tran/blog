@@ -5,7 +5,8 @@ genre: "Role-playing (RPG), Hack and slash/Beat 'em up"
 year: 2017
 studio: "PlatinumGames, Square Enix Business Division 6"
 status: completed
-platform: IGDB
+source: igdb
+platform: Unknown
 date: 2026-06-27
 igdb_id: 11208
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pcj.jpg"

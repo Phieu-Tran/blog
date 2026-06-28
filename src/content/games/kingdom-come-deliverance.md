@@ -6,7 +6,8 @@ genre: "Role-playing (RPG), Adventure"
 year: 2018
 studio: "Warhorse Studios"
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 38
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4aqi.jpg"
 date: 2026-03-30

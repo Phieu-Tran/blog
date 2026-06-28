@@ -122,7 +122,8 @@ async function main() {
       year: new Date().getFullYear(),
       studio: 'N/A',
       status,
-      platform: 'Steam',
+      source: 'steam',
+      platform: 'PC',
       playtime_hours: playtimeHours,
       steam_recent: isRecent,
       steam_recent_hours: recentHours,
@@ -150,6 +151,7 @@ async function main() {
         if (k === 'rating' && Number(merged.rating) > 0) continue;
         if (k === 'genre' && merged.genre !== 'N/A') continue;
         if (k === 'studio' && merged.studio !== 'N/A') continue;
+        if (k === 'platform' && merged.platform && !['Steam', 'IGDB', 'N/A'].includes(merged.platform)) continue;
         if (k === 'date' && merged.date) continue;
         merged[k] = v;
       }

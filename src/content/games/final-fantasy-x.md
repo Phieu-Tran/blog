@@ -5,7 +5,8 @@ genre: "Role-playing (RPG), Adventure"
 year: 2001
 studio: "Square Product Development Division 1"
 status: completed
-platform: IGDB
+source: igdb
+platform: Unknown
 date: 2026-06-27
 igdb_id: 418
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1tr1.jpg"

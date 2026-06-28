@@ -6,7 +6,8 @@ genre: "Fighting, Puzzle, Strategy, Indie, Arcade"
 year: 2016
 studio: "The Quantum Astrophysicists Guild"
 status: plan
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 0
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co24m0.jpg"
 date: 2026-03-30

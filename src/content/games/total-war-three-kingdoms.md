@@ -6,7 +6,8 @@ genre: "Real Time Strategy (RTS), Strategy, Turn-based strategy (TBS)"
 year: 2019
 studio: "The Creative Assembly"
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 40
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coc2o2.jpg"
 date: 2026-03-30

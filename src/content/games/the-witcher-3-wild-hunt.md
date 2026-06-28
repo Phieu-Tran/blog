@@ -6,7 +6,8 @@ genre: "Role-playing (RPG), Adventure"
 year: 2015
 studio: "CD Projekt RED"
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 60
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coaarl.jpg"
 date: 2026-03-30

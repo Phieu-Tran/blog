@@ -5,7 +5,8 @@ genre: "Role-playing (RPG), Adventure"
 year: 2016
 studio: FromSoftware
 status: completed
-platform: IGDB
+source: igdb
+platform: Unknown
 date: 2026-06-27
 igdb_id: 11133
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9ed.jpg"

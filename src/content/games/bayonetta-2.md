@@ -5,7 +5,8 @@ genre: "Shooter, Hack and slash/Beat 'em up, Adventure"
 year: 2014
 studio: PlatinumGames
 status: completed
-platform: IGDB
+source: igdb
+platform: Unknown
 date: 2026-06-27
 igdb_id: 2135
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9e9.jpg"

@@ -14,7 +14,8 @@
     "sync": "node src/scripts/sync-all.mjs",
     "sync-steam": "node src/scripts/sync-steam.mjs",
     "sync-igdb": "node src/scripts/sync-igdb.mjs",
-    "import-igdb-gdpr": "node src/scripts/import-igdb-gdpr.mjs"
+    "import-igdb-gdpr": "node src/scripts/import-igdb-gdpr.mjs",
+    "normalize-games": "node src/scripts/normalize-game-frontmatter.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.18",

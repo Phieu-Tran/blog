@@ -5,6 +5,7 @@ genre: "Role-playing (RPG), Strategy, Turn-based strategy (TBS)"
 year: 2023
 studio: "Larian Studios"
 status: completed
+source: igdb
 platform: PC
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co670h.jpg"
 date: 2024-06-10

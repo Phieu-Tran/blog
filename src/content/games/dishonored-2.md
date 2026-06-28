@@ -5,7 +5,8 @@ genre: "Shooter, Role-playing (RPG), Adventure"
 year: 2016
 studio: "Arkane Studios"
 status: completed
-platform: IGDB
+source: igdb
+platform: Unknown
 date: 2026-06-27
 igdb_id: 11118
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9e29.jpg"

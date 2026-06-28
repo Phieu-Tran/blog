@@ -6,7 +6,8 @@ genre: "Role-playing (RPG), Adventure"
 year: 2024
 studio: "Everstone Studio"
 status: completed
-platform: Steam
+source: steam
+platform: PC
 playtime_hours: 8
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coauhs.jpg"
 date: 2026-03-30
