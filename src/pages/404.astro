@@ -1,14 +1,266 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const base = import.meta.env.BASE_URL;
+const [anime, games, films, posts] = await Promise.all([
+  getCollection('anime'),
+  getCollection('games'),
+  getCollection('films'),
+  getCollection('posts'),
+]);
+
+const searchItems = [
+  ...anime.map(item => ({
+    title: item.data.title,
+    type: 'anime',
+    href: `${base}anime/${item.id}/`,
+    meta: `${item.data.genre?.split(',')[0] || 'Anime'} - ${item.data.year}`,
+    search: `${item.data.title} ${item.data.genre} ${item.data.studio} anime`.toLowerCase(),
+  })),
+  ...games.map(item => ({
+    title: item.data.title,
+    type: 'game',
+    href: `${base}games/${item.id}/`,
+    meta: `${item.data.genre?.split(',')[0] || 'Game'} - ${item.data.year}`,
+    search: `${item.data.title} ${item.data.genre} ${item.data.studio} ${item.data.publisher || ''} game`.toLowerCase(),
+  })),
+  ...films.map(item => ({
+    title: item.data.title,
+    type: 'film',
+    href: `${base}films/${item.id}/`,
+    meta: `${item.data.genre?.split(',')[0] || 'Film'} - ${item.data.year}`,
+    search: `${item.data.title} ${item.data.genre} ${item.data.director} film`.toLowerCase(),
+  })),
+  ...posts.filter(item => !item.data.draft).map(item => ({
+    title: item.data.title,
+    type: 'post',
+    href: `${base}posts/${item.id}/`,
+    meta: `${new Date(item.data.date).toLocaleDateString('vi-VN')} - ${(item.data.tags || []).slice(0, 2).join(', ') || 'Post'}`,
+    search: `${item.data.title} ${item.data.description || ''} ${(item.data.tags || []).join(' ')} post`.toLowerCase(),
+  })),
+].sort((a, b) => a.title.localeCompare(b.title));
+
+const searchJson = JSON.stringify(searchItems).replace(/</g, '\\u003c');
 ---
 
-<BaseLayout title="404 — Không tìm thấy" activeNav="">
-  <div style="text-align:center;padding:60px 20px;">
-    <p style="font-size:64px;font-weight:700;font-family:'Space Mono',monospace;background:linear-gradient(135deg,#A78BFA,#34D399,#FB923C);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin:0;">404</p>
-    <p style="font-size:16px;color:var(--text-secondary);margin:12px 0 24px;">Trang này không tồn tại hoặc đã bị xóa.</p>
-    <a href={import.meta.env.BASE_URL}
-      style="display:inline-block;padding:10px 24px;border-radius:10px;background:rgba(255,255,255,0.06);border:1px solid var(--border);font-size:13px;color:var(--text-primary);transition:all 0.2s;">
-      Về trang chủ
-    </a>
-  </div>
+<BaseLayout title="404 - Khong tim thay" activeNav="">
+  <section class="not-found">
+    <p class="not-found-code">404</p>
+    <h1>Khong tim thay trang nay</h1>
+    <p class="not-found-copy">
+      Link co the da doi sau khi sync, hoac slug cu khong con ton tai. Tim nhanh trong vault ben duoi nhe.
+    </p>
+
+    <div class="not-found-search">
+      <input id="not-found-search" type="search" placeholder="Tim anime, game, film, post..." autocomplete="off" />
+      <div id="not-found-results" class="not-found-results" hidden></div>
+    </div>
+
+    <nav class="not-found-links" aria-label="Main sections">
+      <a href={base}>Trang chu</a>
+      <a href={`${base}anime/`}>Anime</a>
+      <a href={`${base}games/`}>Games</a>
+      <a href={`${base}films/`}>Films</a>
+      <a href={`${base}posts/`}>Posts</a>
+    </nav>
+  </section>
+
+  <script id="not-found-data" type="application/json" set:html={searchJson}></script>
+  <script>
+    function initNotFoundSearch() {
+      const input = document.getElementById('not-found-search') as HTMLInputElement | null;
+      const results = document.getElementById('not-found-results');
+      const dataNode = document.getElementById('not-found-data');
+      if (!input || !results || !dataNode) return;
+      if (input.dataset.bound === 'true') return;
+      input.dataset.bound = 'true';
+
+      const items = JSON.parse(dataNode.textContent || '[]') as Array<{
+        title: string;
+        type: string;
+        href: string;
+        meta: string;
+        search: string;
+      }>;
+
+      function apply() {
+        const query = input!.value.trim().toLowerCase();
+        results!.replaceChildren();
+        if (query.length < 2) {
+          results!.setAttribute('hidden', '');
+          return;
+        }
+
+        const matches = items.filter(item => item.search.includes(query)).slice(0, 8);
+        if (!matches.length) {
+          const empty = document.createElement('p');
+          empty.className = 'not-found-empty';
+          empty.textContent = 'Khong co ket qua phu hop.';
+          results!.appendChild(empty);
+        } else {
+          matches.forEach(item => {
+            const link = document.createElement('a');
+            link.href = item.href;
+            link.className = `not-found-result ${item.type}`;
+            const badge = document.createElement('span');
+            badge.className = `badge badge-${item.type}`;
+            badge.textContent = item.type;
+            const body = document.createElement('span');
+            const title = document.createElement('strong');
+            title.textContent = item.title;
+            const meta = document.createElement('small');
+            meta.textContent = item.meta;
+            body.append(title, meta);
+            link.append(badge, body);
+            results!.appendChild(link);
+          });
+        }
+
+        results!.removeAttribute('hidden');
+      }
+
+      input.addEventListener('input', apply);
+    }
+
+    initNotFoundSearch();
+    document.addEventListener('astro:after-swap', initNotFoundSearch);
+  </script>
 </BaseLayout>
+
+<style>
+  .not-found {
+    margin: 34px auto 70px;
+    max-width: 760px;
+    text-align: center;
+  }
+
+  .not-found-code {
+    background: linear-gradient(135deg, #A78BFA, #34D399, #FB923C);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(72px, 18vw, 160px);
+    font-weight: 800;
+    line-height: 0.95;
+    margin: 0 0 10px;
+  }
+
+  .not-found h1 {
+    font-size: clamp(30px, 6vw, 56px);
+    line-height: 1;
+    margin: 0 0 12px;
+  }
+
+  .not-found-copy {
+    color: var(--text-secondary);
+    margin: 0 auto 24px;
+    max-width: 560px;
+  }
+
+  .not-found-search {
+    margin: 0 auto 18px;
+    max-width: 620px;
+    position: relative;
+  }
+
+  .not-found-search input {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    color: var(--text-primary);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    min-height: 48px;
+    outline: 0;
+    padding: 0 16px;
+    width: 100%;
+  }
+
+  .not-found-search input:focus {
+    border-color: var(--post-border);
+  }
+
+  .not-found-results {
+    background: rgba(10,10,20,0.94);
+    border: 1px solid var(--glass-border-hover);
+    border-radius: 12px;
+    box-shadow: 0 18px 48px rgba(0,0,0,0.45);
+    display: grid;
+    gap: 6px;
+    left: 0;
+    margin-top: 8px;
+    padding: 8px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    z-index: 10;
+  }
+
+  .not-found-results[hidden] {
+    display: none;
+  }
+
+  .not-found-result {
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto minmax(0, 1fr);
+    min-height: 54px;
+    padding: 9px;
+  }
+
+  .not-found-result:hover {
+    background: rgba(255,255,255,0.055);
+    border-color: var(--glass-border-hover);
+  }
+
+  .not-found-result span:last-child {
+    display: grid;
+    min-width: 0;
+  }
+
+  .not-found-result strong,
+  .not-found-result small {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .not-found-result small,
+  .not-found-empty {
+    color: var(--text-muted);
+  }
+
+  .not-found-empty {
+    font-size: 13px;
+    padding: 12px;
+  }
+
+  .not-found-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 22px;
+  }
+
+  .not-found-links a {
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--glass-border);
+    border-radius: 10px;
+    color: var(--text-primary);
+    font-size: 13px;
+    font-weight: 700;
+    min-height: 38px;
+    padding: 9px 14px;
+  }
+
+  .not-found-links a:hover {
+    background: rgba(255,255,255,0.075);
+    border-color: var(--glass-border-hover);
+  }
+</style>

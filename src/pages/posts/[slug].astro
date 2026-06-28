@@ -13,6 +13,7 @@ const { Content } = await render(entry);
 const { title, description, tags, cover, date } = entry.data;
 const base = import.meta.env.BASE_URL;
 const pageImage = cover || firstMarkdownImage(entry.body);
+const ogImage = `${base}og/posts/${entry.id}.svg`;
 
 const [anime, games, films] = await Promise.all([
   getCollection('anime'),
@@ -57,7 +58,7 @@ const relatedMedia = (entry.data.related_media || [])
   .filter(Boolean) as MediaPreview[];
 ---
 
-<BaseLayout title={title} description={description} image={pageImage} ogType="article" activeNav="posts">
+<BaseLayout title={title} description={description} image={ogImage} ogType="article" activeNav="posts">
   <a href={`${base}posts/`} class="post-back">Back to Posts</a>
 
   <article class="post-detail">

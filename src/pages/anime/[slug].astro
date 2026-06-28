@@ -10,6 +10,7 @@ export async function getStaticPaths() {
 
 const allPosts = (await getCollection('posts')).filter(p => !p.data.draft);
 const { entry } = Astro.props;
+const base = import.meta.env.BASE_URL;
 const {
   title,
   mal_id,
@@ -33,6 +34,7 @@ const {
 } = entry.data;
 
 const relatedPosts = allPosts.filter(post => postMatchesMedia(post, 'anime', entry.id));
+const ogImage = `${base}og/anime/${entry.id}.svg`;
 const lastUpdated = updated_at || date;
 const myStars = Math.round(rating / 2);
 const malStars = Math.round((mal_score || 0) / 2);
@@ -62,9 +64,9 @@ const metaItems = [
 ].filter(Boolean) as Array<{ label: string; value: string }>;
 ---
 
-<BaseLayout title={title} description={`${title} — ${genre}`} image={cover} activeNav="anime">
+<BaseLayout title={title} description={`${title} — ${genre}`} image={ogImage} activeNav="anime">
   <section class="media-detail-shell media-detail-anime" style={cover ? `--detail-image: url("${cover}")` : undefined}>
-    <a href={`${import.meta.env.BASE_URL}anime/`} class="detail-back">Back to Anime</a>
+    <a href={`${base}anime/`} class="detail-back">Back to Anime</a>
 
     <div class="media-detail-grid">
       <aside class="detail-side">
@@ -148,7 +150,7 @@ const metaItems = [
       <hr class="section-divider" />
       <div class="post-list">
         {relatedPosts.map(post => (
-          <a href={`${import.meta.env.BASE_URL}posts/${post.id}/`} class="post-card">
+          <a href={`${base}posts/${post.id}/`} class="post-card">
             <p class="post-title">{post.data.title}</p>
             {post.data.description && <p class="post-desc">{post.data.description}</p>}
             <div class="post-meta">
