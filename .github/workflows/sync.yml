@@ -42,10 +42,28 @@ jobs:
           TWITCH_CLIENT_SECRET: ${{ secrets.TWITCH_CLIENT_SECRET }}
           SYNC_DELETE_MISSING: "true"
           SYNC_MAX_AUTO_DELETE: ${{ github.event.inputs.max_auto_delete || '20' }}
+          SYNC_REPORT_DIR: ".sync"
         run: |
           node src/scripts/sync-all.mjs
           node src/scripts/sync-imdb.mjs --enrich-existing
           npm run build
+
+      - name: Add sync report summary
+        if: always()
+        run: |
+          if [ -f .sync/sync-report.md ]; then
+            cat .sync/sync-report.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "No sync report was generated." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload sync report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sync-report
+          path: .sync/
+          if-no-files-found: ignore
 
       - name: Commit and push
         run: |

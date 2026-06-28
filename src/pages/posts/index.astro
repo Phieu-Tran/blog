@@ -95,6 +95,13 @@ const linkedCount = posts.filter(post => post.relatedMedia.length > 0).length;
 
   <section class="posts-toolbar" aria-label="Post filters">
     <input id="post-search" class="filter-input" type="text" placeholder="Tim bai viet..." autocomplete="off" />
+    <select id="media-filter" class="filter-select">
+      <option value="">Tat ca media</option>
+      <option value="anime">Anime linked</option>
+      <option value="game">Game linked</option>
+      <option value="film">Film linked</option>
+      <option value="unlinked">Unlinked</option>
+    </select>
     <select id="tag-filter" class="filter-select">
       <option value="">Tat ca tag</option>
       {tags.map(tag => <option value={tag.toLowerCase()}>{tag}</option>)}
@@ -109,6 +116,7 @@ const linkedCount = posts.filter(post => post.relatedMedia.length > 0).length;
     {posts.map((post, i) => {
       const { entry, cover, relatedMedia } = post;
       const tagsText = (entry.data.tags || []).join(' ').toLowerCase();
+      const mediaText = relatedMedia.length ? relatedMedia.map(media => media.type).join(' ') : 'unlinked';
       const searchText = `${entry.data.title} ${entry.data.description || ''} ${tagsText}`.toLowerCase();
 
       return (
@@ -116,6 +124,7 @@ const linkedCount = posts.filter(post => post.relatedMedia.length > 0).length;
           class="post-tile"
           data-search={searchText}
           data-tags={tagsText}
+          data-media={mediaText}
           style={`animation-delay: ${i * 0.04}s`}
         >
           <a href={`${base}posts/${entry.id}/`} class="post-cover-link" aria-label={entry.data.title}>
@@ -161,22 +170,25 @@ const linkedCount = posts.filter(post => post.relatedMedia.length > 0).length;
   <script>
     function initPostFilters() {
       const search = document.getElementById('post-search') as HTMLInputElement | null;
+      const media = document.getElementById('media-filter') as HTMLSelectElement | null;
       const tag = document.getElementById('tag-filter') as HTMLSelectElement | null;
       const count = document.getElementById('post-count');
       const items = [...document.querySelectorAll('.post-tile')] as HTMLElement[];
-      if (!search || !tag || !count || !items.length) return;
+      if (!search || !media || !tag || !count || !items.length) return;
       if (search.dataset.postFilterBound === 'true') return;
       search.dataset.postFilterBound = 'true';
 
       function apply() {
         const query = search!.value.trim().toLowerCase();
+        const selectedMedia = media!.value.toLowerCase();
         const selectedTag = tag!.value.toLowerCase();
         let visible = 0;
 
         items.forEach(item => {
           const matchesSearch = !query || item.dataset.search?.includes(query);
+          const matchesMedia = !selectedMedia || item.dataset.media?.split(' ').includes(selectedMedia);
           const matchesTag = !selectedTag || item.dataset.tags?.split(' ').includes(selectedTag);
-          const show = Boolean(matchesSearch && matchesTag);
+          const show = Boolean(matchesSearch && matchesMedia && matchesTag);
           item.hidden = !show;
           if (show) visible++;
         });
@@ -185,6 +197,7 @@ const linkedCount = posts.filter(post => post.relatedMedia.length > 0).length;
       }
 
       search.addEventListener('input', apply);
+      media.addEventListener('change', apply);
       tag.addEventListener('change', apply);
       apply();
     }
@@ -249,7 +262,7 @@ const linkedCount = posts.filter(post => post.relatedMedia.length > 0).length;
   .posts-toolbar {
     display: grid;
     gap: 10px;
-    grid-template-columns: minmax(0, 1fr) minmax(180px, 240px);
+    grid-template-columns: minmax(0, 1fr) minmax(150px, 210px) minmax(150px, 210px);
     margin-bottom: 18px;
   }
 

@@ -20,7 +20,8 @@ const base = import.meta.env.BASE_URL;
       {top10.map((item, i) => (
         <a href={`${base}films/${item.id}/`} class="top-card" data-type="film">
           <span class="top-rank">#{i + 1}</span>
-          {item.data.cover && <img src={item.data.cover} alt={item.data.title} loading="lazy" />}
+          <span class="cover-fallback">{item.data.title.slice(0, 1)}</span>
+          {item.data.cover && <img src={item.data.cover} alt={item.data.title} loading="lazy" onerror="this.hidden=true" />}
           <div class="top-overlay">
             <p class="top-title">{item.data.title}</p>
             <div class="top-scores">
@@ -47,6 +48,13 @@ const base = import.meta.env.BASE_URL;
         <option value="watched">Đã xem</option>
         <option value="plan">Dự định</option>
       </select>
+      <select id="source-filter" class="filter-select">
+        <option value="">All sources</option>
+        <option value="movie">TMDB Movie</option>
+        <option value="tv">TMDB TV</option>
+        <option value="imdb">Has IMDb</option>
+        <option value="tmdb">Has TMDB</option>
+      </select>
       <select id="sort-filter" class="filter-select">
         <option value="rating">My Score ↓</option>
         <option value="date">Mới nhất</option>
@@ -55,6 +63,13 @@ const base = import.meta.env.BASE_URL;
         <option value="title">A → Z</option>
         <option value="year">Năm ↓</option>
       </select>
+    </div>
+    <div class="quick-filters" aria-label="Quick film filters">
+      <button type="button" class="quick-filter active" data-quick="">All</button>
+      <button type="button" class="quick-filter" data-quick="watched">Watched</button>
+      <button type="button" class="quick-filter" data-quick="plan">Plan</button>
+      <button type="button" class="quick-filter" data-quick="top">Top Rated</button>
+      <button type="button" class="quick-filter" data-quick="missing-cover">Missing Cover</button>
     </div>
     <p class="section-label" style="margin-top: 16px;">
       Bộ sưu tập Film — <span id="count">{allFilms.length}</span> tựa
@@ -70,6 +85,10 @@ const base = import.meta.env.BASE_URL;
         data-rating={item.data.rating}
         data-imdb={item.data.imdb_score || 0}
         data-tmdb={item.data.tmdb_score || 0}
+        data-tmdb-type={item.data.tmdb_type || ''}
+        data-has-imdb={item.data.imdb_id ? 'true' : 'false'}
+        data-has-tmdb={item.data.tmdb_id ? 'true' : 'false'}
+        data-has-cover={item.data.cover ? 'true' : 'false'}
         data-year={item.data.year}
         data-date={new Date(item.data.date).getTime()}>
         <MediaCard
@@ -92,15 +111,19 @@ const base = import.meta.env.BASE_URL;
       const search = document.getElementById('search') as HTMLInputElement;
       const genre = document.getElementById('genre-filter') as HTMLSelectElement;
       const status = document.getElementById('status-filter') as HTMLSelectElement;
+      const source = document.getElementById('source-filter') as HTMLSelectElement;
       const sort = document.getElementById('sort-filter') as HTMLSelectElement;
+      const quickButtons = [...document.querySelectorAll('.quick-filter')] as HTMLButtonElement[];
       const grid = document.getElementById('media-grid');
       const count = document.getElementById('count');
-      if (!search || !genre || !status || !sort || !grid || !count) return;
+      if (!search || !genre || !status || !source || !sort || !grid || !count) return;
+      let quick = '';
 
       function apply() {
         const q = search.value.toLowerCase();
         const g = genre.value.toLowerCase();
         const s = status.value;
+        const sourceValue = source.value;
         const items = [...grid.querySelectorAll('.filter-item')] as HTMLElement[];
         const sv = sort.value;
         items.sort((a, b) => {
@@ -114,9 +137,21 @@ const base = import.meta.env.BASE_URL;
         items.forEach(el => grid.appendChild(el));
         let v = 0;
         items.forEach(el => {
+          const sourceOk = !sourceValue ||
+            (sourceValue === 'movie' && el.dataset.tmdbType === 'movie') ||
+            (sourceValue === 'tv' && el.dataset.tmdbType === 'tv') ||
+            (sourceValue === 'imdb' && el.dataset.hasImdb === 'true') ||
+            (sourceValue === 'tmdb' && el.dataset.hasTmdb === 'true');
+          const quickOk = !quick ||
+            (quick === 'watched' && el.dataset.status === 'watched') ||
+            (quick === 'plan' && el.dataset.status === 'plan') ||
+            (quick === 'top' && parseFloat(el.dataset.rating || '0') >= 9) ||
+            (quick === 'missing-cover' && el.dataset.hasCover !== 'true');
           const ok = (!q || el.dataset.title!.includes(q)) &&
                      (!g || el.dataset.genre!.includes(g)) &&
-                     (!s || el.dataset.status === s);
+                     (!s || el.dataset.status === s) &&
+                     sourceOk &&
+                     quickOk;
           el.style.display = ok ? '' : 'none';
           if (ok) v++;
         });
@@ -125,7 +160,15 @@ const base = import.meta.env.BASE_URL;
       search.addEventListener('input', apply);
       genre.addEventListener('change', apply);
       status.addEventListener('change', apply);
+      source.addEventListener('change', apply);
       sort.addEventListener('change', apply);
+      quickButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          quick = button.dataset.quick || '';
+          quickButtons.forEach(item => item.classList.toggle('active', item === button));
+          apply();
+        });
+      });
     }
     initFilters();
     document.addEventListener('astro:after-swap', initFilters);

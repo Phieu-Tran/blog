@@ -5,17 +5,20 @@ interface Props {
   title?: string;
   description?: string;
   image?: string;
+  ogType?: 'website' | 'article';
   activeNav?: string;
 }
 const {
   title = 'Phieu.work',
   description = 'Anime, games, films — all in one place',
   image,
+  ogType = 'website',
   activeNav = 'home'
 } = Astro.props;
 const base = import.meta.env.BASE_URL;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const pageTitle = title === 'Phieu.work' ? 'Phieu.work' : `${title} — Phieu.work`;
+const absoluteImage = image ? new URL(image, Astro.site).toString() : undefined;
 ---
 <!DOCTYPE html>
 <html lang="vi">
@@ -28,18 +31,20 @@ const pageTitle = title === 'Phieu.work' ? 'Phieu.work' : `${title} — Phieu.wo
   <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
 
   <!-- Open Graph -->
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content={ogType} />
+  <meta property="og:site_name" content="Phieu.work" />
   <meta property="og:title" content={pageTitle} />
   <meta property="og:description" content={description} />
   <meta property="og:url" content={canonicalURL} />
-  {image && <meta property="og:image" content={image} />}
+  {absoluteImage && <meta property="og:image" content={absoluteImage} />}
+  {absoluteImage && <meta property="og:image:alt" content={pageTitle} />}
   <ViewTransitions />
 
   <!-- Twitter -->
-  <meta name="twitter:card" content={image ? 'summary_large_image' : 'summary'} />
+  <meta name="twitter:card" content={absoluteImage ? 'summary_large_image' : 'summary'} />
   <meta name="twitter:title" content={pageTitle} />
   <meta name="twitter:description" content={description} />
-  {image && <meta name="twitter:image" content={image} />}
+  {absoluteImage && <meta name="twitter:image" content={absoluteImage} />}
 </head>
 <body>
   <nav class="nav">

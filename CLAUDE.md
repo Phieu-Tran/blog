@@ -52,6 +52,8 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 | `STEAM_ID` | Variable | Steam user ID |
 | `SYNC_DELETE_MISSING` | Env/Variable | Optional; set `false` to disable guarded MAL/TMDB local deletes |
 | `SYNC_MAX_AUTO_DELETE` | Env/Variable | Optional; maximum guarded local deletes per source, default `20` |
+| `SYNC_DELETE_DRY_RUN` | Env/Variable | Optional; set `true` to report delete candidates without removing files |
+| `SYNC_REPORT_DIR` | Env/Variable | Optional; sync report output directory, default `.sync` |
 
 ## Scripts
 
@@ -78,6 +80,7 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 6. Missing covers  — scan files → fetch from TMDB
 7. Build check     — run astro build → pass/fail
 8. Summary         — print all results + total time
+9. Sync report     — write `.sync/sync-report.md` and `.sync/sync-report.json`
 
 The GitHub workflow then runs `sync-imdb --enrich-existing` and a final `npm run build`
 before committing changes.
@@ -91,7 +94,8 @@ before committing changes.
 - **IMDb ID is the identity anchor for CSV imports**. `sync-imdb` uses TMDB `/find/{imdb_id}` for enrichment, never title search.
 - **TMDB identity is `tmdb_id` + `tmdb_type`** (`movie` or `tv`) so TV IDs do not resolve through TMDB movie endpoints.
 - **Weekly sync reads both TMDB rated movies and rated TV**, then enriches IMDb-backed films/TV with TMDB IDs, TMDB scores, and poster covers using the GitHub `TMDB_API_KEY` secret.
-- **Weekly sync has guarded delete flow for MAL/TMDB only**: entries missing upstream are removed from local content only when the upstream list is non-empty and delete count is at or below `SYNC_MAX_AUTO_DELETE` (default `20`). Steam files are not auto-deleted.
+- **Weekly sync has guarded delete flow for MAL/TMDB only**: entries missing upstream are removed from local content only when the upstream list is non-empty and delete count is at or below `SYNC_MAX_AUTO_DELETE` (default `20`). Use `SYNC_DELETE_DRY_RUN=true` to report candidates without removing files. Steam files are not auto-deleted.
+- **Sync report**: weekly GitHub Actions uploads `.sync/sync-report.md/json` as an artifact and appends the Markdown report to the run summary.
 - **IMDb/content can be pushed back to TMDB** with `sync-imdb-to-tmdb`. It plans changes by default; deleting old TMDB account ratings requires `--apply --delete-extra` and `CONFIRM_TMDB_DELETE=DELETE`.
 - **Games source split**: Steam is the account/library/playtime source; IGDB is the metadata source. Steam recent activity is stored as `steam_recent`/`steam_recent_hours` and shown as "Recently Played", not as `status: playing`. IGDB metadata sync updates `igdb_id`, `igdb_slug`, external URLs, `genre`, `studio`, `publisher`, `year`, `cover`, and `igdb_score` by Steam AppID, existing `igdb_id`, or exact title match, but keeps local `rating`, `status`, and body notes. IGDB GDPR import can update personal `rating` and Played-list status.
 - **Creator credits**: Detail pages for Anime, Games, and Films support optional manual `director`, `creator`, `writer`, `composer`, and `author` fields. Sync preserves local credit fields unless a trusted source explicitly fills them. TMDB fills film/TV `director`/creator automatically where available; IGDB fills game developer/publisher, not personal credits.

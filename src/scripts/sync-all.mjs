@@ -36,8 +36,11 @@ const TMDB_SESSION_ID = process.env.TMDB_SESSION_ID || '';
 const TMDB_ACCOUNT_ID = process.env.TMDB_ACCOUNT_ID || '';
 const TMDB_BASE = 'https://api.themoviedb.org/3';
 const SYNC_DELETE_MISSING = String(process.env.SYNC_DELETE_MISSING || 'true').toLowerCase() !== 'false';
+const SYNC_DELETE_DRY_RUN = String(process.env.SYNC_DELETE_DRY_RUN || 'false').toLowerCase() === 'true';
 const parsedMaxAutoDelete = Number(process.env.SYNC_MAX_AUTO_DELETE || 20);
 const SYNC_MAX_AUTO_DELETE = Number.isFinite(parsedMaxAutoDelete) ? Math.max(0, Math.floor(parsedMaxAutoDelete)) : 20;
+const SYNC_REPORT_DIR = process.env.SYNC_REPORT_DIR || '.sync';
+const syncDeleteEvents = [];
 
 const ANIME_DIR = path.resolve('src/content/anime');
 const FILMS_DIR = path.resolve('src/content/films');
@@ -97,6 +100,107 @@ function printSummary(results) {
     console.log(`  ${status} ${r.name}${COLORS.reset} — ${r.message}`);
   }
   console.log('');
+}
+
+function statsFromMessage(message = '') {
+  const stats = {};
+  const upstream = message.match(/^(\d+)\s+(?:anime|items|games)/i);
+  const created = message.match(/(\d+)\s+(?:new|created)/i);
+  const updated = message.match(/(\d+)\s+updated/i);
+  const skipped = message.match(/(\d+)\s+skipped/i);
+  const deleted = message.match(/(\d+)\s+deleted/i);
+  const covers = message.match(/(\d+)\s+covers fetched/i);
+
+  if (upstream) stats.upstream = Number(upstream[1]);
+  if (created) stats.created = Number(created[1]);
+  if (updated) stats.updated = Number(updated[1]);
+  if (skipped) stats.skipped = Number(skipped[1]);
+  if (deleted) stats.deleted = Number(deleted[1]);
+  if (covers) stats.updated = Number(covers[1]);
+  return stats;
+}
+
+function writeSyncReport(results, elapsedSeconds) {
+  const reportDir = path.resolve(SYNC_REPORT_DIR);
+  const generatedAt = new Date().toISOString();
+  const normalizedResults = results.map(result => {
+    const deleteEvent = syncDeleteEvents.find(event => event.source === result.name);
+    const stats = {
+      ...statsFromMessage(result.message),
+      ...(result.stats || {}),
+    };
+
+    if (deleteEvent) {
+      stats.deleteCandidates = deleteEvent.candidates.length;
+      stats.deleteSkipped = deleteEvent.skipped;
+      stats.deleteReason = deleteEvent.reason;
+      stats.deleteFiles = deleteEvent.candidates;
+      if (deleteEvent.deleted != null) stats.deleted = deleteEvent.deleted;
+    }
+
+    return {
+      name: result.name,
+      success: Boolean(result.success),
+      message: result.message,
+      stats,
+    };
+  });
+
+  const report = {
+    generatedAt,
+    elapsedSeconds: Number(elapsedSeconds),
+    deleteMissing: {
+      enabled: SYNC_DELETE_MISSING,
+      dryRun: SYNC_DELETE_DRY_RUN,
+      maxAutoDelete: SYNC_MAX_AUTO_DELETE,
+    },
+    results: normalizedResults,
+  };
+
+  fs.mkdirSync(reportDir, { recursive: true });
+  fs.writeFileSync(path.join(reportDir, 'sync-report.json'), `${JSON.stringify(report, null, 2)}\n`);
+
+  const lines = [
+    '# Sync report',
+    '',
+    `Generated: ${generatedAt}`,
+    `Elapsed: ${elapsedSeconds}s`,
+    `Delete guard: enabled=${SYNC_DELETE_MISSING}, dry_run=${SYNC_DELETE_DRY_RUN}, max_auto_delete=${SYNC_MAX_AUTO_DELETE}`,
+    '',
+    '| Source | Status | Upstream | Created | Updated | Skipped | Deleted | Notes |',
+    '| --- | --- | ---: | ---: | ---: | ---: | ---: | --- |',
+  ];
+
+  for (const result of normalizedResults) {
+    const stats = result.stats || {};
+    const status = result.success ? 'OK' : 'FAIL';
+    const notes = [
+      stats.deleteSkipped ? `delete skipped: ${stats.deleteReason || 'unknown'}` : '',
+      stats.deleteCandidates ? `delete candidates: ${stats.deleteCandidates}` : '',
+      result.success ? '' : result.message,
+    ].filter(Boolean).join('; ').replace(/\|/g, '/');
+
+    lines.push([
+      result.name,
+      status,
+      stats.upstream ?? '',
+      stats.created ?? '',
+      stats.updated ?? '',
+      stats.skipped ?? '',
+      stats.deleted ?? '',
+      notes,
+    ].join(' | ').replace(/^/, '| ').replace(/$/, ' |'));
+  }
+
+  const deleteRows = normalizedResults
+    .flatMap(result => (result.stats?.deleteFiles || []).map(file => ({ source: result.name, file })));
+  if (deleteRows.length) {
+    lines.push('', '## Delete candidates', '');
+    for (const row of deleteRows) lines.push(`- ${row.source}: ${row.file}`);
+  }
+
+  fs.writeFileSync(path.join(reportDir, 'sync-report.md'), `${lines.join('\n')}\n`);
+  printStep('REPORT', `Wrote ${path.relative(process.cwd(), reportDir)}${path.sep}sync-report.md`);
 }
 
 // ============================================
@@ -213,14 +317,19 @@ function describeManagedEntry(entry) {
 }
 
 function deleteMissingManagedEntries({ dir, label, currentKeys, isManaged, keyFor }) {
+  const recordDeleteEvent = event => {
+    syncDeleteEvents.push({ source: label, ...event });
+    return event;
+  };
+
   if (!SYNC_DELETE_MISSING) {
     printStep('SKIP', `${label}: delete-missing disabled.`);
-    return { deleted: 0, skipped: true, reason: 'disabled' };
+    return recordDeleteEvent({ deleted: 0, skipped: true, reason: 'disabled', candidates: [] });
   }
 
   if (!currentKeys.size) {
     printStep('SKIP', `${label}: delete-missing skipped because upstream returned 0 items.`);
-    return { deleted: 0, skipped: true, reason: 'empty upstream' };
+    return recordDeleteEvent({ deleted: 0, skipped: true, reason: 'empty upstream', candidates: [] });
   }
 
   const candidates = listMarkdownEntries(dir).filter(entry => {
@@ -238,7 +347,12 @@ function deleteMissingManagedEntries({ dir, label, currentKeys, isManaged, keyFo
 
   if (candidates.length > SYNC_MAX_AUTO_DELETE) {
     printStep('SKIP', `${label}: delete-missing skipped (${candidates.length} candidates exceeds SYNC_MAX_AUTO_DELETE=${SYNC_MAX_AUTO_DELETE}).`);
-    return { deleted: 0, skipped: true, reason: 'delete guard' };
+    return recordDeleteEvent({ deleted: 0, skipped: true, reason: 'delete guard', candidates: candidates.map(entry => entry.file) });
+  }
+
+  if (SYNC_DELETE_DRY_RUN) {
+    printStep('DRY', `${label}: would delete ${candidates.length} entries no longer present upstream.`);
+    return recordDeleteEvent({ deleted: 0, skipped: true, reason: 'dry-run', candidates: candidates.map(entry => entry.file) });
   }
 
   for (const entry of candidates) {
@@ -249,7 +363,7 @@ function deleteMissingManagedEntries({ dir, label, currentKeys, isManaged, keyFo
     printStep('DEL', `${label}: deleted ${candidates.length} entries no longer present upstream.`);
   }
 
-  return { deleted: candidates.length, skipped: false };
+  return recordDeleteEvent({ deleted: candidates.length, skipped: false, candidates: candidates.map(entry => entry.file) });
 }
 
 function normalizeTmdbType(type) {
@@ -1060,6 +1174,7 @@ async function main() {
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
   printSummary(results);
+  writeSyncReport(results, elapsed);
   console.log(`  ${COLORS.dim}Total time: ${elapsed}s${COLORS.reset}\n`);
 
   // Exit with error if build failed

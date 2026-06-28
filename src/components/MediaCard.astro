@@ -23,7 +23,8 @@ const statusLabels: Record<string, string> = {
 
 <a href={`${base}${typeMap[type]}/${slug}/`} class="media-card reveal">
   <div class="card-cover">
-    {cover && <img src={cover} alt={title} loading="lazy" />}
+    <span class="cover-fallback">{title.slice(0, 1)}</span>
+    {cover && <img src={cover} alt={title} loading="lazy" onerror="this.hidden=true" />}
     <div class="gradient-overlay"></div>
     <span class={`badge badge-${type}`} style="position:absolute;top:8px;left:8px;">
       {type}

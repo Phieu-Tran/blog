@@ -100,7 +100,10 @@ const metaItems = [
 
   <div class="game-detail">
     <aside class="game-side">
-      {cover && <img src={cover} alt={title} class="game-cover" />}
+      {cover ? (
+        <img src={cover} alt={title} class="game-cover" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+      ) : null}
+      <span class="detail-cover-fallback" hidden={Boolean(cover)}>{title.slice(0, 1)}</span>
 
       <nav class="external-links" aria-label="External game links">
         {externalLinks.map(link => (
