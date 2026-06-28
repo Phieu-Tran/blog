@@ -53,6 +53,7 @@ const base = import.meta.env.BASE_URL;
         <option value="">All sources</option>
         <option value="steam">Steam</option>
         <option value="igdb">IGDB</option>
+        <option value="playstation">PlayStation</option>
         <option value="multi">Multi</option>
         <option value="igdb-score">Has IGDB Score</option>
         <option value="recent">Recently Played</option>
@@ -141,6 +142,7 @@ const base = import.meta.env.BASE_URL;
           const sourceOk = !sourceValue ||
             (sourceValue === 'steam' && platform.includes('steam')) ||
             (sourceValue === 'igdb' && platform.includes('igdb')) ||
+            (sourceValue === 'playstation' && platform.includes('playstation')) ||
             (sourceValue === 'multi' && platform.includes('multi')) ||
             (sourceValue === 'igdb-score' && parseFloat(el.dataset.igdb || '0') > 0) ||
             (sourceValue === 'recent' && el.dataset.steamRecent === 'true');
