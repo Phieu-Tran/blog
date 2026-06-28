@@ -771,6 +771,11 @@ a { color: inherit; text-decoration: none; }
   display: block;
   width: 220px;
 }
+.detail-cover[hidden],
+.game-cover[hidden],
+.detail-cover-fallback[hidden] {
+  display: none !important;
+}
 .detail-cover-fallback {
   align-items: center;
   aspect-ratio: 2 / 3;
