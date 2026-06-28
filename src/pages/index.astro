@@ -139,20 +139,6 @@ const socials = [
       </div>
     </div>
 
-    <div class="home-search reveal" data-home-search>
-      <label for="global-search" class="home-search-label">Search all</label>
-      <div class="home-search-box">
-        <input
-          id="global-search"
-          type="search"
-          placeholder="Tim anime, game, film, post..."
-          autocomplete="off"
-          aria-controls="global-search-results"
-        />
-      </div>
-      <div id="global-search-results" class="home-search-results" hidden></div>
-    </div>
-    <script id="global-search-data" type="application/json" set:html={siteSearchJson}></script>
   </section>
 
   {/* Cover crowd — handpicked, scatters on scroll */}
@@ -184,6 +170,21 @@ const socials = [
     </div>
     <div class="crowd-fade"></div>
   </div>
+
+  <section class="home-search reveal" data-home-search>
+    <label for="global-search" class="home-search-label">Search all</label>
+    <div class="home-search-box">
+      <input
+        id="global-search"
+        type="search"
+        placeholder="Tim anime, game, film, post..."
+        autocomplete="off"
+        aria-controls="global-search-results"
+      />
+    </div>
+    <div id="global-search-results" class="home-search-results" hidden></div>
+  </section>
+  <script id="global-search-data" type="application/json" set:html={siteSearchJson}></script>
 
   {/* Currently active */}
   {active.length > 0 && (
