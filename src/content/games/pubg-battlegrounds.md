@@ -14,7 +14,7 @@ date: 2026-03-30
 ign_source: true
 igdb_score: 7.3
 igdb_id: 27789
-igdb_updated_at: 2026-06-28
+igdb_updated_at: 2026-06-30
 steam_url: "https://store.steampowered.com/app/578080"
 igdb_slug: pubg-battlegrounds
 igdb_url: "https://www.igdb.com/games/pubg-battlegrounds"

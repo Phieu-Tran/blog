@@ -11,6 +11,6 @@ year: 1997
 director: 黒沢清
 status: watched
 date: 2025-12-13
-cover: "https://image.tmdb.org/t/p/w500/uJIQJibKFKb1SYTKMFm0L8QowBs.jpg"
+cover: "https://image.tmdb.org/t/p/w500/2KR0IDLxBIW3nQfS69o63BLeRWJ.jpg"
 ---
 

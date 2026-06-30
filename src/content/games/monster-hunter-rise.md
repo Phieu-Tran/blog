@@ -14,7 +14,7 @@ date: 2026-03-30
 ign_source: true
 igdb_score: 8.5
 igdb_id: 138950
-igdb_updated_at: 2026-06-28
+igdb_updated_at: 2026-06-30
 steam_url: "https://store.steampowered.com/app/1446780"
 igdb_slug: monster-hunter-rise
 igdb_url: "https://www.igdb.com/games/monster-hunter-rise"

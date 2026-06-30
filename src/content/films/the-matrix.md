@@ -5,7 +5,7 @@ tmdb_id: 603
 tmdb_type: movie
 rating: 10
 imdb_score: 8.7
-tmdb_score: 8.2
+tmdb_score: 8.3
 genre: "Phim Hành Động, Phim Khoa Học Viễn Tưởng"
 year: 1999
 director: "Lana Wachowski"
