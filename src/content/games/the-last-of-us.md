@@ -15,5 +15,6 @@ igdb_updated_at: 2026-06-30
 igdb_slug: the-last-of-us
 igdb_url: "https://www.igdb.com/games/the-last-of-us"
 publisher: "Sony Computer Entertainment"
+igdb_personal: true
 ---
 

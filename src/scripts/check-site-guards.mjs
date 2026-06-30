@@ -39,25 +39,16 @@ function requireOrder(source, first, second, message) {
   }
 }
 
-const homePage = requireFile('src/pages/index.astro');
-requireOrder(
-  homePage,
-  'class="crowd-wrapper"',
-  'class="home-search',
-  'Homepage search stays below the cover crowd',
-);
-requireOrder(
-  homePage,
-  'class="home-search',
-  '{/* Currently active */}',
-  'Homepage search stays above the active/top-rated sections',
-);
-requireOrder(
-  homePage,
-  'class="home-search',
-  'id="global-search-data"',
-  'Homepage search data is declared after the search UI',
-);
+requireFile('src/pages/index.astro');
+const baseLayout = requireFile('src/layouts/BaseLayout.astro');
+const searchIndex = requireFile('src/pages/search-index.json.ts');
+requireIncludes(baseLayout, 'data-search-open', 'Global search can be opened from shared navigation');
+requireIncludes(baseLayout, 'data-search-index-url', 'Global search lazy-loads its search index');
+requireIncludes(baseLayout, 'openGlobalSearch', 'Global search client script is present');
+requireIncludes(searchIndex, "getCollection('anime')", 'Search index includes anime');
+requireIncludes(searchIndex, "getCollection('games')", 'Search index includes games');
+requireIncludes(searchIndex, "getCollection('films')", 'Search index includes films');
+requireIncludes(searchIndex, 'Content-Type', 'Search index is served as JSON');
 
 const syncWorkflow = requireFile('.github/workflows/sync.yml');
 requireIncludes(syncWorkflow, 'node src/scripts/sync-all.mjs', 'Weekly sync runs the unified media sync');

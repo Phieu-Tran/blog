@@ -16,5 +16,6 @@ igdb_slug: divinity-original-sin-ii
 igdb_url: "https://www.igdb.com/games/divinity-original-sin-ii"
 steam_url: "https://store.steampowered.com/app/435150"
 publisher: "Larian Studios"
+igdb_personal: true
 ---
 

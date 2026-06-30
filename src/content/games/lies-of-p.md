@@ -16,5 +16,6 @@ igdb_slug: lies-of-p
 igdb_url: "https://www.igdb.com/games/lies-of-p"
 steam_url: "https://store.steampowered.com/app/1627720/Lies_Of_P"
 publisher: Neowiz
+igdb_personal: true
 ---
 

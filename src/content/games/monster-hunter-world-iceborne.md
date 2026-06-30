@@ -16,5 +16,6 @@ igdb_slug: monster-hunter-world-iceborne
 igdb_url: "https://www.igdb.com/games/monster-hunter-world-iceborne"
 steam_url: "https://store.steampowered.com/app/1118010"
 publisher: Capcom
+igdb_personal: true
 ---
 

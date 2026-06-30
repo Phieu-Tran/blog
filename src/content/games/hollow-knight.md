@@ -13,5 +13,6 @@ igdb_id: 365702
 igdb_updated_at: 2026-06-30
 igdb_slug: hollow-knight--1
 igdb_url: "https://www.igdb.com/games/hollow-knight--1"
+igdb_personal: true
 ---
 

@@ -16,5 +16,6 @@ igdb_slug: assassins-creed-shadows
 igdb_url: "https://www.igdb.com/games/assassins-creed-shadows"
 steam_url: "https://store.steampowered.com/app/3159330/Assassins_Creed_Shadows/"
 publisher: "Ubisoft Entertainment"
+igdb_personal: true
 ---
 

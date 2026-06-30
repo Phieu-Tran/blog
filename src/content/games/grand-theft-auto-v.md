@@ -16,5 +16,6 @@ igdb_slug: grand-theft-auto-v--2
 igdb_url: "https://www.igdb.com/games/grand-theft-auto-v--2"
 steam_url: "https://store.steampowered.com/app/3240220/Grand_Theft_Auto_V_Enhanced/"
 publisher: "Rockstar Games"
+igdb_personal: true
 ---
 

@@ -16,5 +16,6 @@ igdb_slug: dark-souls-iii
 igdb_url: "https://www.igdb.com/games/dark-souls-iii"
 steam_url: "https://store.steampowered.com/app/374320"
 publisher: "Bandai Namco Entertainment, FromSoftware"
+igdb_personal: true
 ---
 

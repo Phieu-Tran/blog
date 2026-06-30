@@ -16,5 +16,6 @@ igdb_slug: dishonored-2
 igdb_url: "https://www.igdb.com/games/dishonored-2"
 steam_url: "https://store.steampowered.com/app/403640"
 publisher: "Bethesda Softworks"
+igdb_personal: true
 ---
 

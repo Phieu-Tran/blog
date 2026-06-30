@@ -15,5 +15,6 @@ igdb_updated_at: 2026-06-30
 igdb_slug: mega-man-x4
 igdb_url: "https://www.igdb.com/games/mega-man-x4"
 publisher: "Capcom, Sony Computer Entertainment"
+igdb_personal: true
 ---
 

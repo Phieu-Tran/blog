@@ -1,6 +1,6 @@
 ---
 title: "Stardew Valley"
-rating: 8
+rating: 7
 genre: "Role-playing (RPG), Simulator, Strategy, Adventure, Indie"
 year: 2016
 studio: ConcernedApe
@@ -16,5 +16,6 @@ igdb_slug: stardew-valley
 igdb_url: "https://www.igdb.com/games/stardew-valley"
 steam_url: "https://store.steampowered.com/app/413150"
 publisher: "Chucklefish Games, ConcernedApe, 505 Games"
+igdb_personal: true
 ---
 

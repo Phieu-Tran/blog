@@ -74,6 +74,18 @@ const absoluteImage = new URL(image || defaultImage, Astro.site).toString();
         <span class="nav-logo-text">Phieu.work</span>
       </a>
     </div>
+    <button
+      type="button"
+      class="nav-search-button"
+      aria-label="Search media"
+      aria-controls="global-search"
+      data-search-open
+    >
+      <svg width="17" height="17" viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="11" cy="11" r="7"></circle>
+        <path d="M16.5 16.5L21 21"></path>
+      </svg>
+    </button>
     <button class="nav-toggle" aria-label="Menu">
       <span></span><span></span><span></span>
     </button>
@@ -87,6 +99,33 @@ const absoluteImage = new URL(image || defaultImage, Astro.site).toString();
     </div>
   </nav>
 
+  <div
+    id="global-search"
+    class="global-search"
+    data-search-index-url={`${base}search-index.json`}
+    hidden
+  >
+    <div class="global-search-backdrop" data-search-close></div>
+    <section class="global-search-panel" role="dialog" aria-modal="true" aria-labelledby="global-search-title">
+      <div class="global-search-head">
+        <h2 id="global-search-title">Search</h2>
+        <button type="button" class="global-search-close" aria-label="Close search" data-search-close>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <input
+        id="global-search-input"
+        class="global-search-input"
+        type="search"
+        placeholder="Anime, games, films..."
+        autocomplete="off"
+      />
+      <p class="global-search-meta" id="global-search-meta">Anime / Games / Films</p>
+      <div class="global-search-results" id="global-search-results"></div>
+    </section>
+  </div>
+
   <main class="container">
     <slot />
   </main>
@@ -98,14 +137,224 @@ const absoluteImage = new URL(image || defaultImage, Astro.site).toString();
   </footer>
 
   <script>
+    type GlobalSearchItem = {
+      title: string;
+      type: 'anime' | 'game' | 'film';
+      url: string;
+      rating: number;
+      year: number;
+      genre: string;
+      status: string;
+      cover?: string;
+    };
+
+    let globalSearchItems: GlobalSearchItem[] | null = null;
+    let globalSearchLoading: Promise<GlobalSearchItem[]> | null = null;
+
+    function normalizeSearchText(value: string) {
+      return value
+        .normalize('NFKD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .toLowerCase()
+        .trim();
+    }
+
+    function escapeHtml(value = '') {
+      return String(value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    function typeLabel(type: GlobalSearchItem['type']) {
+      if (type === 'game') return 'Game';
+      if (type === 'film') return 'Film';
+      return 'Anime';
+    }
+
+    function getSearchDialog() {
+      return document.getElementById('global-search') as HTMLElement | null;
+    }
+
+    function getSearchIndexUrl() {
+      return getSearchDialog()?.dataset.searchIndexUrl || '/search-index.json';
+    }
+
+    async function loadGlobalSearchItems() {
+      if (globalSearchItems) return globalSearchItems;
+      if (globalSearchLoading) return globalSearchLoading;
+
+      globalSearchLoading = fetch(getSearchIndexUrl(), { headers: { Accept: 'application/json' } })
+        .then(response => {
+          if (!response.ok) throw new Error(`Search index failed: ${response.status}`);
+          return response.json();
+        })
+        .then(data => {
+          globalSearchItems = Array.isArray(data.items) ? data.items : [];
+          return globalSearchItems;
+        })
+        .finally(() => {
+          globalSearchLoading = null;
+        });
+
+      return globalSearchLoading;
+    }
+
+    function scoreSearchItem(item: GlobalSearchItem, query: string, tokens: string[]) {
+      const title = normalizeSearchText(item.title);
+      const genre = item.genre || '';
+      const haystack = normalizeSearchText(`${item.title} ${item.type} ${genre} ${item.year} ${item.status || ''}`);
+      if (tokens.length && !tokens.every(token => haystack.includes(token))) return -1;
+
+      let score = Number(item.rating || 0);
+      if (!query) return score;
+      if (title === query) score += 100;
+      else if (title.startsWith(query)) score += 55;
+      else if (title.includes(query)) score += 25;
+      if (normalizeSearchText(genre).includes(query)) score += 8;
+      return score;
+    }
+
+    function renderGlobalSearchResults() {
+      const input = document.getElementById('global-search-input') as HTMLInputElement | null;
+      const results = document.getElementById('global-search-results');
+      const meta = document.getElementById('global-search-meta');
+      if (!input || !results || !meta || !globalSearchItems) return;
+
+      const query = normalizeSearchText(input.value);
+      const tokens = query.split(/\s+/).filter(Boolean);
+      const matches = globalSearchItems
+        .map(item => ({ item, score: scoreSearchItem(item, query, tokens) }))
+        .filter(row => row.score >= 0)
+        .sort((a, b) => b.score - a.score || a.item.title.localeCompare(b.item.title))
+        .slice(0, 14)
+        .map(row => row.item);
+
+      meta.textContent = query ? `${matches.length} results` : 'Top rated media';
+
+      if (!matches.length) {
+        results.innerHTML = '<p class="global-search-empty">No matches.</p>';
+        return;
+      }
+
+      results.innerHTML = matches.map(item => {
+        const badgeClass = item.type === 'game' ? 'badge-game' : item.type === 'film' ? 'badge-film' : 'badge-anime';
+        const fallback = escapeHtml(item.title.slice(0, 1));
+        const image = item.cover
+          ? `<img src="${escapeHtml(item.cover)}" alt="" loading="lazy" decoding="async" onerror="this.hidden=true" />`
+          : '';
+        const primaryGenre = String(item.genre || '').split(',')[0] || 'N/A';
+        return `
+          <a class="global-search-result" href="${escapeHtml(item.url)}">
+            <span class="global-search-thumb">
+              <span>${fallback}</span>
+              ${image}
+            </span>
+            <span class="global-search-copy">
+              <strong>${escapeHtml(item.title)}</strong>
+              <small>${escapeHtml(primaryGenre)} - ${escapeHtml(String(item.year || 'N/A'))}</small>
+            </span>
+            <span class="badge ${badgeClass}">${typeLabel(item.type)}</span>
+            <span class="global-search-score">${escapeHtml(String(item.rating || 0))}</span>
+          </a>
+        `;
+      }).join('');
+    }
+
+    async function openGlobalSearch() {
+      const dialog = getSearchDialog();
+      if (!dialog) return;
+      dialog.hidden = false;
+      document.body.classList.add('search-open');
+      document.querySelectorAll('[data-search-open]').forEach(button => {
+        button.setAttribute('aria-expanded', 'true');
+      });
+
+      const input = document.getElementById('global-search-input') as HTMLInputElement | null;
+      const results = document.getElementById('global-search-results');
+      const meta = document.getElementById('global-search-meta');
+      if (meta && !globalSearchItems) meta.textContent = 'Loading...';
+      if (results && !globalSearchItems) results.innerHTML = '';
+
+      window.setTimeout(() => input?.focus(), 0);
+
+      try {
+        await loadGlobalSearchItems();
+        renderGlobalSearchResults();
+      } catch {
+        if (meta) meta.textContent = 'Search unavailable.';
+      }
+    }
+
+    function closeGlobalSearch() {
+      const dialog = getSearchDialog();
+      if (!dialog || dialog.hidden) return;
+      dialog.hidden = true;
+      document.body.classList.remove('search-open');
+      document.querySelectorAll('[data-search-open]').forEach(button => {
+        button.setAttribute('aria-expanded', 'false');
+      });
+    }
+
+    function shouldIgnoreSearchShortcut(event: KeyboardEvent) {
+      const target = event.target as HTMLElement | null;
+      if (!target) return false;
+      const tag = target.tagName;
+      return target.isContentEditable || tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT';
+    }
+
+    function initGlobalSearch() {
+      if (document.documentElement.dataset.globalSearchBound === 'true') return;
+      document.documentElement.dataset.globalSearchBound = 'true';
+
+      document.addEventListener('click', event => {
+        const target = event.target as HTMLElement | null;
+        if (!target) return;
+        if (target.closest('[data-search-open]')) {
+          event.preventDefault();
+          openGlobalSearch();
+        } else if (target.closest('[data-search-close]')) {
+          event.preventDefault();
+          closeGlobalSearch();
+        } else if (target.closest('.global-search-result')) {
+          closeGlobalSearch();
+        }
+      });
+
+      document.addEventListener('input', event => {
+        const target = event.target as HTMLElement | null;
+        if (target?.id === 'global-search-input') renderGlobalSearchResults();
+      });
+
+      document.addEventListener('keydown', event => {
+        if (event.key === 'Escape') {
+          closeGlobalSearch();
+          return;
+        }
+
+        const wantsSearch = (event.key === 'k' && (event.ctrlKey || event.metaKey)) ||
+          (event.key === '/' && !shouldIgnoreSearchShortcut(event));
+        if (!wantsSearch) return;
+
+        event.preventDefault();
+        openGlobalSearch();
+      });
+    }
+
     function init() {
+      initGlobalSearch();
+
       // Mobile nav toggle
-      const toggle = document.querySelector('.nav-toggle');
-      const links = document.querySelector('.nav-links');
-      if (toggle && links) {
+      const toggle = document.querySelector('.nav-toggle') as HTMLElement | null;
+      const links = document.querySelector('.nav-links') as HTMLElement | null;
+      if (toggle && links && toggle.dataset.navToggleBound !== 'true') {
+        toggle.dataset.navToggleBound = 'true';
         toggle.addEventListener('click', () => {
-          links.classList.toggle('open');
-          toggle.classList.toggle('open');
+          const isOpen = links.classList.toggle('open');
+          toggle.classList.toggle('open', isOpen);
+          toggle.setAttribute('aria-expanded', String(isOpen));
         });
       }
 
@@ -197,10 +446,22 @@ const absoluteImage = new URL(image || defaultImage, Astro.site).toString();
       }
     }
 
+    function closeTransientUi() {
+      closeGlobalSearch();
+      document.querySelector('.nav-links')?.classList.remove('open');
+      const toggle = document.querySelector('.nav-toggle') as HTMLElement | null;
+      toggle?.classList.remove('open');
+      toggle?.setAttribute('aria-expanded', 'false');
+    }
+
     // Run on initial load
     init();
     // Re-run after View Transitions navigate
-    document.addEventListener('astro:after-swap', init);
+    if (document.documentElement.dataset.baseLayoutEventsBound !== 'true') {
+      document.documentElement.dataset.baseLayoutEventsBound = 'true';
+      document.addEventListener('astro:page-load', init);
+      document.addEventListener('astro:before-swap', closeTransientUi);
+    }
   </script>
 </body>
 </html>

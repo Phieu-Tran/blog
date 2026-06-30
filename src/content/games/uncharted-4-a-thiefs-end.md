@@ -15,5 +15,6 @@ igdb_updated_at: 2026-06-30
 igdb_slug: uncharted-4-a-thief-s-end
 igdb_url: "https://www.igdb.com/games/uncharted-4-a-thief-s-end"
 publisher: "Sony Interactive Entertainment"
+igdb_personal: true
 ---
 

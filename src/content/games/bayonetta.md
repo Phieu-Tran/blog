@@ -16,5 +16,6 @@ igdb_slug: bayonetta
 igdb_url: "https://www.igdb.com/games/bayonetta"
 steam_url: "https://store.steampowered.com/app/460790/Bayonetta/"
 publisher: Sega
+igdb_personal: true
 ---
 

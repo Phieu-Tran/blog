@@ -15,5 +15,6 @@ igdb_updated_at: 2026-06-30
 igdb_slug: ghost-of-tsushima
 igdb_url: "https://www.igdb.com/games/ghost-of-tsushima"
 publisher: "Sony Interactive Entertainment"
+igdb_personal: true
 ---
 

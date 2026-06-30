@@ -15,5 +15,6 @@ igdb_updated_at: 2026-06-30
 igdb_slug: dark-souls
 igdb_url: "https://www.igdb.com/games/dark-souls"
 publisher: "Bandai Namco Entertainment"
+igdb_personal: true
 ---
 

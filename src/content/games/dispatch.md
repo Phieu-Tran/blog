@@ -13,5 +13,6 @@ igdb_id: 181267
 igdb_updated_at: 2026-06-30
 igdb_slug: dispatch--1
 igdb_url: "https://www.igdb.com/games/dispatch--1"
+igdb_personal: true
 ---
 

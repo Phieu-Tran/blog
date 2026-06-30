@@ -124,7 +124,10 @@ const searchJson = JSON.stringify(searchItems).replace(/</g, '\\u003c');
     }
 
     initNotFoundSearch();
-    document.addEventListener('astro:after-swap', initNotFoundSearch);
+    if (document.documentElement.dataset.notFoundSearchEventsBound !== 'true') {
+      document.documentElement.dataset.notFoundSearchEventsBound = 'true';
+      document.addEventListener('astro:page-load', initNotFoundSearch);
+    }
   </script>
 </BaseLayout>
 

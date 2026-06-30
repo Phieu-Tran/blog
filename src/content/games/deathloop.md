@@ -21,5 +21,6 @@ igdb_url: "https://www.igdb.com/games/deathloop"
 publisher: "Bethesda Softworks"
 steam_recent: false
 steam_recent_hours: 0
+igdb_personal: true
 ---
 

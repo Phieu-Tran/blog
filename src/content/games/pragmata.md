@@ -16,5 +16,6 @@ igdb_slug: pragmata
 igdb_url: "https://www.igdb.com/games/pragmata"
 steam_url: "https://store.steampowered.com/app/3357650/PRAGMATA/"
 publisher: Capcom
+igdb_personal: true
 ---
 

@@ -16,5 +16,6 @@ igdb_slug: kingdom-come-deliverance-ii
 igdb_url: "https://www.igdb.com/games/kingdom-come-deliverance-ii"
 steam_url: "https://store.steampowered.com/app/1771300"
 publisher: "Deep Silver"
+igdb_personal: true
 ---
 

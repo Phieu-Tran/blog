@@ -16,5 +16,6 @@ igdb_slug: nier-automata
 igdb_url: "https://www.igdb.com/games/nier-automata"
 steam_url: "https://store.steampowered.com/app/524220"
 publisher: "Square Enix"
+igdb_personal: true
 ---
 

@@ -16,5 +16,6 @@ igdb_slug: cuphead
 igdb_url: "https://www.igdb.com/games/cuphead"
 steam_url: "https://store.steampowered.com/app/268910"
 publisher: "Studio MDHR"
+igdb_personal: true
 ---
 

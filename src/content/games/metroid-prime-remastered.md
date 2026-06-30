@@ -15,5 +15,6 @@ igdb_updated_at: 2026-06-30
 igdb_slug: metroid-prime-remastered
 igdb_url: "https://www.igdb.com/games/metroid-prime-remastered"
 publisher: Nintendo
+igdb_personal: true
 ---
 

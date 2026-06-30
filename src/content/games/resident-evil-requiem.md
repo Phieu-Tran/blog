@@ -1,6 +1,6 @@
 ---
 title: "Resident Evil Requiem"
-rating: 9
+rating: 8
 genre: "Shooter, Puzzle, Adventure"
 year: 2026
 studio: "Capcom Development Division 1"
@@ -16,5 +16,6 @@ igdb_slug: resident-evil-requiem
 igdb_url: "https://www.igdb.com/games/resident-evil-requiem"
 steam_url: "https://store.steampowered.com/app/3764200/Resident_Evil_Requiem/"
 publisher: Capcom
+igdb_personal: true
 ---
 

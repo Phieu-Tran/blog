@@ -16,5 +16,6 @@ igdb_slug: elden-ring
 igdb_url: "https://www.igdb.com/games/elden-ring"
 steam_url: "https://store.steampowered.com/app/1245620"
 publisher: "Bandai Namco Entertainment, FromSoftware"
+igdb_personal: true
 ---
 

@@ -152,6 +152,10 @@ function inferGameSource(existing) {
   return 'manual';
 }
 
+function isIgdbPersonal(existing) {
+  return existing.igdb_personal === true || String(existing.igdb_personal || '').toLowerCase() === 'true';
+}
+
 function normalizePlatformName(name) {
   const value = String(name || '').trim();
   const aliases = {
@@ -385,7 +389,10 @@ async function main() {
     const existingIgdbId = Number(entry.frontmatter.igdb_id);
     const appId = Number(entry.frontmatter.steam_appid);
     const mappedIgdbId = Number.isFinite(appId) ? appToIgdb.get(String(appId)) : undefined;
-    const igdbId = mappedIgdbId || (Number.isFinite(existingIgdbId) ? existingIgdbId : undefined);
+    const explicitPersonalIgdbId = isIgdbPersonal(entry.frontmatter) && Number.isFinite(existingIgdbId)
+      ? existingIgdbId
+      : undefined;
+    const igdbId = explicitPersonalIgdbId || mappedIgdbId || (Number.isFinite(existingIgdbId) ? existingIgdbId : undefined);
     if (igdbId) entryToIgdb.set(entry.file, igdbId);
   }
 

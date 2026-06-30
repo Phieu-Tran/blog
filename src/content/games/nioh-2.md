@@ -15,5 +15,6 @@ igdb_updated_at: 2026-06-30
 igdb_slug: nioh-2
 igdb_url: "https://www.igdb.com/games/nioh-2"
 publisher: "Koei Tecmo Games, Sony Interactive Entertainment"
+igdb_personal: true
 ---
 

@@ -15,5 +15,6 @@ igdb_updated_at: 2026-06-30
 igdb_slug: horizon-zero-dawn
 igdb_url: "https://www.igdb.com/games/horizon-zero-dawn"
 publisher: "Sony Interactive Entertainment"
+igdb_personal: true
 ---
 

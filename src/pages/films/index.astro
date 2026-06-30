@@ -21,7 +21,7 @@ const base = import.meta.env.BASE_URL;
         <a href={`${base}films/${item.id}/`} class="top-card" data-type="film">
           <span class="top-rank">#{i + 1}</span>
           <span class="cover-fallback">{item.data.title.slice(0, 1)}</span>
-          {item.data.cover && <img src={item.data.cover} alt={item.data.title} loading="lazy" onerror="this.hidden=true" />}
+          {item.data.cover && <img src={item.data.cover} alt={item.data.title} loading="lazy" decoding="async" onerror="this.hidden=true" />}
           <div class="top-overlay">
             <p class="top-title">{item.data.title}</p>
             <div class="top-scores">
@@ -76,7 +76,7 @@ const base = import.meta.env.BASE_URL;
     </p>
   </section>
 
-  <div class="media-grid" id="media-grid">
+  <div class="media-grid" id="media-grid" data-filter-page="films">
     {allFilms.map((item, i) => (
       <div class="filter-item"
         data-title={item.data.title.toLowerCase()}
@@ -117,9 +117,25 @@ const base = import.meta.env.BASE_URL;
       const grid = document.getElementById('media-grid');
       const count = document.getElementById('count');
       if (!search || !genre || !status || !source || !sort || !grid || !count) return;
+      if (grid.dataset.filterPage !== 'films') return;
+      if (grid.dataset.filterBound === 'films') return;
+      grid.dataset.filterBound = 'films';
       let quick = '';
 
+      function preserveScroll() {
+        const x = window.scrollX;
+        const y = window.scrollY;
+        window.requestAnimationFrame(() => {
+          const root = document.documentElement;
+          const previousScrollBehavior = root.style.scrollBehavior;
+          root.style.scrollBehavior = 'auto';
+          window.scrollTo(x, y);
+          root.style.scrollBehavior = previousScrollBehavior;
+        });
+      }
+
       function apply() {
+        preserveScroll();
         const q = search.value.toLowerCase();
         const g = genre.value.toLowerCase();
         const s = status.value;
@@ -163,7 +179,8 @@ const base = import.meta.env.BASE_URL;
       source.addEventListener('change', apply);
       sort.addEventListener('change', apply);
       quickButtons.forEach(button => {
-        button.addEventListener('click', () => {
+        button.addEventListener('click', event => {
+          event.preventDefault();
           quick = button.dataset.quick || '';
           quickButtons.forEach(item => item.classList.toggle('active', item === button));
           apply();
@@ -171,6 +188,9 @@ const base = import.meta.env.BASE_URL;
       });
     }
     initFilters();
-    document.addEventListener('astro:after-swap', initFilters);
+    if (document.documentElement.dataset.filmFiltersEventsBound !== 'true') {
+      document.documentElement.dataset.filmFiltersEventsBound = 'true';
+      document.addEventListener('astro:page-load', initFilters);
+    }
   </script>
 </BaseLayout>

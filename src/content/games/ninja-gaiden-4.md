@@ -16,5 +16,6 @@ igdb_slug: ninja-gaiden-4
 igdb_url: "https://www.igdb.com/games/ninja-gaiden-4"
 steam_url: "https://store.steampowered.com/app/2627260"
 publisher: "Xbox Game Studios"
+igdb_personal: true
 ---
 

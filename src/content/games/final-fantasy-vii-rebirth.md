@@ -16,5 +16,6 @@ igdb_slug: final-fantasy-vii-rebirth
 igdb_url: "https://www.igdb.com/games/final-fantasy-vii-rebirth"
 steam_url: "https://store.steampowered.com/app/2909400/FINAL_FANTASY_VII_REBIRTH/"
 publisher: "Square Enix"
+igdb_personal: true
 ---
 

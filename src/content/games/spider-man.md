@@ -15,4 +15,5 @@ igdb_updated_at: 2026-06-30
 igdb_slug: marvels-spider-man
 igdb_url: "https://www.igdb.com/games/marvels-spider-man"
 publisher: "Sony Interactive Entertainment"
+igdb_personal: true
 ---

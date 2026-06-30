@@ -15,5 +15,6 @@ igdb_updated_at: 2026-06-30
 igdb_slug: 13-sentinels-aegis-rim
 igdb_url: "https://www.igdb.com/games/13-sentinels-aegis-rim"
 publisher: "Atlus, Sega"
+igdb_personal: true
 ---
 

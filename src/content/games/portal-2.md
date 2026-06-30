@@ -21,5 +21,6 @@ igdb_url: "https://www.igdb.com/games/portal-2"
 publisher: "Valve, Electronic Arts"
 steam_recent: false
 steam_recent_hours: 0
+igdb_personal: true
 ---
 

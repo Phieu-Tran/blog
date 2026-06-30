@@ -16,5 +16,6 @@ igdb_slug: hogwarts-legacy
 igdb_url: "https://www.igdb.com/games/hogwarts-legacy"
 steam_url: "https://store.steampowered.com/app/990080"
 publisher: "Warner Bros. Games"
+igdb_personal: true
 ---
 

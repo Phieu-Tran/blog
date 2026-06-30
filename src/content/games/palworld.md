@@ -16,5 +16,6 @@ igdb_slug: palworld
 igdb_url: "https://www.igdb.com/games/palworld"
 steam_url: "https://store.steampowered.com/app/1623730/Palworld"
 publisher: PocketPair
+igdb_personal: true
 ---
 

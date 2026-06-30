@@ -1,6 +1,6 @@
 ---
 title: "Red Dead Redemption 2"
-rating: 10
+rating: 9
 genre: "Shooter, Role-playing (RPG), Adventure"
 year: 2018
 studio: "Rockstar Games"
@@ -16,5 +16,6 @@ igdb_slug: red-dead-redemption-2
 igdb_url: "https://www.igdb.com/games/red-dead-redemption-2"
 steam_url: "https://store.steampowered.com/app/1174180"
 publisher: "Take-Two Interactive, Rockstar Games"
+igdb_personal: true
 ---
 

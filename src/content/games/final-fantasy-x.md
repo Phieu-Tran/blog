@@ -15,5 +15,6 @@ igdb_updated_at: 2026-06-30
 igdb_slug: final-fantasy-x
 igdb_url: "https://www.igdb.com/games/final-fantasy-x"
 publisher: "Square Electronic Arts, Square"
+igdb_personal: true
 ---
 

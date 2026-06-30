@@ -16,5 +16,6 @@ igdb_slug: assassins-creed-mirage
 igdb_url: "https://www.igdb.com/games/assassins-creed-mirage"
 steam_url: "https://store.steampowered.com/app/3035570"
 publisher: "Ubisoft Entertainment"
+igdb_personal: true
 ---
 

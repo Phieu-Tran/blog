@@ -1,6 +1,6 @@
 ---
 title: "Assassin's Creed Valhalla"
-rating: 4
+rating: 5
 genre: "Role-playing (RPG), Adventure"
 year: 2020
 studio: "Ubisoft Montreal"
@@ -16,5 +16,6 @@ igdb_slug: assassins-creed-valhalla
 igdb_url: "https://www.igdb.com/games/assassins-creed-valhalla"
 steam_url: "https://store.steampowered.com/app/2208920"
 publisher: "Ubisoft Entertainment"
+igdb_personal: true
 ---
 

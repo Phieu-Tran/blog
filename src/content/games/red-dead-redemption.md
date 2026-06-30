@@ -1,6 +1,6 @@
 ---
 title: "Red Dead Redemption"
-rating: 9
+rating: 8
 genre: "Shooter, Role-playing (RPG), Adventure"
 year: 2010
 studio: "Rockstar North, Rockstar San Diego"
@@ -16,5 +16,6 @@ igdb_slug: red-dead-redemption
 igdb_url: "https://www.igdb.com/games/red-dead-redemption"
 steam_url: "https://store.steampowered.com/app/2668510/Red_Dead_Redemption/"
 publisher: "Rockstar Games, Take-Two Interactive"
+igdb_personal: true
 ---
 

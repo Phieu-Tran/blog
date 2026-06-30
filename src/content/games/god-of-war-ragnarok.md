@@ -1,6 +1,6 @@
 ---
 title: "God of War Ragnarök"
-rating: 7
+rating: 6
 genre: "Role-playing (RPG), Hack and slash/Beat 'em up, Adventure"
 year: 2022
 studio: "SIE Santa Monica Studio"
@@ -16,5 +16,6 @@ igdb_slug: god-of-war-ragnarok
 igdb_url: "https://www.igdb.com/games/god-of-war-ragnarok"
 steam_url: "https://store.steampowered.com/app/2322010/God_of_War_Ragnark/"
 publisher: "Sony Interactive Entertainment"
+igdb_personal: true
 ---
 

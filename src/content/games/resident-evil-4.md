@@ -16,5 +16,6 @@ igdb_slug: resident-evil-4--3
 igdb_url: "https://www.igdb.com/games/resident-evil-4--3"
 steam_url: "https://store.steampowered.com/app/254700"
 publisher: Capcom
+igdb_personal: true
 ---
 

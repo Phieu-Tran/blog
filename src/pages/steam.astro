@@ -16,7 +16,7 @@ const base = import.meta.env.BASE_URL;
   <div class="steam-header">
     <div class="steam-profile">
       <div class="steam-avatar">
-        <img src="https://avatars.steamstatic.com/19c6fa0ba96030c8cc25130dca324362ee965212_full.jpg" alt="avatar"
+        <img src="https://avatars.steamstatic.com/19c6fa0ba96030c8cc25130dca324362ee965212_full.jpg" alt="avatar" decoding="async"
           onerror="this.style.display='none'" />
         <span class="steam-avatar-fallback">R</span>
       </div>
@@ -48,7 +48,7 @@ const base = import.meta.env.BASE_URL;
       <div class="steam-playing-grid">
         {recentGames.map(game => (
           <a href={`${base}games/${game.id}/`} class="steam-playing-card">
-            <img src={game.data.cover} alt={game.data.title} />
+            <img src={game.data.cover} alt={game.data.title} loading="lazy" decoding="async" />
             <div class="steam-playing-info">
               <p class="steam-playing-title">{game.data.title}</p>
               <p class="steam-playing-hours">
@@ -71,7 +71,7 @@ const base = import.meta.env.BASE_URL;
       const barWidth = Math.max(2, (hours / maxHours) * 100);
       return (
         <a href={`${base}games/${game.id}/`} class="steam-game-row" style={`animation-delay: ${i * 0.02}s`}>
-          <img src={game.data.cover} alt={game.data.title} class="steam-game-thumb" />
+          <img src={game.data.cover} alt={game.data.title} class="steam-game-thumb" loading="lazy" decoding="async" />
           <div class="steam-game-info">
             <p class="steam-game-title">{game.data.title}</p>
             <div class="steam-game-bar-bg">

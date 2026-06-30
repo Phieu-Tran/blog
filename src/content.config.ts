@@ -50,6 +50,7 @@ const games = defineCollection({
     author: z.string().optional(),
     status: z.enum(['playing', 'completed', 'plan', 'dropped']),
     source: z.enum(['steam', 'igdb', 'manual']).default('manual'),
+    igdb_personal: z.boolean().optional(),
     platform: z.string(),
     playtime_hours: z.number().optional(),
     steam_recent: z.boolean().optional(),

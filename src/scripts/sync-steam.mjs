@@ -148,6 +148,8 @@ async function main() {
 
       for (const [k, v] of Object.entries(frontmatterData)) {
         if (v === undefined || v === null) continue;
+        if (k === 'title' && merged.title) continue;
+        if (k === 'source' && merged.source) continue;
         if (k === 'rating' && Number(merged.rating) > 0) continue;
         if (k === 'genre' && merged.genre !== 'N/A') continue;
         if (k === 'studio' && merged.studio !== 'N/A') continue;

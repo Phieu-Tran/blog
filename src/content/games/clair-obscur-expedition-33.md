@@ -16,5 +16,6 @@ igdb_slug: clair-obscur-expedition-33
 igdb_url: "https://www.igdb.com/games/clair-obscur-expedition-33"
 steam_url: "https://store.steampowered.com/app/1903340"
 publisher: "Kepler Interactive"
+igdb_personal: true
 ---
 

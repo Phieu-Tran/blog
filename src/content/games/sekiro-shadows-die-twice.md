@@ -16,5 +16,6 @@ igdb_slug: sekiro-shadows-die-twice
 igdb_url: "https://www.igdb.com/games/sekiro-shadows-die-twice"
 steam_url: "https://store.steampowered.com/app/814380"
 publisher: Activision
+igdb_personal: true
 ---
 

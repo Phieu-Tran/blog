@@ -16,5 +16,6 @@ igdb_slug: elden-ring-nightreign
 igdb_url: "https://www.igdb.com/games/elden-ring-nightreign"
 steam_url: "https://store.steampowered.com/app/2622380"
 publisher: "Bandai Namco Entertainment"
+igdb_personal: true
 ---
 

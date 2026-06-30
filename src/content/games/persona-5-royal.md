@@ -16,5 +16,6 @@ igdb_slug: persona-5-royal
 igdb_url: "https://www.igdb.com/games/persona-5-royal"
 steam_url: "https://store.steampowered.com/app/1687950"
 publisher: "Sega, Atlus"
+igdb_personal: true
 ---
 

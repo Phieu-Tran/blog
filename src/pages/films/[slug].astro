@@ -63,7 +63,7 @@ const metaItems = [
     <div class="media-detail-grid">
       <aside class="detail-side">
         {cover ? (
-          <img src={cover} alt={title} class="detail-cover" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+          <img src={cover} alt={title} class="detail-cover" decoding="async" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
         ) : null}
         <span class="detail-cover-fallback" hidden={Boolean(cover)}>{title.slice(0, 1)}</span>
 

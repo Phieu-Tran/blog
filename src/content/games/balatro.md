@@ -16,5 +16,6 @@ igdb_slug: balatro
 igdb_url: "https://www.igdb.com/games/balatro"
 steam_url: "https://store.steampowered.com/app/2379780"
 publisher: Playstack
+igdb_personal: true
 ---
 

@@ -21,5 +21,6 @@ igdb_url: "https://www.igdb.com/games/the-witcher-3-wild-hunt"
 publisher: "WB Games, cdp.pl, Spike Chunsoft, Bandai Namco Entertainment"
 steam_recent: false
 steam_recent_hours: 0
+igdb_personal: true
 ---
 

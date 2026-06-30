@@ -15,5 +15,6 @@ igdb_updated_at: 2026-06-30
 igdb_slug: the-last-of-us-part-ii
 igdb_url: "https://www.igdb.com/games/the-last-of-us-part-ii"
 publisher: "Sony Interactive Entertainment"
+igdb_personal: true
 ---
 

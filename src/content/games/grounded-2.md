@@ -16,5 +16,6 @@ igdb_slug: grounded-2
 igdb_url: "https://www.igdb.com/games/grounded-2"
 steam_url: "https://store.steampowered.com/app/2661300"
 publisher: "Xbox Game Studios"
+igdb_personal: true
 ---
 

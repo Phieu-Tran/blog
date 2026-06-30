@@ -16,5 +16,6 @@ igdb_slug: dead-island-2
 igdb_url: "https://www.igdb.com/games/dead-island-2"
 steam_url: "https://store.steampowered.com/app/934700"
 publisher: "Deep Silver"
+igdb_personal: true
 ---
 

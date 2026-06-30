@@ -15,5 +15,6 @@ igdb_updated_at: 2026-06-30
 igdb_slug: hades
 igdb_url: "https://www.igdb.com/games/hades"
 publisher: "LG Software"
+igdb_personal: true
 ---
 

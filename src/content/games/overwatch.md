@@ -15,5 +15,6 @@ igdb_updated_at: 2026-06-30
 igdb_slug: overwatch
 igdb_url: "https://www.igdb.com/games/overwatch"
 publisher: "Blizzard Entertainment, Square Enix"
+igdb_personal: true
 ---
 

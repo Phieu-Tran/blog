@@ -15,5 +15,6 @@ igdb_updated_at: 2026-06-30
 igdb_slug: bayonetta-2
 igdb_url: "https://www.igdb.com/games/bayonetta-2"
 publisher: Nintendo
+igdb_personal: true
 ---
 

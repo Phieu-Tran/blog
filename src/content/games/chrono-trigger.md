@@ -1,6 +1,6 @@
 ---
 title: "Chrono Trigger"
-rating: 10
+rating: 9
 genre: "Role-playing (RPG)"
 year: 1995
 studio: "Bird Studio, Square"
@@ -15,5 +15,6 @@ igdb_updated_at: 2026-06-30
 igdb_slug: chrono-trigger
 igdb_url: "https://www.igdb.com/games/chrono-trigger"
 publisher: Square
+igdb_personal: true
 ---
 

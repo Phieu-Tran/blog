@@ -16,5 +16,6 @@ igdb_slug: metaphor-refantazio
 igdb_url: "https://www.igdb.com/games/metaphor-refantazio"
 steam_url: "https://store.steampowered.com/app/2679460/Metaphor_ReFantazio/"
 publisher: "Atlus, Sega"
+igdb_personal: true
 ---
 

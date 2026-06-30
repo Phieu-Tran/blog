@@ -4,14 +4,20 @@
  * Import personal IGDB GDPR export data into src/content/games.
  *
  * Usage:
- *   node src/scripts/import-igdb-gdpr.mjs path/to/index.html
+ *   node src/scripts/import-igdb-gdpr.mjs path/to/index.html [--delete-missing] [--delete-dry-run] [--max-delete=200]
  */
 
 import fs from 'fs';
 import path from 'path';
 
 const GAMES_DIR = path.resolve('src/content/games');
-const inputPath = process.argv[2];
+const args = process.argv.slice(2);
+const inputPath = args.find(arg => !arg.startsWith('--'));
+const DELETE_MISSING = args.includes('--delete-missing');
+const DELETE_DRY_RUN = args.includes('--delete-dry-run');
+const maxDeleteArg = args.find(arg => arg.startsWith('--max-delete='));
+const parsedMaxDelete = Number(maxDeleteArg?.split('=')[1] || process.env.IGDB_IMPORT_MAX_DELETE || 20);
+const MAX_DELETE = Number.isFinite(parsedMaxDelete) ? Math.max(0, Math.floor(parsedMaxDelete)) : 20;
 
 function decodeHtml(value = '') {
   return String(value)
@@ -80,6 +86,8 @@ function parseFrontmatter(content) {
     const key = line.slice(0, idx).trim();
     let val = line.slice(idx + 1).trim();
     if (val.startsWith('"') && val.endsWith('"')) val = val.slice(1, -1).replace(/\\"/g, '"');
+    else if (val === 'true') val = true;
+    else if (val === 'false') val = false;
     else if (!isNaN(val) && val !== '') val = Number(val);
     fm[key] = val;
   });
@@ -175,8 +183,67 @@ function existingGameIndex() {
   return index;
 }
 
+function normalizeLineEndings(value) {
+  return String(value).replace(/\r\n/g, '\n');
+}
+
 function writeGame(file, frontmatter, body) {
-  fs.writeFileSync(path.join(GAMES_DIR, file), buildFrontmatter(frontmatter) + body);
+  const filepath = path.join(GAMES_DIR, file);
+  const nextContent = buildFrontmatter(frontmatter) + body;
+  if (fs.existsSync(filepath)) {
+    const currentContent = fs.readFileSync(filepath, 'utf-8');
+    if (normalizeLineEndings(currentContent) === normalizeLineEndings(nextContent)) return false;
+  }
+  fs.writeFileSync(filepath, nextContent);
+  return true;
+}
+
+function isSteamBacked(frontmatter) {
+  const source = String(frontmatter.source || '').toLowerCase();
+  const steamAppId = Number(frontmatter.steam_appid);
+  return source === 'steam' || Number.isFinite(steamAppId);
+}
+
+function isIgdbPersonal(frontmatter) {
+  return frontmatter.igdb_personal === true || String(frontmatter.igdb_personal || '').toLowerCase() === 'true';
+}
+
+function deleteMissingGames(keys) {
+  const entries = listMarkdownEntries(GAMES_DIR);
+  const candidates = entries.filter(entry => {
+    if (isSteamBacked(entry.frontmatter)) return false;
+    if (!isIgdbPersonal(entry.frontmatter)) return false;
+
+    const title = entry.frontmatter.title || path.basename(entry.file, '.md');
+    const aliases = [
+      normalizeTitle(title),
+      normalizeTitle(path.basename(entry.file, '.md').replace(/-/g, ' ')),
+    ];
+    return !aliases.some(key => keys.has(key));
+  });
+
+  if (!candidates.length) {
+    console.log('Delete missing: 0 IGDB-personal non-Steam candidates.');
+    return { deleted: 0, candidates: 0 };
+  }
+
+  console.log(`Delete missing IGDB-personal non-Steam candidates (${candidates.length}):`);
+  for (const entry of candidates) console.log(`- ${entry.file}`);
+
+  if (DELETE_DRY_RUN) {
+    console.log('Delete missing dry-run: no files removed.');
+    return { deleted: 0, candidates: candidates.length };
+  }
+
+  if (candidates.length > MAX_DELETE) {
+    throw new Error(`Refusing to delete ${candidates.length} games; exceeds --max-delete=${MAX_DELETE}.`);
+  }
+
+  for (const entry of candidates) {
+    fs.unlinkSync(path.join(GAMES_DIR, entry.file));
+  }
+
+  return { deleted: candidates.length, candidates: candidates.length };
 }
 
 function main() {
@@ -200,6 +267,7 @@ function main() {
 
   let created = 0;
   let updated = 0;
+  let unchanged = 0;
 
   for (const key of [...keys].sort()) {
     const rating = ratings.get(key);
@@ -215,10 +283,11 @@ function main() {
       if (rating) merged.rating = rating.rating;
       if (played.has(key) && (!merged.status || merged.status === 'plan')) merged.status = 'completed';
       if (!merged.source) merged.source = 'igdb';
+      merged.igdb_personal = true;
       if (!merged.platform || merged.platform === 'IGDB') merged.platform = 'Unknown';
       if (!merged.date) merged.date = date;
-      writeGame(current.file, merged, current.body);
-      updated++;
+      if (writeGame(current.file, merged, current.body)) updated++;
+      else unchanged++;
       continue;
     }
 
@@ -231,6 +300,7 @@ function main() {
       studio: 'N/A',
       status: played.has(key) ? 'completed' : 'plan',
       source: 'igdb',
+      igdb_personal: true,
       platform: 'Unknown',
       date,
     };
@@ -240,7 +310,12 @@ function main() {
   }
 
   console.log(`Imported IGDB GDPR export: ${ratings.size} ratings, ${played.size} played entries.`);
-  console.log(`Games updated: ${updated}, created: ${created}.`);
+  console.log(`Games updated: ${updated}, created: ${created}, unchanged: ${unchanged}.`);
+
+  if (DELETE_MISSING || DELETE_DRY_RUN) {
+    const deletion = deleteMissingGames(keys);
+    console.log(`Games deleted: ${deletion.deleted}.`);
+  }
 }
 
 main();

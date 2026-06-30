@@ -16,5 +16,6 @@ igdb_slug: black-myth-wukong
 igdb_url: "https://www.igdb.com/games/black-myth-wukong"
 steam_url: "https://store.steampowered.com/app/2358720"
 publisher: "Game Science"
+igdb_personal: true
 ---
 

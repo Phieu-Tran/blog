@@ -16,5 +16,6 @@ igdb_slug: forza-horizon-5
 igdb_url: "https://www.igdb.com/games/forza-horizon-5"
 steam_url: "https://store.steampowered.com/app/1551360"
 publisher: "Xbox Game Studios, Microsoft Corporation"
+igdb_personal: true
 ---
 

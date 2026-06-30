@@ -239,7 +239,10 @@ const mediaCounts = {
     }
 
     initPostFilters();
-    document.addEventListener('astro:after-swap', initPostFilters);
+    if (document.documentElement.dataset.postFiltersEventsBound !== 'true') {
+      document.documentElement.dataset.postFiltersEventsBound = 'true';
+      document.addEventListener('astro:page-load', initPostFilters);
+    }
   </script>
 </BaseLayout>
 

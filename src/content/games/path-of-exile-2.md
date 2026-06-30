@@ -16,5 +16,6 @@ igdb_slug: path-of-exile-2
 igdb_url: "https://www.igdb.com/games/path-of-exile-2"
 steam_url: "https://store.steampowered.com/app/2694490"
 publisher: "Grinding Gear Games, Kakao Games"
+igdb_personal: true
 ---
 

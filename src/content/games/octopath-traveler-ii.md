@@ -16,5 +16,6 @@ igdb_slug: octopath-traveler-ii
 igdb_url: "https://www.igdb.com/games/octopath-traveler-ii"
 steam_url: "https://store.steampowered.com/app/1971650"
 publisher: "Square Enix"
+igdb_personal: true
 ---
 

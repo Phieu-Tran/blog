@@ -21,5 +21,6 @@ igdb_url: "https://www.igdb.com/games/deep-rock-galactic"
 publisher: "Coffee Stain Publishing"
 steam_recent: false
 steam_recent_hours: 0
+igdb_personal: true
 ---
 

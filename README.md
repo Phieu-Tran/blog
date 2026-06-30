@@ -35,7 +35,7 @@ npm run sync-imdb-to-tmdb # Dry-run sync IMDb-backed repo ratings back to TMDB a
 npm run sync-tmdb    # Sync/enrich films from TMDB
 npm run sync-steam   # Sync games from Steam
 npm run sync-igdb    # Enrich games from IGDB metadata
-npm run import-igdb-gdpr -- path/to/index.html # Import IGDB GDPR ratings/played export
+npm run import-igdb-gdpr -- path/to/index.html # Import IGDB GDPR ratings/played export; --delete-missing prunes only IGDB-personal non-Steam games absent from the export
 npm run normalize-games # Normalize game source/platform frontmatter
 npm run cache-images:check # Report remaining remote image URLs
 npm run cache-images # Cache remote content images to public/media-cache and rewrite URLs
@@ -49,7 +49,7 @@ npm run build        # Build site
 |---------|-----------|-------------|
 | Anime | `src/content/anime/` | `title, mal_id, rating, mal_score, genre, year, studio, director, creator, writer, composer, author, status, episodes_watched, episodes_total, cover, updated_at, date` |
 | Films | `src/content/films/` | `title, imdb_id, tmdb_id, tmdb_type, rating, imdb_score, tmdb_score, genre, year, director, creator, writer, composer, author, status, cover, date` |
-| Games | `src/content/games/` | `title, steam_appid, igdb_id, igdb_slug, igdb_url, steam_url, ign_url, metacritic_url, official_url, rating, igdb_score, genre, year, studio, publisher, director, creator, writer, composer, author, status, source, platform, playtime_hours, steam_recent, steam_recent_hours, cover, igdb_updated_at, date` |
+| Games | `src/content/games/` | `title, steam_appid, igdb_id, igdb_slug, igdb_url, steam_url, ign_url, metacritic_url, official_url, rating, igdb_score, genre, year, studio, publisher, director, creator, writer, composer, author, status, source, igdb_personal, platform, playtime_hours, steam_recent, steam_recent_hours, cover, igdb_updated_at, date` |
 | Posts | `src/content/posts/` | `title, description, tags, related_media, cover, date, draft` |
 
 ## SEO, Sharing, and Images
@@ -81,7 +81,8 @@ npm run build        # Build site
 - Steam recent activity is stored as `steam_recent`/`steam_recent_hours` and rendered as "Recently Played". It is not treated as the personal `status: playing`.
 - IGDB is the metadata source for games. Weekly sync maps `steam_appid` through IGDB `external_games`, stores `igdb_id`, and refreshes `title`, `genre`, `studio`, `publisher`, `year`, `platform`, `cover`, `igdb_score`, `igdb_url`, `steam_url`, `official_url`, and any IGN/Metacritic links IGDB exposes.
 - Steam sync sets `source: steam` and keeps playtime/recent activity fresh. It does not use `platform: Steam`; new Steam entries start as `platform: PC` until IGDB enrichment can refine the platform list.
-- IGDB GDPR export imports personal `rating` and `Played` list data into local game markdown. The metadata sync can then exact-match titles against IGDB to fill missing `igdb_id`.
+- IGDB GDPR export imports personal `rating` and `Played` list data into local game markdown and marks those entries with `igdb_personal: true`. The metadata sync can then exact-match titles against IGDB to fill missing `igdb_id`.
+- Current IGDB personal workflow: export GDPR data from IGDB, import the exported `index.html` with `npm run import-igdb-gdpr -- path/to/index.html --delete-missing --max-delete=200`, then run `npm run sync-igdb` in an environment with IGDB/Twitch credentials to enrich newly imported games. Use `--delete-dry-run` first when checking which local games are absent from the export. The prune step only removes IGDB-personal non-Steam entries, and preserves Steam-backed games (`source: steam` or `steam_appid`) because Steam remains a separate library source.
 - Local markdown remains where the site stores `rating`, `status`, and notes/body content. IGDB metadata sync does not overwrite those fields.
 - Non-Steam games are enriched by IGDB when an `igdb_id` exists, or by exact title match for imported IGDB GDPR entries.
 - Game detail pages show external links for IGDB, IGN, Metacritic, Steam, and Official. IGDB/Steam/Official are filled from metadata when available; IGN and Metacritic fall back to search links when exact URLs are not present.

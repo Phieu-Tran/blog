@@ -1,6 +1,6 @@
 ---
 title: "Baldur's Gate III"
-rating: 9
+rating: 8
 genre: "Role-playing (RPG), Strategy, Turn-based strategy (TBS)"
 year: 2023
 studio: "Larian Studios"
@@ -16,6 +16,7 @@ igdb_slug: baldurs-gate-iii
 igdb_url: "https://www.igdb.com/games/baldurs-gate-iii"
 steam_url: "https://store.steampowered.com/app/1086940"
 publisher: "Larian Studios"
+igdb_personal: true
 ---
 
 GOTY 2023 xứng đáng. BG3 đặt lại tiêu chuẩn cho RPG với mức độ tự do gần như vô hạn trong mọi quyết định.

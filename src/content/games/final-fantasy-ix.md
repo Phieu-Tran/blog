@@ -1,6 +1,6 @@
 ---
 title: "Final Fantasy IX"
-rating: 9
+rating: 8
 genre: "Role-playing (RPG), Adventure"
 year: 2000
 studio: "Square USA, Square Product Development Division 1"
@@ -15,5 +15,6 @@ igdb_updated_at: 2026-06-30
 igdb_slug: final-fantasy-ix
 igdb_url: "https://www.igdb.com/games/final-fantasy-ix"
 publisher: "Square, Square Electronic Arts, Square Enix"
+igdb_personal: true
 ---
 

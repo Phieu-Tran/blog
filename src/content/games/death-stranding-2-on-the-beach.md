@@ -16,5 +16,6 @@ igdb_slug: death-stranding-2-on-the-beach
 igdb_url: "https://www.igdb.com/games/death-stranding-2-on-the-beach"
 steam_url: "https://store.steampowered.com/app/3280350/"
 publisher: "Sony Interactive Entertainment, Kojima Productions"
+igdb_personal: true
 ---
 

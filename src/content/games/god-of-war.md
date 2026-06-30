@@ -16,5 +16,6 @@ igdb_slug: god-of-war--1
 igdb_url: "https://www.igdb.com/games/god-of-war--1"
 steam_url: "https://store.steampowered.com/app/1593500/God_of_War?snr=1_7_15__13"
 publisher: "Sony Interactive Entertainment"
+igdb_personal: true
 ---
 

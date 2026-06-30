@@ -16,5 +16,6 @@ igdb_slug: dragon-age-origins
 igdb_url: "https://www.igdb.com/games/dragon-age-origins"
 steam_url: "https://store.steampowered.com/app/17450"
 publisher: "Electronic Arts"
+igdb_personal: true
 ---
 

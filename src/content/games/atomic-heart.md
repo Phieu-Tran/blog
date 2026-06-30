@@ -16,5 +16,6 @@ igdb_slug: atomic-heart
 igdb_url: "https://www.igdb.com/games/atomic-heart"
 steam_url: "https://store.steampowered.com/app/668580"
 publisher: "Focus Entertainment"
+igdb_personal: true
 ---
 

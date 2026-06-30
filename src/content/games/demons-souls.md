@@ -1,6 +1,6 @@
 ---
 title: "Demon's Souls"
-rating: 10
+rating: 8
 genre: "Role-playing (RPG), Hack and slash/Beat 'em up, Adventure"
 year: 2020
 studio: "Bluepoint Games"
@@ -15,5 +15,6 @@ igdb_updated_at: 2026-06-30
 igdb_slug: demons-souls
 igdb_url: "https://www.igdb.com/games/demons-souls"
 publisher: "Sony Interactive Entertainment"
+igdb_personal: true
 ---
 

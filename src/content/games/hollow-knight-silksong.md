@@ -1,6 +1,6 @@
 ---
 title: "Hollow Knight Silksong"
-rating: 9
+rating: 8
 genre: "Platform, Adventure"
 year: 2021
 studio: Elvies
@@ -14,5 +14,6 @@ igdb_updated_at: 2026-06-30
 igdb_slug: hollow-knight-silksong--2
 igdb_url: "https://www.igdb.com/games/hollow-knight-silksong--2"
 publisher: Elvies
+igdb_personal: true
 ---
 

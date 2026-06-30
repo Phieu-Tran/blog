@@ -16,5 +16,6 @@ igdb_slug: cyberpunk-2077
 igdb_url: "https://www.igdb.com/games/cyberpunk-2077"
 steam_url: "https://store.steampowered.com/app/1091500"
 publisher: "CD Projekt"
+igdb_personal: true
 ---
 

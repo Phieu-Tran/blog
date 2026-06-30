@@ -16,5 +16,6 @@ igdb_slug: elden-ring-shadow-of-the-erdtree
 igdb_url: "https://www.igdb.com/games/elden-ring-shadow-of-the-erdtree"
 steam_url: "https://store.steampowered.com/app/2778580"
 publisher: "Bandai Namco Entertainment"
+igdb_personal: true
 ---
 

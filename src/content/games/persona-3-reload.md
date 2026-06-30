@@ -9,5 +9,6 @@ source: igdb
 platform: Multi-platform
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8krp.jpg"
 date: 2026-03-30
+igdb_personal: true
 ---
 

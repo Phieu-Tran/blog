@@ -6,7 +6,7 @@ export default defineConfig({
   base: '/',
   integrations: [
     sitemap({
-      filter: page => !page.includes('/og/') && !page.endsWith('/rss.xml'),
+      filter: page => !page.includes('/og/') && !page.endsWith('/rss.xml') && !page.endsWith('/search-index.json'),
       serialize(item) {
         if (item.url === 'https://blog.workspacesbeat.site/' || item.url.endsWith('/posts/')) {
           item.changefreq = 'weekly';

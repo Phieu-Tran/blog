@@ -16,5 +16,6 @@ igdb_slug: the-elder-scrolls-v-skyrim
 igdb_url: "https://www.igdb.com/games/the-elder-scrolls-v-skyrim"
 steam_url: "https://store.steampowered.com/app/72850"
 publisher: "Bethesda Softworks"
+igdb_personal: true
 ---
 
