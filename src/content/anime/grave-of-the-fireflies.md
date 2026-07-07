@@ -1,7 +1,7 @@
 ---
 title: "Grave of the Fireflies"
 mal_id: 578
-rating: 9
+rating: 8
 genre: Drama
 year: 1988
 studio: "Studio Ghibli"

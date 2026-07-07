@@ -5,7 +5,7 @@ tmdb_id: 980477
 tmdb_type: movie
 rating: 7
 imdb_score: 7.9
-tmdb_score: 8.2
+tmdb_score: 8.1
 genre: "Phim Hoạt Hình, Phim Hành Động, Phim Giả Tượng, Phim Phiêu Lưu"
 year: 2025
 director: 饺子

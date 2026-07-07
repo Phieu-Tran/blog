@@ -4,7 +4,7 @@ imdb_id: tt0848228
 tmdb_id: 24428
 tmdb_type: movie
 rating: 7
-tmdb_score: 8
+tmdb_score: 8.1
 genre: "Phim Khoa Học Viễn Tưởng, Phim Hành Động, Phim Phiêu Lưu"
 year: 2012
 director: "Joss Whedon"

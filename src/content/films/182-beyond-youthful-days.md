@@ -5,7 +5,7 @@ tmdb_id: 1188258
 tmdb_type: movie
 rating: 9
 imdb_score: 7.5
-tmdb_score: 7.6
+tmdb_score: 7.4
 genre: "Phim Lãng Mạn, Phim Chính Kịch"
 year: 2024
 director: 藤井道人

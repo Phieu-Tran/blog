@@ -4,7 +4,7 @@ imdb_id: tt10734928
 tmdb_id: 620249
 tmdb_type: movie
 rating: 6
-tmdb_score: 8.3
+tmdb_score: 8.4
 genre: "Phim Hoạt Hình, Phim Giả Tượng, Phim Hành Động"
 year: 2019
 director: MTJJ

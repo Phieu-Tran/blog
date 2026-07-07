@@ -13,7 +13,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co6p58.jpg"
 date: 2026-03-30
 igdb_score: 6.8
 igdb_id: 76410
-igdb_updated_at: 2026-06-30
+igdb_updated_at: 2026-07-07
 steam_url: "https://store.steampowered.com/app/489630"
 igdb_slug: warhammer-40000-gladius-relics-of-war
 igdb_url: "https://www.igdb.com/games/warhammer-40000-gladius-relics-of-war"

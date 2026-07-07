@@ -1,7 +1,7 @@
 ---
 title: "The Wind Rises"
 mal_id: 16662
-rating: 8
+rating: 9
 genre: "Award Winning, Drama, Romance"
 year: 2013
 studio: "Studio Ghibli"

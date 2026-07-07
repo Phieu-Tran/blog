@@ -11,7 +11,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vz0.jpg"
 date: 2026-03-30
 igdb_id: 880
 igdb_score: 6.9
-igdb_updated_at: 2026-06-30
+igdb_updated_at: 2026-07-07
 igdb_slug: resident-evil-2
 igdb_url: "https://www.igdb.com/games/resident-evil-2"
 publisher: "Nintendo, Virgin Interactive Entertainment, Capcom"

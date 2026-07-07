@@ -1,7 +1,7 @@
 ---
 title: "When Marnie Was There"
 mal_id: 21557
-rating: 8
+rating: 7
 genre: "Drama, Mystery, Suspense"
 year: 2014
 studio: "Studio Ghibli"

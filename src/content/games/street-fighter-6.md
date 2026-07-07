@@ -9,9 +9,9 @@ studio: N/A
 status: completed
 source: steam
 platform: PC
-playtime_hours: 5
+playtime_hours: 16
 steam_recent: true
-steam_recent_hours: 5
+steam_recent_hours: 16
 cover: "https://steamcdn-a.akamaihd.net/steam/apps/1364780/header.jpg"
 date: 2026-06-28
 ---

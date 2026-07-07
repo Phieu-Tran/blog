@@ -12,7 +12,7 @@ playtime_hours: 8
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2r3v.jpg"
 date: 2026-03-30
 igdb_id: 76749
-igdb_updated_at: 2026-06-30
+igdb_updated_at: 2026-07-07
 steam_url: "https://store.steampowered.com/app/670290"
 igdb_slug: real-pool-3d-poolians
 igdb_url: "https://www.igdb.com/games/real-pool-3d-poolians"

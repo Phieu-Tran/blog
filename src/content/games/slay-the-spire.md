@@ -11,9 +11,9 @@ platform: Multi-platform
 playtime_hours: 12
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1iyf.jpg"
 date: 2026-03-30
-igdb_score: 8.9
+igdb_score: 8.8
 igdb_id: 40477
-igdb_updated_at: 2026-06-30
+igdb_updated_at: 2026-07-07
 steam_url: "https://store.steampowered.com/app/646570"
 igdb_slug: slay-the-spire
 igdb_url: "https://www.igdb.com/games/slay-the-spire"
