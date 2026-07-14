@@ -5,7 +5,7 @@ tmdb_id: 73861
 tmdb_type: movie
 rating: 5
 imdb_score: 4.9
-tmdb_score: 5.4
+tmdb_score: 5.5
 genre: "Phim Hình Sự, Phim Kinh Dị, Phim Gây Cấn"
 year: 2010
 director: "Srđan Spasojević"

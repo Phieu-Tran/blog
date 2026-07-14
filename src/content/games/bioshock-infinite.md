@@ -16,6 +16,6 @@ steam_url: "https://store.steampowered.com/app/8870"
 publisher: "2K Games"
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n12.jpg"
 igdb_score: 8.9
-igdb_updated_at: 2026-07-07
+igdb_updated_at: 2026-07-13
 ---
 

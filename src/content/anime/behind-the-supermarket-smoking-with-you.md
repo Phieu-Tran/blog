@@ -8,9 +8,9 @@ studio: "Asahi Production"
 status: watching
 cover: "https://cdn.myanimelist.net/images/anime/1768/156339.jpg"
 date: 2026-03-30
-mal_score: 8.49
+mal_score: 8.44
 episodes_watched: 0
-episodes_total: 0
+episodes_total: 12
 updated_at: 2026-01-19
 ---
 

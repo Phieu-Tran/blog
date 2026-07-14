@@ -11,6 +11,6 @@ year: 2025
 director: "Chloé Zhao"
 status: watched
 date: 2026-03-24
-cover: "https://image.tmdb.org/t/p/w500/61xMzN4h8iLk0hq6oUzr9Ts6GE9.jpg"
+cover: "https://image.tmdb.org/t/p/w500/zIcd6yuBucRNof5t9KVuGBHIhXU.jpg"
 ---
 

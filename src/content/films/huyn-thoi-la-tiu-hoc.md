@@ -1,5 +1,5 @@
 ---
-title: "Huyền Thoại La Tiểu Hoắc"
+title: "Huyền Thoại La Tiểu Hắc"
 imdb_id: tt10734928
 tmdb_id: 620249
 tmdb_type: movie

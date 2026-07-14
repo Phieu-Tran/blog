@@ -13,7 +13,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co86z5.jpg"
 date: 2026-03-30
 igdb_score: 7.3
 igdb_id: 65832
-igdb_updated_at: 2026-07-07
+igdb_updated_at: 2026-07-13
 steam_url: "https://store.steampowered.com/app/674940"
 igdb_slug: stick-fight-the-game
 igdb_url: "https://www.igdb.com/games/stick-fight-the-game"
