@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 7
 imdb_score: 7.8
 tmdb_score: 7.7
-genre: "Phim Chính Kịch, Phim Lãng Mạn, Phim Lịch Sử"
+genre: "Phim Chính Kịch, Phim Lãng Mạn"
 year: 2025
 director: "Chloé Zhao"
 status: watched

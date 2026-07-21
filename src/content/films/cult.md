@@ -5,7 +5,7 @@ tmdb_id: 225666
 tmdb_type: movie
 rating: 5
 imdb_score: 5.4
-tmdb_score: 6.1
+tmdb_score: 6
 genre: "Phim Kinh Dị, Phim Giả Tượng"
 year: 2013
 director: 白石晃士

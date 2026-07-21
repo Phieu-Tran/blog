@@ -1,5 +1,5 @@
 ---
-title: "X-Men 5: Thế Hệ Thứ Nhất"
+title: "X-Men 4: Thế Hệ Thứ Nhất"
 imdb_id: tt1270798
 tmdb_id: 49538
 tmdb_type: movie

@@ -5,7 +5,7 @@ tmdb_id: 6977
 tmdb_type: movie
 rating: 7
 imdb_score: 8.2
-tmdb_score: 8
+tmdb_score: 7.9
 genre: "Phim Hình Sự, Phim Gây Cấn, Phim Miền Tây"
 year: 2007
 director: "Joel Coen"

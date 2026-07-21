@@ -10,6 +10,6 @@ year: 2012
 director: "Alex Hirsch"
 status: watched
 date: 2026-06-28
-cover: "https://image.tmdb.org/t/p/w500/qwi3p6PzKfQZ4YXBzv3CP5pO2dE.jpg"
+cover: "https://image.tmdb.org/t/p/w500/jVYrMpiMi5Dqug5kXQeJr0X3GTW.jpg"
 ---
 

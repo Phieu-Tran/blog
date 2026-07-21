@@ -1,5 +1,5 @@
 ---
-title: "X-Men 7: Ngày Cũ Của Tương Lai"
+title: "X-Men 5: Ngày Cũ Của Tương Lai"
 imdb_id: tt1877832
 tmdb_id: 127585
 tmdb_type: movie

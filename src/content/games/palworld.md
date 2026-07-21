@@ -11,7 +11,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co7n02.jpg"
 date: 2026-03-30
 igdb_score: 7.2
 igdb_id: 151665
-igdb_updated_at: 2026-07-13
+igdb_updated_at: 2026-07-20
 igdb_slug: palworld
 igdb_url: "https://www.igdb.com/games/palworld"
 steam_url: "https://store.steampowered.com/app/1623730/Palworld"

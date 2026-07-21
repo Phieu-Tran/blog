@@ -1,5 +1,5 @@
 ---
-title: "X-Men 4: Nguồn Gốc Người Sói"
+title: "X-Men: Nguồn Gốc Người Sói"
 imdb_id: tt0458525
 tmdb_id: 2080
 tmdb_type: movie

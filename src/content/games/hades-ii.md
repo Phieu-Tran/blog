@@ -13,6 +13,6 @@ igdb_id: 134619
 igdb_slug: hades-2
 igdb_url: "https://www.igdb.com/games/hades-2"
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/cobwrj.jpg"
-igdb_updated_at: 2026-07-13
+igdb_updated_at: 2026-07-20
 ---
 

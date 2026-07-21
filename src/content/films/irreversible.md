@@ -11,6 +11,6 @@ year: 2002
 director: "Gaspar Noé"
 status: watched
 date: 2025-12-12
-cover: "https://image.tmdb.org/t/p/w500/uIZ3ToQS4WN6shK21FtbCgolUU.jpg"
+cover: "https://image.tmdb.org/t/p/w500/AdrItykbv1evqcbIPrItVWnkaKj.jpg"
 ---
 

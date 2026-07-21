@@ -14,7 +14,7 @@ date: 2026-03-30
 ign_source: true
 igdb_score: 8.6
 igdb_id: 279661
-igdb_updated_at: 2026-07-13
+igdb_updated_at: 2026-07-20
 steam_url: "https://store.steampowered.com/app/2246340"
 igdb_slug: monster-hunter-wilds
 igdb_url: "https://www.igdb.com/games/monster-hunter-wilds"

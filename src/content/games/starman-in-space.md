@@ -12,7 +12,7 @@ playtime_hours: 0
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co91db.jpg"
 date: 2026-03-30
 igdb_id: 88240
-igdb_updated_at: 2026-07-13
+igdb_updated_at: 2026-07-20
 steam_url: "https://store.steampowered.com/app/804440"
 igdb_slug: starman-in-space
 igdb_url: "https://www.igdb.com/games/starman-in-space"

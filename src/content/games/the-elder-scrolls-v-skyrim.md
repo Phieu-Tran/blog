@@ -11,7 +11,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/cobt0i.jpg"
 date: 2026-03-30
 igdb_score: 8.4
 igdb_id: 472
-igdb_updated_at: 2026-07-13
+igdb_updated_at: 2026-07-20
 igdb_slug: the-elder-scrolls-v-skyrim
 igdb_url: "https://www.igdb.com/games/the-elder-scrolls-v-skyrim"
 steam_url: "https://store.steampowered.com/app/72850"

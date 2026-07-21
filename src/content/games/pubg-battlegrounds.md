@@ -14,12 +14,12 @@ date: 2026-03-30
 ign_source: true
 igdb_score: 7.3
 igdb_id: 27789
-igdb_updated_at: 2026-07-13
+igdb_updated_at: 2026-07-20
 steam_url: "https://store.steampowered.com/app/578080"
 igdb_slug: pubg-battlegrounds
 igdb_url: "https://www.igdb.com/games/pubg-battlegrounds"
 publisher: "Bluehole Studio, Microsoft Studios"
-steam_recent: false
+steam_recent: true
 steam_recent_hours: 0
 ---
 

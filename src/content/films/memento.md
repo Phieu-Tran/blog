@@ -11,6 +11,6 @@ year: 2000
 director: "Christopher Nolan"
 status: watched
 date: 2026-03-17
-cover: "https://image.tmdb.org/t/p/w500/fKTPH2WvH8nHTXeBYBVhawtRqtR.jpg"
+cover: "https://image.tmdb.org/t/p/w500/nzlv62aC0octS5AklAiWpXLX9Z0.jpg"
 ---
 

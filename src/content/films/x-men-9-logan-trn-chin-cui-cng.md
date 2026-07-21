@@ -1,5 +1,5 @@
 ---
-title: "X-Men 9: Logan - Trận Chiến Cuối Cùng"
+title: "X-Men:  Logan - Trận Chiến Cuối Cùng"
 imdb_id: tt3315342
 tmdb_id: 263115
 tmdb_type: movie
