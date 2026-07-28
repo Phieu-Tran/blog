@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 7
 imdb_score: 8.3
 tmdb_score: 8.2
-genre: "Phim Chính Kịch, Phim Chiến Tranh"
+genre: "Phim Chính Kịch, Phim Chiến Tranh, Phim Kinh Dị, Phim Lịch Sử"
 year: 1985
 director: "Элем Климов"
 status: watched

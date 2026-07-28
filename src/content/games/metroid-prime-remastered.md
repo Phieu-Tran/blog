@@ -11,7 +11,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/cobbn9.jpg"
 date: 2026-03-30
 igdb_score: 9.1
 igdb_id: 236663
-igdb_updated_at: 2026-07-20
+igdb_updated_at: 2026-07-28
 igdb_slug: metroid-prime-remastered
 igdb_url: "https://www.igdb.com/games/metroid-prime-remastered"
 publisher: Nintendo

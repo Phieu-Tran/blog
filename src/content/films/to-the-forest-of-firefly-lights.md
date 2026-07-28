@@ -11,6 +11,6 @@ year: 2011
 director: 大森貴弘
 status: watched
 date: 2025-12-03
-cover: "https://image.tmdb.org/t/p/w500/j2tZAhVgNqWHNEZPgJLH3LBsoAM.jpg"
+cover: "https://image.tmdb.org/t/p/w500/7ZTL7uAfqGygKM2gJGYm36y46NU.jpg"
 ---
 

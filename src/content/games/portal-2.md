@@ -14,7 +14,7 @@ date: 2026-03-30
 ign_source: true
 igdb_id: 72
 igdb_score: 9.2
-igdb_updated_at: 2026-07-20
+igdb_updated_at: 2026-07-28
 steam_url: "https://store.steampowered.com/app/620"
 igdb_slug: portal-2
 igdb_url: "https://www.igdb.com/games/portal-2"

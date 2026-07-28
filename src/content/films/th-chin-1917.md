@@ -5,7 +5,7 @@ tmdb_id: 530915
 tmdb_type: movie
 rating: 8
 tmdb_score: 8
-genre: "Phim Chiến Tranh, Phim Lịch Sử, Phim Chính Kịch"
+genre: "Phim Chiến Tranh, Phim Chính Kịch, Phim Lịch Sử"
 year: 2019
 director: "Sam Mendes"
 status: watched

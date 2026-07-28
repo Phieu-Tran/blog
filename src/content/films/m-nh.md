@@ -4,7 +4,7 @@ imdb_id: tt37287335
 tmdb_id: 1339713
 tmdb_type: movie
 rating: 7
-tmdb_score: 8.2
+tmdb_score: 8.3
 genre: "Phim Kinh Dị, Phim Gây Cấn"
 year: 2026
 director: "Curry Barker"

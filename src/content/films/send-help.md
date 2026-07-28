@@ -5,7 +5,7 @@ tmdb_id: 1198994
 tmdb_type: movie
 rating: 5
 imdb_score: 6.7
-tmdb_score: 7
+tmdb_score: 7.1
 genre: "Phim Kinh Dị, Phim Gây Cấn, Phim Hài"
 year: 2026
 director: "Sam Raimi"

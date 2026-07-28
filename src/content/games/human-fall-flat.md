@@ -13,7 +13,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coajrp.jpg"
 date: 2026-03-30
 igdb_score: 7.1
 igdb_id: 16992
-igdb_updated_at: 2026-07-20
+igdb_updated_at: 2026-07-28
 steam_url: "https://store.steampowered.com/app/477160"
 igdb_slug: human-fall-flat
 igdb_url: "https://www.igdb.com/games/human-fall-flat"

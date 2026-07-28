@@ -7,7 +7,7 @@ rating: 5
 tmdb_score: 6.5
 genre: "Phim Hoạt Hình, Phim Hài, Phim Gia Đình, Phim Hành Động"
 year: 2004
-director: "Lynne Southerland"
+director: "Darrell Rooney"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/mIHE3BKyAKG8ocRAoZuCQN1NTv9.jpg"
