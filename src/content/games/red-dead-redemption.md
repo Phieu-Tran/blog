@@ -11,7 +11,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2lcv.jpg"
 date: 2026-03-30
 igdb_id: 434
 igdb_score: 9.1
-igdb_updated_at: 2026-07-28
+igdb_updated_at: 2026-08-04
 igdb_slug: red-dead-redemption
 igdb_url: "https://www.igdb.com/games/red-dead-redemption"
 steam_url: "https://store.steampowered.com/app/2668510/Red_Dead_Redemption/"

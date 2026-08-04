@@ -1,5 +1,5 @@
 ---
-title: "ARK: Survival of the Fittest"
+title: "Ark: Survival of the Fittest"
 steam_appid: 407530
 rating: 0
 genre: "Shooter, Role-playing (RPG), Strategy, Adventure, Indie"
@@ -13,7 +13,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9k2x.jpg"
 date: 2026-03-30
 igdb_score: 1.5
 igdb_id: 24412
-igdb_updated_at: 2026-07-28
+igdb_updated_at: 2026-08-04
 steam_url: "https://store.steampowered.com/app/407530"
 igdb_slug: ark-survival-of-the-fittest
 igdb_url: "https://www.igdb.com/games/ark-survival-of-the-fittest"

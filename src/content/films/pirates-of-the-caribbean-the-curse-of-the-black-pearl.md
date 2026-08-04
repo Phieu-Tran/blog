@@ -11,6 +11,6 @@ year: 2003
 director: "Gore Verbinski"
 status: watched
 date: 2025-10-18
-cover: "https://image.tmdb.org/t/p/w500/poHwCZeWzJCShH7tOjg8RIoyjcw.jpg"
+cover: "https://image.tmdb.org/t/p/w500/hQjENbYuhkjcr8c8O8tpQxw0XOD.jpg"
 ---
 

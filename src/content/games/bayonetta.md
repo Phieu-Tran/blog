@@ -11,7 +11,7 @@ date: 2026-06-27
 igdb_id: 2136
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8nf4.jpg"
 igdb_score: 8.6
-igdb_updated_at: 2026-07-28
+igdb_updated_at: 2026-08-04
 igdb_slug: bayonetta
 igdb_url: "https://www.igdb.com/games/bayonetta"
 steam_url: "https://store.steampowered.com/app/460790/Bayonetta/"

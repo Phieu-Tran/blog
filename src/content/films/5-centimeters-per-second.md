@@ -5,7 +5,7 @@ tmdb_id: 1359916
 tmdb_type: movie
 rating: 9
 imdb_score: 7
-tmdb_score: 7.8
+tmdb_score: 7.9
 genre: "Phim Chính Kịch, Phim Lãng Mạn"
 year: 2025
 director: 奥山由之

@@ -13,7 +13,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co5ocd.jpg"
 date: 2026-06-27
 igdb_id: 207383
 igdb_score: 6
-igdb_updated_at: 2026-07-28
+igdb_updated_at: 2026-08-04
 steam_url: "https://store.steampowered.com/app/2021910"
 igdb_slug: fps-chess
 igdb_url: "https://www.igdb.com/games/fps-chess"

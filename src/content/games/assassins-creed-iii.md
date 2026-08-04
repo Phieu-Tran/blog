@@ -16,6 +16,6 @@ steam_url: "https://store.steampowered.com/app/208480"
 publisher: "Ubisoft Entertainment"
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xii.jpg"
 igdb_score: 7.7
-igdb_updated_at: 2026-07-28
+igdb_updated_at: 2026-08-04
 ---
 

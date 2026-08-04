@@ -11,7 +11,7 @@ date: 2026-06-27
 igdb_id: 11133
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9ed.jpg"
 igdb_score: 8.7
-igdb_updated_at: 2026-07-28
+igdb_updated_at: 2026-08-04
 igdb_slug: dark-souls-iii
 igdb_url: "https://www.igdb.com/games/dark-souls-iii"
 steam_url: "https://store.steampowered.com/app/374320"

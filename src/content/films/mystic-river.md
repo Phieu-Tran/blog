@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 8
 imdb_score: 7.9
 tmdb_score: 7.7
-genre: "Phim Gây Cấn, Phim Chính Kịch, Phim Bí Ẩn"
+genre: "Phim Gây Cấn, Phim Chính Kịch, Phim Bí Ẩn, Phim Hình Sự"
 year: 2003
 director: "Clint Eastwood"
 status: watched
