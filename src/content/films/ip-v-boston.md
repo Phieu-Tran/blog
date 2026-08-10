@@ -10,6 +10,6 @@ year: 2006
 director: "Martin Scorsese"
 status: watched
 date: 2026-06-27
-cover: "https://image.tmdb.org/t/p/w500/nT97ifVT2J1yMQmeq20Qblg61T.jpg"
+cover: "https://image.tmdb.org/t/p/w500/cpYKWyjc4Tdtcmdqbt6MUTNpx44.jpg"
 ---
 

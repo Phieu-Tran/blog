@@ -11,7 +11,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co87cu.jpg"
 date: 2026-03-30
 igdb_score: 7.9
 igdb_id: 300976
-igdb_updated_at: 2026-08-04
+igdb_updated_at: 2026-08-10
 igdb_slug: assassins-creed-shadows
 igdb_url: "https://www.igdb.com/games/assassins-creed-shadows"
 steam_url: "https://store.steampowered.com/app/3159330/Assassins_Creed_Shadows/"

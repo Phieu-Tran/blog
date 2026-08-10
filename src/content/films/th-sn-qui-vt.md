@@ -5,7 +5,7 @@ tmdb_id: 71912
 tmdb_type: tv
 rating: 6
 tmdb_score: 7.9
-genre: "Phim Chính Kịch, Action & Adventure"
+genre: "Sci-Fi & Fantasy, Phim Chính Kịch, Action & Adventure"
 year: 2019
 director: "Lauren Schmidt Hissrich"
 status: watched

@@ -4,7 +4,7 @@ imdb_id: tt1872181
 tmdb_id: 102382
 tmdb_type: movie
 rating: 7
-tmdb_score: 6.5
+tmdb_score: 6.6
 genre: "Phim Hành Động, Phim Phiêu Lưu, Phim Khoa Học Viễn Tưởng"
 year: 2014
 director: "Marc Webb"

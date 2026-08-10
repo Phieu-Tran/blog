@@ -11,7 +11,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/cobf3x.jpg"
 date: 2026-03-30
 igdb_score: 8.3
 igdb_id: 347123
-igdb_updated_at: 2026-08-04
+igdb_updated_at: 2026-08-10
 igdb_slug: nioh-3
 igdb_url: "https://www.igdb.com/games/nioh-3"
 steam_url: "https://store.steampowered.com/app/3681010/Nioh_3"

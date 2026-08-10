@@ -9,9 +9,9 @@ source: igdb
 platform: "Xbox, PC, PlayStation"
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xwo.jpg"
 date: 2026-03-30
-igdb_score: 8.1
+igdb_score: 8
 igdb_id: 348187
-igdb_updated_at: 2026-08-04
+igdb_updated_at: 2026-08-10
 igdb_slug: grounded-2
 igdb_url: "https://www.igdb.com/games/grounded-2"
 steam_url: "https://store.steampowered.com/app/2661300"

@@ -5,7 +5,7 @@ tmdb_id: 271110
 tmdb_type: movie
 rating: 7
 imdb_score: 7.8
-tmdb_score: 7.4
+tmdb_score: 7.5
 genre: "Phim Phiêu Lưu, Phim Hành Động, Phim Khoa Học Viễn Tưởng"
 year: 2016
 director: "Joe Russo"

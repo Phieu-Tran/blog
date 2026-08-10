@@ -11,6 +11,6 @@ year: 2025
 director: "Park Chan-wook"
 status: watched
 date: 2025-11-26
-cover: "https://image.tmdb.org/t/p/w500/9w7WGjQes0Cs0s4U3Qr09Tg1Sra.jpg"
+cover: "https://image.tmdb.org/t/p/w500/1mwjRFBCabJmfX4jkgiYlnGwHlC.jpg"
 ---
 

@@ -11,7 +11,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bzv.jpg"
 date: 2026-03-30
 igdb_id: 186725
 igdb_score: 8.6
-igdb_updated_at: 2026-08-04
+igdb_updated_at: 2026-08-10
 igdb_slug: vampire-survivors
 igdb_url: "https://www.igdb.com/games/vampire-survivors"
 steam_url: "https://store.steampowered.com/app/1794680/Vampire_Survivors"

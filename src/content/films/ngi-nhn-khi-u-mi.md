@@ -4,7 +4,7 @@ imdb_id: tt22084616
 tmdb_id: 969681
 tmdb_type: movie
 rating: 7
-tmdb_score: 8
+tmdb_score: 7.9
 genre: "Phim Khoa Học Viễn Tưởng, Phim Hành Động, Phim Phiêu Lưu"
 year: 2026
 director: "Destin Daniel Cretton"

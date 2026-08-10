@@ -12,9 +12,9 @@ playtime_hours: 46
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9rk1.jpg"
 date: 2026-03-30
 ign_source: true
-igdb_score: 8.7
+igdb_score: 8.6
 igdb_id: 185258
-igdb_updated_at: 2026-08-04
+igdb_updated_at: 2026-08-10
 steam_url: "https://store.steampowered.com/app/1808500/ARC_Raiders"
 igdb_slug: arc-raiders
 igdb_url: "https://www.igdb.com/games/arc-raiders"

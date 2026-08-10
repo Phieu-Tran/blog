@@ -12,7 +12,7 @@ playtime_hours: 0
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coa2ub.jpg"
 date: 2026-03-30
 igdb_id: 352753
-igdb_updated_at: 2026-08-04
+igdb_updated_at: 2026-08-10
 steam_url: "https://store.steampowered.com/app/204240"
 igdb_slug: the-bridge--1
 igdb_url: "https://www.igdb.com/games/the-bridge--1"
