@@ -5,7 +5,7 @@ tmdb_id: 1304434
 tmdb_type: movie
 rating: 7
 imdb_score: 7.9
-tmdb_score: 7.8
+tmdb_score: 7.9
 genre: "Phim Hoạt Hình, Phim Phiêu Lưu, Phim Giả Tượng, Phim Hài"
 year: 2025
 director: 於水

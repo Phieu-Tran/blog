@@ -12,7 +12,7 @@ playtime_hours: 1
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2opi.jpg"
 date: 2026-03-30
 igdb_id: 126865
-igdb_updated_at: 2026-08-10
+igdb_updated_at: 2026-08-17
 steam_url: "https://store.steampowered.com/app/1131720"
 igdb_slug: prop-and-seek
 igdb_url: "https://www.igdb.com/games/prop-and-seek"

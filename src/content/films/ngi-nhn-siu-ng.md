@@ -4,7 +4,7 @@ imdb_id: tt0948470
 tmdb_id: 1930
 tmdb_type: movie
 rating: 7
-tmdb_score: 6.7
+tmdb_score: 6.8
 genre: "Phim Hành Động, Phim Phiêu Lưu, Phim Khoa Học Viễn Tưởng"
 year: 2012
 director: "Marc Webb"

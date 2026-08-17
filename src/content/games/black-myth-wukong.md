@@ -11,7 +11,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8h3y.jpg"
 date: 2026-03-30
 igdb_score: 8.9
 igdb_id: 136879
-igdb_updated_at: 2026-08-10
+igdb_updated_at: 2026-08-17
 igdb_slug: black-myth-wukong
 igdb_url: "https://www.igdb.com/games/black-myth-wukong"
 steam_url: "https://store.steampowered.com/app/2358720"

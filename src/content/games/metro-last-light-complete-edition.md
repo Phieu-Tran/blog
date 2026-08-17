@@ -13,7 +13,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co6oco.jpg"
 date: 2026-03-30
 igdb_score: 7
 igdb_id: 42992
-igdb_updated_at: 2026-08-10
+igdb_updated_at: 2026-08-17
 steam_url: "https://store.steampowered.com/app/43160"
 igdb_slug: metro-last-light-complete-edition
 igdb_url: "https://www.igdb.com/games/metro-last-light-complete-edition"

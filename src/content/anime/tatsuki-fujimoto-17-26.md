@@ -2,7 +2,7 @@
 title: "Tatsuki Fujimoto 17-26"
 mal_id: 62405
 rating: 8
-mal_score: 8.04
+mal_score: 8.03
 genre: "Action, Comedy, Drama, Romance, Supernatural, Shounen"
 year: 2025
 studio: "P.A. Works"

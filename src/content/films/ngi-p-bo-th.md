@@ -10,6 +10,6 @@ year: 2005
 director: "Park Chan-wook"
 status: watched
 date: 2026-08-04
-cover: "https://image.tmdb.org/t/p/w500/iInNT2yeNA8joH1RSSebUEfLC1x.jpg"
+cover: "https://image.tmdb.org/t/p/w500/1TCQnCIIiTXROsCPKwYvnqll8Ta.jpg"
 ---
 

@@ -11,6 +11,6 @@ year: 2003
 director: "Bong Joon Ho"
 status: watched
 date: 2025-10-15
-cover: "https://image.tmdb.org/t/p/w500/3I1Ng4sxDUyPOdVu3lQ20N14PGE.jpg"
+cover: "https://image.tmdb.org/t/p/w500/wrsf1ebQ6S4gVhjR9FJElfdxAjj.jpg"
 ---
 

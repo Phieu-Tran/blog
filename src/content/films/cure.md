@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 9
 imdb_score: 7.5
 tmdb_score: 7.6
-genre: "Phim Hình Sự, Phim Gây Cấn, Phim Kinh Dị, Phim Bí Ẩn"
+genre: "Phim Hình Sự, Phim Kinh Dị, Phim Bí Ẩn"
 year: 1997
 director: 黒沢清
 status: watched
