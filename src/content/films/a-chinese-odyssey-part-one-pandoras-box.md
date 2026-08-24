@@ -5,7 +5,7 @@ tmdb_id: 13345
 tmdb_type: movie
 rating: 7
 imdb_score: 7.5
-tmdb_score: 7.6
+tmdb_score: 7.5
 genre: "Phim Hành Động, Phim Phiêu Lưu, Phim Giả Tượng, Phim Hài, Phim Lãng Mạn, Phim Chính Kịch"
 year: 1995
 director: 劉鎮偉

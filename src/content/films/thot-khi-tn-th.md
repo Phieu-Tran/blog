@@ -4,7 +4,7 @@ imdb_id: tt12042730
 tmdb_id: 687163
 tmdb_type: movie
 rating: 7
-tmdb_score: 8.7
+tmdb_score: 8.6
 genre: "Phim Khoa Học Viễn Tưởng, Phim Phiêu Lưu"
 year: 2026
 director: "Phil Lord"

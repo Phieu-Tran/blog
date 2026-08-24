@@ -13,7 +13,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co3djv.jpg"
 date: 2026-03-30
 igdb_score: 6.9
 igdb_id: 120619
-igdb_updated_at: 2026-08-17
+igdb_updated_at: 2026-08-24
 steam_url: "https://store.steampowered.com/app/858820/Tribes_of_Midgard"
 igdb_slug: tribes-of-midgard
 igdb_url: "https://www.igdb.com/games/tribes-of-midgard"

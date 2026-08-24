@@ -4,7 +4,7 @@ imdb_id: tt1591095
 tmdb_id: 49018
 tmdb_type: movie
 rating: 8
-tmdb_score: 6.9
+tmdb_score: 7
 genre: "Phim Kinh Dị, Phim Gây Cấn"
 year: 2011
 director: "James Wan"

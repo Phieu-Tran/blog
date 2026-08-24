@@ -13,7 +13,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/cobyfe.jpg"
 date: 2026-04-06
 igdb_id: 13205
 igdb_score: 7.7
-igdb_updated_at: 2026-08-17
+igdb_updated_at: 2026-08-24
 steam_url: "https://store.steampowered.com/app/361420/ASTRONEER/"
 igdb_slug: astroneer
 igdb_url: "https://www.igdb.com/games/astroneer"

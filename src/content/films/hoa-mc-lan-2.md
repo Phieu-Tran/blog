@@ -5,7 +5,7 @@ tmdb_id: 12242
 tmdb_type: movie
 rating: 5
 tmdb_score: 6.5
-genre: "Phim Hoạt Hình, Phim Hài, Phim Gia Đình, Phim Hành Động"
+genre: "Phim Hoạt Hình, Phim Hài, Phim Gia Đình, Phim Phiêu Lưu"
 year: 2004
 director: "Darrell Rooney"
 status: watched

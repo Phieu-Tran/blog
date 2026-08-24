@@ -2,7 +2,7 @@
 title: "Suzume"
 mal_id: 50594
 rating: 8
-mal_score: 8.24
+mal_score: 8.23
 genre: "Adventure, Supernatural"
 year: 2022
 studio: "CoMix Wave Films"

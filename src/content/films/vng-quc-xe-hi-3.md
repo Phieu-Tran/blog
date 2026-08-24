@@ -5,7 +5,7 @@ tmdb_id: 260514
 tmdb_type: movie
 rating: 4
 tmdb_score: 6.9
-genre: "Phim Hoạt Hình, Phim Chính Kịch, Phim Gia Đình"
+genre: "Phim Hoạt Hình, Phim Chính Kịch, Phim Gia Đình, Phim Phiêu Lưu"
 year: 2017
 director: "Brian Fee"
 status: watched

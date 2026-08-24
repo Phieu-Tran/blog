@@ -12,8 +12,8 @@ playtime_hours: 26
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co9lxz.jpg"
 date: 2026-05-26
 igdb_id: 332780
-igdb_score: 7.3
-igdb_updated_at: 2026-08-17
+igdb_score: 7.2
+igdb_updated_at: 2026-08-24
 steam_url: "https://store.steampowered.com/app/3241660"
 igdb_slug: repo
 igdb_url: "https://www.igdb.com/games/repo"

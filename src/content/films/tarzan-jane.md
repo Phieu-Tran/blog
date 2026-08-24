@@ -7,7 +7,7 @@ rating: 7
 tmdb_score: 6
 genre: "Phim Hoạt Hình, Phim Gia Đình, Phim Phiêu Lưu"
 year: 2002
-director: "Victor Cook"
+director: "Don MacKinnon"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/wsYC01jgqFCVUKPXV9KdAEwkJEQ.jpg"

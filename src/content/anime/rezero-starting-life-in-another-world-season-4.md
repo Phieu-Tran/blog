@@ -2,7 +2,7 @@
 title: "Re:ZERO -Starting Life in Another World- Season 4"
 mal_id: 61316
 rating: 5
-mal_score: 9.14
+mal_score: 9.13
 genre: "Drama, Fantasy, Suspense"
 year: 2026
 studio: "White Fox"
