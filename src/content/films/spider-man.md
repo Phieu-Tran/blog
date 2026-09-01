@@ -5,7 +5,7 @@ tmdb_id: 557
 tmdb_type: movie
 rating: 7
 imdb_score: 7.4
-tmdb_score: 7.3
+tmdb_score: 7.4
 genre: "Phim Hành Động, Phim Khoa Học Viễn Tưởng"
 year: 2002
 director: "Sam Raimi"

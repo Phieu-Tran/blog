@@ -14,7 +14,7 @@ date: 2026-03-30
 ign_source: true
 igdb_score: 8.2
 igdb_id: 1879
-igdb_updated_at: 2026-08-24
+igdb_updated_at: 2026-09-01
 steam_url: "https://store.steampowered.com/app/105600"
 igdb_slug: terraria
 igdb_url: "https://www.igdb.com/games/terraria"

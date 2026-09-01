@@ -2,7 +2,7 @@
 title: "Saga of Tanya the Evil: The Movie"
 mal_id: 37055
 rating: 7
-mal_score: 8.23
+mal_score: 8.22
 genre: "Action, Fantasy"
 year: 2019
 studio: Nut

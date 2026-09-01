@@ -9,9 +9,9 @@ studio: "Afterthought Games"
 status: completed
 source: steam
 platform: PC
-playtime_hours: 3
+playtime_hours: 4
 steam_recent: true
-steam_recent_hours: 3
+steam_recent_hours: 4
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coaat6.jpg"
 date: 2026-08-24
 igdb_id: 25838
@@ -19,6 +19,6 @@ igdb_slug: the-isle
 igdb_url: "https://www.igdb.com/games/the-isle"
 publisher: "Afterthought Games"
 igdb_score: 8.2
-igdb_updated_at: 2026-08-24
+igdb_updated_at: 2026-09-01
 ---
 

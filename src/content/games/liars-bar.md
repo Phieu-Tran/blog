@@ -13,7 +13,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8w00.jpg"
 date: 2026-06-27
 igdb_id: 317695
 igdb_score: 6.9
-igdb_updated_at: 2026-08-24
+igdb_updated_at: 2026-09-01
 steam_url: "https://store.steampowered.com/app/3097560/Liars_Bar/"
 igdb_slug: liars-bar
 igdb_url: "https://www.igdb.com/games/liars-bar"

@@ -11,7 +11,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co670h.jpg"
 date: 2024-06-10
 igdb_score: 9.5
 igdb_id: 119171
-igdb_updated_at: 2026-08-24
+igdb_updated_at: 2026-09-01
 igdb_slug: baldurs-gate-iii
 igdb_url: "https://www.igdb.com/games/baldurs-gate-iii"
 steam_url: "https://store.steampowered.com/app/1086940"

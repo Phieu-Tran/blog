@@ -11,7 +11,7 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co57sj.jpg"
 date: 2026-03-30
 igdb_id: 215060
 igdb_score: 7.5
-igdb_updated_at: 2026-08-24
+igdb_updated_at: 2026-09-01
 igdb_slug: assassins-creed-mirage
 igdb_url: "https://www.igdb.com/games/assassins-creed-mirage"
 steam_url: "https://store.steampowered.com/app/3035570"

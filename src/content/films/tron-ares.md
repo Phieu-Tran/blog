@@ -5,7 +5,7 @@ tmdb_id: 533533
 tmdb_type: movie
 rating: 5
 imdb_score: 6.1
-tmdb_score: 6.4
+tmdb_score: 6.5
 genre: "Phim Khoa Học Viễn Tưởng, Phim Phiêu Lưu, Phim Hành Động"
 year: 2025
 director: "Joachim Rønning"
