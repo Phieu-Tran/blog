@@ -1,5 +1,5 @@
 ---
-title: "Baka & Test – Summon the Beasts 2"
+title: "Baka & Test: Summon the Beasts 2"
 mal_id: 8516
 rating: 7
 genre: "Comedy, Romance"

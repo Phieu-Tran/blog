@@ -5,7 +5,7 @@ tmdb_id: 1038392
 tmdb_type: movie
 rating: 5
 imdb_score: 6.2
-tmdb_score: 6.9
+tmdb_score: 7
 genre: "Phim Kinh Dị"
 year: 2025
 director: "Michael Chaves"

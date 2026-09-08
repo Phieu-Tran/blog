@@ -11,9 +11,10 @@ cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co2vz0.jpg"
 date: 2026-03-30
 igdb_id: 880
 igdb_score: 6.9
-igdb_updated_at: 2026-09-01
+igdb_updated_at: 2026-09-08
 igdb_slug: resident-evil-2
 igdb_url: "https://www.igdb.com/games/resident-evil-2"
 publisher: "Nintendo, Virgin Interactive Entertainment, Capcom"
+steam_url: "https://store.steampowered.com/app/4249110/Resident_Evil_2_1998/"
 ---
 

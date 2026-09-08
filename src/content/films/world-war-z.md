@@ -5,7 +5,7 @@ tmdb_id: 72190
 tmdb_type: movie
 rating: 7
 imdb_score: 7
-tmdb_score: 6.8
+tmdb_score: 6.9
 genre: "Phim Hành Động, Phim Kinh Dị, Phim Khoa Học Viễn Tưởng"
 year: 2013
 director: "Marc Forster"
