@@ -5,7 +5,7 @@ tmdb_id: 1396
 tmdb_type: tv
 rating: 10
 imdb_score: 9.5
-tmdb_score: 9
+tmdb_score: 8.9
 genre: "Phim Chính Kịch, Phim Hình Sự"
 year: 2008
 director: "Vince Gilligan"

@@ -5,7 +5,7 @@ tmdb_id: 207703
 tmdb_type: movie
 rating: 6
 tmdb_score: 7.6
-genre: "Phim Hình Sự, Phim Hài, Phim Hành Động, Phim Phiêu Lưu"
+genre: "Phim Hình Sự, Phim Hài, Phim Hành Động"
 year: 2015
 director: "Matthew Vaughn"
 status: watched

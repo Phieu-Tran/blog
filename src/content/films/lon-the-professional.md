@@ -11,6 +11,6 @@ year: 1994
 director: "Luc Besson"
 status: watched
 date: 2025-10-15
-cover: "https://image.tmdb.org/t/p/w500/efqJtlo5J1hBNFmbwyjyAR9Mpr2.jpg"
+cover: "https://image.tmdb.org/t/p/w500/2ZJuVYpUoau4QfftPsrhhmWbIn5.jpg"
 ---
 

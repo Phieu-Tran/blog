@@ -2,7 +2,7 @@
 title: "Detective Conan Movie 28: One-Eyed Flashback"
 mal_id: 60445
 rating: 6
-mal_score: 7.63
+mal_score: 7.64
 genre: "Mystery, Shounen"
 year: 2025
 studio: "TMS Entertainment"

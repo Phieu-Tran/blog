@@ -4,7 +4,7 @@ imdb_id: tt1979388
 tmdb_id: 105864
 tmdb_type: movie
 rating: 4
-tmdb_score: 6.7
+tmdb_score: 6.8
 genre: "Phim Phiêu Lưu, Phim Hoạt Hình, Phim Gia Đình"
 year: 2015
 director: "Peter Sohn"

@@ -4,7 +4,7 @@ imdb_id: tt0317219
 tmdb_id: 920
 tmdb_type: movie
 rating: 7
-tmdb_score: 7
+tmdb_score: 7.1
 genre: "Phim Hoạt Hình, Phim Phiêu Lưu, Phim Hài, Phim Gia Đình"
 year: 2006
 director: "John Lasseter"

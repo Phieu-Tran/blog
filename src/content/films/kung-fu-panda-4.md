@@ -5,7 +5,7 @@ tmdb_id: 1011985
 tmdb_type: movie
 rating: 5
 tmdb_score: 7
-genre: "Phim Hành Động, Phim Phiêu Lưu, Phim Hoạt Hình, Phim Hài, Phim Gia Đình, Phim Giả Tượng"
+genre: "Phim Hoạt Hình, Phim Hài, Phim Phiêu Lưu, Phim Hành Động, Phim Gia Đình"
 year: 2024
 director: "Mike Mitchell"
 status: watched
