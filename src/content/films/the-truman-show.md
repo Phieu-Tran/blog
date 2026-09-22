@@ -1,5 +1,5 @@
 ---
-title: "Buổi Diễn Của Truman"
+title: "Chương Trình Truman"
 imdb_id: tt0120382
 tmdb_id: 37165
 tmdb_type: movie

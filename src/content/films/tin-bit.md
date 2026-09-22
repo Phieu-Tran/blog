@@ -4,7 +4,7 @@ imdb_id: tt1069238
 tmdb_id: 16804
 tmdb_type: movie
 rating: 7
-tmdb_score: 7.9
+tmdb_score: 7.8
 genre: "Phim Chính Kịch"
 year: 2008
 director: 滝田洋二郎

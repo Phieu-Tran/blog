@@ -11,9 +11,9 @@ platform: Multi-platform
 playtime_hours: 0
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co3dli.jpg"
 date: 2026-03-30
-igdb_score: 8.4
+igdb_score: 8.3
 igdb_id: 111661
-igdb_updated_at: 2026-09-15
+igdb_updated_at: 2026-09-22
 steam_url: "https://store.steampowered.com/app/969760/Omno"
 igdb_slug: omno
 igdb_url: "https://www.igdb.com/games/omno"

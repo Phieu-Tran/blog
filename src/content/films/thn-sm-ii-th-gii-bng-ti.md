@@ -1,5 +1,5 @@
 ---
-title: "Thần Sấm II: Thế Giới Bóng Tối"
+title: "Thor: Thế Giới Bóng Tối"
 imdb_id: tt1981115
 tmdb_id: 76338
 tmdb_type: movie

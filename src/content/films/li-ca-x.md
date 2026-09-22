@@ -4,7 +4,7 @@ imdb_id: tt21807222
 tmdb_id: 951491
 tmdb_type: movie
 rating: 6
-tmdb_score: 7.2
+tmdb_score: 7.1
 genre: "Phim Kinh Dị, Phim Bí Ẩn"
 year: 2023
 director: "Kevin Greutert"

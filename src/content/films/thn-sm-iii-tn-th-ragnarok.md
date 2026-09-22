@@ -1,5 +1,5 @@
 ---
-title: "Thần sấm III: Tận Thế Ragnarok"
+title: "Thor: Tận Thế Ragnarok"
 imdb_id: tt3501632
 tmdb_id: 284053
 tmdb_type: movie
