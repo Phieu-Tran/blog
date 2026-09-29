@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 5
 imdb_score: 6.5
 tmdb_score: 7
-genre: "Phim Kinh Dị, Phim Bí Ẩn, Phim Gây Cấn"
+genre: "Phim Bí Ẩn, Phim Gây Cấn, Phim Kinh Dị"
 year: 2025
 director: 川村元気
 status: watched

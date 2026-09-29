@@ -5,7 +5,7 @@ tmdb_id: 284053
 tmdb_type: movie
 rating: 6
 tmdb_score: 7.6
-genre: "Phim Hành Động, Phim Khoa Học Viễn Tưởng, Phim Hài, Phim Phiêu Lưu"
+genre: "Phim Hành Động, Phim Phiêu Lưu, Phim Hài, Phim Khoa Học Viễn Tưởng"
 year: 2017
 director: "Taika Waititi"
 status: watched

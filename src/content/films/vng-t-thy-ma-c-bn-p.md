@@ -5,7 +5,7 @@ tmdb_id: 338967
 tmdb_type: movie
 rating: 5
 tmdb_score: 6.9
-genre: "Phim Kinh Dị, Phim Hài"
+genre: "Phim Hài"
 year: 2019
 director: "Ruben Fleischer"
 status: watched

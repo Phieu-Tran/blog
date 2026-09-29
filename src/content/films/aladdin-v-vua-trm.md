@@ -4,7 +4,7 @@ imdb_id: tt0115491
 tmdb_id: 11238
 tmdb_type: movie
 rating: 5
-tmdb_score: 6.3
+tmdb_score: 6.2
 genre: "Phim Phiêu Lưu, Phim Hoạt Hình, Phim Gia Đình"
 year: 1996
 director: "Tad Stones"

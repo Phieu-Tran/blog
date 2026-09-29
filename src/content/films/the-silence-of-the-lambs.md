@@ -11,6 +11,6 @@ year: 1991
 director: "Jonathan Demme"
 status: watched
 date: 2025-10-15
-cover: "https://image.tmdb.org/t/p/w500/7h6frYSP6wE3knBG9bpnYFLDA5I.jpg"
+cover: "https://image.tmdb.org/t/p/w500/2dfScR0ZhDOVRV2Qco758YgLzXG.jpg"
 ---
 
