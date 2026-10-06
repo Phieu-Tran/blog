@@ -2,7 +2,7 @@
 title: "The Promised Neverland"
 mal_id: 37779
 rating: 7
-mal_score: 8.47
+mal_score: 8.46
 genre: "Mystery, Suspense, Shounen"
 year: 2019
 studio: CloverWorks

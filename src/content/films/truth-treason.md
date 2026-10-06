@@ -5,7 +5,7 @@ tmdb_id: 1443940
 tmdb_type: movie
 rating: 7
 imdb_score: 7.1
-tmdb_score: 7.9
+tmdb_score: 8
 genre: "Phim Lịch Sử, Phim Chính Kịch, Phim Gây Cấn"
 year: 2025
 director: "Matt Whitaker"

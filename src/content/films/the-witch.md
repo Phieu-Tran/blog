@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 8
 imdb_score: 7
 tmdb_score: 7
-genre: "Phim Kinh Dị, Phim Chính Kịch, Phim Bí Ẩn, Phim Giả Tượng, Phim Gây Cấn"
+genre: "Phim Kinh Dị, Phim Giả Tượng, Phim Bí Ẩn"
 year: 2016
 director: "Robert Eggers"
 status: watched

@@ -1,5 +1,5 @@
 ---
-title: "Joker: Gã Hề"
+title: "Joker"
 imdb_id: tt7286456
 tmdb_id: 475557
 tmdb_type: movie

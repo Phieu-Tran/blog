@@ -5,7 +5,7 @@ tmdb_id: 569094
 tmdb_type: movie
 rating: 7
 imdb_score: 8.5
-tmdb_score: 8.3
+tmdb_score: 8.4
 genre: "Phim Hoạt Hình, Phim Hành Động, Phim Phiêu Lưu, Phim Khoa Học Viễn Tưởng"
 year: 2023
 director: "Justin K. Thompson"
