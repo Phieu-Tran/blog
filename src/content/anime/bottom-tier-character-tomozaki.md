@@ -2,7 +2,7 @@
 title: "Bottom-Tier Character Tomozaki"
 mal_id: 40530
 rating: 7
-mal_score: 7.1
+mal_score: 7.09
 genre: "Drama, Romance"
 year: 2021
 studio: "Project No.9"

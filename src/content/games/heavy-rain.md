@@ -19,6 +19,6 @@ igdb_slug: heavy-rain
 igdb_url: "https://www.igdb.com/games/heavy-rain"
 publisher: "Quantic Dream, Sony Computer Entertainment"
 igdb_score: 8.1
-igdb_updated_at: 2026-10-06
+igdb_updated_at: 2026-10-13
 ---
 

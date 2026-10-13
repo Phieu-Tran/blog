@@ -5,7 +5,7 @@ tmdb_id: 76649
 tmdb_type: movie
 rating: 4
 tmdb_score: 5.5
-genre: "Phim Hành Động, Phim Phiêu Lưu, Phim Lịch Sử, Phim Lãng Mạn, Phim Chính Kịch"
+genre: "Phim Hành Động, Phim Phiêu Lưu, Phim Lịch Sử"
 year: 2014
 director: "Paul W. S. Anderson"
 status: watched

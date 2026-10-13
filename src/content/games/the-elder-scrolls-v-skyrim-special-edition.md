@@ -19,6 +19,6 @@ igdb_slug: the-elder-scrolls-v-skyrim-special-edition
 igdb_url: "https://www.igdb.com/games/the-elder-scrolls-v-skyrim-special-edition"
 publisher: "Bethesda Softworks"
 igdb_score: 8.5
-igdb_updated_at: 2026-10-06
+igdb_updated_at: 2026-10-13
 ---
 

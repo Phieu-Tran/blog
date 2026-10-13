@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 8
 imdb_score: 8.4
 tmdb_score: 7.8
-genre: "Phim Hành Động, Phim Hình Sự, Phim Chính Kịch, Phim Gây Cấn"
+genre: "Phim Hành Động, Phim Hình Sự, Phim Gây Cấn"
 year: 2012
 director: "Christopher Nolan"
 status: watched

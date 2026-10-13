@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 9
 imdb_score: 7.5
 tmdb_score: 7.6
-genre: "Phim Kinh Dị, Phim Bí Ẩn, Phim Hình Sự, Phim Gây Cấn"
+genre: "Phim Kinh Dị, Phim Bí Ẩn, Phim Hình Sự"
 year: 1997
 director: "Kurosawa Kiyoshi"
 status: watched
