@@ -4,7 +4,7 @@ imdb_id: tt13405778
 tmdb_id: 614479
 tmdb_type: movie
 rating: 5
-tmdb_score: 6.5
+tmdb_score: 6.6
 genre: "Phim Kinh Dị, Phim Gây Cấn"
 year: 2023
 director: "Patrick Wilson"

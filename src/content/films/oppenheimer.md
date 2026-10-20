@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 9
 imdb_score: 8.2
 tmdb_score: 8
-genre: "Phim Chính Kịch, Phim Lịch Sử"
+genre: "Phim Chính Kịch, Phim Lịch Sử, Phim Chiến Tranh"
 year: 2023
 director: "Christopher Nolan"
 status: watched

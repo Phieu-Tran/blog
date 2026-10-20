@@ -11,6 +11,6 @@ year: 1976
 director: "Martin Scorsese"
 status: watched
 date: 2025-10-18
-cover: "https://image.tmdb.org/t/p/w500/dOyKWvHRpku9wOIz14ARR7n1keJ.jpg"
+cover: "https://image.tmdb.org/t/p/w500/Aug56efx1XuY40HKbVcicV1EIYt.jpg"
 ---
 

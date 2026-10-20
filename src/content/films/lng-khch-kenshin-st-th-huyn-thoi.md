@@ -5,7 +5,7 @@ tmdb_id: 127533
 tmdb_type: movie
 rating: 8
 tmdb_score: 7.5
-genre: "Phim Phiêu Lưu, Phim Hành Động, Phim Giả Tượng, Phim Chiến Tranh, Phim Lịch Sử"
+genre: "Phim Hành Động, Phim Phiêu Lưu, Phim Giả Tượng, Phim Chiến Tranh, Phim Lịch Sử"
 year: 2012
 director: 大友啓史
 status: watched

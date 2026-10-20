@@ -7,7 +7,7 @@ rating: 7
 tmdb_score: 7
 genre: "Phim Phiêu Lưu, Phim Hoạt Hình, Phim Gia Đình, Phim Giả Tượng"
 year: 2012
-director: "Mark Andrews"
+director: "Brenda Chapman"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/iexNj6uxbTG0zz6TLuzwKetFxr7.jpg"

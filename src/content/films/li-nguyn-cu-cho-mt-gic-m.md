@@ -5,7 +5,7 @@ tmdb_id: 641
 tmdb_type: movie
 rating: 9
 tmdb_score: 8
-genre: "Phim Hình Sự, Phim Chính Kịch"
+genre: "Phim Chính Kịch"
 year: 2000
 director: "Darren Aronofsky"
 status: watched

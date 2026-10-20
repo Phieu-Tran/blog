@@ -19,6 +19,6 @@ igdb_slug: the-isle
 igdb_url: "https://www.igdb.com/games/the-isle"
 publisher: "Afterthought Games"
 igdb_score: 8.2
-igdb_updated_at: 2026-10-13
+igdb_updated_at: 2026-10-20
 ---
 

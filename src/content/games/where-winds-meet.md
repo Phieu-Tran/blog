@@ -12,9 +12,9 @@ playtime_hours: 8
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coauhs.jpg"
 date: 2026-03-30
 ign_source: true
-igdb_score: 5.8
+igdb_score: 6
 igdb_id: 214414
-igdb_updated_at: 2026-10-13
+igdb_updated_at: 2026-10-20
 steam_url: "https://store.steampowered.com/app/3564740"
 igdb_slug: where-winds-meet
 igdb_url: "https://www.igdb.com/games/where-winds-meet"

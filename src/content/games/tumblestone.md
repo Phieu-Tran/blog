@@ -11,9 +11,9 @@ platform: Multi-platform
 playtime_hours: 0
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co24m0.jpg"
 date: 2026-03-30
-igdb_score: 6.8
+igdb_score: 7.4
 igdb_id: 16926
-igdb_updated_at: 2026-10-13
+igdb_updated_at: 2026-10-20
 steam_url: "https://store.steampowered.com/app/269710"
 igdb_slug: tumblestone
 igdb_url: "https://www.igdb.com/games/tumblestone"
