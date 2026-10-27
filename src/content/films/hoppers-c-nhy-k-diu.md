@@ -5,7 +5,7 @@ tmdb_id: 1327819
 tmdb_type: movie
 rating: 6
 tmdb_score: 8.1
-genre: "Phim Phiêu Lưu, Phim Hoạt Hình, Phim Hài, Phim Gia Đình, Phim Khoa Học Viễn Tưởng"
+genre: "Phim Hoạt Hình, Phim Phiêu Lưu, Phim Hài, Phim Gia Đình, Phim Khoa Học Viễn Tưởng"
 year: 2026
 director: "Daniel Chong"
 status: watched

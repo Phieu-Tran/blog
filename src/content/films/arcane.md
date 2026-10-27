@@ -11,6 +11,6 @@ year: 2021
 director: "Christian Linke, Alex Yee"
 status: watched
 date: 2025-10-18
-cover: "https://image.tmdb.org/t/p/w500/fqldf2t8ztc9aiwn3k6mlX3tvRT.jpg"
+cover: "https://image.tmdb.org/t/p/w500/87C0wecB8bHb1PsrKBI4kJiEkgV.jpg"
 ---
 

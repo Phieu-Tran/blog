@@ -5,7 +5,7 @@ tmdb_id: 1368166
 tmdb_type: movie
 rating: 7
 imdb_score: 6.7
-tmdb_score: 7.3
+tmdb_score: 7.2
 genre: "Phim Bí Ẩn, Phim Gây Cấn"
 year: 2025
 director: "Paul Feig"

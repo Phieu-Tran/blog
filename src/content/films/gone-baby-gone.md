@@ -11,6 +11,6 @@ year: 2007
 director: "Ben Affleck"
 status: watched
 date: 2026-01-14
-cover: "https://image.tmdb.org/t/p/w500/5BXDhjKZ4AL9VPxcygdG3oL60GP.jpg"
+cover: "https://image.tmdb.org/t/p/w500/w98tAPUjNPxGAMCipNDWDt8PJo.jpg"
 ---
 

@@ -5,7 +5,7 @@ tmdb_id: 75006
 tmdb_type: tv
 rating: 8
 imdb_score: 7.8
-tmdb_score: 8.5
+tmdb_score: 8.4
 genre: "Action & Adventure, Sci-Fi & Fantasy, Phim Chính Kịch"
 year: 2019
 director: "Steve Blackman"

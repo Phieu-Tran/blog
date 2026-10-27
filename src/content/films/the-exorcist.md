@@ -5,7 +5,7 @@ tmdb_id: 9552
 tmdb_type: movie
 rating: 8
 imdb_score: 8.1
-tmdb_score: 7.8
+tmdb_score: 7.7
 genre: "Phim Kinh Dị"
 year: 1973
 director: "William Friedkin"
