@@ -5,7 +5,7 @@ tmdb_id: 298250
 tmdb_type: movie
 rating: 5
 tmdb_score: 6.2
-genre: "Phim Kinh Dị, Phim Bí Ẩn"
+genre: "Phim Kinh Dị, Phim Bí Ẩn, Phim Gây Cấn"
 year: 2017
 director: "Michael Spierig"
 status: watched

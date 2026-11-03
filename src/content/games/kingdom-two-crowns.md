@@ -10,8 +10,8 @@ status: completed
 source: steam
 platform: Multi-platform
 playtime_hours: 12
-steam_recent: true
-steam_recent_hours: 6
+steam_recent: false
+steam_recent_hours: 0
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/coab5p.jpg"
 date: 2026-10-13
 igdb_id: 27436
@@ -19,6 +19,6 @@ igdb_slug: kingdom-two-crowns
 igdb_url: "https://www.igdb.com/games/kingdom-two-crowns"
 publisher: "Raw Fury"
 igdb_score: 8.3
-igdb_updated_at: 2026-10-27
+igdb_updated_at: 2026-11-03
 ---
 

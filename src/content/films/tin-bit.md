@@ -10,6 +10,6 @@ year: 2008
 director: 滝田洋二郎
 status: watched
 date: 2026-08-17
-cover: "https://image.tmdb.org/t/p/w500/B74JZshnm5v9xNtxGFog4GHK1w.jpg"
+cover: "https://image.tmdb.org/t/p/w500/ssMMT72TJ80ZqqWFRuNlTPCY89v.jpg"
 ---
 

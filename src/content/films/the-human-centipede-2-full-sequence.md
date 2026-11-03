@@ -5,7 +5,7 @@ tmdb_id: 74997
 tmdb_type: movie
 rating: 1
 imdb_score: 3.8
-tmdb_score: 4.8
+tmdb_score: 4.7
 genre: "Phim Chính Kịch, Phim Kinh Dị, Phim Hình Sự"
 year: 2011
 director: "Tom Six"

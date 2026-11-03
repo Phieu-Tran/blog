@@ -4,7 +4,7 @@ imdb_id: tt1409024
 tmdb_id: 41154
 tmdb_type: movie
 rating: 6
-tmdb_score: 6.5
+tmdb_score: 6.6
 genre: "Phim Hành Động, Phim Hài, Phim Khoa Học Viễn Tưởng"
 year: 2012
 director: "Barry Sonnenfeld"
