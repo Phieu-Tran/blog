@@ -6,7 +6,7 @@ tmdb_type: movie
 rating: 6
 imdb_score: 7.3
 tmdb_score: 7.7
-genre: "Phim Hoạt Hình, Phim Phiêu Lưu, Phim Hài, Phim Bí Ẩn, Phim Gia Đình"
+genre: "Phim Phiêu Lưu, Phim Hoạt Hình, Phim Hài, Phim Bí Ẩn, Phim Gia Đình"
 year: 2025
 director: "Jared Bush"
 status: watched

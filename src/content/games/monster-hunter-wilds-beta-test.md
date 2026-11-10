@@ -1,5 +1,5 @@
 ---
-title: "Monster Hunter Wilds Beta test"
+title: "Monster Hunter Wilds: Ascendance Beta test"
 steam_appid: 3065170
 rating: 0
 genre: N/A

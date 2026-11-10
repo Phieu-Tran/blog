@@ -2,7 +2,7 @@
 title: "Detective Conan Movie 21: The Crimson Love Letter"
 mal_id: 34430
 rating: 8
-genre: "Action, Drama, Mystery, Romance"
+genre: "Action, Drama, Mystery, Romance, Shounen"
 year: 2017
 studio: "TMS Entertainment"
 status: completed

@@ -2,7 +2,7 @@
 title: "Case Closed Movie 22: Zero the Enforcer"
 mal_id: 35798
 rating: 8
-genre: "Action, Award Winning, Drama, Mystery"
+genre: "Action, Award Winning, Drama, Mystery, Shounen"
 year: 2018
 studio: "TMS Entertainment"
 status: completed

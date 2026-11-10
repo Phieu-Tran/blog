@@ -5,7 +5,7 @@ tmdb_id: 1995
 tmdb_type: movie
 rating: 4
 tmdb_score: 5.9
-genre: "Phim Phiêu Lưu, Phim Hành Động, Phim Giả Tượng"
+genre: "Phim Phiêu Lưu, Phim Hành Động"
 year: 2001
 director: "Simon West"
 status: watched
