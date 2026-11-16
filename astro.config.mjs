@@ -2,13 +2,13 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://blog.workspacesbeat.site',
+  site: 'https://blog.workspacesbeat.io.vn',
   base: '/',
   integrations: [
     sitemap({
       filter: page => !page.includes('/og/') && !page.endsWith('/rss.xml') && !page.endsWith('/search-index.json'),
       serialize(item) {
-        if (item.url === 'https://blog.workspacesbeat.site/' || item.url.endsWith('/posts/')) {
+        if (item.url === 'https://blog.workspacesbeat.io.vn/' || item.url.endsWith('/posts/')) {
           item.changefreq = 'weekly';
           item.priority = 0.9;
         } else if (item.url.includes('/posts/')) {

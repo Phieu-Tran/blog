@@ -64,6 +64,7 @@ const base = import.meta.env.BASE_URL;
       </select>
       <select id="sort-filter" class="filter-select">
         <option value="rating">My Score ↓</option>
+        <option value="playtime">Playtime ↓</option>
         <option value="date">Mới nhất</option>
         <option value="igdb">IGDB Score ↓</option>
         <option value="title">A → Z</option>
@@ -92,6 +93,7 @@ const base = import.meta.env.BASE_URL;
         data-source={item.data.source}
         data-rating={item.data.rating}
         data-igdb={item.data.igdb_score || 0}
+        data-playtime={item.data.playtime_hours || 0}
         data-platform={item.data.platform.toLowerCase()}
         data-has-igdb={item.data.igdb_id ? 'true' : 'false'}
         data-has-cover={item.data.cover ? 'true' : 'false'}
@@ -130,6 +132,47 @@ const base = import.meta.env.BASE_URL;
       grid.dataset.filterBound = 'games';
       let quick = '';
 
+      function setSelectValue(select: HTMLSelectElement, value: string | null) {
+        if (!value) return;
+        const match = [...select.options].find(option =>
+          option.value === value || option.value.toLowerCase() === value.toLowerCase()
+        );
+        if (match) select.value = match.value;
+      }
+
+      function setQuickValue(value: string | null) {
+        const next = value || '';
+        quick = quickButtons.some(item => (item.dataset.quick || '') === next) ? next : '';
+        quickButtons.forEach(item => item.classList.toggle('active', (item.dataset.quick || '') === quick));
+      }
+
+      function readUrlState() {
+        const params = new URLSearchParams(window.location.search);
+        search.value = params.get('q') || '';
+        setSelectValue(genre, params.get('genre'));
+        setSelectValue(status, params.get('status'));
+        setSelectValue(source, params.get('source'));
+        setSelectValue(platformFilter, params.get('platform'));
+        setSelectValue(sort, params.get('sort'));
+        setQuickValue(params.get('quick'));
+      }
+
+      function updateUrlState() {
+        const url = new URL(window.location.href);
+        const setParam = (key: string, value: string, defaultValue = '') => {
+          if (!value || value === defaultValue) url.searchParams.delete(key);
+          else url.searchParams.set(key, value);
+        };
+        setParam('q', search.value.trim());
+        setParam('genre', genre.value);
+        setParam('status', status.value);
+        setParam('source', source.value);
+        setParam('platform', platformFilter.value);
+        setParam('sort', sort.value, 'rating');
+        setParam('quick', quick);
+        window.history.replaceState({}, '', `${url.pathname}${url.search}${url.hash}`);
+      }
+
       function preserveScroll() {
         const x = window.scrollX;
         const y = window.scrollY;
@@ -142,8 +185,9 @@ const base = import.meta.env.BASE_URL;
         });
       }
 
-      function apply() {
-        preserveScroll();
+      function apply(options: { keepScroll?: boolean; updateAddress?: boolean } = {}) {
+        const { keepScroll = true, updateAddress = true } = options;
+        if (keepScroll) preserveScroll();
         const q = search.value.toLowerCase();
         const g = genre.value.toLowerCase();
         const s = status.value;
@@ -153,6 +197,7 @@ const base = import.meta.env.BASE_URL;
         const sv = sort.value;
         items.sort((a, b) => {
           if (sv === 'rating') return parseFloat(b.dataset.rating!) - parseFloat(a.dataset.rating!);
+          if (sv === 'playtime') return parseFloat(b.dataset.playtime!) - parseFloat(a.dataset.playtime!);
           if (sv === 'igdb') return parseFloat(b.dataset.igdb!) - parseFloat(a.dataset.igdb!);
           if (sv === 'title') return a.dataset.title!.localeCompare(b.dataset.title!);
           if (sv === 'year') return parseInt(b.dataset.year!) - parseInt(a.dataset.year!);
@@ -184,7 +229,10 @@ const base = import.meta.env.BASE_URL;
           if (ok) v++;
         });
         count.textContent = String(v);
+        if (updateAddress) updateUrlState();
       }
+      readUrlState();
+      apply({ keepScroll: false, updateAddress: false });
       search.addEventListener('input', apply);
       genre.addEventListener('change', apply);
       status.addEventListener('change', apply);
@@ -194,8 +242,7 @@ const base = import.meta.env.BASE_URL;
       quickButtons.forEach(button => {
         button.addEventListener('click', event => {
           event.preventDefault();
-          quick = button.dataset.quick || '';
-          quickButtons.forEach(item => item.classList.toggle('active', item === button));
+          setQuickValue(button.dataset.quick || '');
           apply();
         });
       });

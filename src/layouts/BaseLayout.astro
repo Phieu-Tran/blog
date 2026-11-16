@@ -21,6 +21,8 @@ const pageTitle = title === 'Phieu.work' ? 'Phieu.work' : `${title} — Phieu.wo
 const feedUrl = new URL(`${base}rss.xml`, Astro.site).toString();
 const defaultImage = `${base}og/site.svg`;
 const absoluteImage = new URL(image || defaultImage, Astro.site).toString();
+const buildCommit = (process.env.CF_PAGES_COMMIT_SHA || process.env.GITHUB_SHA || '').slice(0, 7) || 'local';
+const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
 ---
 <!DOCTYPE html>
 <html lang="vi">
@@ -130,9 +132,10 @@ const absoluteImage = new URL(image || defaultImage, Astro.site).toString();
     <slot />
   </main>
 
-  <footer style="border-top: 1px solid rgba(255,255,255,0.06); padding: 16px 24px; text-align: center;">
-    <p style="font-size: 11px; color: rgba(255,255,255,0.2); font-family: 'Space Mono', monospace;">
-      Phieu.work — powered by Obsidian + Astro
+  <footer class="site-footer">
+    <p>Phieu.work - powered by Obsidian + Astro</p>
+    <p class="deploy-marker" title={`Build ${buildCommit} at ${buildTime} UTC`}>
+      Build {buildCommit} - {buildTime} UTC
     </p>
   </footer>
 

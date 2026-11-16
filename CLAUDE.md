@@ -6,10 +6,10 @@ Personal media hub blog by **Phieu-Tran** (GitHub: [Phieu-Tran](https://github.c
 
 A static blog built with **Astro** that aggregates media tracking (anime, games, films) and personal blog posts. Auto-syncs from MAL, TMDB, Steam, and IGDB weekly; IMDb CSV imports are supported manually for bulk film updates.
 
-- **Live site**: https://blog.workspacesbeat.site
+- **Live site**: https://blog.workspacesbeat.io.vn
 - **Repo**: https://github.com/Phieu-Tran/blog
 - **Hosting**: Cloudflare Pages (auto-deploy on push to `main`)
-- **Domain**: `workspacesbeat.site` (DNS on Cloudflare, subdomain `blog`)
+- **Domain**: `workspacesbeat.io.vn` (DNS on Cloudflare, subdomain `blog`)
 
 ## Tech stack
 
@@ -105,6 +105,9 @@ before committing changes.
 - **Game detail external links**: Game detail pages show IGDB, IGN, Metacritic, Steam, and Official links. IGDB/Steam/Official are metadata-backed when available; IGN/Metacritic fall back to search URLs. IGDB does not expose stable game director/composer/writer/creator fields, so automated sync fills developer/publisher and leaves optional creator credit fields for manual or future sources.
 - **Steam page** (`/steam/`) has dedicated Steam-style UI separate from Games list.
 - **Steam recent behavior**: `sync-steam` updates Steam-backed games whenever `npm run sync-steam` or the main weekly `npm run sync` runs. It fetches owned games plus Steam recently played data; `steam_recent` is `true` only when Steam returns that AppID in the recent list for that sync, and `steam_recent_hours` is derived from recent playtime. If an owned game is no longer returned as recent, the next Steam sync sets `steam_recent: false`. Steam-backed files are not auto-deleted when absent from Steam results; deletion is manual.
+- **List filter URLs**: Anime, Games, and Films list filters write their state into the URL (`q`, `genre`, `status`, `source`, `platform`, `sort`, `quick`) using `history.replaceState`, so refresh/back/share keeps the current view without adding noisy browser history entries.
+- **Game duplicate guard**: `npm run check:site` fails if two game files share the same `steam_appid` or `igdb_id`. This prevents Steam/IGDB syncs from silently recreating duplicates such as separate Disco Elysium entries.
+- **Deploy marker**: The shared footer prints the short Cloudflare/GitHub commit SHA and UTC build time. On Cloudflare Pages it reads `CF_PAGES_COMMIT_SHA`; local builds fall back to `local`.
 - **Frontmatter title always quoted** — prevents YAML numeric title parsing.
 - **sync-all includes build check** — exits with error code if build fails.
 - **on_hold status** separated from watching for anime.

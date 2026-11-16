@@ -52,7 +52,7 @@ function renderLines(lines: string[], x: number, y: number, lineHeight: number, 
 export function renderOgImage(item: OgImageItem, site?: URL | string | null) {
   const titleLines = wrapText(item.title, 32, 3);
   const descriptionLines = wrapText(item.description || item.subtitle, 54, 2);
-  const cover = item.cover ? new URL(item.cover, site || 'https://blog.workspacesbeat.site').toString() : '';
+  const cover = item.cover ? new URL(item.cover, site || 'https://blog.workspacesbeat.io.vn').toString() : '';
   const hasCover = Boolean(cover);
   const titleY = titleLines.length > 2 ? 205 : 235;
   const descriptionY = titleY + titleLines.length * 58 + 36;

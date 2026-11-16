@@ -475,6 +475,21 @@ body.search-open { overflow: hidden; }
   z-index: -1;
 }
 
+.site-footer {
+  border-top: 1px solid rgba(255,255,255,0.06);
+  padding: 16px 24px;
+  text-align: center;
+}
+.site-footer p {
+  color: rgba(255,255,255,0.22);
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+}
+.site-footer .deploy-marker {
+  color: rgba(255,255,255,0.16);
+  margin-top: 4px;
+}
+
 /* Section */
 .section-label {
   font-size: 11px; text-transform: uppercase;

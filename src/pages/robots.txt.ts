@@ -1,7 +1,7 @@
 import type { APIRoute } from 'astro';
 
 export const GET: APIRoute = ({ site }) => {
-  const origin = site?.toString().replace(/\/$/, '') || 'https://blog.workspacesbeat.site';
+  const origin = site?.toString().replace(/\/$/, '') || 'https://blog.workspacesbeat.io.vn';
 
   return new Response(`User-agent: *
 Allow: /

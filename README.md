@@ -2,7 +2,7 @@
 
 A personal media tracking blog built with Astro. Aggregates anime (MAL), films (IMDb CSV + TMDB), games (Steam + IGDB), and blog posts from Obsidian. Auto-syncs weekly, deployed on Cloudflare Pages.
 
-**Live**: [blog.workspacesbeat.site](https://blog.workspacesbeat.site)
+**Live**: [blog.workspacesbeat.io.vn](https://blog.workspacesbeat.io.vn)
 
 ## Features
 
