@@ -1,6 +1,6 @@
 ---
 title: "Hayao Miyazaki | 宮崎 駿 | Từ Hoạt Hình Đến Đời Sống"
-description: "[[Thảo Luận]] — Hayao Miyazaki"
+description: "Thảo Luận — Hayao Miyazaki"
 tags: ["Analysis", "Theme"]
 date: 2026-03-29
 ---

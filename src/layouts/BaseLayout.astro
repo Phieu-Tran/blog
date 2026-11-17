@@ -1,5 +1,5 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
+import { ClientRouter } from 'astro:transitions';
 
 interface Props {
   title?: string;
@@ -34,6 +34,11 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
   <link rel="canonical" href={canonicalURL} />
   <link rel="alternate" type="application/rss+xml" title="Phieu.work Posts RSS" href={feedUrl} />
   <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" />
+  <noscript><style>.reveal { opacity: 1; transform: none; }</style></noscript>
+  <slot name="head" />
 
   <!-- Open Graph -->
   <meta property="og:type" content={ogType} />
@@ -45,7 +50,7 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
   <meta property="og:image:alt" content={pageTitle} />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <ViewTransitions />
+  <ClientRouter />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -79,7 +84,7 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
     <button
       type="button"
       class="nav-search-button"
-      aria-label="Search media"
+      aria-label="Tìm kiếm"
       aria-controls="global-search"
       data-search-open
     >
@@ -110,8 +115,8 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
     <div class="global-search-backdrop" data-search-close></div>
     <section class="global-search-panel" role="dialog" aria-modal="true" aria-labelledby="global-search-title">
       <div class="global-search-head">
-        <h2 id="global-search-title">Search</h2>
-        <button type="button" class="global-search-close" aria-label="Close search" data-search-close>
+        <h2 id="global-search-title">Tìm kiếm</h2>
+        <button type="button" class="global-search-close" aria-label="Đóng tìm kiếm" data-search-close>
           <span></span>
           <span></span>
         </button>
@@ -235,10 +240,10 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
         .slice(0, 14)
         .map(row => row.item);
 
-      meta.textContent = query ? `${matches.length} results` : 'Top rated media';
+      meta.textContent = query ? `${matches.length} kết quả` : 'Điểm cao nhất';
 
       if (!matches.length) {
-        results.innerHTML = '<p class="global-search-empty">No matches.</p>';
+        results.innerHTML = '<p class="global-search-empty">Không tìm thấy.</p>';
         return;
       }
 

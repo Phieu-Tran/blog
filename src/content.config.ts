@@ -1,7 +1,11 @@
 import { defineCollection, z } from 'astro:content';
+import { glob } from 'astro/loaders';
+
+// glob loader gives ids without the ".md" suffix, so URLs are /anime/slug/ not /anime/slug.md/
+const markdown = (dir: string) => glob({ pattern: '**/*.md', base: `./src/content/${dir}` });
 
 const anime = defineCollection({
-  type: 'content',
+  loader: markdown('anime'),
   schema: z.object({
     title: z.string(),
     mal_id: z.number().optional(),
@@ -26,7 +30,7 @@ const anime = defineCollection({
 });
 
 const games = defineCollection({
-  type: 'content',
+  loader: markdown('games'),
   schema: z.object({
     title: z.string(),
     steam_appid: z.number().optional(),
@@ -62,7 +66,7 @@ const games = defineCollection({
 });
 
 const films = defineCollection({
-  type: 'content',
+  loader: markdown('films'),
   schema: z.object({
     title: z.string(),
     imdb_id: z.string().optional(),
@@ -85,7 +89,7 @@ const films = defineCollection({
 });
 
 const posts = defineCollection({
-  type: 'content',
+  loader: markdown('posts'),
   schema: z.object({
     title: z.string(),
     description: z.string().optional(),

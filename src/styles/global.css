@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
-
 :root {
   --bg-primary: #0a0a14;
   --bg-card: rgba(255,255,255,0.04);
@@ -32,10 +30,15 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: clip; }
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+}
 
 body {
   font-family: 'DM Sans', sans-serif;
+  overflow-x: clip;
   background: var(--bg-primary);
   color: var(--text-primary);
   line-height: 1.6;
@@ -116,6 +119,7 @@ a { color: inherit; text-decoration: none; }
 
 /* Media card */
 .media-card {
+  display: block;
   border-radius: 14px;
   overflow: hidden;
   background: var(--glass-bg);
@@ -690,7 +694,7 @@ body.search-open { overflow: hidden; }
   position: relative;
   width: 100vw;
   margin-left: calc(-50vw + 50%);
-  height: 260px;
+  height: 190px;
   overflow: hidden;
   margin-bottom: 20px;
 }
@@ -978,11 +982,13 @@ body.search-open { overflow: hidden; }
 .filter-select:focus { border-color: var(--glass-border-hover); }
 .filter-select option { background: #1a1a2e; color: var(--text-primary); }
 .filter-item { display: block; }
+.filter-item > .media-card { height: 100%; }
 
 @media (max-width: 600px) {
   .top-card { flex: 0 0 120px; }
   .filter-bar { flex-direction: column; }
   .filter-input, .filter-select { width: 100%; }
+  .filter-input { flex: 0 0 auto; }
 }
 
 .detail-cover,
@@ -1400,3 +1406,66 @@ body.search-open { overflow: hidden; }
 }
 .prose pre code { background: none; padding: 0; }
 .prose img { max-width: 100%; border-radius: 8px; margin: 12px 0; }
+
+/* Keyboard focus — visible ring only for keyboard users */
+:focus-visible {
+  outline: 2px solid var(--anime-color, #A78BFA);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Respect the OS "reduce motion" setting */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .reveal { opacity: 1; transform: none; }
+}
+
+/* Type badge sits on top of cover art: give it a solid backdrop so it stays readable on bright covers */
+.card-cover > .badge {
+  background-color: rgba(10,10,20,0.72);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+/* Long lists: skip layout/paint for cards far off-screen */
+.filter-item {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 330px;
+}
+
+/* Obsidian callouts (> [!info] Title) */
+.prose blockquote.callout {
+  color: var(--text-primary);
+  border: 1px solid var(--glass-border);
+  border-left: 3px solid var(--post-color);
+  border-radius: 10px;
+  background: rgba(56,189,248,0.06);
+  padding: 14px 16px;
+  margin: 20px 0;
+  font-style: normal;
+}
+.callout > :last-child { margin-bottom: 0; }
+.callout-title {
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--post-color);
+  margin-bottom: 8px;
+}
+.callout[data-callout="warning"], .callout[data-callout="caution"], .callout[data-callout="danger"] {
+  border-left-color: var(--film-color); background: rgba(251,146,60,0.06);
+}
+.callout[data-callout="warning"] .callout-title, .callout[data-callout="caution"] .callout-title, .callout[data-callout="danger"] .callout-title { color: var(--film-color); }
+.callout[data-callout="tip"], .callout[data-callout="success"] { border-left-color: var(--game-color); background: rgba(52,211,153,0.06); }
+.callout[data-callout="tip"] .callout-title, .callout[data-callout="success"] .callout-title { color: var(--game-color); }
+.callout[data-callout="quote"] { border-left-color: var(--anime-color); background: rgba(167,139,250,0.06); }
+.callout[data-callout="quote"] .callout-title { color: var(--anime-color); }
+.prose blockquote.callout p:not(.callout-title) { white-space: pre-line; }
+.prose hr { border: none; height: 1px; background: var(--glass-border); margin: 24px 0; }

@@ -1,9 +1,13 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import remarkCallouts from './src/lib/remarkCallouts.mjs';
 
 export default defineConfig({
   site: 'https://blog.workspacesbeat.io.vn',
   base: '/',
+  markdown: {
+    remarkPlugins: [remarkCallouts],
+  },
   integrations: [
     sitemap({
       filter: page => !page.includes('/og/') && !page.endsWith('/rss.xml') && !page.endsWith('/search-index.json'),

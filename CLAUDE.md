@@ -108,6 +108,12 @@ before committing changes.
 - **List filter URLs**: Anime, Games, and Films list filters write their state into the URL (`q`, `genre`, `status`, `source`, `platform`, `sort`, `quick`) using `history.replaceState`, so refresh/back/share keeps the current view without adding noisy browser history entries.
 - **Game duplicate guard**: `npm run check:site` fails if two game files share the same `steam_appid` or `igdb_id`. This prevents Steam/IGDB syncs from silently recreating duplicates such as separate Disco Elysium entries.
 - **Deploy marker**: The shared footer prints the short Cloudflare/GitHub commit SHA and UTC build time. On Cloudflare Pages it reads `CF_PAGES_COMMIT_SHA`; local builds fall back to `local`.
+- **Clean detail URLs**: collections use the `glob` loader in `src/content.config.ts`, so entry ids and URLs have no `.md` suffix (`/anime/akira/`). `public/_redirects` holds a frozen 301 list for the 993 old `.../slug.md/` URLs; new entries never need one.
+- **Cloudflare Pages headers**: `public/_headers` caches hashed `/_assets/*` as immutable and post/crowd images for a week.
+- **Post hero image**: a post only renders a hero when frontmatter `cover` is set and differs from the first body image; otherwise the first body image doubles as OG image only.
+- **Obsidian callouts**: `src/lib/remarkCallouts.mjs` (registered in `astro.config.mjs`) renders `> [!info] Title` blockquotes as styled `.callout` boxes.
+- **UI language**: navigation chrome (filters, quick filters, section labels, back links, search) is Vietnamese; data labels and the Steam page stay English.
+- **Card covers**: `MediaCard` swaps Steam landscape `header.jpg` for the portrait `library_600x900.jpg` and falls back to the original on error. Unrated items (`rating: 0`) show "Chưa chấm" instead of empty stars. The "Thiếu ảnh bìa" quick filter only renders when some entry lacks a cover.
 - **Frontmatter title always quoted** — prevents YAML numeric title parsing.
 - **sync-all includes build check** — exits with error code if build fails.
 - **on_hold status** separated from watching for anime.

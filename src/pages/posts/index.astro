@@ -119,22 +119,22 @@ const mediaCounts = {
   </section>
 
   <section class="posts-toolbar" aria-label="Post filters">
-    <input id="post-search" class="filter-input" type="text" placeholder="Tim bai viet trong Posts..." autocomplete="off" />
+    <input id="post-search" class="filter-input" type="text" placeholder="Tìm bài viết..." autocomplete="off" />
     <select id="media-filter" class="filter-select">
-      <option value="">Tat ca media</option>
+      <option value="">Tất cả media</option>
       <option value="anime">Anime linked</option>
       <option value="game">Game linked</option>
       <option value="film">Film linked</option>
       <option value="unlinked">Unlinked</option>
     </select>
     <select id="tag-filter" class="filter-select">
-      <option value="">Tat ca tag</option>
+      <option value="">Tất cả tag</option>
       {tags.map(tag => <option value={tag.toLowerCase()}>{tag}</option>)}
     </select>
   </section>
 
   <p class="section-label posts-count">
-    Dang hien <span id="post-count">{posts.length}</span> bai
+    Đang hiện <span id="post-count">{posts.length}</span> bài
   </p>
 
   <section id="post-grid" class="posts-grid">
@@ -402,6 +402,17 @@ const mediaCounts = {
     min-height: 320px;
   }
 
+  /* Featured cover fills the tile instead of stretching it to the image height */
+  .post-tile:nth-child(1) .post-cover-link img {
+    inset: 0;
+    position: absolute;
+  }
+
+  .post-tile:nth-child(1) .post-tile-body {
+    justify-content: center;
+    padding: 28px;
+  }
+
   .post-cover-link {
     background:
       linear-gradient(135deg, rgba(56, 189, 248, 0.12), rgba(167, 139, 250, 0.08)),
@@ -464,7 +475,7 @@ const mediaCounts = {
   }
 
   .post-tile:nth-child(1) h2 {
-    font-size: clamp(26px, 4vw, 40px);
+    font-size: clamp(22px, 2.6vw, 30px);
     max-width: 780px;
   }
 

@@ -1,6 +1,6 @@
 ---
 title: "Nhân Vật Phản Diện, Ta Nhìn Nhận Thế Nào?"
-description: "[[Thảo Luận]]"
+description: "Thảo Luận"
 tags: ["Character", "Explained"]
 date: 2026-02-04
 ---

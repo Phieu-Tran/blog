@@ -12,7 +12,21 @@ const { entry } = Astro.props;
 const { Content } = await render(entry);
 const { title, description, tags, cover, date } = entry.data;
 const base = import.meta.env.BASE_URL;
-const pageImage = cover || firstMarkdownImage(entry.body);
+const firstBodyImage = firstMarkdownImage(entry.body);
+const pageImage = cover || firstBodyImage;
+// Only show a hero when the post has its own cover; otherwise the first body image would appear twice.
+const heroImage = cover && cover !== firstBodyImage ? cover : undefined;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: title,
+  description: description || undefined,
+  datePublished: date.toISOString(),
+  inLanguage: 'vi',
+  author: { '@type': 'Person', name: 'Phieu Tran' },
+  image: pageImage ? new URL(pageImage, Astro.site).toString() : undefined,
+  mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).toString(),
+};
 const ogImage = `${base}og/posts/${entry.id}.svg`;
 
 const [anime, games, films] = await Promise.all([
@@ -59,7 +73,8 @@ const relatedMedia = (entry.data.related_media || [])
 ---
 
 <BaseLayout title={title} description={description} image={ogImage} ogType="article" activeNav="posts">
-  <a href={`${base}posts/`} class="post-back">Back to Posts</a>
+  <script slot="head" type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />
+  <a href={`${base}posts/`} class="post-back">Về danh sách bài viết</a>
 
   <article class="post-detail">
     <header class="post-detail-header">
@@ -89,7 +104,7 @@ const relatedMedia = (entry.data.related_media || [])
       )}
     </header>
 
-    {pageImage && <img src={pageImage} alt={title} class="post-cover" onerror="this.hidden=true" />}
+    {heroImage && <img src={heroImage} alt={title} class="post-cover" onerror="this.hidden=true" />}
 
     <div class="prose">
       <Content />

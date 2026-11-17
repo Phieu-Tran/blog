@@ -12,6 +12,7 @@ const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout title="Anime" activeNav="anime">
+  <h1 class="sr-only">Anime</h1>
   {/* Top 10 */}
   <section class="reveal" style="margin-bottom: 32px;">
     <p class="section-label">Top 10 — Điểm cao nhất</p>
@@ -59,11 +60,11 @@ const base = import.meta.env.BASE_URL;
       </select>
     </div>
     <div class="quick-filters" aria-label="Quick anime filters">
-      <button type="button" class="quick-filter active" data-quick="">All</button>
-      <button type="button" class="quick-filter" data-quick="active">Active</button>
-      <button type="button" class="quick-filter" data-quick="completed">Completed</button>
-      <button type="button" class="quick-filter" data-quick="top">Top Rated</button>
-      <button type="button" class="quick-filter" data-quick="missing-cover">Missing Cover</button>
+      <button type="button" class="quick-filter active" data-quick="">Tất cả</button>
+      <button type="button" class="quick-filter" data-quick="active">Đang theo dõi</button>
+      <button type="button" class="quick-filter" data-quick="completed">Đã xong</button>
+      <button type="button" class="quick-filter" data-quick="top">Điểm cao</button>
+      {allAnime.some(item => !item.data.cover) && <button type="button" class="quick-filter" data-quick="missing-cover">Thiếu ảnh bìa</button>}
     </div>
     <p class="section-label" style="margin-top: 16px;">
       Bộ sưu tập Anime — <span id="count">{allAnime.length}</span> tựa

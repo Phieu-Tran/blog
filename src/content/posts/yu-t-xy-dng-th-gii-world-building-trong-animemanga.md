@@ -1,6 +1,6 @@
 ---
 title: "Yếu Tố Xây Dựng Thế Giới (World-Building) Trong Anime/Manga"
-description: "[[Thảo Luận]]"
+description: "Thảo Luận"
 tags: ["Explained", "Theme"]
 date: 2026-03-29
 ---

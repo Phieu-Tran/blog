@@ -108,7 +108,7 @@ const metaItems = [
 
 <BaseLayout title={title} description={`${title} - ${genre}`} image={ogImage} activeNav="games">
   <section class="media-detail-shell media-detail-game" style={cover ? `--detail-image: url("${cover}")` : undefined}>
-    <a href={`${base}games/`} class="back-link">Back to Games</a>
+    <a href={`${base}games/`} class="back-link">Về danh sách Games</a>
 
     <div class="game-detail">
     <aside class="game-side">
@@ -186,7 +186,7 @@ const metaItems = [
 
   {relatedPosts.length > 0 && (
     <section class="related-section">
-      <p class="section-label">Bai viet lien quan</p>
+      <p class="section-label">Bài viết liên quan</p>
       <hr class="section-divider" />
       <div class="post-list">
         {relatedPosts.map(post => (

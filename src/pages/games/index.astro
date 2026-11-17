@@ -13,6 +13,7 @@ const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout title="Games" activeNav="games">
+  <h1 class="sr-only">Games</h1>
   {/* Top 10 */}
   <section class="reveal" style="margin-bottom: 32px;">
     <p class="section-label">Top 10 — Điểm cao nhất</p>
@@ -51,7 +52,7 @@ const base = import.meta.env.BASE_URL;
         <option value="dropped">Bỏ</option>
       </select>
       <select id="source-filter" class="filter-select">
-        <option value="">All sources</option>
+        <option value="">Tất cả nguồn</option>
         <option value="steam">Steam library</option>
         <option value="igdb">IGDB list</option>
         <option value="manual">Manual</option>
@@ -59,7 +60,7 @@ const base = import.meta.env.BASE_URL;
         <option value="recent">Recently Played</option>
       </select>
       <select id="platform-filter" class="filter-select">
-        <option value="">All platforms</option>
+        <option value="">Tất cả nền tảng</option>
         {platforms.map(p => <option value={p}>{p}</option>)}
       </select>
       <select id="sort-filter" class="filter-select">
@@ -72,12 +73,12 @@ const base = import.meta.env.BASE_URL;
       </select>
     </div>
     <div class="quick-filters" aria-label="Quick game filters">
-      <button type="button" class="quick-filter active" data-quick="">All</button>
-      <button type="button" class="quick-filter" data-quick="active">Active</button>
-      <button type="button" class="quick-filter" data-quick="completed">Completed</button>
-      <button type="button" class="quick-filter" data-quick="top">Top Rated</button>
-      <button type="button" class="quick-filter" data-quick="recent">Recent</button>
-      <button type="button" class="quick-filter" data-quick="missing-cover">Missing Cover</button>
+      <button type="button" class="quick-filter active" data-quick="">Tất cả</button>
+      <button type="button" class="quick-filter" data-quick="active">Đang theo dõi</button>
+      <button type="button" class="quick-filter" data-quick="completed">Đã xong</button>
+      <button type="button" class="quick-filter" data-quick="top">Điểm cao</button>
+      <button type="button" class="quick-filter" data-quick="recent">Chơi gần đây</button>
+      {allGames.some(item => !item.data.cover) && <button type="button" class="quick-filter" data-quick="missing-cover">Thiếu ảnh bìa</button>}
     </div>
     <p class="section-label" style="margin-top: 16px;">
       Bộ sưu tập Game — <span id="count">{allGames.length}</span> tựa

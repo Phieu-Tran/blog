@@ -1,0 +1,19 @@
+# Hashed build assets never change, cache them forever.
+/_assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Post images and character art are stable; a week is safe.
+/posts/*.jpg
+  Cache-Control: public, max-age=604800
+/posts/*.jpeg
+  Cache-Control: public, max-age=604800
+/posts/*.png
+  Cache-Control: public, max-age=604800
+/posts/*.webp
+  Cache-Control: public, max-age=604800
+/crowd/*
+  Cache-Control: public, max-age=604800
+
+/*
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: camera=(), microphone=(), geolocation=()

@@ -12,6 +12,7 @@ const base = import.meta.env.BASE_URL;
 ---
 
 <BaseLayout title="Films" activeNav="films">
+  <h1 class="sr-only">Films</h1>
   {/* Top 10 */}
   <section class="reveal" style="margin-bottom: 32px;">
     <p class="section-label">Top 10 — Điểm cao nhất</p>
@@ -49,7 +50,7 @@ const base = import.meta.env.BASE_URL;
         <option value="plan">Dự định</option>
       </select>
       <select id="source-filter" class="filter-select">
-        <option value="">All sources</option>
+        <option value="">Tất cả nguồn</option>
         <option value="movie">TMDB Movie</option>
         <option value="tv">TMDB TV</option>
         <option value="imdb">Has IMDb</option>
@@ -65,11 +66,11 @@ const base = import.meta.env.BASE_URL;
       </select>
     </div>
     <div class="quick-filters" aria-label="Quick film filters">
-      <button type="button" class="quick-filter active" data-quick="">All</button>
+      <button type="button" class="quick-filter active" data-quick="">Tất cả</button>
       <button type="button" class="quick-filter" data-quick="watched">Watched</button>
       <button type="button" class="quick-filter" data-quick="plan">Plan</button>
-      <button type="button" class="quick-filter" data-quick="top">Top Rated</button>
-      <button type="button" class="quick-filter" data-quick="missing-cover">Missing Cover</button>
+      <button type="button" class="quick-filter" data-quick="top">Điểm cao</button>
+      {allFilms.some(item => !item.data.cover) && <button type="button" class="quick-filter" data-quick="missing-cover">Thiếu ảnh bìa</button>}
     </div>
     <p class="section-label" style="margin-top: 16px;">
       Bộ sưu tập Film — <span id="count">{allFilms.length}</span> tựa

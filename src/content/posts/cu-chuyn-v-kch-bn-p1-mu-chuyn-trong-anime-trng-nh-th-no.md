@@ -1,6 +1,6 @@
 ---
 title: "Câu Chuyện Về Kịch Bản (P1): Mẫu Chuyện Trong Anime Trông Như Thế Nào?"
-description: "[[Thảo Luận]]"
+description: "Thảo Luận"
 tags: ["Explained", "Theme"]
 date: 2026-03-29
 ---
