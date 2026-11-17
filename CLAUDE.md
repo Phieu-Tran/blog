@@ -116,6 +116,7 @@ before committing changes.
 - **Card covers**: `MediaCard` swaps Steam landscape `header.jpg` for the portrait `library_600x900.jpg` and falls back to the original on error. Unrated items (`rating: 0`) show "Chưa chấm" instead of empty stars. The "Thiếu ảnh bìa" quick filter only renders when some entry lacks a cover.
 - **Cover accent colors**: `npm run cover-colors` (`extract-cover-colors.mjs`, also run by the weekly sync) samples one accent per cover into `src/data/cover-colors.json`, keyed by `collection/id` and re-fetched only when the cover URL changes. Detail pages apply it as `--accent` via `src/lib/coverColors.ts`; near-monochrome covers store `null` and fall back to the section color.
 - **Cover morph transition**: the detail poster has `view-transition-name: media-cover`; `BaseLayout` assigns the same name to the clicked card image on demand (and to the matching card when navigating back), because a title can appear twice on one page and duplicate names cancel the transition.
+- **Stats page** (`/stats/`, `src/pages/stats.astro`): build-time personal stats (score distribution, top genres, release decades, my score vs community) as CSS-only charts in small multiples, one section color each, with hover/focus tooltips and a table view. No chart library.
 - **Frontmatter title always quoted** — prevents YAML numeric title parsing.
 - **sync-all includes build check** — exits with error code if build fails.
 - **on_hold status** separated from watching for anime.

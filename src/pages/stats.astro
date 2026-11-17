@@ -1,0 +1,425 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const [anime, games, films] = await Promise.all([
+  getCollection('anime'),
+  getCollection('games'),
+  getCollection('films'),
+]);
+const base = import.meta.env.BASE_URL;
+
+type Item = { rating: number; genre: string; year: number; community?: number };
+type Section = {
+  key: 'anime' | 'games' | 'films';
+  label: string;
+  color: string;
+  href: string;
+  communityLabel: string;
+  items: Item[];
+};
+
+const sections: Section[] = [
+  {
+    key: 'anime', label: 'Anime', color: 'var(--anime-color)', href: `${base}anime/`, communityLabel: 'MAL',
+    items: anime.map(e => ({ rating: e.data.rating, genre: e.data.genre, year: e.data.year, community: e.data.mal_score })),
+  },
+  {
+    key: 'games', label: 'Games', color: 'var(--game-color)', href: `${base}games/`, communityLabel: 'IGDB',
+    items: games.map(e => ({ rating: e.data.rating, genre: e.data.genre, year: e.data.year, community: e.data.igdb_score })),
+  },
+  {
+    key: 'films', label: 'Films', color: 'var(--film-color)', href: `${base}films/`, communityLabel: 'IMDb',
+    items: films.map(e => ({ rating: e.data.rating, genre: e.data.genre, year: e.data.year, community: e.data.imdb_score })),
+  },
+];
+
+const fmt = (value: number, digits = 0) =>
+  value.toLocaleString('vi-VN', { minimumFractionDigits: digits, maximumFractionDigits: digits });
+const average = (values: number[]) => (values.length ? values.reduce((a, b) => a + b, 0) / values.length : 0);
+
+const charts = sections.map(section => {
+  const rated = section.items.filter(item => item.rating > 0);
+
+  // Score histogram: 1..10 (half scores round up to the next whole score)
+  const scores = Array.from({ length: 10 }, (_, i) => ({ score: i + 1, count: 0 }));
+  rated.forEach(item => { scores[Math.min(10, Math.max(1, Math.round(item.rating))) - 1].count++; });
+  const scoreMax = Math.max(1, ...scores.map(s => s.count));
+
+  // Genres: every listed genre counts once per title
+  const genreCounts = new Map<string, number>();
+  section.items.forEach(item => {
+    item.genre.split(',').map(g => g.trim().replace(/^Phim\s+/i, '')).filter(g => g && g !== 'N/A')
+      .forEach(g => genreCounts.set(g, (genreCounts.get(g) || 0) + 1));
+  });
+  const genres = [...genreCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 8).map(([raw, count]) => ({ raw, name: raw.replace(/^Phim\s+/i, ''), count }));
+  const genreMax = Math.max(1, ...genres.map(g => g.count));
+
+  // Release decade
+  const decadeCounts = new Map<number, number>();
+  section.items.filter(item => item.year > 1900).forEach(item => {
+    const decade = Math.floor(item.year / 10) * 10;
+    decadeCounts.set(decade, (decadeCounts.get(decade) || 0) + 1);
+  });
+  const decadeKeys = [...decadeCounts.keys()].sort((a, b) => a - b);
+  const decades: Array<{ decade: number; count: number }> = [];
+  if (decadeKeys.length) {
+    for (let d = decadeKeys[0]; d <= decadeKeys[decadeKeys.length - 1]; d += 10) {
+      decades.push({ decade: d, count: decadeCounts.get(d) || 0 });
+    }
+  }
+  const decadeMax = Math.max(1, ...decades.map(d => d.count));
+
+  // Me vs community, only where both scores exist
+  const compared = rated.filter(item => (item.community || 0) > 0);
+  const gap = compared.length ? average(compared.map(item => item.rating - (item.community as number))) : null;
+
+  return {
+    ...section,
+    total: section.items.length,
+    ratedCount: rated.length,
+    unrated: section.items.length - rated.length,
+    mean: average(rated.map(item => item.rating)),
+    scores, scoreMax, genres, genreMax, decades, decadeMax,
+    gap, comparedCount: compared.length,
+  };
+});
+
+const totalTitles = charts.reduce((sum, c) => sum + c.total, 0);
+const episodes = anime.reduce((sum, e) => sum + (e.data.episodes_watched || 0), 0);
+const hours = games.reduce((sum, e) => sum + (e.data.playtime_hours || 0), 0);
+const perfect = charts.reduce((sum, c) => sum + c.scores[9].count, 0);
+
+// Nice round top for the column axes
+const niceMax = (value: number) => {
+  const step = value <= 20 ? 5 : value <= 50 ? 10 : value <= 100 ? 25 : 50;
+  return Math.ceil(value / step) * step;
+};
+const gapText = (gap: number) =>
+  Math.abs(gap) < 0.05 ? 'ngang cộng đồng' : `${gap > 0 ? 'cao hơn' : 'thấp hơn'} cộng đồng ${fmt(Math.abs(gap), 1)} điểm`;
+---
+
+<BaseLayout title="Thống kê" description="Thống kê cá nhân: phân bố điểm, thể loại và thập niên của anime, game, phim." activeNav="stats">
+  <header class="stats-head reveal">
+    <p class="section-label">Thống kê cá nhân</p>
+    <h1>Mình xem gì, chơi gì, chấm thế nào</h1>
+    <p class="stats-lede">Tổng hợp từ {fmt(totalTitles)} tựa trong kho, cập nhật sau mỗi lần sync.</p>
+  </header>
+
+  <section class="stat-tiles reveal" aria-label="Tổng quan">
+    <div class="stat-tile">
+      <p class="stat-tile-value">{fmt(totalTitles)}</p>
+      <p class="stat-tile-label">Tựa đã lưu</p>
+    </div>
+    <div class="stat-tile">
+      <p class="stat-tile-value">{fmt(episodes)}</p>
+      <p class="stat-tile-label">Tập anime đã xem</p>
+    </div>
+    <div class="stat-tile">
+      <p class="stat-tile-value">{fmt(Math.round(hours))}</p>
+      <p class="stat-tile-label">Giờ chơi game</p>
+    </div>
+    <div class="stat-tile">
+      <p class="stat-tile-value">{fmt(perfect)}</p>
+      <p class="stat-tile-label">Tựa được 10 điểm</p>
+    </div>
+  </section>
+
+  {/* Score distribution — small multiples, one section color each */}
+  <section class="stats-block reveal">
+    <p class="section-label">Phân bố điểm của mình</p>
+    <hr class="section-divider" />
+    <div class="chart-grid">
+      {charts.map(chart => {
+        const top = niceMax(chart.scoreMax);
+        return (
+          <figure class="chart-card" style={`--series: ${chart.color}`}>
+            <figcaption>
+              <a href={chart.href} class="chart-title"><span class="chart-swatch"></span>{chart.label}</a>
+              <span class="chart-note">Trung bình {fmt(chart.mean, 1)} · {fmt(chart.ratedCount)} tựa đã chấm</span>
+            </figcaption>
+            <div class="columns" role="img" aria-label={`Phân bố điểm ${chart.label}`}>
+              <div class="columns-grid" aria-hidden="true">
+                <span>{top}</span><span>{top / 2}</span><span>0</span>
+              </div>
+              <div class="columns-plot">
+                {chart.scores.map(s => (
+                  <div class="column" tabindex="0" data-tip={`${s.score} điểm: ${fmt(s.count)} tựa`}>
+                    <div class="column-bar" style={`height: ${(s.count / top) * 100}%`}></div>
+                    <span class="column-x">{s.score}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <p class="chart-foot">
+              {chart.gap !== null && <>Chấm {gapText(chart.gap)} ({chart.communityLabel}, {fmt(chart.comparedCount)} tựa). </>}
+              {chart.unrated > 0 && <>{fmt(chart.unrated)} tựa chưa chấm không tính.</>}
+            </p>
+            <details class="chart-table">
+              <summary>Xem bảng số liệu</summary>
+              <table>
+                <thead><tr><th>Điểm</th><th>Số tựa</th></tr></thead>
+                <tbody>{chart.scores.map(s => <tr><td>{s.score}</td><td>{fmt(s.count)}</td></tr>)}</tbody>
+              </table>
+            </details>
+          </figure>
+        );
+      })}
+    </div>
+  </section>
+
+  {/* Top genres — horizontal bars, value at the tip */}
+  <section class="stats-block reveal">
+    <p class="section-label">Thể loại gặp nhiều nhất</p>
+    <hr class="section-divider" />
+    <div class="chart-grid">
+      {charts.map(chart => (
+        <figure class="chart-card" style={`--series: ${chart.color}`}>
+          <figcaption>
+            <a href={chart.href} class="chart-title"><span class="chart-swatch"></span>{chart.label}</a>
+            <span class="chart-note">Một tựa có thể thuộc nhiều thể loại</span>
+          </figcaption>
+          <ul class="hbars">
+            {chart.genres.map(genre => (
+              <li>
+                <a href={`${chart.href}?genre=${encodeURIComponent(genre.raw)}`} class="hbar" data-tip={`${genre.name}: ${fmt(genre.count)} tựa`}>
+                  <span class="hbar-label">{genre.name}</span>
+                  <span class="hbar-track"><span class="hbar-fill" style={`width: ${(genre.count / chart.genreMax) * 100}%`}></span></span>
+                  <span class="hbar-value">{fmt(genre.count)}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </figure>
+      ))}
+    </div>
+  </section>
+
+  {/* Release decade */}
+  <section class="stats-block reveal">
+    <p class="section-label">Theo thập niên phát hành</p>
+    <hr class="section-divider" />
+    <div class="chart-grid">
+      {charts.map(chart => {
+        const top = niceMax(chart.decadeMax);
+        return (
+          <figure class="chart-card" style={`--series: ${chart.color}`}>
+            <figcaption>
+              <a href={chart.href} class="chart-title"><span class="chart-swatch"></span>{chart.label}</a>
+              <span class="chart-note">Số tựa theo năm phát hành</span>
+            </figcaption>
+            <div class="columns" role="img" aria-label={`${chart.label} theo thập niên phát hành`}>
+              <div class="columns-grid" aria-hidden="true">
+                <span>{top}</span><span>{top / 2}</span><span>0</span>
+              </div>
+              <div class="columns-plot">
+                {chart.decades.map(d => (
+                  <div class="column" tabindex="0" data-tip={`Thập niên ${d.decade}: ${fmt(d.count)} tựa`}>
+                    <div class="column-bar" style={`height: ${(d.count / top) * 100}%`}></div>
+                    <span class="column-x">{`'${String(d.decade).slice(2)}`}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <details class="chart-table">
+              <summary>Xem bảng số liệu</summary>
+              <table>
+                <thead><tr><th>Thập niên</th><th>Số tựa</th></tr></thead>
+                <tbody>{chart.decades.map(d => <tr><td>{d.decade}</td><td>{fmt(d.count)}</td></tr>)}</tbody>
+              </table>
+            </details>
+          </figure>
+        );
+      })}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .stats-head { margin: 8px 0 24px; }
+  .stats-head h1 {
+    font-size: clamp(26px, 4.4vw, 40px);
+    font-weight: 800;
+    line-height: 1.12;
+    margin: 6px 0 8px;
+  }
+  .stats-lede { color: var(--text-secondary); font-size: 14px; }
+
+  .stat-tiles {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-bottom: 36px;
+  }
+  .stat-tile {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 14px;
+    padding: 18px 16px;
+  }
+  .stat-tile-value {
+    color: var(--text-primary);
+    font-family: 'Space Mono', monospace;
+    font-size: clamp(22px, 3.4vw, 32px);
+    font-weight: 700;
+    line-height: 1.1;
+  }
+  .stat-tile-label { color: var(--text-muted); font-size: 12px; margin-top: 6px; }
+
+  .stats-block { margin-bottom: 40px; }
+  .chart-grid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .chart-card {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 14px;
+    margin: 0;
+    min-width: 0;
+    padding: 16px;
+  }
+  .chart-card figcaption { display: grid; gap: 2px; margin-bottom: 14px; }
+  .chart-title {
+    align-items: center;
+    color: var(--text-primary);
+    display: inline-flex;
+    font-size: 15px;
+    font-weight: 700;
+    gap: 8px;
+  }
+  .chart-title:hover { text-decoration: underline; }
+  .chart-swatch { background: var(--series); border-radius: 3px; height: 10px; width: 10px; }
+  .chart-note, .chart-foot { color: var(--text-muted); font-size: 12px; }
+  .chart-foot { margin-top: 12px; min-height: 18px; }
+
+  /* Columns: thin bars from one baseline, rounded data-end, recessive hairline grid */
+  .columns { display: grid; gap: 8px; grid-template-columns: auto 1fr; height: 170px; }
+  .columns-grid {
+    color: var(--text-muted);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    text-align: right;
+  }
+  .columns-grid span { line-height: 1; transform: translateY(-50%); }
+  .columns-grid span:last-child { transform: translateY(50%); }
+  .columns-plot {
+    background:
+      linear-gradient(rgba(255,255,255,0.07), rgba(255,255,255,0.07)) 0 0 / 100% 1px no-repeat,
+      linear-gradient(rgba(255,255,255,0.07), rgba(255,255,255,0.07)) 0 calc((100% - 20px) / 2) / 100% 1px no-repeat;
+    display: flex;
+    gap: 2px;
+    position: relative;
+  }
+  .column {
+    align-items: center;
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-width: 0;
+    outline-offset: -2px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  .column::before {
+    border-bottom: 1px solid rgba(255,255,255,0.16);
+    bottom: 20px;
+    content: '';
+    left: -1px;
+    position: absolute;
+    right: -1px;
+  }
+  .column-bar {
+    background: var(--series);
+    border-radius: 4px 4px 0 0;
+    max-width: 24px;
+    min-height: 0;
+    opacity: 0.88;
+    transition: opacity 0.15s;
+    width: 100%;
+  }
+  .column:hover .column-bar, .column:focus-visible .column-bar { opacity: 1; }
+  .column-x {
+    bottom: 0;
+    color: var(--text-muted);
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    position: absolute;
+  }
+
+  /* Horizontal bars */
+  .hbars { display: grid; gap: 4px; list-style: none; }
+  .hbar {
+    align-items: center;
+    border-radius: 6px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: minmax(0, 96px) minmax(0, 1fr) 30px;
+    padding: 5px 4px;
+    position: relative;
+  }
+  .hbar:hover { background: rgba(255,255,255,0.04); }
+  .hbar-label {
+    color: var(--text-secondary);
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .hbar-track { display: block; height: 10px; }
+  .hbar-fill { background: var(--series); border-radius: 0 4px 4px 0; display: block; height: 100%; min-width: 2px; }
+  .hbar-value {
+    color: var(--text-primary);
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    text-align: right;
+  }
+
+  /* Hover / keyboard-focus tooltip */
+  [data-tip]:hover::after, [data-tip]:focus-visible::after {
+    background: #1d1d2e;
+    border: 1px solid var(--glass-border-hover);
+    border-radius: 8px;
+    bottom: calc(100% + 4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.45);
+    color: var(--text-primary);
+    content: attr(data-tip);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    left: 50%;
+    padding: 5px 9px;
+    pointer-events: none;
+    position: absolute;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 5;
+  }
+  .column:first-child[data-tip]::after, .column:nth-child(2)[data-tip]::after { left: 0; transform: none; }
+  .column:last-child[data-tip]::after, .column:nth-last-child(2)[data-tip]::after { left: auto; right: 0; transform: none; }
+  .column[data-tip]:hover::after, .column[data-tip]:focus-visible::after { bottom: auto; top: 0; }
+
+  .chart-table { margin-top: 10px; }
+  .chart-table summary { color: var(--text-muted); cursor: pointer; font-size: 12px; }
+  .chart-table summary:hover { color: var(--text-primary); }
+  .chart-table table { border-collapse: collapse; font-size: 12px; margin-top: 8px; width: 100%; }
+  .chart-table th, .chart-table td {
+    border-bottom: 1px solid var(--glass-border);
+    color: var(--text-secondary);
+    padding: 4px 6px;
+    text-align: left;
+  }
+  .chart-table td:last-child, .chart-table th:last-child { font-family: 'Space Mono', monospace; text-align: right; }
+
+  @media (max-width: 860px) {
+    .chart-grid { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 600px) {
+    .stat-tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+</style>
