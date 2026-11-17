@@ -2519,6 +2519,10 @@
   "cover": "https://image.tmdb.org/t/p/w500/tXb7UwjTKXyYImuBfpMWChazUUI.jpg",
   "color": "#81a4da"
  },
+ "films/mu-t-lm-l": {
+  "cover": "https://image.tmdb.org/t/p/w500/vBHQAX6ZXdHNoO1U791DsVFHy7C.jpg",
+  "color": "#81b4da"
+ },
  "films/mystic-river": {
   "cover": "https://image.tmdb.org/t/p/w500/hCHVDbo6XJGj3r2i4hVjKhE0GKF.jpg",
   "color": "#81afda"
@@ -2968,8 +2972,8 @@
   "color": "#deb57d"
  },
  "films/the-shawshank-redemption": {
-  "cover": "https://image.tmdb.org/t/p/w500/zLyG4nquaaZKCA3CJdQCEzTwN1R.jpg",
-  "color": "#e59575"
+  "cover": "https://image.tmdb.org/t/p/w500/hOHhVYz9SFtwryNL0oxsSntoYXq.jpg",
+  "color": "#81a6da"
  },
  "films/the-silence-of-the-lambs": {
   "cover": "https://image.tmdb.org/t/p/w500/2dfScR0ZhDOVRV2Qco758YgLzXG.jpg",

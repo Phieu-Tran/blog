@@ -5,7 +5,7 @@ tmdb_id: 262504
 tmdb_type: movie
 rating: 5
 tmdb_score: 6.1
-genre: "Phim Phiêu Lưu, Phim Khoa Học Viễn Tưởng, Phim Hành Động, Phim Bí Ẩn"
+genre: "Phim Phiêu Lưu, Phim Khoa Học Viễn Tưởng, Phim Hành Động"
 year: 2016
 director: "Robert Schwentke"
 status: watched

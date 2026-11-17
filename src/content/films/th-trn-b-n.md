@@ -5,7 +5,7 @@ tmdb_id: 40075
 tmdb_type: tv
 rating: 7
 tmdb_score: 8.6
-genre: "Action & Adventure, Phim Hoạt Hình, Phim Hài, Phim Gia Đình, Phim Bí Ẩn, Sci-Fi & Fantasy"
+genre: "Phim Hoạt Hình, Action & Adventure, Phim Hài, Phim Bí Ẩn, Phim Gia Đình"
 year: 2012
 director: "Alex Hirsch"
 status: watched

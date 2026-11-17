@@ -4,7 +4,7 @@ imdb_id: tt0382932
 tmdb_id: 2062
 tmdb_type: movie
 rating: 8
-tmdb_score: 7.8
+tmdb_score: 7.9
 genre: "Phim Hoạt Hình, Phim Hài, Phim Gia Đình, Phim Giả Tượng"
 year: 2007
 director: "Brad Bird"

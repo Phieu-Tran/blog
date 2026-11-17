@@ -5,7 +5,7 @@ tmdb_id: 120
 tmdb_type: movie
 rating: 8
 imdb_score: 8.9
-tmdb_score: 8.4
+tmdb_score: 8.5
 genre: "Phim Phiêu Lưu, Phim Giả Tượng, Phim Hành Động"
 year: 2001
 director: "Peter Jackson"
