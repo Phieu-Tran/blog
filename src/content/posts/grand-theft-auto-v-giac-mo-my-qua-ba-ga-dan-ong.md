@@ -1,64 +1,46 @@
 ---
-title: "Grand Theft Auto V | Giấc Mơ Mỹ Qua Ba Gã Đàn Ông"
-description: "Analysis — Rockstar North"
-tags: ["Analysis", "Game", "Satire"]
+title: "Grand Theft Auto V | Kiếm Nhiều Tiền Hơn Cả Star Wars"
+description: "Ghi chép — Rockstar North"
+tags: ["Game", "Satire"]
 related_media: ["games:grand-theft-auto-v"]
 date: 2026-11-17
 ---
 ![Cover Grand Theft Auto V](https://images.igdb.com/igdb/image/upload/t_cover_big/co9751.jpg)
 
-# GRAND THEFT AUTO V: GIẤC MƠ MỸ QUA BA GÃ ĐÀN ÔNG
+Tháng 4 năm 2018, MarketWatch đăng một con số làm cả ngành giải trí giật mình: GTA V đã bán hơn 90 triệu bản và thu về khoảng **6 tỷ đô la**, trở thành sản phẩm giải trí có lợi nhuận cao nhất lịch sử loài người.
 
-> [!info] Game
-> **Grand Theft Auto V**
-> **Nhà phát triển:** Rockstar North
-> **Kịch bản:** Dan Houser, Rupert Humphries, Michael Unsworth
-> **Diễn viên lồng tiếng:** Ned Luke (Michael De Santa), Shawn Fonteno (Franklin Clinton), Steven Ogg (Trevor Philips)
-> **Năm phát hành:** 2013 (PS3, Xbox 360), 2014-2015 (PS4, Xbox One, PC), 2022 (PS5, Xbox Series)
-> **Thể loại:** Action-Adventure, Open World
+Để so sánh, họ đưa ra hai cái tên: *Cuốn theo chiều gió* (1939) và *Star Wars* (1977), mỗi phim ước tính thu khoảng 4 tỷ đô sau khi điều chỉnh lạm phát. Một trò chơi đã vượt qua cả hai.
 
-> [!warning] Spoilers nhẹ
+Cũng phải nói cho công bằng: GamesIndustry.biz chỉ ra rằng không rõ con số 6 tỷ có tính cả tiền người chơi mua đồ trong GTA Online hay không. Nhưng dù tính kiểu gì, GTA V cũng là game chạm mốc 1 tỷ đô doanh thu nhanh nhất trong lịch sử giải trí, chỉ vài ngày sau khi ra mắt năm 2013.
 
-GTA V là sản phẩm giải trí có doanh thu cao nhất lịch sử, hơn cả mọi bộ phim và mọi album nhạc. Hơn một thập kỷ sau khi ra mắt, nó vẫn bán chạy. Người ta nhớ nó vì GTA Online, vì những vụ cướp, vì sự tự do làm bất cứ điều gì ở Los Santos.
+Và nó được làm ở Scotland, bởi Rockstar North ở Edinburgh.
 
-Nhưng mình chấm 9 cho phần chơi đơn, vì GTA V là một trong những tác phẩm châm biếm nước Mỹ sắc sảo nhất. Và nó kể chuyện qua **ba nhân vật chính**, ba phiên bản của giấc mơ Mỹ, đều méo mó theo cách riêng.
+---
 
-## Ba nhân vật, ba thế hệ
+Có một sự trớ trêu mà mình thấy rất buồn cười: **sản phẩm giải trí kiếm nhiều tiền nhất lịch sử là một tác phẩm châm biếm việc kiếm tiền.**
 
-Lần đầu tiên trong series, GTA V cho người chơi điều khiển ba nhân vật, và có thể chuyển đổi giữa họ bất kỳ lúc nào.
+Los Santos là bản sao châm biếm của Los Angeles, và mọi thứ ở đó đều có giá. Mạng xã hội "Lifeinvader" xâm phạm đời tư người dùng. Các guru tâm linh bán sự giác ngộ. Ngôi sao truyền hình thực tế không có tài năng gì. Giới siêu giàu, các tập đoàn công nghệ, cơ quan chính phủ FIB (bản nhại FBI). Radio trong game, với talk show và quảng cáo giả, là một bản tóm tắt tất cả những gì điên rồ nhất của văn hóa Mỹ.
 
-**Michael De Santa** là tên cướp ngân hàng đã "giải nghệ", sống trong một biệt thự ở Rockford Hills dưới chương trình bảo vệ nhân chứng, sau khi bán đứng đồng bọn. Anh có tất cả: tiền bạc, nhà to, vợ đẹp, hai đứa con. Và anh khốn khổ. Vợ ngoại tình, con trai nghiện game, con gái muốn nổi tiếng trên truyền hình thực tế. Michael đi gặp bác sĩ tâm lý, xem phim cũ, và hoài niệm thời trẻ khi còn cướp ngân hàng. Anh là **giấc mơ Mỹ đã thành hiện thực, và nó trống rỗng**.
+Và ba nhân vật chính là ba kiểu người theo đuổi giấc mơ Mỹ:
 
-**Franklin Clinton** là một thanh niên da đen ở khu South Los Santos, làm việc thu hồi xe cho một gã buôn xe gian. Anh muốn thoát khỏi cuộc sống băng đảng, muốn kiếm tiền lớn, muốn được tôn trọng. Anh là **giấc mơ Mỹ đang được theo đuổi**, người tin rằng chăm chỉ (dù là chăm chỉ phạm tội) sẽ đưa mình lên cao.
+- **Michael**, tên cướp ngân hàng giải nghệ, có tất cả: biệt thự, tiền, vợ đẹp, con cái. Và khốn khổ. Đi gặp bác sĩ tâm lý, xem phim cũ, hoài niệm thời còn cướp. Giấc mơ đã thành hiện thực, và nó trống rỗng.
+- **Franklin**, thanh niên ở khu nghèo, muốn thoát khỏi băng đảng, muốn lên cao. Giấc mơ đang được theo đuổi.
+- **Trevor**, kẻ tâm thần buôn ma túy giữa sa mạc, bạo lực không kiểm soát. Phần tối của giấc mơ mà xã hội muốn chôn đi. Steven Ogg diễn Trevor với một năng lượng điên rồ đến mức không ai đoán được anh sẽ làm gì tiếp theo.
 
-**Trevor Philips** là một kẻ tâm thần, buôn ma túy ở sa mạc Blaine County, bạo lực không kiểm soát. Anh là bạn cũ của Michael, tưởng Michael đã chết. Anh là **giấc mơ Mỹ đã bị vứt bỏ**, cái phần tối tăm, bạo lực mà xã hội muốn chôn giấu.
+Lần đầu tiên trong series, bạn chuyển qua lại giữa ba người bất cứ lúc nào. Phần hay nhất là các vụ cướp: chọn phương án, chọn đồng bọn, rồi chuyển qua lại giữa Michael trong ngân hàng, Franklin lái xe, Trevor lái trực thăng.
 
-## Trevor
+---
 
-Trevor là nhân vật mà mọi người đều nhớ. Màn giới thiệu của anh là một trong những màn giới thiệu nhân vật gây sốc nhất lịch sử game. Steven Ogg diễn Trevor với một năng lượng điên rồ, khó đoán đến mức mình không biết anh sẽ làm gì tiếp theo.
+Mình nghĩ GTA V là ví dụ hoàn hảo của một tác phẩm vừa chế giễu hệ thống, vừa là sản phẩm thành công nhất của chính hệ thống đó. Người chơi cười vào Los Santos, rồi mua thêm Shark Card trong GTA Online.
 
-Nhưng Trevor cũng là nhân vật trung thực nhất trong ba người. Anh không giả vờ là người tốt. Anh trung thành với bạn bè theo cách riêng của mình. Và sự giận dữ của anh với Michael, người đã phản bội anh, giả chết, sống cuộc đời xa hoa, là sự giận dữ có thể hiểu được.
+9 điểm. Không có câu chuyện cảm động như Red Dead Redemption 2, phần lớn nhân vật đáng ghét. Nhưng không thế giới game nào sống động và hài hước như Los Santos.
 
-## Châm biếm Los Santos
+---
 
-Los Santos là bản sao châm biếm của Los Angeles, và mọi thứ ở đó đều bị chế giễu: mạng xã hội "Lifeinvader", những người nổi tiếng vô dụng, các tập đoàn công nghệ, giới siêu giàu, các guru tâm linh lừa đảo, chính phủ, FIB (phiên bản châm biếm của FBI).
+*Nguồn tham khảo:*
 
-Radio trong game, với những chương trình talk show và quảng cáo giả, là một trong những thứ mình thích nhất. Lái xe nghe radio ở Los Santos giống như nghe một bản tóm tắt tất cả những gì điên rồ nhất của văn hóa Mỹ.
-
-Có những phần châm biếm thông minh, có những phần thô thiển. Nhưng tổng thể, Los Santos là một thành phố mà mọi người đều đang bán một thứ gì đó, và mọi thứ đều có giá.
-
-## Những vụ cướp
-
-Phần hay nhất của chiến dịch là các **phi vụ cướp** (heist). Mỗi phi vụ có giai đoạn chuẩn bị: chọn phương án (lặng lẽ hay ồn ào), chọn đồng bọn (giỏi thì đắt, rẻ thì dễ thất bại), chuẩn bị xe, vũ khí, đồ cải trang. Rồi đến ngày thực hiện, bạn chuyển đổi giữa ba nhân vật: Michael vào trong ngân hàng, Franklin lái xe tẩu thoát, Trevor lái trực thăng yểm trợ.
-
-Vụ cướp cuối cùng, The Big Score, là một trong những nhiệm vụ game mình nhớ nhất.
-
-## Cái kết
-
-Ở cuối game, Franklin phải chọn: giết Trevor, giết Michael, hay cứu cả hai và đối mặt với tất cả kẻ thù. Mình nghĩ lựa chọn thứ ba là cái kết "đúng". Và nó cũng là một thông điệp nhẹ nhàng mà GTA V muốn nói, giữa tất cả bạo lực và châm biếm: dù ba người này tệ đến đâu, thứ duy nhất họ có là nhau.
-
-## Vì sao mình chấm 9
-
-GTA V không có câu chuyện cảm động như Red Dead Redemption 2. Phần lớn nhân vật là những kẻ đáng ghét. Một số đoạn châm biếm đã cũ hoặc quá đà. Nhưng không có game nào có một thế giới sống động, chi tiết và hài hước như Los Santos.
-
-Mình chấm 9 vì GTA V làm được điều mà ít game làm: biến một thế giới mở thành một tác phẩm châm biếm, nơi ta vừa cười vừa nhận ra mình đang cười chính xã hội mình đang sống.
+- [GTA V is now the most profitable entertainment product of all time](https://www.techspot.com/news/74070-gta-v-now-most-profitable-entertainment-product-all.html) — TechSpot
+- [Grand Theft Auto V Is the Highest-Grossing Entertainment Release Ever](https://www.digitalmusicnews.com/2018/04/10/grand-theft-auto-gta-v-highest/) — Digital Music News
+- [Grand Theft Auto V has made more money than any other entertainment product ever](https://www.pushsquare.com/news/2018/04/grand_theft_auto_v_has_made_more_money_than_any_other_entertainment_product_ever) — Push Square
+- [90 Million Sales. $6 Billion Revenue. Made in Scotland](https://scottishgames.net/2018/04/10/90-million-sales-6-billion-revenue-made-in-scotland/) — Scottish Games Network
+- [GTA V is the Fastest-Selling Entertainment Product Ever](https://www.statista.com/chart/amp/1501/most-successful-entertainment-products) — Statista

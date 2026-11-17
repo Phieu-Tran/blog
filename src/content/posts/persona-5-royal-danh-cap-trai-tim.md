@@ -1,65 +1,54 @@
 ---
-title: "Persona 5 Royal | ペルソナ5 ザ・ロイヤル | Đánh Cắp Trái Tim, Và Lời Nói Dối Ngọt Ngào"
-description: "Analysis — Atlus, P Studio"
-tags: ["Analysis", "Game", "JRPG"]
+title: "Persona 5 Royal | ペルソナ5 ザ・ロイヤル | Đừng Bỏ Lỡ Học Kỳ Thứ Ba"
+description: "Hướng dẫn — Atlus, P Studio"
+tags: ["Guide", "Game"]
 related_media: ["games:persona-5-royal"]
 date: 2026-11-17
 ---
 ![Cover Persona 5 Royal](https://images.igdb.com/igdb/image/upload/t_cover_big/coclf1.jpg)
 
-# PERSONA 5 ROYAL: ĐÁNH CẮP TRÁI TIM, VÀ LỜI NÓI DỐI NGỌT NGÀO
+Nếu bạn định chơi Persona 5 Royal, bài này chỉ có một lời khuyên quan trọng: **đừng để lỡ học kỳ thứ ba**.
 
-> [!info] Game
-> **Persona 5 Royal**
-> ペルソナ5 ザ・ロイヤル
-> **Đạo diễn:** Katsura Hashino (P5), Daiki Ito (Royal)
-> **Nhà phát triển:** P Studio, Atlus
-> **Nhạc:** Shoji Meguro
-> **Năm phát hành:** 2019 (Nhật), 2020 (quốc tế), sau đó lên PC, Switch, Xbox
-> **Thể loại:** JRPG, Social Simulation
+Học kỳ thứ ba là phần nội dung chỉ có ở bản Royal, không có trong Persona 5 gốc. Nó có một Cung điện mới, thêm một khu Mementos, và quan trọng nhất là một phản diện mà mình nghĩ là hay nhất series. Một reviewer trên Backloggd còn nói thẳng: học kỳ thứ ba là lý do chính để mua bản Royal. Atlus từng nói lượng nội dung của nó "vượt xa mong đợi" của những người chơi đã quen bản *Persona 4 Golden*.
 
-> [!warning] Spoilers, bao gồm phần thêm của bản Royal
+Vấn đề là: **nếu không làm đúng, bạn sẽ không bao giờ thấy nó**, và game không báo trước rõ ràng.
 
-Persona 5 Royal là game dài hơn 100 giờ, vậy mà đến cuối vẫn khiến mình muốn chơi tiếp. Đây là một game về một nhóm học sinh trung học ban ngày đi học, làm thêm, hẹn hò, và ban đêm đột nhập vào thế giới trong tâm trí của những người lớn tham nhũng để "đánh cắp trái tim" họ, khiến họ thú nhận tội lỗi.
+---
 
-Nghe thì giống anime. Nhưng Persona 5 nói về một điều rất thật: **sự bất lực của tuổi trẻ trước một xã hội thối nát**, và cơn giận khi biết mình đúng mà không ai nghe.
+## Phải làm gì?
 
-## Những đứa trẻ bị xã hội ruồng bỏ
+Theo các hướng dẫn trên Push Square, GameSpot, Gamepur:
 
-Nhân vật chính (người chơi đặt tên, thường được gọi là Joker) bị kết án oan vì đã ngăn một gã đàn ông say rượu tấn công một phụ nữ. Gã đó có quyền lực, và cô gái bị ép làm chứng chống lại Joker. Anh bị đuổi khỏi quê nhà, đưa đến Tokyo sống một năm trong căn gác mái của một quán cà phê, với án treo trên đầu.
+1. **Nâng quan hệ với Takuto Maruki**, cố vấn học đường, lên **bậc 9 trước ngày 17/11** (theo lịch trong game). Đây là điều kiện bắt buộc.
+2. **Nâng quan hệ với Goro Akechi** lên **bậc 8 trước ngày 17/11**. Nếu không, bạn vẫn vào được học kỳ thứ ba nhưng sẽ bỏ lỡ nhiều nội dung.
+3. **Nâng quan hệ với Kasumi** lên **bậc 5 trước ngày 22/12** để xem đủ các phần dành riêng cho bản Royal.
 
-Mỗi thành viên của nhóm Phantom Thieves đều có một câu chuyện tương tự: bị người lớn có quyền lực chà đạp, và không ai tin họ.
+Lời khuyên của mình: chơi bản Royal lần đầu mà không đọc hướng dẫn thì rất dễ lỡ Maruki, vì quan hệ với ông ấy đi chậm và game không nhấn mạnh. Nên ghi nhớ mấy mốc ngày ở trên ngay từ đầu.
 
-- **Ryuji** bị huấn luyện viên đội điền kinh đánh gãy chân, rồi bị đổ lỗi.
-- **Ann** bị chính gã huấn luyện viên đó quấy rối, còn bạn thân của cô bị đẩy đến mức nhảy lầu.
-- **Yusuke** sống với một người thầy nổi tiếng, người đạo tranh của học trò.
-- **Makoto** là học sinh gương mẫu, bị nhà trường lợi dụng.
-- **Futaba** tin rằng mình đã giết mẹ, vì những người lớn đã nói dối cô.
+---
 
-Mình nghĩ đây là điều làm Persona 5 chạm đến người chơi trẻ. Ai cũng từng có lúc cảm thấy người lớn không nghe mình, hệ thống không công bằng, và mình không có quyền lực để thay đổi gì.
+## Vì sao đáng như vậy?
 
-## Cung điện trong trái tim
+*(Spoiler nhẹ về chủ đề, không spoiler cốt truyện chi tiết)*
 
-Những kẻ thù trong Persona 5 có những ham muốn méo mó đến mức tạo ra **Palace** (Cung điện) trong Metaverse: tâm trí của họ hiện ra như một không gian vật lý. Gã huấn luyện viên lạm dụng nhìn trường học như một lâu đài nơi hắn là vua. Gã họa sĩ đạo tranh nhìn bảo tàng của mình như nơi trưng bày học trò như tác phẩm. Một chính trị gia nhìn đất nước như một con tàu mà chỉ những người "xứng đáng" mới được lên.
+Persona 5 là game về một nhóm học sinh bị người lớn có quyền lực chà đạp, ban ngày đi học, ban đêm đột nhập vào tâm trí của những kẻ thối nát để "đánh cắp trái tim" họ, khiến họ thú nhận tội lỗi. Mỗi Cung điện là một lời châm biếm về một kiểu quyền lực: huấn luyện viên lạm dụng học sinh, họa sĩ đạo tranh của học trò, chính trị gia coi đất nước như con tàu chỉ dành cho kẻ "xứng đáng".
 
-Mình thấy đây là thiết kế rất hay: mỗi dungeon là một sự châm biếm về một kiểu quyền lực thối nát trong xã hội Nhật Bản, và trên thế giới.
+Học kỳ thứ ba thì khác. Phản diện lần này không xấu xa. Maruki là người tốt, thật sự quan tâm đến học sinh. Và ông có sức mạnh viết lại thực tại để mọi người được hạnh phúc: những vết thương được chữa lành, những người đã mất trở lại.
 
-## Phong cách
+Câu hỏi của học kỳ thứ ba vì vậy khó hơn mọi Cung điện trước: **bạn chọn một thực tại đau đớn nhưng thật, hay một giấc mơ hạnh phúc mà người khác tạo ra cho bạn?** Mình thấy nó giống lựa chọn viên thuốc đỏ, viên thuốc xanh của *The Matrix*, chỉ là lần này người đưa viên thuốc xanh là một người thật lòng muốn bạn hạnh phúc.
 
-Không thể nói về Persona 5 mà không nói về phong cách. Giao diện là một tác phẩm nghệ thuật: menu đỏ đen, chữ cắt từ báo như thư đòi tiền chuộc, hiệu ứng chuyển cảnh táo bạo. Đến cả màn hình loading cũng đẹp. Nhạc acid jazz của Shoji Meguro, như *Last Surprise*, *Life Will Change*, *Beneath the Mask*, là những bài nhạc game mình nghe nhiều nhất.
+---
 
-## Maruki và "thực tại hạnh phúc"
+Persona 5 Royal là game dài, hơn 100 giờ, có những đoạn chậm. Nhưng phong cách thì không ai sánh được: menu đỏ đen, chữ cắt từ báo như thư đòi tiền chuộc, nhạc acid jazz của Shoji Meguro.
 
-Bản Royal thêm một học kỳ mới, và một phản diện mà mình nghĩ là phản diện hay nhất series: **Takuto Maruki**, cố vấn học đường của trường.
+9 điểm. Và nhớ: Maruki, bậc 9, trước 17/11.
 
-Maruki không xấu xa. Ông là người tốt, thật sự quan tâm đến học sinh. Và ông có một sức mạnh: viết lại thực tại để mọi người được hạnh phúc. Trong thế giới của ông, bạn thân của Ann không nhảy lầu, chân của Ryuji không bị gãy, mẹ của Futaba vẫn sống. Ông chỉ muốn mọi người không còn đau khổ.
+---
 
-Và đây là thế lưỡng nan khó nhất của game. Phantom Thieves phải chọn: chấp nhận thực tại đau đớn nhưng có thật, hay sống trong một giấc mơ hạnh phúc mà người khác tạo ra cho mình?
+*Nguồn tham khảo:*
 
-Mình thấy đoạn này rất giống *The Matrix* hay lựa chọn của Cypher. Và câu trả lời của game rõ ràng: con người phải tự đối mặt với nỗi đau của mình, vì chính những nỗi đau đó làm nên con người họ. Nhưng game không biến Maruki thành ác nhân. Lý do của ông có thể hiểu được, và đối mặt với ông thật sự đau lòng.
-
-## Vì sao mình chấm 9
-
-Persona 5 Royal có một số vấn đề: game rất dài, có những đoạn chậm, và một số nhân vật hoặc chi tiết đã cũ nhìn từ hôm nay. Nhưng không có game nào cho mình cảm giác sống một năm học như vậy: đi học, làm thêm, đi chơi với bạn bè, câu cá, đọc sách, rồi cứu thế giới.
-
-Mình chấm 9 vì đến cuối game, khi phải nói lời tạm biệt với Tokyo và những người bạn, mình thấy buồn như thật sự rời xa một nơi đã sống một năm. Và thông điệp của nó, rằng người trẻ có quyền nổi giận trước bất công và có sức mạnh để thay đổi, là thứ mình nghĩ ai cũng nên nghe ở tuổi 16.
+- [Persona 5 Royal third semester volume 'beyond expectations of Persona 4 Golden players'](https://gematsu.com/2019/05/persona-5-royal-third-semester-volume-beyond-expectations-of-persona-4-golden-players) — Gematsu
+- [Persona 5 Royal new semester: how to unlock the new endgame](https://www.pushsquare.com/guides/persona-5-royal-new-semester-how-to-unlock-persona-5-royals-new-endgame) — Push Square
+- [How To Unlock Persona 5 Royal's Ninth Palace And Semester (Spoiler-Free Guide)](https://gamespot.com/articles/persona-5-royal-how-to-get-the-new-palace-and-seme/1100-6475412/) — GameSpot
+- [Persona 5 Royal's third semester will be unexpectedly voluminous](https://www.siliconera.com/persona-5-royals-third-semester-will-be-unexpectedly-voluminous-adds-qol-improvements/) — Siliconera
+- [Persona 5 Royal third semester guide and secret ending](https://inverse.com/gaming/persona-5-royal-third-semester-guide-secret-ending) — Inverse
