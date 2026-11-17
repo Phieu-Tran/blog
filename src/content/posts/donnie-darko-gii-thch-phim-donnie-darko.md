@@ -5,7 +5,7 @@ tags: ["Explained", "Analysis", "Thriller"]
 related_media: ["films:donnie-darko"]
 date: 2026-03-29
 ---
-![](/posts/DonnieDarko_0.jpg)
+![](/posts/DonnieDarko_0.webp)
 
 > **Movie:**
 > *Donnie Darko*
@@ -47,7 +47,7 @@ Cũng vì thế mà mình có lời khuyên là bạn nên xem ít nhất 2 lầ
 
 ---
 
-![](/posts/DonnieDarko_1.jpg)
+![](/posts/DonnieDarko_1.webp)
 
 #### Giải thích phim
 
@@ -73,7 +73,7 @@ Kết thúc này có phần giống với The Butterfly Effect, khi cả hai nh�
 
 ---
 
-![](/posts/DonnieDarko_2.jpg)
+![](/posts/DonnieDarko_2.webp)
 
 #### Cảm nhận thêm
 

@@ -4,7 +4,7 @@ description: "Thảo Luận — Hayao Miyazaki"
 tags: ["Analysis", "Theme"]
 date: 2026-03-29
 ---
-![](/posts/Miyazaki_0.jpg)
+![](/posts/Miyazaki_0.webp)
 
 > **Đạo diễn:** Hayao Miyazaki (宮崎 駿)
 > **Sinh năm:** 1941, Tokyo, Nhật Bản
@@ -16,7 +16,7 @@ date: 2026-03-29
 
 Có rất nhiều điều ở phim của Hayao Miyazaki khiến chúng ta mê đắm, việc lựa chọn ra một phim yêu thích nhất của ông có lẽ là công việc khó khăn nhất, bởi khoảnh khắc bạn chọn ra bất kì tác phẩm nào cũng là khoảnh khắc bạn bị cuốn đi bởi sự lãng mạn, những chuyến phiêu và tình bạn, cùng với đó là những sinh vật huyền bí chỉ có trong trí tưởng tượng và những nhân vật cuốn hút đến kì lạ! Nhưng thứ đã kết nối những thứ ta yêu lại với nhau và lấp đầy thế giới này với sự sinh động, chính là không gian mà những sinh vật, nhân vật sinh sống và âm thanh đã định nghĩa những không gian ấy.
 
-![](/posts/Miyazaki_1.jpg)
+![](/posts/Miyazaki_1.webp)
 
 ## Âm Thanh -- Chữ Ký Của Từng Tác Phẩm
 

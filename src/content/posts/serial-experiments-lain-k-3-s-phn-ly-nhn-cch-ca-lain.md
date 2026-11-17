@@ -5,7 +5,7 @@ tags: ["Analysis", "Explained"]
 related_media: ["anime:serial-experiments-lain"]
 date: 2026-03-29
 ---
-![](/posts/Lain3_1.jpg)
+![](/posts/Lain3_1.webp)
 
 # SERIAL EXPERIMENTS LAIN KỲ 3: SỰ ‘PHÂN LY’ NHÂN CÁCH CỦA LAIN, “MỌI NGƯỜI ĐỀU KẾT NỐI”
 
@@ -27,7 +27,7 @@ Thế thì cái nhìn của Lain đối với vấn đề này như thế nào? 
 
 Lain khi bắt đầu nhận ra những nhân cách khác của mình, cô cảm thấy ghét điều đó và cho rằng chúng không phải là cô mà là thứ do nhóm Knight tự tạo ra. Thế nhưng dần dần cô phải chấp nhận sự thật rằng bản thân mình còn có những mặt tối mà bấy lâu đã bị chôn kín. Thực tế cũng vậy, khi chúng ta phát ngôn những thứ vô văn hóa trên mạng xã hội thì cũng chỉ là do não chúng ta tự nghĩ ra, máy tính không thể tự tạo ra những câu đó cũng như không thể khiến chúng ta phát ra những câu đó. Lain là Lain. Chúng ta là chúng ta. Việc có những hành vi trên mạng như vậy hoàn toàn là do lỗi của chúng ta, không phải ai khác.
 
-![](/posts/Lain3_0.png)
+![](/posts/Lain3_0.webp)
 
 Khác với những người cho rằng chúng ta nên tránh xa thế giới ảo, Lain, một cách đối ngược lại truyền thông điệp cho rằng chúng ta nên COI TRỌNG bất cứ loại tương tác nào cho dù nó có là “thực” hay “ảo” đi chăng nữa. Vì nếu suy cho cùng, tất cả những trường hợp phát ngôn bừa bãi trên mạng dẫn đến hậu quả đều là do chúng ta không coi trọng thế giới ảo, chúng ta chỉ coi nó như một thứ công cụ để ta xả hết tất cả mọi thứ mà không suy nghĩ rằng thứ tương tác thực sự với ta là rất nhiều con người ngoài kia.
 
@@ -47,7 +47,7 @@ Cùng với một thực trạng hiện nay mà mình nhận thấy đó là vi�
 
 Do đó, bên cạnh việc nên kiểm soát phát ngôn khi lên mạng thì mình nghĩ một việc cũng không kém phần quan trọng đó là kiểm soát nút chế độ công khai/riêng tư. Chúng ta cần phải biết kiểm soát những đối tượng nào mà chúng ta muốn chia sẻ thông tin đó. Chứ không nên chia sẻ công khai vô tội vạ, dẫn đến những sự đổ vỡ mối quan hệ đáng tiếc như tình huống trong bộ anime Lain đã đề cập.
 
-![](/posts/Lain3_2.jpg)
+![](/posts/Lain3_2.webp)
 
 ## III. “Mọi người đều kết nối”
 

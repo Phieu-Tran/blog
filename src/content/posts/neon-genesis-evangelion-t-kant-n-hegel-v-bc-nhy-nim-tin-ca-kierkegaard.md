@@ -5,7 +5,7 @@ tags: ["Analysis", "Explained"]
 related_media: ["anime:neon-genesis-evangelion"]
 date: 2026-03-29
 ---
-![](/posts/NGE_0.jpg)
+![](/posts/NGE_0.webp)
 
 > [!info] **Anime**
 > **Tên:** Neon Genesis Evangelion
@@ -20,7 +20,7 @@ date: 2026-03-29
 
 ---
 
-![](/posts/NGE_1.jpg)
+![](/posts/NGE_1.webp)
 
 ## NEON GENESIS EVANGELION: TỪ KANT ĐẾN HEGEL VÀ BƯỚC NHẢY NIỀM TIN CỦA KIERKEGAARD
 
@@ -219,4 +219,4 @@ Nếu bạn hiểu được điều này thì... Omedetou! XIN CHÚC MỪNG!
 
 #Atom
 
-![](/posts/NGE_2.jpg)
+![](/posts/NGE_2.webp)

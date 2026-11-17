@@ -60,7 +60,7 @@ Còn một người nữa mà chắc bạn sẽ nhận ra, đó là Gwyneth Palt
 
 ---
 
-![](/posts/Se7en_0.jpg)
+![](/posts/Se7en_0.webp)
 
 ##### Nội dung
 
@@ -76,7 +76,7 @@ Bật mí với bạn một điều nho nhỏ nữa: bộ [phim](https://vietgid
 
 #### Cảm nhận phim
 
-![](/posts/Se7en_1.jpg)
+![](/posts/Se7en_1.webp)
 
 Về diễn viên, mình chỉ có 1 từ duy nhất: tuyệt vời. Biểu cảm khuôn mặt, cách cư xử, những câu từ thô tục được Brad Pitt thể hiện hoàn hảo nhằm khắc họa chân thực viên thám tử sở hữu tính cách bất cần đời.
 

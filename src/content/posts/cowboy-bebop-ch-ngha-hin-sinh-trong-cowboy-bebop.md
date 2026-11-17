@@ -5,7 +5,7 @@ tags: ["Analysis", "Explained"]
 related_media: ["anime:cowboy-bebop"]
 date: 2026-02-04
 ---
-![](/posts/CowboyBebop_0.jpg)
+![](/posts/CowboyBebop_0.webp)
 
 # CHỦ NGHĨA HIỆN SINH (EXISTENTIALISM) TRONG COWBOY BEBOP
 
@@ -55,7 +55,7 @@ Cả bốn thành viên trên con tàu cũ kỹ Bebop: Spike, Jet, Faye, Ed đ�
 
 Quá khứ của Spike được đề cập ngay từ đầu tập 1 nhưng lại chỉ là tập hợp của những phân cảnh flashback trắng đen, như những thước phim củ kỹ. Cho dù các tập sau này có tiết lộ thêm nhiều chi tiết nữa, thì ký ức của Spike giống như những mảnh thủy tinh đã vỡ, cho dù có tập hợp lại cũng không thể nào hoàn thành như một bức tranh hoàn thiện chi tiết. Thế nhưng nó cũng đã đủ tính chất khơi gợi khiến chung ta cảm nhận rằng cậu ta có một quá khứ buồn và bị phản bội. Bốn con người không thân thuộc bị người thân yêu bỏ rơi, phản bội, không còn gia đình, người thân, họ đã tập hợp trên một con tàu để làm vơi đi nỗi cô đơn, chán chường của mình. Cái quá khứ không được hoàn thành đó đã đè nặng lên tâm trí của Spike, Jet, Faye mỗi ngày đến nỗi khiến cho họ mất đi mục đích để sống, không thể đối mặt với thực tại và hướng đến tương lai phía trước. Trên con tàu đó, những số phận lạc loài lang thang vô định trong vũ trụ rộng lớn, nỗ lực tìm kiếm một lý do cho cuộc sống của mình.
 
-![](/posts/CowboyBebop_1.jpg)
+![](/posts/CowboyBebop_1.webp)
 
 Trong cái thế giới đầy hoản loạn và bạo lực của Cowboy Bebop, mạng sống của con người cứ như một thứ bọt biển tan biến nhanh chóng. Cho dù các nhân vật có cố gắng thực hiện kế hoạch, mục tiêu, lý tưởng của mình trong một thời gian lâu dài, tất cả cũng sẽ chỉ biến mất trong giây lát chỉ với một phát súng. Nỗi lo lắng về bi kịch, cái chết vô nghĩa sẽ đến bất cứ lúc nào và quá khứ như là một gánh nặng lớn về mặt tinh thần đang mỗi ngày tác động đến từng nhân vật khiến họ cảm thấy tuyệt vọng, cô đơn.
 
@@ -99,7 +99,7 @@ Tìm lấy ý nghĩa trong cuộc sống đầy vô nghĩa.
 
 ## SEE YOU SPACE COWBOY...
 
-![](/posts/CowboyBebop_2.jpg)
+![](/posts/CowboyBebop_2.webp)
 
 **P/s:**
 - Nếu mà ngẫm nghĩ lại thì cái chủ nghĩa hiện sinh này rất phổ biến trong anime và không hề xa lạ. Ví dụ như bộ Kino's Journey mà mình mới xem xong, rất là đậm chất hiện sinh, rồi mấy bộ của Gen Urobuchi nữa, ngoài ra mấy bộ Mushishi hay Homunculus cũng có nét hiện sinh trong đó,... Nếu mà bỏ thời gian ra tìm hiểu thì thấy rằng chủ đề hiện sinh là khá thú vị.

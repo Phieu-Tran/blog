@@ -4,7 +4,7 @@ description: "Review —  Nagai Akira"
 tags: ["Review", "RomanticDrama"]
 date: 2026-02-10
 ---
-![](/posts/Neko_0.jpg)
+![](/posts/Neko_0.webp)
 
 # SEKAI KARA NEKO GA KIETA NARA - NẾU LOÀI MÈO KHÔNG CÒN TỒN TẠI TRÊN THẾ GIAN NÀY
 
@@ -46,7 +46,7 @@ Khi phim ảnh biến mất, mối quan hệ giữa anh và người bạn thân
 
 Đồng hồ biến mất, thật ra ban đầu mình nghĩ bản mình xem bị xén mất, nhưng có thể là không. Sau khi phim ảnh biến mất, ta đi đến phân cảnh chuyến du lịch giữa anh và người bạn gái, ở đó anh đã gặp một người đang đi phượt khắp thế giới. Nhưng khi chia tay, người ấy đã bị cướp đâm chết. Con người thật sự quá mong manh trước thế giới rộng lớn này, liệu một con người có quan trọng trong thế giới? Cái chết của người ấy làm dấy lên câu hỏi rằng: liệu sự tồn tại của chúng ta quan trọng như thế nào với thế giới? Hình ảnh cô gái gào thét:" Tôi đang sống đây! " thật sự quá ám ảnh. Trong khi âm thanh thác nước ầm ầm tứ phía như nuốt chửng sự gào thét nhỏ bé của con người, ta nhận ra rằng bản thân ta thực sự quá nhỏ nhoi trong thế giới rộng lớn này. Và rồi chiếc đồng hồ biến mất, tưởng chừng như chẳng có gì xảy ra cả, đồng hồ chỉ đơn giản là biến mất thôi. Nhưng những kỉ niệm của anh và người bố cũng từ đó mà biến mất theo.
 
-![](/posts/Neko_1.jpg)
+![](/posts/Neko_1.webp)
 
 Khi ác quỷ chọn loài mèo, anh nhớ về gia đình mình, về người mẹ đã mất của anh. Những kỉ niệm về gia đình của anh được gắn liền với hai chú mèo. Chú mèo xà lách được nhặt về khi còn bé tí, gắn bó với cả tuổi thơ của gia đình anh và được nuôi nấng cho đến tận lúc chú ra đi. Và chú mèo bắp cải được bố anh nhặt về vẫn còn ở cùng anh đến hiện tại. Tất cả những kỉ niệm của anh với gia đình đều có sự hiện diện của loài mèo. Mèo là loài đã gắn kết gia đình nhỏ bé ấy lại với nhau, nếu như mèo biến mất khỏi thế gian thì chẳng phải tất cả những kỉ niệm về gia đình, về mẹ anh cũng sẽ biến mất sao? Khi anh đưa thư đọc bức thư cuối cùng mà mẹ gửi cho anh, không hiểu sao mình lại bật khóc.
 

@@ -5,7 +5,7 @@ tags: ["Explained", "Theme", "Theme"]
 related_media: ["anime:happy-sugar-life"]
 date: 2026-03-29
 ---
-![](/posts/HanhPhuc_0.png)
+![](/posts/HanhPhuc_0.webp)
 
 
 Khi Gotham còn đang vỡ bờ, hỗn loạn giữa hàng đống những hậu quả do The Joker, Rachel đã viết một bức thư gửi đến cho Bruce Wayne, mà mãi mãi chàng kỵ sĩ bóng đêm sẽ chẳng bao giờ biết được sự tồn tại của nó. Trong những dòng thư đầy tình cảm ấy, Rachel thừa nhận, Bruce sẽ mãi và mãi mãi tồn tại trong trái tim của bản thân mình như người cô yêu nhất.
@@ -14,7 +14,7 @@ Giữa hai người đã từng hẹn thề, khi Gotham bình yên, sẽ cùng n
 
 Rachel sẵn sàng bước thêm một nấc trong cuộc đời với Harvey, cũng là lúc cô đã hy sinh hạnh phúc cá nhân để bảo toàn lấy hạnh phúc cho cả thành phố.
 
-![](/posts/HanhPhuc_1.jpg)
+![](/posts/HanhPhuc_1.webp)
 
 Nhưng ở chiều hướng ngược lại, Alfred đã đốt bức thư, cho nó cháy thành từng vụn một.
 Vị quản gia đáng kính của nhà Wayne, đã giấu nhẹm sự thật về tình yêu Rachel dành cho Bruce nhiều đến mức nào. Để kỵ sĩ bóng đêm sẽ không bao giờ bị lung lay lý tưởng, về một Gotham được bình yên.
@@ -159,4 +159,4 @@ Một sự thật sẽ theo Baku cho đến ngày ông tàn cuộc, nhưng miễ
 
 Bởi lẽ con trai Baku không chỉ giống ông, mà cuộc đời của nó, còn là những chuyến hành trình hạnh phúc. Và để bồi đắp cho cuộc đời của Heart, sự hy sinh, cùng những lời dối trá của ông là điều cần thiết, để con trai ông mãi luôn được hạnh phúc về điều mà nó đã chọn.
 
-![](/posts/HanhPhuc_5.png)
+![](/posts/HanhPhuc_5.webp)

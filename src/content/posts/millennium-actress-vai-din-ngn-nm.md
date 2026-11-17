@@ -23,7 +23,7 @@ date: 2026-03-29
 > Tag: Drama, romance
 > **[Spoiler alert]**
 
-![](/posts/MillenniumActress_0.jpg)
+![](/posts/MillenniumActress_0.webp)
 
 ## Nghệ thuật kể chuyện thực-ảo đan xen
 
@@ -45,7 +45,7 @@ Một cái hay nữa trong phim là về phía người được nghe kể chuy�
 
 Điểm đặc biệt và thú vị nữa trong câu chuyện nhập vai là khi cả Genya và Chiyoko đều chú tâm vào vai diễn, thì người trợ lý của ông, Ida, ban đầu bị khớp hoàn toàn với hành động của hai con người này. Anh ta cứ há hốc mồm kinh ngạc hết lần này tới lần khác *"Chuyển sang cảnh phim từ hồi nào vậy?"*, *"Sếp! Sếp bày trò gì thế?"*. Nhưng rồi, từ cái kiểu "wtf, cái gì mới diễn ra vậy nè!?" người trợ lý dần quen với cái mạch truyện do Genya và Chiyoko sắp đặt, nên anh từ ngạc nhiên sang chờ đợi, thích thú, coi xem sếp mình sắp tới sẽ hóa thân vào nhân vật gì để giải cứu Chiyoko đây, thậm chí còn bắt được mạch truyện nhanh hơn sếp mình. Đã vậy, trong những phân cảnh phim của Chiyoko, người trợ lý ấy cũng lia máy quay phim theo hướng chạy, hành động của cô như đúng rồi, nó làm ta cảm thấy tin rằng Genya và Ida thật sự đã ở trong những khung cảnh ấy, thật sự được nhìn thấy câu chuyện của Chiyoko bằng tất cả các giác quan của mình chứ không chỉ đơn thuần là ngồi nghe bà kể chuyện trong căn phòng khách. Nếu Chiyoko và Genya đóng vai trò như người kể - người nghe/người trợ diễn để toàn bộ câu chuyện trong *"Vai diễn ngàn năm"* được diễn ra, thì người trợ lý (dù chỉ là cầm máy quay và lâu lâu chèn một câu nói vào) cũng giữ một vai trò quan trọng không thể thiếu đi trong phim, đó là truyền tải cảm xúc và gắn kết khán giả thật sự đang ngồi xem với toàn bộ câu chuyện phim. Nếu không có cậu ta, thì toàn bộ câu chuyện Chiyoko trên dù có hay thế nào thì vẫn như một câu chuyện riêng chỉ hai người là Genya và Chiyoko hiểu được thôi, chứ hoàn toàn lạc lõng với khán giả bên ngoài màn hình.
 
-![](/posts/MillenniumActress_1.jpg)
+![](/posts/MillenniumActress_1.webp)
 
 ## Tổng kết
 

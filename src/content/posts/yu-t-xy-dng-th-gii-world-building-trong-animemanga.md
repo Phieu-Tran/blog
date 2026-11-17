@@ -4,7 +4,7 @@ description: "Thảo Luận"
 tags: ["Explained", "Theme"]
 date: 2026-03-29
 ---
-![](/posts/WorldBuilding_0.jpg)
+![](/posts/WorldBuilding_0.webp)
 
 ## Yếu Tố Xây Dựng Thế Giới (World-Building) Trong Anime/Manga
 
@@ -22,7 +22,7 @@ Hiện nay, trên mạng có một vài ý kiến cho rằng yếu tố xây d�
 
 Để mình lấy ví dụ cho dễ hiểu, như bộ anime drama, học đường Yahari. Bối cảnh của bộ anime này có thể là trường học, nhà của các nhân vật hay bãi biển (tập fanservice đi biển ( ͡° ͜ʖ ͡°)). Đó chính là những địa điểm mà các nhân vật thể hiện các hoạt động. Còn "thế giới" của bộ anime này chính là toàn bộ đất nước Nhật Bản. Bởi vì những quy luật của Nhật Bản như luật lệ, chính trị, văn hóa, lối sống của người Nhật đã ảnh hưởng trực tiếp đến các nhân vật trong bộ anime này. Do đó, nếu bộ Yahari có tập trung xây dựng thế giới, thì bộ này có thể thể hiện rõ các yếu tố văn hóa, xã hội của Nhật Bản, điều đó có thể khiến khán giả hứng thú về thế giới của bộ anime này (Nhật Bản) nhiều hơn. Đương nhiên, thì đối với một bộ drama, học đường điển hình như Yahari thì yếu tố world building không quá quan trọng, yếu tố quyết định đó là sự tương tác, việc thể hiện tình cảm, cảm xúc giữa các nhân vật. Thế nhưng, bạn hãy tưởng tượng Yahari là một bộ phiêu lưu khám phá thì xem. Bạn làm một bộ khám phá Nhật Bản mà world-building kém, người xem cảm thấy nước Nhật buồn chán và không có hứng thú muốn đi đến Nhật Bản thì 100% bộ anime của bạn đã thất bại rồi. Bởi vậy, ở đây mình muốn nhấn mạnh tầm quan trọng quyết định của world building đối với những bộ có yếu tố phiêu lưu, khám phá.
 
-![](/posts/WorldBuilding_1.jpg)
+![](/posts/WorldBuilding_1.webp)
 
 ## Các Yếu Tố Để Có World-Building Tốt
 
@@ -80,7 +80,7 @@ Do đó, để có world building tốt, thế giới đó phải "động": v�
 - **Tính đa dạng:** Các loài sinh vật rất đa dạng và phong phú với những tập tính, lối sống riêng biệt. Và người Ainu được thể hiện đầy sinh động từ trang phục những dụng cụ họ sử dụng cho đến quan niệm sống, cách nhìn nhận thế giới của họ. Checked.
 - **Tính vận động:** Thế giới của Golden Kamuy không phải là thế giới tĩnh mà ta có thể nhận thấy sự vận động phát triển của nó, ví dụ như sự khác biệt của Aspira, một cô gái Ainu trẻ với những người già trong bộ tộc điều đó thể hiện sự thay đổi về nhận thức của họ theo thời gian hay sự vận động của thế giới hoang dã theo các chu kỳ của tự nhiên. Checked.
 
-![](/posts/KichBan_2.jpg)
+![](/posts/KichBan_2.webp)
 
 ## Lời Kết
 

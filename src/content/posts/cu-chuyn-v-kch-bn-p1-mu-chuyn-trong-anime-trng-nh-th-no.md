@@ -4,7 +4,7 @@ description: "Thảo Luận"
 tags: ["Explained", "Theme"]
 date: 2026-03-29
 ---
-![](/posts/KichBan_1.jpg)
+![](/posts/KichBan_1.webp)
 
 ## Câu Chuyện Về Kịch Bản (P1): Mẫu Chuyện Trong Anime Trông Như Thế Nào?
 
@@ -14,7 +14,7 @@ Hầu hết các câu chuyện được kể trong các phim hiện nay đều t
 
 > *Chú ý: VÌ BÀI VIẾT CÓ SPOIL MỘT SỐ NỘI DUNG TRONG PHIM, NÊN NẾU BẠN CHƯA XEM CÁC BỘ PHIM DƯỚI ĐÂY THÌ CÓ THỂ XEM BÀI VIẾT NÀY LÀ MỘT PHẦN REVIEW NGẮN VẬY.*
 
-![](/posts/KichBan_0.png)
+![](/posts/KichBan_0.webp)
 
 ### 1. Mẫu Chuyện Ước Mơ Thành Sự Thật
 
@@ -66,7 +66,7 @@ Những bộ phim theo mẫu chuyện gã khờ sẽ bị chi phối và đượ
 
 Tuy nhiên việc sử dụng mẫu chuyện này cũng như một con dao hai lưỡi. Trêu đùa quá trớn với nhân vật thông qua sự khờ khạo sẽ khiến người xem cảm thấy khá là "cringe". Thay vì có một nhân vật hay, nó sẽ tạo ra một nhân vật khiến người xem cực kì khó chịu. Ví dụ điển hình ở đây chính là Nobita trong "Doraemon". Việc đưa một nhân vật được tạo ra chỉ để dựng nên các tình huống dở khóc dở cười thì sẽ không có vấn đề gì đối với các tiêu chuẩn xem phim của trẻ em. Nhưng nếu để những khán giả khó tính nhìn nhận thì chắc chắn đây là nhân vật đáng quên. Vì sao ư? Gần như toàn bộ thời gian bộ truyện, Nobita chỉ tỏ ra mình là một tên "đại ngốc" (hoặc cũng có thể trái ngược nếu như các thuyết âm mưu về sự "giấu nghề" của Nobita là đúng). Vì thế nên khi Nobita có những khoảnh khắc xuất thần, bật mode "main" để giải quyết những tình huống siêu hại não thì sẽ để lại suy nghĩ trong người xem như kiểu: "Ơ đây là một nhân vật khác à? Nobita mà có những suy nghĩ như thế ư? Tôi không tin!". Vì thế chúng ta mới có những meme kinh điển về so sánh giữa Nobita truyện ngắn và truyện dài (hoặc bạn cũng có thể cho rằng truyện dài nằm ở một vũ trụ song song nào đó cũng được, đâu ai có quyền cấm bạn tưởng tượng).
 
-![](/posts/KichBan_2.jpg)
+![](/posts/KichBan_2.webp)
 
 ## Lời Kết
 

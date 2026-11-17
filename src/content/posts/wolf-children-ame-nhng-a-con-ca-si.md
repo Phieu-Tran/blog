@@ -41,7 +41,7 @@ Dẫu vậy, Ame vẫn không thích phần sói trong mình, em có hoá sói, 
  
 Ở bài review trước về phim, mình đã nói về sự kiện làm thay đổi trực tiếp và mạnh nhất đến sự trưởng thành của Ame, cũng như tiên liệu trước việc Ame sẽ rời khỏi mẹ; đó là sự kiện: Ame săn mồi và rơi xuống suối. Mình đã phân tích về sự kiện này rồi, nhưng trong bài này mình muốn nhấn thêm một chi tiết đáng chú ý nữa: cái khăn choàng. Việc Ame bị vấp té và rơi vào dòng suối chính là do cái khăn choàng ấy; nếu các bạn để ý trong phim thì chỉ trừ khúc cuối khi Ame từ biệt mẹ, còn lại trên cổ em khi hoá sói sẽ có hoặc áo hoặc khăn choàng. Áo và khăn choàng chính là vật giữ ấm cho Ame và Yuki, là sự quan tâm của mẹ đến hai em, đồng thời cũng là biểu tượng của phần người trong Ame và Yuki khi ở dạng sói. Việc Ame lựa chọn nghe theo bản năng và săn mồi, để rồi bị vấp phải chiếc khăn mà suýt chết, chính là điểm nhấn mạnh rằng: nếu Ame muốn đi theo con đường của sói, em sẽ phải vứt bỏ phần người của mình (hay ít nhất là mối liên kết của em với con người, ở đây chính là mẹ); và đúng như lời của Yuki, ở Ame đã có gì đó thay đổi...
  
-![](/posts/Ookami_0.jpg)
+![](/posts/Ookami_0.webp)
 
 ## Ame và trường học
 
@@ -58,7 +58,7 @@ Sau quãng thời gian dài, học hỏi được nhiều điều về rừng n�
 
 Trong phim có rất nhiều cảnh quay đẹp, ý nghĩa, rõ ràng và giúp phim liền mạch. Tất nhiên có nhiều cảnh mà ta thích, cũng có những cảnh khiến ta không muốn xem lại; về phần mình, hai cảnh yêu thích nhất về Ame với mình là: cảnh Ame lúc nhỏ ngồi phủi từng củ khoai vừa đào lên và cảnh Ame cúp học theo mẹ đến chỗ làm. Còn hai cảnh mình không muốn xem lại nhất đó là: cảnh Ame rơi xuống nước và cảnh Ame bỏ đi khiến Hana phải chạy lên rừng. Ngoài ra có nhiều cảnh mà mình không liệt kê ở trên nhưng bổ sung rất lớn vào việc thể hiện nội tâm, tính cách và phát triển của nhân vật, ví dụ như: cảnh mẹ Ame xin em đừng lên núi nữa, Ame lúc ấy đã cao gần bằng mẹ dù mới 11 tuổi, thêm nữa cái áo trắng và mái tóc nhìn rất giống cha; cảnh Ame lần đầu đi theo mẹ tham gia đoàn tham quan của khu sinh thái, trước người lạ thì vẫn núp sau mẹ nhưng khi lên rừng lại đi đằng trước, trước đây khi lên núi với mẹ và Yuki, Ame cũng chỉ nắm tay đi theo sau mẹ thôi; những cảnh lúc vừa mới chuyển nhà, khi nhà có khách Ame hoặc là núp sau mẹ hoặc là núp sau Yuki… Từng chút từng chút một, ngay bên trong bộ phim về gia đình, ta thấy được câu chuyện của riêng Ame hiện lên, nhẹ nhàng và rõ ràng.
  
-![](/posts/Ookami_1.jpg)
+![](/posts/Ookami_1.webp)
 
 ## Kết
 

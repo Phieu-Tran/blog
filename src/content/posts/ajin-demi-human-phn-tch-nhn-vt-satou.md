@@ -5,7 +5,7 @@ tags: ["Character", "Analysis"]
 related_media: ["anime:ajin-demi-human"]
 date: 2026-03-29
 ---
-![](/posts/Ajin_0.jpg)
+![](/posts/Ajin_0.webp)
 
 > **Anime:** Ajin: Demi-Human (亜人)
 > **Đạo diễn:** Hiroaki Ando
@@ -17,7 +17,7 @@ date: 2026-03-29
 > **Quốc gia:** Nhật Bản
 > **Thể loại:** Animation, Action, Adventure, Horror
 
-![](/posts/Ajin_2.jpg)
+![](/posts/Ajin_2.webp)
 
 ## Phân Tích Nhân Vật: Satou (Ajin)
 
@@ -31,7 +31,7 @@ Thế nhưng, đến khi mình đọc được Ajin, những điều trên đã 
 
 ### Một Tên Cuồng Sát Đúng Nghĩa
 
-![](/posts/Ajin_1.png)
+![](/posts/Ajin_1.webp)
 
 Một trong những tropes thường thấy trong anime đó là nhân vật phản diện thường có quá khứ đau khổ. Việc xây dựng nhân vật phản diện có quá khứ đen tối sẽ giúp cho việc phát triển nhân vật hợp với logic hơn. Bởi vì "nhân chi sơ tính bổn thiện", và cái ác xuất phát từ sự đau khổ mà ra. Có rất nhiều nhân vật phản diện nổi tiếng trong anime được xây dựng theo hướng trên như: Pain và Obito trong Naruto, Griffith trong Berserk, Shishio Makoto trong Ruroni Kenshin,...
 

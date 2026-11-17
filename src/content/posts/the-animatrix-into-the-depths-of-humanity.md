@@ -94,7 +94,7 @@ Nếu chính loài người cũng không biết hết tiềm năng của giống
 
 ![](/posts/Exported image 20250424131812-1.jpeg)  
 
-![](/posts/Animatrix_0.jpg)
+![](/posts/Animatrix_0.webp)
 
 ## 1. THE SECOND RENAISSANCE PART I & II (Mahiro Maeda, Studio 4 °C)
 Phần phim hay nhất và cũng là phần ám ảnh nhất trong toàn bộ loạt phim “The Animatrix”.  
@@ -140,7 +140,7 @@ Kid’s Story là một ẩn dụ của chứng Dysphoria (bất mãn với th�
 Giá trị thực sự của tập phim nằm ở việc nó cho người xem hiểu được thế giới quan của người mắc Dysphoria. Để giải thoát bản thân khỏi cơn lo lắng triền miên, những người mắc chứng này có thể tìm đến những phương cách cực đoan, sẵn sàng làm tổn thương bản thân mình và những người xung quanh.  
  
 
-![](/posts/Animatrix_1.jpg)
+![](/posts/Animatrix_1.webp)
 
 ## 3. Beyond (Koji Morimoto - Studio 4 °C)
 Nếu những tập phim khác của “The Animatrix” đều ám ảnh và ngột ngạt, Beyond đem đến một góc nhìn tươi sáng hơn về “The Matrix”. Tập phim kể về cô bé Yoko và chú mèo Yuki, cùng một nhóm trẻ em sống trong The Matrix. Các em khám phá một khu nhà bỏ hoang và khám phá ra một vùng Glitches in the Matrix. Tại đây các định luật vật lý bị đảo ngược hay xoá bỏ. Đám trẻ vô tư nô đùa tại khu nhà kỳ dị đó, trải nghiệm cảm giác không trọng lực, ngã mà không chạm đất, làm đủ trò nhào lộn giữa không trung. Các em không có vẻ gì là sợ những hiện tượng kỳ lạ đó. Cả đám xem đó như một sân chơi bí mật.  

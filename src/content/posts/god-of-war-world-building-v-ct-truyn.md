@@ -5,7 +5,7 @@ tags: ["Analysis", "Story"]
 related_media: ["games:god-of-war"]
 date: 2026-03-29
 ---
-![](/posts/GoW_0.png)
+![](/posts/GoW_0.webp)
 
 > **Game:** God of War
 > **Đạo diễn:** Cory Barlog
@@ -22,7 +22,7 @@ Tạm bỏ qua cái cách thế giới điện ảnh Marvel khắc họa vị th
 
 Cái tên Loki đến từ nguồn gốc của cụm từ tiếng Đức cổ 'Luk' (loops), ám chỉ những nút thắt. Hắn là nhân vật luôn luôn toan tính kế hoạch, luôn khiến những mối quan hệ trở nên phức tạp.
 
-![](/posts/GoW_1.jpg)
+![](/posts/GoW_1.webp)
 
 Bậc thầy thần thoại Bắc Âu, thi nhân Kevin Crossley-Holland từng viết: "Nếu không có hình ảnh nhân vật Loki đầy háo hức, bất ổn và bất thường, thì sẽ không có những thay đổi trong trật tự đã được sắp đặt sẵn, không có những xung đột, và cũng không có cả Ragnarök." Loki là chất xúc tác của sự thay đổi mãnh liệt trong trật tự Thần thoại Bắc Âu, vì thế mọi thể nghiệm loại bỏ nhân vật ấy khỏi một cốt truyện lấy bối cảnh những vị thần Asgard đều đòi hỏi nỗ lực rất lớn để định hướng cốt truyện và sự kiện để che đậy những lỗ hổng rất lớn mà Loki bỏ lại.
 
@@ -30,13 +30,13 @@ Bậc thầy thần thoại Bắc Âu, thi nhân Kevin Crossley-Holland từng v
 
 ## God of War -- Viết Lại Thần Thoại
 
-![](/posts/GoW_2.png)
+![](/posts/GoW_2.webp)
 
 God of War theo chân Kratos, tên á thần từ Sparta cùng cậu con trai Atreus trong cuộc phiêu lưu đưa tro cốt của Faye, người vợ quá cố của Kratos, người mẹ của Atreus lên đỉnh núi cao nhất Cửu Giới. Dù rằng yếu tố mà người chơi thấy rất rõ trong tác phẩm này chính là quá trình khám phá những câu chuyện cổ Bắc Âu, nhưng điều rõ ràng không kém chính là những câu chuyện ấy được chế cháo lại rất khác so với nội dung gốc. Lý do rất đơn giản là, trong suốt mấy chục tiếng đồng hồ thưởng thức God of War, tuyệt nhiên không một lần thấy cái tên Loki được xướng lên.
 
 Đấy là cho tới đúng giây phút cuối game, ngay sau khi hai cha con hoàn thành ý nguyện của người mẹ:
 
-![](/posts/GoW_3.jpg)
+![](/posts/GoW_3.webp)
 
 Giây phút ấy, thời điểm duy nhất cái tên Loki được gọi ra trong xuyên suốt cuộc hành trình bỗng nhiên ghi dấu ấn mang tính đột biến, nhắc lại cho người chơi sự biến mất của Loki. Vì trong God of War, Loki chỉ là một đứa trẻ, nên những "chiến tích" của Loki trưởng thành chưa xuất hiện. Hệ quả là, kết cấu của thần thoại Bắc Âu xuất hiện ra những lỗ hổng lớn.
 
@@ -44,7 +44,7 @@ Giây phút ấy, thời điểm duy nhất cái tên Loki được gọi ra tro
 
 ## Nền Tảng Thần Thoại -- Poetic Edda Và Prose Edda
 
-![](/posts/GoW_4.png)
+![](/posts/GoW_4.webp)
 
 Thực tế, lịch sử của thần thoại Bắc Âu vô cùng phức tạp, gần như mọi thứ chúng ta biết đến thời điểm này đều chỉ dựa trên hai văn bản: Poetic Edda và Prose Edda. Không như người Hy Lạp với những ghi chép vô cùng chi tiết và được bảo tồn qua cả nghìn năm, hay rất nhiều văn bản ghi lại Kinh Cựu Ước và Tân Ước của Thiên Chúa Giáo, thì người Vikings chẳng mấy khi ghi chép lại cái gì cả. Tất cả những gì tồn tại được đến ngày hôm nay là những vần thơ của người Bắc Âu được lưu truyền qua nhiều thế hệ.
 
@@ -56,7 +56,7 @@ Tổng kết lại, giữa hai nguồn thần thoại Bắc Âu chính kể trê
 
 ## Kratos Và Atreus -- Những Nhân Vật Không Hoàn Thiện
 
-![](/posts/GoW_5.jpg)
+![](/posts/GoW_5.webp)
 
 Khởi đầu câu chuyện, cả Kratos lẫn Atreus đều là những nhân vật không hoàn thiện. Giống hệt như hai pho Edda kể trên, Kratos có một lịch sử phức tạp và đầy tổn thương. Quá khứ ấy được phơi bày thông qua cách Kratos dạy con, khi sự nghiêm khắc xung đột trực tiếp với bản chất đầy lòng trắc ẩn của Atreus. Dần dần, sự nghiêm khắc và lòng trắc ẩn đối đầu với nhau, dần phá vỡ bức tường bao bọc bề ngoài của cả hai cha con.
 
@@ -68,7 +68,7 @@ Trong pho thần thoại thiếu vắng đi Loki ấy, Santa Monica Studios tri�
 
 ## Baldur -- Vị Thần Bất Tử Và Lời Nguyền Của Freya
 
-![](/posts/GoW_6.png)
+![](/posts/GoW_6.webp)
 
 Baldur, đáng lẽ ra theo hai pho Edda đã chết dưới chính tay Loki. Truyền thuyết này bắt đầu với bài thơ Völuspá trong pho Poetic Edda, rồi được mô tả kỹ hơn trong điển tích "Giấc mơ của Baldr" và cuối cùng là tích "Cái chết của Baldr" trong pho Prost Edda. Sau khi nghe kể lại cơn ác mộng báo trước cái chết của Baldr, người mẹ Freya đã phải xin muôn loài ở cửu giới thề thốt không làm hại tới cậu con trai của mình. Mọi tảng đá, nhành cây, ngọn núi, con sông, vi khuẩn, động vật và con người toàn cõi cửu giới đều chấp thuận. Tất cả, trừ nhành cây tầm gửi. Nghĩ rằng tầm gửi quá nhỏ bé không đủ sức gây hại, Freya lờ nó đi luôn.
 
@@ -76,7 +76,7 @@ Nhưng rồi Loki nhận ra tầm gửi. Hắn chế một mũi tên bằng nhà
 
 Phần mở đầu điển tích ấy được giữ nguyên trong God of War, nhưng Loki phiên bản trưởng thành không hiện diện, nên Baldur đến giờ vẫn sống, vẫn bất tử nhờ "lời nguyền" của bà mẹ Freya. Và rồi từ chỗ là một vị thần bất tử nhưng chẳng cảm thấy bất kỳ điều gì từ cả năm giác quan, Baldur trở thành một kẻ sống trong thù hận, khi món quà của người mẹ đã trở thành lời nguyền vĩnh cửu.
 
-![](/posts/GoW_7.png)
+![](/posts/GoW_7.webp)
 
 Kỳ diệu thay, qua bàn tay của các biên kịch ở Santa Monica Studio, mũi tên tầm gửi vẫn đến trúng đích. Và thậm chí, dù Freya cố gắng hủy hết những món đồ liên quan tới tầm gửi, thì cũng vẫn là Loki (Atreus) với mũi tên tầm gửi buộc ở ống tên đã tìm được tới thân thể của Baldur, qua đó trực tiếp dẫn tới cái chết của vị thần trung thực. Bằng cách điều chỉnh lại điển tích này, mối quan hệ giữa Baldur và Freya được dịp thể hiện trước mắt người chơi, cùng lúc kích thích được sự thay đổi trong mối quan hệ giữa hai cha con Kratos và Atreus.
 
@@ -86,11 +86,11 @@ Kỳ diệu thay, qua bàn tay của các biên kịch ở Santa Monica Studio, 
 
 Hai anh em người lùn Brokk và Sindri hục hặc nhau biết bao nhiêu năm. Hai nhân vật này đã hiện diện trong pho Prose Edda, cũng liên quan tới Loki khi hai anh em so tài xem ai là người tạo ra được báu vật tuyệt vời nhất đỉnh Asgard. Những món báu vật đó cũng xuất hiện trong game, từ cây búa Mjolnir của thần Thor, cho đến chú heo râu vàng của Freya khi hai cha con Kratos lần đầu gặp bà. Nếu như trong hai pho Edda, Brokk và Sindri lúc nào cũng làm việc cùng nhau, thì trong God of War, hai anh em thợ rèn phải vượt qua mối quan hệ bị rạn nứt sau khi cả hai quên vị trí của một kho báu chứa đầy nguyện liệu vô giá.
 
-![](/posts/GoW_8.png)
+![](/posts/GoW_8.webp)
 
 Một gia đình vụn vỡ khác chính là Thor cùng hai ông con Modi và Magni. Hai cậu con trai của thần sấm lúc nào cũng kèn cựa xem ai là đứa con giỏi hơn, sau khi chính bản thân Thor cho rằng Magni đã cứu mạng mình khi cậu mới 3 tuổi. Cốt truyện này không khác nhiều so với hai pho Edda. Nhờ có Magni mà Thor không bị gã khổng lồ Hrungnir đè bẹp sau khi chiếc đầu bằng đá bị đập tan bằng chính cây búa Mjolnir. Nhưng sự hiện diện, hay đúng hơn là sự biến mất của Modi trong câu chuyện kể lại trong Prose Edda lại khiến các biên kịch có thêm đất diễn để mô tả cảm xúc của vị thần này, qua đó khai thác mối quan hệ tồi tệ của Modi và Magni với cha của mình. Bước ngoặt và điểm nhấn của câu chuyện xảy đến ngay sau khi Kratos giết Magni:
 
-![](/posts/GoW_9.jpg)
+![](/posts/GoW_9.webp)
 
 Đối với Kratos, những gia đình của Freya và Baldur, của Brokk và Sindri, của Thor với Modi và Magni chính là những ví dụ được thiết kế để gã chiến thần tìm được kim chỉ nam giúp gã trở thành một con người tử tế. Nó cũng giống cảm giác ăn phải đồ dở tệ, khi ấy người ta mới nhớ đến miếng ngon vậy.
 
@@ -100,13 +100,13 @@ Kratos tin tưởng vào một lời nói dối, đó là che giấu được s�
 
 Đến lúc này, Kratos phải đối mặt với tòa án lương tâm khi nhận ra sự thật rằng cách duy nhất để cứu con trai mình là tiết lộ hết sự thật. Và khi ấy, chủ đề thứ hai của God of War, sự giày vò của Kratos với quá khứ được thể hiện bằng chính động thái "gỡ bỏ" Loki khỏi toàn bộ điển tích thần thoại Bắc Âu. Ví dụ cụ thể nhất chính là thần khổng lồ có khả năng biến hóa Thiazi, cùng cô con gái Skadi.
 
-![](/posts/GoW_10.jpg)
+![](/posts/GoW_10.webp)
 
 Trong Prose Edda, Loki bị Thiazi tống tiền trong bộ dạng một con chim ưng, đòi vị thần láu cá đem nữ thần Idunn cùng quả táo trường sinh của bà. Nhưng do bị Loki lừa, Thiazi bay thẳng vào Asgard, nơi ông bị những vị thần tiêu diệt bằng lửa. Tìm cách báo thù cho cha, Skadi lao vào Asgard, nhưng may mắn thay Odin muốn giảng hòa. Vị thần này tặng cho Skadi hai điều ước, trước khi lấy đôi mắt của Thiazi đặt lên bầu trời, biến thành hai vì sao sáng cho tới khi ngày tận thế Ragnarok xảy ra.
 
 Nhưng vẫn lại là vì không có Loki, câu chuyện của nàng Skadi được chế cháo lại trong game. Sau khi cầu hôn Skadi bất thành, Odin lừa cô bắn hạ một con chim ưng được cho là đang săn đuổi nữ thần Idunn và những trái táo của bà. Háo hức trình diễn khả năng săn bắn, Skadi nhận lời ngay...
 
-![](/posts/GoW_11.jpg)
+![](/posts/GoW_11.webp)
 
 ## Vòng Lặp Đau Đớn -- Những Đứa Con Sát Hại Cha Mẹ
 
@@ -116,11 +116,11 @@ Kratos từng tồn tại với suy nghĩ cho rằng lòng trắc ẩn là một
 
 Nhờ vào việc khai thác chính đứa con ruột của Kratos, các nhà biên kịch đã ép hắn phải đưa ra những lựa chọn không hề dễ dàng để bảo vệ mối quan hệ giữa hai cha con:
 
-![](/posts/GoW_12.jpg)
+![](/posts/GoW_12.webp)
 
 Nhưng chính ở thời điểm này, cốt truyện của God of War lật ngược hoàn toàn vị thế của hai nhân vật. Kratos bắt đầu ngừng kiểm soát cậu con trai quá mức, còn Atreus thì bắt đầu biến sự thật rằng cậu là một vị thần trở thành một thứ vũ khí gây tổn hại cho tất cả mọi người xung quanh cậu.
 
-![](/posts/GoW_13.jpg)
+![](/posts/GoW_13.webp)
 
 Câu nói "sự thật quan trọng hơn lòng tốt" tóm tắt một cách quá hoàn hảo giằng xé nội tâm lẫn xung đột của hai nhân vật chính, khi Atreus coi mình thượng đẳng hơn mọi kẻ khác vì cậu biết cậu là thần.
 
@@ -130,7 +130,7 @@ Và để dẫn cả Kratos và Atreus vượt qua sự mờ mịt trong những
 
 Thậm chí các biên kịch của Santa Monica Studios còn đẳng cấp tới mức thêu dệt được câu chuyện hoàn toàn khác cho Tyr và Odin khi Loki không tồn tại, nhưng vẫn dựa trên từng chi tiết đã được mô tả tỉ mỉ trong hai pho Edda cổ xưa. Những chi tiết ấy dù không liên quan trực tiếp đến Loki, nhưng lại có liên quan tới những con quái vật là con cái của vị thần láu cá.
 
-![](/posts/GoW_14.jpg)
+![](/posts/GoW_14.webp)
 
 Trong thần thoại Bắc Âu, Loki là cha (đôi khi thậm chí là mẹ) của nhiều con quái vật. Hầu hết chúng đều xuất hiện trong God of War với những tầm ảnh hưởng khác nhau. Ở đền thờ Jorrmungandr, toàn bộ cây phả hệ của Loki xuất hiện: Loki, người vợ Angrboda, kế đến là ba đứa con. Hel, sinh vật nửa người nửa xác chết được Odin gửi đi cai quản xứ sở của người đã khuất. Kế đến chính là Jormungandr. Con rắn khổng lồ xuất hiện trong God of War đơn giản vì trận chiến kinh thiên động địa với thần Thor trong ngày tận thế Ragnarok đã... gửi nó quay trở về quá khứ, từ thời điểm Loki chỉ mới là một cậu bé. Chi tiết này là mới toanh, chẳng có thần thoại nào kể cả.
 
@@ -140,11 +140,11 @@ Fenrir chấp thuận việc bị trói bằng Gleipnir với một điều ki�
 
 Nhưng trong God of War, Tyr vẫn còn đủ hai cánh tay, đơn giản vì đứa con thứ ba của Loki khi ấy còn chưa ra đời. Cùng lúc, bản chất thiện lương của Tyr được mô tả như một ngọn hải đăng giữa lúc hai cha con Kratos còn đang mò mẫm trong đêm tối, chưa biết tìm hướng đi nào sau khi sự thật được phơi bày. Trên tấm bích họa Jorrmungandr, thần Tyr chiếm vị trí trung tâm với 4 ký hiệu rune biểu tượng cho sự nhân từ, sự thật, hòa bình và đoàn kết. Đó là bốn thứ Tyr dựa vào để đem lại hòa bình cho cửu giới.
 
-![](/posts/GoW_15.jpg)
+![](/posts/GoW_15.webp)
 
 Ở khía cạnh trái ngược hoàn toàn chính là Odin. Giống hệt như Kratos, Odin cũng là một nhân vật bị trói buộc với số phận. Những hình ảnh Odin được mô tả trong game chỉ xuất hiện đúng 1 lần trong suốt chuyến hành trình của hai cha con, được mô tả bằng hình ảnh cưỡi con ngựa 8 chân Sleipnir, một đứa con khác của Loki, ám chỉ vị thần này đi đến đâu, sự hủy diệt đi theo tới đó.
 
-![](/posts/GoW_16.png)
+![](/posts/GoW_16.webp)
 
 Nỗ lực thay đổi vận mệnh của Odin cũng trùng khớp với những gì hai pho Edda mô tả vị thần này, khi những lời sấm truyền đều dự đoán rằng con sói Fenrir sẽ hạ bệ Odin khi ngày tận thế Ragnarok tới. Nhưng khi Fenrir không tồn tại hay đúng hơn là chưa được sinh ra, thì nhiệm vụ hạ bệ Odin được chuyển cho tộc người khổng lồ ở xứ Jötunheimr. Từ đó, những câu thoại và những điện thờ rải rắc khắp thế giới của God of War mô tả nỗ lực của Odin nhằm thay đổi vận mệnh của bản thân. Ở điện thờ Jormungandr, dòng chữ "số phận là tiền định" được nhắc đi nhắc lại trong mọi câu chuyện, và chính ý tưởng thay đổi vận mệnh đã khiến Odin sử dụng quyền lực của một vị thần để làm những điều sai trái. Odin lợi dụng sự chân thật của Tyr để tìm đến nơi ở của những người khổng lồ, để rồi Thor và cây búa sét làm nốt phần việc còn lại.
 
@@ -154,7 +154,7 @@ Từ Odin đến Tyr, từ Modi đến Magni, từ Brokk đến Sindri, hay từ
 
 Thực tế là, những thần thoại được viết lại, từ những gia đình tan vỡ, vòng lặp hủy diệt, hay những câu chuyện về sự kiểm soát đều được thiết kế để liên tục khiến Kratos ghi nhớ tới thế giới cũ của gã, thứ mà sau cùng gã phải chối từ để thực sự thoát khỏi sự kìm kẹp của quá khứ. Nhưng để làm được điều đó, Kratos phải nhìn thẳng vào quá khứ, và người giúp gã làm điều này không ai khác chính là cậu con trai Atreus.
 
-![](/posts/GoW_17.png)
+![](/posts/GoW_17.webp)
 
 Điều đó đưa chúng ta đến với sự thay đổi có thể gọi là kỳ tài nhất của Santa Monica Studios. Như đã nói, Loki là một nhân vật luôn muốn tạo ra xung đột, luôn muốn đạp đổ trật tự. Nếu như Atreus không có sự bất ổn, không hoàn thiện đến mức đầy hấp dẫn trong mắt khán giả, thì chẳng bao giờ Kratos có thể thay đổi được.
 

@@ -4,7 +4,7 @@ description: "Review — Inio Asano"
 tags: ["Review", "Analysis"]
 date: 2026-03-29
 ---
-![](/posts/Umibe_0.jpg)
+![](/posts/Umibe_0.webp)
 
 > [!info] Manga
 > **Umibe no Onnanoko**

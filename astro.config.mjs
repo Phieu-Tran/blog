@@ -1,12 +1,14 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import remarkCallouts from './src/lib/remarkCallouts.mjs';
+import rehypeLazyImages from './src/lib/rehypeLazyImages.mjs';
 
 export default defineConfig({
   site: 'https://blog.workspacesbeat.io.vn',
   base: '/',
   markdown: {
     remarkPlugins: [remarkCallouts],
+    rehypePlugins: [rehypeLazyImages],
   },
   integrations: [
     sitemap({

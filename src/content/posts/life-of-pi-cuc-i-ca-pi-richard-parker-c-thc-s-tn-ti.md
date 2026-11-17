@@ -26,7 +26,7 @@ Life of Pi là là một bộ phim của Mỹ được ra rạp vào năm 2012. 
 
 Pi Pattel- một cậu bé người Ấn Độ trên đường di cư sang Canada cùng cả gia đình, đã gặp tai nạn. Pi là người duy nhất sống sót trên một chiếc xuồng cứu hộ cùng một vài con vật khác. Cậu lênh đênh suốt hơn 200 ngày, băng qua đại dương để sống sót. Trong suốt cuộc hành trình đầy kiên cường và khó tin này, không ít lần người xem phải đặt ra câu hỏi: đó có phải là thực? Đâu mới là ảo? Những câu hỏi ấy lại càng trở nên đặc biệt khi đạo diễn Lý An lại không có bất cứ giải thích đến với người xem.
 
-![](/posts/LifeOfPi_0.jpg)
+![](/posts/LifeOfPi_0.webp)
 
 ## Richard Parker - Chú hổ Bengal to lớn
 
@@ -34,13 +34,13 @@ Nếu bạn đã xem Life of Pi, không khó khăn gì để cái tên này gây
 
 Nhớ lại đoạn đầu và kết của phim, ta có được thấy Pi khẳng định: khi nhìn vào đôi mắt của Richard Parker, cậu thấy được tâm hồn của nó, chứ không chỉ có tâm hồn cậu được phản chiếu lại. Từ đầu đến cuối, chú hổ Bengal này vẫn có một vai trò như một sự tồn tại độc lập với Pi. Duy chỉ có trong câu chuyện thứ 2 được kể, cậu và Richard Parker không cùng tồn tại, ta được thấy một khả năng khác với những gì mình nghĩ: không hề có con vật nào trên xuồng cả. Tất cả đều là con người. Và Pi đã phải giết kẻ khác để ăn thịt họ, có vậy cậu mới sống. Điều này tương đồng với việc Richard Parker đã giết con linh cẩu, ăn thịt nó cũng như những xác động vật khác. Vậy thì liệu đâu mới là thật? Nếu suy xét cho cùng, khi mà Pi nói về việc Richard Parker đã cứu mình về mặt tinh thần như thế nào, chẳng phải giống như cách nói đầy ẩn dụ về việc "thú tính" trong con người cậu khi bị dồn ép đã nổi lên đấy sao? Richard Parker có lẽ hoàn toàn không có thật, chỉ là một ảo tưởng về bản năng sinh tồn hoang dã vất hết nhân tính của Pi đã trỗi dậy và ăn thịt đồng loại mà thôi. Tuy nhiên, Pi tin vào thứ cậu muốn tin, như cái cách mà cậu theo đến tận 3 tôn giáo một lúc. Bạn chắc cũng biết đến những hiện tượng tâm lý, khi mà não bộ tự sinh ra những ký ức sai lệch theo cách nó muốn. Đặc biệt lại trong hoàn cảnh của Pi nữa, có lẽ đã chứng kiến mẹ mình bị giết trước mắt, bản năng sinh tồn đã trỗi dậy khiến cậu ăn thịt đồng loại, và đến cuối cùng thì không tin vào điều đó, mà tin vào một Richard Parker đã cứu sống cậu...
 
-![](/posts/LifeOfPi_1.jpg)
+![](/posts/LifeOfPi_1.webp)
 
 ## Hòn đảo ăn thịt bí ẩn
 
 Bạn chắc còn nhớ về một hòn đảo ăn thịt người đầy đáng sợ mà Pi đã vô tình đặt chân lên. Điều đáng nói ở đây không chỉ có việc nó ăn thịt người, mà còn là về hình dáng đặc biệt của nó nữa. Chỉ là một khung cảnh thoáng qua, nhưng ta đều thấy đó là một người phụ nữ. Nếu bạn suy xét tiếp với những giả thuyết mình vừa đưa ra như trên, rằng Pi đã ăn thịt những người sống sót cùng cậu sau khi bị dồn vào bước đường cùng, rồi tự ảo tưởng rằng Richard Parker đã ăn thịt bọn thú nhỏ, thì sẽ nhận ra điều này: hòn đảo tiếp tục là một bằng chứng khác về giả thuyết ấy. Đầu tiên, ta thấy: hòn đảo ban thức ăn và sự sống vào ban ngày, lấy đi tất cả vào ban đêm như một cách ẩn dụ. Hoặc là về đức tin: nếu bạn còn niềm tin, bạn sẽ sống. Hoặc là cách ẩn dụ về bản thân Pi: Richard Parker là ban ngày, đem lại sự sống cho Pi bằng cách làm chỗ dựa tinh thần cho cậu, đúng hơn là "thú tính" và "bản năng" đã khiến cậu ăn thịt đồng loại. Ban đêm: chính là phần đối lập với Richard Parker "ban ngày" kia: là nhân cách còn lại: cậu nhận ra mình là kẻ ăn thịt người như cách cậu nhận ra hòn đảo ăn thịt người: nhờ vào cái răng còn sót lại. Việc hình ảnh hòn đảo mang hình hài người phụ nữ cũng được lý giải nếu nhìn nhận theo hướng này: đó là mẹ của Pi. Trong phim, ta chỉ thấy có 2 người phụ nữ đáng chú ý: mẹ Pi và bạn gái cậu. Việc cậu ăn thức ăn từ hòn đảo mang hình dáng mẹ cậu là bằng chứng không phải ai cũng nhận ra. Từ đó càng khẳng định giả thuyết Pi ăn thịt người, và bản thân cậu phần nào nhận ra điều đó. Chi tiết hồ nước biến thành Axit phân hủy cá chính là hình ảnh Axit trong dạ dày người phân hủy thức ăn của Pi ( cũng có bao gồm cá sau khi cậu ăn hết người). Còn việc hòn đảo vừa mang hình dáng của mẹ Pi vừa ẩn dụ cho "nhân tính" và "thú tính" của Pi cũng đã như muốn nói rằng: mẹ của cậu giờ đã luôn ở bên cậu- trong bụng . Chính vì vậy, ở phân đoạn trước khi Pi rời đi, cậu đã buộc một dải băng lên hòn đảo- một hành động đặc trưng của tôn giáo mà người mẹ theo.
 
-![](/posts/LifeOfPi_2.jpg)
+![](/posts/LifeOfPi_2.webp)
 
 ## Những chi tiết khác
 

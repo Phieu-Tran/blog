@@ -4,7 +4,7 @@ description: "Thảo Luận"
 tags: ["Character", "Explained"]
 date: 2026-02-04
 ---
-![](/posts/NhanVatPhanDien_0.jpg)
+![](/posts/NhanVatPhanDien_0.webp)
 
 Nhân vật phản diện- ta có thể định nghĩa là người sẽ xuất hiện đối lập với nhân vật chính trong hầu hết các phim/ truyện để cản đường nhân vật chính. Và chính sự đấu đá giữa họ làm cho bộ phim có tiền đề để thể hiện những ý nghĩa, bài học muốn truyền tải. Tuy nhiên, cũng có trường hợp kẻ phản diện không phải người, mà là một... hiện tượng như bão gió, vỡ đê...
  
@@ -24,13 +24,13 @@ Uầy, câu trên chém vậy thôi, chứ đúng ra phải là “Rất ít ai 
 
 
 
-![](/posts/284603686_488450386367766_3923164776305478648_n.jpg)
+![](/posts/284603686_488450386367766_3923164776305478648_n.webp)
 
 **-SỨC MẠNH BÁ ĐẠO?**
  
 Hợp lý nhỉ? Voldermort bá đạo mà ai cũng sợ. Thanos to khỏe hành các Avenger như vui chơi. Predator săn người như săn thú. Darth Vader giơ tay lên là có đứa bị bóp cổ chết. Ồ, vậy hẳn đây là lý do rồi? Không. Joker (2008) có mạnh không, khi mà đấu tay đôi với Batman vẫn dễ dàng thua cuộc vì hắn chỉ là người thường? Dr. Oc từ phần Spider man 2 có mạnh không, khi ông chỉ là người thường, mù quáng đập nhau với Nhện để rồi ăn cả rổ hành? Killmonger từ Phim Black Panther có thể mạnh, nhưng vẫn sẽ thua nhân vật chính, sức mạnh ấy cũng chỉ bình thường chứ chẳng phải bá đạo. Golum từ The Lord of Rings còn... yếu hơn nữa, khi mà hắn chỉ là một kẻ nhỏ bé mà thôi. Vậy rõ ràng, sức mạnh không phải là yếu tố dẫn đến thành công.
  
-![](/posts/285157969_3394356757459802_3857194930414277232_n.jpg)
+![](/posts/285157969_3394356757459802_3857194930414277232_n.webp)
 
 **-QUÁ KHỨ ĐEN TỐI?**
  
