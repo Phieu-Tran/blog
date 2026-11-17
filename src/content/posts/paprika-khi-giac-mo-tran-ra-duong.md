@@ -1,74 +1,39 @@
 ---
-title: "Paprika | パプリカ | Khi Giấc Mơ Tràn Ra Đường Phố"
-description: "Analysis — Satoshi Kon"
-tags: ["Analysis", "Theme", "Satoshi Kon"]
+title: "Paprika | パプリカ | Cuộc Diễu Hành Cuối Cùng Của Satoshi Kon"
+description: "Tản mạn — Satoshi Kon"
+tags: ["Review", "Satoshi Kon"]
 related_media: ["anime:paprika"]
 date: 2026-11-17
 ---
 ![Poster Paprika](https://cdn.myanimelist.net/images/anime/1929/93629.jpg)
 
-# PAPRIKA: KHI GIẤC MƠ TRÀN RA ĐƯỜNG PHỐ
+Mỗi lần ai đó nhắc đến *Inception*, sẽ có người nhắc đến Paprika.
 
-> [!info] Anime
-> **Paprika**
-> パプリカ
-> **Đạo diễn:** Satoshi Kon
-> **Kịch bản:** Seishi Minakami, Satoshi Kon
-> **Nguyên tác:** tiểu thuyết của Yasutaka Tsutsui
-> **Seiyuu:** Megumi Hayashibara (Atsuko Chiba / Paprika), Toru Furuya (Tokita), Akio Otsuka (Konakawa)
-> **Studio:** Madhouse
-> **Nhạc:** Susumu Hirasawa
-> **Thời lượng:** 90 phút
-> **Năm phát hành:** 2006
-> **Quốc gia:** Nhật Bản
-> **Thể loại:** Sci-Fi, Psychological, Mystery
+Hai phim giống nhau thật: máy móc cho phép bước vào giấc mơ người khác, hành lang xoay vặn, gương vỡ, giấc mơ trong giấc mơ. Nhưng mình đọc khá nhiều bài về chuyện này và thấy một điều: Nolan chưa bao giờ xác nhận Paprika là nguồn cảm hứng. Có bài khẳng định chắc nịch, có bài thì bảo không có bằng chứng nào, chỉ là cách thể hiện quá giống nhau nên khó mà làm ngơ. /Film thì chọn cách dễ chịu nhất: gọi Paprika là "người bạn đồng hành hoàn hảo" của Inception. Mình thấy vậy là đủ. Xem cả hai đi.
 
-> [!warning] Spoilers
+Còn bản thân Paprika thì khác Inception ở một điểm lớn: nó không nghiêm túc. Nó *vui*.
 
-Paprika là bộ phim điện ảnh cuối cùng Satoshi Kon hoàn thành trước khi mất. Nếu Perfect Blue là nỗi sợ hãi bị người khác định nghĩa, thì Paprika là một lễ hội: cuộc diễu hành của tủ lạnh, búp bê, ếch thổi kèn, tượng Phật và cột đèn giao thông đi bộ qua thành phố Tokyo. Nhưng dưới lớp màu sắc rực rỡ đó vẫn là câu hỏi quen thuộc của Kon: **ranh giới giữa thực và mơ nằm ở đâu, và ta có muốn ranh giới đó tồn tại không?**
+---
 
-## DC Mini: chiếc máy mở cửa vào giấc mơ
+Phim dựa trên tiểu thuyết năm 1993 của Yasutaka Tsutsui, cũng là tác giả *Cô gái vượt thời gian*. Atsuko Chiba là bác sĩ tâm lý lạnh lùng, ban đêm dùng máy DC Mini để vào giấc mơ bệnh nhân dưới hình dạng **Paprika**, một cô gái tóc đỏ, tinh nghịch. Máy bị đánh cắp, giấc mơ bắt đầu tràn ra đời thật.
 
-Trong phim, một nhóm nhà khoa học tạo ra DC Mini, thiết bị cho phép bác sĩ tâm lý bước vào giấc mơ của bệnh nhân. Atsuko Chiba, một bác sĩ lạnh lùng, nghiêm túc, dùng nó một cách bí mật để chữa bệnh dưới thân phận **Paprika**: một cô gái tóc đỏ, tinh nghịch, tự do bay nhảy trong thế giới giấc mơ.
+Và rồi có **cuộc diễu hành**. Tủ lạnh, búp bê, ếch thổi kèn, tượng Phật, cột đèn giao thông, máy giặt, tất cả nhảy múa đi qua đường phố Tokyo, kéo theo người đi đường. Mình không biết miêu tả nó bằng chữ thế nào. Nó vừa vui vừa rợn, như một lễ hội không có ai điều khiển. Nhạc của Susumu Hirasawa làm cảnh này thành thứ không thể quên. Hirasawa là nhạc sĩ quen thuộc của Kon từ *Millennium Actress*, và nhạc của ông trong Paprika nghe như máy móc đang hát.
 
-Khi một số DC Mini bị đánh cắp, ai đó bắt đầu xâm nhập giấc mơ của người khác, và những người bị tấn công bắt đầu mơ giữa ban ngày, nói nhảm, nhảy lầu. Giấc mơ không còn ở trong đầu nữa. Nó bắt đầu tràn ra thế giới thật.
+Mình thích tuyến truyện của thanh tra Konakawa hơn cả. Ông có một giấc mơ lặp đi lặp lại, chạy qua đủ thể loại phim: xiếc, Tarzan, điệp viên, *Roman Holiday*. Ông ghét phim ảnh mà không biết vì sao. Dần dần ông nhớ ra: hồi trẻ ông từng cùng bạn làm một bộ phim, rồi bỏ dở. Cảnh cuối phim, ông bước vào rạp chiếu bóng. Một phim về giấc mơ mà kết thúc bằng một người dám vào rạp xem phim lần nữa. Mình nghĩ Kon cố ý.
 
-## Atsuko và Paprika: hai nửa của một người
+---
 
-Atsuko và Paprika không phải hai người, nhưng cũng không đơn giản là "một người với hai bộ mặt". Atsuko là con người ban ngày: lý trí, kỷ luật, kìm nén cảm xúc. Paprika là con người ban đêm: vui vẻ, liều lĩnh, đầy mê hoặc.
+Paprika là phim điện ảnh cuối cùng Satoshi Kon hoàn thành. Bốn năm sau, tháng 8 năm 2010, ông mất vì ung thư tuyến tụy, ở tuổi 46. Phim tiếp theo của ông, *Dreaming Machine*, bỏ dở giữa chừng và đến giờ vẫn chưa ra mắt.
 
-Mình thích việc Kon không coi một trong hai là "cái tôi thật". Atsuko cần Paprika để cảm nhận, Paprika cần Atsuko để có điểm tựa. Ở một cảnh, Paprika tách ra khỏi Atsuko và hai người cãi nhau như hai chị em. Atsuko trách Paprika quá tự do, Paprika trách Atsuko quá cứng nhắc. Và đến cuối phim, Atsuko thừa nhận điều mà cô đã kìm nén suốt bao lâu: cô yêu Tokita, gã thiên tài béo, trẻ con, người tạo ra DC Mini.
+Trước khi mất, Kon viết một lá thư từ biệt, gia đình ông đăng lên blog sau đó, có tên đơn giản là *"Sayonara"*. Ông kể về lúc biết mình bị bệnh, về những người ông muốn cảm ơn, và về việc ông xin lỗi vì không làm xong phim. Cuối thư ông viết rằng ông sẽ đặt bút xuống với lòng biết ơn mọi điều tốt đẹp trên thế giới này. Mình không trích nguyên văn được, nhưng đọc lá thư đó xong thì xem lại Paprika thấy khác. Một người làm phim về giấc mơ suốt đời, và ra đi khi giấc mơ tiếp theo còn dang dở.
 
-Paprika không phải mặt nạ của Atsuko. Paprika là phần cô *được phép là chính mình* trong giấc mơ.
+Mười điểm. Trong các phim của Kon mình đã chấm, Perfect Blue và Paprika được 10, Millennium Actress được 9. Ông đáng được làm thêm nhiều phim nữa.
 
-## Konakawa và bộ phim chưa bao giờ hoàn thành
+---
 
-Tuyến truyện mình thích nhất là của thanh tra Konakawa. Ông có một giấc mơ lặp đi lặp lại: rượt đuổi một kẻ trong hành lang, rồi cảnh chuyển liên tục qua các thể loại phim: phim xiếc, phim Tarzan, phim điệp viên, phim *Roman Holiday*. Ông ghét phim ảnh, và không biết vì sao.
+*Đọc thêm:*
 
-Paprika dần dần giúp ông nhớ lại: hồi trẻ, Konakawa và bạn thân từng cùng nhau quay một bộ phim. Ông bỏ dở, người bạn mất, và mặc cảm đó bị chôn sâu thành giấc mơ. Kẻ ông đuổi theo trong mơ chính là bản thân mình thời trẻ.
-
-Đây là lần hiếm hoi Kon đưa niềm yêu thích điện ảnh vào làm chủ đề trực tiếp. Phim ảnh với Konakawa giống như giấc mơ: thứ ta tạo ra để sống những cuộc đời khác. Và việc ông cuối cùng bước vào rạp chiếu phim ở cảnh cuối là lời hòa giải giữa ông với quá khứ. Mình cũng thấy đây giống một lời nói của chính Kon: điện ảnh là giấc mơ mà con người có thể chia sẻ với nhau.
-
-## Cuộc diễu hành
-
-Hình ảnh nổi tiếng nhất Paprika là cuộc diễu hành của những đồ vật biết đi. Nó đến từ giấc mơ của một nhân viên phòng thí nghiệm, rồi lan ra, nuốt dần giấc mơ của người khác, rồi tràn ra thực tại. Người trên phố bị cuốn vào, biến thành một phần của đoàn diễu hành.
-
-Đọc theo một hướng, cuộc diễu hành là **văn hóa tiêu dùng**: đồ điện gia dụng, búp bê, hàng hóa, những ham muốn bị sản xuất hàng loạt, cuốn mọi người đi trong một lễ hội không có điểm đến. Đọc theo hướng khác, nó là **internet**: một không gian nơi giấc mơ, mong muốn, ảo tưởng của hàng triệu người hòa vào nhau thành một dòng chảy không ai kiểm soát. Phim ra mắt năm 2006, trước khi mạng xã hội bùng nổ, nhưng cảnh Paprika nhảy giữa các website trên màn hình máy tính rồi chui vào ảnh quảng cáo đã cho thấy Kon nhìn ra thế giới đó từ rất sớm.
-
-Nhạc của Susumu Hirasawa, đặc biệt bài *Parade*, là thứ không thể tách khỏi những cảnh này. Nghe vừa vui vẻ vừa có gì đó rùng rợn, như một lễ hội đang dần mất kiểm soát.
-
-## Phản diện: kẻ muốn giữ giấc mơ cho riêng mình
-
-Phản diện cuối cùng là Chủ tịch Inui, người phản đối DC Mini vì cho rằng giấc mơ là nơi thiêng liêng, con người không được phép xâm phạm. Nghe thì có lý. Nhưng Inui, một ông già bại liệt, muốn kiểm soát giấc mơ của tất cả mọi người, muốn sống mãi trong thế giới mơ nơi ông là thần.
-
-Mình thấy đây là điểm thú vị: kẻ nói rằng mình bảo vệ giấc mơ lại là kẻ muốn độc chiếm nó. Paprika, ngược lại, đi vào giấc mơ của người khác để giúp họ hiểu bản thân. Sự khác biệt không nằm ở công nghệ mà ở cách ta dùng nó: để chữa lành, hay để thống trị.
-
-Cuối phim, Paprika và Atsuko hợp nhất, trở thành một bé gái khổng lồ hút lấy Inui, như thể "nuốt" cơn ác mộng. Đây là một trong những cảnh kỳ lạ nhất mà mình từng xem, nhưng cũng rất hợp lý trong logic của giấc mơ: để vượt qua một nỗi sợ, ta phải lớn lên.
-
-## Vì sao mình chấm 10
-
-Paprika không chặt chẽ như Perfect Blue, không cảm động như Millennium Actress. Nhưng nó là bộ phim *vui* nhất của Kon, và là nơi ông thể hiện hết khả năng hoạt hình của mình: chuyển cảnh không có điểm nối, hình ảnh biến dạng liên tục, giấc mơ trong giấc mơ trong màn hình.
-
-Và mình chấm 10 vì nó nhắc mình rằng giấc mơ không phải là thứ cần chạy trốn khỏi thực tại. Ta cần cả hai: một Atsuko để sống, và một Paprika để mơ.
-
-Đáng tiếc là bộ phim tiếp theo của Kon, *Dreaming Machine*, sẽ không bao giờ hoàn thành.
+- [A Surreal 2006 Sci-Fi Movie Is The Perfect Companion Piece To Christopher Nolan's Inception](https://www.slashfilm.com/2061094/paprika-sci-fi-movie-perfect-companion-christopher-nolan-inception) — /Film
+- [Paprika at 15](https://www.inverse.com/entertainment/paprika-15-year-anniversary) — Inverse
+- [Paprika](https://sf-encyclopedia.com/entry/paprika) — The Encyclopedia of Science Fiction
+- [Satoshi Kon: Paprika (2006)](https://3brothersfilm.com/blog/2020/9/4/satoshi-kon-paprika-2006) — 3 Brothers Film

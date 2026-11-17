@@ -1469,6 +1469,9 @@ body.search-open { overflow: hidden; }
 .callout[data-callout="quote"] .callout-title { color: var(--anime-color); }
 .prose blockquote.callout p:not(.callout-title) { white-space: pre-line; }
 .prose hr { border: none; height: 1px; background: var(--glass-border); margin: 24px 0; }
+.prose table { display: block; overflow-x: auto; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+.prose th, .prose td { border: 1px solid var(--glass-border); padding: 8px 12px; text-align: left; vertical-align: top; min-width: 140px; }
+.prose th { background: rgba(255,255,255,0.04); font-weight: 600; }
 
 /* Detail pages tint themselves with an accent sampled from the cover (src/data/cover-colors.json).
    Falls back to the section color when a cover has no usable color. */
