@@ -2,6 +2,7 @@
 title: "Hayao Miyazaki | 宮崎 駿 | Từ Hoạt Hình Đến Đời Sống"
 description: "Thảo Luận — Hayao Miyazaki"
 tags: ["Analysis", "Theme"]
+related_media: ["anime:my-neighbor-totoro", "anime:spirited-away", "anime:princess-mononoke", "anime:howls-moving-castle", "anime:the-wind-rises"]
 date: 2026-03-29
 ---
 ![](/posts/Miyazaki_0.webp)

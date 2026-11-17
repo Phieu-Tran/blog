@@ -2,6 +2,7 @@
 title: "Millennium Actress | 千年女優 | Vai Diễn Ngàn Năm"
 description: "Analysis — Satoshi Kon"
 tags: ["Analysis", "Review"]
+related_media: ["anime:millennium-actress"]
 date: 2026-03-29
 ---
 # MILLENNIUM ACTRESS - VAI DIEN NGAN NAM
