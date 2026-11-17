@@ -1,65 +1,58 @@
 ---
-title: "Lupin the Third: Goemon's Blood Spray | 血煙の石川五ェ門 | Lưỡi Kiếm Và Nỗi Sợ"
-description: "Analysis — Takeshi Koike"
-tags: ["Analysis", "Character", "Action"]
+title: "Lupin the IIIrd: Goemon's Blood Spray | 血煙の石川五ェ門 | Lần Đầu Goemon Thua"
+description: "Tản mạn — Takeshi Koike, Telecom Animation Film"
+tags: ["Review", "Action"]
 related_media: ["anime:lupin-the-third-goemons-blood-spray"]
 date: 2026-11-17
 ---
 ![Poster Lupin the Third: Goemon's Blood Spray](https://cdn.myanimelist.net/images/anime/8/83091.jpg)
 
-# LUPIN THE THIRD: GOEMON'S BLOOD SPRAY — LƯỠI KIẾM VÀ NỖI SỢ
+Ishikawa Goemon, kiếm sĩ trong băng Lupin, có một thanh kiếm tên **Zantetsuken** chém đứt mọi thứ: thép, đá, xe tăng, máy bay. Trong gần năm mươi năm của thương hiệu Lupin III, câu cửa miệng của Goemon sau mỗi nhát chém là: *"Lại chém phải một thứ vô vị."*
 
-> [!info] Anime
-> **Lupin the IIIrd: Goemon's Blood Spray**
-> LUPIN THE IIIRD 血煙の石川五ェ門
-> **Đạo diễn:** Takeshi Koike
-> **Nguyên tác:** nhân vật của Monkey Punch
-> **Seiyuu:** Daisuke Namikawa (Goemon Ishikawa), Kanichi Kurita (Lupin), Kiyoshi Kobayashi (Jigen), Koichi Yamadera (Zenigata)
-> **Studio:** Telecom Animation Film
-> **Nhạc:** James Shimoji
-> **Thời lượng:** khoảng 54 phút
-> **Năm phát hành:** 2017
-> **Quốc gia:** Nhật Bản
-> **Thể loại:** Action, Crime, Samurai
+Goemon không thua. Đó là luật.
 
-> [!warning] Spoilers nhẹ
+Rồi đến *Goemon's Blood Spray*, và Goemon thua.
 
-Lupin Đệ Tam là một trong những thương hiệu anime lâu đời nhất, ra đời từ năm 1967, với hàng chục series và phim. Hầu hết đều là những câu chuyện vui vẻ về một tên trộm lịch lãm và những người bạn. Nhưng dòng phim **Lupin the IIIrd** của đạo diễn Takeshi Koike thì khác hoàn toàn: u tối, bạo lực, mang phong cách noir của những năm 70, gần với tinh thần manga gốc của Monkey Punch.
+---
 
-Goemon's Blood Spray là phần thứ hai trong dòng phim đó, nối tiếp *Jigen's Gravestone*. Mình chấm 9 vì nó là một câu chuyện ngắn, gọn, về **Goemon Ishikawa, kiếm sĩ mạnh nhất, lần đầu tiên biết sợ**.
+**Chuyện gì đã xảy ra**
 
-## Goemon
+Goemon nhận việc làm vệ sĩ cho một ông trùm yakuza. Trong một sòng bạc trên thuyền, một kẻ lạ mặt xuất hiện: một gã khổng lồ cầm rìu, được đồn là "bóng ma Bermuda", tên là **Hawk**. Hắn giết ông trùm, phá tan con thuyền, và đánh bại Goemon.
 
-Goemon là hậu duệ đời thứ 13 của Ishikawa Goemon, tên trộm huyền thoại của Nhật Bản. Anh mang thanh kiếm Zantetsuken, có thể chém đứt mọi thứ. Trong hầu hết các phim Lupin, Goemon là người lạnh lùng, kỷ luật, luôn nói câu *"Lại chém phải một thứ vô vị"* sau khi chém đôi một kẻ thù.
+Không phải một trận hòa, không phải một mánh lừa. Goemon thua thật, bị thương, bị bỏ lại.
 
-Ở Blood Spray, ta gặp Goemon khi anh còn trẻ, trước khi gia nhập nhóm Lupin. Anh đang làm vệ sĩ cho một ông trùm yakuza trên một sòng bạc nổi. Anh tự tin, kiêu ngạo, tin rằng không ai có thể đánh bại mình.
+Phần còn lại của phim là Goemon tìm cách đứng dậy. Và đó là thứ làm bộ phim này đặc biệt: lần đầu tiên, kiếm sĩ bất bại của Lupin phải học cái cảm giác *sợ*.
 
-## Hawk
+---
 
-Rồi **Hawk** xuất hiện. Một gã khổng lồ cầm rìu, được cho là đã chết trong một cuộc chiến hai mươi năm trước. Hắn đến để giết ông trùm. Và Goemon thua.
+**Takeshi Koike**
 
-Không chỉ thua. Goemon bị đánh bại hoàn toàn, bị thương nặng, và lần đầu tiên trong đời, anh cảm thấy **sợ hãi**. Thanh kiếm có thể chém đứt mọi thứ không chém được Hawk.
+Goemon's Blood Spray là phần thứ hai trong loạt phim **LUPIN THE IIIRD** của đạo diễn **Takeshi Koike**, sau *Jigen's Gravestone* (2014), trước *Fujiko's Lie* (2019). Đó là loạt phim u tối, đẫm máu, dành cho người lớn, quay về tinh thần của manga gốc của Monkey Punch hơn là những bộ phim Lupin vui nhộn cho gia đình.
 
-Mình thấy đây là ý tưởng thú vị nhất của phim. Một kiếm sĩ đã xây dựng toàn bộ bản sắc của mình trên sức mạnh. Khi sức mạnh đó thất bại, anh là ai?
+Koike có một phong cách không lẫn đi đâu được: nét vẽ góc cạnh, đổ bóng dày, nhân vật cơ bắp, chuyển động nhanh và nặng. Lupin Central, một trang fan lâu đời của thương hiệu, nói rằng chỉ riêng việc xem dàn nhân vật được vẽ theo phong cách Koike đã đủ thú vị mãi không chán.
 
-## Rèn luyện lại
+**Hawk**
 
-Nửa sau của phim là Goemon rút lui vào núi, tu luyện lại. Không phải để mạnh hơn về kỹ thuật, mà để vượt qua nỗi sợ của chính mình. Anh phải học cách chiến đấu không phải với Hawk, mà với hình ảnh của Hawk trong đầu mình.
+Nhiều bài review đồng ý một điểm: Hawk là phản diện đáng nhớ. Hắn không có động cơ phức tạp, không có quá khứ bi thảm. Hắn chỉ mạnh, và thích chiến đấu, và Goemon là con mồi thú vị. Một bài review nói phim đã thể hiện nhân vật này xứng tầm.
 
-Mình thích cách phim kể điều này gần như không bằng lời. Takeshi Koike là đạo diễn của *Redline*, và phong cách hình ảnh của ông rất đặc trưng: những đường nét dày, bóng đổ sâu, màu sắc tương phản mạnh, chuyển động nhanh và mạnh mẽ. Những cảnh Goemon luyện kiếm trong mưa, dưới thác nước, được vẽ như tranh khắc gỗ.
+Mình nghĩ Hawk hay vì hắn là tấm gương của Goemon: hắn là thứ Goemon sẽ trở thành nếu kiếm thuật chỉ là để giết.
 
-## Trận chiến cuối cùng
+---
 
-Trận chiến thứ hai giữa Goemon và Hawk là đỉnh cao của phim. Ngắn, căng thẳng, và đầy máu, đúng như tên phim. Goemon không thắng nhờ một chiêu thức bí mật. Anh thắng nhờ việc chấp nhận rằng mình có thể chết, và vẫn bước tới.
+**Còn lại**
 
-Đây là thông điệp mà mình nghĩ rất "samurai": sức mạnh thật sự không phải là không biết sợ, mà là sợ nhưng vẫn đối mặt.
+Phim không hoàn hảo. Nhiều bài review thấy nó không chặt chẽ bằng *Jigen's Gravestone*. Lupin và Jigen xuất hiện ít, Fujiko có rất ít việc để làm. Có review chê phần kết chưa đủ thỏa mãn.
 
-## Lupin và Jigen ở đâu?
+Nhưng trận đấu cuối giữa Goemon và Hawk là một trong những trận đấu kiếm hay nhất mà mình từng xem trong anime. Không phải vì nó nhanh. Mà vì lần này, Goemon thật sự có thể thua.
 
-Lupin và Jigen có xuất hiện, nhưng chỉ như những nhân vật phụ. Họ đang thực hiện một phi vụ cướp riêng trên sòng bạc. Và cuộc gặp gỡ đầu tiên giữa Goemon và Lupin là một khoảnh khắc nhỏ nhưng thú vị cho fan của series: những người sẽ trở thành đồng đội, lần đầu nhìn thấy nhau.
+9 điểm. Xem *Jigen's Gravestone* trước.
 
-## Vì sao mình chấm 9
+---
 
-Goemon's Blood Spray ngắn, chỉ khoảng 54 phút, và câu chuyện khá đơn giản. Một số người thấy nó tập trung vào hình ảnh nhiều hơn là cốt truyện.
+*Nguồn tham khảo:*
 
-Nhưng mình chấm 9 vì nó làm rất tốt điều mà nó muốn làm: cho một nhân vật quen thuộc một chiều sâu mới. Sau bộ phim này, mỗi lần thấy Goemon thản nhiên chém đôi một thứ gì đó trong các phim Lupin khác, mình lại nhớ rằng đã có lúc anh biết sợ. Và chính nỗi sợ đó đã làm anh trở thành kiếm sĩ mà chúng ta biết.
+- [Review: Goemon's Blood Spray](https://www.lupincentral.com/home/review-goemons-blood-spray) — Lupin Central
+- [English Dub Review: Lupin the Third "Goemon's Bloodspray"](https://www.bubbleblabber.com/?p=136510) — Bubbleblabber
+- [Lupin the 3rd: Goemon's Blood Spray Blu-ray Review](https://m.blu-ray.com/movies/Lupin-the-3rd-Goemons-Blood-Spray-Blu-ray/249234) — Blu-ray.com
+- [Lupin the Third: Goemon's Blood Spray](https://2danicritic.github.io/index_files/ReviewHtml/review_Lupin_the_Third_-_Goemon's_Blood_Spray.html) — 2DAniCritic
+- [Lupin the 3rd: Goemon's Blood Spray](https://anime.astronerdboy.com/2022/02/lupin-the-third-goemons-blood-spray.html) — Astronerdboy's Anime & Manga Blog

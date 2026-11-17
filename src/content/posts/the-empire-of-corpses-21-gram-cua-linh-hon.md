@@ -1,66 +1,57 @@
 ---
-title: "The Empire of Corpses | 屍者の帝国 | 21 Gram Của Linh Hồn"
-description: "Analysis — Ryoutarou Makihara, Project Itoh"
-tags: ["Analysis", "Theme", "Sci-Fi"]
+title: "The Empire of Corpses | 屍者の帝国 | Cuốn Tiểu Thuyết Có Hai Tác Giả"
+description: "Tản mạn — Project Itoh, Toh EnJoe, Wit Studio"
+tags: ["Review", "Sci-Fi"]
 related_media: ["anime:the-empire-of-corpses"]
 date: 2026-11-17
 ---
 ![Poster The Empire of Corpses](https://cdn.myanimelist.net/images/anime/4/75468.jpg)
 
-# THE EMPIRE OF CORPSES: 21 GRAM CỦA LINH HỒN
+Năm 2009, nhà văn khoa học viễn tưởng **Project Itoh** (Itō Keikaku) qua đời vì ung thư, khi mới ngoài ba mươi tuổi. Ông để lại hai cuốn tiểu thuyết đã xuất bản, *Genocidal Organ* và *Harmony*, và phần mở đầu của một cuốn thứ ba: *Shisha no Teikoku*, Đế chế của những xác chết.
 
-> [!info] Anime
-> **The Empire of Corpses**
-> 屍者の帝国
-> **Đạo diễn:** Ryoutarou Makihara
-> **Nguyên tác:** tiểu thuyết của Project Itoh, được Toh EnJoe hoàn thành
-> **Seiyuu:** Yoshimasa Hosoya (John Watson), Ayumu Murase (Friday)
-> **Studio:** Wit Studio
-> **Thời lượng:** 120 phút
-> **Năm phát hành:** 2015
-> **Quốc gia:** Nhật Bản
-> **Thể loại:** Sci-Fi, Steampunk, Adventure
+Năm 2012, **Toh EnJoe**, một nhà văn khác, bạn của Itoh, công bố rằng ông sẽ viết nốt cuốn tiểu thuyết dang dở đó.
 
-> [!warning] Spoilers
+Đây là một câu chuyện về việc làm sống lại người chết. Và nó được viết bởi một người sống, hoàn thành tác phẩm của một người đã chết.
 
-The Empire of Corpses có một lịch sử đằng sau đầy cảm động. Tác giả gốc, Project Itoh (Satoshi Itoh), là một trong những nhà văn khoa học viễn tưởng tài năng nhất Nhật Bản. Ông mất vì ung thư năm 2009, ở tuổi 34, chỉ để lại vài chục trang đầu của cuốn tiểu thuyết này. Người bạn của ông, nhà văn Toh EnJoe, đã viết tiếp và hoàn thành nó.
+---
 
-Một cuốn sách về việc đưa người chết trở lại, được hoàn thành bởi một người bạn sau khi tác giả qua đời. Mình nghĩ đó là bối cảnh không thể tách rời khi xem bộ phim. Và mình chấm 9 vì nó là một câu chuyện về **câu hỏi: linh hồn là gì, và liệu ta có thể mang người mình yêu quay trở lại không?**
+**Thế giới**
 
-## Thế giới của xác sống
+Thế kỷ 19. Kỹ thuật của Victor Frankenstein đã được hoàn thiện và công nghiệp hóa. Xác chết được cài một phần mềm, hồi sinh, và đưa đi làm việc: lao động, binh lính, người hầu. Họ đi lại, làm theo lệnh, nhưng không có ý thức, không có linh hồn.
 
-The Empire of Corpses lấy bối cảnh thế kỷ 19, trong một lịch sử thay thế. Victor Frankenstein đã thành công trong việc hồi sinh người chết. Và công nghệ đó đã lan ra khắp thế giới. Xác chết được cài đặt một "phần mềm" để làm việc: lao động, khuân vác, phục vụ, thậm chí chiến đấu trong quân đội. Họ di chuyển, làm việc, nhưng không có ý thức. Không có linh hồn.
+**John Watson**, sinh viên y khoa, chính là Watson của Sherlock Holmes sau này, đã bất chấp luật lệ để hồi sinh người bạn thân vừa qua đời, **Friday**. Friday đi theo Watson khắp nơi, ghi chép mọi điều Watson nói, nhưng không bao giờ nói gì, không có một chút cảm xúc nào. Watson muốn tìm cách đưa linh hồn của Friday trở lại.
 
-Đây là một thế giới steampunk đẹp đẽ và kỳ quái, với London sương mù, những cỗ máy tính dùng thẻ đục lỗ, và những đội quân xác sống. Wit Studio làm phim với những hình ảnh rất chi tiết.
+Và manh mối dẫn đến những ghi chép bí mật của chính Victor Frankenstein, cùng "**The One**", sinh vật đầu tiên mà ông tạo ra.
 
-## Watson và Friday
+**21 gram**
 
-Nhân vật chính là **John Watson**, một sinh viên y khoa trẻ (chính là Watson trong truyện Sherlock Holmes). Bạn thân của anh, Friday, đã chết. Và Watson, trong tuyệt vọng, đã hồi sinh Friday một cách bất hợp pháp, như một xác sống.
+Câu hỏi về linh hồn trong phim gắn với một con số mà nhiều người từng nghe, đến từ một thí nghiệm có thật: năm 1907, bác sĩ Mỹ Duncan MacDougall cân những bệnh nhân hấp hối trước và sau khi chết, và tuyên bố cơ thể nhẹ đi khoảng 21 gram vào khoảnh khắc qua đời. Ông cho rằng đó là trọng lượng của linh hồn. Thí nghiệm này không được khoa học công nhận. Nhưng con số 21 gram thì ở lại trong văn hóa đại chúng, và trong bộ phim này, nó trở thành thứ mà Watson đi tìm: thứ khác biệt giữa Friday còn sống và Friday hiện tại.
 
-Friday giờ đi theo Watson khắp nơi, ghi chép mọi thứ, làm theo mọi lệnh. Nhưng anh không còn là Friday. Không có cảm xúc, không có ký ức, không có nhân tính.
+---
 
-Watson được một tổ chức bí mật tuyển dụng, đi khắp thế giới để tìm những ghi chép của Victor Frankenstein, có thể chứa bí mật tạo ra một xác sống *có linh hồn*. Và động lực thật sự của Watson là: tìm cách mang linh hồn của Friday trở lại.
+**Phim**
 
-## 21 gram
+*The Empire of Corpses* là phim mở màn cho dự án "Project Itoh", chuyển thể cả ba cuốn tiểu thuyết của ông thành phim điện ảnh. Ra rạp năm 2015, phim do **Wit Studio** sản xuất, đạo diễn Ryoutarou Makihara.
 
-Phim nhắc đến một khái niệm có thật trong lịch sử: năm 1907, bác sĩ Duncan MacDougall cân những bệnh nhân hấp hối, và tuyên bố rằng cơ thể con người mất khoảng **21 gram** ngay khi chết. Ông cho rằng đó là trọng lượng của linh hồn. Nghiên cứu này không có giá trị khoa học, nhưng ý tưởng "21 gram của linh hồn" đã trở thành một hình ảnh văn hóa.
+Hình ảnh là thứ được khen nhiều nhất. Một bài review nói phim có nhiều trí tưởng tượng thị giác trên mỗi khung hình hơn nhiều phim phiêu lưu kinh phí lớn của Hollywood. London, Afghanistan, Nhật Bản thời Minh Trị, Mỹ: mỗi nơi một vẻ, tất cả đều u ám kiểu steampunk. Phim còn đầy những nhân vật mượn từ văn học: Watson, Friday (từ *Robinson Crusoe*), Alyosha Karamazov, Hadaly.
 
-Trong phim, những xác sống thiếu đi chính 21 gram đó. Và câu hỏi lớn của The Empire of Corpses là: linh hồn có thật không? Nếu có, nó là gì? Ngôn ngữ? Ký ức? Hay một thứ gì đó mà khoa học không thể tạo ra?
+Phần kịch bản thì gây tranh cãi. Nhiều review nhận xét phim xây dựng một thế giới hấp dẫn, rồi sụp đổ phần nào ở hồi cuối, khi quá nhiều nhân vật và ý tưởng chồng lên nhau.
 
-## Watson ích kỷ
+**Friday**
 
-Điều mình thấy thú vị là phim không biến Watson thành anh hùng hoàn toàn. Anh là người đã làm điều cấm kỵ, hồi sinh bạn mình mà không có sự đồng ý của Friday. Anh đã biến người bạn thân nhất thành một công cụ. Và anh làm tất cả những điều đó vì không thể chấp nhận mất mát.
+Nhưng điều mà mọi người đều đồng ý là mối quan hệ giữa Watson và Friday. Một người sống đi khắp thế giới vì một người chết không thể cảm ơn mình. Và Friday, im lặng suốt phim, cầm bút ghi lại tất cả.
 
-Đây là chủ đề mà mình thấy rất người: nỗi đau khi mất đi người thân có thể khiến ta làm những điều không thể biện minh. Và Watson, đến cuối cùng, phải tự hỏi liệu điều mình làm là vì Friday, hay vì chính mình.
+Mình nghĩ đó là chỗ cuốn tiểu thuyết và câu chuyện ngoài đời gặp nhau. Toh EnJoe làm cho Itoh điều mà Watson làm cho Friday: cố gắng đưa giọng nói của một người bạn đã mất trở lại, dù biết rằng không thể nào hoàn toàn được. Và cảnh cuối phim, mình sẽ không kể, là câu trả lời đẹp nhất mà một bộ phim về cái chết có thể đưa ra.
 
-## Cái kết
+9 điểm.
 
-Ở cuối phim, Watson thực hiện một ca phẫu thuật cuối cùng, để trao lại cho Friday những gì đã mất. Friday, từ đó, trở thành người kể chuyện, với giọng nói của chính mình. Friday nói rằng không thể kể với ai về những gì đã trải qua cùng Watson.
+---
 
-Cái kết mơ hồ, và mình nghĩ đó là chủ ý. Phim không hứa rằng ta có thể mang người đã mất trở lại. Nhưng nó gợi ý rằng những gì ta trao cho nhau, những câu chuyện, những ký ức, có lẽ chính là linh hồn. Giống như Toh EnJoe đã trao lại cho Project Itoh một linh hồn, bằng cách hoàn thành câu chuyện của bạn mình.
+*Nguồn tham khảo:*
 
-## Vì sao mình chấm 9
-
-The Empire of Corpses có cốt truyện dày đặc, nhiều nhân vật lịch sử và văn học xuất hiện (Watson, Frankenstein, The Karamazovs, Hadaly từ *Eve of the Future*...), có thể làm người xem bối rối. Nhiều người chê nó khó hiểu.
-
-Nhưng mình chấm 9 vì câu chuyện đằng sau nó, và vì câu hỏi của nó: điều gì làm nên một con người? Và tình bạn, liệu có thể vượt qua cả cái chết? Project Itoh không còn để trả lời. Nhưng người bạn của ông, và bộ phim này, đã trả lời thay ông.
+- [The Empire of Corpses BD/DVD Review](https://www.animenewsnetwork.com/review/the-empire-of-corpses/bd-dvd/.104382) — Anime News Network
+- [The Empire of Corpses (2015)](https://moriareviews.com/horror/empire-of-corpses-2015.htm) — Moria Reviews
+- [The Empire of Corpses Review](https://animeuknews.net/2016/09/the-empire-of-corpses-review) — Anime UK News
+- [Empire of Corpses, The](https://sf-encyclopedia.com/entry/empire_of_corpses_the) — The Encyclopedia of Science Fiction
+- [The Empire of Corpses](https://en.wikipedia.org/wiki/The_Empire_of_Corpses) — Wikipedia
+- [21 grams experiment](https://en.wikipedia.org/wiki/21_grams_experiment) — Wikipedia
