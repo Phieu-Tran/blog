@@ -1,69 +1,48 @@
 ---
-title: "Frieren: Beyond Journey's End | 葬送のフリーレン | Hiểu Con Người Sau Khi Họ Đã Đi"
-description: "Analysis — Keiichiro Saito, Kanehito Yamada"
-tags: ["Analysis", "Theme", "Fantasy"]
+title: "Frieren | 葬送のフリーレン | Bộ Anime Đã Lật Đổ Fullmetal Alchemist"
+description: "Tản mạn — Keiichiro Saito, Madhouse"
+tags: ["Review", "Fantasy"]
 related_media: ["anime:frieren"]
 date: 2026-11-17
 ---
 ![Poster Frieren](https://cdn.myanimelist.net/images/anime/1015/138006.jpg)
 
-# FRIEREN: HIỂU CON NGƯỜI SAU KHI HỌ ĐÃ ĐI
+Hơn mười năm, vị trí số 1 trên bảng xếp hạng anime của MyAnimeList thuộc về một cái tên: **Fullmetal Alchemist: Brotherhood**. Nhiều bộ đã đến gần, *Steins;Gate*, *Gintama*, *Attack on Titan*, nhưng không ai giữ được ngôi đầu lâu.
 
-> [!info] Anime
-> **Frieren: Beyond Journey's End**
-> 葬送のフリーレン
-> **Đạo diễn:** Keiichiro Saito
-> **Nguyên tác:** manga của Kanehito Yamada (cốt truyện) và Tsukasa Abe (minh họa)
-> **Seiyuu:** Atsumi Tanezaki (Frieren), Kana Ichinose (Fern), Chiaki Kobayashi (Stark), Nobuhiko Okamoto (Himmel)
-> **Studio:** Madhouse
-> **Nhạc:** Evan Call
-> **Số tập:** 28 tập (mùa 1)
-> **Năm phát hành:** 2023-2024
-> **Quốc gia:** Nhật Bản
-> **Thể loại:** Fantasy, Adventure, Drama
+Rồi cuối năm 2023, khi đang phát sóng, **Frieren: Beyond Journey's End** vượt qua. Anime News Network đưa tin Frieren chiếm cả vị trí số 1 trên MAL lẫn ANN. Nhiều tháng sau nó vẫn giữ ngôi đầu, còn Brotherhood thậm chí tụt xuống thứ ba. Fan Brotherhood, theo FandomWire, "không thể tin nổi" khi bị lật đổ bởi một bộ mới phát sóng được một năm.
 
-> [!warning] Spoilers nhẹ
+Nói vui một chút: trong danh sách của mình, Brotherhood vẫn là 10 điểm, còn Frieren là 9. Nhưng mình hiểu vì sao Frieren leo lên được đó. Nó làm một việc mà gần như không anime fantasy nào làm: bắt đầu ở chỗ những câu chuyện khác kết thúc.
 
-Hầu hết câu chuyện giả tưởng kết thúc khi ác ma bị đánh bại. Frieren *bắt đầu* ở đó. Nhóm anh hùng của Himmel đã chiến thắng Ma Vương, trở về kinh đô, được chào đón như những người hùng. Mười năm phiêu lưu đã kết thúc. Và Frieren, nữ pháp sư elf trong nhóm, nói rằng mười năm đó chỉ là một khoảnh khắc rất ngắn trong cuộc đời hơn một nghìn năm của cô.
+---
 
-Năm mươi năm sau, Himmel chết vì tuổi già. Ở đám tang của anh, Frieren khóc, và cô không hiểu tại sao. *"Mình đã không biết gì về anh ấy cả... Tại sao mình không cố hiểu anh ấy nhiều hơn?"*
+**Sau khi Ma Vương đã chết**
 
-Mình chấm 9 cho Frieren vì nó là một bộ anime về **thời gian, ký ức và sự hối tiếc**, được kể chậm rãi, dịu dàng, như một bản nhạc buồn mà ấm áp.
+Tập 1: nhóm anh hùng của Himmel đã đánh bại Ma Vương, trở về, được chào đón. Mười năm phiêu lưu kết thúc. Frieren, nữ pháp sư elf trong nhóm, sống hơn một nghìn năm, thấy mười năm đó như một cái chớp mắt.
 
-## Thời gian của một elf
+Năm mươi năm sau, Himmel chết già. Ở đám tang, Frieren khóc và không hiểu tại sao. Cô nhận ra mình chưa từng cố hiểu anh. Và cô lên đường đi lại con đường cũ của nhóm, lần này để hiểu con người.
 
-Frieren sống hơn một nghìn năm. Với cô, mười năm như vài tháng. Cô có thể dành hàng chục năm để sưu tầm những phép thuật vô dụng: phép làm ra hoa, phép làm sạch rỉ sét trên tượng, phép tạo ra một cánh đồng hoa. Cô có thể ngủ quá giờ cả tuần.
+**Himmel ở khắp nơi**
 
-Và đó là bi kịch của cô. Những người cô gặp, những người bạn đồng hành, đều già đi và chết, trong khi cô vẫn vậy. Vì quen với việc đó, cô không cố gắng hiểu họ. Họ chỉ là những người lướt qua.
+Điều đẹp nhất của Frieren là Himmel, người chết từ tập 1, nhưng có mặt trong gần như mọi tập qua hồi ức. Anh cho xây tượng của nhóm ở mọi làng họ đi qua, và Frieren lúc đầu nghĩ anh tự phụ. Rồi cô hiểu: anh làm thế để cô, người sẽ sống rất lâu sau họ, không cô đơn trong tương lai.
 
-Cái chết của Himmel phá vỡ điều đó. Lần đầu tiên, Frieren nhận ra rằng cô đã lãng phí thời gian với những người quan trọng nhất. Và cô quyết định đi lại con đường của nhóm anh hùng năm xưa, lần này để thực sự hiểu con người.
+Có một cảnh: Himmel quỳ xuống, đeo cho Frieren một chiếc nhẫn có hình hoa sen gương, loài hoa trong ngôn ngữ các loài hoa mang nghĩa "tình yêu vĩnh cửu". Frieren không biết ý nghĩa đó. Himmel không giải thích. Anh chỉ cười.
 
-## Himmel trong ký ức
+**Ma tộc biết nói**
 
-Điều đẹp nhất của Frieren là Himmel, người đã chết từ tập đầu, nhưng xuất hiện trong mọi tập qua hồi ức. Mỗi nơi Frieren đi qua, cô nhớ lại một điều Himmel đã làm, đã nói ở đó. Và dần dần, cô, và chúng ta, hiểu ra Himmel là người như thế nào.
+Một ý tưởng khác làm Frieren khác biệt: ma tộc biết nói, biết gọi "mẹ", biết cầu xin. Nhưng Frieren giải thích rằng chúng chỉ dùng ngôn ngữ như một công cụ để lừa con người. Chúng không có khái niệm gia đình, không biết hối hận. Đi ngược hẳn xu hướng "phản diện nào cũng có lý do" của anime hiện đại. Và câu *"Aura, tự sát đi"* thì đã thành meme của cả mùa.
 
-Himmel cho xây tượng của nhóm ở mọi làng họ đi qua. Lúc đầu, ta nghĩ anh tự phụ. Rồi ta hiểu: anh làm vậy để Frieren, người sẽ sống rất lâu sau họ, không cô đơn trong tương lai. Để cô có thể nhìn thấy họ, nhớ đến họ.
+---
 
-Có một cảnh mà mình nghĩ là cảnh đẹp nhất series: Himmel quỳ xuống, đeo cho Frieren một chiếc nhẫn, có hình hoa sen gương, loài hoa mà trong ngôn ngữ các loài hoa mang ý nghĩa "tình yêu vĩnh cửu". Frieren không biết ý nghĩa đó. Himmel không nói gì thêm. Anh chỉ mỉm cười.
+Nhịp phim chậm. Nhiều tập chỉ là đi đường, cắm trại, gặp người lạ. Nhưng chính cái chậm đó làm ta cảm được thời gian trôi, điều bộ anime muốn ta cảm. Madhouse làm những trận chiến, khi có, đẹp đến kinh ngạc, đặc biệt arc thi pháp sư hạng nhất. Nhạc của Evan Call thì nghe là thấy như đang đi bộ qua một cánh đồng lúc chiều muộn.
 
-Mình thấy Himmel là một trong những nhân vật được viết đẹp nhất trong anime: một người anh hùng không phải vì sức mạnh, mà vì lòng tốt, và một người yêu không cần được đáp lại.
+9 điểm. Không lật đổ được Brotherhood trong danh sách của mình. Nhưng nó nhắc mình một điều mà Brotherhood không nói: những người bên cạnh ta sẽ không ở đó mãi, nên muốn hiểu họ thì hiểu từ bây giờ.
 
-## Fern và Stark
+---
 
-Trên hành trình mới, Frieren có hai đồng hành: **Fern**, học trò của cô, được cô nuôi lớn sau khi Heiter, vị tu sĩ trong nhóm anh hùng cũ, qua đời; và **Stark**, chiến binh trẻ, học trò của Eisen, người lùn trong nhóm.
+*Nguồn tham khảo:*
 
-Mình thích việc hai người này là phiên bản mới của nhóm anh hùng năm xưa. Frieren giờ là "người lớn", người dẫn dắt, như Himmel năm xưa đã dẫn dắt cô. Và cô học cách quan tâm đến họ: nhớ sinh nhật Fern, tặng quà, để ý khi họ buồn. Những điều nhỏ nhặt mà Himmel đã luôn làm.
-
-## Ma tộc biết nói
-
-Một ý tưởng mà mình thấy thú vị là cách Frieren miêu tả **ma tộc**. Chúng biết nói, biết dùng từ "mẹ", biết cầu xin, biết thể hiện cảm xúc. Nhưng Frieren giải thích rằng ma tộc chỉ dùng ngôn ngữ như một công cụ để lừa con người. Chúng không có khái niệm gia đình, không cảm thấy tội lỗi.
-
-Đây là một quan điểm khá u tối, và đi ngược lại xu hướng "phản diện cũng có lý do" của nhiều anime hiện đại. Arc Aura the Guillotine, với câu thoại *"Aura, tự sát đi"*, đã trở thành một trong những khoảnh khắc nổi tiếng nhất của mùa một.
-
-## Vì sao mình chấm 9
-
-Frieren có nhịp độ chậm, những tập thường không có trận chiến nào, chỉ là đi đường, cắm trại, gặp người lạ. Một số người sẽ thấy nó nhàm chán. Nhưng chính sự chậm rãi đó tạo nên cảm giác của thời gian trôi qua, điều mà bộ anime muốn ta cảm nhận.
-
-Nhạc của Evan Call thì tuyệt đẹp, và Madhouse làm những cảnh chiến đấu, khi có, đẹp đến kinh ngạc, đặc biệt arc thi pháp sư hạng nhất.
-
-Mình chấm 9 vì Frieren nhắc mình một điều đơn giản mà mình hay quên: những người bên cạnh ta sẽ không ở đó mãi. Và nếu muốn hiểu họ, hãy hiểu từ bây giờ, đừng đợi đến khi họ đã đi.
+- [Frieren Knocks Full Metal Alchemist: Brotherhood Out of the Top Spot on Both MAL and ANN](https://animenewsnetwork.com/cms/.208944) — Anime News Network
+- [Frieren: Beyond Journey's End highest rated anime on MAL](https://www.gamesradar.com/frieren-beyond-journeys-end-highest-rated-anime-mal) — GamesRadar
+- [FMAB's Reign As Top Rated Anime On MAL Ends As It Drops To Third Place](https://m.imdb.com/news/ni64871093) — IMDb News
+- [Fullmetal Alchemist fans cannot fathom being dethroned](https://fandomwire.com/theres-definitely-better-out-there-fullmetal-alchemist-fans-cannot-fathom-being-dethroned-by-a-series-on-an-indefinite-hiatus-a-year-after-its-release/) — FandomWire
+- [Frieren Dethrones Fullmetal Alchemist And Takes the No. 1 Anime Spot](https://epicdope.com/frieren-dethrones-fullmetal-alchemist-and-takes-the-no-1-anime-spot) — Epicdope

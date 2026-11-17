@@ -1,75 +1,59 @@
 ---
-title: "Vinland Saga | ヴィンランド・サガ | Ta Không Có Kẻ Thù"
-description: "Analysis — Shuhei Yabuta, Makoto Yukimura"
-tags: ["Analysis", "Character", "Historical"]
+title: "Vinland Saga | ヴィンランド・サガ | Thorfinn Có Thật Không?"
+description: "Thảo Luận — Makoto Yukimura, Wit Studio"
+tags: ["Thảo Luận", "Historical"]
 related_media: ["anime:vinland-saga"]
 date: 2026-11-17
 ---
 ![Poster Vinland Saga](https://cdn.myanimelist.net/images/anime/1500/103005.jpg)
 
-# VINLAND SAGA: TA KHÔNG CÓ KẺ THÙ
+Câu hỏi nhiều người thắc mắc sau khi xem Vinland Saga: **Thorfinn có thật không?**
 
-> [!info] Anime
-> **Vinland Saga**
-> ヴィンランド・サガ
-> **Đạo diễn:** Shuhei Yabuta
-> **Nguyên tác:** manga của Makoto Yukimura
-> **Seiyuu:** Yuto Uemura (Thorfinn), Naoya Uchida (Askeladd), Kenichiro Matsuda (Thors), Kenshou Ono (Canute)
-> **Studio:** Wit Studio (mùa 1), MAPPA (mùa 2)
-> **Nhạc:** Yutaka Yamada
-> **Số tập:** 24 tập (mùa 1)
-> **Năm phát hành:** 2019
-> **Quốc gia:** Nhật Bản
-> **Thể loại:** Action, Adventure, Drama, Historical
+Câu trả lời: có, nhưng hầu như không ai biết gì về ông.
 
-> [!warning] Spoilers mùa 1
+---
 
-*"Ta không có kẻ thù. Không ai có kẻ thù cả. Không có ai đáng để con làm tổn thương."*
+**Thorfinn Karlsefni**
 
-Đây là lời của Thors, cha của Thorfinn, nói với con trai mình ngay trước khi ông chết. Thorfinn, lúc đó chỉ là một cậu bé, không hiểu. Và cậu dành phần lớn tuổi trẻ của mình để làm điều ngược lại: sống chỉ để giết kẻ đã giết cha mình.
+Nhân vật Thorfinn được dựa (khá lỏng) trên **Thorfinn Karlsefni**, một nhà thám hiểm Bắc Âu có thật, người được các saga Iceland kể là đã cố lập khu định cư ở Vinland, vùng đất mà ngày nay được cho là thuộc Bắc Mỹ, khoảng năm 1000. Vợ ông, Gudrid, cũng là nhân vật lịch sử, và cũng xuất hiện trong manga.
 
-Vinland Saga mùa một là một trong những anime hành động hay nhất mình từng xem, với những trận chiến Viking đẫm máu, những âm mưu chính trị ở Anh thế kỷ 11. Nhưng mình chấm 9 vì nó dùng tất cả những thứ đó để kể một câu chuyện ngược lại hoàn toàn: **bạo lực không phải sức mạnh, và một chiến binh thật sự là người không cần kiếm.**
+Nhưng theo Wikipedia, Makoto Yukimura tìm được rất ít thông tin về Thorfinn thật. Và chính sự thiếu thông tin đó lại cho ông tự do để xây dựng nhân vật theo ý mình. Ông nói trong một phỏng vấn rằng dù cảm hứng đến từ Karlsefni, ông muốn một cách tiếp cận phức tạp hơn.
 
-## Thors: chiến binh đã từ bỏ chiến tranh
+Thorfinn trong truyện, cậu bé đi theo kẻ giết cha mình để báo thù, gần như hoàn toàn là sáng tạo của Yukimura.
 
-Thors từng là "Troll của Jom", chiến binh mạnh nhất trong đội quân Jomsviking. Nhưng ông đã bỏ trốn, sống ẩn dật ở Iceland với vợ con, như một người nông dân bình thường.
+**Ai khác có thật?**
 
-Khi những người cũ tìm đến, buộc ông quay lại chiến tranh, Thors ra đi mà không mang kiếm. Ông chỉ mang một con dao găm, và không dùng nó. Khi bị phục kích bởi băng hải tặc của Askeladd, ông đánh bại cả nhóm bằng tay không, mà không giết một ai. Rồi ông hy sinh mạng sống để cứu Thorfinn, bị bắn chết bởi hàng loạt mũi tên.
+Khá nhiều. Sweyn Forkbeard, vua Đan Mạch. Thorkell the Tall, gã khổng lồ cười mỗi khi đánh nhau, là một thủ lĩnh Viking có thật. Canute, sau này là vua của cả Anh, Đan Mạch và Na Uy. Gudrid. Trang Medievalists, chuyên về lịch sử trung cổ, cũng có bài bàn về bộ truyện.
 
-Mình thấy Thors là một trong những nhân vật đẹp nhất trong anime. Ông mạnh đến mức không cần giết. Và ông hiểu điều mà Thorfinn phải mất nhiều năm mới hiểu.
+Còn Askeladd? Tên ông lấy từ một nhân vật trong truyện dân gian Na Uy, và nguồn gốc dòng máu người Wales của ông là sáng tạo của Yukimura.
 
-## Thorfinn và cơn giận
+---
 
-Sau cái chết của cha, Thorfinn đi theo Askeladd, chính kẻ đã giết cha mình. Cậu làm việc cho hắn, đánh nhau cho hắn, giết người cho hắn, chỉ để có cơ hội được đấu tay đôi với hắn. Mỗi lần lập công, cậu đòi một trận đấu. Và lần nào cũng thua.
+**Lúc đầu Thorfinn là nô lệ**
 
-Thorfinn của mùa một là một đứa trẻ bị cơn giận ăn mòn. Cậu không có mục đích nào khác ngoài trả thù. Cậu không có bạn bè, không có tương lai. Cậu chỉ có hai con dao găm, và cái tên Askeladd.
+Đây là chi tiết mình thấy thú vị nhất. Theo Wikipedia, ý tưởng ban đầu của Yukimura lấy cảm hứng từ vua Olaf Tryggvason và là **một câu chuyện về chế độ nô lệ**. Thorfinn ban đầu là một nô lệ. Biên tập viên phản đối, nên Thorfinn được đổi thành một chiến binh Viking.
 
-Mình nghĩ Vinland Saga cho thấy rất rõ: báo thù không phải là sống. Nó là một cách chậm rãi để chết.
+Biết điều này rồi nhìn lại thì thấy rõ: mùa một là câu chuyện Viking mà biên tập viên muốn, máu me, chiến trận, báo thù. Còn **mùa hai**, khi Thorfinn trở thành nô lệ trên một trang trại ở Đan Mạch, học cách sống mà không có bạo lực, mới là câu chuyện Yukimura muốn kể từ đầu. Ông chỉ phải đi một đường vòng dài để đến được đó.
 
-## Askeladd: phản diện mà mình yêu
+**Bạo lực không dẫn đến đâu cả**
 
-Askeladd là nhân vật hay nhất mùa một. Hắn là thủ lĩnh hải tặc Viking, thông minh, tàn nhẫn, mưu mẹo. Nhưng hắn cũng có một bí mật: hắn là hậu duệ của Artorius, vị vua huyền thoại của người Briton (thường được coi là Vua Arthur), và hắn căm ghét người Viking, những kẻ đã tàn phá quê hương của mẹ hắn.
+Yukimura nói ông làm Vinland Saga để truyền tải một điều: bạo lực không dẫn đến kết quả tốt đẹp. Và câu nói của Thors, cha Thorfinn, với con trai ngay trước khi chết, là câu mà cả bộ truyện xoay quanh:
 
-Askeladd sống giữa người Viking, làm thủ lĩnh của họ, trong khi khinh bỉ họ. Hắn dùng họ, chờ đợi ngày một vị vua thật sự sẽ đến để cứu nước Anh.
+*"Con không có kẻ thù. Không ai có kẻ thù cả. Không có ai mà con được phép làm tổn thương."*
 
-Mình yêu Askeladd vì hắn phức tạp. Hắn giết cha Thorfinn, nhưng hắn cũng là người "nuôi" Thorfinn lớn, theo một cách méo mó. Hắn ngưỡng mộ Thors. Và cuối cùng, hắn hy sinh mạng sống để bảo vệ xứ Wales, quê mẹ, bằng một hành động khiến cả triều đình chấn động.
+Thors từng là chiến binh mạnh nhất của Jomsvikings, rồi bỏ trốn, sống như một nông dân. Khi bị kéo lại vào chiến tranh, ông đi mà không mang kiếm, đánh bại cả một băng hải tặc bằng tay không mà không giết ai. Rồi hy sinh để cứu con. Thorfinn mất gần cả tuổi trẻ để hiểu câu nói đó.
 
-## Canute: hoàng tử trở thành vua
+---
 
-Song song là câu chuyện của Canute, hoàng tử Đan Mạch nhút nhát, sùng đạo, luôn trốn sau lưng người hầu. Askeladd bảo vệ Canute, và trong quá trình đó, Canute thay đổi hoàn toàn.
+9 điểm cho mùa một, phần Wit Studio làm. Những trận chiến đẹp, Askeladd là một trong những phản diện hay nhất mình từng gặp. Nhưng nếu xem xong mùa một mà thấy thích, đừng dừng lại. Mùa hai, phần Yukimura thật sự muốn kể, mới là nơi Vinland Saga tìm thấy ý nghĩa.
 
-Sau khi người hầu thân thiết nhất của mình chết, Canute nhận ra rằng Chúa không cứu con người. Tình yêu của Chúa, như vị linh mục say xỉn nói, là cái chết, nơi con người ngừng làm tổn thương nhau. Và Canute quyết định: anh sẽ tự tạo ra một thiên đường trên mặt đất, dù phải dùng máu.
+---
 
-Sự biến đổi của Canute từ một cậu bé run rẩy thành một vị vua lạnh lùng là một trong những sự phát triển nhân vật ấn tượng nhất mình từng thấy.
+*Nguồn tham khảo:*
 
-## Mùa hai: con đường của Thors
-
-Cuối mùa một, Askeladd chết, nhưng không phải bởi tay Thorfinn. Và Thorfinn, mất đi mục đích sống duy nhất, trở nên trống rỗng. Mùa hai, cậu trở thành nô lệ ở một trang trại, và bắt đầu một hành trình hoàn toàn khác: học cách sống mà không có bạo lực, đi theo con đường của cha mình.
-
-Mình nghĩ mùa hai là nơi Vinland Saga thực sự tìm thấy ý nghĩa. Nhưng không có mùa một, không có những trận chiến đẫm máu, không có cơn giận của Thorfinn, thì sự chuyển hóa của mùa hai sẽ không có sức nặng.
-
-## Vì sao mình chấm 9
-
-Vinland Saga có những cảnh hành động mà Wit Studio làm cực kỳ đẹp. Nhưng thứ mình nhớ nhất là câu nói của Thors, và hành trình dài của Thorfinn để cuối cùng hiểu được nó.
-
-Mình chấm 9 vì bộ anime dám làm điều mà ít câu chuyện hành động nào dám: bắt đầu như một câu chuyện báo thù, và kết thúc như một câu chuyện về hòa bình. Một chiến binh thật sự không cần kiếm.
+- [Thorfinn (Vinland Saga)](https://en.wikipedia.org/wiki/Thorfinn_(Vinland_Saga)) — Wikipedia
+- [Vinland Saga (manga)](https://en.wikipedia.org/wiki/Vinland_Saga_(manga)) — Wikipedia
+- [List of Vinland Saga characters](https://en.wikipedia.org/wiki/List_of_Vinland_Saga_characters) — Wikipedia
+- [Norse Culture as a Source of Inspiration for the Vinland Saga Phenomenon](https://www.animenewsnetwork.com/feature/2023-02-03/norse-culture-as-a-source-of-inspiration-for-the-vinland-saga-phenomenon/.194252) — Anime News Network
+- [Vinland Saga and history](https://www.medievalists.net/?p=75357) — Medievalists.net
+- [The real history behind Vinland Saga](https://jamtest.dexerto.com/anime/vinland-saga-anime-true-story-history-2432955) — Dexerto

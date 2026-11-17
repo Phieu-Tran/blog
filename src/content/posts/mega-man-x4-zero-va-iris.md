@@ -1,67 +1,48 @@
 ---
-title: "Mega Man X4 | ロックマンX4 | Zero, Iris Và Cái Giá Của Chính Nghĩa"
-description: "Analysis — Capcom"
-tags: ["Analysis", "Game", "Classic"]
+title: "Mega Man X4 | ロックマンX4 | \"WHAT AM I FIGHTING FOR?!\""
+description: "Tản mạn — Capcom"
+tags: ["Game", "Classic"]
 related_media: ["games:mega-man-x4"]
 date: 2026-11-17
 ---
 ![Cover Mega Man X4](https://images.igdb.com/igdb/image/upload/t_cover_big/coar91.jpg)
 
-# MEGA MAN X4: ZERO, IRIS VÀ CÁI GIÁ CỦA CHÍNH NGHĨA
+Nếu bạn chơi Mega Man X4 bản tiếng Anh, có một câu thoại bạn sẽ không quên. Zero quỳ trên sàn, ôm xác Iris, rồi ngửa mặt lên trời gào: *"WHAT AM I FIGHTING FOOOOR?!"* (Tôi chiến đấu vì cái gì?!)
 
-> [!info] Game
-> **Mega Man X4**
-> ロックマンX4
-> **Nhà phát triển:** Capcom
-> **Nhà sản xuất:** Keiji Inafune
-> **Năm phát hành:** 1997
-> **Nền tảng:** PlayStation, Sega Saturn, PC (sau này có trong Mega Man X Legacy Collection)
-> **Thể loại:** Action, Platformer
+Câu đó trở thành một trong những câu thoại bị chế giễu nhiều nhất trong game thập niên 90. Lý do là lồng tiếng tiếng Anh của X4 nổi tiếng là tệ. Wiki của fan và cả Wikipedia đều nhắc đến chất lượng lồng tiếng tiếng Anh "khét tiếng" của game. Có một chi tiết mình đọc mà bật cười: diễn viên lồng tiếng X bản tiếng Anh thu âm thoại cho X4 và *Mega Man 8* trong cùng một buổi, và không ai nói với cô rằng đó là hai game khác nhau, hai nhân vật khác nhau. Iris và anh trai Colonel thì nói giọng Úc, không ai biết vì sao.
 
-> [!warning] Spoilers
+Nhưng nếu bỏ qua cái giọng, câu thoại đó là khoảnh khắc buồn nhất mà mình từng thấy trong một game platformer bắn súng.
 
-Mega Man X4 là game mà nhiều người chơi game Việt Nam thế hệ 8x, 9x nhớ từ thời máy PlayStation 1 ở các tiệm game. Và với mình, đây là phần hay nhất của dòng Mega Man X: đồ họa 2D đẹp nhất, nhạc hay nhất, và lần đầu tiên cho phép chơi bằng **Zero** với một cốt truyện riêng.
+---
 
-Nhưng điều mình nhớ nhất về X4 không phải gameplay. Đó là một câu chuyện tình bi kịch giữa hai robot, được kể trong một game platformer bắn súng. Một câu chuyện về việc **chính nghĩa có thể đòi hỏi ta hy sinh những người mình yêu thương**.
+**Zero và Iris**
 
-## Repliforce nổi dậy
+Mega Man X4 ra năm 1997 trên PlayStation và Sega Saturn. Đây là phần đầu tiên của dòng X cho phép chọn chơi bằng **Zero** ngay từ đầu, với cốt truyện riêng, thay vì chỉ X.
 
-Năm 21XX, Sky Lagoon, một thành phố bay, bị tấn công và rơi xuống mặt đất, giết chết hàng nghìn người. Maverick Hunters, lực lượng săn những robot nổi loạn mà X và Zero phục vụ, nghi ngờ **Repliforce**, quân đội của các Reploid (robot có ý thức).
+Câu chuyện: thành phố bay Sky Lagoon bị tấn công và rơi xuống mặt đất. Repliforce, quân đội của các Reploid (robot có ý thức), bị nghi ngờ và bị yêu cầu giải giáp. Họ từ chối, tuyên bố độc lập. Chiến tranh nổ ra.
 
-Repliforce bị yêu cầu giải giáp để điều tra. Họ từ chối, vì việc giải giáp là sự sỉ nhục. Họ tuyên bố độc lập, muốn xây dựng một quốc gia riêng cho Reploid. Và chiến tranh bắt đầu.
+Zero có một mối quan hệ đặc biệt với Iris, một Reploid điều hành, em gái của Colonel, chỉ huy Repliforce. Iris không muốn chiến tranh. Cô cầu xin Zero và anh trai đừng đánh nhau. Nhưng Zero là Maverick Hunter, và anh phải chiến đấu với Colonel.
 
-Mình thấy đây là xung đột hay hơn nhiều so với các phần trước, nơi phản diện chỉ đơn giản là Sigma muốn hủy diệt loài người. Ở X4, Repliforce không hoàn toàn sai. Họ là những người lính có danh dự, bị nghi oan, và chọn đứng lên vì phẩm giá của mình. X và Zero chiến đấu chống lại họ, nhưng cũng tự hỏi: ai mới thực sự đúng?
+Cuối cùng, Iris, bị giằng xé giữa giấc mơ của anh trai và tình cảm với Zero, đối mặt với Zero trong một cỗ máy chiến đấu. Cô nói cô muốn một thế giới chỉ có Reploid, nơi cô và Zero có thể sống bình yên. Zero buộc phải giết cô. Rồi anh gào lên câu đó.
 
-## Zero và Iris
+**Không có phe chính nghĩa**
 
-Câu chuyện của Zero là trái tim của X4. Zero có một mối quan hệ đặc biệt với **Iris**, một Reploid điều hành, em gái của **Colonel**, chỉ huy Repliforce.
+Thứ mình thích ở X4 là Repliforce không hoàn toàn sai. Họ là những người lính có danh dự, bị nghi oan, đứng lên vì phẩm giá. Và đằng sau tất cả, như mọi phần X, là Sigma, kẻ giật dây cả cuộc chiến để lợi dụng nó. Những cái chết, nỗi đau của Zero và Iris, chỉ là một phần trong kế hoạch của hắn.
 
-Iris không muốn chiến tranh. Cô cầu xin Zero và anh trai mình đừng đánh nhau. Nhưng Zero, là Maverick Hunter, phải chiến đấu với Colonel. Và anh chiến thắng, giết chết Colonel.
+Vậy nên câu hỏi của Zero, dù bị lồng tiếng tệ đến đâu, là một câu hỏi thật. Anh chiến đấu vì "chính nghĩa", vì nhiệm vụ. Và anh đã giết người mình yêu vì nó.
 
-Rồi đến cuối cùng, Iris, đau đớn vì cái chết của anh trai, hợp nhất với dữ liệu của Colonel, trở thành một cỗ máy chiến đấu khổng lồ, và đối mặt với Zero. Cô nói rằng cô muốn một thế giới chỉ có Reploid, nơi cô và Zero có thể sống hạnh phúc, không còn chiến tranh.
+---
 
-Zero buộc phải giết cô.
+Bản tiếng Nhật thì không có vấn đề lồng tiếng đó, Iris do Yuko Mizutani lồng tiếng. Nếu chơi lại qua *Mega Man X Legacy Collection*, có thể chọn tiếng Nhật.
 
-## "Tại sao chúng ta chiến đấu?"
+9 điểm. Đồ họa 2D đẹp nhất dòng X, nhạc rock điện tử của từng màn vẫn nhớ đến giờ. Và một câu thoại mà dù có buồn cười, mình vẫn không cười được khi nhớ đến bối cảnh của nó.
 
-Cảnh Zero ôm Iris đang hấp hối, rồi đứng một mình, hét lên trong tuyệt vọng, là một trong những cảnh mình nhớ nhất trong các game thời PS1. Đoạn phim anime ngắn đó, với giọng lồng tiếng tiếng Anh nổi tiếng là... không hay lắm, vẫn làm mình thấy nặng lòng.
+---
 
-Zero tự hỏi: *"Chúng ta là gì? Chúng ta chiến đấu vì điều gì?"* Anh đã hy sinh người mình yêu vì "chính nghĩa", vì nhiệm vụ. Nhưng anh không chắc chính nghĩa đó có đáng không.
+*Nguồn tham khảo:*
 
-Mình thấy đây là chủ đề rất trưởng thành cho một game có vẻ ngoài dành cho trẻ con. Không có cái kết hạnh phúc. Zero thắng, nhưng mất tất cả.
-
-## Sigma đứng sau
-
-Và như mọi phần Mega Man X, kẻ đứng sau tất cả là **Sigma**. Hắn đã giật dây cả cuộc chiến, cùng với General, lãnh đạo Repliforce, lừa họ vào một cuộc nổi dậy mà hắn sẽ lợi dụng. Tất cả những cái chết, tất cả nỗi đau của Zero và Iris, đều là một phần trong kế hoạch của hắn.
-
-Điều này làm bi kịch nặng nề hơn: họ không chết vì lý tưởng, mà vì bị thao túng.
-
-## Gameplay
-
-X4 có lẽ là phần cân bằng nhất của series. Chơi bằng X, bạn bắn súng, thu thập vũ khí từ những boss bị đánh bại, tìm những bộ giáp nâng cấp ẩn giấu. Chơi bằng Zero, bạn dùng kiếm Z-Saber, học những kỹ năng mới từ boss. Hai nhân vật cho hai trải nghiệm khác nhau hoàn toàn.
-
-Tám boss Maverick, mỗi con một màn chơi với chủ đề riêng: Web Spider trong rừng, Frost Walrus ở Bắc cực, Magma Dragoon ở núi lửa, Jet Stingray trên biển. Nhạc của từng màn là những bản rock điện tử mà mình vẫn nhớ.
-
-## Vì sao mình chấm 9
-
-Mega Man X4 có những hạn chế của game thời đó: ngắn, độ khó đôi lúc không đều, lồng tiếng tệ. Nhưng mình chấm 9 vì nó là đỉnh cao của dòng Mega Man X, và vì câu chuyện của Zero và Iris đã cho mình thấy, từ rất sớm, rằng game có thể kể những câu chuyện buồn và sâu sắc như phim.
+- [Mega Man X4](https://en.wikipedia.org/wiki/Mega_Man_X4) — Wikipedia
+- [Zero (Mega Man)](https://en.wikipedia.org/wiki/Zero_(Mega_Man)) — Wikipedia
+- [Iris](https://megaman.fandom.com/wiki/Iris) — Mega Man Knowledge Base
+- [Mega Man X4 trivia](https://tvtropes.org/pmwiki/pmwiki.php/Trivia/MegaManX4) — TV Tropes
+- [Mega Man X4](https://backloggery.fandom.com/wiki/Mega_Man_X4) — Backloggery Wiki
