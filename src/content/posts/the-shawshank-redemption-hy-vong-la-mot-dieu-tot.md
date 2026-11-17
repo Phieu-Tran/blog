@@ -1,75 +1,50 @@
 ---
-title: "The Shawshank Redemption | Nhà Tù Shawshank | Hy Vọng Là Một Điều Tốt"
-description: "Analysis — Frank Darabont"
-tags: ["Analysis", "Theme", "Drama"]
+title: "The Shawshank Redemption | Nhà Tù Shawshank | Bộ Phim Đã Tự Vượt Ngục"
+description: "Ghi chép — Frank Darabont"
+tags: ["Review", "Drama"]
 related_media: ["films:the-shawshank-redemption"]
 date: 2026-11-17
 ---
 ![Poster The Shawshank Redemption](https://image.tmdb.org/t/p/w500/hOHhVYz9SFtwryNL0oxsSntoYXq.jpg)
 
-# THE SHAWSHANK REDEMPTION: HY VỌNG LÀ MỘT ĐIỀU TỐT
+Shawshank đứng đầu bảng xếp hạng phim của IMDb suốt nhiều năm. Ai cũng biết điều đó. Ít ai biết rằng bộ phim này từng thất bại thảm hại.
 
-> [!info] Phim
-> **The Shawshank Redemption** (Nhà Tù Shawshank)
-> **Đạo diễn & kịch bản:** Frank Darabont
-> **Nguyên tác:** truyện vừa *Rita Hayworth and Shawshank Redemption* của Stephen King
-> **Diễn viên:** Tim Robbins (Andy Dufresne), Morgan Freeman (Ellis "Red" Redding), Bob Gunton (Warden Norton), James Whitmore (Brooks Hatlen)
-> **Nhạc:** Thomas Newman
-> **Thời lượng:** 142 phút
-> **Năm phát hành:** 1994
-> **Quốc gia:** Mỹ
-> **Thể loại:** Drama
+Câu chuyện của chính bộ phim giống câu chuyện của Andy Dufresne đến lạ: bị bỏ quên, chờ đợi, rồi lặng lẽ thoát ra. Nên mình viết bài này theo dòng thời gian.
 
-> [!warning] Spoilers
+---
 
-Shawshank thất bại ở phòng vé năm 1994. Tên phim khó nhớ, không có ngôi sao lớn, đề tài nhà tù không hấp dẫn. Rồi nó sống lại nhờ băng video và truyền hình, và đến nay đứng đầu danh sách phim hay nhất trên IMDb suốt nhiều năm. Mình nghĩ lý do rất đơn giản: đây là bộ phim nói về điều mà ai cũng cần nghe vào một lúc nào đó. **Hy vọng không phải sự ngây thơ. Hy vọng là một hành động.**
+**1982** — Stephen King in tập truyện vừa *Different Seasons*, trong đó có *Rita Hayworth and Shawshank Redemption*. Một truyện không kinh dị, hiếm hoi trong sự nghiệp của King.
 
-## Hai người, hai cách sống trong tù
+**1994, tháng 9** — Phim của Frank Darabont ra rạp. Tổng doanh thu chiếu rạp lần đầu chỉ khoảng 16 triệu đô, trong khi kinh phí ước tính khoảng 25 đến 28 triệu (các nguồn ghi khác nhau). Thất bại. Morgan Freeman sau này nói một phần lý do là cái tên: không ai biết "Shawshank" là gì, đọc lên cũng khó.
 
-Andy Dufresne, một nhân viên ngân hàng, bị kết án hai án chung thân vì tội giết vợ và người tình của vợ, một tội anh không phạm. Ở Shawshank, anh gặp Red, người "có thể kiếm được mọi thứ", đã ngồi tù 20 năm.
+**1995, tháng 3** — Phim nhận 7 đề cử Oscar, trong đó có Phim hay nhất và Nam chính cho Morgan Freeman. Không thắng giải nào. Năm đó là năm của *Forrest Gump*.
 
-Hai nhân vật này là hai cách đối diện với cùng một hoàn cảnh. Red đã chấp nhận. Anh thích nghi, sống được, có vị trí của mình. Và anh tin rằng hy vọng là thứ nguy hiểm: *"Hy vọng là một thứ nguy hiểm. Hy vọng có thể khiến người ta phát điên."*
+**1995** — Warner Bros. làm một việc lạ: phát hành tới 320.000 bản băng VHS cho một phim thất bại ở phòng vé, theo Variety. Canh bạc thành công. Shawshank trở thành **phim được thuê băng nhiều nhất năm 1995** ở Mỹ. Người ta không ra rạp xem, nhưng thuê về nhà, xem, rồi kể cho bạn bè.
 
-Andy thì khác. Anh không bao giờ hành xử như một tù nhân. Anh đi dạo trong sân như đang ở công viên, như Red mô tả, *"như một người không có điều gì phải lo lắng trên đời"*. Anh giữ lại một phần bên trong mà nhà tù không chạm vào được.
+**1997** — Đài truyền hình cáp TNT mua bản quyền phát sóng và đưa Shawshank vào chuỗi "New Classics", chiếu đi chiếu lại. Có một chi tiết thú vị: Ted Turner sở hữu cả TNT lẫn Castle Rock, hãng sản xuất phim, và vì phim thất bại nên ông có thể "bán cho chính mình" bản quyền phát sóng với giá rẻ. Cả nước Mỹ bắt đầu bắt gặp Shawshank mỗi khi bật TV lúc nửa đêm.
 
-## Những điều nhỏ nhặt
+**Những năm 2000** — Shawshank leo lên đầu bảng xếp hạng do người dùng IMDb bình chọn, và ở đó gần như suốt từ đó đến giờ. Viện Phim Anh (BFI) có hẳn một bài về việc nó trở thành "bộ phim được yêu thích nhất của internet". Tổng doanh thu toàn cầu sau này lên khoảng 73 triệu đô, phần lớn sau lần chiếu rạp đầu tiên.
 
-Cái hay của Shawshank là Andy không làm những điều anh hùng to lớn. Anh làm những điều nhỏ nhặt, kiên trì, trong nhiều năm.
+**Bây giờ** — Các diễn viên vẫn nhận tiền bản quyền đều đặn từ những lần phát sóng trên TV.
 
-Anh xin cho những người bạn tù được uống bia khi làm việc trên mái nhà, đổi lại là làm hồ sơ thuế miễn phí cho đám cai ngục. Anh viết thư mỗi tuần một lá cho chính quyền bang để xin tiền xây thư viện, trong sáu năm, cho đến khi họ gửi tiền để anh ngừng viết. Anh dạy Tommy, một tù nhân trẻ, học lấy bằng trung học.
+---
 
-Và có một cảnh mình yêu nhất: Andy tìm thấy đĩa nhạc *Le nozze di Figaro* của Mozart, khóa cửa phòng quản giáo, và phát nó qua loa cho cả nhà tù nghe. Những tù nhân đứng yên giữa sân, nhìn lên loa. Red nói rằng anh không biết hai người phụ nữ đó hát gì, và cũng không muốn biết. Trong khoảnh khắc đó, mọi người ở Shawshank cảm thấy tự do.
+Mình nghĩ lý do Shawshank sống sót không có gì bí ẩn. Đây là phim về hy vọng, và nó đến với người ta đúng kiểu hy vọng đến: không ồn ào, không quảng cáo rầm rộ, mà từng người một, qua một cuộn băng thuê về, qua một lần tình cờ bật TV.
 
-Andy bị biệt giam hai tuần vì việc đó. Khi ra, anh nói rằng đó là hai tuần dễ chịu nhất, vì anh có Mozart trong đầu. *"Có những nơi trên thế giới không được làm bằng đá. Có một thứ bên trong, mà họ không thể chạm tới, không thể lấy đi. Đó là hy vọng."*
+Andy đào đường hầm suốt 19 năm bằng một chiếc búa đá nhỏ xíu. Phim mất khoảng 10 năm để từ thất bại trở thành phim số 1. Cả hai đều cần kiên nhẫn.
 
-## Brooks: khi nhà tù trở thành ngôi nhà
+Cảnh mình nhớ nhất không phải cảnh Andy giơ tay giữa mưa, mà là cảnh anh khóa cửa phòng quản giáo và mở bản *Le nozze di Figaro* của Mozart qua loa cho cả nhà tù nghe. Mọi người đứng yên giữa sân, nhìn lên. Red nói rằng anh không biết hai người phụ nữ đó hát gì, và cũng không muốn biết, nhưng trong một khoảnh khắc, mọi người ở Shawshank đều thấy mình tự do.
 
-Tuyến truyện buồn nhất là của Brooks, người thủ thư già đã ở Shawshank 50 năm. Khi được ân xá, ông không biết sống ở thế giới bên ngoài thế nào. Thế giới đã thay đổi quá nhanh, ông không có ai, không có gì. Cuối cùng ông treo cổ trong căn phòng trọ, khắc lên xà nhà dòng chữ *"Brooks đã ở đây"*.
+*"Hy vọng là một điều tốt, có lẽ là điều tốt nhất, và những điều tốt thì không bao giờ chết."*
 
-Red gọi đó là "institutionalized" (bị thể chế hóa): *"Ban đầu anh ghét những bức tường này. Rồi anh quen với chúng. Thời gian trôi qua, anh bắt đầu phụ thuộc vào chúng."*
+10 điểm.
 
-Mình thấy đây là phần đáng sợ nhất phim, vì nó không chỉ nói về nhà tù. Ai cũng có những "bức tường" của mình: một công việc ta ghét nhưng không dám bỏ, một mối quan hệ ta không hạnh phúc nhưng quen rồi, một nơi ta muốn rời đi nhưng sợ thế giới bên ngoài. Brooks là cảnh báo về việc hy vọng chết đi trong im lặng.
+---
 
-## 19 năm với một chiếc búa đá
+*Nguồn tham khảo:*
 
-Rồi đến cú twist. Một buổi sáng, Andy biến mất khỏi phòng giam. Đằng sau tấm áp phích Rita Hayworth, rồi Marilyn Monroe, rồi Raquel Welch, là một đường hầm anh đào bằng chiếc búa đá nhỏ xíu, trong suốt 19 năm. Anh bò qua 500 thước cống thoát nước bẩn thỉu, rồi đứng giữa cơn mưa, giơ hai tay lên trời.
-
-Đây là một trong những cảnh nổi tiếng nhất lịch sử điện ảnh, và có lý do: nó là phần thưởng cho tất cả. Hy vọng của Andy không phải là ngồi chờ phép màu. Đó là đào từng chút một, mỗi đêm, trong 19 năm, dù không biết mình có thành công không. **Hy vọng là kiên nhẫn có mục đích.**
-
-Andy còn trả thù rất "đẹp": anh rút hết tiền bẩn mà giám đốc Norton giấu dưới một danh tính giả do chính Andy tạo ra, gửi bằng chứng cho báo chí. Norton tự sát. Hadley, tên cai ngục tàn bạo, bị bắt.
-
-## Red và lựa chọn cuối cùng
-
-Sau 40 năm, Red được ân xá. Anh sống trong căn phòng của Brooks, làm việc ở cửa hàng của Brooks, và bắt đầu nghĩ đến cách Brooks đã làm. Nhưng anh nhớ lời hứa với Andy: tìm đến một cánh đồng ở Buxton, dưới một bức tường đá, có một hộp thư.
-
-Trong hộp là thư của Andy: *"Hãy nhớ, Red, hy vọng là một điều tốt, có lẽ là điều tốt nhất, và những điều tốt thì không bao giờ chết."*
-
-Red vi phạm điều kiện ân xá, lên xe buýt đến Mexico. Và lần đầu tiên, anh nói: *"Tôi hy vọng."* Cảnh cuối, trên bãi biển Zihuatanejo màu xanh, hai người bạn gặp lại nhau.
-
-Mình thấy cái hay của kết phim là nó không phải câu chuyện của Andy, mà là câu chuyện của Red. Andy đã luôn có hy vọng. Red mới là người phải học cách hy vọng. Red là chúng ta.
-
-## Vì sao mình chấm 10
-
-The Shawshank Redemption không có gì phức tạp. Không có twist cấu trúc, không có kỹ thuật quay phim đặc biệt. Chỉ là một câu chuyện được kể hoàn hảo, với giọng đọc của Morgan Freeman và nhạc của Thomas Newman.
-
-Mình chấm 10 vì mỗi lần cuộc sống trở nên khó khăn, mình lại nhớ đến Andy đào từng muỗng đất mỗi đêm. Không phải để thoát ra ngay lập tức, mà để không bao giờ trở thành Brooks. *"Get busy living, or get busy dying."* Hoặc là bận rộn sống, hoặc là bận rộn chết.
+- [The Shawshank Redemption at 20: How it went from bomb to beloved](https://www.inquirer.com/philly/entertainment/The-Shawshank-Redemption-at-20-How-it-went-from-bomb-to-beloved.html) — The Philadelphia Inquirer
+- [The Shawshank Redemption: box office bomb to hit](https://www.mentalfloss.com/article/597842/the-shawshank-redemption-box-office-bomb-to-hit) — Mental Floss
+- [Why The Shawshank Redemption Was A Box Office Flop, According To Morgan Freeman](https://slashfilm.com/710946/why-the-shawshank-redemption-was-a-box-office-flop-according-to-morgan-freeman) — /Film
+- [How The Shawshank Redemption became the internet's favourite film](https://www.bfi.org.uk/features/shawshank-redemption-greatest-film-frank-darabont) — BFI
+- [How Has The Shawshank Redemption Held Its IMDb Crown For So Long?](https://www.slashfilm.com/569271/shawshank-redemption-imdb/) — /Film
