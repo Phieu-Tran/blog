@@ -1,69 +1,63 @@
 ---
-title: "Pluto | プルートウ | Khi Robot Biết Căm Ghét"
-description: "Analysis — Toshio Kawaguchi, Naoki Urasawa, Osamu Tezuka"
-tags: ["Analysis", "Theme", "Sci-Fi"]
+title: "Pluto | プルートウ | Một Câu Chuyện Được Kể Ba Lần"
+description: "Ghi chép — Osamu Tezuka, Naoki Urasawa, Studio M2"
+tags: ["Review", "Sci-Fi"]
 related_media: ["anime:pluto"]
 date: 2026-11-17
 ---
 ![Poster Pluto](https://cdn.myanimelist.net/images/anime/1021/138568.jpg)
 
-# PLUTO: KHI ROBOT BIẾT CĂM GHÉT
+Câu chuyện của *Pluto* đã được kể ba lần, bởi ba thế hệ, trong ba hình thức khác nhau. Mỗi lần, nó trở nên u tối hơn.
 
-> [!info] Anime
-> **Pluto**
-> プルートウ
-> **Đạo diễn:** Toshio Kawaguchi
-> **Nguyên tác:** manga của Naoki Urasawa, dựa trên arc *The Greatest Robot on Earth* trong *Astro Boy* của Osamu Tezuka
-> **Seiyuu:** Shinshu Fuji (Gesicht), Yoko Hikasa (Atom), Minori Suzuki (Uran)
-> **Studio:** Studio M2
-> **Nhạc:** Yugo Kanno
-> **Số tập:** 8 tập (mỗi tập khoảng 1 tiếng)
-> **Năm phát hành:** 2023
-> **Quốc gia:** Nhật Bản
-> **Thể loại:** Sci-Fi, Mystery, Drama
+---
 
-> [!warning] Spoilers nhẹ
+## Lần thứ nhất — 1964
 
-Mình đã viết về *Monster* của Naoki Urasawa. Pluto là tác phẩm sau đó của ông, và theo mình, là một trong những tác phẩm sâu sắc nhất về trí tuệ nhân tạo từng được viết, từ trước khi AI trở thành chủ đề nóng.
+**Osamu Tezuka**, *Astro Boy*, arc **"The Greatest Robot on Earth"** (Robot mạnh nhất thế giới).
 
-Pluto lấy một câu chuyện trong *Astro Boy*, bộ manga kinh điển của Osamu Tezuka, "cha đẻ của manga", rồi kể lại nó như một phim trinh thám u ám dành cho người lớn. Mình chấm 9 vì Pluto đặt ra câu hỏi mà ngày nay có vẻ ngày càng thực tế: **nếu robot có thể học được mọi cảm xúc của con người, liệu chúng có học được cả lòng căm thù?**
+Một robot khổng lồ tên Pluto được tạo ra để tiêu diệt bảy robot mạnh nhất thế giới, từng con một. Astro Boy, cậu bé robot của Tezuka, là một trong số đó. Đây là truyện thiếu nhi, có những trận đánh, có anh hùng, có phản diện. Nhưng nó cũng có một thứ hơi lạ với truyện thiếu nhi thời đó: những robot bị giết không phải vật vô tri. Chúng có tên, có cuộc sống, và cái chết của chúng được kể như cái chết của con người.
 
-## Bảy robot mạnh nhất thế giới
+## Lần thứ hai — 2003 đến 2009
 
-Trong một tương lai nơi robot và con người sống chung, có luật bảo vệ quyền của robot, có những robot giống người đến mức không phân biệt được. Có bảy robot được coi là mạnh nhất thế giới. Và một kẻ bí ẩn đang lần lượt giết từng người một. Những cặp sừng được đặt quanh xác nạn nhân.
+**Naoki Urasawa** và **Takashi Nagasaki**, đăng trên Big Comic Original, với sự giám sát của **Macoto Tezka**, con trai Tezuka.
 
-Gesicht, một thám tử robot của Europol và cũng là một trong bảy robot, điều tra vụ án. Và anh nhận ra mình cũng là mục tiêu.
+Urasawa, tác giả của *Monster* và *20th Century Boys*, lấy đúng cốt truyện đó và kể lại cho người lớn. Nhân vật chính không còn là Astro Boy, mà là **Gesicht**, một thám tử robot của Europol, cũng là một trong bảy robot mạnh nhất, điều tra chuỗi án mạng mà anh biết sớm muộn sẽ đến lượt mình.
 
-## Gesicht: robot có ký ức bị xóa
+Và Urasawa đặt câu chuyện vào bối cảnh của thời ông viết. Những vụ án bắt nguồn từ **Chiến tranh Trung Á lần thứ 39**: một liên minh do Mỹ dẫn đầu (trong truyện là Thracia) xâm lược vương quốc Persia với lý do nước này sở hữu "robot hủy diệt hàng loạt". Không tìm thấy gì. Kotaku nhận xét rằng tiền đề này "nghe rất giống" cuộc xâm lược Iraq của Mỹ. Inverse thì xếp Pluto vào cùng làn sóng anime phản chiến giữa những năm 2000.
 
-Gesicht là nhân vật chính của phần lớn câu chuyện, và anh là một trong những nhân vật mình thấy cảm động nhất. Anh là một robot, nhưng anh có một người vợ robot, Helena. Hai người từng muốn có con, và nhận nuôi một đứa trẻ robot, nhưng đứa bé đã chết.
+## Lần thứ ba — 2023
 
-Gesicht không nhớ chuyện đó. Ký ức của anh đã bị xóa. Nhưng anh vẫn có những giấc mơ, những cảm xúc mà anh không hiểu từ đâu đến. Anh cảm thấy giận dữ, căm ghét, mà không biết vì sao.
+**Studio M2**, đạo diễn **Toshio Kawaguchi**, phát hành trên **Netflix** ngày 26/10/2023. Tám tập, mỗi tập khoảng một tiếng.
 
-Mình thấy đây là ý tưởng ám ảnh nhất của Pluto: ký ức có thể bị xóa, nhưng cảm xúc thì không. Nỗi đau vẫn ở đó, dưới bề mặt, chờ được nhớ lại.
+Dự án anime được công bố từ ít nhất năm 2017, và mất sáu năm để ra mắt. Nó trung thành với manga đến từng khung hình, giữ cả nhịp chậm của Urasawa, điều mà nhiều anime chuyển thể khác không dám làm. /Film gọi nó là "Astro Boy gặp Watchmen".
 
-## Atom
+---
 
-Một trong bảy robot là Atom (Astro Boy), một robot trông như cậu bé, được tạo ra bởi một nhà khoa học đau khổ vì mất con trai. Atom là robot tiên tiến nhất thế giới. Nhưng điều làm Atom đặc biệt không phải sức mạnh, mà là sự nhân hậu. Atom khóc, Atom ăn kem dù không cần, Atom có thể cảm nhận nỗi đau của người khác.
+**Điều được giữ nguyên qua ba lần kể**
 
-Có một cảnh mà mình nhớ mãi: Atom gặp một robot khác và nhận ra cảm xúc thật của nó chỉ bằng cách nắm tay. Atom hiểu con người, và robot, theo cách mà ít ai làm được.
+Tập mà mình nghĩ ai xem Pluto cũng nhớ: **North No. 2**, một robot chiến tranh từng tàn sát trên chiến trường Trung Á, giờ làm quản gia cho một nhà soạn nhạc mù, già và cáu kỉnh, Paul Duncan. North No. 2 không muốn chiến đấu nữa. Nó muốn học chơi piano. Ông già ghét robot, đuổi nó đi, rồi dần dần nghe nó chơi.
 
-## Chiến tranh và lòng căm thù
+Cuối tập, North No. 2 bị gọi ra để đối đầu với Pluto, và không trở về.
 
-Đằng sau những vụ giết người là một cuộc chiến tranh. Bảy robot mạnh nhất đều từng tham gia, theo cách này hay cách khác, vào **Chiến tranh Trung Á lần thứ 39**, một cuộc chiến mà Liên minh các quốc gia, đứng đầu là Mỹ, xâm lược một vương quốc ở Ba Tư với cáo buộc chế tạo robot hủy diệt hàng loạt. Cáo buộc đó hóa ra là sai.
+Đó là thứ Tezuka đặt ra năm 1964 và Urasawa kéo dài thành tám tập: **nếu một cỗ máy có thể khóc, có thể mơ, có thể muốn chơi piano, thì việc giết nó có khác gì giết người?** Và ngược lại: nếu một cỗ máy có thể yêu, nó có thể căm ghét không?
 
-Ai đọc lịch sử cũng nhận ra đây là ẩn dụ cho Chiến tranh Iraq năm 2003. Urasawa viết manga Pluto đúng vào những năm đó.
+Câu trả lời của Pluto là có. Robot hoàn hảo nhất, theo một nhân vật trong truyện, là robot có đủ cảm xúc của con người, kể cả sự căm thù. Và căm thù là thứ khởi động mọi chuyện.
 
-Và kẻ giết người, Pluto, là sản phẩm của cuộc chiến ấy. Một robot được tạo ra từ lòng căm thù của những người mất tất cả trong chiến tranh. Mình thấy đây là thông điệp quan trọng nhất của Pluto: **căm thù không sinh ra từ hư không. Nó là hậu quả của bạo lực.** Và khi robot học được cảm xúc của con người, chúng cũng học được cả điều đó.
+---
 
-## Robot hoàn hảo
+**Lần kể thứ ba có cần thiết không?**
 
-Trong câu chuyện có một khái niệm mà mình thấy rất sâu sắc: một robot "hoàn hảo" về cảm xúc. Một nhà khoa học cố tạo ra robot có trí tuệ như con người, nhưng robot của ông không bao giờ thức tỉnh. Cuối cùng ông nhận ra lý do: để có một tâm hồn hoàn chỉnh, robot cần có cả những cảm xúc tiêu cực. Giận dữ, buồn bã, căm ghét. Một tâm hồn chỉ biết đến điều tốt thì không cân bằng.
+Mình nghĩ có. Hai mươi năm sau khi Urasawa bắt đầu viết, câu hỏi "trí tuệ nhân tạo có cảm xúc không" không còn là khoa học viễn tưởng nữa. Xem Pluto năm 2023 khác hẳn đọc nó năm 2003.
 
-Đây là ý tưởng làm mình nghĩ rất nhiều. Có lẽ nhân tính không phải là chỉ có lòng tốt, mà là có khả năng căm ghét, nhưng chọn không căm ghét.
+9 điểm. Trừ một điểm vì nửa cuối dồn dập hơn và cái kết hơi vội so với nhịp chậm rãi của những tập đầu. Nhưng tập North No. 2 thì nên xem, kể cả nếu bạn không định xem gì khác.
 
-## Vì sao mình chấm 9
+---
 
-Pluto có 8 tập, mỗi tập dài khoảng một tiếng, như một bộ phim. Phong cách hoạt hình của Studio M2 trung thành với nét vẽ của Urasawa, chi tiết và biểu cảm. Có những khoảnh khắc, như câu chuyện của North No. 2, robot quản gia muốn học chơi piano, làm mình xúc động ngay từ tập đầu tiên.
+*Nguồn tham khảo:*
 
-Mình chấm 9 vì nhịp phim ở giữa hơi chậm, và cái kết, giống Monster, có thể hơi trừu tượng với một số người. Nhưng Pluto là một tác phẩm về chiến tranh, ký ức và nhân tính mà mình nghĩ sẽ ngày càng đúng hơn khi AI ngày càng giống con người. Và câu hỏi của nó vẫn còn đó: điều gì làm nên con người, nếu không phải là khả năng chọn tha thứ?
+- [Pluto Review: Astro Boy Meets Watchmen In Stunning New Anime](https://slashfilm.com/1430310/pluto-review) — /Film
+- [Pluto Is A Thought-Provoking Sci-Fi Epic And A Masterclass In Reimagining Iconic Franchises](https://www.slashfilm.com/1494007/pluto-thought-provoking-sci-fi-epic) — /Film
+- [Pluto Netflix anime review](https://kotaku.com/pluto-netflix-anime-review-1850975057) — Kotaku
+- [Pluto is 2023's best sci-fi anime](https://www.inverse.com/entertainment/pluto-2023-best-scifi-anime) — Inverse
+- [This Week in Anime: Pluto](https://www.animenewsnetwork.com/this-week-in-anime/2023-11-02/.204013) — Anime News Network
+- [Pluto (manga)](https://en.wikipedia.org/wiki/Pluto_(manga)) — Wikipedia

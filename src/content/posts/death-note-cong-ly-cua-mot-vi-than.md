@@ -1,73 +1,60 @@
 ---
-title: "Death Note | デスノート | Công Lý Của Một Vị Thần Tự Phong"
-description: "Analysis — Tetsurō Araki, Tsugumi Ohba, Takeshi Obata"
-tags: ["Analysis", "Character", "Psychological"]
+title: "Death Note | デスノート | Cuốn Sổ Bị Cấm Ngoài Đời Thật"
+description: "Ghi chép — Tsugumi Ohba, Takeshi Obata, Madhouse"
+tags: ["Review", "Psychological"]
 related_media: ["anime:death-note"]
 date: 2026-11-17
 ---
 ![Poster Death Note](https://cdn.myanimelist.net/images/anime/1079/138100.jpg)
 
-# DEATH NOTE: CÔNG LÝ CỦA MỘT VỊ THẦN TỰ PHONG
+Death Note kể về một cuốn sổ có thể giết bất cứ ai chỉ cần viết tên họ vào. Và ngoài đời thật, đã có trường học phải **cấm những cuốn sổ giả** vì học sinh bắt chước.
 
-> [!info] Anime
-> **Death Note**
-> デスノート
-> **Đạo diễn:** Tetsurō Araki
-> **Nguyên tác:** manga của Tsugumi Ohba và Takeshi Obata
-> **Seiyuu:** Mamoru Miyano (Light Yagami), Kappei Yamaguchi (L), Shidō Nakamura (Ryuk)
-> **Studio:** Madhouse
-> **Nhạc:** Yoshihisa Hirano, Hideki Taniuchi
-> **Số tập:** 37 tập
-> **Năm phát hành:** 2006-2007
-> **Quốc gia:** Nhật Bản
-> **Thể loại:** Psychological Thriller, Supernatural, Mystery
+---
 
-> [!warning] Spoilers toàn bộ
+**Thẩm Dương, Trung Quốc, 2005**
 
-Death Note có lẽ là bộ anime "nhập môn" của nhiều người, trong đó có rất nhiều bạn ở Việt Nam. Một cuốn sổ có thể giết bất cứ ai chỉ bằng cách viết tên họ. Một học sinh thiên tài quyết định dùng nó để thanh lọc thế giới khỏi tội phạm. Và một thám tử bí ẩn quyết bắt hắn.
+Đầu năm 2005, báo chí đưa tin học sinh ở thành phố Thẩm Dương bắt đầu tự làm "Death Note" của mình. Một học sinh kể với báo địa phương rằng khi học mệt, các bạn viết tên những thầy cô mình ghét vào sổ. Một số trường ở Thẩm Dương cấm truyện Death Note và những cuốn sổ, đồ dùng học tập in hình nó, với lý do bảo vệ "sức khỏe thể chất và tinh thần" của học sinh. Cũng có một tờ báo lớn ở Trung Quốc cho rằng lệnh cấm là phản ứng thái quá.
 
-Mình chấm 9 vì Death Note là màn đấu trí hay nhất trong anime, ít nhất là cho đến tập 25. Nhưng hơn thế, nó đặt ra một câu hỏi đạo đức mà mình nghĩ rất đáng suy nghĩ: **nếu bạn có quyền lực tuyệt đối để trừng phạt kẻ ác, bạn có trở thành kẻ ác không?**
+**Bắc Kinh, 2007**
 
-## Light Yagami
+Năm 2007, Bắc Kinh cấm truyện kinh dị ở khu vực gần trường học. Trong đợt kiểm tra đó, Trung Quốc tịch thu 5.912 cuốn Death Note cùng nhiều ấn phẩm kinh dị khác. Một vụ ở Thâm Quyến cùng năm thu giữ 187 cuốn sổ.
 
-Light là học sinh giỏi nhất nước Nhật, con trai của một cảnh sát trưởng, đẹp trai, được mọi người yêu quý. Và anh chán. Thế giới với anh thối nát, đầy tội phạm, và không ai làm gì cả.
+**Virginia, Mỹ, 2007**
 
-Khi nhặt được Death Note, cuốn sổ mà thần chết Ryuk đánh rơi vì buồn chán, Light thử nghiệm nó lên một tên tội phạm. Rồi một tên nữa. Rồi hàng trăm tên. Anh tự gọi mình là **Kira**, và tuyên bố sẽ trở thành vị thần của một thế giới mới, nơi không còn tội ác.
+Một học sinh ở Virginia bị nhà trường đình chỉ vì viết tên người khác vào một cuốn "Death Note".
 
-Cái hay của Death Note là cách nó cho ta thấy Light thay đổi. Ban đầu anh chỉ giết tội phạm nghiêm trọng. Rồi anh giết những người cản đường mình: những đặc vụ FBI điều tra anh, những người vô tội biết quá nhiều. Rồi anh sẵn sàng giết cả gia đình mình nếu cần.
+**Sydney, Úc, 2009**
 
-Mình nghĩ Light là một ví dụ hoàn hảo cho câu nói *"quyền lực làm tha hóa, quyền lực tuyệt đối làm tha hóa tuyệt đối"*. Anh không bắt đầu như một kẻ ác. Anh bắt đầu như một người tin rằng mình đúng. Và chính niềm tin đó đã biến anh thành quái vật.
+Một cậu bé lớp 8 bị báo cáo với nhà trường vì làm một cuốn "Death Note" có tên người thật.
 
-## L
+**Đài Loan**
 
-Đối lập với Light là **L**, thám tử bí ẩn nhất thế giới. Anh ngồi xổm trên ghế, ăn đồ ngọt liên tục, cầm mọi thứ bằng hai ngón tay, không bao giờ đi giày. Và anh là người duy nhất có thể đọ trí với Light.
+Sở giáo dục huyện Bình Đông ra cảnh báo cho phụ huynh về hiện tượng này.
 
-Màn đấu trí giữa Light và L là trái tim của nửa đầu Death Note. Mỗi người cố đoán nước đi tiếp theo của người kia. L ngay từ đầu đã nghi ngờ Light, nhưng không có bằng chứng. Light biết L nghi ngờ mình, và cố gắng trở thành bạn của L để tiếp cận anh. Hai người, mỗi người biết người kia là kẻ thù, ngồi cạnh nhau, chơi tennis với nhau, ăn cùng nhau, và luôn tính toán.
+---
 
-Cảnh nổi tiếng nhất: Light ăn khoai tây chiên, dùng một chiếc TV nhỏ giấu trong túi khoai tây để viết tên tội phạm vào Death Note, ngay dưới camera giám sát mà L lắp trong phòng anh. Cảnh "Tôi sẽ lấy một miếng khoai tây... và ĂN NÓ!" đến giờ vẫn là meme.
+**Vì sao một cuốn truyện tranh lại làm người lớn sợ đến vậy?**
 
-## Cái chết của L
+Mình nghĩ không phải vì nó dạy trẻ con giết người. Không ai tin viết tên vào sổ là giết được thật. Mà vì Death Note chạm vào một thứ rất thật ở tuổi học trò: **cảm giác bất lực**, và ước muốn có quyền lực với những người làm mình khổ. Một học sinh bị áp lực học hành, viết tên thầy cô vào sổ, là một cách xả giận vô hại. Nhưng nó cũng là bước đầu tiên của chính Light Yagami.
 
-Ở tập 25, **L chết**. Light thắng. Và hầu hết người xem đều đồng ý: Death Note sau tập 25 không còn hay như trước.
+Light là học sinh giỏi nhất nước Nhật, con trai một cảnh sát, đẹp trai, được mọi người quý mến, và chán. Khi nhặt được Death Note, anh bắt đầu bằng tội phạm nghiêm trọng. Rồi những người điều tra anh. Rồi những người vô tội biết quá nhiều. Rồi sẵn sàng hy sinh cả gia đình. Anh không bắt đầu như kẻ ác. Anh bắt đầu như người tin rằng mình đúng. Và chính niềm tin đó biến anh thành quái vật.
 
-Near và Mello, hai người kế nhiệm của L, không có sức hút như L. Màn đấu trí trở nên phức tạp hơn nhưng kém hấp dẫn hơn. Mình hiểu những lời chê đó. Nhưng mình nghĩ nửa sau vẫn có giá trị, vì nó cho ta thấy Light khi không còn đối thủ: kiêu ngạo hơn, tàn nhẫn hơn, ngày càng tin mình là thần.
+Câu hỏi của Death Note thật ra rất đơn giản: **nếu có quyền tuyệt đối để trừng phạt kẻ xấu, bạn có trở thành kẻ xấu không?** Và câu trả lời của nó cũng đơn giản: có.
 
-## "Ta là thần của thế giới mới"
+---
 
-Cảnh kết thúc là cảnh mình thấy hay nhất series. Light bị Near vạch mặt trong một nhà kho, trước mặt cả đội điều tra. Bị dồn vào đường cùng, Light vẫn không nhận tội. Anh gào thét, cười điên dại, tuyên bố rằng mình là thần, rằng thế giới cần Kira.
+Đối thủ của Light là L: ngồi xổm trên ghế, ăn đồ ngọt liên tục, cầm mọi thứ bằng hai ngón tay. Màn đấu trí giữa hai người ở nửa đầu là thứ hay nhất của series, kể cả cảnh Light ăn khoai tây chiên trong lúc giấu TV mini trong túi khoai để viết tên tội phạm ngay dưới camera của L.
 
-Rồi anh bị bắn, chạy trốn, và gục xuống trên một cầu thang bỏ hoang. Và Ryuk, thần chết đã đứng bên anh suốt từ đầu đến cuối, viết tên Light vào cuốn sổ của mình. Như anh đã nói từ ngày đầu tiên: khi Light chết, chính Ryuk sẽ là người viết tên anh.
+Light chết một mình trên một cầu thang bỏ hoang, và Ryuk, thần chết đã đứng bên anh từ đầu, viết tên anh vào sổ. Đúng như Ryuk đã hứa từ ngày đầu.
 
-Light chết một mình, trên cầu thang, như một con người bình thường. Không phải thần thánh. Chỉ là một cậu thanh niên đã tự lừa mình rằng mình có quyền quyết định ai được sống.
+9 điểm. Trừ vì nửa sau, sau cái chết của L, yếu hơn hẳn. Và lời khuyên cho ai đang cầm một cuốn sổ: viết nhật ký thôi nhé.
 
-## Ai đúng?
+---
 
-Death Note không bao giờ nói thẳng ai đúng, Light hay L. Nó để khán giả tự quyết định. Và đó là lý do bộ anime vẫn được tranh luận đến giờ.
+*Nguồn tham khảo:*
 
-Mình nghĩ cả hai đều sai theo cách riêng. Light dùng quyền lực tuyệt đối mà không chịu trách nhiệm trước ai. L dùng mọi phương pháp, kể cả những phương pháp phi pháp, để bắt Light. Nhưng có một điểm khác biệt: L không bao giờ tự cho mình quyền quyết định sự sống chết của người khác. Và đó là ranh giới mà Light đã vượt qua ngay từ trang đầu tiên của cuốn sổ.
-
-## Vì sao mình chấm 9
-
-Death Note có nửa đầu gần như hoàn hảo, với những màn đấu trí căng thẳng, nhạc nền như thánh ca, và hai nhân vật chính đáng nhớ. Mamoru Miyano lồng tiếng Light xuất sắc, đặc biệt ở cảnh cuối.
-
-Mình chấm 9 thay vì 10 vì nửa sau yếu hơn. Nhưng Death Note vẫn là bộ anime mà mình nghĩ ai cũng nên xem, vì câu hỏi của nó vẫn còn đó: nếu cầm cuốn sổ trong tay, bạn có viết tên ai không?
+- [Death Note Stirs Controversy in China](https://animenewsnetwork.com/news/2005-02-06/death-note-stirs-controversy-in-china) — Anime News Network
+- [Beijing bans horror stories based on Death Note](https://www.animenewsnetwork.com/news/2007-05-15/beijing-bans-horror-stories-based-on-death-note) — Anime News Network
+- [Virginian teen suspended over names in Death Note](https://www.animenewsnetwork.com/news/2007-11-22/virginian-teen-suspended-over-names-in-death-note) — Anime News Network
+- [8th-Grade Sydney Boy Reported for Making Death Note](https://animenewsnetwork.com/news/2009-09-29/8th-grade-sydney-boy-reported-for-making-death-note) — Anime News Network
+- [The Death Note Anime Controversy Explained](https://www.slashfilm.com/819447/the-death-note-anime-controversy-explained) — /Film
