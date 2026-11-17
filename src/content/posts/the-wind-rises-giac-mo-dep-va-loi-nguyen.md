@@ -1,72 +1,45 @@
 ---
-title: "The Wind Rises | 風立ちぬ | Giấc Mơ Đẹp Và Lời Nguyền"
-description: "Analysis — Hayao Miyazaki"
-tags: ["Analysis", "Theme", "Ghibli"]
+title: "The Wind Rises | 風立ちぬ | Bộ Phim Bị Chửi Từ Cả Hai Phía"
+description: "Thảo Luận — Hayao Miyazaki"
+tags: ["Thảo Luận", "Ghibli"]
 related_media: ["anime:the-wind-rises"]
 date: 2026-11-17
 ---
 ![Poster The Wind Rises](https://cdn.myanimelist.net/images/anime/8/52353.jpg)
 
-# THE WIND RISES: GIẤC MƠ ĐẸP VÀ LỜI NGUYỀN
+The Wind Rises là phim Nhật có doanh thu cao nhất năm 2013. Nó cũng là phim gây tranh cãi nhất trong sự nghiệp của Miyazaki, và điều kỳ lạ là nó bị chửi từ **cả hai phía**.
 
-> [!info] Anime
-> **The Wind Rises** (Gió Nổi)
-> 風立ちぬ
-> **Đạo diễn & kịch bản:** Hayao Miyazaki
-> **Seiyuu:** Hideaki Anno (Jiro Horikoshi), Miori Takimoto (Naoko Satomi), Hidetoshi Nishijima (Honjo)
-> **Studio:** Studio Ghibli
-> **Nhạc:** Joe Hisaishi
-> **Thời lượng:** 126 phút
-> **Năm phát hành:** 2013
-> **Quốc gia:** Nhật Bản
-> **Thể loại:** Drama, Biography, Romance
+Phim kể lại cuộc đời (đã được hư cấu nhiều) của **Jiro Horikoshi**, kỹ sư thiết kế chiếc **Mitsubishi A6M Zero**, máy bay chiến đấu nổi tiếng nhất của Nhật trong Thế chiến II, chiếc máy bay đã tham gia trận Trân Châu Cảng và các phi vụ cảm tử.
 
-> [!warning] Spoilers
+**Phía cánh hữu ở Nhật** giận vì Miyazaki dùng phim để nói về chiến tranh theo hướng phản chiến, và vì ông công khai chỉ trích chính phủ thời đó. Theo một bài của AFP, các chủ đề về chủ nghĩa dân tộc và chiến tranh trong phim kéo theo gần 3.000 bình luận, từ thất vọng vì Miyazaki "dính vào chính trị" đến gọi ông là kẻ phản quốc.
 
-*"Gió đã nổi lên, ta phải cố gắng sống."* (Le vent se lève, il faut tenter de vivre.)
+**Phía Hàn Quốc và Trung Quốc** thì giận vì điều ngược lại: phim làm một bộ phim đẹp đẽ, lãng mạn về người chế tạo vũ khí cho đế quốc Nhật. Một bài review chỉ trích rằng phim lướt qua sự thật đau lòng về việc Mitsubishi đã ép người lao động Trung Quốc và Hàn Quốc làm việc như nô lệ trong chiến tranh.
 
-Câu thơ của Paul Valéry mở đầu The Wind Rises, bộ phim mà Miyazaki từng tuyên bố là tác phẩm cuối cùng của ông (trước khi ông quay lại làm *The Boy and the Heron*). Và đây là bộ phim mà mình nghĩ cá nhân nhất của ông: không có phép thuật, không có linh hồn, chỉ có một người đàn ông yêu máy bay, và câu hỏi mà Miyazaki có lẽ đã tự hỏi mình cả đời: **người sáng tạo có chịu trách nhiệm về việc tác phẩm của mình bị dùng vào việc gì không?**
+---
 
-## Jiro và những chiếc máy bay đẹp
+Mình đã đọc khá nhiều về tranh cãi này, và nghĩ cả hai phía đều có phần đúng, mà cũng đều bỏ lỡ một thứ.
 
-The Wind Rises kể lại cuộc đời của Jiro Horikoshi, kỹ sư thiết kế chiếc Mitsubishi A6M Zero, máy bay chiến đấu nổi tiếng nhất của Nhật trong Thế chiến thứ hai, chiếc máy bay được dùng trong trận Trân Châu Cảng và trong các phi vụ cảm tử kamikaze.
+Phim không tôn vinh chiến tranh. Cũng không thật sự lên án Jiro. Nó đặt ra một câu hỏi mà Miyazaki có lẽ đã tự hỏi mình cả đời: **người tạo ra một thứ đẹp đẽ có chịu trách nhiệm về việc nó bị dùng vào việc gì không?**
 
-Nhưng Miyazaki không làm phim tiểu sử thông thường. Jiro trong phim là sự pha trộn giữa con người thật và nhân vật trong tiểu thuyết *Kaze Tachinu* của Tatsuo Hori. Ông không kể về chiến tranh. Ông kể về một cậu bé cận thị mơ ước được bay, nhưng vì mắt kém nên không thể làm phi công. Vì vậy cậu sẽ thiết kế máy bay.
+Miyazaki là người phản chiến. Nhưng ông cũng mê máy bay, xe tăng, vũ khí từ nhỏ, đến mức vẽ hẳn những cuốn sách về chúng. Cha ông làm ở công ty sản xuất linh kiện cho chính chiếc máy bay Zero. Jiro trong phim là Miyazaki: một người say mê vẻ đẹp của kỹ thuật, sống trong một thời đại mà vẻ đẹp đó bị biến thành công cụ giết người.
 
-## Những giấc mơ với Caproni
+Trong những giấc mơ, Jiro gặp nhà thiết kế máy bay người Ý Caproni. Caproni hỏi anh: một thế giới có kim tự tháp, hay một thế giới không có kim tự tháp, cậu chọn thế giới nào? Kim tự tháp là kỳ quan, nhưng được xây bằng mồ hôi và máu của nô lệ. Jiro chọn thế giới có kim tự tháp.
 
-Những cảnh hay nhất phim là những giấc mơ. Jiro gặp **Giovanni Caproni**, nhà thiết kế máy bay người Ý mà anh ngưỡng mộ, trong một thế giới mơ nơi những chiếc máy bay khổng lồ bay lượn trên đồng cỏ xanh.
+Phim không nói Jiro chọn đúng hay sai. Nó chỉ để anh sống với lựa chọn đó. Cảnh cuối, trong giấc mơ, cánh đồng đầy xác máy bay bị bắn rơi. Những chiếc Zero bay đi. Jiro nói: *"Không chiếc nào trở về cả."*
 
-Caproni nói với Jiro một điều mà mình nghĩ là luận đề của cả phim: *"Máy bay là những giấc mơ đẹp. Nhưng cũng là giấc mơ bị nguyền rủa, đang chờ bầu trời nuốt chửng."* Ông hỏi Jiro: một thế giới có kim tự tháp, hay một thế giới không có kim tự tháp, cậu chọn thế giới nào? Kim tự tháp là kỳ quan, nhưng được xây bằng mồ hôi và máu của nô lệ.
+---
 
-Jiro chọn thế giới có kim tự tháp. Anh muốn tạo ra những thứ đẹp đẽ, dù biết chúng có thể được dùng vào việc tàn ác.
+Còn một tranh cãi nhỏ hơn: Miyazaki chọn **Hideaki Anno**, đạo diễn Evangelion, lồng tiếng cho Jiro. Anno không phải diễn viên lồng tiếng chuyên nghiệp, và giọng anh đều đều, hơi vụng. Nhiều người thấy lạ. Có reviewer lại thấy đó là lựa chọn thiên tài, vì Jiro nghe như một người hơi khác mọi người xung quanh, sống trong đầu mình. Mình đồng ý với người thứ hai.
 
-## Miyazaki và mâu thuẫn của chính mình
+9 điểm. Phim Ghibli khó xem nhất, và cũng là phim mà càng lớn càng thấy mình hiểu thêm.
 
-Mình nghĩ The Wind Rises là phim Miyazaki nói về chính mình. Ông là người theo chủ nghĩa hòa bình, phản đối chiến tranh mạnh mẽ. Nhưng ông cũng là người say mê máy bay, xe tăng, vũ khí quân sự, đến mức vẽ hẳn cả những cuốn sách về chúng. Cha ông làm việc trong công ty sản xuất linh kiện cho máy bay Zero.
+---
 
-Đó chính là mâu thuẫn của Jiro. Anh yêu vẻ đẹp của kỹ thuật, của những đường cong khí động học, nhưng anh làm việc cho một quân đội đang chuẩn bị chiến tranh. Phim không trả lời mâu thuẫn đó. Nó chỉ để Jiro sống với nó.
+*Nguồn tham khảo:*
 
-Khi phim ra mắt, Miyazaki bị chỉ trích từ cả hai phía: phe cánh hữu ở Nhật chê ông phản quốc, một số khán giả nước ngoài chê ông tôn vinh người chế tạo vũ khí. Mình nghĩ cả hai đều bỏ lỡ điểm chính. Phim không tôn vinh, cũng không lên án. Nó chỉ cho thấy rằng **sáng tạo luôn đi kèm trách nhiệm, và không phải lúc nào người sáng tạo cũng kiểm soát được điều đó**.
-
-## Naoko: tình yêu với thời gian có hạn
-
-Song song với câu chuyện máy bay là câu chuyện tình yêu của Jiro với Naoko, cô gái anh gặp trong trận động đất Kanto năm 1923 và gặp lại nhiều năm sau. Naoko mắc bệnh lao.
-
-Họ cưới nhau, biết rằng thời gian không còn nhiều. Có một cảnh mình rất nhớ: Jiro làm việc trên bàn vẽ, tay trái nắm tay Naoko đang nằm ngủ cạnh bên. Anh hỏi cô có được hút thuốc không, và cô bảo anh cứ hút. Mỗi ngày bên nhau là một ngày bị đánh cắp từ cái chết.
-
-Rồi khi chiếc máy bay thử nghiệm của Jiro bay thành công, Naoko lặng lẽ rời đi, về bệnh viện trên núi để chết một mình, không muốn Jiro thấy mình yếu dần. Jiro cảm nhận một cơn gió thổi qua, và anh biết.
-
-## Cái kết: những chiếc máy bay không trở về
-
-Cảnh cuối, Jiro lại trong giấc mơ với Caproni. Nhưng giờ đồng cỏ đầy xác máy bay bị bắn rơi. Trên bầu trời, những chiếc Zero bay đi, không bao giờ trở về. Jiro nói: *"Không chiếc nào trở về cả."*
-
-Rồi Naoko xuất hiện, bảo anh: *"Hãy sống."* Caproni mời anh uống rượu. Jiro sống tiếp.
-
-Mình thấy cái kết này buồn nhưng không tuyệt vọng. Jiro mất tất cả: tình yêu, đất nước, những chiếc máy bay. Những gì anh tạo ra đã bị biến thành công cụ chết chóc. Nhưng anh vẫn phải sống, vì đó là điều duy nhất còn lại. Gió đã nổi lên.
-
-## Vì sao mình chấm 9
-
-The Wind Rises không phải phim Ghibli "vui". Nó chậm, ít biến cố, và đòi hỏi người xem phải suy nghĩ. Việc Hideaki Anno, đạo diễn Evangelion, lồng tiếng cho Jiro bằng giọng đều đều, vụng về, cũng gây tranh cãi. Nhưng mình nghĩ nó hợp: Jiro là người sống trong đầu mình, giống Anno.
-
-Mình chấm 9 vì đây là phim mà mỗi năm mình lại hiểu thêm một chút. Và câu hỏi của Caproni vẫn còn đó cho bất kỳ ai làm nghề sáng tạo: thế giới có kim tự tháp, hay không có kim tự tháp?
+- [The Wind Rises](https://en.wikipedia.org/wiki/The_Wind_Rises) — Wikipedia
+- [Miyazaki's new film causes stir in Japan](https://otakuusamagazine.com/miyazakis-new-film-causes-stir-in-japan/) — Otaku USA Magazine
+- [The Wind Rises director Hayao Miyazaki goes out in a blaze of controversy and beauty](https://www.thewrap.com/oscarwrap-miyazaki-goes-blaze-controversy) — TheWrap
+- [Atrocity, Art, And Miyazaki's The Wind Rises](https://screenanarchy.com/2013/12/atrocity-art-and-miyazakis-the-wind-rises.html) — ScreenAnarchy
+- [Miyazaki film stirs controversy in Japan](https://www.dawn.com/news/1034759) — Dawn / AFP
+- [The Wind Rises review](https://deepfocusreview.com/reviews/the-wind-rises) — Deep Focus Review
