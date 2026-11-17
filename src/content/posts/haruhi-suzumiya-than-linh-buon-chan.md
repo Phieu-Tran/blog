@@ -1,65 +1,60 @@
 ---
-title: "The Melancholy of Haruhi Suzumiya | 涼宮ハルヒの憂鬱 | Vị Thần Buồn Chán"
-description: "Analysis — Tatsuya Ishihara, Nagaru Tanigawa"
-tags: ["Analysis", "Character", "Comedy"]
+title: "The Melancholy of Haruhi Suzumiya (2009) | 涼宮ハルヒの憂鬱 | Bài Viết Này Lặp Lại Tám Lần"
+description: "Thử nghiệm — Nagaru Tanigawa, Kyoto Animation"
+tags: ["Review", "Comedy"]
 related_media: ["anime:the-melancholy-of-haruhi-suzumiya-2009"]
 date: 2026-11-17
 ---
 ![Poster The Melancholy of Haruhi Suzumiya](https://cdn.myanimelist.net/images/anime/8/75377.jpg)
 
-# THE MELANCHOLY OF HARUHI SUZUMIYA: VỊ THẦN BUỒN CHÁN
+**Lần 1.**
 
-> [!info] Anime
-> **The Melancholy of Haruhi Suzumiya** (bản 2009)
-> 涼宮ハルヒの憂鬱
-> **Đạo diễn:** Tatsuya Ishihara
-> **Nguyên tác:** light novel của Nagaru Tanigawa
-> **Seiyuu:** Aya Hirano (Haruhi Suzumiya), Tomokazu Sugita (Kyon), Minori Chihara (Yuki Nagato), Yuko Goto (Mikuru Asahina), Daisuke Ono (Itsuki Koizumi)
-> **Studio:** Kyoto Animation
-> **Năm phát hành:** 2006 (mùa 1), 2009 (bản phát lại kèm tập mới)
-> **Quốc gia:** Nhật Bản
-> **Thể loại:** Comedy, Sci-Fi, Slice of Life
+Ngày 17 tháng 8. Kỳ nghỉ hè còn hai tuần. Haruhi Suzumiya gọi điện cho cả nhóm SOS: đi bơi, đi lễ hội, bắt ve sầu, xem pháo hoa, đi làm thêm. Kyon thở dài, nhưng đi. Kỳ nghỉ kết thúc. Mọi thứ bình thường.
 
-> [!warning] Spoilers, bao gồm Endless Eight
+**Lần 2.**
 
-*"Tôi không quan tâm đến người bình thường. Nếu trong các bạn có người ngoài hành tinh, người du hành thời gian, người từ thế giới khác, hay người có siêu năng lực, thì hãy đến gặp tôi. Hết."*
+Ngày 17 tháng 8. Kỳ nghỉ hè còn hai tuần. Haruhi gọi điện cho cả nhóm. Đi bơi, đi lễ hội, bắt ve sầu. Kyon có cảm giác hình như mình đã làm những việc này rồi. Kỳ nghỉ kết thúc. Rồi lại bắt đầu.
 
-Đây là câu tự giới thiệu của Haruhi Suzumiya trong ngày đầu tiên của trung học. Cả lớp im lặng. Kyon, cậu bạn ngồi bàn trước, nghĩ rằng cô bị điên.
+**Lần 3.**
 
-Haruhi Suzumiya là một hiện tượng của anime giữa thập niên 2000. Nó có bài nhảy *Hare Hare Yukai* mà cả thế giới bắt chước, có Yuki Nagato trở thành hình mẫu cho cả một thế hệ nhân vật kuudere. Mình chấm 9 vì dưới lớp hài hước học đường, Haruhi là một câu chuyện thông minh về **sự buồn chán, nhận thức, và việc tìm thấy điều kỳ diệu trong cuộc sống bình thường**.
+Ngày 17 tháng 8. Haruhi gọi điện. Kyon có cảm giác déjà vu rõ hơn. Koizumi giải thích: họ đang mắc kẹt trong một vòng lặp thời gian. Haruhi, mà không biết, không muốn kỳ nghỉ hè kết thúc. Nagato, người nhớ hết mọi vòng lặp, nói rằng đây là lần thứ 15.498.
 
-## Haruhi là thần
+**Lần 4, 5, 6, 7.**
 
-Haruhi lập ra **Đoàn SOS**, một câu lạc bộ với mục đích tìm kiếm người ngoài hành tinh, người du hành thời gian, và người có siêu năng lực. Cô kéo Kyon vào, rồi tuyển thêm ba thành viên.
+Ngày 17 tháng 8. Haruhi gọi điện.
 
-Và đây là twist mà Kyon (và chúng ta) phát hiện ra từ sớm: cả ba thành viên mới đều là những người mà Haruhi đang tìm. **Yuki Nagato** là một giao diện người được tạo ra bởi một thực thể thông tin ngoài hành tinh. **Mikuru Asahina** là người du hành thời gian từ tương lai. **Itsuki Koizumi** là một siêu năng lực gia.
+**Lần 8.**
 
-Và cả ba đều ở đây vì một lý do: Haruhi, không biết điều đó, có khả năng **thay đổi thực tại** theo ý muốn của mình. Cô có thể là một vị thần. Và nếu cô cảm thấy quá buồn chán, cô có thể vô tình hủy diệt thế giới và tạo ra một thế giới mới.
+Ngày 17 tháng 8. Lần này Kyon tìm ra thứ còn thiếu, thứ Haruhi chưa làm được nên chưa chịu để kỳ nghỉ kết thúc. Đó là lần thứ 15.532. Nagato đã sống qua tất cả, tương đương gần sáu trăm năm của cùng hai tuần ấy, và không nói một lời phàn nàn.
 
-Nhiệm vụ của ba người là giữ cho Haruhi vui, mà không để cô biết sự thật.
+---
 
-## Kyon: người bình thường duy nhất
+Nếu bạn thấy phần trên khó chịu, đó chính là cảm giác của khán giả năm 2009.
 
-Kyon là người kể chuyện, và là người duy nhất trong Đoàn SOS hoàn toàn bình thường. Anh hay càu nhàu, châm biếm, luôn bị Haruhi lôi đi làm những việc vô lý. Và anh là người quan trọng nhất trong câu chuyện.
+Mùa hai của Haruhi Suzumiya là một trong những sự kiện gây tranh cãi nhất lịch sử anime. Sau ba năm chờ đợi từ mùa một (2006), Kyoto Animation phát sóng arc **Endless Eight**, chuyển thể một truyện ngắn từ light novel, từ ngày 19/6 đến 7/8/2009. Truyện gốc chỉ vài chục trang. KyoAni làm thành **tám tập**, gần như y hệt nhau.
 
-Vì sao? Vì Haruhi đã chọn anh. Trong tất cả mọi người, Kyon là người duy nhất mà Haruhi để tâm. Và khi thế giới gần bị hủy diệt, ở cuối arc *Melancholy*, Kyon là người duy nhất có thể đưa Haruhi trở lại.
+Không phải chiếu lại. Mỗi tập được **vẽ lại hoàn toàn**: quần áo khác, góc máy khác, cách diễn của diễn viên lồng tiếng khác. Nhưng cốt truyện thì như nhau, tuần này qua tuần khác, suốt hai tháng.
 
-Mình thấy giọng kể của Kyon là thứ làm Haruhi đặc biệt. Những đoạn độc thoại nội tâm của anh, do Tomokazu Sugita lồng tiếng, vừa hài hước vừa có chiều sâu. Anh than phiền về Haruhi mọi lúc, nhưng dần dần ta nhận ra anh cũng thích những cuộc phiêu lưu này. Dù anh không bao giờ thừa nhận.
+Fan phát điên. Know Your Meme ghi lại rằng tranh cãi ở Nhật lớn hơn nhiều so với ở nước ngoài. Câu "Kyon-kun, denwa" (Kyon ơi, điện thoại), câu em gái Kyon nói ở đầu mỗi vòng lặp, thành meme. CBR sau này viết cả một bài về "di sản" của Endless Eight. Một bài trên Cornell Daily Sun có tiêu đề đại ý là "ghét Endless Eight không bao giờ dứt".
 
-## Endless Eight
+---
 
-Không thể nói về bản 2009 mà không nói về **Endless Eight**. Đây là arc mà Kyoto Animation đã làm điều mà không studio nào dám: chiếu **tám tập liên tiếp gần như giống hệt nhau**.
+**Nhưng mình muốn bênh vực nó một chút**
 
-Trong câu chuyện, Haruhi vô thức khiến hai tuần cuối kỳ nghỉ hè lặp đi lặp lại, vì cô cảm thấy có điều gì đó còn thiếu. Đoàn SOS sống lại cùng hai tuần đó hơn 15.000 lần. Chỉ có Yuki nhớ tất cả.
+Endless Eight là một thử nghiệm tệ nếu xem hàng tuần. Nhưng nó là một thử nghiệm *thành công* theo đúng nghĩa: nó khiến người xem cảm nhận được điều mà Nagato cảm nhận. Mệt mỏi. Chán nản. Lặp lại. Và khi bạn nghĩ đến việc Nagato đã chịu điều đó mười lăm nghìn lần, một mình, im lặng, thì bộ phim điện ảnh *The Disappearance of Haruhi Suzumiya* năm 2010, nơi Nagato cuối cùng "vỡ" ra, có sức nặng hơn hẳn.
 
-Và KyoAni đã làm lại cùng một tập tám lần, với lời thoại gần như giống nhau, nhưng góc máy, trang phục, ánh sáng khác nhau. Người xem năm 2009 đã giận dữ. Họ cảm thấy bị lừa.
+Một trang ghi nhận rằng Endless Eight dễ chịu hơn khi xem liền một lúc trên DVD. Mình đồng ý: xem liên tục, nó như một tác phẩm nghệ thuật trình diễn hơn là một tập phim.
 
-Mình thì nghĩ đây là một trong những thử nghiệm táo bạo nhất trong lịch sử anime. KyoAni đã làm cho khán giả *cảm nhận* sự lặp lại, sự buồn chán, sự mệt mỏi mà nhân vật trải qua. Và nghĩ đến Yuki, người đã sống qua hơn 15.000 lần, nhớ tất cả, mà không nói gì, mình thấy nặng lòng.
+Mùa 2009 còn có *Bamboo Leaf Rhapsody* và arc *Sighs*, cả nhóm SOS làm một bộ phim nghiệp dư cho lễ hội trường. Phần Sighs vui hơn nhiều.
 
-Mình không nói Endless Eight là dễ xem. Nhưng nó là nghệ thuật.
+9 điểm. Không phải vì Endless Eight hay. Mà vì không có anime nào khác dám làm điều đó, và vì Nagato.
 
-## Vì sao mình chấm 9
+---
 
-Haruhi có những điểm đã cũ: một số cách đối xử với Mikuru khá khó chịu, và cấu trúc kể không theo thứ tự của bản 2006 có thể gây bối rối. Nhưng nó vẫn là một trong những anime có ảnh hưởng nhất của thập niên 2000.
+*Nguồn tham khảo:*
 
-Mình chấm 9 vì Haruhi nhắc mình điều mà Kyon học được: những điều phi thường có thể ở ngay cạnh ta, trong những người bạn, những buổi chiều ở câu lạc bộ, những cuộc phiêu lưu vô nghĩa. Và nếu ta xem câu chuyện xong rồi đi xem tiếp *The Disappearance of Haruhi Suzumiya*, ta sẽ hiểu rằng Kyon, cuối cùng, cũng chọn thế giới đó.
+- [Endless Eight](https://knowyourmeme.com/memes/endless-eight--2) — Know Your Meme
+- [Haruhi Suzumiya's Endless Eight arc legacy](https://www.cbr.com/haruhi-suzumiya-endless-eight-arc-legacy/) — CBR
+- [Manga Mondays: Endlessly Hating the Endless Eight](https://cornellsun.com/2015/10/19/manga-mondays-endlessly-hating-the-endless-eight/) — The Cornell Daily Sun
+- [Ask John: What's John's Opinion of Endless Eight?](https://animenation.net/blog/?p=16977) — AnimeNation
+- [Haruhi Suzumiya (YMMV)](https://www.tvtropes.org/pmwiki/pmwiki.php/YMMV/HaruhiSuzumiya) — TV Tropes
