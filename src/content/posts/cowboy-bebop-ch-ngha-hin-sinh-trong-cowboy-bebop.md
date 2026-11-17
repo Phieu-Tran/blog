@@ -22,7 +22,7 @@ date: 2026-02-04
 > **Quốc gia:** Nhật Bản
 > **Thể loại:** Action, Sci-Fi, Neo-noir, Space Western
 
-![](/posts/Exported image 20250424131926-0.jpeg)
+![](/posts/Exported-image-20250424131926-0.webp)
 
 > [!warning] Spoilers
 
@@ -89,7 +89,7 @@ Cho dù chúng ta có trốn chạy quá khứ đến khi nào đi chăng nữa,
 
 Cũng như cái kết "Bang" của bộ phim. Đối với chúng ta, khán giả, đây là một cái kết buồn. Thế nhưng đối với Spike, anh đã có một cuộc sống đầy mãn nguyện, không hối tiếc. Điều này thể hiện ở gương mặt thanh thản và cái mỉm cười ở cuối bộ phim.
 
-![](/posts/Exported image 20250424131928-1.jpeg)
+![](/posts/Exported-image-20250424131928-1.webp)
 
 ---
 

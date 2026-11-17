@@ -56,7 +56,7 @@ Về Kevin Spacey, mình không biết nhiều về ông này. Mình chỉ biế
 
 Còn một người nữa mà chắc bạn sẽ nhận ra, đó là Gwyneth Paltrow, hay còn được biết đến là bạn gái của Iron Man.
 
-![](/posts/Exported image 20250424132028-0.jpeg)
+![](/posts/Exported-image-20250424132028-0.webp)
 
 ---
 

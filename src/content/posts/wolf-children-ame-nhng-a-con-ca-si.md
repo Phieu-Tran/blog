@@ -5,7 +5,7 @@ tags: ["Character"]
 related_media: ["anime:wolf-children"]
 date: 2026-02-04
 ---
-![](/posts/Exported image 20250424131801-0.jpeg)
+![](/posts/Exported-image-20250424131801-0.webp)
 
 **Anime:**
 **Ookami Kodomo no Ame to Yuki**

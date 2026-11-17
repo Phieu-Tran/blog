@@ -17,7 +17,7 @@ Năm phát hành: 2015
 Quốc gia: Nhật Bản
 Thể loại: Drama, Mystery, Psychological, Thriller
 
-![](/posts/Exported image 20250424131818-0.png)
+![](/posts/Exported-image-20250424131818-0.webp)
 
 ![](/posts/DeathParade_0.webp)
 

@@ -52,7 +52,7 @@ Khi ác quỷ chọn loài mèo, anh nhớ về gia đình mình, về người 
 
 > "Cảm ơn con, vì con đã sinh ra trên đời này."
 
-![](/posts/Exported image 20250424132017-1.jpeg)
+![](/posts/Exported-image-20250424132017-1.webp)
 
 Có gì đó len lỏi vào trong trái tim của mình. Well… một điều gì đó được truyền tải rất hay mà mình nghĩ rằng mình không đủ khả năng để nói hết. Có lẽ do mình kém thật, cũng có thể là do sự truyền tải của thông điệp này vượt quá khả năng hiện tại của mình. Dù lần đầu xem, thì mình dù không tập trung lắm mình vẫn cảm thấy như được thấu hiểu, rồi bất chợt rơi nước mắt. Và điều đó ngay lập tức làm mình mê mẩn phim này đến mức xem lại nhiều lần và lên kế hoạch viết bài mà các bạn đang đọc đây. Hmm… nếu mình đào sâu và chi tiết quá thì khi xem các bạn sẽ cảm thấy bớt hay mất. Vậy nên hãy tự mình xem và cảm nhận nhé.
 

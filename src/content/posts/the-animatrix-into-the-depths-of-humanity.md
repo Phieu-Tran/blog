@@ -4,7 +4,7 @@ description: "Analysis — Lana & Lilly Wachowski (concept), nhiều đạo di�
 tags: ["Analysis", "Explained"]
 date: 2026-02-04
 ---
-![](/posts/Exported image 20250424131811-0.jpeg)
+![](/posts/Exported-image-20250424131811-0.webp)
 
 **Anime:**
 **The Animatrix**
@@ -92,7 +92,7 @@ Với toàn bộ khả năng xử lý siêu phàm của mình, vị thần cơ k
 “Program” và “World Record” của Madhouse mang phong cách hoạt hoạ mà nay đã hiếm thấy. Một tập đặt câu hỏi, và một tập  đưa ra câu trả lời.   
 Nếu chính loài người cũng không biết hết tiềm năng của giống loài mình sau hàng triệu năm tiến hoá, thì những cỗ máy vô tri cũng không thể hiểu và giam cầm được họ.
 
-![](/posts/Exported image 20250424131812-1.jpeg)  
+![](/posts/Exported-image-20250424131812-1.webp)  
 
 ![](/posts/Animatrix_0.webp)
 
