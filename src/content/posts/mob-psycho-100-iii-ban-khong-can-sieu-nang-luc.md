@@ -1,73 +1,57 @@
 ---
-title: "Mob Psycho 100 III | モブサイコ100 III | Bạn Không Cần Siêu Năng Lực Để Trở Thành Chính Mình"
-description: "Analysis — Takahiro Hasui, ONE"
-tags: ["Analysis", "Character", "Coming-of-age"]
+title: "Mob Psycho 100 III | モブサイコ100 III | Từ 0% Đến 100%"
+description: "Tản mạn — ONE, Takahiro Hasui, Bones"
+tags: ["Review", "Coming-of-age"]
 related_media: ["anime:mob-psycho-100-iii"]
 date: 2026-11-17
 ---
 ![Poster Mob Psycho 100 III](https://cdn.myanimelist.net/images/anime/1228/125011.jpg)
 
-# MOB PSYCHO 100 III: BẠN KHÔNG CẦN SIÊU NĂNG LỰC ĐỂ TRỞ THÀNH CHÍNH MÌNH
+Ai xem Mob Psycho đều quen với con số chạy góc màn hình: cảm xúc của Mob, tính bằng phần trăm. Khi nó chạm 100%, thứ gì đó bùng nổ.
 
-> [!info] Anime
-> **Mob Psycho 100 III**
-> モブサイコ100 III
-> **Đạo diễn:** Takahiro Hasui
-> **Nguyên tác:** webcomic/manga của ONE
-> **Seiyuu:** Setsuo Ito (Shigeo "Mob" Kageyama), Takahiro Sakurai (Arataka Reigen)
-> **Studio:** Bones
-> **Nhạc:** Kenji Kawai
-> **Số tập:** 12 tập
-> **Năm phát hành:** 2022
-> **Quốc gia:** Nhật Bản
-> **Thể loại:** Action, Comedy, Supernatural, Coming-of-age
+Nên bài này cũng chạy như vậy.
 
-> [!warning] Spoilers cả series
+---
 
-Mob Psycho 100 là bộ anime của ONE, tác giả *One Punch Man*. Và giống One Punch Man, nó có một nhân vật chính mạnh vô đối. Nhưng nếu One Punch Man hỏi "khi mạnh nhất rồi thì còn gì để làm?", thì Mob Psycho hỏi một câu khác, sâu sắc hơn nhiều: **sức mạnh có làm nên con người ta không?**
+### 0%
 
-Mình chấm mùa ba 9 điểm, vì nó là cái kết hoàn hảo cho một trong những câu chuyện trưởng thành đẹp nhất trong anime.
+Kageyama Shigeo, biệt danh Mob, là một cậu học sinh cấp hai bình thường đến mức nhạt nhòa. Cậu cũng là esper mạnh nhất thế giới. Mob cố gắng kìm nén cảm xúc, vì cậu sợ sức mạnh của chính mình, sợ nó làm tổn thương người khác như đã từng làm với em trai Ritsu hồi nhỏ.
 
-## Mob
+### 12%
 
-Shigeo Kageyama, biệt danh "Mob" (nghĩa là "nhân vật quần chúng", "người vô danh"), là một cậu học sinh cấp hai có siêu năng lực ngoại cảm mạnh nhất thế giới. Nhưng cậu không muốn dùng nó. Cậu muốn trở nên nổi tiếng với các bạn gái, muốn chạy nhanh hơn, muốn cơ bắp hơn. Cậu tham gia câu lạc bộ "Body Improvement", một câu lạc bộ thể hình của những anh chàng cơ bắp, và tập luyện như mọi người.
+Mob Psycho 100 bắt đầu là một webcomic. ONE, tác giả của *One Punch Man*, đăng nó trên trang Ura Sunday của Shogakukan từ tháng 4 năm 2012 đến cuối năm 2017, gom lại thành 16 tập. Nét vẽ của ONE nổi tiếng là thô, như vẽ nguệch ngoạc, và đó lại là một phần sức hút của nó.
 
-Mob kìm nén cảm xúc, vì khi cảm xúc của cậu đạt mức 100%, siêu năng lực sẽ bùng nổ ngoài tầm kiểm soát. Con số trên tiêu đề, 100, là thước đo cảm xúc đó.
+### 34%
 
-Mình thấy đây là ẩn dụ rất đẹp cho tuổi dậy thì. Mob có một sức mạnh khổng lồ bên trong, mà cậu sợ, không hiểu, và không biết kiểm soát. Giống như bất kỳ đứa trẻ nào lớn lên với những cảm xúc quá lớn so với cơ thể mình.
+Studio Bones chuyển thể mùa một năm 2016, mùa hai năm 2019, và biến nét vẽ nguệch ngoạc đó thành một trong những anime có hoạt họa đẹp nhất thập kỷ. Mùa ba năm 2022 đổi đạo diễn: **Takahiro Hasui** thay Yuzuru Tachikawa (người chuyển lên làm giám đốc điều hành). Thiết kế nhân vật vẫn là Yoshimichi Kameda, nhạc vẫn là Kenji Kawai. Chủ tịch Bones, Masahiko Minami, cho biết mùa này **không dùng CGI**, hoàn toàn vẽ tay.
 
-## Reigen
+### 56%
 
-Thầy của Mob là **Arataka Reigen**, một "nhà ngoại cảm" lừa đảo không có chút siêu năng lực nào. Reigen dùng Mob để kiếm tiền từ việc trừ tà. Anh là kẻ nói dối, ham tiền, tự cao.
+Mùa ba có hai phần. Phần đầu: Mob phải nghĩ đến tương lai, tờ phiếu hướng nghiệp trống trơn, và một cái cây thần mọc lên giữa thành phố, kéo theo một giáo phái mới. Dimple, con linh hồn tự xưng là "bạn" của Mob suốt ba mùa, có những lựa chọn khiến mình bất ngờ.
 
-Nhưng Reigen cũng là người thầy tốt nhất mà Mob có. Anh không có siêu năng lực, vì vậy anh dạy Mob những điều mà sức mạnh không thể dạy: cách nói chuyện với người khác, cách tôn trọng bản thân, cách sống như một con người bình thường. Lời dạy nổi tiếng nhất của Reigen: siêu năng lực chỉ là một đặc điểm, như chạy nhanh hay hát hay. Nó không làm ai cao quý hơn người khác.
+Phần hai mới là trái tim: Mob quyết định tỏ tình với **Tsubomi**, cô bạn thanh mai trúc mã mà cậu thích từ nhỏ. Và trước khi cậu kịp làm điều đó, thứ cảm xúc cậu kìm nén suốt bao năm thoát ra ngoài.
 
-Takahiro Sakurai lồng tiếng Reigen, và anh là nhân vật mình yêu nhất trong cả series. Một kẻ lừa đảo, nhưng là một người lớn tốt.
+### 84%
 
-## Mùa ba: Mob thất tình
+Mình không kể chi tiết phần này. Chỉ nói rằng trận chiến cuối cùng của Mob Psycho 100 không được thắng bằng nắm đấm. Một bài review gọi đó là chiến thắng có được bằng cách mở lòng, và chấp nhận những phần của bản thân mà mình từng sợ hãi. Mình không nghĩ có cách nói nào hay hơn.
 
-Mùa ba có hai arc. Arc đầu là một cuộc chiến với một giáo phái. Nhưng arc thứ hai là thứ làm mùa ba đáng nhớ: **Mob quyết định tỏ tình** với Tsubomi, cô bạn thời thơ ấu mà cậu thích suốt cả series.
+Và **Reigen Arataka**, "bậc thầy" lừa đảo không có chút siêu năng lực nào, người thầy tệ nhất và tốt nhất mà Mob có thể có, một lần nữa làm điều duy nhất anh làm giỏi: đứng ra trước mặt Mob khi Mob cần.
 
-Nghe thì đơn giản. Nhưng Tsubomi sắp chuyển đi, và Mob chỉ còn một cơ hội. Trên đường đến gặp cô, một sự cố khiến Mob mất ý thức. Và siêu năng lực của cậu, một phần cảm xúc bị kìm nén suốt cả series, tách ra thành một thực thể riêng, gọi là "???%", và bắt đầu đi đến chỗ Tsubomi, phá hủy cả thành phố trên đường đi.
+### 100%
 
-## Reigen bước vào
+Mob Psycho 100 kết thúc bằng một thông điệp đơn giản đến mức gần như ngây thơ: bạn không cần siêu năng lực để trở thành một người tốt. Và bạn không cần kìm nén cảm xúc để không làm tổn thương người khác. Bạn chỉ cần học cách sống cùng nó.
 
-Cao trào của cả series: thành phố bị phá hủy, những pháp sư mạnh nhất không thể ngăn cản "???%". Và Reigen, kẻ không có siêu năng lực, bước đến trước sức mạnh khổng lồ đó, và nói chuyện với nó, như anh vẫn luôn nói chuyện với Mob.
+Mob mạnh nhất thế giới. Nhưng điều cậu thật sự cần học suốt ba mùa là cách bị từ chối, cách buồn, và cách để bạn bè ở bên mình khi buồn.
 
-Anh xin lỗi Mob vì đã dối trá. Anh nói rằng Mob đã trưởng thành rồi, và anh tự hào về cậu. Và anh nói rằng Mob không cần phải là "con người tốt" để được yêu thương. Rằng tất cả cảm xúc của Mob, cả những cảm xúc tối tăm, đều là của Mob.
+9 điểm. Có người thấy mùa ba chậm và ít hành động hơn hai mùa trước, và điều đó đúng. Nhưng đây là cái kết mà Mob xứng đáng.
 
-Mob, cuối cùng, chấp nhận phần siêu năng lực của mình. Cậu không còn tách nó ra như một thứ đáng sợ. Đó là sự trưởng thành.
+---
 
-## Lời tỏ tình
+*Nguồn tham khảo:*
 
-Rồi Mob đến gặp Tsubomi. Cậu tỏ tình. Và cô từ chối, nhẹ nhàng.
-
-Mình yêu khoảnh khắc này. Mob đã có sức mạnh để làm bất cứ điều gì. Cậu có thể đã dùng nó. Nhưng cậu đã tỏ tình như một cậu bé bình thường, và bị từ chối như một cậu bé bình thường. Và cậu ổn. Bạn bè đến an ủi cậu, mua đồ ăn cho cậu. Cuộc sống tiếp tục.
-
-Đây là thông điệp mà mình nghĩ cả series muốn nói: **bạn không cần siêu năng lực để trở thành chính mình**. Bạn cũng không cần thành công, không cần được yêu lại. Bạn chỉ cần dám đối diện với cảm xúc của mình.
-
-## Vì sao mình chấm 9
-
-Mob Psycho 100 có những cảnh chiến đấu được hoạt hình đẹp nhất của Bones, với phong cách vẽ thay đổi liên tục, từ tranh nước đến sơn dầu. Nhạc của Kenji Kawai và bài mở đầu của MOB CHOIR thì không thể quên.
-
-Mình chấm 9 vì arc đầu mùa ba hơi chậm. Nhưng cái kết của Mob Psycho là một trong những cái kết hay nhất của anime: không phải một trận chiến hoành tráng, mà là một cậu bé dám nói ra cảm xúc của mình. Và được ôm bởi những người yêu thương cậu.
+- [Mob Psycho 100](https://en.wikipedia.org/wiki/Mob_Psycho_100) — Wikipedia
+- [Mob Psycho 100 Anime Gets 3rd Season With New Director](https://www.animenewsnetwork.com/news/2021-10-19/mob-psycho-100-anime-gets-3rd-season-with-new-director/.178593) — Anime News Network
+- [Mob Psycho 100 Season 3 Reveals Opening, October 5 Premiere](https://animecorner.me/mob-psycho-100-season-3-reveals-opening-october-5-premiere) — Anime Corner
+- [Mob Psycho 100 III Review – A Pitch-Perfect Ending to an Iconic Anime](https://honeysanime.com/mob-psycho-100-iii-review-a-pitch-perfect-ending-to-an-iconic-anime) — Honey's Anime
+- [Mob Psycho 100 season 3 review – a slow but satisfying conclusion](https://readysteadycut.com/2022/11/30/mob-psycho-100-season-3-review) — Ready Steady Cut
+- [English Dub Season Review: Mob Psycho 100 Season 3](https://www.bubbleblabber.com/english-dub-season-review-mob-psycho-100-season-3) — Bubbleblabber

@@ -1,68 +1,64 @@
 ---
-title: "Owarimonogatari | 終物語 | Ougi Và Sự Thật Về Araragi"
-description: "Analysis — Akiyuki Shinbo, NISIOISIN"
-tags: ["Analysis", "Character", "Monogatari"]
+title: "Owarimonogatari | 終物語 | Biên Bản Một Phiên Tòa Lớp Học"
+description: "Biên bản — NISIOISIN, Akiyuki Shinbo, Shaft"
+tags: ["Review", "Monogatari"]
 related_media: ["anime:owarimonogatari"]
 date: 2026-11-17
 ---
 ![Poster Owarimonogatari](https://cdn.myanimelist.net/images/anime/8/76479.jpg)
 
-# OWARIMONOGATARI: OUGI VÀ SỰ THẬT VỀ ARARAGI
+> [!warning] Có spoiler về arc Ougi Formula và Sodachi.
 
-> [!info] Anime
-> **Owarimonogatari**
-> 終物語
-> **Đạo diễn:** Akiyuki Shinbo, Tomoyuki Itamura
-> **Nguyên tác:** light novel của NISIOISIN
-> **Seiyuu:** Hiroshi Kamiya (Koyomi Araragi), Mai Kanazawa (Ougi Oshino), Chiwa Saito (Hitagi Senjougahara), Inori Minase (Sodachi Oikura)
-> **Studio:** Shaft
-> **Số tập:** 12 tập (mùa 1)
-> **Năm phát hành:** 2015
-> **Quốc gia:** Nhật Bản
-> **Thể loại:** Mystery, Psychological, Supernatural
+---
 
-> [!warning] Spoilers Monogatari series đến Owarimonogatari
+**BIÊN BẢN**
 
-Monogatari là series mà mình nghĩ rất khó giới thiệu. Nó có những cuộc đối thoại kéo dài hàng chục phút với những trò chơi chữ tiếng Nhật không dịch được. Nó có phong cách hình ảnh cực kỳ khác thường của Shaft: những khung chữ đỏ, những góc máy nghiêng đầu, những tòa nhà không có người. Và nó có những cảnh fanservice làm nhiều người khó chịu.
+**Vụ việc:** Bài kiểm tra toán bị lộ đề. Một nhóm học sinh được cho là đã có đáp án trước.
 
-Nhưng Owarimonogatari, "câu chuyện kết thúc", là phần mà mình nghĩ Monogatari cuối cùng cũng nói thẳng điều mà cả series đã gợi ý: **Koyomi Araragi, người luôn cứu giúp người khác, chưa bao giờ đối diện với chính mình.**
+**Thời điểm:** Hai năm trước, khi Araragi Koyomi còn là học sinh năm nhất.
 
-## Araragi: người hùng tự hủy hoại
+**Chủ tọa:** Lớp trưởng **Oikura Sodachi**.
 
-Suốt những phần trước, Araragi là "người hùng". Anh giúp những cô gái bị quái dị (kaii) đeo bám: Senjougahara không có trọng lượng, Hachikuji lạc đường, Kanbaru có cánh tay khỉ, Nadeko bị rắn quấn. Anh giúp họ không cần lý do, thường là bằng cách tự làm tổn thương bản thân, vì anh là nửa ma cà rồng, có thể hồi phục.
+**Thủ tục:** Không ai được rời khỏi lớp cho đến khi tìm ra thủ phạm.
 
-Nhưng có một vấn đề: Araragi giúp người khác không phải vì anh mạnh mẽ, mà vì anh không coi trọng bản thân. Anh lao vào nguy hiểm vì anh không nghĩ mạng sống của mình đáng giá. Đó không phải anh hùng. Đó là tự hủy hoại.
+**Phương pháp phán quyết:** Bỏ phiếu theo đa số.
 
-## Sodachi
+**Nhân chứng hiện tại:** Araragi Koyomi, năm ba, và **Oshino Ougi**, học sinh chuyển trường, tự xưng là cháu gái của Oshino Meme. Hai người bị nhốt trong một lớp học không có lối ra, và Ougi yêu cầu Araragi kể lại chuyện đã xảy ra.
 
-Arc đầu tiên của Owarimonogatari giới thiệu **Sodachi Oikura**, một bạn cùng lớp cũ của Araragi, người căm ghét anh. Cô quay lại trường sau hai năm nghỉ học, và lật lại một sự kiện mà Araragi đã quên: một cuộc họp lớp thời trung học, nơi cả lớp bị nhốt trong phòng cho đến khi tìm ra "thủ phạm" gian lận trong kỳ thi.
+---
 
-Sodachi là một nhân vật bi kịch. Cô lớn lên trong một gia đình bạo hành, và từng được một người lạ giúp đỡ trong những ngày đen tối nhất. Cô tin rằng người đó là Araragi, và căm ghét anh vì anh không nhớ, vì anh có cuộc sống hạnh phúc trong khi cô thì không.
+**Ghi chú của người viết**
 
-Arc này cho thấy một mặt khác của Araragi: anh không phải lúc nào cũng cứu được người khác. Có những người anh đã không nhìn thấy, đã quên mất. Và việc anh không nhớ là một vết thương với họ.
+Owarimonogatari mở đầu bằng một thứ rất không giống Monogatari: không quái dị, không cô gái bị ám, chỉ là một lớp học, một bài kiểm tra, và một cuộc bỏ phiếu. Nhưng nó là arc đáng sợ nhất của cả series.
 
-## Ougi Oshino
+Một bài phân tích tóm tắt chủ đề của arc này bằng một câu: đây là câu chuyện về quy tắc đa số, phương pháp duy nhất có thể biến cả một sai lầm thành sự thật. Cả lớp không cần biết ai thật sự có lỗi. Họ chỉ cần một cái tên mà đa số đồng ý.
 
-Nhân vật trung tâm của Owarimonogatari là **Ougi Oshino**, một học sinh bí ẩn tự xưng là cháu gái của Meme Oshino, chuyên gia quái dị đã giúp Araragi ở những phần đầu. Ougi luôn mặc đồng phục đen, mắt đen sâu thẳm, cười theo cách khó chịu. Cô xuất hiện ở mọi nơi Araragi đi, đặt câu hỏi, dẫn dắt anh vào những bí ẩn.
+Và Araragi, năm nhất, ngồi trong căn phòng đó. Không nói gì. Đó là ngày, theo lời Ougi, Araragi lần đầu mất niềm tin vào lẽ phải. Cũng là lý do anh trở thành cậu học sinh cô độc mà ta gặp ở đầu *Bakemonogatari*, người tuyên bố mình "không cần bạn bè vì có bạn sẽ làm giảm cường độ con người".
 
-Mai Kanazawa lồng tiếng Ougi xuất sắc, với một giọng nói vừa ngọt ngào vừa đáng sợ. Mình thấy Ougi là một trong những nhân vật ấn tượng nhất trong toàn bộ Monogatari.
+**Sodachi**
 
-## Ougi là ai?
+Oikura Sodachi, do Inori Minase lồng tiếng, ghét Araragi. Ghét một cách công khai, dữ dội, không giải thích. Arc *Sodachi Riddle* và *Sodachi Lost* trả lời vì sao: cô và Araragi có chung một quá khứ mà anh đã quên, và gia đình cô là một vết thương mà anh chưa từng phải mang. Cô ghét anh vì anh hạnh phúc mà không biết mình may mắn thế nào.
 
-*(Spoiler lớn)* Ở cuối series, sự thật được hé lộ: Ougi không phải cháu của Oshino. Ougi là **chính Araragi**. Cụ thể hơn, là phần trong Araragi tự trừng phạt bản thân, phần mà anh luôn kìm nén: sự tự ghét, sự hối hận, sự nghi ngờ bản thân. Một quái dị sinh ra từ chính anh.
+Mình không nhớ có nhân vật nào trong Monogatari làm mình thấy khó chịu và thương nhiều như Sodachi.
 
-Ougi muốn "sửa chữa" những gì Araragi đã làm sai, những gì anh đã bỏ qua, những gì anh đã làm không đúng. Ougi là lương tâm méo mó của anh, thứ không tha thứ cho anh vì bất cứ điều gì.
+**Ougi**
 
-Mình thấy đây là twist hay nhất của Monogatari. Suốt cả series, Araragi đã giúp người khác đối mặt với "quái dị" của họ, những thứ thực ra là biểu hiện của những vấn đề tâm lý bên trong họ. Và cuối cùng, anh phải đối mặt với quái dị của chính mình.
+Còn Ougi thì sao? Cô bé luôn mỉm cười, nói "Em không biết gì cả, chính anh mới là người biết", và luôn đứng trong bóng tối của căn phòng. Mình sẽ không nói Ougi là ai. Chỉ nói rằng cô không hỏi Araragi những câu hỏi mà cô không biết câu trả lời. Cô hỏi để anh phải tự nói ra điều anh đã chôn giấu.
 
-## Hitagi
+---
 
-Phần cuối của câu chuyện, ở Owarimonogatari mùa hai (arc Hitagi Rendezvous và Ougi Dark), giải quyết vấn đề này theo một cách mà mình thấy rất đẹp: Araragi không đánh bại Ougi. Anh **chấp nhận** cô. Anh chấp nhận rằng mình có những sai lầm, những hối tiếc, nhưng anh có thể sống với chúng.
+**Phán quyết**
 
-Và người giúp anh làm điều đó là Hitagi Senjougahara, người yêu của anh, người con gái đầu tiên anh cứu, giờ là người cứu anh.
+Shaft biến lớp học thành một không gian tối, chật, những dãy bàn trống, những con số trên bảng đen. Anime News Network nhận xét rằng cách dàn dựng u ám và hoạt họa nhân vật gây khó chịu làm cho sự áp đảo của Ougi luôn hiện diện. Và đó là lý do Owarimonogatari phần một hay đến vậy: lần đầu tiên, quái dị trong Monogatari không phải một con mèo hay một con cua. Nó là quá khứ của chính nhân vật chính.
 
-## Vì sao mình chấm 9
+9 điểm. Một arc chỉ có hai người và một căn phòng, mà vẫn là một trong những phần đáng nhớ nhất của cả series.
 
-Monogatari không dành cho tất cả mọi người, và Owarimonogatari càng không: bạn cần xem những phần trước để hiểu nó, và bạn cần kiên nhẫn với những đoạn hội thoại dài.
+---
 
-Nhưng mình chấm 9 vì Owarimonogatari là nơi Monogatari tìm thấy ý nghĩa của chính nó. Một series về những quái dị, mà quái dị lớn nhất hóa ra là thứ nằm bên trong nhân vật chính. Và câu trả lời không phải là tiêu diệt nó, mà là học cách sống với nó.
+*Nguồn tham khảo:*
+
+- [Owarimonogatari Blu-ray 1 Review](https://www.animenewsnetwork.com/review/owarimonogatari/sub.blu-ray-1/.109806) — Anime News Network
+- [Owarimonogatari, Part One – Review](https://wrongeverytime.com/2016/12/13/owarimonogatari-part-one-review/) — Wrong Every Time
+- [Owarimonogatari: The Mathematics of Happiness and Misery](https://mageinabarrel.com/2015/12/12/owarimonogatari-the-mathematics-of-happiness-and-misery/) — Mage in a Barrel
+- [Owarimonogatari Part 1 Review](https://medium.com/anitay-official/monogatari-final-season-owarimonogatari-part-1-review-in-which-doctorkev-learns-that-even-9c2c23e59c0) — Anitay
+- [Review/discussion about: Owarimonogatari](https://thechuunicorner.com/2016/07/07/reviewdiscussion-about-owarimonogatari/) — The Chuu Corner
