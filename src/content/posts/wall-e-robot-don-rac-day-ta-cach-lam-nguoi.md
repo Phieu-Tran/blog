@@ -1,70 +1,57 @@
 ---
-title: "WALL-E | Robot Biết Yêu | Robot Dọn Rác Dạy Ta Cách Làm Người"
-description: "Analysis — Andrew Stanton, Pixar"
-tags: ["Analysis", "Theme", "Animation"]
+title: "WALL-E | Robot Biết Yêu | Nghe WALL-E"
+description: "Ghi chép — Andrew Stanton, Pixar"
+tags: ["Review", "Animation"]
 related_media: ["films:walle"]
 date: 2026-11-17
 ---
 ![Poster WALL-E](https://image.tmdb.org/t/p/w500/jNPu8FFumN2gTdUn4Np4kFVobtU.jpg)
 
-# WALL-E: ROBOT DỌN RÁC DẠY TA CÁCH LÀM NGƯỜI
+Nửa đầu WALL-E gần như không có lời thoại. Một con robot lăn trên núi rác, ép rác thành khối vuông, về nhà xem băng *Hello, Dolly!*. Vậy mà ta hiểu hết nó nghĩ gì, cảm thấy gì.
 
-> [!info] Phim
-> **WALL-E** (Robot Biết Yêu)
-> **Đạo diễn:** Andrew Stanton
-> **Kịch bản:** Andrew Stanton, Jim Reardon
-> **Lồng tiếng:** Ben Burtt (WALL-E), Elissa Knight (EVE), Jeff Garlin (Captain), Fred Willard (Shelby Forthright)
-> **Studio:** Pixar
-> **Nhạc:** Thomas Newman
-> **Thời lượng:** 98 phút
-> **Năm phát hành:** 2008
-> **Quốc gia:** Mỹ
-> **Thể loại:** Animation, Sci-Fi, Romance
+Lý do là **âm thanh**. Nên bài này mình viết về những gì ta *nghe* trong WALL-E.
 
-> [!warning] Spoilers
+---
 
-40 phút đầu của WALL-E gần như không có lời thoại. Chỉ có một con robot nhỏ, lăn trên đống rác cao như núi, ép rác thành khối vuông, xếp chúng thành tòa tháp. Về nhà, nó xem đi xem lại một đoạn băng cũ của vở nhạc kịch *Hello, Dolly!*, nắm tay chính mình như hai người yêu trong phim.
+**Giọng của WALL-E là của một người làm âm thanh**
 
-Mình nghĩ 40 phút đó là đoạn mở đầu đẹp nhất trong lịch sử phim hoạt hình. Và toàn bộ WALL-E là câu chuyện về một điều kỳ lạ: **con robot là sinh vật có nhân tính nhất trong phim, còn con người thì gần như đã quên mất cách làm người.**
+WALL-E không có diễn viên lồng tiếng theo kiểu thông thường. Giọng của nó, cái tiếng "Waaa-lee" khàn khàn, những tiếng bíp, tiếng rì rì khi nó tò mò, là của **Ben Burtt**, nhà thiết kế âm thanh huyền thoại, người tạo ra tiếng R2-D2, tiếng kiếm laser, tiếng thở của Darth Vader trong *Star Wars*. Pixar ghi ông là "nhà thiết kế âm thanh và giọng nhân vật". Ông còn lồng tiếng cả M-O, con robot lau dọn bé xíu bị ám ảnh bởi bụi bẩn.
 
-## Trái Đất bỏ hoang
+**2.400 âm thanh**
 
-Năm 2805. Trái Đất bị bỏ lại, chất đầy rác thải của một nền văn minh tiêu dùng. Tập đoàn Buy n Large, công ty đã trở thành chính phủ, đưa toàn bộ loài người lên những con tàu du lịch khổng lồ trong không gian, để lại hàng triệu robot WALL-E dọn dẹp. Kế hoạch dự kiến 5 năm. Đã 700 năm trôi qua.
+Theo các tư liệu, Burtt tạo ra một thư viện khoảng 2.400 âm thanh cho WALL-E, nhiều nhất trong mọi phim ông từng làm. Và nhiều âm thanh đến từ những đồ vật bình thường nhất:
 
-Giờ chỉ còn một WALL-E hoạt động. Nó sống sót bằng cách tháo bộ phận từ những robot hỏng. Bạn duy nhất của nó là một con gián.
+- Một chiếc **bàn chải đánh răng điện**.
+- Những chiếc **xe đẩy siêu thị** đập vào nhau.
+- Tiếng **màn trập máy ảnh Nikon**, dùng cho chuyển động của "lông mày" WALL-E.
 
-## WALL-E có nhân tính
+Mình thích chi tiết cuối nhất. Mỗi lần WALL-E nheo mắt, nhíu mày, ta đang nghe tiếng một chiếc máy ảnh chụp. Một con robot nhặt nhạnh những thứ con người vứt đi, được tạo ra từ âm thanh của những thứ con người dùng mỗi ngày.
 
-Điều tuyệt vời nhất ở WALL-E là nó đã phát triển những điều mà không robot nào được thiết kế để có: **sự tò mò** và **khả năng yêu thương**.
+**Hello, Dolly!**
 
-Khi dọn rác, nó nhặt lại những thứ nó thấy thú vị: một chiếc bật lửa, một khối Rubik, một chiếc nhẫn kim cương (nó vứt viên kim cương đi và giữ lại chiếc hộp). Nó sắp xếp chúng trên kệ trong ngôi nhà của mình. Nó không hiểu chúng là gì, nhưng nó trân trọng chúng.
+Thứ quý nhất trong bộ sưu tập của WALL-E là một cuộn băng VHS cũ của vở nhạc kịch *Hello, Dolly!* (1969). Nó xem đi xem lại cảnh hai người nắm tay nhau, rồi tự nắm tay chính mình.
 
-Mình thấy đây là chi tiết đẹp nhất. Con người đã vứt bỏ tất cả những thứ đó như rác. WALL-E là sinh vật duy nhất trên Trái Đất còn nhìn thấy giá trị của chúng.
+Andrew Stanton kể chính bài hát mở đầu của vở nhạc kịch đó, cái giọng hát *Hello, Dolly* cũ kỹ, là thứ khiến ông kết nối được với nhân vật WALL-E. Một bài hát vui tươi từ một bộ phim cũ, vang lên giữa một Trái Đất bỏ hoang, đó là trái tim của cả bộ phim.
 
-Và khi EVE, một robot thăm dò bóng bẩy, xuất hiện, WALL-E yêu cô ngay lập tức. Nó theo đuổi cô một cách vụng về, cho cô xem những báu vật của mình, che ô cho cô khi cô "ngủ" suốt nhiều ngày. Nó chỉ muốn một điều: nắm tay cô, như trong đoạn phim cũ.
+**Con người thì nói nhiều mà không nói gì**
 
-## Con người trên tàu Axiom
+Đến nửa sau, WALL-E lên tàu Axiom, và ta gặp con người. Họ nói chuyện liên tục, nhưng qua màn hình, với người ngồi ngay bên cạnh. Mọi thứ đều có tiếng: quảng cáo, thông báo, nhạc nền. Nhưng không có cuộc trò chuyện nào thật.
 
-Khi WALL-E theo EVE lên tàu Axiom, ta gặp loài người. Và đó là một hình ảnh vừa hài hước vừa đáng sợ.
+Có một chi tiết mà nhiều người không để ý: những đoạn video quảng cáo của tập đoàn Buy n Large trên Trái Đất được quay bằng **người thật**, với Fred Willard đóng vai giám đốc điều hành Shelby Forthright. Con người duy nhất "thật" trong phim là một đoạn băng ghi hình từ 700 năm trước, đang nói dối.
 
-Con người sau 700 năm trong không gian đã trở nên béo phì, không thể đi lại, nằm trên những chiếc ghế bay. Họ không bao giờ nhìn nhau. Mỗi người nhìn vào màn hình trước mặt, trò chuyện với người ngồi ngay bên cạnh qua video call. Mọi nhu cầu của họ đều được máy móc đáp ứng. Họ không biết bơi, không biết hồ bơi ở ngay đó.
+---
 
-Phim ra mắt năm 2008, trước khi smartphone và mạng xã hội bùng nổ. Nhưng xem lại bây giờ, mình thấy nó giống một lời tiên tri.
+Robot gần như không nói thì đầy cảm xúc. Con người nói không ngừng thì trống rỗng. Mình nghĩ WALL-E dùng âm thanh để nói điều đó rõ hơn bất kỳ câu thoại nào.
 
-## WALL-E đánh thức con người
+9 điểm. Lần tới xem lại, thử nhắm mắt ở mấy cảnh đầu. Bạn vẫn sẽ hiểu WALL-E đang nghĩ gì.
 
-Điều kỳ diệu là: WALL-E, chỉ bằng việc là chính mình, đã đánh thức những người xung quanh. Nó vô tình va vào John, khiến anh rơi khỏi ghế và lần đầu tiên nhìn thấy thế giới xung quanh, thấy hồ bơi, thấy những ngôi sao. Rồi John gặp Mary, người cũng vừa được "đánh thức". Họ nắm tay nhau.
+---
 
-Và vị thuyền trưởng, khi xem thông tin về Trái Đất mà EVE mang về, bắt đầu tò mò. Ông học từ "đất", "khiêu vũ", "nông trại". Ông muốn về nhà. Trong cảnh mình thích nhất, ông đứng dậy trên đôi chân của chính mình lần đầu tiên, chống lại tay lái tự động AUTO, với bài *Also sprach Zarathustra* vang lên, như cảnh trong *2001: A Space Odyssey*. Một con người đứng thẳng là một bước tiến hóa mới.
+*Nguồn tham khảo:*
 
-## Cái cây nhỏ
-
-Thứ mà EVE được cử đi tìm là bằng chứng rằng sự sống đã có thể quay lại Trái Đất: một cái cây nhỏ, mọc trong chiếc giày cũ mà WALL-E nhặt được.
-
-Mình thấy đây là biểu tượng đẹp nhất: sự sống mọc lên từ rác thải, được bảo vệ bởi một con robot dọn rác. Không phải công nghệ cao, không phải tập đoàn lớn, mà là sự kiên nhẫn và tình yêu với những thứ nhỏ bé.
-
-## Vì sao mình chấm 9
-
-WALL-E có lẽ là phim Pixar hay nhất về mặt nghệ thuật. Ben Burtt, nhà thiết kế âm thanh của *Star Wars*, tạo ra giọng nói của WALL-E chỉ bằng những tiếng bíp và tiếng máy móc, vậy mà nó biểu cảm hơn nhiều nhân vật có thoại.
-
-Mình chấm 9 vì nửa sau phim, trên tàu Axiom, quen thuộc hơn và ít độc đáo hơn nửa đầu. Nhưng thông điệp của nó, về việc đừng để công nghệ và sự tiện nghi làm ta quên mất cách sống, mình nghĩ ngày càng đúng hơn. Lần tới khi thấy mình đang nhìn vào màn hình trong khi người mình yêu ngồi ngay bên cạnh, hãy nhớ đến John và Mary.
+- [WALL-E](https://pixar.com/feature-films/walle) — Pixar
+- [10 Space-Age Facts About WALL-E](https://mentalfloss.com/article/70024/10-space-age-facts-about-walle) — Mental Floss
+- [Sound design of WALL-E](https://makezine.com/article/craft/sound-design-of-walle) — Make
+- [Pixar Brought In A Star Wars Heavyweight For Some Help On WALL-E](https://www.slashfilm.com/915067/pixar-brought-in-a-star-wars-heavyweight-for-some-help-on-wall-e) — /Film
+- [WALL-E press conference with Andrew Stanton and Ben Burtt](https://eyeforfilm.co.uk/feature/2008-07-18-walle-press-conference-with-sigourney-weaver-andrew-stanton-ben-burtt-jim-morris-feature-story-by-katy-carter) — Eye for Film
+- [Thinking through sound: Ben Burtt and the voice of WALL-E](https://news.symbolicsound.com/?p=4035) — Symbolic Sound
