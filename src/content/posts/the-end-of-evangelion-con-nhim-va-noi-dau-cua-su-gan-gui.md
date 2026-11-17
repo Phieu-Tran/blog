@@ -1,71 +1,61 @@
 ---
-title: "The End of Evangelion | 新世紀エヴァンゲリオン劇場版 Air/まごころを、君に | Con Nhím Và Nỗi Đau Của Sự Gần Gũi"
-description: "Analysis — Hideaki Anno"
-tags: ["Analysis", "Psychological", "Evangelion"]
+title: "The End of Evangelion | 新世紀エヴァンゲリオン劇場版 | Mấy Câu Hỏi Về Cái Kết Thứ Hai"
+description: "Hỏi đáp — Hideaki Anno"
+tags: ["Explained", "Evangelion"]
 related_media: ["anime:neon-genesis-evangelion-the-end-of-evangelion", "anime:neon-genesis-evangelion-death-rebirth"]
 date: 2026-11-17
 ---
 ![Poster The End of Evangelion](https://cdn.myanimelist.net/images/anime/1404/98182.jpg)
 
-# THE END OF EVANGELION: CON NHÍM VÀ NỖI ĐAU CỦA SỰ GẦN GŨI
+Mình đã có một bài dài về Neon Genesis Evangelion và Kierkegaard rồi, nên bài này không phân tích lại từ đầu. Đây là mấy câu hỏi mà người mới xem The End of Evangelion hay thắc mắc nhất, kèm câu trả lời theo những gì mình tìm hiểu được.
 
-> [!info] Anime
-> **Neon Genesis Evangelion: The End of Evangelion**
-> 新世紀エヴァンゲリオン劇場版 Air/まごころを、君に
-> **Đạo diễn:** Hideaki Anno, Kazuya Tsurumaki
-> **Seiyuu:** Megumi Ogata (Shinji), Yuko Miyamura (Asuka), Megumi Hayashibara (Rei), Kotono Mitsuishi (Misato)
-> **Studio:** Gainax, Production I.G
-> **Nhạc:** Shiro Sagisu
-> **Thời lượng:** 87 phút
-> **Năm phát hành:** 1997
-> **Quốc gia:** Nhật Bản
-> **Thể loại:** Psychological, Mecha, Drama
-> **Xem kèm:** *Death & Rebirth* (1997), bản tóm tắt series kèm phần đầu của End of Evangelion
+---
 
-> [!warning] Spoilers toàn bộ Neon Genesis Evangelion
+**Sao Evangelion lại có hai cái kết?**
 
-Mình đã viết một bài dài về Neon Genesis Evangelion và triết học của Kierkegaard. Bài này mình muốn nói riêng về *The End of Evangelion*, bộ phim mà Hideaki Anno làm ra sau khi hai tập cuối của series bị chỉ trích dữ dội, và cũng là bộ phim khiến không ít khán giả thời đó cảm thấy bị chính đạo diễn tấn công.
+Tập 25 và 26 của series TV năm 1996 diễn ra gần như hoàn toàn trong đầu Shinji: tranh phác thảo, chữ chạy trên màn hình, những câu hỏi tâm lý, rồi mọi người vỗ tay "Chúc mừng". Rất nhiều người xem thấy bị hụt.
 
-Trước khi vào End of Evangelion, Gainax ra mắt *Death & Rebirth*: phần "Death" tóm tắt series, phần "Rebirth" là đoạn đầu của câu chuyện mới. Bản thân Death & Rebirth không đứng một mình được, nhưng nó cho thấy Anno đã muốn kể lại cái kết từ rất sớm. End of Evangelion là câu trả lời hoàn chỉnh.
+Lý do thì đến giờ vẫn còn tranh cãi. Có nguồn nói Gainax hết tiền và hết thời gian nên phải làm kết đơn giản. Anno thì nói khác, rằng cái kết đó chỉ đơn giản là "phản ánh tâm trạng của tôi lúc đó". Sau đó Gainax làm một bộ phim để Anno có thời gian và tự do kể lại cái kết. Đầu tiên là *Death & Rebirth* (1997), nửa đầu tóm tắt series, nửa sau là đoạn mở đầu của câu chuyện mới. Rồi đến *The End of Evangelion* cùng năm, cái kết hoàn chỉnh.
 
-## Hai cái kết của cùng một câu chuyện
+**Vậy cái nào là kết "thật"?**
 
-Tập 25 và 26 của series gốc diễn ra hoàn toàn trong tâm trí Shinji: những bức vẽ phác thảo, chữ trên màn hình, những câu hỏi tâm lý. Cuối cùng Shinji chấp nhận bản thân, mọi người vỗ tay "Chúc mừng". Nhiều người coi đó là cái kết lười biếng vì Gainax hết tiền.
+Cả hai. Cách hiểu phổ biến nhất (dù đội sản xuất chưa bao giờ xác nhận chính thức) là: phim kể phần *bên ngoài* của Third Impact, còn hai tập cuối TV kể phần *bên trong*, những gì diễn ra trong tâm trí Shinji cùng lúc đó. Xem cả hai mới thấy đủ.
 
-End of Evangelion kể lại *cùng sự kiện đó*, nhưng từ bên ngoài. Trong lúc Shinji đang trải qua cuộc "trị liệu" nội tâm kia, thế giới thực đang diễn ra: SEELE tấn công NERV, lính đặc nhiệm bắn chết nhân viên, Asuka chiến đấu với chín Eva hàng loạt, và loài người tan chảy thành LCL. Hai cái kết không mâu thuẫn. Chúng là hai mặt của một sự kiện, một bên là tâm hồn, một bên là thân xác.
+Có một khác biệt lớn: ở bản TV, Shinji chấp nhận bản thân, mọi người vỗ tay. Ở bản phim, Shinji *từ chối* Instrumentality, thế giới nơi mọi linh hồn hòa làm một, không còn ai cô đơn hay tổn thương. Cậu chọn quay về một thế giới có người khác, dù người khác có thể làm cậu đau.
 
-## Thế lưỡng nan của con nhím
+**Những lá thư dọa giết Anno có thật không?**
 
-Toàn bộ Evangelion xoay quanh một khái niệm được nhắc thẳng trong series: **thế lưỡng nan của con nhím** (Hedgehog's Dilemma) của Schopenhauer. Những con nhím muốn ở gần nhau để sưởi ấm, nhưng càng gần nhau thì gai của chúng càng làm nhau đau.
+Có, nhưng bị thổi phồng khá nhiều. Sau khi series kết thúc và sau *Death & Rebirth*, Anno và Gainax nhận được rất nhiều thư chỉ trích, một số có lời đe dọa, và văn phòng Gainax từng bị vẽ bậy bằng sơn đỏ. Trong End of Evangelion có một đoạn chiếu ảnh những lá thư đó.
 
-Mọi nhân vật trong Evangelion đều là những con nhím như vậy. Shinji sợ bị tổn thương nên chạy trốn. Asuka sợ bị bỏ rơi nên tấn công trước. Misato dùng tình dục để tránh sự gần gũi thực sự. Gendo hy sinh cả thế giới chỉ để gặp lại người vợ đã mất, vì ông không thể chịu nổi việc yêu một người còn sống, kể cả con trai mình.
+Nhưng EvaWiki, một trang fan rất kỹ tính, đã xem lại từng lá thư trong đoạn đó và chỉ ra rằng phần lớn *không phải* thư dọa giết. Nhiều lá thư thật ra viết sau *Death & Rebirth* chứ không phải sau series TV, và có cả thư khen Anno nữa. Mình thấy chi tiết này hay: một trong những "huyền thoại" nổi tiếng nhất của anime hóa ra không đúng hoàn toàn như người ta kể.
 
-Và **Human Instrumentality Project** (Kế hoạch Bổ Hoàn Nhân Loại) chính là lời giải "hoàn hảo" cho thế lưỡng nan đó: xóa bỏ ranh giới giữa các cá nhân, hợp nhất mọi linh hồn thành một. Không còn gai, không còn đau, không còn cô đơn. Nhưng cũng không còn "mình" và "người khác" nữa.
+**Bài hát vui vẻ lúc cả thế giới tan chảy là bài gì?**
 
-## Shinji ở tâm điểm
+*Komm, süsser Tod* (Đến đây, cái chết ngọt ngào), hát bằng tiếng Anh dù tên tiếng Đức. Giai điệu nghe rất tươi, gần như nhạc pop, đặt trên cảnh nhân loại tan thành chất lỏng LCL. Đây là một trong những đoạn đối lập hình và tiếng kỳ quặc nhất mình từng xem.
 
-Ở End of Evangelion, Shinji trở thành "người quyết định" của Instrumentality. Và lúc bắt đầu, cậu là phiên bản tệ nhất của mình. Cảnh mở đầu phim, nổi tiếng một cách tai tiếng, cho thấy Shinji làm một hành động đáng xấu hổ bên giường bệnh của Asuka đang hôn mê, rồi nói *"Mình thật tồi tệ."*
+**"Kimochi warui" ở cảnh cuối nghĩa là gì?**
 
-Nhiều người xem đến đây đã ghét Shinji. Mình nghĩ Anno cố ý. Ông không muốn ta thương hại Shinji như một nạn nhân. Ông muốn ta thấy Shinji như một con người thật: yếu đuối, ích kỷ, đáng thương và đáng ghét cùng một lúc. Suốt phim, Shinji không làm gì cả. Misato hy sinh để đưa cậu đến Eva, và cậu vẫn ngồi đó. Asuka chiến đấu đến chết, và cậu không đến kịp.
+Shinji tỉnh dậy trên bãi biển đỏ cạnh Asuka, bóp cổ cô, Asuka đưa tay vuốt má cậu, cậu khóc. Asuka nói *"Kimochi warui"*, thường được dịch là "kinh tởm" hay "thật khó chịu".
 
-## Thế giới không có gai
+Không có câu trả lời chính thức. Cách mình hiểu: Shinji chọn một thế giới có người khác, và người khác đầu tiên cậu gặp là Asuka, người không bao giờ nói điều cậu muốn nghe. Đó là phản ứng của một con người thật với một con người thật. Không hạnh phúc, nhưng thật. Một bài phân tích có nhận xét rằng Shinji chọn mở lòng để chịu tổn thương thay vì khép kín hoàn toàn, và chính điều đó là chiến thắng. Mình đồng ý.
 
-Khi Instrumentality diễn ra, mọi người tan chảy thành LCL, nhìn thấy hình ảnh người mình yêu nhất trước khi biến mất. Đây là những cảnh siêu thực nhất của anime: Rei khổng lồ, những cây thánh giá đỏ, bài *Komm, süsser Tod* vang lên với giai điệu vui vẻ trong lúc nhân loại kết thúc.
+**Có cần xem Death & Rebirth không?**
 
-Rồi Shinji, ở trong một thế giới không có ranh giới, phải chọn. Và cậu nhận ra: dù người khác có làm cậu đau, cậu vẫn muốn gặp lại họ. Một thế giới không có người khác thì cũng không có niềm vui khi được người khác chấp nhận. Shinji từ chối Instrumentality.
+Không bắt buộc. Nếu đã xem hết series thì nhảy thẳng vào End of Evangelion cũng được. Death & Rebirth chủ yếu có giá trị lịch sử.
 
-Mình coi đây là thông điệp quan trọng nhất của Evangelion: **nỗi đau của sự gần gũi là cái giá của việc được yêu thương**, và đó là cái giá đáng trả.
+**Rebuild và Thrice Upon a Time thì sao?**
 
-## "Kimochi warui"
+Đó là chuyện khác, 24 năm sau. Mình có bài riêng. Nói ngắn gọn: nếu End of Evangelion là Anno hét vào mặt khán giả, thì Thrice Upon a Time là Anno cuối cùng cũng nói được lời tạm biệt.
 
-Cảnh cuối, Shinji tỉnh dậy trên bãi biển đỏ, bên cạnh Asuka. Cậu bóp cổ cô. Asuka vuốt má cậu. Cậu khóc. Asuka nói: *"Kimochi warui"*, thường được dịch là "Kinh tởm" hay "Thật khó chịu".
+---
 
-Đây là một trong những cái kết bị tranh luận nhiều nhất lịch sử anime. Cách hiểu của mình: Shinji đã chọn một thế giới có người khác. Và người khác đầu tiên cậu gặp là Asuka, người sẽ không bao giờ tôn thờ cậu, sẽ nói thẳng cảm xúc thật của mình, kể cả khi điều đó làm cậu đau. Cậu bóp cổ cô để kiểm tra rằng cô có thật không, rằng cô có phản kháng không. Cái vuốt má của Asuka và lời nói "kinh tởm" không phải sự chấp nhận hay chối bỏ. Đó là phản ứng của một con người *thật* đối với một con người *thật*.
+Mười điểm. Không phải vì nó dễ xem.
 
-Không phải cái kết có hậu. Nhưng là cái kết chân thật nhất mà Anno có thể đưa ra.
+*Nguồn tham khảo:*
 
-## Vì sao mình chấm 10
-
-The End of Evangelion là bộ phim khó xem. Nó bạo lực, đầy những hình ảnh khó chịu, và có lúc như thể Anno đang hét vào mặt khán giả. Có một đoạn phim chiếu cảnh khán giả ngồi trong rạp, kèm những lá thư dọa giết mà Anno nhận được sau khi series kết thúc.
-
-Nhưng mình chấm 10 vì không có bộ anime nào khác dám đi sâu vào trầm cảm, cô đơn và nỗi sợ người khác như vậy, rồi vẫn kết luận rằng: hãy ra ngoài, gặp người khác, chấp nhận bị tổn thương. 24 năm sau, Anno sẽ kết thúc Evangelion một lần nữa, lần này nhẹ nhàng hơn, trong *Thrice Upon a Time*. Nhưng nếu không có End of Evangelion, cái kết đó sẽ không có ý nghĩa.
+- [End of Evangelion Death Threats](https://wiki.evageeks.org/End_of_Evangelion_Death_Threats) — EvaWiki
+- [The anime movie that used death threats to craft its most memorable scene](https://faroutmagazine.co.uk/the-anime-movie-that-used-death-threats-to-craft-its-most-memorable-scene/) — Far Out Magazine
+- [The Ending Of End Of Evangelion Explained](https://www.looper.com/377530/the-ending-of-end-of-evangelion-explained) — Looper
+- [There's No Wrong Way To Interpret Neon Genesis Evangelion](https://www.slashfilm.com/1014593/theres-no-wrong-way-to-interpret-neon-genesis-evangelion) — /Film
+- [The radical sincerity of Evangelion's final end](https://gizmodo.com/the-radical-sincerity-of-evangelions-final-end-1847498562) — Gizmodo
+- [The Meaning behind Evangelion](https://www.evamonkey.com/writings/leporati-matt-the-meaning-behind-evangelion.php) — Matt Leporati, EvaMonkey

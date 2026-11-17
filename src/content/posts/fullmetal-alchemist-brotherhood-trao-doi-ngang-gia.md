@@ -1,71 +1,57 @@
 ---
-title: "Fullmetal Alchemist: Brotherhood | 鋼の錬金術師 | Trao Đổi Ngang Giá"
-description: "Analysis — Yasuhiro Irie, Hiromu Arakawa"
-tags: ["Analysis", "Theme", "Character"]
-related_media: ["anime:fullmetal-alchemist-brotherhood"]
+title: "Fullmetal Alchemist: Brotherhood | 鋼の錬金術師 | Xem Bản 2003 Hay Brotherhood?"
+description: "Thảo Luận — Yasuhiro Irie, Hiromu Arakawa"
+tags: ["Thảo Luận", "Review"]
+related_media: ["anime:fullmetal-alchemist-brotherhood", "anime:fullmetal-alchemist"]
 date: 2026-11-17
 ---
 ![Poster Fullmetal Alchemist: Brotherhood](https://cdn.myanimelist.net/images/anime/1208/94745.jpg)
 
-# FULLMETAL ALCHEMIST: BROTHERHOOD — TRAO ĐỔI NGANG GIÁ
+Câu hỏi người mới hay hỏi nhất về Fullmetal Alchemist không phải "có hay không", mà là: **"Có hai bản, xem bản nào?"**
 
-> [!info] Anime
-> **Fullmetal Alchemist: Brotherhood**
-> 鋼の錬金術師 FULLMETAL ALCHEMIST
-> **Đạo diễn:** Yasuhiro Irie
-> **Nguyên tác:** manga của Hiromu Arakawa
-> **Seiyuu:** Romi Park (Edward), Rie Kugimiya (Alphonse), Shinichiro Miki (Roy Mustang)
-> **Studio:** Bones
-> **Nhạc:** Akira Senju
-> **Số tập:** 64 tập
-> **Năm phát hành:** 2009-2010
-> **Quốc gia:** Nhật Bản
-> **Thể loại:** Action, Adventure, Drama, Fantasy
+Nên bài này mình trả lời đúng câu đó.
 
-> [!warning] Spoilers
+---
 
-*"Con người không thể đạt được thứ gì mà không hy sinh một thứ gì đó. Để có được thứ gì, phải đánh đổi thứ có giá trị tương đương. Đó là Nguyên tắc Trao đổi Ngang giá của thuật giả kim."*
+Ngắn gọn trước: **xem Brotherhood**. Nếu thích, xem thêm bản 2003 sau.
 
-Câu mở đầu này của Alphonse Elric có lẽ là câu thoại nổi tiếng nhất trong anime. Nhưng điều làm Fullmetal Alchemist: Brotherhood trở thành bộ anime mình chấm 10 không phải vì nó lặp lại nguyên tắc đó, mà vì nó **dành 64 tập để chứng minh nguyên tắc đó không hoàn toàn đúng**.
+Còn đây là lý do.
 
-## Cái giá của việc muốn có lại mẹ
+Năm 2003, studio Bones làm anime Fullmetal Alchemist khi manga của Hiromu Arakawa vẫn đang ra. Anime chạy nhanh hơn truyện, nên khoảng nửa sau họ phải tự viết cốt truyện riêng. Kết quả là một bộ anime khác hẳn manga ở nửa cuối: phản diện cuối khác, các homunculus có nguồn gốc khác, và cái kết khác hoàn toàn.
 
-Câu chuyện bắt đầu bằng một tội lỗi. Hai anh em Edward và Alphonse, còn nhỏ, mất mẹ. Hai thiên tài thuật giả kim nhỏ tuổi quyết định làm điều cấm kỵ: tạo ra con người, để mang mẹ trở lại. Và họ trả giá: Ed mất một chân, Al mất toàn bộ cơ thể. Ed hy sinh thêm cánh tay phải để gắn linh hồn Al vào một bộ giáp sắt.
+Năm 2009, khi manga sắp kết thúc, Bones làm lại từ đầu với tên *Brotherhood*, lần này đi theo đúng manga đến chương cuối. 64 tập. Vì vậy Brotherhood được coi là bản "chính thống", còn bản 2003 là một câu chuyện riêng.
 
-Thứ họ nhận lại không phải là mẹ, mà là một sinh vật biến dạng, chết ngay lập tức. Đây là bài học đầu tiên của phim: Trao đổi Ngang giá không công bằng như ta nghĩ. Hai đứa trẻ trả giá quá đắt, và những gì nhận lại là con số không. **Thế giới không có nghĩa vụ phải công bằng với ta.**
+---
 
-## Hành trình tìm Hòn đá Triết gia
+Nhưng đừng nghĩ bản 2003 là bản lỗi. Nhiều người vẫn thích nó hơn, và có lý do.
 
-Để lấy lại cơ thể, Ed trở thành Nhà Giả Kim Quốc Gia, làm "chó của quân đội", và đi tìm Hòn đá Triết gia, thứ được cho là có thể bỏ qua Trao đổi Ngang giá. Và họ phát hiện ra sự thật kinh hoàng: Hòn đá được tạo ra từ **linh hồn con người**. Hàng nghìn sinh mạng bị cô đặc lại thành một viên đá đỏ.
+Bản 2003 u tối hơn, buồn hơn, ít đùa hơn. /Film có một bài nhân dịp 20 năm của nó, nói rằng bản 2003 đã dám né một cái kết có hậu. Nó tập trung vào hai anh em Elric nhiều hơn, chậm hơn, và cho phép những tập về nỗi đau của từng nhân vật kéo dài hơn. Nếu bạn thích kiểu bi kịch nặng nề, có thể bạn sẽ thích bản 2003 hơn.
 
-Đây là lúc bộ phim bắt đầu đi sâu vào chủ đề lớn hơn. Ed và Al có thể lấy lại cơ thể ngay lập tức nếu chấp nhận dùng Hòn đá. Nhưng điều đó nghĩa là dùng mạng sống của người khác để đổi lấy của mình. Hai anh em từ chối. Đây là lựa chọn đạo đức định nghĩa họ: họ thà ở mãi trong thân xác thiếu thốn còn hơn trở thành kẻ giết người.
+Còn Brotherhood thì rộng hơn hẳn. Câu chuyện đi ra ngoài Amestris, có nước Xing ở phía đông, có cả một âm mưu trải dài hàng trăm năm. Nhiều nhân vật hơn, nhiều trận đánh hơn, và hài hước hơn rất nhiều. Đổi lại, vài tập đầu của Brotherhood đi khá nhanh qua những sự kiện mà bản 2003 kể chậm và kỹ, nên người đã xem bản 2003 thấy hơi vội. Một số câu chuyện phụ trong bản 2003, như về Black Hayate hay Catherine Armstrong, cũng không có trong Brotherhood.
 
-## Những người lớn mang tội lỗi chiến tranh
+---
 
-Một điều mình đánh giá rất cao ở FMA:B là cách nó viết về chiến tranh. Cuộc nội chiến Ishval, nơi quân đội Amestris tàn sát cả một dân tộc, không phải phông nền. Nó là vết thương của hầu hết nhân vật người lớn.
+Nếu bắt mình chọn một lý do để xem Brotherhood, đó là **cái kết**.
 
-Roy Mustang, Riza Hawkeye, Armstrong, Marcoh, Kimblee: tất cả đều từng ở Ishval. Mỗi người mang tội lỗi theo một cách. Mustang muốn trở thành Quốc trưởng để không ai phải ra trận như vậy nữa. Hawkeye muốn được ở bên để bắn Mustang nếu anh đi sai đường. Armstrong mang mặc cảm vì đã bỏ trốn. Kimblee thì không có chút hối hận nào, và hắn là phản diện đáng sợ chính vì hắn thành thật về việc mình thích giết người.
+Mình không kể chi tiết, chỉ nói thế này: cả series bắt đầu bằng nguyên tắc *Trao đổi ngang giá*, "muốn có thứ gì, phải mất đi thứ có giá trị tương đương". Và Brotherhood kết thúc bằng việc Ed đưa ra một thứ để đổi mà suốt 64 tập ta tưởng anh không bao giờ từ bỏ. Đây là cái kết mà gần như ai xem cũng khen, và mình nghĩ nó là một trong những cái kết shounen hay nhất từng có.
 
-Và đối diện với họ là **Scar**, một người Ishval đã đi giết các Nhà Giả Kim Quốc Gia để báo thù. Scar là một trong những nhân vật mình thích nhất. Hắn bắt đầu như một kẻ sát nhân, nhưng dần học được rằng báo thù chỉ tạo ra thêm nhiều Scar khác. Cuối cùng, hắn dùng sức mạnh của mình không phải để hủy diệt, mà để cứu đất nước đã từng tàn sát dân tộc mình. Không phải tha thứ dễ dàng, mà là lựa chọn ngừng vòng lặp.
+Sau đó, ở tập cuối, Ed nói với Winry một câu viết lại chính nguyên tắc đó: *"Anh cho em một nửa cuộc đời anh, em cho anh một nửa cuộc đời em."* Không còn là mất đi để có được. Là cho đi, và nhận lại.
 
-## Homunculus: bảy tội lỗi trong hình người
+---
 
-Các phản diện chính là bảy Homunculus, đặt tên theo bảy tội lỗi: Lust, Gluttony, Envy, Greed, Sloth, Wrath, Pride. Chúng là những phần mà "Father" cắt ra khỏi mình để trở nên hoàn hảo.
+Vài nhân vật mình nghĩ sẽ ở lại với bạn sau khi xem:
 
-Cái hay ở đây là mỗi homunculus đều là một con người thiếu sót, nhưng thiếu theo cách ngược lại. Envy, kẻ khinh bỉ loài người nhất, thực ra ghen tị với con người vì họ có thể quan tâm đến nhau dù yếu ớt. Greed muốn có tất cả, cuối cùng nhận ra thứ hắn thực sự muốn là *bạn bè*. Father muốn trở thành Thượng đế, nhưng chỉ vì ông ta đã vứt bỏ hết những gì làm nên con người.
+- **Scar**, kẻ báo thù người Ishval, người cuối cùng chọn bảo vệ chính đất nước đã tàn sát dân tộc mình.
+- **Roy Mustang** và **Riza Hawkeye**, hai người mang tội lỗi từ chiến tranh Ishval, một người muốn leo lên đỉnh để thay đổi, một người đi theo để bắn anh nếu anh đi sai đường.
+- **Greed**, homunculus tham lam nhất, cuối cùng nhận ra thứ hắn muốn chỉ là có bạn.
 
-Bài học ngầm: những gì Father coi là khuyết điểm cần loại bỏ, như ham muốn, giận dữ, ghen tị, lại chính là những thứ làm nên con người. Một thứ "hoàn hảo" thì cũng trống rỗng.
+10 điểm cho Brotherhood, 8 điểm cho bản 2003. Bản 2003 hay, nhưng Brotherhood là câu chuyện trọn vẹn.
 
-## Cái kết: Ed từ bỏ thuật giả kim
+---
 
-Trận cuối, Al hy sinh linh hồn mình để trả lại cánh tay cho Ed. Ed cần một thứ để đánh đổi lấy Al. Và cậu đưa ra **Cánh cổng Chân lý** của chính mình, tức toàn bộ khả năng giả kim thuật của cậu.
+*Nguồn tham khảo:*
 
-Đây là khoảnh khắc mình thấy hay nhất toàn bộ series. Suốt cả câu chuyện, thuật giả kim là định nghĩa của Ed: cậu là "Fullmetal Alchemist", thiên tài trẻ nhất. Nhưng ở cuối, cậu nhận ra mình không cần nó. Cậu chỉ là một con người bình thường, và điều đó là đủ. Chân lý mỉm cười, nói rằng cậu đã có câu trả lời đúng.
-
-Và đây là lúc nguyên tắc Trao đổi Ngang giá được viết lại. Trong đoạn kết, Ed nói với Winry một phiên bản mới: *"Anh sẽ cho em một nửa cuộc đời anh, em cho anh một nửa cuộc đời em."* Không còn là "để có được gì thì phải mất đi thứ tương đương". Mà là: **ta cho đi, và nhận lại nhiều hơn những gì đã cho.** Đó là thứ thuật giả kim không bao giờ giải thích được: tình yêu, tình bạn, sự hy sinh.
-
-## Vì sao mình chấm 10
-
-FMA:B làm được điều mà rất ít shounen làm được: một câu chuyện dài 64 tập mà gần như không có tập độn, mọi nhân vật phụ đều có vai trò, mọi chi tiết gieo ở đầu đều được thu hoạch ở cuối. Nó vừa có chiến đấu hay, vừa có hài hước, vừa có những chủ đề nặng như diệt chủng, tội lỗi chiến tranh, đạo đức khoa học.
-
-Nhưng mình chấm 10 vì cái kết. Một câu chuyện bắt đầu bằng việc hai đứa trẻ muốn lấy lại thứ đã mất, và kết thúc bằng việc một người chấp nhận mất đi thứ quý giá nhất để có được thứ quan trọng hơn. Đó là sự trưởng thành.
+- [Why The Two Fullmetal Alchemist Series Are So Drastically Different](https://www.slashfilm.com/788708/why-the-two-fullmetal-alchemist-series-are-so-drastically-different) — /Film
+- [20 Years Ago, The Original Fullmetal Alchemist Dared To Avoid A Happy Ending](https://www.slashfilm.com/1411327/fullmetal-alchemist-avoid-happy-ending-20th-anniversary) — /Film
+- [Fullmetal Alchemist original anime vs Brotherhood](https://www.cbr.com/fullmetal-alchemist-original-anime-vs-brotherhood/) — CBR
+- [The Fullmetal Alchemist (2003) Anime is a Masterpiece of Adaptation](https://medium.com/anitay-official/the-fullmetal-alchemist-2003-anime-is-a-masterpiece-of-adaptation-7f017377b7b) — Medium
