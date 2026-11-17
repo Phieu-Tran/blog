@@ -1,67 +1,56 @@
 ---
-title: "Cowboy Bebop: The Movie | カウボーイビバップ 天国の扉 | Cánh Cửa Đến Thiên Đường"
-description: "Analysis — Shinichiro Watanabe"
-tags: ["Analysis", "Theme", "Character"]
+title: "Cowboy Bebop: The Movie | 天国の扉 | Một Chuyến Đi Morocco Trên Sao Hỏa"
+description: "Ghi chép — Shinichiro Watanabe"
+tags: ["Review", "Cowboy Bebop"]
 related_media: ["anime:cowboy-bebop-the-movie", "anime:cowboy-bebop"]
 date: 2026-11-17
 ---
 ![Poster Cowboy Bebop: The Movie](https://cdn.myanimelist.net/images/anime/1439/93480.jpg)
 
-# COWBOY BEBOP: THE MOVIE — CÁNH CỬA ĐẾN THIÊN ĐƯỜNG
+*Cowboy Bebop: Knockin' on Heaven's Door* (Tengoku no Tobira), ra rạp Nhật ngày 1/9/2001.
 
-> [!info] Anime
-> **Cowboy Bebop: The Movie**
-> カウボーイビバップ 天国の扉 (Tengoku no Tobira)
-> **Đạo diễn:** Shinichiro Watanabe
-> **Kịch bản:** Keiko Nobumoto
-> **Seiyuu:** Koichi Yamadera (Spike), Unsho Ishizuka (Jet), Megumi Hayashibara (Faye), Aoi Tada (Ed), Tsutomu Isobe (Vincent)
-> **Studio:** Bones, Sunrise
-> **Nhạc:** Yoko Kanno, The Seatbelts
-> **Thời lượng:** 115 phút
-> **Năm phát hành:** 2001
-> **Quốc gia:** Nhật Bản
-> **Thể loại:** Action, Sci-Fi, Neo-noir
+Bài trước về Cowboy Bebop mình viết về chủ nghĩa hiện sinh. Bài này ngắn thôi, chủ yếu là mấy thứ mình đọc được về cách bộ phim được làm, vì nó làm mình thích phim hơn.
 
-> [!warning] Spoilers
+---
 
-Ở bài trước mình đã viết về chủ nghĩa hiện sinh trong series Cowboy Bebop. Bài này dành cho bản movie, thứ mà nhiều người coi như "một tập phim dài" nằm giữa tập 22 và 23. Nhưng với mình, *Knockin' on Heaven's Door* là một bản tóm tắt đẹp nhất về tinh thần Cowboy Bebop: một câu chuyện về những con người không thể phân biệt mơ và thực, kể qua đôi mắt của một kẻ phản diện giống Spike hơn ai hết.
+**Nó nằm ở đâu trong series?**
 
-## Một vụ khủng bố trước Halloween
+Phim không phải phần tiếp theo. Câu chuyện xảy ra giữa tập 22 (*Cowboy Funk*) và tập 23 (*Brain Scratch*), tức là trước những tập cuối. Cả nhóm Bebop vẫn đủ mặt, vẫn cháy túi, vẫn cãi nhau vì tiền. Ai chưa xem series vẫn xem được, nhưng xem series trước thì sẽ thấy hay hơn nhiều.
 
-Mars, vài ngày trước Halloween. Một chiếc xe tải phát nổ trên đường cao tốc, phát tán một loại mầm bệnh lạ giết chết hàng trăm người. Chính phủ treo thưởng 300 triệu woolong cho kẻ chủ mưu. Đối với nhóm thợ săn tiền thưởng luôn cháy túi trên tàu Bebop, đây là cơ hội đổi đời.
+**Sao Hỏa trông như Morocco**
 
-Cấu trúc phim giống một tập Cowboy Bebop kéo dài: Spike đi điều tra theo kiểu thám tử noir, Faye đi theo dấu vết của kẻ khả nghi, Ed và chú chó Ein lục tung mạng thông tin, Jet thì dùng mạng lưới quan hệ cũ ở sở cảnh sát. Nhịp phim chậm rãi, nhiều đoạn chỉ là Spike lang thang qua những con phố Mars mang hơi hướng Morocco, nghe nhạc, ăn uống, đánh nhau.
+Series Cowboy Bebop pha trộn đủ thứ văn hóa, nhưng bản movie có một màu riêng rất rõ: Ả Rập, Bắc Phi. Có cả một con phố tên "Moroccan Street" trong phim. Theo các nguồn, Watanabe và một số người trong ekip đã sang tận Morocco để lấy tư liệu cho những cảnh này. Ở một buổi họp báo tại Otakon năm 2013, Watanabe tự nói rằng có rất nhiều cảnh trong movie gợi nhớ đến Morocco.
 
-## Vincent: Spike trong gương
+Kết quả là Sao Hỏa trong phim có những con hẻm chật, chợ đông, những bức tường trắng loang lổ, ánh nắng vàng. Không giống bất kỳ "hành tinh tương lai" nào mình từng thấy.
 
-Kẻ đứng sau là Vincent Volaju, một cựu binh tham gia chiến dịch quân sự trên Titan, người từng là vật thí nghiệm cho một loại nanomachine. Sau đó, Vincent mất trí nhớ, không còn phân biệt được đâu là thực tại, đâu là mơ.
+**Watanabe muốn nó trông như phim người đóng**
 
-Vincent là phản diện mà mình thấy được viết hay nhất trong mọi phim Cowboy Bebop. Hắn không độc ác vì muốn tiền hay quyền lực. Hắn muốn **"đánh thức" thế giới**. Hắn tin rằng mình đang sống trong một giấc mơ không thể thoát ra, và cách duy nhất để chứng minh thế giới là thật là hủy diệt nó. Hắn muốn tất cả mọi người cùng chết trong đêm Halloween, như một cách mở "cánh cửa đến thiên đường".
+Trong một phỏng vấn, Watanabe nói ông muốn tận dụng những kỹ thuật hiệu ứng khó hơn mà ngân sách phim điện ảnh cho phép, để tạo ra một "cái nhìn như phim người đóng" xuyên suốt bộ phim hoạt hình. Ông cũng muốn mỗi người trong ekip được tự do ứng biến. Phim có tới ba đạo diễn và cả một đội vẽ storyboard đông đảo.
 
-Điều làm Vincent đặc biệt là hắn giống hệt Spike. Spike cũng có một mắt giả, cũng có quá khứ bị chôn vùi, cũng sống như người mộng du, luôn nói rằng mình chỉ đang "nhìn thấy một giấc mơ" và chưa bao giờ thực sự tỉnh dậy. Khác biệt duy nhất là Spike vẫn chọn sống trong giấc mơ ấy, còn Vincent thì muốn kết thúc nó.
+Ekip gần như giữ nguyên từ series: biên kịch Keiko Nobumoto, nhạc Yoko Kanno, thiết kế nhân vật Toshihiro Kawamoto.
 
-Trong trận đánh cuối, Vincent nói một câu mà mình rất nhớ: hắn không thể phân biệt được giữa mơ và thực, và Spike cũng như vậy. Spike không phủ nhận. Đây không phải trận đấu giữa thiện và ác. Đây là hai người cùng mắc kẹt, chọn hai con đường khác nhau.
+**Nhạc**
 
-## Electra và tình yêu không được nhớ đến
+Yoko Kanno đưa cả những âm hưởng Ả Rập vào nhạc phim. Album nhạc phim *Future Blues* ra ngày 22/8/2001, có *Ask DNA* mở đầu rất sôi, và *Gotta Knock a Little Harder* do Mai Yamane hát ở cuối. Mình thấy bài cuối này là một trong những bài kết hay nhất của cả thương hiệu Bebop.
 
-Electra Ovirowa là một sĩ quan quân đội đang truy tìm Vincent, và cũng là người từng yêu hắn. Vincent đã quên cô, như quên mọi thứ khác.
+---
 
-Electra giống Julia đối với Spike: một người phụ nữ gắn với quá khứ, đứng ở giữa ranh giới giữa sự cứu rỗi và cái chết. Nhưng ở cuối phim, khi Vincent hấp hối, hắn nhớ ra cô. Hắn nói rằng giờ hắn đã thấy, và hỏi cô có muốn cùng hắn đi không. Rồi những con bướm bay lên.
+**Còn Vincent**
 
-Những con bướm xuất hiện suốt phim như hình ảnh trong ký ức của Vincent. Mình nghĩ đó là ẩn dụ của giấc mơ con bướm của Trang Tử: ông mơ thấy mình là con bướm, tỉnh dậy không biết mình là Trang Tử mơ thành bướm, hay là con bướm đang mơ thành Trang Tử. Vincent chết trong khoảnh khắc ranh giới đó cuối cùng được xóa bỏ, và có lẽ đó là lần đầu tiên hắn bình yên.
+Phản diện Vincent Volaju là một cựu binh từng bị làm thí nghiệm trong chiến tranh trên Titan, mất trí nhớ, không còn phân biệt được mơ và thực. Hắn muốn "đánh thức" thế giới bằng cách giết tất cả mọi người trong đêm Halloween.
 
-## Âm nhạc
+Cái làm Vincent đáng nhớ là hắn giống Spike đến lạ. Cũng một mắt giả, cũng quá khứ bị chôn vùi, cũng sống như người mộng du. Spike chọn tiếp tục sống trong giấc mơ ấy. Vincent muốn kết thúc nó. Với mình, phim không thật sự là chuyện Spike đánh kẻ xấu, mà là Spike đứng trước một phiên bản khác của chính mình.
 
-Không thể nói về Cowboy Bebop mà không nhắc đến Yoko Kanno. Movie có những bản nhạc mình nghe đi nghe lại: *Ask DNA* sôi động ở phần mở đầu, *Gotta Knock a Little Harder* với giọng của Mai Yamane ở phần kết, và *Is It Real?* nhẹ nhàng như chính câu hỏi của bộ phim. Âm nhạc ở đây không chỉ là nền. Nó là ngôn ngữ thứ hai của phim, kể những gì nhân vật không nói ra.
+Những con bướm xuất hiện mỗi khi Vincent nhớ lại quá khứ, và một lần cuối khi hắn chết. Mình không biết Watanabe có nghĩ đến giấc mơ con bướm của Trang Tử không, nhưng xem đến đó mình nghĩ ngay đến nó.
 
-## Trận đánh của Spike
+10 điểm. Năm 2026 phim được remaster 4K nhân dịp 25 năm, nếu có dịp xem lại thì nên xem bản đó.
 
-Phim có những cảnh hành động hay nhất cả series: trận không chiến trên bầu trời Mars, trận đánh võ trong cửa hàng tạp hóa, và trận cuối với Vincent trên tháp. Spike dùng Jeet Kune Do như trong series, nhưng lần này đối thủ ngang tầm và Spike thực sự suýt chết.
+---
 
-Spike thua Vincent ở lần chạm trán đầu tiên trên đoàn tàu và suýt chết, nhưng rồi vẫn quay lại. Và ở cuối phim, khác với series, anh sống sót bước ra. Đó là sự đối xứng với cái kết của series, khi Spike bước vào trụ sở Red Dragon và... "Bang".
+*Nguồn tham khảo:*
 
-## Vì sao mình chấm 10
-
-Phim không thay đổi gì lớn trong câu chuyện của Spike. Nó không giải quyết quá khứ của anh, không có Julia, không có Vicious. Nhưng chính vì vậy, nó là bản tinh túy nhất của Cowboy Bebop: một câu chuyện độc lập, đẹp, buồn, với những con người cô độc lang thang trong vũ trụ.
-
-Mình chấm 10 vì Vincent. Hắn là câu hỏi mà cả series Cowboy Bebop đặt ra cho Spike: nếu cuộc đời này chỉ là một giấc mơ, liệu ta nên tiếp tục sống trong nó hay kết thúc nó? Spike chọn sống, ít nhất là thêm một thời gian nữa.
+- [Cowboy Bebop: The Movie](https://en.wikipedia.org/wiki/Cowboy_Bebop:_The_Movie) — Wikipedia
+- [Shinichiro Watanabe's Cowboy Bebop: The Movie Kicks Down Heaven's Door](https://strangehorizons.com/wordpress/non-fiction/reviews/shinichiro-watanabes-cowboy-bebop-the-movie-kicks-down-heavens-door/) — Strange Horizons
+- [Shinichiro Watanabe Space Dandy Otakon 2013 press conference](https://anigamers.com/posts/shinichiro-watanabe-space-dandy-otakon-2013-press-conference/) — AniGamers
+- [Cowboy Bebop: The Movie Reveals New 25th Anniversary Visual, 4K Remaster Screening](https://animecorner.me/cowboy-bebop-the-movie-reveals-new-25th-anniversary-visual-4k-remaster-screening/) — Anime Corner
+- [Cowboy Bebop: The Movie — Knockin' on Heaven's Door](https://dotandline.net/cowboy-bebop-the-movie-knockin-on-heavens-door-7cc60443269c/) — Dot and Line

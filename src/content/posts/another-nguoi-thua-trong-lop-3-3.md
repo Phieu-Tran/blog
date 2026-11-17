@@ -1,69 +1,56 @@
 ---
 title: "Another | アナザー | Người Thừa Trong Lớp 3-3"
-description: "Analysis — Tsutomu Mizushima, Yukito Ayatsuji"
-tags: ["Analysis", "Horror", "Mystery"]
+description: "Review — Tsutomu Mizushima, Yukito Ayatsuji"
+tags: ["Review", "Horror"]
 related_media: ["anime:another"]
 date: 2026-11-17
 ---
 ![Poster Another](https://cdn.myanimelist.net/images/anime/4/75509.jpg)
 
-# ANOTHER: NGƯỜI THỪA TRONG LỚP 3-3
+Bài này có hai phần. Phần đầu không spoiler, dành cho ai chưa xem. Phần sau thì spoiler hết, nhớ dừng lại đúng chỗ.
 
-> [!info] Anime
-> **Another**
-> アナザー
-> **Đạo diễn:** Tsutomu Mizushima
-> **Nguyên tác:** tiểu thuyết của Yukito Ayatsuji
-> **Seiyuu:** Atsushi Abe (Koichi Sakakibara), Natsumi Takamori (Mei Misaki)
-> **Studio:** P.A. Works
-> **Nhạc:** Kow Otani
-> **Số tập:** 12 tập
-> **Năm phát hành:** 2012
-> **Quốc gia:** Nhật Bản
-> **Thể loại:** Horror, Mystery, Supernatural
+---
 
-> [!warning] Spoilers nhẹ ở phần đầu, spoiler toàn bộ ở phần "Người thừa là ai"
+## Phần 1: Không spoiler
 
-Another là bộ anime kinh dị mà mình nhớ nhất, không phải vì nó đáng sợ nhất, mà vì nó làm mình *nghi ngờ* tất cả mọi người trên màn hình. Cùng với đó là những cái chết mà đến giờ nhắc lại vẫn còn được cộng đồng anime đem ra làm meme: cây dù, thang máy, cầu thang. Nhưng dưới lớp kinh dị kiểu *Final Destination* đó, Another có một ý tưởng rất hay về sự loại trừ trong tập thể.
+Another là anime 12 tập của P.A. Works, ra năm 2012, đạo diễn Tsutomu Mizushima, dựa trên tiểu thuyết kinh dị của Yukito Ayatsuji. Truyện đặt ở năm 1998, một thị trấn nhỏ tên Yomiyama.
 
-## Lời nguyền của lớp 3-3
+Koichi chuyển đến lớp 3-3 của trường trung học Yomiyama Bắc. Ngay ngày đầu, cậu để ý một cô gái đeo bịt mắt ngồi cuối lớp tên Mei Misaki, và cả lớp cư xử như thể cô không tồn tại. Không ai giải thích. Rồi người trong lớp bắt đầu chết, mỗi người một kiểu, mỗi lần một bất ngờ hơn.
 
-Năm 1972, ở trường trung học Yomiyama, có một học sinh tên Misaki rất được yêu quý trong lớp 3-3 qua đời. Bạn bè không chấp nhận, cả lớp cư xử như thể Misaki vẫn còn sống, vẫn có bàn ghế, vẫn được điểm danh. Đến ngày tốt nghiệp, trong ảnh chụp lớp xuất hiện thêm một bóng người: Misaki.
+Ba lời khuyên nếu bạn định xem:
 
-Từ đó, lớp 3-3 bị nguyền rủa. Một số năm, lớp sẽ có thêm một người, "người thừa", một người đã chết trước đó nhưng không ai nhớ ra. Và khi điều đó xảy ra, mỗi tháng sẽ có học sinh hoặc người thân của học sinh chết theo những cách bất thường.
+1. **Đừng đọc tóm tắt hay xem bình luận trên mạng.** Another là bộ anime mà biết trước một chi tiết thôi là mất nửa cái hay. Và mấy cái chết trong phim đã thành meme nổi tiếng đến mức rất dễ bị lộ.
+2. **Xem buổi tối, tắt đèn.** Nhạc nền của Kow Otani và bài mở đầu *Kyoumu Densen* của ALI PROJECT làm không khí ngột ngạt hơn rất nhiều.
+3. **Cứ nghi ngờ tất cả mọi người.** Đó là cách xem đúng nhất.
 
-Koichi Sakakibara, một học sinh mới chuyển trường, bước vào lớp 3-3 và gặp Mei Misaki, cô gái đeo bịt mắt, ngồi ở cuối lớp, mà mọi người hành xử như thể cô không tồn tại.
+Nếu bạn thích *Final Destination* nhưng muốn thêm phần bí ẩn và không khí học đường Nhật, thì đây là bộ dành cho bạn.
 
-## "Người không tồn tại"
+*(Dừng ở đây nếu chưa xem.)*
 
-Đây là phần hay nhất của Another, theo mình. Lớp 3-3 có một "biện pháp": họ chọn một người và coi như người đó không tồn tại. Không ai nói chuyện với họ, không ai nhìn họ, kể cả giáo viên. Bằng cách này, số học sinh trong lớp "trở lại bình thường", và lời nguyền sẽ không hoạt động.
+---
 
-Mei là người bị chọn. Rồi Koichi, vì không biết luật và đã nói chuyện với Mei, cũng trở thành người thứ hai.
+## Phần 2: Có spoiler
 
-Mình thấy đây là ý tưởng đáng sợ hơn cả những cái chết. Một tập thể, vì sợ hãi, đã đồng thuận xóa một con người ra khỏi thực tại xã hội của họ. Không ai ghét Mei. Không ai bắt nạt cô theo nghĩa thông thường. Họ chỉ đơn giản là *không nhìn thấy cô nữa*, vì sự an toàn của tất cả.
+Thứ làm mình nhớ Another không phải mấy cái chết. Là cái **luật "người không tồn tại"**.
 
-Đây là thứ rất gần với văn hóa trường học ở Nhật (và không chỉ ở Nhật): bắt nạt bằng sự im lặng, loại trừ ai đó vì lợi ích của nhóm. Another khoác lên nó lớp áo siêu nhiên, nhưng cơ chế thì hoàn toàn thật. Và cái hay là lời nguyền siêu nhiên lại sinh ra một "lời nguyền xã hội" còn tàn nhẫn hơn.
+Lớp 3-3 bị một lời nguyền: có năm lớp có thêm một "người thừa", một người đã chết nhưng không ai nhớ ra, và từ đó người liên quan đến lớp sẽ chết dần. Để chống lại, cả lớp đồng ý chọn một học sinh và coi như học sinh đó không tồn tại. Không ai nói chuyện, không ai nhìn, kể cả giáo viên. Mei là người bị chọn. Rồi Koichi cũng thành người thứ hai.
 
-## Cái chết như cơ chế
+Ma quỷ trong Another không có hình dạng. Không có con quái vật nào để đánh. Nhưng con người thì có, và họ sẵn sàng xóa một bạn cùng lớp khỏi thực tại chỉ vì sợ. Đến chuyến đi trại hè, khi nghe đồn rằng giết người thừa sẽ chấm dứt lời nguyền, cả lớp biến thành một đám đông cầm dao săn Mei. Lời nguyền giết người bằng tai nạn. Nỗi sợ lời nguyền làm người ta giết nhau trực tiếp. Mình thấy đây mới là thứ đáng sợ thật sự của bộ phim.
 
-Những cái chết trong Another bị chê là quá phi lý: ngã cầu thang và bị cây dù đâm vào cổ, thang máy rơi, xe tải lao vào. Nhưng mình nghĩ đó là chủ ý. Lời nguyền không có hình dạng, không có ý thức, không có con ma nào để đánh bại. Nó chỉ là một cơ chế: khi có người thừa, xác suất xảy ra tai nạn của mọi người trong lớp tăng lên.
+Người thừa hóa ra là Reiko, người dì sống cùng nhà với Koichi, cũng chính là cô Mikami, giáo viên phụ của lớp. Bà đã mất từ năm trước. Mei biết nhờ con mắt giả của cô, thứ cho phép cô nhìn thấy "màu của cái chết". Người Koichi tin tưởng nhất trong gia đình mới hóa ra là người không còn tồn tại.
 
-Điều này làm Another khác với phim kinh dị thông thường. Không có ai để chiến đấu. Chỉ có thể **tìm ra người thừa và đưa họ trở lại cái chết**. Và đó là lúc nỗi sợ thật sự xuất hiện: người thừa có thể là bất kỳ ai, kể cả chính bạn. Ký ức của mọi người đã bị thay đổi, hồ sơ đã bị sửa, ngay cả người thừa cũng không biết mình là người thừa.
+---
 
-## Chuyến đi trại và sự sụp đổ của tập thể
+Đọc thêm về tiểu thuyết gốc thì mình mới biết anime và sách khác nhau khá nhiều. Theo wiki của fan, anime đi khá sát tiểu thuyết đến khoảng tập 7 rồi mới rẽ sang hướng riêng. Đoạn đi biển trong anime không có trong sách. Trong sách, Akazawa, cô bạn cứng rắn đứng ra giữ luật "người không tồn tại", có nhiều đất diễn và chiều sâu hơn hẳn. Cùng năm 2012 còn có một bản phim người đóng, đạo diễn Takeshi Furusawa. Tiểu thuyết đã có bản tiếng Anh của Yen Press.
 
-Tập 10 và 11 là đỉnh điểm. Lớp 3-3 đi trại hè, nghe nói rằng giết người thừa sẽ chấm dứt lời nguyền. Và khi một học sinh cho rằng Mei là người thừa, cả lớp biến thành đám đông săn người.
+10 điểm. Không hoàn hảo, vài cái chết hơi lố thật. Nhưng hiếm có bộ kinh dị nào làm mình sợ người hơn sợ ma như vậy.
 
-Đây là lúc Another cho thấy ý tưởng của nó rõ nhất. Lời nguyền giết người bằng tai nạn. Nhưng nỗi sợ lời nguyền khiến con người giết nhau trực tiếp. Những học sinh bình thường, lịch sự, cầm dao, cầm rìu, tin chắc rằng mình đang làm điều đúng. Kẻ thù thật không phải lời nguyền, mà là **sự hoảng loạn tập thể**, sự sẵn sàng tìm một vật tế thần.
+---
 
-## Người thừa là ai
+*Nguồn tham khảo:*
 
-*(Spoiler)* Người thừa là Reiko, người dì sống cùng nhà với Koichi, cũng chính là cô Mikami, giáo viên phụ của lớp 3-3. Bà đã mất từ mùa hè năm trước. Mei biết điều này nhờ con mắt giả màu lục của cô, thứ cho phép cô nhìn thấy "màu của cái chết". Và Koichi phải tự tay kết liễu bà.
-
-Đây là cái kết mà mình thấy rất buồn. Reiko là người duy nhất Koichi tin tưởng trong gia đình mới. Người mà cậu cảm thấy gần gũi nhất lại là người không còn tồn tại. Lời nguyền không chỉ lấy đi mạng sống, nó còn làm méo mó cả tình thân: ta có thể yêu thương một người mà không biết họ đã chết.
-
-## Vì sao mình chấm 10
-
-Another có những điểm yếu. Vài cái chết hơi lố, nhịp giữa phim chậm, có nhân vật chỉ để chết. Nhưng mình chấm 10 vì không khí. P.A. Works vẽ một thị trấn mùa hè đẹp mà ngột ngạt, nhạc của Kow Otani u ám, và bài mở đầu *Kyoumu Densen* của Ali Project là một trong những OP kinh dị hay nhất.
-
-Quan trọng hơn, Another là bộ kinh dị hiếm hoi làm mình sợ con người hơn sợ ma. Lời nguyền chỉ là chất xúc tác. Thứ làm mình rùng mình là một lớp học sẵn sàng làm như một bạn cùng lớp không tồn tại, rồi sẵn sàng giết người đó, chỉ vì sợ.
+- [Another (novel)](https://en.wikipedia.org/wiki/Another_(novel)) — Wikipedia
+- [Another The Novel](https://another.fandom.com/wiki/Another_The_Novel) — Another Wiki, về khác biệt giữa sách và anime
+- [Another review](https://www.englishlightnovels.com/2015/03/15/review-another) — English Light Novels
+- [Another](https://www.animenewsnetwork.com/feature/spotlight2012q1/another) — Anime News Network, Spring 2012 spotlight
+- [Another (film)](https://en.wikipedia.org/wiki/Another_(film)) — Wikipedia
