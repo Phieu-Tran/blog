@@ -1,62 +1,51 @@
 ---
-title: "Bayonetta 2 | ベヨネッタ2 | Khi Phong Cách Chính Là Nội Dung"
-description: "Analysis — Yusuke Hashimoto, PlatinumGames"
-tags: ["Analysis", "Game", "Game Design"]
+title: "Bayonetta 2 | ベヨネッタ2 | Trò Chơi Mà Nintendo Đã Cứu"
+description: "Ghi chép — PlatinumGames"
+tags: ["Game", "Action"]
 related_media: ["games:bayonetta-2"]
 date: 2026-11-17
 ---
 ![Cover Bayonetta 2](https://images.igdb.com/igdb/image/upload/t_cover_big/cob9e9.jpg)
 
-# BAYONETTA 2: KHI PHONG CÁCH CHÍNH LÀ NỘI DUNG
+Bayonetta 2 suýt nữa không tồn tại.
 
-> [!info] Game
-> **Bayonetta 2**
-> ベヨネッタ2
-> **Đạo diễn:** Yusuke Hashimoto
-> **Giám sát:** Hideki Kamiya
-> **Nhà phát triển:** PlatinumGames
-> **Phát hành:** Nintendo
-> **Năm phát hành:** 2014 (Wii U), 2018 (Switch)
-> **Thể loại:** Action, Hack and Slash
+Bayonetta phần một ra năm 2009, do PlatinumGames làm, Sega phát hành. Được khen nhưng bán không nhiều. Phần hai được lên kế hoạch, rồi theo nhiều nguồn, Sega gác lại. Không có nhà phát hành, dự án coi như chết.
 
-> [!warning] Spoilers nhẹ
+Rồi **Nintendo** nhảy vào, bỏ tiền tài trợ. Đổi lại, Bayonetta 2 sẽ là game độc quyền trên Wii U, chiếc máy console bán khá kém của Nintendo lúc đó.
 
-Có những game mà mình chơi vì câu chuyện, có game mình chơi vì thế giới. Bayonetta 2 là game mình chơi vì một lý do duy nhất: **cảm giác**. Cảm giác khi né một đòn tấn công vào giây cuối cùng, thời gian chậm lại, và bạn tung một chuỗi combo dài 50 đòn với những vũ khí gắn ở cả tay lẫn chân, kết thúc bằng một con quỷ khổng lồ được triệu hồi từ chính mái tóc của nhân vật.
+---
 
-Nghe thì lố bịch. Và đúng là lố bịch. Nhưng mình chấm 9 vì Bayonetta 2 là một trong những game hành động được thiết kế hoàn hảo nhất, và vì nó tự tin với sự lố bịch của mình đến mức biến nó thành nghệ thuật.
+**Fan nổi giận**
 
-## Bayonetta
+Khi tin độc quyền Wii U được công bố, rất nhiều fan nổi điên. CinemaBlend có hẳn một bài về những tin nhắn đầy thù hận mà fan gửi cho PlatinumGames. Có người buộc tội Platinum tham tiền, nhận một khoản lớn từ Nintendo để bỏ rơi PS3 và Xbox 360, nơi phần một từng phát hành.
 
-Bayonetta là một phù thủy Umbra, tộc phù thủy cổ xưa chiến đấu chống lại các thiên thần. Cô cao, mặc bộ trang phục làm từ chính mái tóc của mình, dùng bốn khẩu súng (hai ở tay, hai ở gót giày), và nói chuyện với giọng điệu vừa mỉa mai vừa khiêu khích.
+Hideki Kamiya, người tạo ra Bayonetta, trả lời trên Twitter, đúng kiểu Kamiya: game do Nintendo bỏ tiền, nên nếu nó có lên PS3 hay Xbox 360 thì cũng là vì Nintendo nói vậy. Còn Atsushi Inaba, nhà sản xuất, nói thẳng hơn: **nếu không có Nintendo, Bayonetta 2 đã không tồn tại.**
 
-Mình biết nhiều người thấy thiết kế nhân vật của Bayonetta quá đà. Nhưng mình nghĩ cô là một trong những nhân vật chính tự tin nhất trong game. Cô không cần ai cứu, không cần ai công nhận. Cô làm mọi thứ theo cách của mình, với phong cách của mình, và không xin lỗi vì điều đó.
+Mình nghĩ fan giận cũng dễ hiểu, vì Wii U ít người có. Nhưng lựa chọn thật sự lúc đó không phải là "Wii U hay PS3". Mà là "Wii U hay không có gì".
 
-## Witch Time
+**Kết quả**
 
-Cơ chế cốt lõi của Bayonetta là **Witch Time**. Khi bạn né một đòn vào đúng khoảnh khắc cuối cùng, thời gian chậm lại xung quanh bạn, và bạn có vài giây để tấn công tự do.
+Bayonetta 2 được khen còn nhiều hơn phần một. Nhưng vì chỉ có trên Wii U, nó bán ít hơn hẳn. Tháng 2 năm 2018, game được đưa lên Nintendo Switch, và lần này nhiều người được chơi hơn. Rồi Nintendo tiếp tục tài trợ *Bayonetta 3*, độc quyền Switch. Không có Nintendo, có lẽ series này đã dừng ở phần một.
 
-Đây là cơ chế đơn giản nhưng thiên tài. Nó thưởng cho sự chính xác, cho việc đọc chuyển động của kẻ địch. Nó biến phòng thủ thành tấn công. Và nó tạo ra nhịp điệu: kẻ địch tấn công, bạn né, thời gian chậm lại, bạn trút giận. Mỗi trận đánh trở thành một điệu nhảy.
+---
 
-Bayonetta 2 thêm **Umbran Climax**: khi đầy thanh năng lượng, mọi đòn tấn công của bạn đều triệu hồi quỷ khổng lồ. Màn hình tràn ngập những nắm đấm, những bàn chân, những hàm răng khổng lồ. Hoàn toàn hỗn loạn và hoàn toàn thỏa mãn.
+**Còn game thì sao?**
 
-## Combo và sự sáng tạo
+Bayonetta 2 là game hành động mà mình chơi chỉ vì cảm giác. Né một đòn vào đúng giây cuối cùng, thời gian chậm lại xung quanh, gọi là **Witch Time**, và bạn có vài giây để trút một chuỗi combo dài bằng vũ khí ở cả tay lẫn chân. Bayonetta có bốn khẩu súng: hai ở tay, hai ở gót giày.
 
-Hệ thống combo của Bayonetta dựa trên những tổ hợp của đấm (P) và đá (K), với những khoảng dừng ở giữa tạo ra những đòn khác nhau. Mỗi vũ khí có bộ chiêu riêng, và bạn có thể trang bị vũ khí khác nhau cho tay và chân.
+Witch Time là cơ chế đơn giản nhưng thông minh: nó thưởng cho sự chính xác, biến phòng thủ thành tấn công, tạo ra nhịp điệu kẻ địch đánh, bạn né, thời gian chậm, bạn đánh. Mỗi trận đánh thành một điệu nhảy. Phần hai thêm Umbran Climax: đầy thanh năng lượng, mọi đòn đều triệu hồi những nắm đấm, bàn chân, hàm răng quỷ khổng lồ từ mái tóc của Bayonetta. Hoàn toàn hỗn loạn, hoàn toàn thỏa mãn.
 
-Đây là chiều sâu mà mình yêu ở dòng game "character action" của PlatinumGames. Bạn có thể vượt qua game bằng cách bấm nút loạn xạ ở độ khó thấp. Nhưng nếu muốn đạt hạng "Pure Platinum" ở mọi màn chơi, bạn cần học thuộc mọi combo, mọi kẻ địch, mọi thời điểm né đòn.
+Câu chuyện thì khá rối: Jeanne bị kéo xuống địa ngục, Bayonetta đi cứu, có du hành thời gian, có thần thánh. Thành thật mà nói, nó không phải lý do để chơi game này. Màn mở đầu, Bayonetta đánh nhau với thiên thần trên một chiếc máy bay chiến đấu giữa thành phố, rồi triệu hồi một con rồng địa ngục, là đủ để hiểu game này muốn gì: vui, lố, và không xin lỗi vì điều đó.
 
-## Câu chuyện? Không quan trọng lắm
+9 điểm. Và cảm ơn Nintendo, dù nhiều người đã chửi họ vì nó.
 
-Bayonetta 2 có một câu chuyện: Jeanne, người bạn của Bayonetta, bị kéo xuống địa ngục, và Bayonetta phải cứu cô. Có du hành thời gian, có một cậu bé tên Loki, có những vị thần, có cha của Bayonetta. Câu chuyện khá rối, và thành thật mà nói, nó không phải lý do để chơi game này.
+---
 
-Nhưng Bayonetta 2 không cần câu chuyện hay. Game thể hiện mọi thứ qua hành động. Trận đánh mở đầu, Bayonetta chiến đấu với thiên thần trên một chiếc máy bay chiến đấu giữa thành phố, rồi triệu hồi một con rồng địa ngục, là một trong những màn mở đầu hoành tráng nhất mình từng thấy. Game không bao giờ dừng lại để giải thích. Nó chỉ đi tiếp, ngày càng lớn, ngày càng điên rồ.
+*Nguồn tham khảo:*
 
-## Nintendo cứu Bayonetta 2
-
-Có một câu chuyện ngoài game đáng kể: sau Bayonetta 1, không nhà phát hành nào muốn tài trợ cho phần hai. Dự án gần như bị hủy. Rồi Nintendo xuất hiện, tài trợ cho game, và phát hành nó độc quyền trên Wii U. Nhiều người tức giận vì độc quyền, nhưng sự thật là không có Nintendo thì không có Bayonetta 2.
-
-## Vì sao mình chấm 9
-
-Bayonetta 2 không phải game có ý nghĩa sâu sắc. Nó không đặt câu hỏi triết học, không khiến mình khóc. Nhưng nó làm một điều mà ít game làm được: nó làm mình thấy *vui* khi chơi, từ giây đầu đến giây cuối.
-
-Mình chấm 9 vì đôi khi, một game không cần nói điều gì lớn lao. Nó chỉ cần cho bạn cảm giác mình là nhân vật ngầu nhất trong vũ trụ, trong một điệu nhảy với các thiên thần.
+- [Bayonetta 2: Without Nintendo the game wouldn't exist, says Platinum Games](https://gamingbolt.com/bayonetta-2-without-nintendo-the-game-wouldnt-exist-platinum-games) — GamingBolt
+- [Bayonetta 2 and The Wonderful 101 to stay Wii U exclusive](https://www.nintendolife.com/news/2013/02/bayonetta_2_and_the_wonderful_101_to_stay_wii_u_exclusive) — Nintendo Life
+- [Bayonetta 2's Wii U Exclusivity Spawns Hate-Filled Messages From Fans](https://cinemablend.com/games/Bayonetta-2-Wii-U-Exclusivity-Spawns-Hate-Filled-Messages-From-Fans-46981.html) — CinemaBlend
+- [Platinum praises 'perfectionists' Nintendo over Bayonetta 2 partnership](https://mcvuk.com/?p=82392) — MCV/Develop
+- [Bayonetta 2](https://en.wikipedia.org/wiki/Bayonetta_2) — Wikipedia
+- [Bayonetta 2](https://www.giantbomb.com/games/3030-39764/) — Giant Bomb

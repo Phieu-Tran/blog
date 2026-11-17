@@ -1,57 +1,50 @@
 ---
-title: "Kingdom Come: Deliverance II | Một Người Bình Thường Ở Bohemia"
-description: "Analysis — Daniel Vávra, Warhorse Studios"
-tags: ["Analysis", "Game", "Historical"]
+title: "Kingdom Come: Deliverance II | Một Triệu Bản Trong Một Ngày"
+description: "Ghi chép — Warhorse Studios"
+tags: ["Game", "Historical"]
 related_media: ["games:kingdom-come-deliverance-ii"]
 date: 2026-11-17
 ---
 ![Cover Kingdom Come: Deliverance II](https://images.igdb.com/igdb/image/upload/t_cover_big/co8qmv.jpg)
 
-# KINGDOM COME: DELIVERANCE II — MỘT NGƯỜI BÌNH THƯỜNG Ở BOHEMIA
+Ngày 4 tháng 2 năm 2025, Kingdom Come: Deliverance II ra mắt. Khoảng 24 giờ sau, Warhorse Studios thông báo game đã bán **1 triệu bản**.
 
-> [!info] Game
-> **Kingdom Come: Deliverance II**
-> **Đạo diễn & kịch bản:** Daniel Vávra
-> **Nhà phát triển:** Warhorse Studios
-> **Diễn viên:** Tom McKay (Henry), Luke Dale (Hans Capon)
-> **Năm phát hành:** 2025
-> **Nền tảng:** PC, PlayStation 5, Xbox Series X|S
-> **Thể loại:** Action RPG, Open World, Historical
+Để so sánh: phần một năm 2018 mất khoảng mười ngày đến hai tuần mới chạm mốc đó, tùy nguồn. Rồi phần hai tiếp tục: 2 triệu bản trong chưa đầy hai tuần, 3 triệu bản vào tháng 5, 4 triệu, và đến tháng 6 năm 2026 thì vượt **6 triệu bản**. Tổng cộng các game của Warhorse đã bán hơn 14 triệu bản, riêng phần một hơn 10 triệu.
 
-> [!warning] Spoilers nhẹ
+Warhorse là một studio ở Praha, Cộng hòa Séc. Không phải studio Mỹ, không phải Nhật, không có thương hiệu lâu đời. Họ làm một game về lịch sử của chính đất nước mình, Bohemia năm 1403, và cả thế giới mua nó.
 
-Trong hầu hết RPG, bạn là người được chọn, một anh hùng có sức mạnh đặc biệt. Trong Kingdom Come: Deliverance II, bạn là Henry, con trai của một người thợ rèn, sống ở Bohemia năm 1403. Không có phép thuật, không có rồng, không có lời tiên tri. Chỉ có lịch sử, bùn đất, và một chàng trai bình thường bị cuốn vào cuộc nội chiến của những vị vua.
+---
 
-Mình chấm 9 cho KCD2 vì nó là game hiếm hoi khiến mình cảm thấy **đang thực sự sống ở một thời đại khác**, không phải phiên bản lãng mạn hóa của thời trung cổ, mà là một thời trung cổ bẩn thỉu, khó khăn, và chân thật.
+**Vì sao người ta mua?**
 
-## Một thế giới không xoay quanh bạn
+Mình nghĩ vì KCD2 cho một thứ mà các RPG lớn khác không cho: cảm giác làm **một người bình thường**.
 
-Điều đầu tiên mình nhận ra ở KCD2 là thế giới không quan tâm đến bạn. Nếu bạn mặc quần áo bẩn, có máu, người ta tránh xa bạn. Nếu bạn không tắm, giao tiếp khó hơn. Nếu bạn ăn cắp và bị bắt, bạn bị đóng dấu nung đỏ lên da. Nếu bạn uống quá nhiều, bạn say, và nói những điều ngớ ngẩn.
+Bạn là Henry, con trai một người thợ rèn. Không có phép thuật, không có rồng, không có lời tiên tri về người được chọn. Muốn giỏi kiếm thì phải luyện. Muốn đọc được chữ thì phải học. Muốn pha thuốc thì phải tự nghiền thảo dược, đọc công thức, canh lửa. Mặc đồ bẩn có máu thì người ta tránh xa. Ăn trộm bị bắt thì bị đóng dấu nung lên da.
 
-Henry không thể đọc lúc đầu game (ở phần một). Anh không biết dùng kiếm thành thạo. Mọi kỹ năng đều phải học bằng cách làm: muốn giỏi kiếm, phải luyện tập; muốn giỏi rèn, phải rèn nhiều; muốn giỏi pha chế, phải tự tay nghiền thảo dược và đọc công thức.
+Muốn lưu game? Uống một loại rượu tên "Saviour Schnapps". Nghe thì phiền, nhưng nó buộc bạn sống với hậu quả của mình, như một người thời đó.
 
-Mình thấy hệ thống này khiến sự tiến bộ của Henry có ý nghĩa. Anh không được ban cho sức mạnh. Anh *trở nên* giỏi, qua thời gian, qua thất bại, giống như một người thật.
+**Kuttenberg**
 
-## Lịch sử thật
+Thành phố Kuttenberg (Kutná Hora ngày nay), trung tâm khai thác bạc của Bohemia thời trung cổ, là một trong những thành phố game ấn tượng nhất mình từng đi qua. Đông đúc, ồn ào, có chợ, có nhà thờ đang xây dựng, có thợ thủ công, thương nhân, ăn mày. Đi lạc ở đó vài giờ là chuyện bình thường.
 
-Warhorse là một studio Séc, và họ làm game về chính lịch sử của đất nước mình với sự tỉ mỉ đáng kinh ngạc. Bối cảnh là cuộc xung đột giữa Vua Wenceslaus IV và em trai Sigismund của Hungary. Nhiều nhân vật trong game là người có thật. Các lâu đài, thị trấn, đặc biệt thành phố Kuttenberg (Kutná Hora ngày nay), được tái hiện dựa trên tài liệu lịch sử.
+**Henry và Hans**
 
-Kuttenberg là một trong những thành phố game ấn tượng nhất mà mình từng đi qua: đông đúc, ồn ào, với những khu chợ, nhà thờ đang xây dựng, mỏ bạc, những người thợ, thương nhân, ăn mày. Bạn có thể lạc ở đó hàng giờ.
+Trái tim của KCD2 là tình bạn giữa Henry và Hans Capon, một quý tộc trẻ kiêu ngạo, nóng tính, tốt bụng. Phần một, họ bắt đầu như hai giai cấp đối lập. Phần hai, họ đã là bạn thân, cãi nhau, cứu nhau, chọc nhau. Những đoạn hội thoại của họ là những đoạn mình thấy viết tự nhiên nhất trong mọi RPG gần đây.
 
-## Henry và Hans
+**Và súng**
 
-Trái tim của KCD2 là tình bạn giữa Henry và **Hans Capon**, một quý tộc trẻ kiêu ngạo, nóng nảy, nhưng tốt bụng. Ở phần một, hai người bắt đầu như hai giai cấp đối lập: một người thường dân, một quý tộc. Ở phần hai, họ đã thành bạn bè thân thiết, và game xây dựng mối quan hệ đó qua những đoạn đối thoại hài hước, những cuộc cãi vã, những lúc họ cứu nhau.
+KCD2 có cả những khẩu súng hỏa mai thời đầu, nặng, nạp đạn chậm, nhưng gây sát thương khủng khiếp. Một chi tiết nhỏ cho thấy thời kỳ chuyển giao giữa kiếm và súng, và cho thấy Warhorse tỉ mỉ với lịch sử đến mức nào.
 
-Mình thấy cách viết nhân vật trong KCD2 rất tự nhiên. Không ai hoàn hảo. Hans hay gây chuyện, Henry hay ngây thơ. Nhưng họ có một sự chân thành mà nhiều game RPG lớn hơn không có.
+---
 
-## Chiến đấu
+9 điểm. Game chậm, khó ở giai đoạn đầu, không dành cho tất cả mọi người. Nhưng sáu triệu người đã chọn sống một cuộc đời bình thường ở Bohemia năm 1403, và mình hiểu vì sao.
 
-Chiến đấu trong KCD2 là kiếm thuật thời trung cổ thực tế: chọn hướng tấn công, đỡ đòn, phản đòn, chú ý thể lực. Lúc đầu nó rất khó, vì Henry yếu. Một nhóm ba tên cướp có thể giết bạn dễ dàng. Nhưng khi bạn luyện tập, bạn sẽ cảm nhận rõ sự tiến bộ. Lần đầu đánh bại một hiệp sĩ mặc giáp đầy đủ là một cảm giác rất thỏa mãn.
+---
 
-Và có súng! KCD2 có những khẩu súng hỏa mai thời đầu, nặng nề, nạp đạn chậm, nhưng gây sát thương khủng khiếp. Một chi tiết lịch sử thú vị về thời kỳ chuyển giao giữa kiếm và súng.
+*Nguồn tham khảo:*
 
-## Vì sao mình chấm 9
-
-KCD2 không dành cho tất cả mọi người. Nó chậm, khó ở giai đoạn đầu, và đòi hỏi sự kiên nhẫn. Một số người sẽ thấy hệ thống lưu game (phải uống một loại rượu đặc biệt) phiền phức.
-
-Nhưng mình chấm 9 vì nó là một trong những RPG có thế giới chân thật nhất mình từng chơi. Không phải chân thật về đồ họa, mà chân thật về cảm giác: cảm giác của một con người bình thường cố gắng sống sót, trưởng thành, và giữ trọn tình bạn, giữa những biến động của lịch sử.
+- [Kingdom Come: Deliverance 2 sells more than 1 million copies in just 1 day](https://pcgamer.com/games/rpg/kingdom-come-deliverance-2-sells-more-than-1-million-copies-in-just-1-day) — PC Gamer
+- [KCD2 hits 1 million copies sold in 24 hours: how it compares to first game](https://wnhub.io/news/investment/item-47014) — WN Hub
+- [Kingdom Come Deliverance II sells 2 million copies](https://www.rpgsite.net/news/16887-kingdom-come-deliverance-ii-sells-2-million-copies) — RPG Site
+- [Kingdom Come: Deliverance II has sold 4 million copies](https://www.rpgsite.net/news/18937-kingdom-come-deliverance-ii-has-sold-4-million-copies) — RPG Site
+- [Kingdom Come: Deliverance II surpasses 6 million copies sold worldwide](https://www.gamedeveloper.com/press-release/kingdom-come-deliverance-ii-surpasses-6-million-copies-sold-worldwide) — Game Developer

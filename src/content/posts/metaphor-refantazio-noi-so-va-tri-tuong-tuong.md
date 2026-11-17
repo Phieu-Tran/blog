@@ -1,65 +1,53 @@
 ---
-title: "Metaphor: ReFantazio | メタファー：リファンタジオ | Nỗi Sợ Và Trí Tưởng Tượng"
-description: "Analysis — Katsura Hashino, Studio Zero"
-tags: ["Analysis", "Game", "JRPG"]
+title: "Metaphor: ReFantazio | メタファー：リファンタジオ | Tám Năm Cho Một Cuốn Sách"
+description: "Tản mạn — Katsura Hashino, Studio Zero"
+tags: ["Game", "JRPG"]
 related_media: ["games:metaphor-refantazio"]
 date: 2026-11-17
 ---
 ![Cover Metaphor: ReFantazio](https://images.igdb.com/igdb/image/upload/t_cover_big/co8d9t.jpg)
 
-# METAPHOR: REFANTAZIO — NỖI SỢ VÀ TRÍ TƯỞNG TƯỢNG
+Ngày 21 tháng 12 năm 2016, Atlus công bố một studio mới tên **Studio Zero**, do Katsura Hashino dẫn dắt, người đứng sau Persona 3, 4 và 5. Họ hé lộ một dự án RPG giả tưởng với cái tên tạm *Project Re:Fantasy*.
 
-> [!info] Game
-> **Metaphor: ReFantazio**
-> メタファー：リファンタジオ
-> **Đạo diễn:** Katsura Hashino
-> **Nhà phát triển:** Studio Zero (Atlus)
-> **Nhạc:** Shoji Meguro
-> **Thiết kế nhân vật:** Shigenori Soejima
-> **Năm phát hành:** 2024
-> **Nền tảng:** PC, PlayStation, Xbox
-> **Thể loại:** JRPG, Social Simulation
+Rồi gần như im lặng suốt nhiều năm. Đến tháng 6 năm 2023, game mới có tên chính thức: **Metaphor: ReFantazio**. Ngày 11 tháng 10 năm 2024, game ra mắt. Gần tám năm từ lúc công bố.
 
-> [!warning] Spoilers nhẹ
+Và nó bán hơn 1 triệu bản chỉ trong vài ngày, trở thành game bán nhanh nhất lịch sử Atlus. Sau đó vượt 2 triệu. Hashino nói doanh số trên PC còn vượt xa kỳ vọng của Atlus.
 
-Metaphor: ReFantazio là game đầu tiên của Studio Zero, đội ngũ của Katsura Hashino, người đứng sau Persona 3, 4, 5. Và nó mang mọi thứ mà mình yêu ở Persona: lịch trình ngày, các mối quan hệ, dungeon, phong cách giao diện độc đáo. Nhưng thay vì một trường trung học ở Tokyo, nó đặt câu chuyện trong một vương quốc giả tưởng.
+Ekip gần như là ekip Persona: Hashino đạo diễn, Shigenori Soejima thiết kế nhân vật, Shoji Meguro làm nhạc. Nhưng thay vì một trường trung học ở Tokyo, lần này là một vương quốc giả tưởng.
 
-Mình chấm 9 vì Metaphor là một game về chính trị, về phân biệt chủng tộc, và về sức mạnh của **trí tưởng tượng** như một cách chống lại nỗi sợ hãi.
+---
 
-## Cuộc bầu cử ngai vàng
+**Một cuốn sách trong túi**
 
-Vua của Vương quốc Euchronia bị ám sát. Thái tử bị nguyền rủa, chìm vào hôn mê. Và một phép thuật được kích hoạt từ lời trăng trối của nhà vua: ngai vàng sẽ thuộc về người được dân chúng yêu mến nhất. Một **cuộc bầu cử** bắt đầu.
+Thứ mình nhớ nhất ở Metaphor không phải hệ thống chiến đấu hay lịch trình ngày, mà là một cuốn sách.
 
-Nhân vật chính, một thiếu niên thuộc tộc Elda, bị phân biệt đối xử, là bạn thời thơ ấu của Thái tử. Anh muốn phá lời nguyền, và để làm điều đó, anh tham gia cuộc bầu cử để tiếp cận kẻ đã giết vua, Louis Guiabern, một tướng quân đầy sức hút đang dẫn đầu cuộc đua.
+Nhân vật chính, một thiếu niên thuộc tộc Elda, tộc bị cả vương quốc Euchronia coi thường và đổ lỗi, mang theo một cuốn tiểu thuyết giả tưởng. Cuốn sách mô tả một thế giới lý tưởng, nơi mọi người sống bình đẳng, không ai bị phân biệt vì xuất thân. Và người chơi sẽ nhận ra thế giới trong cuốn sách đó trông khá giống... thế giới của chúng ta.
 
-Đây là cấu trúc mà mình thấy rất sáng tạo cho một JRPG. Bạn không chỉ chiến đấu với quái vật. Bạn phải giành được lòng tin của dân chúng, đi gặp những người thuộc các tộc khác nhau, giúp họ, thuyết phục họ.
+Đó là một ý tưởng mình thấy rất đẹp: trong một thế giới giả tưởng, người ta đọc truyện giả tưởng về thế giới thật, và lấy cảm hứng từ đó để làm thế giới của mình tốt hơn. Hư cấu không phải là chạy trốn, mà là cách để hình dung một điều tốt hơn, và chỉ khi hình dung được thì mới đi đến được.
 
-## Tám bộ tộc, một vương quốc chia rẽ
+**Một cuộc bầu cử**
 
-Euchronia có tám bộ tộc, và giữa họ là những định kiến sâu sắc. Có tộc được coi là cao quý, có tộc bị coi là thấp kém. Tộc Elda của nhân vật chính bị coi là thấp kém nhất, bị đổ lỗi cho mọi tai họa, thậm chí bị cho là "mang lời nguyền".
+Vua của Euchronia bị ám sát. Thái tử bị nguyền rủa, hôn mê. Và một phép thuật được kích hoạt từ lời trăng trối của nhà vua: ngai vàng thuộc về người được dân chúng yêu mến nhất. Một **cuộc bầu cử** bắt đầu.
 
-Mình thấy Metaphor viết về phân biệt chủng tộc khá thẳng thắn. Không ai trong game "vô tội". Kể cả những đồng đội của bạn, ban đầu cũng mang định kiến với những tộc khác. Và qua thời gian, qua những cuộc trò chuyện, họ thay đổi.
+Đây là cấu trúc mà mình chưa thấy ở JRPG nào: bạn không chỉ đánh quái vật, bạn phải giành lòng tin của dân chúng, gặp người thuộc tám bộ tộc khác nhau, giúp họ, thuyết phục họ. Và đối thủ lớn nhất là Louis Guiabern, một tướng quân có sức hút, kẻ đã giết vua, đang dẫn đầu cuộc đua bằng cách khuếch đại nỗi sợ của đám đông.
 
-## Nỗi lo âu và Archetype
+**Nỗi sợ tạo ra quái vật**
 
-Kẻ thù trong Metaphor là những **Human**, quái vật đáng sợ sinh ra từ nỗi lo âu của con người. Càng sợ hãi, càng nhiều quái vật.
+Kẻ thù trong game là những quái vật sinh ra từ nỗi lo âu của con người. Càng sợ hãi, càng nhiều quái vật. Còn sức mạnh của nhân vật chính và đồng đội, gọi là Archetype, chỉ thức tỉnh khi họ dám đối mặt với nỗi sợ của chính mình.
 
-Để chống lại chúng, nhân vật chính và đồng đội đánh thức **Archetype**, sức mạnh sinh ra khi họ dũng cảm đối mặt với nỗi sợ của chính mình. Giống như Persona trong series cũ, nhưng ở đây, nó gắn với các hình mẫu anh hùng: Hiệp sĩ, Pháp sư, Đạo tặc, Đấu sĩ.
+Một thế giới nơi nỗi sợ tạo ra quái vật, và những kẻ mị dân lợi dụng nỗi sợ để giành quyền lực. Mình nghĩ không cần nói nó đang ám chỉ cái gì.
 
-Mình thích cách game liên kết những điều này. Nỗi lo âu tạo ra quái vật. Lòng can đảm tạo ra sức mạnh. Và trong một xã hội đầy nỗi sợ, những kẻ như Louis có thể dễ dàng thao túng đám đông bằng cách khuếch đại nỗi sợ đó.
+---
 
-## Cuốn sách
+9 điểm. Nhịp độ có lúc chậm, vài dungeon phụ lặp lại. Nhưng tám năm của Studio Zero đã cho ra một game mà mình nghĩ những ai yêu Persona đều nên thử. Và Hashino, theo PC Gamer, đã bắt tay vào game tiếp theo.
 
-Có một yếu tố mà mình nghĩ là thông điệp lớn nhất của game: nhân vật chính mang theo một cuốn tiểu thuyết giả tưởng, kể về một thế giới utopia, nơi mọi người sống bình đẳng, không có phân biệt. Anh đọc nó, và lấy cảm hứng từ nó.
+---
 
-Cuốn sách đó mô tả một thế giới mà người chơi sẽ nhận ra: một thế giới hiện đại giống như... thế giới của chúng ta.
+*Nguồn tham khảo:*
 
-Mình thấy đây là một ý tưởng đẹp. Game nói rằng: **trí tưởng tượng, những câu chuyện hư cấu, có sức mạnh thay đổi thực tại**. Không phải vì chúng cho ta lối thoát, mà vì chúng cho ta hình dung về một thế giới tốt đẹp hơn. Và chỉ khi hình dung được, ta mới có thể đi đến đó.
-
-Đây có lẽ là thông điệp mà Hashino muốn gửi đến những người chơi game: những thế giới giả tưởng mà bạn yêu không phải là sự trốn chạy vô ích. Chúng là nơi bạn học được dũng cảm, tình bạn, và hy vọng.
-
-## Vì sao mình chấm 9
-
-Metaphor có hệ thống chiến đấu theo lượt sâu sắc nhất trong các game của Atlus, với hệ thống Archetype cho phép kết hợp kỹ năng rất linh hoạt. Nhạc của Shoji Meguro, lần này mang phong cách thánh ca hùng tráng, hoàn toàn khác với jazz của Persona.
-
-Mình chấm 9 vì nhịp độ đôi khi chậm, và một số dungeon phụ khá lặp lại. Nhưng đây là một game tham vọng, nói về những vấn đề thật của thế giới thật, qua lớp áo giả tưởng. Và nó nhắc mình rằng những câu chuyện mình yêu, dù là giả tưởng, vẫn có thể làm mình trở thành một người tốt hơn.
+- [Metaphor: ReFantazio game surpasses 1 million copies worldwide](https://animenewsnetwork.com/news/2024-10-11/metaphor-refantazio-game-surpasses-1-million-copies-worldwide/.216616) — Anime News Network
+- [Metaphor: ReFantazio becomes fastest-selling Atlus title](https://worthplaying.com/article/2024/10/11/news/143831-metaphor-refantazio-becomes-fastest-selling-atlus-title-with-million-units-sold-on-launch-day) — WorthPlaying
+- [Former Persona studio director reveals more about Atlus's new RPG](https://automaton-media.com/en/news/former-persona-studio-director-reveals-more-about-atlus-new-rpg-metaphor-refantanzio/) — Automaton
+- [Metaphor: ReFantazio's PC sales far exceeded Atlus' expectations](https://automaton-media.com/en/?p=47419) — Automaton
+- [Metaphor: ReFantazio director Katsura Hashino is already working on a new game](https://www.pcgamer.com/games/rpg/metaphor-refantazio-director-katsura-hashino-is-already-working-on-a-new-game) — PC Gamer
+- [Metaphor: ReFantazio](https://en.wikipedia.org/wiki/Metaphor:_ReFantazio) — Wikipedia

@@ -1,72 +1,60 @@
 ---
-title: "Octopath Traveler II | オクトパストラベラーII | Tám Con Đường, Một Thời Đại"
-description: "Analysis — Square Enix, Acquire"
-tags: ["Analysis", "Game", "JRPG"]
+title: "Octopath Traveler II | オクトパストラベラーII | Các Reviewer Đồng Ý Và Cãi Nhau Ở Đâu"
+description: "Tổng hợp — Square Enix, Acquire"
+tags: ["Game", "JRPG"]
 related_media: ["games:octopath-traveler-ii"]
 date: 2026-11-17
 ---
 ![Cover Octopath Traveler II](https://images.igdb.com/igdb/image/upload/t_cover_big/co7ds7.jpg)
 
-# OCTOPATH TRAVELER II: TÁM CON ĐƯỜNG, MỘT THỜI ĐẠI
+Octopath Traveler II ra mắt năm 2023, do Square Enix và Acquire phát triển. Lần này mình thử một cách viết khác: đọc một loạt bài review, xem họ đồng ý ở đâu, cãi nhau ở đâu, rồi nói mình đứng về phía nào.
 
-> [!info] Game
-> **Octopath Traveler II**
-> オクトパストラベラーII
-> **Nhà phát triển:** Square Enix, Acquire
-> **Nhạc:** Yasunori Nishiki
-> **Năm phát hành:** 2023
-> **Nền tảng:** Nintendo Switch, PlayStation, PC, Xbox
-> **Thể loại:** JRPG
+---
 
-> [!warning] Spoilers nhẹ
+## Gần như ai cũng đồng ý
 
-Octopath Traveler II có một phong cách hình ảnh mà Square Enix gọi là **HD-2D**: nhân vật pixel art như game 16-bit thời SNES, đặt trong một thế giới 3D với ánh sáng, độ sâu trường ảnh, hiệu ứng nước và lửa hiện đại. Kết quả là một thứ gì đó vừa hoài niệm, vừa đẹp theo cách mà mình chưa thấy ở đâu.
+**Crossed Paths là cải tiến lớn nhất.** Điểm yếu lớn nhất của phần một là tám nhân vật đi cùng nhau mà gần như không nói chuyện với nhau trong cốt truyện chính. Phần hai thêm "Crossed Paths", những câu chuyện ngắn chỉ mở khi hai nhân vật cụ thể đi cùng nhau. Nintendo World Report và nhiều trang khác gọi đây là cải tiến rõ rệt so với phần một.
 
-Nhưng mình chấm 9 không chỉ vì hình ảnh. Mình chấm 9 vì Octopath II là một **tuyển tập tám câu chuyện**, mỗi câu chuyện là một thể loại khác nhau, và hầu hết đều được viết tốt hơn hẳn phần một.
+**Ngày và đêm là bổ sung hay nhất.** Mỗi nhân vật có một kỹ năng khác vào ban ngày và ban đêm. Một reviewer gọi đây là thứ họ thích nhất trong phần hai. Thị trấn thay đổi theo thời gian: ban đêm có những người khác, những nhiệm vụ khác.
 
-## Tám người lữ khách
+**HD-2D đẹp hơn.** Phong cách nhân vật pixel 16-bit đặt trong thế giới 3D với ánh sáng hiện đại, mà Square Enix gọi là HD-2D, được nhiều người khen là đã "trưởng thành" hơn hẳn phần một.
 
-Ở đầu game, bạn chọn một trong tám nhân vật. Mỗi người có một câu chuyện riêng, bắt đầu ở một nơi khác nhau, với một động lực khác nhau:
+## Cãi nhau: nhạc
 
-- **Hikari**, hoàng tử chiến binh bị lưu đày, muốn giành lại vương quốc từ người anh cùng cha khác mẹ.
-- **Agnea**, cô vũ công từ một ngôi làng nhỏ, mơ trở thành ngôi sao.
-- **Castti**, dược sĩ mất trí nhớ, đi tìm lại quá khứ của mình.
-- **Osvald**, học giả bị vu oan giết vợ con, vượt ngục để trả thù.
-- **Partitio**, thương nhân vui vẻ, muốn xóa bỏ nghèo đói.
-- **Temenos**, mục sư điều tra một vụ giết người trong giáo hội.
-- **Throné**, sát thủ muốn thoát khỏi tổ chức đã nuôi lớn mình.
-- **Ochette**, thợ săn hoang dã, đi tìm cách ngăn một thảm họa.
+Đây là chỗ thú vị nhất. Nhạc vẫn do Yasunori Nishiki viết, và các reviewer chia làm hai phe:
 
-Tám câu chuyện, tám thể loại: sử thi chính trị, hài nhẹ nhàng, bí ẩn, báo thù, kinh tế, trinh thám, gián điệp, phiêu lưu.
+- Nintendo World Report nói nhạc **không hay bằng** phần một. Một bài khác gọi nó là "hơi hụt hẫng".
+- Một reviewer khác nói nhạc phần hai **vượt** phần một ở gần như mọi mặt. Một bài nữa nói nó hay ngang phần một nhưng đủ khác để có bản sắc riêng.
 
-## Osvald: câu chuyện báo thù
+Mình đứng phe thứ hai. Mỗi nhân vật có chủ đề riêng, và chủ đề của Osvald, người học giả bị vu oan giết vợ con, vượt ngục để báo thù, là bản mình thấy hay nhất.
 
-Câu chuyện mà mình thích nhất là của Osvald. Anh mở đầu trong một nhà tù trên đảo tuyết, bị kết án vì một tội mà anh không làm: giết vợ con mình. Kẻ thật sự đứng sau là Harvey, người đồng nghiệp ghen tị với tài năng của Osvald.
+## Gần như ai cũng chê
 
-Osvald là một học giả, trầm lặng, lạnh lùng, chỉ sống vì báo thù. Câu chuyện của anh u tối nhất trong tám người, và đoạn kết, khi anh phải đối mặt với Harvey và với chính sự căm ghét trong mình, là một trong những đoạn hay nhất game.
+- Không đổi được nhân vật nhanh trong lúc chiến đấu.
+- Cách kể chuyện và các trận đánh ngẫu nhiên vẫn còn những vấn đề cũ từ phần một.
+- Shacknews tóm gọn bằng một câu: *"Tám người thì đông quá."*
 
-## Throné: tự do
+---
 
-Câu chuyện của Throné cũng rất hay. Cô là sát thủ được nuôi lớn trong tổ chức Blacksnakes, nơi những đứa trẻ được dạy gọi những kẻ cầm đầu là "Mẹ" và "Cha". Để được tự do, cô phải giết cả hai.
+## Phần của mình
 
-Mình thấy đây là câu chuyện về việc thoát khỏi một gia đình độc hại, và về câu hỏi: khi đã thoát ra, ta là ai? Throné không biết sống mà không có lệnh. Cô phải học cách lựa chọn cho mình.
+Ngoài những điều trên, mình muốn nói thêm về hai câu chuyện:
 
-## Những câu chuyện đan xen
+**Osvald.** Một học giả trầm lặng, tỉnh dậy trong nhà tù trên đảo tuyết vì tội giết vợ con mà anh không làm. Kẻ thật sự đứng sau là một đồng nghiệp ghen tị. Câu chuyện của Osvald u tối nhất trong tám người, và đoạn kết khi anh phải đối mặt với chính sự căm ghét của mình là đoạn hay nhất game.
 
-Một điểm yếu lớn của Octopath phần một là tám câu chuyện gần như không liên quan đến nhau. Các nhân vật đi cùng nhau, nhưng không nói chuyện với nhau trong cốt truyện chính.
+**Throné.** Một sát thủ được nuôi lớn trong tổ chức Blacksnakes, nơi bọn trẻ được dạy gọi những kẻ cầm đầu là "Mẹ" và "Cha". Để tự do, cô phải giết cả hai. Và khi đã tự do, cô không biết sống thế nào khi không có ai ra lệnh.
 
-Phần hai sửa lỗi này bằng **Crossed Paths**: những câu chuyện ngắn kể về hai nhân vật cùng nhau. Hikari và Ochette, Agnea và Partitio, Temenos và Throné. Những đoạn này không dài, nhưng chúng làm cho nhóm tám người cảm thấy như một nhóm bạn thật sự.
+Chiến đấu thì vẫn là thứ mình thích nhất ở series: đánh đúng điểm yếu để làm kẻ địch "Break", tích "Boost" để tung đòn mạnh, thêm "Latent Power" riêng cho từng nhân vật.
 
-Và ở cuối game, tám câu chuyện hội tụ lại thành một câu chuyện chung, với những kết nối mà mình không ngờ tới.
+9 điểm. Đồng ý với các reviewer rằng nó tốt hơn phần một. Không đồng ý với những ai chê nhạc.
 
-## Chiến đấu
+---
 
-Hệ thống chiến đấu của Octopath II là một trong những hệ thống theo lượt hay nhất mình từng chơi. Mỗi kẻ địch có những điểm yếu ẩn giấu (kiếm, giáo, lửa, băng...). Tấn công đúng điểm yếu đủ số lần, kẻ địch bị **Break**, mất lượt, chịu thêm sát thương. Mỗi lượt, bạn tích lũy **Boost Points** để tung đòn mạnh hơn.
+*Nguồn tham khảo:*
 
-Phần hai thêm **Latent Power**, mỗi nhân vật có một sức mạnh đặc biệt khi bị tấn công đủ nhiều, và hệ thống ngày và đêm, nơi mỗi nhân vật có một kỹ năng khác cho mỗi thời điểm.
-
-## Vì sao mình chấm 9
-
-Octopath II là game mà mình nghĩ những ai yêu JRPG cổ điển đều sẽ thích. Nhạc của Yasunori Nishiki thì tuyệt vời, mỗi nhân vật một chủ đề riêng.
-
-Mình chấm 9 vì cấu trúc tám câu chuyện độc lập vẫn có những lúc lặp lại, và game khá dài. Nhưng mình yêu cảm giác của một cuộc hành trình: tám người lạ, với tám lý do khác nhau, gặp nhau trên đường và trở thành bạn. Đó là tinh thần của JRPG mà mình lớn lên cùng.
+- [Octopath Traveler II Switch Review](https://www.nintendoworldreport.com/review/62901/octopath-traveler-ii-switch-review) — Nintendo World Report
+- [Octopath Traveler II Review](https://thesixthaxis.com/2023/02/17/octopath-traveler-2-review) — TheSixthAxis
+- [Octopath Traveler II Review](https://techraptor.net/gaming/reviews/octopath-traveler-ii-review) — TechRaptor
+- [Octopath Traveler 2 review: Eight is a crowd](https://shacknews.com/article/134209/octopath-traveler-2-review-score) — Shacknews
+- [Review: Octopath Traveler II](https://waytoomany.games/2023/03/17/review-octopath-traveler-ii/) — WayTooManyGames
+- [Octopath Traveler II Impressions](https://superjumpmagazine.com/octopath-traveler-ii-review-in-progress) — SUPERJUMP
