@@ -1,71 +1,57 @@
 ---
-title: "Ghost of Tsushima | Danh Dự Của Một Samurai"
-description: "Analysis — Sucker Punch Productions"
-tags: ["Analysis", "Game", "Theme"]
+title: "Ghost of Tsushima | Đảo Tsushima Thật Và Đảo Tsushima Trong Game"
+description: "Ghi chép — Sucker Punch Productions"
+tags: ["Game", "Historical"]
 related_media: ["games:ghost-of-tsushima"]
 date: 2026-11-17
 ---
 ![Cover Ghost of Tsushima](https://images.igdb.com/igdb/image/upload/t_cover_big/co2crj.jpg)
 
-# GHOST OF TSUSHIMA: DANH DỰ CỦA MỘT SAMURAI
+Tsushima là một hòn đảo có thật, nằm giữa Nhật Bản và bán đảo Triều Tiên. Sau khi Ghost of Tsushima ra mắt năm 2020, hòn đảo nhỏ này bỗng có một lượng du khách mới: những người chơi muốn đến tận nơi xem cánh đồng hoa, ngôi đền trên vách đá, bãi biển nơi Jin Sakai mở đầu câu chuyện.
 
-> [!info] Game
-> **Ghost of Tsushima**
-> **Nhà phát triển:** Sucker Punch Productions
-> **Diễn viên:** Daisuke Tsuji (Jin Sakai), Eric Steinberg (Lãnh chúa Shimura), Patrick Gallagher (Khotun Khan)
-> **Nhạc:** Ilan Eshkeri, Shigeru Umebayashi
-> **Năm phát hành:** 2020 (bản Director's Cut 2021, PC 2024)
-> **Nền tảng:** PlayStation 4, PlayStation 5, PC
-> **Thể loại:** Action-Adventure, Open World
+Hai đạo diễn của game, Nate Fox và Jason Connell, còn được đảo Tsushima phong làm đại sứ du lịch. Một studio Mỹ làm game về Nhật Bản, và người Nhật cảm ơn họ vì điều đó.
 
-> [!warning] Spoilers
+Mình tò mò: đảo trong game giống đảo thật đến đâu?
 
-Ghost of Tsushima là một game do một studio Mỹ làm về Nhật Bản, và được chính người Nhật yêu thích đến mức hai đạo diễn được bổ nhiệm làm đại sứ du lịch của đảo Tsushima. Game có chế độ "Kurosawa Mode" biến toàn bộ game thành đen trắng, có hạt phim, như những bộ phim samurai kinh điển của Akira Kurosawa.
+---
 
-Nhưng mình chấm 9 không chỉ vì hình ảnh đẹp. Mình chấm 9 vì Ghost of Tsushima kể một câu chuyện về một xung đột mà mình nghĩ rất sâu sắc: **danh dự có giá trị gì khi nó khiến người dân của bạn chết?**
+**Thật: cuộc xâm lược**
 
-## Mông Cổ xâm lược
+Quân Mông Cổ thật sự tấn công Tsushima hai lần, năm 1274 và 1281, thời Kamakura. Game lấy bối cảnh lần đầu, năm 1274.
 
-Năm 1274, quân Mông Cổ do Khotun Khan chỉ huy đổ bộ lên đảo Tsushima. Tám mươi samurai cưỡi ngựa ra bãi biển Komoda để đón đánh, theo đúng nghi thức: một samurai bước lên, xưng danh, thách đấu. Quân Mông Cổ đáp lại bằng cách thiêu sống người samurai đó, rồi tàn sát tất cả.
+**Thật: bãi biển Komoda**
 
-Cảnh mở đầu này nói lên toàn bộ xung đột của game. Samurai chiến đấu theo những quy tắc danh dự đã có từ hàng trăm năm. Quân Mông Cổ không có quy tắc nào. Chúng dùng thuốc nổ, mưu mẹo, khủng bố. Danh dự không cứu được ai.
+Cảnh mở đầu game, tám mươi samurai cưỡi ngựa ra bãi biển Komoda đón đánh quân Mông Cổ, diễn ra ở một địa điểm có thật. Hiệp hội Du lịch tỉnh Nagasaki còn làm hẳn một trang web giới thiệu những địa điểm thật trên đảo xuất hiện trong game, trong đó có bãi biển Komoda và thành Kaneda. Theo GamesRadar, những công trình lịch sử như thành Kaneda được tái hiện khá kỹ.
 
-Jin Sakai, một samurai trẻ, là người sống sót duy nhất.
+**Hư cấu: gần như mọi nhân vật**
 
-## Samurai và Bóng ma
+Jin Sakai, Lãnh chúa Shimura, Khotun Khan, Yuna... đều không có thật. Đồng sáng lập Sucker Punch thừa nhận game tự cho phép mình phóng tác lịch sử để làm một trò chơi hay.
 
-Để giải cứu chú mình, Lãnh chúa Shimura, người nuôi dạy anh, và giải phóng Tsushima, Jin phải lựa chọn. Theo luật samurai, anh phải đối mặt trực diện với kẻ thù. Nhưng với lực lượng ít ỏi, đối mặt trực diện là tự sát.
+**Hư cấu: samurai và thanh kiếm**
 
-Vì vậy Jin dần dần trở thành **"Bóng ma"** (Ghost): ám sát trong đêm, dùng độc, dùng bom khói, tấn công từ phía sau. Những phương pháp mà samurai coi là hèn hạ.
+Nhiều bài viết chỉ ra rằng samurai thế kỷ 13 chủ yếu chiến đấu bằng cung tên trên lưng ngựa, chứ không phải đấu kiếm tay đôi kiểu "thách đấu danh dự" như trong game. Hình ảnh samurai cầm katana đối mặt kẻ thù là hình ảnh của những thế kỷ sau, và của phim ảnh.
 
-Gameplay phản ánh trực tiếp lựa chọn này. Bạn có thể chiến đấu như samurai: bước ra đối mặt, thách đấu một kẻ địch trong "Standoff", một chiêu chém duy nhất quyết định sống chết. Hoặc bạn có thể chiến đấu như Bóng ma: lẩn trong cỏ cao, ám sát từng tên một. Cả hai đều hiệu quả. Nhưng câu chuyện liên tục nhắc bạn rằng con đường thứ hai có cái giá.
+**Hư cấu: hình dáng hòn đảo**
 
-## Lãnh chúa Shimura
+Một người viết đã đến tận Tsushima sau khi chơi game, và kể rằng hòn đảo thật gần như không giống hòn đảo trong game. Không có những cánh đồng hoa đỏ trải dài vô tận, không có rừng tre vàng óng ở mỗi góc đường. Game là một Tsushima được tưởng tượng lại, như trong một bộ phim samurai cũ.
 
-Mình nghĩ mối quan hệ giữa Jin và chú Shimura là trái tim của game. Shimura là samurai mẫu mực, người dạy Jin mọi điều về danh dự. Ông yêu Jin như con trai.
+---
 
-Và khi Jin bắt đầu dùng phương pháp của Bóng ma, Shimura giận dữ. Ông không thể chấp nhận việc cháu mình, người thừa kế danh dự của gia tộc, lại trở thành kẻ ám sát trong bóng tối. Ông nói rằng danh dự là thứ phân biệt samurai với những kẻ man rợ.
+**Vậy tại sao người Nhật vẫn yêu nó?**
 
-Jin đáp lại rằng danh dự không cứu được những nông dân bị Mông Cổ tàn sát. Bóng ma thì cứu được.
+Mình nghĩ vì Ghost of Tsushima không cố làm một bộ phim tài liệu. Nó làm một lời tri ân cho những bộ phim samurai của Akira Kurosawa. Có cả **chế độ Kurosawa**, biến toàn bộ game thành đen trắng, có hạt phim, tiếng ồn như phim cũ, và gió thổi mạnh hơn.
 
-Cả hai đều đúng. Và đó là bi kịch.
+Và câu chuyện thì rất Nhật: xung đột giữa danh dự và sự sống. Jin, để cứu người dân, phải từ bỏ cách chiến đấu của samurai, trở thành "Bóng ma", ám sát trong đêm, dùng độc. Người chú nuôi dạy anh, Lãnh chúa Shimura, không thể chấp nhận điều đó. Trận đấu cuối cùng không phải với Khotun Khan, mà là giữa hai chú cháu. Và game để bạn chọn: tha, hay giết theo cách một samurai mong muốn.
 
-## Trận đấu cuối cùng
+9 điểm. Một Tsushima không có thật, về những con người không có thật, nhưng về một câu hỏi rất thật: khi những quy tắc bạn tin không còn bảo vệ được ai, bạn giữ chúng hay phá bỏ?
 
-*(Spoiler)* Ở cuối game, sau khi Jin dùng độc giết cả một pháo đài Mông Cổ, Shogun ra lệnh bắt Jin. Shimura nhận lệnh phải giết cháu mình.
+---
 
-Trận đấu cuối cùng không phải với Khotun Khan, mà với Shimura. Hai người chiến đấu trên một cánh đồng cỏ lau, bằng kiếm, theo đúng luật samurai. Jin thắng. Và game cho bạn một lựa chọn: tha mạng Shimura, hay giết ông theo cách mà một samurai mong muốn, để ông chết trong danh dự.
+*Nguồn tham khảo:*
 
-Đây là một trong những lựa chọn khó nhất mà mình từng gặp trong game. Không có câu trả lời đúng.
-
-## Thế giới mở đẹp như tranh
-
-Về gameplay, Ghost of Tsushima có những ý tưởng mà mình nghĩ các game thế giới mở khác nên học. Không có bản đồ nhỏ đầy biểu tượng. Thay vào đó là **"Guiding Wind"**: vuốt touchpad, một cơn gió thổi qua cỏ, chỉ hướng bạn cần đi. Những con chim vàng dẫn bạn đến bí mật. Những con cáo dẫn bạn đến đền thờ.
-
-Và cảnh quan thì không cần nói: những cánh đồng hoa đỏ, rừng tre vàng, núi tuyết, đền thờ trên vách đá. Mỗi khung hình như một bức tranh.
-
-## Vì sao mình chấm 9
-
-Ghost of Tsushima không phải game hoàn hảo. Các nhiệm vụ phụ hơi lặp lại, kẻ địch khá ít đa dạng. Nhưng chiến đấu bằng kiếm rất thỏa mãn, và câu chuyện về Jin và Shimura là thứ mình nhớ mãi.
-
-Mình chấm 9 vì game hỏi một câu không có lời giải dễ dàng: khi các quy tắc mà ta tin tưởng không còn bảo vệ được ai, ta nên giữ chúng, hay phá bỏ chúng? Jin chọn phá bỏ. Và anh mất đi gia đình duy nhất của mình vì điều đó.
+- [Ghost of Tsushima tourism site explores real-life game locations](https://gamesradar.com/ghost-of-tsushima-tourism-site-explores-real-life-game-locations) — GamesRadar
+- [Ghost of Tsushima tourism partnership shows off the real sites behind the game](https://www.siliconera.com/ghost-of-tsushima-tourism-partnership-shows-off-the-real-sites-behind-the-game/) — Siliconera
+- [Ghost of Tsushima: How It Differs From Historical Facts](https://gamingbolt.com/ghost-of-tsushima-how-it-differs-from-historical-facts) — GamingBolt
+- [Ghost of Tsushima true story](https://www.inverse.com/gaming/ghost-of-tsushima-true-story-history-samurai) — Inverse
+- [Is Tsushima real?](https://japanstartshere.com/2024/05/07/is-tsushima-real/) — Japan Starts Here
+- [Ghost of Tsushima Tour](https://en.wikivoyage.org/wiki/Ghost_of_Tsushima_Tour) — Wikivoyage

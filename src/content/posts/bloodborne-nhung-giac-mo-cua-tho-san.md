@@ -1,67 +1,61 @@
 ---
-title: "Bloodborne | ブラッドボーン | Giấc Mơ Của Người Thợ Săn"
-description: "Analysis — Hidetaka Miyazaki, FromSoftware"
-tags: ["Analysis", "Game", "Lore", "Cosmic Horror"]
+title: "Bloodborne | ブラッドボーン | Mười Năm Chờ Một Bản Vá"
+description: "Ghi chép — Hidetaka Miyazaki, FromSoftware"
+tags: ["Game", "Thảo Luận"]
 related_media: ["games:bloodborne"]
 date: 2026-11-17
 ---
 ![Cover Bloodborne](https://images.igdb.com/igdb/image/upload/t_cover_big/cob99l.jpg)
 
-# BLOODBORNE: GIẤC MƠ CỦA NGƯỜI THỢ SĂN
+Bloodborne ra mắt năm 2015, chỉ trên PS4, chạy ở 30 khung hình mỗi giây, và không ổn định lắm. Hơn mười năm sau, nó vẫn chỉ có trên PS4, vẫn 30fps. Không có bản PC. Không có bản vá PS5. Không có remaster.
 
-> [!info] Game
-> **Bloodborne**
-> ブラッドボーン
-> **Đạo diễn:** Hidetaka Miyazaki
-> **Nhà phát triển:** FromSoftware, Japan Studio
-> **Năm phát hành:** 2015
-> **Nền tảng:** PlayStation 4
-> **Thể loại:** Action RPG, Gothic Horror, Cosmic Horror
+Câu chuyện của cộng đồng Bloodborne suốt mười năm qua, phần nào, là câu chuyện chờ đợi.
 
-> [!warning] Spoilers
+---
 
-Nếu Dark Souls là một thế giới đang tàn, thì Bloodborne là một thế giới đang **phát điên**. Thành phố Yharnam với những tòa tháp Gothic, đường phố đầy những thợ săn say máu, quái vật mà trước đó là người dân, và một mặt trăng đỏ như máu treo trên bầu trời. Ban đầu, Bloodborne trông như một câu chuyện ma cà rồng, người sói thời Victoria. Rồi càng đi sâu, nó biến thành một thứ khác hẳn: một câu chuyện kinh dị vũ trụ kiểu H.P. Lovecraft.
+**2021 — Bản vá của Lance McDonald**
 
-## Dòng máu
+Đầu năm 2021, modder Lance McDonald phát hành một bản vá không chính thức giúp Bloodborne chạy 60fps trên PS4 Pro. Cái giá: phải hạ độ phân giải xuống 720p, mờ hơn hẳn. Nhưng lần đầu tiên người ta thấy Yharnam chạy mượt.
 
-Yharnam nổi tiếng với "liệu pháp máu" của Nhà thờ Healing Church. Người ta đến đây từ khắp nơi để được truyền máu, chữa mọi bệnh tật. Nhưng máu đó có nguồn gốc kỳ lạ: nó đến từ những sinh vật cổ xưa, những **Great Ones**, được tìm thấy dưới lòng đất.
+**2023 — Trên PS5 bị hack**
 
-Và cái giá là một dịch bệnh: **Thú hóa** (Beasthood). Những người dùng máu dần biến thành quái vật. Thợ săn được tạo ra để săn những quái vật đó trong "Đêm săn". Nhưng thợ săn cũng dùng máu. Họ cũng say máu, cũng biến chất.
+Một bản ghi hình cho thấy bản vá đó chạy trên một chiếc PS5 đã bị can thiệp, khóa cứng 60fps ở 1080p. Tom's Guide giật tít: *"Bloodborne trông tuyệt đẹp ở 4K/60fps, nhưng bạn không chơi được."* GameSpot gọi đó là "cái nhìn thoáng qua về một bản vá không thể có được".
 
-Mình thấy đây là ẩn dụ rất mạnh về **sự nghiện ngập** và **cái giá của tri thức bị cấm**. Healing Church tìm thấy một thứ vượt quá hiểu biết của con người, và thay vì sợ hãi, họ dùng nó, thờ nó, phân phát nó. Kết quả là một thành phố tự hủy diệt mình.
+**Sau đó — Sony gỡ bỏ**
 
-## Insight: biết nhiều hơn, thấy nhiều hơn
+Theo nhiều nguồn, Sony bắt đầu yêu cầu gỡ bản vá, khiến nó khó tìm và khó phát tán hơn. Các nguồn không thống nhất về thời điểm và mức độ, nhưng tóm lại: hãng không làm, và cũng không muốn người khác làm.
 
-Cơ chế mình thích nhất trong Bloodborne là **Insight**. Bạn nhận Insight khi gặp những thứ vượt quá hiểu biết: đánh bại boss, tìm thấy vật phẩm bí ẩn, nhìn thấy Great Ones. Insight càng cao, bạn càng *thấy* nhiều hơn.
+**Bây giờ — Giả lập**
 
-Theo nghĩa đen. Với Insight cao, những sinh vật khổng lồ vô hình bắt đầu xuất hiện bám trên các tòa nhà ở Yharnam. Tiếng thì thầm vang lên. Kẻ địch thay đổi hành vi. Bạn nhìn thấy sự thật, nhưng sự thật làm bạn dễ tổn thương hơn với sự điên loạn.
+Có nguồn nói cách ổn định nhất để chơi Bloodborne ở 60fps hiện nay là giả lập trên PC. Có người chơi được mượt, có người gặp lỗi đồ họa, ánh sáng hỏng, thỉnh thoảng sập game. Còn bản PC chính thức thì những tin đồn, theo một trang tin, "giống mơ ước hơn là tin đáng tin".
 
-Đây là thông điệp cốt lõi của kinh dị vũ trụ kiểu Lovecraft: **tri thức không giải thoát, mà làm phát điên**. Vũ trụ quá lớn, quá xa lạ để tâm trí con người chứa đựng. Những người tìm kiếm chân lý, như học giả ở Byrgenwerth, cuối cùng đều trở thành quái vật hoặc điên loạn. Câu thoại nổi tiếng của game là *"Fear the old blood"*, nhưng bài học thật sự có lẽ là: hãy sợ những gì mình muốn biết.
+TechRadar có một bài với cái tên nói hộ cảm xúc của rất nhiều người: *"Bloodborne đang rất cần một bản tối ưu cho PS5."*
 
-## Nửa đầu là gothic, nửa sau là vũ trụ
+---
 
-Cấu trúc của Bloodborne rất thông minh. Nửa đầu game, bạn đánh người sói, những linh mục biến thành thú, một con quỷ hút máu. Mọi thứ đều là kinh dị gothic quen thuộc, đáng sợ nhưng vẫn hiểu được.
+**Vì sao người ta chờ lâu vậy?**
 
-Rồi đến khoảnh khắc **Mặt trăng đỏ** xuất hiện. Bầu trời đổi màu, những sinh vật mới xuất hiện, và game cho thấy rằng tất cả những thứ trước đó chỉ là bề mặt. Bên dưới là những Great Ones: những thực thể như Rom (con nhện khổng lồ trong hồ), Ebrietas (sinh vật xúc tu trong nhà thờ), Mergo (đứa trẻ vô hình mà tiếng khóc vang lên khắp ác mộng).
+Vì Yharnam. Mình nghĩ trong các thế giới của FromSoftware, đây là thế giới có không khí riêng nhất: một thành phố kiểu Victoria với những tòa tháp Gothic nhọn hoắt, đường phố đầy thợ săn say máu, dân thường hóa thú, và một mặt trăng đỏ treo trên trời.
 
-Bước chuyển này làm mình nhớ mãi. Một game bắt đầu như phim Van Helsing và kết thúc như truyện Cthulhu.
+Nửa đầu game là kinh dị gothic quen thuộc: người sói, linh mục hóa quái vật, ma cà rồng. Rồi đến khi trăng đỏ xuất hiện, game lật bài: bên dưới tất cả là những sinh vật vũ trụ khổng lồ, những "Great Ones" mà con người không thể hiểu được. Một game bắt đầu như phim Van Helsing và kết thúc như truyện của Lovecraft.
 
-## Hunter's Dream
+Có một cơ chế mình thích nhất: **Insight**. Càng biết nhiều về những thứ vượt quá hiểu biết, bạn càng *thấy* nhiều hơn. Theo nghĩa đen: với Insight cao, những sinh vật khổng lồ vô hình bắt đầu hiện ra, bám trên các tòa nhà Yharnam. Biết nhiều hơn không giải thoát bạn. Nó làm bạn dễ phát điên hơn.
 
-Giữa những đêm săn, bạn trở về **Hunter's Dream**: một khu vườn yên tĩnh với một con búp bê biết nói, nơi bạn nâng cấp nhân vật. Đây là nơi an toàn duy nhất. Nhưng càng đi sâu vào game, bạn càng nhận ra đó là một nhà tù. Gehrman, người thợ săn già trên xe lăn, đã bị mắc kẹt ở đây hàng trăm năm, và ông đang cầu xin được thoát ra.
+Và chiến đấu thì buộc bạn phải tấn công. Không có khiên. Hệ thống "Rally" cho phép hồi lại máu vừa mất nếu đánh trả ngay. Muốn sống thì phải lao vào, như một thợ săn say máu thật sự.
 
-Bloodborne có ba cái kết. Trong cái kết thứ nhất, bạn để Gehrman "giải thoát" mình, tỉnh dậy ở Yharnam khi mặt trời mọc. Trong cái kết thứ hai, bạn từ chối, giết Gehrman, rồi trở thành người canh giữ giấc mơ mới, mắc kẹt như ông. Trong cái kết thứ ba, bí mật nhất, bạn trở thành một Great One sơ sinh.
+---
 
-Mình thích việc không cái kết nào thực sự "tốt". Hoặc bạn quên đi tất cả, hoặc bạn mắc kẹt mãi mãi, hoặc bạn trở thành thứ mà mình đã săn suốt cả game. Kinh dị vũ trụ không có cái kết hạnh phúc.
+9 điểm. Một điểm trừ là cho 30fps, thời gian load dài, và việc chỉ chơi được trên PlayStation. Nếu một ngày Sony làm bản PS5 hay PC, mình nghĩ nó sẽ thành 10.
 
-## Chiến đấu nhanh, hung hăng
+Đến lúc đó thì, như cộng đồng vẫn nói: *Fear the Old Blood.* Và kiên nhẫn.
 
-Về gameplay, Bloodborne khác hẳn Dark Souls. Không có khiên. Thay vào đó là súng ở tay trái, không để gây sát thương mà để "parry" kẻ địch. Và hệ thống **Rally**: khi bị trúng đòn, bạn có vài giây để đánh trả và hồi lại một phần máu đã mất.
+---
 
-Thiết kế này buộc bạn phải **tấn công**. Phòng thủ không được thưởng. Bạn phải lao vào, chấp nhận rủi ro, và chiến đấu như một thợ săn say máu, đúng như những nhân vật trong game. Mình thấy đây là một ví dụ tuyệt vời về việc gameplay và câu chuyện cùng nói một điều.
+*Nguồn tham khảo:*
 
-## Vì sao mình chấm 9
-
-Bloodborne là một trong những thế giới mình thấy hay nhất của FromSoftware. Yharnam có kiến trúc đẹp nhất, lore sâu sắc nhất, và DLC *The Old Hunters* có những trận boss hay nhất mình từng đánh, như Lady Maria và Orphan of Kos.
-
-Mình chấm 9 thay vì 10 vì game chỉ chạy 30fps với khung hình không ổn định, thời gian load dài, và chỉ có trên PlayStation. Nhưng nếu bạn có PS4 hoặc PS5, đây là lý do đủ để mua máy.
+- [An unofficial Bloodborne patch gets the game running at 60fps](https://www.gamesradar.com/an-unofficial-bloodborne-patch-gets-the-game-running-at-60fps) — GamesRadar
+- [Bloodborne looks stunning at 4K/60 fps — but you can't play it](https://www.tomsguide.com/news/bloodborne-4k-60-fps-patch) — Tom's Guide
+- [Bloodborne Running On PS5 At 60fps Is A Glimpse Into An Unattainable Patch](https://gamespot.com/articles/bloodborne-running-on-ps5-at-60fps-is-a-glimpse-into-an-unattainable-patch/1100-6489352/) — GameSpot
+- [Bloodborne is in desperate need of a PS5 optimization patch](https://www.techradar.com/features/bloodborne-is-in-desperate-need-of-a-ps5-optimization-patch) — TechRadar
+- [A modder finally gets Bloodborne running at 60 FPS on PS5](https://www.techradar.com/gaming/ps5/a-modder-finally-gets-bloodborne-running-at-60-fps-on-ps5-and-its-awesome) — TechRadar
+- [Bloodborne 60fps patch](https://www.thegamer.com/bloodborne-60fps-patch/) — TheGamer
