@@ -47,6 +47,7 @@ jobs:
         run: |
           node src/scripts/sync-all.mjs
           node src/scripts/sync-imdb.mjs --enrich-existing
+          node src/scripts/extract-cover-colors.mjs
           if [ "$CACHE_REMOTE_IMAGES" = "true" ]; then
             npm run cache-images
           else
@@ -75,7 +76,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/content/ public/media-cache/
+          git add src/content/ src/data/ public/media-cache/
           if git diff --staged --quiet; then
             echo "No changes."
           else

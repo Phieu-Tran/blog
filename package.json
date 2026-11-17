@@ -18,7 +18,8 @@
     "normalize-games": "node src/scripts/normalize-game-frontmatter.mjs",
     "check:site": "node src/scripts/check-site-guards.mjs",
     "cache-images": "node src/scripts/cache-remote-images.mjs --apply",
-    "cache-images:check": "node src/scripts/cache-remote-images.mjs --check"
+    "cache-images:check": "node src/scripts/cache-remote-images.mjs --check",
+    "cover-colors": "node src/scripts/extract-cover-colors.mjs"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.18",

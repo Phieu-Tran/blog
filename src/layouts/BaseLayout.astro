@@ -469,6 +469,43 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
       document.documentElement.dataset.baseLayoutEventsBound = 'true';
       document.addEventListener('astro:page-load', init);
       document.addEventListener('astro:before-swap', closeTransientUi);
+
+      // Cover morph: the clicked card's cover grows into the detail page poster, and shrinks back
+      // on return. The name is assigned on demand because one title can appear twice on a page
+      // (Top 10 + grid) and duplicate view-transition names cancel the whole transition.
+      const detailPath = /^\/(anime|games|films)\/[^/]+\/$/;
+      // Path of the page currently shown; on back/forward the URL has already changed by the time swap events fire.
+      let shownPath = location.pathname;
+      const clearCoverNames = () => {
+        document.querySelectorAll<HTMLElement>('[data-cover-morph]').forEach(el => {
+          el.style.viewTransitionName = '';
+          delete el.dataset.coverMorph;
+        });
+      };
+      const nameCover = (img: HTMLElement | null | undefined) => {
+        if (!img) return;
+        clearCoverNames();
+        img.dataset.coverMorph = 'true';
+        img.style.viewTransitionName = 'media-cover';
+      };
+      document.addEventListener('click', event => {
+        const link = (event.target as HTMLElement | null)?.closest?.('a[href]') as HTMLAnchorElement | null;
+        if (!link || link.origin !== location.origin || !detailPath.test(link.pathname)) return;
+        nameCover(link.querySelector<HTMLElement>('img:not([hidden])'));
+      }, { capture: true });
+      document.addEventListener('astro:after-swap', () => {
+        const leavingDetailPath = shownPath;
+        shownPath = location.pathname;
+        if (!detailPath.test(leavingDetailPath) || detailPath.test(location.pathname)) return;
+        // Back on a list/home page: hand the name to the visible card of the title we just left.
+        const candidates = [...document.querySelectorAll<HTMLAnchorElement>(`a[href="${leavingDetailPath}"]`)];
+        const visible = candidates.find(link => {
+          const rect = link.getBoundingClientRect();
+          return rect.width > 0 && rect.bottom > 0 && rect.top < window.innerHeight;
+        });
+        nameCover(visible?.querySelector<HTMLElement>('img:not([hidden])'));
+      });
+      document.addEventListener('astro:page-load', () => window.setTimeout(clearCoverNames, 700));
     }
   </script>
 </body>

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { detailShellStyle } from '../../lib/coverColors';
 import { getCollection } from 'astro:content';
 import { postMatchesMedia } from '../../lib/mediaRelations';
 
@@ -57,7 +58,7 @@ const metaItems = [
 ---
 
 <BaseLayout title={title} description={`${title} — ${genre}`} image={ogImage} activeNav="films">
-  <section class="media-detail-shell media-detail-film" style={cover ? `--detail-image: url("${cover}")` : undefined}>
+  <section class="media-detail-shell media-detail-film" style={detailShellStyle('films', entry.id, cover)}>
     <a href={`${base}films/`} class="detail-back">Về danh sách Films</a>
 
     <div class="media-detail-grid">
