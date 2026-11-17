@@ -1,72 +1,70 @@
 ---
-title: "The Garden of Words | 言の葉の庭 | Hai Người Chưa Biết Cách Bước Đi"
-description: "Analysis — Makoto Shinkai"
-tags: ["Analysis", "Theme", "Romance"]
+title: "The Garden of Words | 言の葉の庭 | Hai Bài Thơ Một Nghìn Ba Trăm Năm Tuổi"
+description: "Đọc thơ — Makoto Shinkai, CoMix Wave Films"
+tags: ["Review", "Romance"]
 related_media: ["anime:the-garden-of-words"]
 date: 2026-11-17
 ---
 ![Poster The Garden of Words](https://cdn.myanimelist.net/images/anime/1597/112995.jpg)
 
-# THE GARDEN OF WORDS: HAI NGƯỜI CHƯA BIẾT CÁCH BƯỚC ĐI
+*The Garden of Words* dài 46 phút, và toàn bộ câu chuyện xoay quanh hai bài thơ.
 
-> [!info] Anime
-> **The Garden of Words** (Khu Vườn Ngôn Từ)
-> 言の葉の庭
-> **Đạo diễn & kịch bản:** Makoto Shinkai
-> **Seiyuu:** Miyu Irino (Takao Akizuki), Kana Hanazawa (Yukari Yukino)
-> **Studio:** CoMix Wave Films
-> **Nhạc:** Daisuke Kashiwa; ca khúc *Rain* của Motohiro Hata
-> **Thời lượng:** 46 phút
-> **Năm phát hành:** 2013
-> **Quốc gia:** Nhật Bản
-> **Thể loại:** Drama, Romance
+Cả hai đến từ **Man'yōshū** (Vạn Diệp Tập), tuyển tập thơ cổ nhất còn lại của Nhật Bản, khoảng bốn nghìn rưỡi bài, phần lớn là *tanka*, thể thơ năm dòng 5-7-5-7-7 âm tiết. Tuyển tập được hoàn thành vào khoảng thế kỷ thứ tám, nghĩa là hai bài thơ này đã hơn một nghìn ba trăm năm tuổi.
 
-> [!warning] Spoilers
+Hai bài nằm cạnh nhau, số 2513 và 2514 trong quyển 11. Bài này hỏi, bài kia trả lời.
 
-*"Một tiếng sấm xa, mây phủ kín trời. Liệu mưa có rơi không? Nếu mưa rơi, chàng có ở lại cùng em?"*
+---
 
-The Garden of Words chỉ dài 46 phút. Nhưng mình nghĩ nó là bộ phim đẹp nhất của Makoto Shinkai về mặt hình ảnh: những giọt mưa rơi trên mặt hồ, những chiếc lá ướt, ánh sáng xuyên qua tán cây trong khu vườn Shinjuku Gyoen. Mỗi khung hình như một bức tranh.
+**Bài thứ nhất**
 
-Mình chấm 9 vì nó là một câu chuyện nhỏ, dịu dàng về **hai người lạc lối**, gặp nhau trong những ngày mưa, và giúp nhau học cách bước đi.
+> 鳴る神の 少し響みて さし曇り 雨も降らぬか 君を留めむ
+>
+> *Tiếng sấm vọng xa / trời u ám / giá như mưa rơi / để giữ người ở lại*
 
-## Những ngày mưa
+Một buổi sáng mùa mưa ở vườn quốc gia **Shinjuku Gyoen**, Tokyo. Takao, mười lăm tuổi, trốn tiết đầu để ngồi dưới mái đình vẽ giày. Cậu muốn làm thợ đóng giày. Trong đình có một người phụ nữ ngồi uống bia và ăn sô-cô-la lúc sáng sớm. Khi Takao đứng dậy đi, cô đọc bài thơ này, rồi cũng đi.
 
-Takao là một học sinh 15 tuổi, mơ trở thành thợ làm giày. Vào những buổi sáng mưa, cậu trốn học, đến khu vườn Shinjuku Gyoen ngồi trong một chiếc chòi, phác thảo những đôi giày.
+Takao không hiểu. Người xem cũng không. Bài thơ treo lơ lửng suốt nửa phim.
 
-Một ngày, cậu gặp một người phụ nữ ở đó: Yukari, 27 tuổi, ngồi uống bia và ăn sô-cô-la lúc sáng sớm. Cô cũng đang trốn tránh một điều gì đó. Trước khi đi, cô đọc cho cậu nghe một bài thơ tanka cổ, từ tuyển tập thơ Man'yōshū.
+Những ngày mưa sau đó, họ gặp nhau ở cùng một chỗ. Không hẹn. Chỉ là cả hai đều đến khi trời mưa. Takao vẽ giày, nấu cơm hộp cho cô. Cô kể rằng mình đã mất khả năng cảm nhận vị giác, chỉ còn nếm được sô-cô-la và bia. Cô nói cô đang "tập đi", nhưng không giải thích.
 
-Từ đó, hai người gặp nhau vào mỗi buổi sáng mưa. Họ không hỏi tên nhau. Họ không hỏi tại sao người kia ở đó. Họ chỉ ngồi cạnh nhau, nói chuyện, chia sẻ đồ ăn. Takao nấu cơm hộp cho Yukari. Yukari giúp Takao mua sách về làm giày.
+Bài thơ thứ nhất là của người muốn giữ ai đó lại nhưng không dám nói thẳng. Chỉ dám cầu trời mưa.
 
-## Ẩn dụ của việc bước đi
+---
 
-Yukari nói với Takao rằng cô đã quên cách bước đi. Cô không còn biết cách đi làm, cách sống bình thường.
+**Bài thứ hai**
 
-Và Takao, người thợ làm giày, quyết định làm cho cô một đôi giày. Cậu đo chân cô. Cảnh đó là một trong những cảnh mình thấy đẹp nhất trong mọi phim Shinkai: Takao quỳ xuống, chạm vào chân Yukari, cẩn thận đo từng đường cong, trong khi mưa rơi xung quanh. Một khoảnh khắc thân mật, nhưng hoàn toàn ngây thơ.
+> 鳴る神の 少し響みて 降らずとも 我は留まらむ 妹し留めば
+>
+> *Tiếng sấm vọng xa / dù mưa không rơi / ta vẫn sẽ ở lại / nếu nàng muốn ta ở lại*
 
-Mình thấy ẩn dụ ở đây rất đẹp: Takao muốn giúp Yukari bước đi lại. Không bằng lời khuyên, mà bằng đôi giày cậu làm bằng chính đôi tay mình.
+Rồi mùa mưa kết thúc. Takao phát hiện ra người phụ nữ trong vườn là **Yukino**, giáo viên văn cổ điển ở chính trường cậu. Cô nghỉ dạy vì bị học sinh bắt nạt, tin đồn, và không chịu nổi việc đến trường. Ngày đầu gặp nhau, cô đã nhận ra Takao là học sinh trường mình. Bài thơ cô đọc là một gợi ý, và một lời thử.
 
-## Sự thật
+Takao đọc lại bài trả lời khi gặp lại cô. Cậu đã đi tìm nó.
 
-Rồi mùa mưa kết thúc. Họ không gặp nhau suốt mùa hè. Khi trường học bắt đầu lại, Takao phát hiện ra sự thật: Yukari là giáo viên văn học cổ điển ở trường cậu. Cô đã nghỉ việc sau khi bị một nhóm học sinh bắt nạt, lan truyền tin đồn sai sự thật về cô.
+Bài thứ hai là câu trả lời của người hiểu ra. Không cần mưa. Chỉ cần em muốn.
 
-Takao tức giận, đối đầu với nhóm học sinh đó, bị đánh. Rồi cậu đến khu vườn, và Yukari ở đó. Một cơn mưa lớn đổ xuống. Hai người chạy về căn hộ của Yukari.
+---
 
-## Cảnh cầu thang
+**Cầu thang**
 
-Cảnh cao trào của phim: Takao thú nhận rằng cậu thích Yukari. Cô từ chối, nói rằng cô là giáo viên, rằng cô sẽ rời đi về quê. Takao giận dữ bỏ đi, nói những lời làm tổn thương cô.
+Mình sẽ không kể cảnh cuối. Chỉ nói rằng nó xảy ra trên một cầu thang, giữa một cơn mưa lớn, sau một lời thú nhận đúng sai đều không quan trọng. Cả hai người đều khóc. Và đó là lần đầu tiên trong phim, ai đó nói thẳng điều mình nghĩ thay vì giấu nó trong một bài thơ.
 
-Yukari ngồi một mình trong căn hộ. Rồi cô chạy ra, chân trần, xuống cầu thang. Takao đang ngồi ở cầu thang. Và Yukari ôm chặt cậu, khóc nức nở, nói rằng những buổi sáng trong khu vườn đã cứu cô. Rằng cô đã học cách bước đi lại nhờ cậu.
+---
 
-Cảnh này, với bài hát *Rain* vang lên ở phần kết, là khoảnh khắc mà mình nghĩ đẹp nhất trong mọi phim Shinkai. Không có lời tỏ tình được đáp lại. Không có cái kết lãng mạn. Chỉ có hai người, ôm nhau dưới cơn mưa, cảm ơn nhau vì đã ở đó.
+Mưa, giày và khu vườn Nhật là ba hình ảnh chính của phim. Và mưa ở đây là thứ đẹp nhất Shinkai từng vẽ: những giọt mưa rơi trên mặt hồ, trên lá cây, trên mái đình, mỗi giọt một khác.
 
-## Cái kết
+Câu chuyện về một học sinh mười lăm tuổi và một giáo viên hai mươi bảy tuổi có thể khiến nhiều người không thoải mái, và mình hiểu. Nhưng phim không phải về tình yêu theo nghĩa đó. Nó là về hai người đều đang không biết cách bước tiếp, gặp nhau ở một nơi trú mưa.
 
-Yukari về quê dạy học. Takao tiếp tục học, tiếp tục làm giày. Họ viết thư cho nhau. Mùa đông, Takao trở lại khu vườn với đôi giày đã hoàn thành, và nói rằng khi nào cậu có thể bước đi xa hơn, cậu sẽ đến gặp cô.
+Đoạn kết, vào mùa đông, Takao quay lại khu vườn với một đôi giày cậu tự làm. Cho một người đang tập đi.
 
-Mình thích cái kết này vì nó không ép hai người phải yêu nhau. Mối quan hệ của họ, với khoảng cách tuổi tác và hoàn cảnh, không thể là một chuyện tình bình thường. Nhưng nó là điều quan trọng hơn: hai người đã giúp nhau vượt qua giai đoạn khó khăn nhất. Và có lẽ một ngày nào đó, khi Takao đã đủ lớn, đủ vững, họ sẽ gặp lại.
+9 điểm. Bốn mươi sáu phút, hai bài thơ, và rất nhiều mưa.
 
-## Vì sao mình chấm 9
+---
 
-The Garden of Words ngắn, và có người sẽ thấy mối quan hệ giữa một học sinh và giáo viên không thoải mái. Mình hiểu. Nhưng mình thấy phim xử lý nó rất tinh tế, không bao giờ vượt quá giới hạn.
+*Nguồn tham khảo:*
 
-Mình chấm 9 vì đây là kiểu phim hợp nhất để xem vào một ngày mưa, và vì nó nói về một điều mà ai cũng từng trải qua: có những giai đoạn trong đời ta không biết cách bước đi. Và đôi khi, chỉ cần một người ngồi cạnh, không hỏi gì, là đủ.
+- [The Garden of Words](https://en.wikipedia.org/wiki/The_Garden_of_Words) — Wikipedia
+- [Man'yōshū](https://en.wikipedia.org/wiki/Man%27y%C5%8Dsh%C5%AB) — Wikipedia
+- [Interview with Director Makoto Shinkai on His New Work "The Garden of Words"](https://otakumode.com/news/51a7128876d9348e3600755b/Interview-with-Director-Makoto-Shinkai-on-His-New-Work-ldquo-The-Garden-of-Words-rdquo-Vol-1) — Tokyo Otaku Mode
+- [An Ode To Shinjuku Gyoen National Garden – Garden Of Words](https://sabukaru.online/articles/an-ode-to-shinjuku-gyoen-national-garden-garden-of-words-by-makoto-shinkai) — Sabukaru
+- [Kotonoha no Niwa](https://randomc.net/?p=10313) — RandomC

@@ -1,65 +1,76 @@
 ---
-title: "Made in Abyss | メイドインアビス | Lời Nguyền Của Sự Tò Mò"
-description: "Analysis — Masayuki Kojima, Akihito Tsukushi"
-tags: ["Analysis", "Theme", "Adventure"]
+title: "Made in Abyss | メイドインアビス | Đi Xuống Từng Tầng"
+description: "Nhật ký hành trình — Akihito Tsukushi, Kinema Citrus"
+tags: ["Review", "Adventure"]
 related_media: ["anime:made-in-abyss", "anime:made-in-abyss-dawn-of-the-deep-soul"]
 date: 2026-11-17
 ---
 ![Poster Made in Abyss](https://cdn.myanimelist.net/images/anime/6/86733.jpg)
 
-# MADE IN ABYSS: LỜI NGUYỀN CỦA SỰ TÒ MÒ
+Quy tắc đầu tiên của Abyss: **đi xuống thì dễ, đi lên mới chết người.**
 
-> [!info] Anime
-> **Made in Abyss** (13 tập, 2017) & **Made in Abyss: Dawn of the Deep Soul** (movie, 2020)
-> メイドインアビス
-> **Đạo diễn:** Masayuki Kojima
-> **Nguyên tác:** manga của Akihito Tsukushi
-> **Seiyuu:** Miyu Tomita (Riko), Mariya Ise (Reg), Shiori Izawa (Nanachi), Toshiyuki Morikawa (Bondrewd)
-> **Studio:** Kinema Citrus
-> **Nhạc:** Kevin Penkin
-> **Quốc gia:** Nhật Bản
-> **Thể loại:** Adventure, Fantasy, Drama, Dark Fantasy
+Cái hố khổng lồ giữa đảo Orth có một lời nguyền. Càng xuống sâu, cái giá phải trả khi leo ngược lên càng khủng khiếp. Made in Abyss được kể như một chuyến đi xuống, nên mình cũng viết về nó theo từng tầng.
 
-> [!warning] Spoilers. Lưu ý: anime có nội dung rất nặng về bạo lực và đau đớn, dù nhân vật trông như trẻ em.
+> [!warning] Có spoiler đến hết Dawn of the Deep Soul.
 
-Made in Abyss là bộ anime đánh lừa người xem nhiều nhất mà mình từng biết. Nhìn poster, bạn thấy hai đứa trẻ dễ thương với đôi mắt to, phong cách vẽ tròn trịa như phim thiếu nhi. Nhạc nền thì đẹp như phim Ghibli. Và rồi, khoảng tập 10, bộ anime cho bạn thấy nó thực sự là gì.
+---
 
-Mình chấm 9 cho cả series lẫn movie, vì Made in Abyss là câu chuyện về **sự tò mò**: một sức mạnh đẹp đẽ nhất của con người, và cũng là thứ có thể hủy diệt chúng ta.
+**Tầng 1 — Rìa Abyss**
 
-## Vực thẳm
+*Lời nguyền khi đi lên: chóng mặt nhẹ.*
 
-Abyss là một cái hố khổng lồ, sâu không đáy, nằm giữa một hòn đảo. Bên trong là những sinh vật kỳ lạ, những di vật cổ đại có sức mạnh vượt hiểu biết. Một thị trấn được xây quanh miệng hố, sống nhờ những thợ lặn, gọi là **Cave Raider**, đi xuống tìm kho báu.
+Riko, cô bé mồ côi mười hai tuổi, lớn lên trong trại mồ côi Belchero, mơ trở thành Bạch Sáo như mẹ, một trong những người thám hiểm huyền thoại đã xuống tận đáy. Cô tìm thấy Reg, một cậu bé robot mất trí nhớ, rồi nhận được một lá thư từ đáy hố: *"Mẹ đợi con ở đáy Vực."*
 
-Nhưng Abyss có một lời nguyền. Đi xuống thì dễ. Đi lên thì khó. Càng xuống sâu, khi quay lên, cơ thể càng phải chịu những hiệu ứng khủng khiếp: chóng mặt, buồn nôn, rồi chảy máu từ mọi lỗ trên cơ thể, rồi mất nhân tính, rồi chết. Ở tầng sâu nhất, đi lên đồng nghĩa với cái chết.
+Tầng này đẹp như phim Ghibli. Màu nước, nắng, những đứa trẻ chạy trên phố. Đó là cái bẫy đầu tiên của Made in Abyss: nét vẽ tròn trịa, dễ thương của Akihito Tsukushi làm bạn tin rằng đây là một câu chuyện phiêu lưu cho trẻ em.
 
-Mình thấy đây là ý tưởng thế giới tuyệt vời. Abyss không phải là một nơi có ác nhân. Nó là một nơi mà chính việc *muốn quay về* là nguy hiểm. Một khi đã đi xuống, bạn phải chấp nhận rằng có thể không bao giờ trở lại.
+**Tầng 2 — Rừng Cám Dỗ**
 
-## Riko và Reg
+*Lời nguyền: buồn nôn nặng, tê tay chân, đau đầu.*
 
-Riko là một cô bé mồ côi, con gái của Lyza, một thợ lặn huyền thoại đã mất tích trong Abyss. Một ngày, Riko nhận được một lá thư từ đáy vực, có vẻ là của mẹ: *"Mẹ đang đợi con ở đáy vực."* Và Riko quyết định đi xuống, dù biết mình có thể không bao giờ trở lại.
+Hai đứa trẻ trốn khỏi thị trấn, đi xuống. Ở đáy tầng hai, chúng gặp **Ozen "Bất Động"**, một Bạch Sáo khác, người thầy của mẹ Riko. Ozen nói thẳng: mẹ con có lẽ đã chết. Rồi bà huấn luyện hai đứa trẻ sinh tồn, và tiết lộ rằng Riko được sinh ra dưới Abyss, tưởng như đã chết từ lúc chào đời, và chỉ sống lại sau khi được đưa lên mặt đất trong một cổ vật.
 
-Đi cùng cô là Reg, một robot có hình dạng cậu bé, mất trí nhớ, được Riko tìm thấy ở tầng trên của Abyss.
+Đây là tầng mà bạn bắt đầu thấy Abyss không quan tâm đến bạn.
 
-Nửa đầu series là một cuộc phiêu lưu đẹp đẽ: những rừng cây khổng lồ, những sinh vật kỳ lạ, những vách đá mây phủ. Nhạc của Kevin Penkin, với dàn nhạc giao hưởng và hợp xướng, tạo cảm giác như đang khám phá một thế giới thần thoại.
+**Tầng 3 — Vết Nứt Lớn**
 
-## Nanachi và Mitty
+*Lời nguyền: thêm ảo giác thị giác và thính giác.*
 
-Rồi đến tập 10, mọi thứ thay đổi. Riko bị một sinh vật độc tấn công, và để cứu cô, Reg phải đưa cô đi lên, khiến cô chịu lời nguyền. Những cảnh đó rất khó xem.
+Một vách đá thẳng đứng. Leo xuống bằng tay. Những sinh vật săn mồi. Bài nhạc của Kevin Penkin, như tiếng hát của một nhà thờ dưới lòng đất, bắt đầu nghe buồn hơn.
 
-Họ được cứu bởi **Nanachi**, một sinh vật trông như con thỏ, từng là một đứa trẻ con người. Nanachi kể câu chuyện của mình: Nanachi và người bạn thân Mitty từng bị một nhà thám hiểm tên Bondrewd dùng làm vật thí nghiệm, đưa lên xuống tầng sâu để nghiên cứu lời nguyền. Nanachi biến thành hình dạng hiện tại nhưng giữ được ý thức. Mitty thì biến thành một khối thịt biến dạng, không thể chết, chịu đau đớn vĩnh viễn.
+**Tầng 4 — Chén Thánh Của Người Khổng Lồ**
 
-Mình nghĩ tập Nanachi kể về Mitty là một trong những tập anime buồn nhất mình từng xem. Và cảnh Nanachi nhờ Reg giải thoát cho Mitty, bằng cách tiêu diệt cô, làm mình thấy nặng lòng rất lâu.
+*Lời nguyền: đau đớn khắp cơ thể, chảy máu từ mọi lỗ trên người.*
 
-## Bondrewd: phản diện kinh khủng nhất
+Đây là nơi Made in Abyss thôi giả vờ. Riko bị một sinh vật bắn chất độc vào tay. Để thoát, hai đứa phải leo lên một đoạn, và Riko, một con người, hứng trọn lời nguyền tầng bốn. Cánh tay nhiễm độc của cô phải được xử lý ngay tại chỗ, trong lúc cô gào khóc. Cảnh này nổi tiếng đến mức nhiều người dừng xem ở đây.
 
-Movie *Dawn of the Deep Soul* tiếp nối câu chuyện, khi Riko, Reg và Nanachi gặp Bondrewd, nhà khoa học đã làm hại Nanachi và Mitty.
+Họ được cứu bởi **Nanachi**, một sinh vật nửa người nửa thú, từng là một đứa trẻ. Nanachi là "Hollow", kết quả của việc chịu lời nguyền tầng sáu. Và câu chuyện về Mitty, người bạn thân của Nanachi, biến thành một khối thịt bất tử, là đoạn đau nhất của mùa một.
 
-Bondrewd là phản diện mà mình nghĩ đáng sợ nhất trong anime. Hắn không điên cuồng, không giận dữ. Hắn lịch sự, ân cần, gọi những đứa trẻ bị hắn thí nghiệm là "con của ta" và thật sự tin rằng mình yêu chúng. Hắn làm những điều kinh khủng nhất với trẻ em, vì "khoa học", vì sự tò mò không giới hạn về Abyss.
+**Tầng 5 — Biển Xác**
 
-Đây là điều làm Bondrewd đáng sợ: hắn là phiên bản cực đoan của chính tinh thần của Made in Abyss. Riko đi xuống vì tò mò. Bondrewd cũng vậy. Khác biệt duy nhất là Bondrewd sẵn sàng hy sinh bất kỳ ai, kể cả trẻ con, cho sự tò mò đó.
+*Lời nguyền: mất mọi giác quan, lú lẫn, tự làm hại bản thân.*
 
-## Vì sao mình chấm 9
+Phim điện ảnh **Dawn of the Deep Soul**. Ở đây có **Bondrewd**, Bạch Sáo của tầng năm, người đã biến Nanachi và Mitty thành những gì họ là. Lịch sự, ân cần, luôn nói năng nhã nhặn, và dùng trẻ em làm vật thí nghiệm, nhốt chúng vào những chiếc "hộp" để thay mình chịu lời nguyền.
 
-Made in Abyss là một bộ anime mà mình không thể giới thiệu cho tất cả mọi người. Có những cảnh rất khó xem, và việc những điều đó xảy ra với những nhân vật trông như trẻ em làm nhiều người khó chịu, một cách chính đáng.
+Prushka, con gái nuôi của ông, một cô bé ngọt ngào trở thành bạn của Riko, cũng có số phận đó. Bondrewd là phản diện đáng sợ nhất mình từng gặp không phải vì ông độc ác, mà vì ông thật lòng yêu Prushka. Và vẫn làm điều đó.
 
-Nhưng mình chấm 9 vì thế giới của nó quá đẹp, quá kỳ bí, và câu hỏi của nó rất sâu: sự tò mò là điều làm nên con người, là thứ đã đưa ta lên mặt trăng. Nhưng nó cũng có cái giá. Và có những người sẵn sàng bắt người khác trả cái giá đó.
+**Tầng 6 — Thủ Đô Của Những Người Không Trở Về**
+
+*Lời nguyền: mất nhân tính, hoặc chết.*
+
+Không ai trở về từ đây mà vẫn là con người. Đây là nơi mùa hai bắt đầu, và là nơi bài viết này dừng lại.
+
+---
+
+Khi Anime News Network phỏng vấn đạo diễn và biên kịch về mùa hai, tiêu đề bài viết gói gọn bằng hai chữ: "nỗi kinh hoàng" và "kỳ quan". Mình nghĩ đó cũng là cách đọc cả bộ: Made in Abyss đẹp đến mức bạn muốn đi tiếp, và tàn nhẫn đến mức bạn hối hận vì đã đi.
+
+9 điểm cho cả mùa một lẫn Dawn of the Deep Soul. Không dành cho người yếu tim. Và nếu bạn thắc mắc vì sao Riko vẫn đi tiếp sau tất cả những điều đó, thì đó chính là lời nguyền thật sự của Abyss: sự tò mò.
+
+---
+
+*Nguồn tham khảo:*
+
+- [Made in Abyss](https://en.wikipedia.org/wiki/Made_in_Abyss) — Wikipedia
+- [Made in Abyss](https://tvtropes.org/pmwiki/pmwiki.php/Manga/MadeInAbyss) — TV Tropes
+- [Made In Abyss Director and Screenwriter Discuss the Horrors and Wonders of Season 2](https://www.animenewsnetwork.com/interview/2022-10-17/made-in-abyss-director-and-screenwriter-discuss-the-horrors-and-wonders-of-season-2/.190459) — Anime News Network
+- [List of Made in Abyss characters](https://en.wikipedia.org/wiki/List_of_Made_in_Abyss_characters) — Wikipedia
+- [Can you stop the Curse of the Abyss?](https://twinfinite.net/2022/09/can-you-stop-the-curse-of-the-abyss-in-made-in-abyss-binary-star/) — Twinfinite
