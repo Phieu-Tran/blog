@@ -1,61 +1,60 @@
 ---
-title: "Resident Evil 4 | バイオハザード4 | Bài Học Về Nhịp Độ"
-description: "Analysis — Shinji Mikami, Capcom"
-tags: ["Analysis", "Game", "Game Design"]
+title: "Resident Evil 4 | バイオハザード4 | Trò Chơi Đã Chết Bốn Lần"
+description: "Lịch sử — Shinji Mikami, Capcom"
+tags: ["Game", "Game Design"]
 related_media: ["games:resident-evil-4"]
 date: 2026-11-17
 ---
 ![Cover Resident Evil 4](https://images.igdb.com/igdb/image/upload/t_cover_big/cobsxl.jpg)
 
-# RESIDENT EVIL 4: BÀI HỌC VỀ NHỊP ĐỘ
+Resident Evil 4 ra mắt năm 2005 và thay đổi cả thể loại game hành động góc nhìn thứ ba. Nhưng trước khi trở thành game đó, nó đã bị làm đi làm lại và bỏ đi ít nhất bốn lần. Có một bản trong số đó còn biến thành một series hoàn toàn khác.
 
-> [!info] Game
-> **Resident Evil 4**
-> バイオハザード4
-> **Đạo diễn:** Shinji Mikami
-> **Nhà phát triển:** Capcom Production Studio 4
-> **Năm phát hành:** 2005 (GameCube), sau đó là nhiều bản port, bản HD 2011
-> **Nền tảng:** GameCube, PS2, PC, PS3, Xbox 360, PS4, Xbox One, Switch, VR
-> **Thể loại:** Third-person Shooter, Survival Horror
+Mình thấy câu chuyện phát triển của RE4 hay không kém bản thân trò chơi, nên viết về nó.
 
-> [!warning] Spoilers nhẹ
+---
 
-Resident Evil 4 là game được port lên nhiều hệ máy nhất mà mình biết, đến mức trở thành một trò đùa trong cộng đồng. Nhưng có lý do cho điều đó: hơn 20 năm sau, nó vẫn là một trong những game hành động được thiết kế tốt nhất từng có. Gần như mọi game bắn súng góc nhìn thứ ba sau này, từ *Gears of War* đến *The Last of Us*, đều học từ nó.
+**Lần 1: Bản của Hideki Kamiya**
 
-Bài này mình không viết về cốt truyện, vì cốt truyện của RE4 khá... lố. Leon đi cứu con gái tổng thống ở một ngôi làng Tây Ban Nha bị giáo phái chiếm đóng. Có một lâu đài với một ông chủ lùn, một tên trùm thích nói chuyện dài dòng, và một con quái vật dưới hồ. Mình viết về thứ làm nên RE4: **nhịp độ.**
+Khoảng cuối năm 1999, Capcom giao RE4 cho Hideki Kamiya. Kamiya muốn làm một thứ mạnh tay hơn: nhân vật chính siêu ngầu, nhiều hành động, nhào lộn, chém, bắn. Ông bỏ những phông nền vẽ sẵn của các phần cũ và chuyển sang camera xoay theo nhân vật.
 
-## Phút đầu tiên trong làng
+Shinji Mikami, cha đẻ của Resident Evil, xem bản này và thấy nó đã đi quá xa khỏi kinh dị sinh tồn. Nhưng thay vì bỏ, ông thuyết phục đội tách nó ra thành một game riêng. Năm 2001, game đó ra mắt trên PS2 với tên **Devil May Cry**.
 
-Cảnh mở đầu của RE4 là một bài học thiết kế. Leon đến làng, đi qua một con đường mòn, gặp người dân đầu tiên. Ông ta không phải zombie. Ông ta nói tiếng Tây Ban Nha, cầm rìu, và tấn công. Rồi bạn đến quảng trường làng, và cả làng quay ra nhìn bạn.
+Vậy là bản RE4 đầu tiên đã trở thành Dante.
 
-Cảnh "đánh nhau ở làng" là một trong những đoạn game mình nhớ nhất. Hàng chục dân làng ùa tới từ mọi hướng, có một gã cầm cưa máy, và bạn chỉ có một khẩu súng ngắn và vài viên đạn. Bạn phải chạy vào nhà, chặn cửa, leo lên tầng hai, đẩy thang, bắn vào chân để làm chúng loạng choạng. Rồi chuông nhà thờ vang lên, và tất cả dân làng bỏ đi.
+**Lần 2, 3, 4: Những bản bị bỏ**
 
-Không có hướng dẫn nào. Game dạy bạn mọi thứ bằng cách ném bạn vào tình huống.
+Sau Kamiya, dự án qua tay Hiroshi Shibata và nhiều đội khác. Có bản có sương mù, có bản có ma quái, có bản Leon bị nhiễm virus. Tùy nguồn mà kể khác nhau, nhưng chung một điểm: bản nào cũng bị bỏ. Có bài trên AOL gọi đây là "bốn lần chết và tái sinh" của Resident Evil 4.
 
-## Bắn vào đâu cũng có ý nghĩa
+**Lần cuối: Mikami tự làm**
 
-Cơ chế cốt lõi của RE4 là việc mỗi phát bắn đều có phản ứng khác nhau. Bắn vào đầu, kẻ địch loạng choạng, bạn có thể chạy đến đá chúng. Bắn vào chân, chúng quỵ xuống. Bắn vào tay, chúng làm rơi vũ khí. Bắn vào cây đuốc chúng ném, nó nổ giữa không trung.
+Cuối cùng, chính Mikami nhận làm đạo diễn. Và ông làm một điều lạ: đặt camera ngay sau vai Leon, để người chơi nhìn qua vai anh khi ngắm bắn.
 
-Điều này biến mỗi trận đánh thành một bài toán nhỏ. Bạn không chỉ bắn kẻ địch cho đến khi chúng chết. Bạn *điều khiển* chúng: làm chúng ngã để có thời gian nạp đạn, dồn chúng lại để ném lựu đạn, tạo khoảng trống để chạy.
+Mikami sau này kể ông không nghĩ nhiều về nó, chỉ thấy đó là một bước tiến tự nhiên của series, và không nhận ra nó sẽ có ảnh hưởng lớn đến vậy.
 
-Và quan trọng hơn: Leon **không thể di chuyển khi đang ngắm**. Ngày nay nghe thì như một hạn chế lỗi thời, nhưng nó là cốt lõi của thiết kế. Mỗi lần dừng lại để bắn là một lần bạn đặt mình vào nguy hiểm. Bạn phải lựa chọn thời điểm. Mỗi phát bắn là một quyết định.
+---
 
-## Nhịp độ như sóng
+**Cái camera thay đổi mọi thứ**
 
-RE4 nổi tiếng vì nhịp độ hoàn hảo. Game chia thành các chương, mỗi chương khoảng 30-60 phút, và nhịp độ thay đổi liên tục: một trận đánh căng thẳng, rồi một đoạn khám phá yên tĩnh, rồi một câu đố đơn giản, rồi một trận boss, rồi gặp Merchant để mua bán.
+Ảnh hưởng thì lớn thật. Góc nhìn qua vai trở thành tiêu chuẩn của game bắn súng góc nhìn thứ ba cả thập kỷ sau: *Gears of War*, *Dead Space*, *The Last of Us*, rồi gần như mọi game hành động AAA.
 
-Merchant là một chi tiết thiết kế thiên tài. Gã bán hàng bí ẩn với câu chào *"What're ya buyin'?"* xuất hiện ở những điểm nghỉ ngơi, cho bạn cơ hội nâng cấp vũ khí, sắp xếp lại túi đồ. Cái túi đồ dạng lưới, nơi bạn xoay và xếp vũ khí như chơi Tetris, đã thành một trò chơi nhỏ trong game. Những khoảng nghỉ này cần thiết để sự căng thẳng có ý nghĩa.
+Có một mẩu chuyện mình rất thích. Mikami kể rằng khi Capcom đang làm *Lost Planet* và mang đến E3 lần đầu, đội làm Gears of War tiến đến hỏi: sao các anh không dùng camera của Resident Evil 4 cho game này? Đội Gears đã học từ RE4, và còn thắc mắc vì sao chính Capcom lại không dùng.
 
-Mỗi khi game sắp lặp lại, nó thay đổi. Một đoạn đi thuyền trên hồ. Một đoạn hộ tống Ashley. Một đoạn đi xe goòng trong mỏ. Một đoạn Ashley tự điều khiển. Một trận đánh với Krauser bằng dao. RE4 không bao giờ để bạn chán.
+---
 
-## Không còn là kinh dị?
+**Còn trò chơi thì sao?**
 
-RE4 là bước ngoặt của dòng game. Ba phần trước là kinh dị sinh tồn với camera cố định, ít đạn, zombie chậm. RE4 là game hành động. Nhiều fan cũ không thích.
+Chơi lại RE4 bản gốc bây giờ vẫn thấy nó gần như hoàn hảo về nhịp độ. Đoạn mở đầu ở ngôi làng, khi cả làng quay ra nhìn Leon rồi lao vào, có một gã cầm cưa máy, cho đến khi chuông nhà thờ vang lên và tất cả bỏ đi. Mỗi phát bắn có phản ứng riêng: bắn vào chân thì kẻ địch quỵ, bắn vào đầu thì loạng choạng, chạy đến đá được. Leon không thể vừa đi vừa ngắm, nên mỗi lần dừng lại bắn là một quyết định.
 
-Mình nghĩ RE4 vẫn là kinh dị, nhưng là một loại khác: không phải sợ vì bị rình rập trong bóng tối, mà sợ vì bị **áp đảo**. Ganados thông minh hơn zombie, chúng mở cửa, leo thang, gọi nhau. Regenerator, những sinh vật thở khò khè và chỉ chết khi bắn đúng ký sinh trùng bằng kính nhiệt, là một trong những kẻ địch đáng sợ nhất mình từng gặp.
+Và gã Merchant. *"What're ya buyin'?"* Cái túi đồ dạng lưới mà ai chơi cũng từng ngồi xếp như chơi Tetris.
 
-## Vì sao mình chấm 10
+Bản remake 2023 rất tốt, nhưng mình vẫn chấm bản gốc 10. Một game đã chết bốn lần, rồi sống lại và dạy cả ngành công nghiệp cách đặt camera.
 
-Bài này mình nói về bản gốc, không phải bản remake năm 2023, dù bản remake cũng rất tốt. Mình chấm bản gốc 10 vì nó là ví dụ hoàn hảo về một game biết chính xác mình muốn làm gì, và làm điều đó tốt hơn mọi game khác.
+---
 
-Mỗi lần chơi lại, mình vẫn ngạc nhiên vì game không có một khoảnh khắc nào thừa. Đó là điều mà nhiều game hiện đại, dài hàng trăm giờ, nên học hỏi: đôi khi, ít hơn nhưng chặt chẽ hơn mới là điều tốt nhất.
+*Nguồn tham khảo:*
+
+- [Resident Evil 4](https://en.wikipedia.org/wiki/Resident_Evil_4) — Wikipedia, về các phiên bản bị hủy và Devil May Cry
+- [Shinji Mikami didn't realize the impact of Resident Evil 4's camera](https://gamedeveloper.com/business/shinji-mikami-didn-t-realize-the-impact-of-i-resident-evil-4-i-s-camera) — Game Developer
+- [The Quadruple Death and Rebirth of Resident Evil 4](https://www.aol.com/articles/quadruple-death-rebirth-resident-evil-153000588.html) — AOL
+- [Resident Evil retrospective: Resident Evil 3.5, the Capcom Five, RE4](https://stevivor.com/features/in-depth/resident-evil-retrospective-resident-evil-3-5-the-capcom-five-re4/) — Stevivor
+- [Resident Evil 4 didn't just change everything, it is everything](https://gizmodo.com/resident-evil-4-didnt-just-change-everything-it-is-everything-2000549132) — Gizmodo

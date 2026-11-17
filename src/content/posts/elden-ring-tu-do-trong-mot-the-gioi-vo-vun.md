@@ -1,70 +1,51 @@
 ---
-title: "Elden Ring | エルデンリング | Tự Do Trong Một Thế Giới Vỡ Vụn"
-description: "Analysis — Hidetaka Miyazaki, George R. R. Martin"
-tags: ["Analysis", "Game", "Lore"]
+title: "Elden Ring | エルデンリング | George R.R. Martin Đã Viết Gì?"
+description: "Thảo Luận — Hidetaka Miyazaki, George R.R. Martin"
+tags: ["Game", "Lore", "Thảo Luận"]
 related_media: ["games:elden-ring"]
 date: 2026-11-17
 ---
 ![Cover Elden Ring](https://images.igdb.com/igdb/image/upload/t_cover_big/co4jni.jpg)
 
-# ELDEN RING: TỰ DO TRONG MỘT THẾ GIỚI VỠ VỤN
+Khi Elden Ring được công bố, cái tên làm cả thế giới chú ý không phải Hidetaka Miyazaki, mà là **George R.R. Martin**, tác giả *Trò chơi vương quyền*. Nhiều người tưởng game sẽ có một cốt truyện kiểu Game of Thrones: âm mưu, phản bội, đối thoại dài.
 
-> [!info] Game
-> **Elden Ring**
-> エルデンリング
-> **Đạo diễn:** Hidetaka Miyazaki
-> **Thế giới quan:** George R. R. Martin
-> **Nhà phát triển:** FromSoftware
-> **Nhạc:** Tsukasa Saitoh, Shoi Miyazawa, Yuka Kitamura và nhiều người khác
-> **Năm phát hành:** 2022 (DLC *Shadow of the Erdtree* năm 2024)
-> **Nền tảng:** PC, PlayStation, Xbox
-> **Thể loại:** Action RPG, Open World, Souls-like
+Rồi game ra mắt, và nó... vẫn là một game FromSoftware. Câu chuyện vẫn kể bằng mô tả vật phẩm và những NPC nói chuyện úp mở. Vậy rốt cuộc Martin đã viết gì?
 
-> [!warning] Spoilers
+---
 
-Có một khoảnh khắc trong Elden Ring mà mình nghĩ ai chơi cũng nhớ: bước ra khỏi hang động khởi đầu, nhìn thấy cả vùng Limgrave trải dài trước mặt, cây Erdtree vàng rực trên bầu trời, và một con trùm cưỡi ngựa khổng lồ đang tuần tra ngay trước mặt. Game không nói bạn phải đi đâu. Bạn chỉ... đi.
+**Martin viết lịch sử, không viết cốt truyện**
 
-Mình đã chơi nhiều game thế giới mở, nhưng Elden Ring là game duy nhất khiến mình cảm thấy như một nhà thám hiểm thật sự. Và mình chấm 10 vì nó đã giải được bài toán mà các game thế giới mở khác chưa giải được: **làm sao để sự tự do có ý nghĩa.**
+Câu trả lời ngắn: Martin viết **thần thoại nền** của thế giới, phần lịch sử xảy ra *trước* khi game bắt đầu. Ông phác thảo thế giới, các nhân vật, các sự kiện lớn trong quá khứ, rồi giao lại cho FromSoftware tự làm game. Miyazaki gọi phần đóng góp đó là "nền móng và những lớp đầu tiên" của thế giới.
 
-## Không có dấu chấm hỏi
+Martin không viết lời thoại nào trong game. Ông từng nói phần việc của ông đã xong từ "nhiều năm trước", trước khi game ra mắt rất lâu. Và khi game thành công, ông dành "gần như toàn bộ công lao" cho Miyazaki và đội ngũ của ông.
 
-Các game thế giới mở thường có một cấu trúc giống nhau: bản đồ đầy biểu tượng, nhiệm vụ phụ hiển thị trên màn hình, mũi tên chỉ đường. Bạn không khám phá, bạn đi "dọn" bản đồ.
+**Miyazaki đã thay đổi bao nhiêu?**
 
-Elden Ring làm ngược lại. Bản đồ trống trơn cho đến khi bạn tìm được mảnh bản đồ. Không có biểu tượng nhiệm vụ. Không có chỉ dẫn. Thứ dẫn đường duy nhất là **tầm nhìn**: bạn thấy một tòa lâu đài ở xa, một ngọn tháp kỳ lạ, một cái hang tối. Và bạn tự hỏi: ở đó có gì?
+Khá nhiều. Trong một phỏng vấn với Game Informer, Miyazaki nói thế giới đã tiến hóa rất xa so với điểm xuất phát của Martin trong quá trình phát triển. Ông còn đùa rằng Martin có thể sẽ "hơi sốc" khi thấy các nhân vật của mình bị biến đổi thế nào.
 
-Mình nhớ đã cưỡi Torrent đi qua một vùng đất bình thường, rồi bước vào một chiếc thang máy cũ giữa đồng và phát hiện ra cả một thế giới ngầm khổng lồ với bầu trời đầy sao giả, những con sông ngầm, những thành phố cổ: Siofra River. Không có ai báo trước. Đó là cảm giác khám phá mà mình nghĩ đã mất từ những game hồi nhỏ.
+Mình thấy điều này hợp lý khi nhìn vào các Demigod. Họ có cái chất của Martin: những đứa con của một gia đình hoàng tộc tan vỡ, mỗi người giữ một mảnh quyền lực, đánh nhau trong một cuộc nội chiến mà không ai thắng. Godrick ghép tay chân của người khác vào mình vì khao khát sức mạnh mà dòng máu không cho. Radahn giữ cho các vì sao đứng yên, giờ thành một xác sống điên loạn. Malenia chiến đấu với thối rữa trong chính cơ thể mình. Rennala ôm quả trứng trong thư viện, sống mãi trong ký ức về người chồng đã bỏ đi.
 
-## Độ khó như một lựa chọn
+Nhưng cách họ xuất hiện trong game, cái sự tàn tạ, mục ruỗng, buồn bã, lại rất FromSoftware. Martin cho thế giới một quá khứ hoàng kim. Miyazaki cho ta thấy những gì còn lại sau khi nó sụp đổ.
 
-Dark Souls và Sekiro đóng cửa với nhiều người vì độ khó. Elden Ring vẫn khó, nhưng thông minh hơn: nó cho bạn **lựa chọn cách vượt qua**.
+---
 
-Bị kẹt ở một boss? Đi chỗ khác, lên cấp, quay lại sau. Không thích đánh cận chiến? Dùng phép thuật. Muốn có trợ giúp? Gọi Spirit Ashes, những linh hồn chiến đấu cùng bạn. Thế giới mở biến độ khó thành một thứ mà người chơi tự điều chỉnh.
+**Còn phần của người chơi?**
 
-Có người nói điều này làm Elden Ring "dễ hơn". Mình nghĩ nó làm game *tôn trọng người chơi* hơn. Margit vẫn đánh bại mình hàng chục lần. Malenia vẫn là cơn ác mộng. Nhưng mình luôn có cảm giác rằng nếu cố gắng đủ, sẽ có cách.
+Đó là phần không ai viết được. Elden Ring là game mà câu chuyện thật sự là chuyến đi của bạn: bước ra khỏi hang động đầu tiên, thấy cả vùng Limgrave trải dài, cây Erdtree vàng rực trên trời, và một con boss cưỡi ngựa khổng lồ tuần tra ngay trước mặt. Game không nói bạn đi đâu. Không có dấu chấm hỏi trên bản đồ. Bạn thấy một tòa tháp ở xa và tự hỏi trong đó có gì.
 
-## The Lands Between: một thế giới sau thảm họa
+Có những khoảnh khắc mà không thần thoại nào viết trước được. Bước vào một chiếc thang máy cũ giữa cánh đồng, đi xuống mãi, rồi phát hiện cả một thế giới ngầm với bầu trời đầy sao giả, sông ngầm, thành phố cổ. Không ai báo trước.
 
-Câu chuyện của Elden Ring, như các game FromSoftware khác, được kể qua mảnh vụn. Ngắn gọn: Elden Ring, nguồn gốc của trật tự thế giới, đã bị phá vỡ. Nữ hoàng Marika đã đập vỡ nó, và những người con của bà, các Demigod, mỗi người giữ một mảnh, đánh nhau trong cuộc chiến gọi là Shattering. Không ai thắng. Thế giới sụp đổ.
+Miyazaki từng nói Elden Ring là đỉnh cao của tất cả những gì FromSoftware đã làm. Mình đồng ý. Nó lấy độ khó của Dark Souls, hệ thống tư thế của Sekiro, và mở rộng ra một thế giới mà bạn có thể đi đâu cũng được khi bị kẹt. Không đánh được Margit? Đi chỗ khác, lên cấp, quay lại sau. Malenia thì... vẫn là Malenia.
 
-Bạn là một Tarnished, một trong những người bị trục xuất khỏi vùng đất, giờ được gọi về để thu thập các mảnh vỡ và trở thành Elden Lord.
+10 điểm. Martin viết cho thế giới một lịch sử. Miyazaki biến nó thành một đống đổ nát. Và chúng ta, những Tarnished, đi qua đống đổ nát đó.
 
-Mình thích thế giới này vì mỗi Demigod là một bi kịch riêng:
+---
 
-- **Godrick** ghép tay chân của người khác vào cơ thể mình, khao khát sức mạnh mà dòng máu không cho.
-- **Radahn** từng là chiến binh vĩ đại nhất, giờ là một xác sống điên loạn, ăn xác ngựa dưới bầu trời mà anh đã giữ cho các vì sao không chuyển động.
-- **Rennala** ngồi trong thư viện, ôm quả trứng, sống mãi trong ký ức về người chồng đã bỏ đi.
-- **Malenia** chiến đấu với thối rữa trong người suốt cuộc đời, *"Ta là Malenia, Lưỡi kiếm của Miquella, và ta chưa từng biết thất bại"*.
+*Nguồn tham khảo:*
 
-Không ai là ác nhân thuần túy. Họ là những đứa con bị bỏ rơi trong một gia đình tan vỡ, mỗi người cố bám lấy mảnh quyền lực của mình. Theo cách đó, Elden Ring giống một bi kịch kiểu Shakespeare, hoặc kiểu *Game of Thrones*, điều dễ hiểu khi George R. R. Martin là người viết lịch sử thế giới.
-
-## Ranni và kết thúc khác
-
-Trong số nhiều cái kết, cái mà mình thích nhất là kết thúc của Ranni, phù thủy với bốn cánh tay, linh hồn bị mắc kẹt trong một con búp bê. Ranni không muốn trở thành nữ thần của trật tự cũ. Cô muốn một **Thời đại của Vì sao**: một thế giới mà các vị thần rời xa, con người tự quyết định số phận mình, dưới ánh sao lạnh lẽo và xa xăm.
-
-Nhiệm vụ của Ranni là chuỗi nhiệm vụ dài và khó tìm nhất game, đi qua những vùng đất bí ẩn nhất. Nhưng mình thấy nó là chuỗi nhiệm vụ đáng làm nhất, vì nó đưa ra một câu trả lời cho câu hỏi lớn của Elden Ring: sau khi trật tự cũ sụp đổ, ta nên tái lập nó, hay tìm một con đường mới?
-
-## Vì sao mình chấm 10
-
-Elden Ring không hoàn hảo. Một số boss được tái sử dụng quá nhiều, vùng cuối game hơi vội, và vài cơ chế không được giải thích. Nhưng mình chưa bao giờ chơi một game mà cảm giác khám phá mạnh như vậy, nơi mà sau hàng chục giờ chơi mình vẫn tìm ra những khu vực mới.
-
-Mình chấm 10 vì Elden Ring trả lại cho mình cảm giác của một đứa trẻ cầm tay cầm, không biết gì về thế giới, và chỉ muốn biết ở phía sau ngọn đồi kia có gì.
+- [George R.R. Martin wrote Elden Ring's 'overarching mythos'](https://pcgamer.com/george-rr-martin-wrote-elden-rings-overarching-mythos) — PC Gamer
+- [George R.R. Martin finished his work on Elden Ring years ago](https://www.gamesradar.com/george-r-r-martin-finished-his-work-on-elden-ring-years-ago) — GamesRadar
+- [George R.R. Martin may be 'shocked' by how his Elden Ring lore has been twisted](https://www.pcgamer.com/george-rr-martin-may-be-shocked-by-how-his-elden-ring-lore-has-been-twisted) — PC Gamer
+- [George R.R. Martin attributes "almost all the credit" for Elden Ring's success to Miyazaki and his team](https://gamesradar.com/george-rr-martin-attributes-almost-all-the-credit-for-elden-rings-success-to-miyazaki-and-his-team) — GamesRadar
+- [Elden Ring is the culmination of FromSoftware's games, says Miyazaki](https://www.nme.com/news/elden-ring-is-the-culmination-of-fromsoftwares-games-says-miyazaki-3127812) — NME
+- [George RR Martin's influence on Elden Ring is subtle and that's a good thing](https://gamesradar.com/george-rr-martins-influence-on-elden-ring-is-subtle-and-thats-a-good-thing) — GamesRadar

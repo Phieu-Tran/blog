@@ -1,76 +1,52 @@
 ---
-title: "The Lord of the Rings: The Return of the King | Sự Trở Lại Của Nhà Vua | Người Hùng Nhỏ Bé"
-description: "Analysis — Peter Jackson, J.R.R. Tolkien"
-tags: ["Analysis", "Theme", "Fantasy"]
+title: "The Lord of the Rings: The Return of the King | Sự Trở Lại Của Nhà Vua | Mười Một Tượng Vàng Và Một Người Làm Vườn"
+description: "Review — Peter Jackson, J.R.R. Tolkien"
+tags: ["Review", "Fantasy"]
 related_media: ["films:the-lord-of-the-rings-the-return-of-the-king"]
 date: 2026-11-17
 ---
-![Poster The Lord of the Rings: The Return of the King](https://image.tmdb.org/t/p/w500/3Y6eymGHCfQkDKU6rev2WiqXMci.jpg)
+![Poster The Return of the King](https://image.tmdb.org/t/p/w500/3Y6eymGHCfQkDKU6rev2WiqXMci.jpg)
 
-# THE RETURN OF THE KING: NGƯỜI HÙNG NHỎ BÉ
+Lễ trao giải Oscar lần thứ 76, tháng 2 năm 2004. The Return of the King được 11 đề cử, và thắng cả 11. Không trượt hạng mục nào. Mười một tượng vàng bằng đúng kỷ lục của *Ben-Hur* (1959) và *Titanic* (1997). Lần đầu tiên trong lịch sử, một phim giả tưởng thắng giải Phim hay nhất. Ở New Zealand, nơi cả bộ ba được quay, báo chí gọi đó là đêm của cả đất nước.
 
-> [!info] Phim
-> **The Lord of the Rings: The Return of the King** (Chúa Tể Của Những Chiếc Nhẫn: Sự Trở Lại Của Nhà Vua)
-> **Đạo diễn:** Peter Jackson
-> **Kịch bản:** Fran Walsh, Philippa Boyens, Peter Jackson
-> **Nguyên tác:** tiểu thuyết của J.R.R. Tolkien
-> **Diễn viên:** Elijah Wood (Frodo), Sean Astin (Sam), Viggo Mortensen (Aragorn), Ian McKellen (Gandalf), Andy Serkis (Gollum), Miranda Otto (Éowyn), Billy Boyd (Pippin), Dominic Monaghan (Merry)
-> **Nhạc:** Howard Shore
-> **Thời lượng:** 201 phút (bản chiếu rạp), 263 phút (bản mở rộng)
-> **Năm phát hành:** 2003
-> **Quốc gia:** New Zealand, Mỹ
-> **Thể loại:** Fantasy, Adventure, Epic
+Lúc đó cũng có người chê. Họ cho rằng 11 giải là phần thưởng dành cho cả bộ ba, chứ phần ba một mình chưa chắc đã xứng như vậy. Mình thấy lời chê này có lý. Nhưng nghĩ lại thì cũng chẳng sao: ba phim được quay cùng lúc, là một câu chuyện duy nhất, và phần ba là nơi tất cả được trả lời.
 
-> [!warning] Spoilers
+---
 
-Return of the King là bộ phim giả tưởng duy nhất từng thắng Oscar Phim hay nhất, và nó thắng cả 11 hạng mục được đề cử. Nhưng thứ mình nhớ nhất về nó không phải trận chiến ở Minas Tirith với hàng chục nghìn binh lính, không phải đàn voi Mûmakil khổng lồ hay đội quân ma. Thứ mình nhớ nhất là hai hobbit nhỏ bé bò lên một ngọn núi lửa, và một trong hai người nói: *"Tôi không thể mang chiếc nhẫn thay cậu, nhưng tôi có thể cõng cậu."*
+Mình không muốn viết về những cảnh hoành tráng. Trận Pelennor, đàn voi Mûmakil, kỵ binh Rohan lao xuống đồi lúc bình minh, ai xem rồi cũng nhớ. Mình muốn viết về Sam.
 
-## Một bộ ba về những người bé nhỏ
+Samwise Gamgee là người làm vườn. Không có dòng máu vua chúa, không có phép thuật, không có thanh kiếm huyền thoại. Ở đầu phần một anh bị bắt quả tang nghe lén dưới cửa sổ, và bị Gandalf "phạt" đi theo Frodo. Đến phần ba, anh là người cõng cả câu chuyện trên lưng, theo đúng nghĩa đen.
 
-Tolkien từng tham gia Thế chiến thứ nhất, ở trận Somme. Ông thấy những người lính bình thường, không phải anh hùng, không phải quý tộc, chịu đựng những điều khủng khiếp nhất. Sam Gamgee, theo chính lời Tolkien, được lấy cảm hứng từ những người lính và người hầu ông gặp ngoài chiến trường.
+Tolkien từng nói Sam được lấy cảm hứng từ những người lính và lính hầu bình thường mà ông gặp trong Thế chiến thứ nhất. Ông đã ở trận Somme. Ông thấy những người không phải anh hùng chịu đựng những điều không ai nên phải chịu. Đọc điều đó rồi xem lại phần ba, mình thấy Sam khác hẳn.
 
-Đây là trái tim của Chúa Tể Những Chiếc Nhẫn. Có Aragorn, vị vua trở về. Có Gandalf, phù thủy bất tử. Có Legolas, Gimli, những chiến binh huyền thoại. Nhưng người cứu thế giới là hai hobbit, những sinh vật nhỏ bé nhất, ít quyền lực nhất, chỉ muốn được về nhà ăn khoai tây và uống bia.
+---
 
-Gandalf nói điều này rất rõ trong *The Hobbit*, phần tiền truyện mà Peter Jackson làm sau này: *"Chính những việc làm nhỏ bé, hàng ngày của người bình thường mới giữ cho bóng tối không lan ra. Những hành động nhỏ của tình thương và lòng tốt."*
+Có ba khoảnh khắc của Sam ở phần ba mà mình nhớ mãi.
 
-## Hai cuộc chiến song song
+**Cầu thang Cirith Ungol.** Gollum lừa Frodo rằng Sam ăn cắp lương thực. Frodo tin Gollum, đuổi Sam về. Sam khóc, quay đi, xuống cầu thang. Rồi thấy vụn bánh lembas mà Gollum vứt, hiểu ra mình bị lừa, và quay lại. Không giận. Chỉ quay lại.
 
-Return of the King chạy song song hai tuyến truyện, và cách dựng xen kẽ giữa chúng là điều làm phim đặc biệt.
+**"Cậu có nhớ Shire không?"** Trên đường lên núi Doom, Frodo nói anh không còn nhớ vị dâu tây, tiếng nước chảy, cảm giác của cỏ. Anh chỉ còn thấy bánh xe lửa. Sam kể lại cho anh nghe về Shire, về mùa xuân, về những thứ bình thường nhất. Một người làm vườn nhắc cho người mang nhẫn nhớ rằng thế giới mà họ đang cứu trông như thế nào.
 
-Một bên là **cuộc chiến của các vị vua**: Aragorn nhận thanh kiếm Andúril, đi qua Con đường của Người chết, kêu gọi đội quân ma; trận chiến Pelennor với kỵ binh Rohan lao xuống đồi; Éowyn giết Chúa tể Nazgûl. Đây là chiến tranh theo nghĩa sử thi: vinh quang, hùng tráng, kèn trống.
+**"Tôi không mang chiếc nhẫn thay cậu được, nhưng tôi có thể cõng cậu."** Câu này thì không cần nói thêm.
 
-Bên kia là **cuộc chiến của Frodo và Sam**: không có quân đội, không có vinh quang, chỉ là hai người kiệt sức đi qua một vùng đất chết, bị Gollum thao túng, bị chiếc nhẫn ăn mòn từ bên trong.
+---
 
-Và cái hay là phim cho thấy cuộc chiến vĩ đại kia *chỉ là sự đánh lạc hướng*. Aragorn dẫn quân đến Cổng Đen không phải để thắng, mà để thu hút ánh mắt của Sauron, cho Frodo thêm vài phút. Những đội quân hùng hậu, những anh hùng vĩ đại, tất cả đều phục vụ cho một hobbit đang bò trên núi lửa.
+Một chi tiết mà mình nghĩ nhiều người quên: Frodo **thất bại**. Ở miệng núi lửa, anh không ném chiếc nhẫn. Anh đeo nó vào và nói chiếc nhẫn là của anh. Chiếc nhẫn chỉ bị hủy vì Gollum cắn đứt ngón tay Frodo rồi rơi xuống cùng nó.
 
-## Sam: người anh hùng thực sự
+Tolkien viết vậy có chủ ý. Không ai đủ mạnh để chống lại chiếc nhẫn mãi mãi. Thứ cứu Trung Địa không phải sức mạnh ý chí, mà là lòng thương hại của Bilbo và Frodo khi tha mạng cho Gollum trước đó. Và Sam, người ở bên cạnh đến cùng.
 
-Nếu có ai là nhân vật chính của Return of the King, mình nghĩ đó là Sam.
+Rồi những đoạn kết mà người ta hay trêu là "kết mãi không hết": lên ngôi, về Shire, Sam cưới Rosie, Frodo rời đi ở Grey Havens. Frodo nói có những vết thương không bao giờ lành. Anh cứu Shire, nhưng không phải cho mình. Cho Sam.
 
-Frodo mang chiếc nhẫn, nhưng nó đang hủy hoại anh. Anh yếu dần, nghi ngờ, bị Gollum chia rẽ khỏi Sam. Ở cảnh Frodo đuổi Sam về, Sam khóc và quay về, nhưng rồi anh nhận ra Gollum đang lừa họ, và quay lại. Sam chiến đấu với Shelob, mang Frodo ra khỏi Cirith Ungol, nhường nước, nhường thức ăn.
+Phim kết thúc bằng Sam về nhà, con bế trên tay, nói: *"Well, I'm back."* Người làm vườn về lại khu vườn của mình. Mình nghĩ đó là cái kết đúng nhất cho cả bộ ba.
 
-Và khi Frodo không thể đi thêm được nữa, Sam nhắc Frodo về Shire: dâu tây, bơ, tiếng nước chảy. Frodo nói rằng anh không còn nhớ được vị của thức ăn, tiếng nước, cảm giác của cỏ. Anh chỉ còn thấy bánh xe lửa. Sam nói câu nổi tiếng kia, rồi cõng Frodo lên núi.
+10 điểm.
 
-Đây là hình ảnh mà mình nghĩ tóm tắt cả bộ ba phim: **lòng trung thành và tình bạn mạnh hơn mọi thứ ma lực nào.** Sam không có sức mạnh đặc biệt, không có dòng máu cao quý. Anh chỉ không bỏ cuộc, vì bạn mình cần anh.
+---
 
-## Frodo thất bại
+*Nguồn tham khảo:*
 
-Đây là chi tiết mà mình thấy dũng cảm nhất của câu chuyện: ở miệng núi lửa Doom, **Frodo không ném chiếc nhẫn**. Anh đeo nó vào và tuyên bố: *"Chiếc nhẫn là của ta."*
-
-Người hùng của câu chuyện đã thất bại ở thử thách cuối cùng. Và chiếc nhẫn chỉ bị hủy vì Gollum cắn đứt ngón tay của Frodo, rồi rơi xuống dung nham trong cơn vui sướng.
-
-Tolkien viết điều này một cách có chủ đích. Không ai đủ mạnh để chống lại chiếc nhẫn mãi mãi, kể cả Frodo. Thứ cứu thế giới không phải sức mạnh ý chí của Frodo, mà là những lựa chọn trước đó: lòng thương hại của Bilbo khi tha cho Gollum, lòng thương hại của Frodo khi tiếp tục tin Gollum. Như Gandalf từng nói, Gollum *"còn có vai trò, tốt hoặc xấu, trước khi mọi chuyện kết thúc"*. Lòng thương xót, chứ không phải sức mạnh, đã cứu Trung Địa.
-
-## Nhiều đoạn kết
-
-Return of the King nổi tiếng (và bị trêu) vì có quá nhiều cảnh kết: Aragorn lên ngôi, các hobbit về Shire, Sam cưới Rosie, Frodo viết sách, Frodo rời đi đến Grey Havens.
-
-Nhưng mình nghĩ những đoạn kết này cần thiết. Frodo về Shire nhưng không thể sống lại cuộc đời cũ. Vết thương từ con dao Morgul, từ vết cắn của Shelob, từ chiếc nhẫn, không bao giờ lành. Anh nói: *"Làm sao có thể tiếp tục cuộc sống cũ? Có những vết thương mà thời gian không chữa lành được, vì chúng đã quá sâu."*
-
-Đây là điều Tolkien, một cựu binh, hiểu rõ hơn ai hết. Chiến tranh kết thúc, nhưng người lính không bao giờ trở về hoàn toàn. Frodo cứu Shire, nhưng không phải cho chính mình. Anh cứu nó cho Sam, cho những người như Sam, những người có thể tiếp tục sống ở đó.
-
-## Vì sao mình chấm 10
-
-Return of the King là kết thúc hoàn hảo cho một bộ ba mà mình nghĩ sẽ không bao giờ có phim giả tưởng nào sánh được. Nhạc của Howard Shore, đặc biệt giai điệu Shire và *Into the West* ở cuối, khiến mình nổi da gà dù đã nghe hàng chục lần. Hiệu ứng của Weta Workshop năm 2003 đến giờ vẫn đẹp hơn nhiều phim CGI ngày nay.
-
-Nhưng mình chấm 10 vì nó nói rằng: người bé nhỏ nhất cũng có thể thay đổi số phận của thế giới. Không phải bằng sức mạnh, mà bằng việc không bỏ cuộc, không bỏ rơi bạn mình, và có lòng thương xót ngay cả với kẻ thù.
+- [2004: 'Return Of King' in Oscar clean-sweep](https://www.odt.co.nz/node/185291) — Otago Daily Times
+- [Lord of the Rings Wins 11 Oscars](https://abcnews.go.com/Entertainment/Oscars2005/lord-rings-wins-11-oscars/story?id=116560) — ABC News
+- [And the winner is... New Zealand](https://www.cbsnews.com/news/and-the-winner-is-new-zealand) — CBS News
+- [What is the biggest clean sweep in Oscars history?](https://faroutmagazine.co.uk/what-is-the-biggest-clean-sweep-in-oscars-history/) — Far Out Magazine
+- [The Return of the King review](https://www.rogerebert.com/?p=1918) — RogerEbert.com

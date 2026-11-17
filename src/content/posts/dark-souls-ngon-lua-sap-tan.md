@@ -1,71 +1,72 @@
 ---
-title: "Dark Souls & Dark Souls III | ダークソウル | Ngọn Lửa Sắp Tàn"
-description: "Analysis — Hidetaka Miyazaki, FromSoftware"
-tags: ["Analysis", "Game", "Lore"]
+title: "Dark Souls & Dark Souls III | ダークソウル | Dòng Thời Gian Của Ngọn Lửa"
+description: "Lore — Hidetaka Miyazaki, FromSoftware"
+tags: ["Lore", "Game"]
 related_media: ["games:dark-souls", "games:dark-souls-iii"]
 date: 2026-11-17
 ---
 ![Cover Dark Souls III](https://images.igdb.com/igdb/image/upload/t_cover_big/cob9ed.jpg)
 
-# DARK SOULS: NGỌN LỬA SẮP TÀN
+Câu chuyện của Dark Souls nổi tiếng là khó hiểu. Game gần như không kể gì bằng lời. Lore nằm trong mô tả vật phẩm, trong kiến trúc, trong vị trí của một cái xác cạnh một món đồ. Cộng đồng phải ghép lại qua nhiều năm, trên các wiki như Fextralife, qua các bài tổng hợp của GamesRadar, Inverse, và vô số video.
 
-> [!info] Game
-> **Dark Souls** (2011) & **Dark Souls III** (2016)
-> ダークソウル
-> **Đạo diễn:** Hidetaka Miyazaki
-> **Nhà phát triển:** FromSoftware
-> **Nhạc:** Motoi Sakuraba, Yuka Kitamura (Dark Souls III)
-> **Nền tảng:** PC, PlayStation, Xbox, Nintendo Switch (Dark Souls Remastered)
-> **Thể loại:** Action RPG, Souls-like
+Mình gộp Dark Souls 1 (9 điểm) và Dark Souls III (10 điểm) vào một bài, vì chúng là đầu và cuối của cùng một câu chuyện. Và cách dễ hiểu nhất là kể theo dòng thời gian. Lưu ý: đây là cách hiểu phổ biến của cộng đồng, có nhiều chỗ vẫn còn tranh cãi.
 
-> [!warning] Spoilers lore cả hai phần
+---
 
-Dark Souls nổi tiếng vì khó. Nhưng nếu chỉ nhớ đến nó vì độ khó, ta sẽ bỏ lỡ thứ làm nó trở thành một trong những game có ảnh hưởng nhất thế kỷ 21: một thế giới kể chuyện bằng sự im lặng, và một câu hỏi lặp lại suốt ba phần game: **có nên giữ cho ngọn lửa tiếp tục cháy, khi nó đã tàn từ lâu?**
+**Kỷ nguyên Cổ xưa**
 
-Mình gộp Dark Souls 1 (9 điểm) và Dark Souls III (10 điểm) vào một bài, vì chúng là hai đầu của cùng một câu chuyện: sự khởi đầu và sự kết thúc của Kỷ nguyên Lửa.
+Thế giới là sương mù xám, cây cổ thụ khổng lồ và những con rồng bất tử. Không có sống, không có chết, không có sáng hay tối. Không có khác biệt.
 
-## Kể chuyện bằng mô tả vật phẩm
+**Ngọn lửa Đầu tiên**
 
-Lần đầu chơi Dark Souls, gần như không ai hiểu câu chuyện là gì. Một đoạn phim mở đầu ngắn, vài NPC nói những câu khó hiểu, và rồi bạn được thả vào một thế giới đổ nát mà không có lời giải thích nào.
+Rồi Ngọn lửa xuất hiện, và cùng với nó là sự khác biệt: nóng và lạnh, sống và chết, sáng và tối. Từ bóng tối, những sinh vật tìm thấy **Linh hồn Chúa tể** bên trong ngọn lửa. Gwyn, Chúa tể Ánh sáng, cùng vài người khác dùng sức mạnh đó đánh bại loài rồng. **Kỷ nguyên Lửa** bắt đầu, thời của các vị thần.
 
-Câu chuyện thật nằm ở **mô tả vật phẩm**. Mỗi thanh kiếm, mỗi bộ giáp, mỗi chiếc nhẫn đều có vài dòng mô tả. Ghép chúng lại, bạn thấy lịch sử của những vương quốc đã mất, những vị thần đã sa ngã, những hiệp sĩ đã chết khi canh giữ những thứ không còn ai nhớ đến. Kiến trúc cũng kể chuyện: một thành phố xây chồng lên thành phố khác, một nhà thờ bị bỏ hoang, một cái xác nằm gần một vật phẩm, như thể người đó chết trên đường đi tìm nó.
+**Ngọn lửa tàn dần**
 
-Mình thích cách kể chuyện này vì nó tôn trọng người chơi. Game không bắt bạn phải hiểu. Nhưng nếu muốn hiểu, bạn phải *đọc*, *quan sát*, *tự suy luận*. Câu chuyện là phần thưởng cho sự tò mò, giống như khảo cổ học.
+Lửa thì không cháy mãi. Khi Ngọn lửa Đầu tiên bắt đầu yếu đi, Gwyn sợ cái kết của thời đại mình, sợ **Kỷ nguyên Bóng tối**, thời của loài người. Theo sự dẫn dắt của con rắn nguyên thủy Kingseeker Frampt, Gwyn tự thiêu mình vào ngọn lửa để tiếp sức cho nó. Ông trở thành tro tàn, nhưng Kỷ nguyên Lửa được kéo dài.
 
-## Kỷ nguyên Lửa
+**Dark Souls 1 — Undead được chọn**
 
-Cốt truyện cơ bản của Dark Souls 1: Ban đầu thế giới là sương mù xám, chỉ có rồng bất tử. Rồi Ngọn lửa Đầu tiên xuất hiện, kéo theo sự khác biệt: nóng và lạnh, sống và chết, ánh sáng và bóng tối. Những sinh vật tìm thấy linh hồn của chúa tể trong ngọn lửa đã đánh bại loài rồng và mở ra Kỷ nguyên Lửa.
+Hàng nghìn năm sau, lửa lại tàn. Loài người mang dấu hiệu Bóng tối, trở thành Undead, không chết được, dần mất trí thành Hollow. Bạn là một Undead, được dẫn dắt để thu thập các Linh hồn Chúa tể và đi đến Kiln of the First Flame.
 
-Nhưng lửa thì sẽ tàn. Gwyn, Chúa tể Ánh sáng, đã tự thiêu mình để tiếp lửa, kéo dài Kỷ nguyên. Và nhân vật của bạn, một Undead, được dẫn dắt để làm điều tương tự: thu thập linh hồn các chúa tể, rồi trở thành người tiếp lửa kế tiếp.
+Trận cuối là Gwyn, giờ chỉ còn là "Lord of Cinder", một bóng ma cháy đen, đi kèm bản nhạc piano buồn thay vì nhạc hùng tráng. Rồi bạn chọn:
 
-Ở cuối game, bạn có hai lựa chọn: **tiếp lửa** (Link the Fire), hy sinh bản thân để kéo dài Kỷ nguyên Lửa, hoặc **để lửa tắt** (Dark Lord), bước vào Kỷ nguyên Bóng tối, kỷ nguyên của con người.
+- **Tiếp lửa**: hy sinh bản thân như Gwyn, kéo dài Kỷ nguyên Lửa.
+- **Để lửa tắt**: bước vào Kỷ nguyên Bóng tối, trở thành Dark Lord.
 
-## Gwyn: vị vua sợ bóng tối
+**Giữa hai phần**
 
-Trận đấu cuối cùng với Gwyn là một trong những trận boss mình nhớ nhất. Không phải vì nó khó (nó tương đối dễ nếu biết đỡ đòn), mà vì nó buồn. Gwyn từng là vị thần vĩ đại nhất, giờ chỉ còn là một cái xác cháy, gọi là "Lord of Cinder", cầm thanh kiếm lửa. Nhạc nền không phải nhạc hùng tráng, mà là một bản piano chậm, buồn.
+Theo những gì Miyazaki từng ngụ ý, sau Gwyn đã có rất nhiều người tiếp lửa, gọi là các **Lord of Cinder**. Mỗi lần một yếu hơn. Vòng lặp kéo dài mãi, vì không ai dám để lửa tắt.
 
-Lúc đó mình nhận ra: Gwyn không phải phản diện. Ông là một ông vua già sợ hãi sự thay đổi. Ông sợ Kỷ nguyên Bóng tối, sợ con người, nên đã làm mọi cách để giữ lửa cháy, kể cả hy sinh bản thân, biến thành tro tàn. Và bạn, nếu chọn tiếp lửa, sẽ trở thành ông.
+**Dark Souls III — Thế giới cuối cùng**
 
-## Dark Souls III: thế giới cuối cùng
+Ngọn lửa giờ gần như đã tắt. Các vương quốc từ những phần trước dồn vào nhau như tro bụi. Mặt trời trên trời là một vòng tròn đen. Các Lord of Cinder được đánh thức để tiếp lửa thêm lần nữa, nhưng hầu hết đều từ chối. Bạn là một Ashen One, một trong những kẻ "Unkindled" từng thất bại khi cố tiếp lửa, giờ được gọi dậy để lôi họ về.
 
-Dark Souls III diễn ra rất lâu sau. Ngọn lửa đã được tiếp bởi rất nhiều người, mỗi lần một yếu hơn. Thế giới giờ là sự hợp nhất của tất cả các vương quốc từ các phần trước, sụp đổ vào nhau như tro bụi. Mặt trời trên bầu trời là một vòng tròn đen. Những Lord of Cinder, những người từng tiếp lửa, được đánh thức để làm lại một lần nữa, nhưng hầu hết đều từ chối.
+Trận cuối là **Soul of Cinder**, hiện thân của tất cả những người đã từng tiếp lửa. Đến giai đoạn hai, nó dùng đúng bộ chiêu của Gwyn, và bản nhạc piano của trận Gwyn năm xưa vang lên. Mình nghĩ đây là khoảnh khắc mà nhiều người chơi lâu năm nổi da gà nhất: game đang nói rằng mọi thứ bắt đầu từ đây, và kết thúc ở đây.
 
-Đây là lý do mình chấm Dark Souls III 10 điểm. Không chỉ vì gameplay nhanh hơn, trận boss hay hơn (Pontiff Sulyvahn, Dancer of the Boreal Valley, Nameless King, Sister Friede, Slave Knight Gael...). Mà vì nó là một kết thúc. Mọi thứ trong DS3 đều mang cảm giác **mỏi mệt**: những vị thần mệt mỏi, những hiệp sĩ mệt mỏi, một thế giới quá già để tiếp tục.
+**Các cái kết**
 
-Trận boss cuối, Soul of Cinder, là hiện thân của tất cả những người đã tiếp lửa. Và khi đến giai đoạn hai, nó dùng đúng bộ chiêu thức của Gwyn, kèm giai điệu piano từ trận Gwyn trong Dark Souls 1. Lần đầu nghe, mình nổi da gà. Đó là game nói với mình: *mọi thứ đã bắt đầu từ đây, và giờ nó kết thúc ở đây.*
+DS3 có nhiều kết. Cái mình thích nhất là **The End of Fire**: gọi Fire Keeper đến, để ngọn lửa cuối cùng nằm trong tay cô, và nó tắt. Thế giới chìm vào bóng tối. Fire Keeper nói rằng cô mơ thấy những đốm lửa nhỏ nhảy múa trong bóng tối.
 
-## Để ngọn lửa tắt
+Một bài trên PopMatters có tên "The Sanctity of Endings in Dark Souls III", sự thiêng liêng của những cái kết. Mình thấy cái tên đó nói đúng điều cả series muốn nói: không có gì tồn tại mãi mãi, và cố giữ nó chỉ kéo dài sự mục rữa. Gwyn sợ bóng tối nên tạo ra một vòng lặp đau khổ hàng nghìn năm. Có lẽ điều can đảm nhất là để mọi thứ kết thúc.
 
-Dark Souls III có nhiều cái kết, nhưng cái kết mình thích nhất là **The End of Fire**: gọi Fire Keeper, để cô cầm ngọn lửa cuối cùng trong tay, và nó tắt. Thế giới chìm vào bóng tối. Fire Keeper nói rằng một ngày nào đó, những đốm lửa nhỏ sẽ nhảy múa trong bóng tối.
+---
 
-Đây là cái kết mà mình nghĩ Miyazaki muốn nói với cả series: **không có gì tồn tại mãi mãi, và cố giữ nó chỉ làm kéo dài sự mục rữa.** Gwyn sợ bóng tối, nên ông tạo ra một chu kỳ khổ đau kéo dài hàng nghìn năm. Có lẽ điều tốt nhất là chấp nhận rằng mọi thứ đều phải kết thúc, và tin rằng sau kết thúc sẽ có một khởi đầu mới.
+**Điểm số**
 
-## Khó vì một lý do
+Dark Souls 1: 9 điểm. Thế giới liên kết chặt nhất, từ Firelink Shrine đi đâu cũng có đường tắt quay về. Trừ điểm vì nửa sau hơi vội, Lost Izalith nhiều người còn chửi đến giờ.
 
-Còn về độ khó? Mình nghĩ Dark Souls khó vì nó muốn bạn cảm nhận điều mà nhân vật của bạn cảm nhận: một Undead đã chết hàng trăm lần, vẫn đứng dậy, vẫn tiếp tục. Câu nói nổi tiếng "Don't you dare go Hollow" (đừng biến thành Hollow) không chỉ là lời khuyên cho nhân vật. Nó là lời khuyên cho người chơi. Hollow là những người đã từ bỏ, mất đi mục đích, chỉ còn đi lang thang vô thức. Bạn không trở thành Hollow chừng nào bạn còn có lý do để đứng dậy.
+Dark Souls III: 10 điểm. Nhanh hơn, đẹp hơn, boss hay hơn (Pontiff Sulyvahn, Dancer, Nameless King, Sister Friede, Slave Knight Gael). Và nó là một lời từ biệt.
 
-## Vì sao 9 và 10
+Praise the Sun. Rồi để nó lặn.
 
-Dark Souls 1 là khởi đầu: thế giới liên kết chặt chẽ, từ Firelink Shrine đi đâu cũng có đường tắt quay về, cảm giác khám phá không game nào sánh được. Mình chấm 9 vì nửa sau game hơi vội, như Lost Izalith.
+---
 
-Dark Souls III là kết thúc: nhanh hơn, đẹp hơn, nhiều boss hay hơn, và có một chủ đề rõ ràng về sự kết thúc. Mình chấm 10, vì nó là lời từ biệt hoàn hảo cho một thế giới mà mình đã dành hàng trăm giờ. Praise the Sun. Và rồi, hãy để mặt trời lặn.
+*Nguồn tham khảo:*
+
+- [Dark Souls Lore](https://darksouls.wiki.fextralife.com/LORE) — Fextralife Wiki
+- [Dark Souls 3 Lore](https://darksouls3.wiki.fextralife.com/Lore) — Fextralife Wiki
+- [The Dark Souls story so far](https://www.gamesradar.com/dark-souls-lore) — GamesRadar
+- [The Mythology In The Dark Souls Series Explained](https://www.looper.com/258131/the-mythology-in-the-dark-souls-series-explained/) — Looper
+- [The Sanctity of Endings in Dark Souls III](https://popmatters.com/the-sanctity-of-endings-in-dark-souls-iii-2495403823.html) — PopMatters
+- [The First Flame](https://darksouls.fandom.com/wiki/The_First_Flame) — Dark Souls Wiki
