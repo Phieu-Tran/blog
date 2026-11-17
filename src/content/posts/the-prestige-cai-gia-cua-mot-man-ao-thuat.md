@@ -1,74 +1,59 @@
 ---
-title: "The Prestige | Ảo Thuật Gia Đấu Trí | Cái Giá Của Một Màn Ảo Thuật"
-description: "Analysis — Christopher Nolan"
-tags: ["Analysis", "Explained", "Structure"]
+title: "The Prestige | Ảo Thuật Gia Đấu Trí | Sách Hay Phim?"
+description: "So sánh — Christopher Nolan, Christopher Priest"
+tags: ["Review", "Thảo Luận"]
 related_media: ["films:the-prestige"]
 date: 2026-11-17
 ---
 ![Poster The Prestige](https://image.tmdb.org/t/p/w500/fAT5JUet2JDcsukQI1fNZXJ20KK.jpg)
 
-# THE PRESTIGE: CÁI GIÁ CỦA MỘT MÀN ẢO THUẬT
+> [!warning] Bài này spoiler cả phim lẫn sách.
 
-> [!info] Phim
-> **The Prestige** (Ảo Thuật Gia Đấu Trí)
-> **Đạo diễn:** Christopher Nolan
-> **Kịch bản:** Jonathan Nolan, Christopher Nolan
-> **Nguyên tác:** tiểu thuyết của Christopher Priest
-> **Diễn viên:** Hugh Jackman (Robert Angier), Christian Bale (Alfred Borden), Michael Caine (Cutter), Scarlett Johansson (Olivia), Rebecca Hall (Sarah), David Bowie (Nikola Tesla)
-> **Nhạc:** David Julyan
-> **Thời lượng:** 130 phút
-> **Năm phát hành:** 2006
-> **Quốc gia:** Mỹ, Anh
-> **Thể loại:** Mystery, Thriller, Drama
+The Prestige là phim của Nolan dựa trên tiểu thuyết năm 1995 của nhà văn Anh **Christopher Priest**. Đọc về khác biệt giữa hai bản, mình thấy hay đến mức muốn viết riêng. Và chuyện hiếm: tác giả gốc nói ông khá ấn tượng với bản phim.
 
-> [!warning] Spoilers toàn bộ, kể cả twist
+---
 
-*"Mỗi màn ảo thuật đều có ba phần. Phần đầu tiên gọi là Lời hứa (The Pledge). Phần thứ hai là Sự biến hóa (The Turn). Phần thứ ba, phần khó nhất, gọi là Danh vọng (The Prestige)."*
+**Cách kể chuyện**
 
-The Prestige là bộ phim mà mình nghĩ Nolan làm "đúng ý" nhất: một bộ phim về ảo thuật, được cấu trúc như một màn ảo thuật, và lừa khán giả theo đúng cách mà nó giải thích ngay từ cảnh đầu. Ta được cảnh báo trước. Ta vẫn bị lừa. Và đó chính là điểm.
+*Sách:* kể qua nhật ký của cả Borden lẫn Angier, chia làm năm phần, mỗi phần có dòng thời gian riêng. Người đọc nhận câu chuyện theo thứ tự thời gian, nhưng mỗi lần chỉ từ góc nhìn của một người. Mở đầu bằng nhật ký của Borden.
 
-## Hai ảo thuật gia
+*Phim:* vẫn giữ những cuốn nhật ký, nhưng dùng chúng để buộc các dòng thời gian lại với nhau. Angier đọc nhật ký của Borden, trong khi Borden ở tù đọc nhật ký của Angier. Phim nhảy qua lại liên tục, đúng kiểu Nolan.
 
-London cuối thế kỷ 19. Robert Angier và Alfred Borden là hai trợ lý ảo thuật trẻ, cùng làm việc cho một ảo thuật gia. Trong một màn diễn, vợ Angier chết đuối trong bể nước vì Borden buộc nút dây sai, có thể là cố ý, có thể không. Borden nói anh không nhớ mình buộc nút nào.
+**Hai ảo thuật gia**
 
-Từ đó, hai người trở thành kẻ thù, phá hoại màn diễn của nhau suốt nhiều năm. Và cuộc cạnh tranh tập trung vào một màn ảo thuật: **"Người vận chuyển"** (The Transported Man) của Borden, nơi anh bước vào một cánh cửa ở bên này sân khấu và xuất hiện ngay lập tức ở cánh cửa bên kia.
+*Phim* nhấn mạnh sự khác nhau giữa hai người hơn sách. Một bài phân tích có tóm gọn: Borden là ảo thuật gia giỏi hơn, Angier là người biểu diễn giỏi hơn. Borden hiểu ảo thuật, Angier hiểu khán giả. Cả phim là cuộc chiến giữa hai kiểu tài năng đó.
 
-Angier bị ám ảnh phải biết Borden làm điều đó như thế nào.
+**Phép thuật**
 
-## Hai kiểu hy sinh
+*Sách* đi xa hơn nhiều vào khoa học viễn tưởng và giả tưởng. Cỗ máy của Tesla trong sách có những hệ quả kỳ quái hơn hẳn.
 
-Mình nghĩ The Prestige là phim về **sự hy sinh cho nghệ thuật**, và cách hai nhân vật hiểu sự hy sinh đó khác nhau hoàn toàn.
+*Phim* giữ cỗ máy Tesla nhưng kiềm chế hơn. Nhiều người vẫn thấy nó là "gian lận", vì một phim về mánh khóe ảo thuật lại giải quyết bằng một cỗ máy thật sự có phép. Mình thì thấy nó hợp: Borden dùng mánh khóe, Angier dùng khoa học, và cả hai đều mất tất cả.
 
-Angier là showman. Anh muốn khán giả vỗ tay, muốn được ngưỡng mộ. Anh không thể chịu được việc Borden giỏi hơn mình. Để tái tạo màn "Người vận chuyển", anh tìm đến Nikola Tesla (do David Bowie đóng), người chế tạo cho anh một cỗ máy thật sự có thể... sao chép vật thể.
+**Cái kết**
 
-Borden là nghệ sĩ thuần túy. Anh không quan tâm đến danh tiếng. Anh quan tâm đến ảo thuật hoàn hảo. Và để có nó, anh sẵn sàng hy sinh *cả cuộc đời mình*.
+Đây là khác biệt lớn nhất. Phim kết thúc bằng một loạt twist mà nhiều khán giả đoán được trước: Borden là hai anh em sinh đôi, sống chung một danh tính. Angier dùng cỗ máy để tạo bản sao của mình mỗi đêm, và bản gốc chết đuối trong bể nước bên dưới sân khấu. Kho hàng đầy những bể nước chứa xác Angier.
 
-## Bí mật của Borden
+*Sách* có một cái kết khác hẳn, và theo một bài trên Locus Magazine, đó là cái kết mà người đọc *không bao giờ* đoán được. Sách còn có cả một khung truyện ở thời hiện đại, với hậu duệ của hai gia đình gặp lại nhau, mà phim bỏ hẳn đi. Mình không spoil cái kết của sách ở đây, vì nếu bạn chỉ xem phim, sách vẫn còn một bất ngờ đang chờ.
 
-*(Twist)* Borden là **hai người**, hai anh em sinh đôi, sống chung một danh tính. Mỗi người sống một nửa cuộc đời: một người yêu Sarah, vợ Borden; người kia yêu Olivia, người tình. Khi một người bị mất hai ngón tay trong một vụ phá hoại của Angier, người kia tự cắt ngón tay mình cho giống.
+---
 
-Đây là lời giải cho "Người vận chuyển": không có phép thuật nào cả, chỉ có hai người. Đơn giản đến mức Angier không bao giờ nghĩ đến, vì anh không thể tưởng tượng ai đó lại hy sinh nhiều như vậy cho một màn ảo thuật.
+**Vậy sách hay phim?**
 
-Và cái giá thì khủng khiếp. Sarah cảm nhận được rằng chồng mình "có ngày yêu cô, có ngày không". Cô không hiểu tại sao, và cô tự tử. Không ai thắng, ngay cả bí mật.
+Câu trả lời của mình: **phim trước, sách sau**.
 
-## Bí mật của Angier
+Phim chặt hơn, nhịp nhanh hơn, và Hugh Jackman với Christian Bale đối đầu nhau rất hay. Câu thoại mở đầu *"Are you watching closely?"* (Bạn có đang quan sát kỹ không?) là một lời cảnh báo cho khán giả, và Nolan lừa ta đúng như cách ông vừa giải thích ba phần của một màn ảo thuật: Lời hứa, Sự biến hóa, và Danh vọng. Có một trang còn xếp The Prestige vào danh sách "phim hay hơn hẳn sách".
 
-Còn Angier? Cỗ máy của Tesla hoạt động: mỗi lần Angier bước vào, một bản sao hoàn hảo của anh xuất hiện ở nơi khác. Nhưng cỗ máy không "vận chuyển" anh. Nó *tạo ra* một Angier mới. Và người cũ vẫn còn đó.
+Nhưng nếu đã xem phim mà thích, đọc sách sẽ như được xem lại một màn ảo thuật quen thuộc từ phía sau sân khấu, và phát hiện ra vẫn còn một mánh mà mình chưa biết.
 
-Vì vậy, mỗi đêm, sau mỗi màn diễn, Angier ban đầu rơi xuống một bể nước dưới sân khấu và chết đuối. Anh đã làm điều này hơn một trăm lần. Mỗi đêm, anh không biết mình sẽ là người xuất hiện trên ban công, hay người chết dưới bể nước.
+9 điểm cho phim.
 
-Cảnh cuối, khi Borden bắn Angier, ta thấy kho hàng đầy những bể nước, mỗi bể chứa một xác Angier. Đây là một trong những hình ảnh ám ảnh nhất trong phim của Nolan.
+---
 
-## "Bạn có đang quan sát kỹ không?"
+*Nguồn tham khảo:*
 
-Câu thoại mở đầu phim, *"Are you watching closely?"*, không chỉ nói với khán giả trong phim. Nó nói với chúng ta.
-
-Nolan gieo manh mối khắp phim: Borden nói "Tôi không nhớ mình buộc nút nào" (vì người buộc nút có thể là người anh em kia), Fallon, người trợ lý trầm lặng luôn đứng sau Borden. Và ảo thuật gia người Hoa Chung Ling Soo, người giả làm người tàn tật suốt cả đời, kể cả khi không diễn, chỉ để giữ bí mật cho màn biểu diễn bể cá. Borden nhìn ra bí mật đó ngay lập tức, còn Angier thì không. Cutter gọi đó là *"sự tận tụy hoàn toàn"* cho nghệ thuật. Đó là gợi ý lớn nhất cho bí mật của Borden.
-
-Nhưng ta không thấy, vì như Cutter nói: *"Bạn không thực sự muốn biết. Bạn muốn bị lừa."*
-
-## Vì sao mình chấm 9
-
-The Prestige là phim của Nolan mà mình thấy hay hơn mỗi lần xem lại, giống như xem lại một màn ảo thuật khi đã biết bí mật: ta không còn bất ngờ, nhưng ta nhìn thấy sự tinh xảo của nó.
-
-Mình chấm 9 vì nó có một chút yếu tố khoa học viễn tưởng (cỗ máy của Tesla) mà một số người thấy là "gian lận". Nhưng mình nghĩ đó là chủ ý: Borden dùng mánh khóe, Angier dùng khoa học, và cuối cùng cả hai đều mất tất cả. Không phải vì ảo thuật, mà vì nỗi ám ảnh muốn thắng người kia.
+- [Seeing Double: The Prestige](https://www.locusmag.com/2006/Features/Westfahl_ThePrestige.html) — Locus Magazine
+- [The Prestige: the film and the screenplay](https://strangehorizons.com/non-fiction/reviews/the-prestige-the-film-and-the-screenplay/) — Strange Horizons
+- [Book And Movie: The Prestige](https://defectiveyeti.com/wordpress/2007/09/13/book-and-movie-the-prestige/) — Defective Yeti
+- [The Prestige](https://www.lrb.co.uk/v28/n24/michael-wood/at-the-movies) — Michael Wood, London Review of Books
+- [Adapting the book: The Prestige](https://noveleye.blogspot.com/2009/01/adapting-book-prestige.html) — Novel Eye
+- [10 Movies Significantly Better Than The Book](https://whatculture.com/film/10-movies-significantly-better-than-the-book?page=3) — WhatCulture
