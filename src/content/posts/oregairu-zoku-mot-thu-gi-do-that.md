@@ -1,66 +1,76 @@
 ---
-title: "My Teen Romantic Comedy SNAFU TOO! | やはり俺の青春ラブコメはまちがっている。続 | Một Thứ Gì Đó Thật"
-description: "Analysis — Kei Oikawa, Wataru Watari"
-tags: ["Analysis", "Character", "Romance"]
+title: "Oregairu Zoku | やはり俺の青春ラブコメはまちがっている。続 | Sổ Yêu Cầu Của Câu Lạc Bộ Tình Nguyện"
+description: "Hồ sơ — Wataru Watari, feel."
+tags: ["Review", "Romance"]
 related_media: ["anime:my-teen-romantic-comedy-snafu-too"]
 date: 2026-11-17
 ---
 ![Poster My Teen Romantic Comedy SNAFU TOO](https://cdn.myanimelist.net/images/anime/11/75376.jpg)
 
-# OREGAIRU ZOKU: MỘT THỨ GÌ ĐÓ THẬT
+Câu lạc bộ Tình nguyện của trường Sobu có ba thành viên: Yukinoshita Yukino, Yuigahama Yui, và Hikigaya Hachiman. Nhiệm vụ: giúp những học sinh đến nhờ vả. Không làm thay, mà dạy họ tự làm.
 
-> [!info] Anime
-> **My Teen Romantic Comedy SNAFU TOO!** (Oregairu Zoku)
-> やはり俺の青春ラブコメはまちがっている。続
-> **Đạo diễn:** Kei Oikawa
-> **Nguyên tác:** light novel của Wataru Watari
-> **Seiyuu:** Takuya Eguchi (Hachiman Hikigaya), Saori Hayami (Yukino Yukinoshita), Nao Toyama (Yui Yuigahama)
-> **Studio:** feel.
-> **Số tập:** 13 tập
-> **Năm phát hành:** 2015
-> **Quốc gia:** Nhật Bản
-> **Thể loại:** Romance, Comedy, Drama, Slice of Life
+Mùa hai, *Zoku*, do studio feel. tiếp quản từ Brain's Base, có thể đọc như một cuốn sổ ghi lại những yêu cầu câu lạc bộ nhận được. Và cách mỗi yêu cầu làm cả ba người tổn thương thêm một chút.
 
-> [!warning] Spoilers
+> [!warning] Có spoiler toàn mùa hai.
 
-*"Tôi muốn một thứ gì đó thật."* (本物が欲しい)
+---
 
-Đây là câu nói của Hachiman Hikigaya ở tập 8 của Oregairu mùa hai, và là khoảnh khắc mà mình nghĩ đã thay đổi cả series. Một nhân vật luôn châm biếm, luôn lạnh lùng, luôn tự cô lập, cuối cùng khóc và nói ra điều mình thật sự muốn.
+**Yêu cầu số 1**
 
-Oregairu bề ngoài là một anime hài lãng mạn học đường. Nhưng mùa hai, Zoku, là nơi nó trở thành một trong những câu chuyện chân thật nhất về **sự cô đơn tuổi trẻ, và nỗi sợ khi kết nối với người khác**.
+*Người nhờ:* Tobe.
+*Nội dung:* Giúp cậu tỏ tình với Ebina trong chuyến đi Kyoto.
+*Vấn đề:* Ebina đã ngầm nhờ câu lạc bộ ngăn chuyện đó lại, vì cô không muốn nhóm bạn tan vỡ.
+*Cách Hachiman giải quyết:* Đứng trước con đường tre, ngay trước lúc Tobe kịp nói, cậu tỏ tình với Ebina trước. Một lời tỏ tình giả, để bị từ chối, để Tobe không phải nói ra.
+*Kết quả:* Yêu cầu hoàn thành. Nhóm bạn của Tobe được giữ nguyên. Yukino nói cô ghét cách làm của cậu. Yui khóc, và bảo cậu đừng làm như vậy nữa.
 
-## Hachiman: kẻ cô độc tự nguyện
+**Yêu cầu số 2**
 
-Hachiman là một học sinh cô độc, tự hào về sự cô độc của mình. Anh tin rằng "tuổi trẻ" là một lời nói dối, rằng những người bạn bè vui vẻ chỉ đang giả vờ, và rằng những mối quan hệ thì giả tạo. Anh bị giáo viên ép tham gia **Câu lạc bộ Tình nguyện**, cùng với Yukino Yukinoshita, một cô gái thông minh, lạnh lùng, cũng cô độc, và Yui Yuigahama, một cô gái vui vẻ, dễ gần.
+*Người nhờ:* Isshiki Iroha, học sinh năm nhất.
+*Nội dung:* Cô bị bạn bè đề cử làm hội trưởng hội học sinh để trêu chọc. Cô muốn thua cuộc bầu cử mà không bị bẽ mặt.
+*Vấn đề:* Yukino và Yui, mỗi người tự quyết định ra tranh cử, để giữ câu lạc bộ không tan, theo hai cách khác nhau.
+*Cách Hachiman giải quyết:* Thuyết phục Iroha *muốn* thắng, bằng cách cho cô thấy lợi ích. Iroha trở thành hội trưởng.
+*Kết quả:* Yêu cầu hoàn thành. Câu lạc bộ vẫn còn. Nhưng không ai trong ba người nói thật với nhau điều mình nghĩ.
 
-Câu lạc bộ giúp đỡ những học sinh khác giải quyết vấn đề. Và cách Hachiman giải quyết vấn đề luôn giống nhau: **hy sinh bản thân**. Anh tự biến mình thành kẻ xấu, để người khác được hạnh phúc. Anh nói những điều khó nghe, nhận lấy sự ghét bỏ, vì anh nghĩ mình không có gì để mất.
+**Yêu cầu số 3**
 
-## Cách làm sai
+*Người nhờ:* Iroha, lần nữa.
+*Nội dung:* Tổ chức sự kiện Giáng sinh chung với trường Kaihin.
+*Vấn đề:* Hội học sinh trường bạn chỉ biết họp, "brainstorm", nói thuật ngữ, mà không quyết định gì cả. Và lần này Hachiman không thể một mình giải quyết.
 
-Ở đầu mùa hai, Hachiman giải quyết một yêu cầu tỏ tình bằng cách tự mình tỏ tình giả với cô gái đó trước, để cô từ chối, và để bạn trai kia không bị mất mặt. Một "giải pháp" thông minh. Và Yukino, Yui đều giận dữ.
+*Cách Hachiman giải quyết:*
 
-Yukino nói với Hachiman rằng cô ghét cách anh làm. Yui khóc, nói rằng anh nên nghĩ đến cảm xúc của những người quan tâm đến anh.
+Lần đầu tiên, cậu nhờ giúp đỡ.
 
-Đây là bước ngoặt của mùa hai: Hachiman nhận ra rằng phương pháp tự hy sinh của anh không phải là vô hại. Nó làm tổn thương những người đã bắt đầu quan tâm đến anh. Anh không còn "không có gì để mất".
+---
 
-## Ba người, một câu lạc bộ đang vỡ
+**Tập 8**
 
-Phần còn lại của mùa hai là sự rạn nứt dần dần của câu lạc bộ. Ba người, mỗi người giữ một bí mật, mỗi người sợ nói ra cảm xúc thật, vì sợ phá hủy mối quan hệ hiện tại.
+Đây là tập mà ai xem Oregairu cũng nhớ. Hachiman đến phòng câu lạc bộ, đứng trước Yukino và Yui, và nói ra điều cậu chưa từng nói.
 
-Yukino sống dưới cái bóng của chị gái Haruno và gia đình đầy áp lực, không biết mình thật sự muốn gì. Yui thích Hachiman, nhưng cũng là bạn thân của Yukino, và sợ rằng tình cảm của mình sẽ phá vỡ tất cả. Hachiman sợ rằng bất cứ mối quan hệ nào cũng sẽ trở nên giả tạo.
+Cậu không nhờ giúp sự kiện. Cậu nói rằng cậu muốn một thứ gì đó *thật*. Không phải một mối quan hệ mà ai cũng đoán ý nhau, ai cũng nhường nhau, ai cũng giữ khoảng cách để không làm tổn thương nhau. Mà một mối quan hệ mà người ta có thể hiểu nhau, kể cả khi điều đó đáng sợ. Cậu biết thứ đó có thể không tồn tại. Cậu biết nói ra điều này thật đáng xấu hổ. Nhưng dù vậy, cậu vẫn muốn.
 
-Mình thấy Oregairu viết về những cảm xúc này chân thật đến đau lòng. Ai từng trải qua tuổi học trò đều biết cảm giác đó: muốn gần ai đó, nhưng sợ rằng nếu nói ra, mọi thứ sẽ không còn như cũ.
+*"Dù vậy, tôi... tôi muốn một thứ gì đó thật."*
 
-## "Tôi muốn một thứ gì đó thật"
+Giọng Hachiman run lên. Hachiman, người hai mùa liền tự hào rằng mình là kẻ cô độc, rằng tuổi trẻ là dối trá, rằng mọi mối quan hệ đều giả tạo.
 
-Tập 8. Hachiman, kiệt sức sau khi mọi cách giải quyết đều thất bại, đến phòng câu lạc bộ. Anh nói với Yukino và Yui điều mà anh chưa bao giờ nói. Anh không muốn những mối quan hệ dựa trên sự giả vờ, sự nhượng bộ. Anh muốn hiểu người khác, và được hiểu, một cách thật sự. Ngay cả khi điều đó là ích kỷ, là đáng sợ.
+Một bài viết trên Beneath the Tangles chỉ ra rằng chất xúc tác cho cảnh này là cuộc nói chuyện trước đó giữa Hachiman và cô Hiratsuka, cô giáo duy nhất thật sự hiểu cậu. Mình sẽ không nhắc lại cô nói gì. Đoạn đó đáng được nghe trong phim hơn là đọc lại ở đây.
 
-*"Tôi muốn một thứ gì đó thật."*
+---
 
-Mình nghĩ đây là cảnh mà nhiều người xem Oregairu nhớ nhất. Hachiman, người châm biếm tất cả, giờ thừa nhận rằng anh cũng như mọi người: cô đơn, muốn được kết nối. Takuya Eguchi diễn cảnh này với giọng run rẩy, nghẹn ngào, làm mình rất xúc động.
+**Yêu cầu số 4 và những trang còn lại**
 
-## Vì sao mình chấm 9
+Nửa cuối mùa là sự kiện Valentine, là Haruno, chị gái Yukino, lần nữa đặt câu hỏi về mối quan hệ của ba người, là Yukino ngày càng xa cách. Mùa hai kết thúc mà không trả lời gì cả. Phải đến mùa ba, nhiều năm sau, cuốn sổ mới được viết tiếp.
 
-Oregairu mùa hai có những đoạn hội thoại dài, chậm, đầy những ẩn ý mà nếu không chú ý có thể bỏ lỡ. Nhiều người thấy nó khó hiểu, hoặc quá "u sầu" so với mùa một.
+---
 
-Nhưng mình chấm 9 vì Zoku là nơi Oregairu trưởng thành. Nó không trả lời câu hỏi "thứ gì đó thật" là gì (phải đến mùa ba, Kan, mới trả lời). Nhưng nó dám hỏi câu hỏi đó một cách chân thành. Và với mình, việc dám nói ra mình muốn gì, đó đã là bước đầu tiên của sự trưởng thành.
+9 điểm. Có người không thích nét vẽ mới của feel. so với Brain's Base, và đúng là nhân vật trông khác hẳn. Nhưng mùa hai là nơi Oregairu ngừng là một bộ hài học đường châm biếm, và trở thành một câu chuyện nghiêm túc về việc ba người trẻ học cách nói thật với nhau. Mà như Hachiman phát hiện, đó là yêu cầu khó nhất.
+
+---
+
+*Nguồn tham khảo:*
+
+- [Oregairu Season 2 Episode 8: Reaching for Grace](https://beneaththetangles.com/2015/05/22/oregairu-season-2-episode-8-reaching-for-grace) — Beneath the Tangles
+- ["Even so, I… I want something genuine."](https://angryanimebitches.com/2015/05/yahari-ore-no-seishun-love-come-wa-machigatteiru-zoku-episode-8) — Angry Anime Bitches
+- [Oregairu S2 Episode 12](https://wrongeverytime.com/2015/06/22/oregairu-s2-episode-12) — Wrong Every Time
+- [Yahari Ore no Seishun Love Come wa Machigatteiru Zoku](https://randomc.net/?p=13471) — RandomC
+- [My Teen Romantic Comedy SNAFU](https://en.wikipedia.org/wiki/My_Youth_Romantic_Comedy_Is_Wrong,_As_I_Expected) — Wikipedia

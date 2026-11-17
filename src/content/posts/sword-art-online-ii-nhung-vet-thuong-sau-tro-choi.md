@@ -1,67 +1,48 @@
 ---
-title: "Sword Art Online II | ソードアート・オンライン II | Những Vết Thương Sau Trò Chơi"
-description: "Analysis — Tomohiko Ito, Reki Kawahara"
-tags: ["Analysis", "Character", "Sci-Fi"]
+title: "Sword Art Online II | ソードアート・オンライン II | Mười Một Đòn"
+description: "Ghi chép — Reki Kawahara, A-1 Pictures"
+tags: ["Review", "Sci-Fi"]
 related_media: ["anime:sword-art-online-ii"]
 date: 2026-11-17
 ---
 ![Poster Sword Art Online II](https://cdn.myanimelist.net/images/anime/1223/121999.jpg)
 
-# SWORD ART ONLINE II: NHỮNG VẾT THƯƠNG SAU TRÒ CHƠI
+*Mother's Rosario* là tên một kỹ năng kiếm gồm **mười một đòn liên tiếp**, do Yuuki tự tạo ra trong trò chơi. Nó cũng là tên arc cuối cùng của Sword Art Online II. Nên bài này cũng có mười một đòn.
 
-> [!info] Anime
-> **Sword Art Online II**
-> ソードアート・オンライン II
-> **Đạo diễn:** Tomohiko Ito
-> **Nguyên tác:** light novel của Reki Kawahara
-> **Seiyuu:** Yoshitsugu Matsuoka (Kirito), Haruka Tomatsu (Asuna), Ayana Taketatsu (Sinon), Aoi Yuuki (Yuuki)
-> **Studio:** A-1 Pictures
-> **Nhạc:** Yuki Kajiura
-> **Số tập:** 24 tập
-> **Năm phát hành:** 2014
-> **Quốc gia:** Nhật Bản
-> **Thể loại:** Action, Sci-Fi, Romance
+---
 
-> [!warning] Spoilers
+**1.** SAO II có ba phần: *Phantom Bullet* (game bắn súng Gun Gale Online, khoảng mười bốn tập đầu), *Calibur* (một nhiệm vụ ngắn trong ALfheim Online), và *Mother's Rosario* (bảy tập cuối). Ba phần chất lượng rất khác nhau.
 
-Sword Art Online là một trong những anime bị tranh cãi nhiều nhất thập niên 2010. Có người yêu, có người ghét, và nhiều người ghét vì Kirito quá mạnh, quá hoàn hảo, có quá nhiều cô gái vây quanh.
+**2.** Người ta chê SAO nhiều. Kirito quá mạnh, harem, những cảnh fan service. Một số lời chê đúng. Nhưng SAO II có hai nhân vật làm mình nghĩ rằng nó xứng đáng hơn danh tiếng của nó: **Sinon** và **Yuuki**.
 
-Mình hiểu những lời chê đó. Nhưng mình chấm SAO II 9 điểm, vì đây là mùa mà SAO làm được điều tốt nhất của nó: không phải những trận chiến trong game, mà là **những vết thương mà game để lại trong lòng người chơi ở thế giới thật**.
+**3.** Sinon, ngoài đời tên là Asada Shino, năm mười một tuổi đã bắn chết một tên cướp ở bưu điện để bảo vệ mẹ. Từ đó cô bị chấn thương tâm lý, chỉ cần nhìn thấy một khẩu súng là nôn mửa. Cô chơi Gun Gale Online, một game toàn súng, để tự chữa cho mình.
 
-## Phantom Bullet: Sinon và khẩu súng
+**4.** Theron Martin của Anime News Network nhận xét rằng cách SAO II viết về chứng PTSD của Shino tốt hơn hẳn phần còn lại của mùa. Mình đồng ý. Và một bài review trên MyAnimeList chỉ ra sự song song giữa chấn thương của Sinon và cảm giác tội lỗi của Kirito về những người anh đã giết trong SAO, thứ mà mùa một chưa bao giờ nhắc đến.
 
-Arc đầu tiên đưa Kirito vào **Gun Gale Online**, một game bắn súng hậu tận thế, để điều tra "Death Gun", một người chơi được cho là có thể giết người ngoài đời thật bằng cách bắn họ trong game.
+**5.** Rồi đến Mother's Rosario. Asuna nghe tin đồn về một người chơi bí ẩn trong ALO, được gọi là **"Tuyệt Kiếm"**, đánh bại mọi đối thủ, kể cả Kirito. Người đó là Yuuki, một cô gái nhỏ nhắn, vui vẻ, trưởng nhóm của một guild nhỏ tên Sleeping Knights.
 
-Nhưng nhân vật chính thật sự của arc này là **Sinon**, một xạ thủ bắn tỉa. Ngoài đời, cô là Shino Asada, một nữ sinh mang chấn thương tâm lý nặng nề: năm 11 tuổi, trong một vụ cướp ở bưu điện, cô đã giật súng của tên cướp và bắn chết hắn để bảo vệ mẹ mình. Từ đó, cô sợ súng đến mức nhìn thấy hình ảnh khẩu súng là nôn mửa.
+**6.** Yuuki muốn cùng guild của mình đánh bại một boss tầng chỉ với bảy người, để tên của họ được khắc lên tấm bia. Cô mời Asuna tham gia.
 
-Sinon chơi GGO để đối mặt với nỗi sợ đó. Cô tin rằng nếu trở thành người mạnh nhất trong một thế giới đầy súng, cô sẽ vượt qua được quá khứ.
+**7.** Rồi Asuna phát hiện ra sự thật. Ngoài đời, Yuuki là Konno Yuuki, bị nhiễm HIV từ khi mới sinh qua một lần truyền máu, và đã phát triển thành AIDS. Cha mẹ và chị gái song sinh của cô đều đã mất vì căn bệnh đó. Yuuki sống suốt mấy năm trong một chiếc máy Medicuboid ở bệnh viện, một thiết bị thực tế ảo y tế. Thế giới ảo là nơi duy nhất cô còn có thể chạy nhảy.
 
-Mình thấy đây là ý tưởng rất hay: game không chỉ là nơi trốn chạy, mà còn có thể là nơi để đối mặt. Và cách Sinon vượt qua chấn thương không đến từ sức mạnh trong game, mà từ việc nhận ra rằng hành động của cô năm đó đã cứu một mạng người. Có một cảnh mà mình nghĩ cảm động nhất arc: một người phụ nữ và cô con gái nhỏ đến cảm ơn Shino, vì năm đó, người phụ nữ ấy đang mang thai và cũng có mặt ở bưu điện.
+**8.** Sleeping Knights là một guild của những người bệnh nan y. Họ muốn để lại dấu vết của mình trước khi chết.
 
-## Death Gun và quá khứ của Kirito
+**9.** Wrong Every Time, một blog phê bình anime khá khắt khe, gọi Mother's Rosario là arc hay nhất của series, một phần vì nó tập trung vào nhân vật, và một phần vì Kirito gần như vắng mặt. Lần đầu tiên, SAO là câu chuyện của Asuna.
 
-Death Gun hóa ra là một nhóm người, những thành viên còn sống sót của **Laughing Coffin**, một hội sát thủ trong game SAO gốc. Và Kirito có quá khứ với họ: anh đã giết một số thành viên của Laughing Coffin trong SAO, để bảo vệ người khác.
+**10.** Yuuki trao cho Asuna kỹ năng Mother's Rosario, mười một đòn, như một món quà.
 
-Arc này buộc Kirito đối mặt với điều mà anh đã cố quên: anh đã từng giết người. Trong game, nhưng là người thật. Mình thấy đây là lần SAO dám nhìn vào mặt tối của nhân vật chính, thay vì chỉ tôn vinh anh.
+**11.** Mình sẽ không kể tập cuối. Chỉ nói rằng nó diễn ra dưới một gốc cây trong ALO, và rất nhiều người chơi đã đến. Và rằng sau bảy tập, cái tên Yuuki ở lại với mình lâu hơn tất cả những gì Kirito từng làm.
 
-## Mother's Rosario: Yuuki
+---
 
-Arc thứ ba, và arc mình thích nhất cả series SAO, là **Mother's Rosario**. Lần này, nhân vật chính là Asuna, và một cô gái tên **Yuuki**, kiếm sĩ mạnh nhất trong game ALfheim Online, người mà ngay cả Kirito cũng không đánh bại được.
+9 điểm. Không phải vì cả mùa. Vì Sinon, và vì Yuuki.
 
-Yuuki là một cô gái vui vẻ, năng động, luôn cười. Cô lập ra hội "Sleeping Knights" cùng những người bạn, và muốn cùng Asuna chinh phục một boss mà chỉ có một hội duy nhất làm được.
+---
 
-Rồi Asuna phát hiện ra sự thật: Yuuki đang mắc bệnh nan y, sống trong bệnh viện, cơ thể không thể cử động. Cô đã ở trong một thiết bị thực tế ảo y tế suốt nhiều năm. Thế giới ảo là thế giới duy nhất mà cô có thể sống. Và những thành viên của Sleeping Knights cũng đều là những người mắc bệnh nặng, đang sống những ngày cuối cùng.
+*Nguồn tham khảo:*
 
-## Sống trọn vẹn
-
-Mình nghĩ Mother's Rosario là arc mà SAO cuối cùng trả lời được câu hỏi của chính nó: **thế giới ảo có phải là thế giới thật không?**
-
-Với Yuuki, câu trả lời là có. Những trận chiến cô đánh, những người bạn cô có, những khoảnh khắc hạnh phúc cô trải qua, đều là thật, dù diễn ra trong game. Cô không có cuộc sống nào khác. Và cô đã sống nó trọn vẹn.
-
-Cảnh cuối của Yuuki, khi cô ra đi trong vòng tay Asuna, trong game, với hàng trăm người chơi đến tiễn biệt, là một trong những cảnh mình thấy buồn nhất trong anime. Aoi Yuuki lồng tiếng Yuuki với một sự trong sáng làm mình không thể quên.
-
-## Vì sao mình chấm 9
-
-SAO II có những điểm yếu: arc Calibur ở giữa chỉ là filler, một số khoảnh khắc fanservice khó chịu, và Kirito vẫn quá mạnh.
-
-Nhưng mình chấm 9 vì Sinon và Yuuki, hai nhân vật làm cho SAO trở thành nhiều hơn một anime game. Một người dùng game để đối mặt với quá khứ. Một người dùng game để sống trọn những ngày cuối cùng. Và cả hai nhắc mình rằng những trải nghiệm trong thế giới ảo, khi đi kèm cảm xúc thật, cũng có thể là thật.
+- [Sword Art Online II Blu-ray 4 Review](https://cdn02.animenewsnetwork.com/review/sword-art-online-ii/blu-ray-4/.98158) — Anime News Network
+- [Sword Art Online II Blu-ray 2 Review](https://www.animenewsnetwork.com/review/sword-art-online-ii/blu-ray-2/.93466) — Anime News Network
+- [Sword Art Online II – Episode 24](https://wrongeverytime.com/2014/12/21/sword-art-online-ii-episode-24) — Wrong Every Time
+- [SAO 2 Review](https://myanimelist.net/reviews.php?id=219041) — MyAnimeList
+- [Anime Review: Sword Art Online II](https://www.theouterhaven.net/anime-review-sword-art-online-ii/) — The Outer Haven
