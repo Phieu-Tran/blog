@@ -1,66 +1,56 @@
 ---
-title: "The Godfather | Bố Già | Gia Đình Và Quyền Lực"
-description: "Analysis — Francis Ford Coppola"
-tags: ["Analysis", "Character", "Crime"]
+title: "The Godfather | Bố Già | Bộ Phim Suýt Không Ra Đời"
+description: "Ghi chép — Francis Ford Coppola"
+tags: ["Review", "Crime"]
 related_media: ["films:the-godfather"]
 date: 2026-11-17
 ---
 ![Poster The Godfather](https://image.tmdb.org/t/p/w500/84MHN3JvOV4ORHgELrQM6SBlhdB.jpg)
 
-# THE GODFATHER: GIA ĐÌNH VÀ QUYỀN LỰC
+Bây giờ The Godfather luôn nằm trong top phim hay nhất mọi thời đại. Nhưng đọc về quá trình làm phim, mình ngạc nhiên vì nó suýt không thành, hoặc thành một phim khác hẳn, ít nhất vài lần.
 
-> [!info] Phim
-> **The Godfather** (Bố Già)
-> **Đạo diễn:** Francis Ford Coppola
-> **Kịch bản:** Mario Puzo, Francis Ford Coppola
-> **Nguyên tác:** tiểu thuyết của Mario Puzo
-> **Diễn viên:** Marlon Brando (Vito Corleone), Al Pacino (Michael Corleone), James Caan (Sonny), Robert Duvall (Tom Hagen), Diane Keaton (Kay), John Cazale (Fredo)
-> **Nhạc:** Nino Rota
-> **Thời lượng:** 175 phút
-> **Năm phát hành:** 1972
-> **Quốc gia:** Mỹ
-> **Thể loại:** Crime, Drama
+---
 
-> [!warning] Spoilers
+**Hãng phim muốn sa thải đạo diễn**
 
-Ở Việt Nam, "Bố Già" gần như là cuốn sách gối đầu giường của nhiều thế hệ, và bộ phim năm 1972 của Coppola thì luôn đứng trong top phim hay nhất mọi thời đại. Nhưng điều làm mình nhớ nhất về The Godfather không phải những câu thoại kinh điển hay những cảnh thanh toán đẫm máu. Đó là hành trình của Michael Corleone: **một người đàn ông muốn đứng ngoài gia đình, và kết thúc bằng việc trở thành chính trái tim tăm tối của nó.**
+Paramount muốn một phim xã hội đen giật gân, nhiều bạo lực, dễ bán. Coppola muốn một phim về gia đình, chậm, tối, nặng nề. Hãng liên tục dọa sa thải ông, theo một số nguồn còn để sẵn đạo diễn thay thế chờ ở trường quay. Coppola làm phim trong tâm thế có thể bị đuổi bất cứ ngày nào.
 
-## Đám cưới mở đầu
+**Al Pacino "quá lùn"**
 
-Phim mở đầu bằng đám cưới con gái của Don Vito Corleone. Bên ngoài là âm nhạc, nhảy múa, ánh nắng. Bên trong, trong văn phòng tối om, Vito ngồi nghe những người đến cầu xin ân huệ. Theo truyền thống Sicily, ông không thể từ chối lời cầu xin nào trong ngày cưới con gái.
+Paramount muốn Warren Beatty, Robert Redford hay Ryan O'Neal đóng Michael. Coppola muốn Al Pacino, lúc đó còn khá vô danh. Hãng phản đối, một trong những lý do được kể lại là Pacino quá lùn. Coppola cãi đến cùng và thắng. Giờ thì khó tưởng tượng ai khác trong vai Michael.
 
-Cảnh này giới thiệu tất cả: quyền lực của Vito không đến từ súng đạn, mà từ **những món nợ ân tình**. Ông giúp người ta, và đổi lại, một ngày nào đó họ sẽ phải giúp ông. Ông không hăm dọa, ông chỉ đưa ra *"một lời đề nghị mà họ không thể từ chối"*.
+**Brando và "buổi thử trang điểm"**
 
-Và giữa đám đông, Michael, người con trai út, mặc quân phục, kể cho bạn gái Kay về những việc làm của gia đình mình. *"Đó là gia đình anh, Kay. Không phải anh."*
+Sếp lớn của Paramount, Charles Bluhdorn, từng tuyên bố Marlon Brando sẽ "không bao giờ xuất hiện trong phim của Paramount". Brando lúc đó nổi tiếng khó làm việc. Hãng chỉ chịu nếu Brando nhận cát-xê thấp hơn nhiều, chịu trách nhiệm tài chính nếu gây chậm trễ, và quan trọng nhất là phải thử vai, điều gần như xúc phạm với một ngôi sao cỡ ông.
 
-## Michael bước vào
+Coppola nghĩ ra một mẹo: gọi đó là "buổi thử trang điểm" chứ không phải thử vai. Brando đến, nhét giấy vào hai bên má để hàm trông bạnh ra, chải tóc ngược, nói giọng khàn khàn. Đoạn băng đó thuyết phục được hãng. Brando thắng Oscar cho vai Vito Corleone.
 
-Michael là con trai được Vito kỳ vọng nhất, vì Michael không thuộc về thế giới này. Anh là anh hùng chiến tranh, học đại học, muốn sống một cuộc đời hợp pháp. Vito muốn Michael trở thành thượng nghị sĩ, thống đốc, một Corleone sạch sẽ.
+**Cái đầu ngựa là thật**
 
-Nhưng khi Vito bị bắn và gần chết, Michael bước vào. Ban đầu chỉ là bảo vệ cha trong bệnh viện. Rồi anh tự đề nghị giết Sollozzo, kẻ chủ mưu, và viên cảnh sát tham nhũng McCluskey. Cảnh ở nhà hàng Ý, khi Michael lấy khẩu súng giấu trong nhà vệ sinh, ngồi xuống, tiếng tàu điện ầm ầm ngày càng lớn, rồi bắn, là một trong những cảnh hay nhất lịch sử điện ảnh. Ánh mắt của Al Pacino ở cảnh đó, run rẩy rồi lạnh dần, là khoảnh khắc Michael bước qua ranh giới.
+Cảnh nhà sản xuất Woltz tỉnh dậy với cái đầu ngựa trên giường dùng một cái đầu ngựa thật, Coppola lấy từ một công ty làm thức ăn cho chó. Theo các nguồn, con ngựa không bị giết để làm phim.
 
-## Vito và Michael: hai kiểu Bố Già
+**Những quả cam**
 
-Mình nghĩ The Godfather là phim về sự khác biệt giữa hai thế hệ quyền lực.
+Fan hay nói cam trong The Godfather báo trước cái chết: Vito mua cam ngay trước khi bị bắn, Vito chết khi đang chơi với cháu trong vườn với lát cam trong miệng. Nhưng theo chính tài liệu của Paramount, lý do thực tế đơn giản hơn: đạo diễn hình ảnh Gordon Willis quay với rất ít ánh sáng, nên nhà thiết kế bối cảnh Dean Tavoularis đặt cam vào khung hình để tạo những đốm màu sáng. Mình thấy biết điều này xong cũng không làm phim kém đi. Có khi một chi tiết vô tình lại thành biểu tượng, vì người xem cần nó.
 
-**Vito** là Bố Già kiểu cũ. Ông tàn nhẫn khi cần, nhưng có nguyên tắc: không buôn ma túy, gia đình là trên hết, tôn trọng người khác. Ông có thể ra lệnh giết người, nhưng ông cũng chơi với cháu trong vườn cà chua. Ông chết khi đang chơi với cháu, một cái chết bình yên mà một ông trùm hiếm khi có được.
+---
 
-**Michael** là Bố Già kiểu mới: lạnh lùng, tính toán, không cảm xúc. Anh làm mọi thứ "vì gia đình", nhưng dần dần, gia đình chỉ còn là một từ ngữ. Ở phần hai, anh còn ra lệnh giết chính anh trai mình.
+**Còn bản thân bộ phim**
 
-## Lễ rửa tội
+Mình nghĩ The Godfather là phim về một người muốn đứng ngoài gia đình, và kết thúc bằng việc trở thành trái tim tăm tối của nó.
 
-Cảnh kết thúc của phần một là một cảnh dựng song song nổi tiếng. Michael đứng trong nhà thờ, làm cha đỡ đầu cho cháu mình trong lễ rửa tội. Linh mục hỏi: *"Con có từ bỏ quỷ dữ không?"* Michael đáp: *"Tôi từ bỏ."* Cùng lúc đó, những sát thủ của anh đang giết sạch thủ lĩnh của bốn gia đình mafia khác.
+Ở đám cưới đầu phim, Michael mặc quân phục, kể cho Kay về những việc làm của gia đình mình, rồi nói: *"Đó là gia đình anh, Kay. Không phải anh."* Đến cuối phim, Michael đứng trong nhà thờ làm cha đỡ đầu cho cháu, nói *"Tôi từ bỏ quỷ dữ"*, trong khi người của anh đang giết sạch thủ lĩnh của các gia đình khác. Rồi anh nói dối Kay, nhìn thẳng vào mắt cô. Cánh cửa văn phòng đóng lại trước mặt cô.
 
-Đây là cảnh mà mình nghĩ tóm tắt bản chất của Michael: anh nói những lời thánh thiện trong khi làm điều tội lỗi nhất. Anh đã trở thành "Bố Già" theo cả hai nghĩa, cha đỡ đầu của đứa trẻ, và ông trùm của gia đình, cùng một lúc.
+Cánh cửa đó, với mình, là cảnh kết hay nhất của điện ảnh Mỹ.
 
-## Cánh cửa đóng lại
+9 điểm. Chỉ trừ vì đoạn Michael ở Sicily hơi dài.
 
-Cảnh cuối phim: Kay hỏi Michael có phải anh đã ra lệnh giết chồng của em gái anh không. Michael nhìn thẳng vào mắt cô, nói dối: *"Không."* Kay nhẹ nhõm. Rồi cô nhìn thấy những người đàn ông bước vào văn phòng, hôn tay Michael, gọi anh là Don Corleone. Và cánh cửa đóng lại trước mặt cô.
+---
 
-Mình thấy đây là cái kết hoàn hảo. Michael ở đầu phim nói với Kay rằng gia đình là của họ, không phải của anh. Ở cuối phim, anh đã đóng cánh cửa với chính Kay, người đại diện cho cuộc sống anh từng muốn. Anh đã chọn gia đình, và mất đi chính mình.
+*Nguồn tham khảo:*
 
-## Vì sao mình chấm 9
-
-The Godfather là một trong những bộ phim được làm hoàn hảo nhất: ánh sáng tối của Gordon Willis, nhạc buồn của Nino Rota, diễn xuất của Brando và Pacino. Mỗi cảnh đều có chủ đích.
-
-Mình chấm 9 thay vì 10 vì nhịp phim đôi chỗ chậm, đặc biệt đoạn Michael ở Sicily. Nhưng mình hiểu vì sao người ta coi nó là đỉnh cao. Nó không phải phim về mafia. Nó là phim về nước Mỹ, về chủ nghĩa tư bản, về cái giá của quyền lực, và về việc làm thế nào một người tốt có thể trở thành ác quỷ, từng bước một, vì những lý do nghe rất hợp lý.
+- [Why Francis Ford Coppola Was Nearly Fired During The Godfather's Production](https://www.slashfilm.com/650828/why-francis-ford-coppola-was-nearly-fired-during-the-godfathers-production) — /Film
+- [40 Things You Didn't Know About The Godfather](https://entertainment.time.com/2012/03/15/the-anniversary-you-cant-refuse-40-things-you-didnt-know-about-the-godfather/slide/brando-was-almost-a-no-go) — TIME
+- [15 Things You Didn't Know About The Godfather](https://www.mentalfloss.com/article/62427/15-things-you-didnt-know-about-godfather) — Mental Floss
+- [The Godfather movies trilogy facts](https://www.biography.com/news/the-godfather-movies-trilogy-facts) — Biography
+- [Celebrate The Godfather's 50th anniversary with these fun facts](https://newsletter-stg.oscars.org/news/post/celebrate-the-godfathers-50th-anniversary-with-these-fun-facts) — Academy of Motion Picture Arts and Sciences

@@ -1,71 +1,57 @@
 ---
-title: "Taxi Driver | Tài Xế Taxi | Người Đàn Ông Cô Đơn Nhất New York"
-description: "Analysis — Martin Scorsese"
-tags: ["Analysis", "Character", "Psychological"]
+title: "Taxi Driver | Tài Xế Taxi | Người Viết Sợ Trở Thành Nhân Vật Của Mình"
+description: "Tản mạn — Martin Scorsese, Paul Schrader"
+tags: ["Review", "Psychological"]
 related_media: ["films:taxi-driver"]
 date: 2026-11-17
 ---
 ![Poster Taxi Driver](https://image.tmdb.org/t/p/w500/Aug56efx1XuY40HKbVcicV1EIYt.jpg)
 
-# TAXI DRIVER: NGƯỜI ĐÀN ÔNG CÔ ĐƠN NHẤT NEW YORK
+*"Nếu không viết về hắn, tôi sợ mình sẽ trở thành hắn."*
 
-> [!info] Phim
-> **Taxi Driver** (Tài Xế Taxi)
-> **Đạo diễn:** Martin Scorsese
-> **Kịch bản:** Paul Schrader
-> **Diễn viên:** Robert De Niro (Travis Bickle), Jodie Foster (Iris), Cybill Shepherd (Betsy), Harvey Keitel (Sport)
-> **Nhạc:** Bernard Herrmann
-> **Thời lượng:** 114 phút
-> **Năm phát hành:** 1976
-> **Quốc gia:** Mỹ
-> **Thể loại:** Psychological Drama, Neo-noir
+Đó là câu Paul Schrader, người viết kịch bản Taxi Driver, từng nói về Travis Bickle. Và đọc về hoàn cảnh ông viết kịch bản, mình thấy câu đó không phải nói quá.
 
-> [!warning] Spoilers
+Đầu thập niên 70, Schrader vừa đổ vỡ một mối quan hệ, cô độc, trầm cảm, sống trong xe hơi của mình. Ông không ngủ được, lái xe lang thang khắp đêm, vào rạp xem phim người lớn. Ông gọi chiếc xe là "một cái quan tài bằng kim loại". Và ông viết kịch bản Taxi Driver rất nhanh, trong khoảng mười đến mười lăm ngày, tùy nguồn kể. Ông còn lấy cảm hứng từ nhật ký của Arthur Bremer, kẻ đã ám sát hụt ứng cử viên tổng thống George Wallace năm 1972.
 
-*"You talkin' to me?"*
+Travis Bickle, nói cách khác, là Schrader ở thời điểm tồi tệ nhất, cộng thêm một khẩu súng.
 
-Câu thoại nổi tiếng nhất của Taxi Driver được Robert De Niro ứng biến: Travis Bickle đứng trước gương, rút súng, tưởng tượng một cuộc đối đầu không có thật. Không có ai ở đó. Anh ta đang nói chuyện với chính mình. Và đó là toàn bộ bi kịch của Travis: **một người đàn ông cô đơn đến mức cuộc đối thoại duy nhất anh có là với cái bóng trong gương.**
+---
 
-Ai đã xem Joker (2019) sẽ nhận ra rất nhiều điểm giống nhau, đến mức Joker gần như là một bản làm lại không chính thức, có cả Robert De Niro trong vai phụ. Nhưng bản gốc khó chịu hơn, mơ hồ hơn, và theo mình, đáng sợ hơn.
+Travis là cựu lính thủy đánh bộ, mất ngủ kinh niên, xin lái taxi ca đêm vì dù sao cũng không ngủ được. Anh lái qua New York thập niên 70: bẩn, tội phạm, mại dâm, ma túy. Và anh ghét tất cả. *"Một ngày nào đó, một cơn mưa thật sự sẽ đến và rửa trôi hết rác rưởi này khỏi đường phố."*
 
-## Travis Bickle
+Nhưng Travis không trong sạch hơn thành phố anh căm ghét. Anh xem phim người lớn, ăn uống thất thường, uống thuốc với rượu. Anh chỉ cô đơn hơn. Khi được Betsy, cô gái làm chiến dịch tranh cử, đồng ý đi chơi, anh đưa cô đi xem... phim người lớn. Cô bỏ về, và anh thật sự không hiểu vì sao. Đó không phải xấu tính. Anh chỉ đã sống một mình lâu đến mức thế giới bên ngoài là một thứ tiếng anh không nói được.
 
-Travis là cựu lính thủy đánh bộ trở về từ Việt Nam, bị mất ngủ kinh niên. Anh xin việc lái taxi ca đêm vì dù sao cũng không ngủ được. Anh lái xe qua những con phố New York thập niên 70: bẩn thỉu, tội phạm, mại dâm, ma túy. Và anh ghét tất cả.
+---
 
-*"Một ngày nào đó, một cơn mưa thật sự sẽ đến và rửa sạch tất cả rác rưởi này khỏi đường phố."*
+**"You talkin' to me?"**
 
-Lời độc thoại của Travis, như những trang nhật ký, cho ta vào trong đầu anh. Và đó là một nơi không dễ chịu. Anh tự coi mình là người đạo đức, trong sạch, giữa một thế giới mục nát. Nhưng anh xem phim khiêu dâm, ăn uống thất thường, uống thuốc giảm đau với rượu. Anh không trong sạch hơn thành phố mà anh căm ghét. Anh chỉ cô đơn hơn.
+Cảnh nổi tiếng nhất phim. Trong kịch bản của Schrader, cảnh này chỉ được ghi đơn giản là Travis nhìn vào gương. Toàn bộ những gì ta thấy, cái câu hỏi lặp đi lặp lại, cái cách rút súng, cái cười khẩy, là Robert De Niro tự ứng biến.
 
-## Betsy và cuộc hẹn ở rạp phim người lớn
+Mình thấy cảnh này là cảnh buồn nhất phim, dù nó hay được đem ra làm trò đùa. Travis đang tập nói chuyện với một người không tồn tại. Cuộc đối thoại duy nhất anh có là với cái bóng trong gương.
 
-Travis phải lòng Betsy, một nhân viên chiến dịch tranh cử. Anh tán tỉnh cô một cách kỳ lạ nhưng có duyên, và cô đồng ý đi cà phê. Anh nói với cô rằng cô là người cô đơn, giống anh. Cô thấy anh thú vị.
+---
 
-Rồi trong buổi hẹn thứ hai, Travis đưa Betsy đi... xem phim khiêu dâm. Cô bỏ về. Travis không hiểu vì sao. Anh gọi điện, gửi hoa, cô không trả lời. Anh xông vào văn phòng, quát tháo.
+**Bản nhạc cuối cùng của Bernard Herrmann**
 
-Mình thấy cảnh này đau đớn vì nó cho thấy Travis không có khả năng kết nối với người khác. Không phải anh xấu tính. Anh thực sự không biết những quy tắc xã hội cơ bản. Anh đã sống một mình quá lâu đến mức thế giới bên ngoài với anh là một ngôn ngữ xa lạ.
+Bernard Herrmann, nhạc sĩ của Hitchcock (*Psycho*, *Vertigo*), ban đầu từ chối làm nhạc cho phim. Ông nói đại ý ông không viết nhạc cho "phim về xe hơi". Rồi ông đọc kịch bản, và nhận lời.
 
-## Biến cô đơn thành sứ mệnh
+Herrmann hoàn thành bản nhạc, và qua đời ngay sau đó, đêm Giáng sinh năm 1975. Phim được đề tặng ông ở phần chữ cuối. Tiếng saxophone jazz buồn, uể oải, như một thành phố đang say, xen với những tiếng trống dồn dập báo hiệu một thứ gì đó sắp nổ ra. Đó là bản nhạc phim cuối cùng của ông.
 
-Sau khi bị Betsy từ chối, Travis thay đổi. Anh mua súng, tập thể dục, chế tạo cơ chế giấu súng trong tay áo. Anh cạo đầu kiểu Mohawk. Anh lên kế hoạch ám sát ứng cử viên tổng thống mà Betsy đang làm việc cho.
+---
 
-Đây là phần đáng sợ nhất của phim, vì nó quá quen thuộc. Một người đàn ông cô đơn, bị từ chối, giận dữ với thế giới, tìm kiếm ý nghĩa bằng bạo lực. Anh không thực sự quan tâm đến chính trị. Anh chỉ muốn **được nhìn thấy**, muốn làm một điều gì đó lớn lao để chứng minh rằng mình tồn tại.
+Cái kết của Taxi Driver thì đến giờ vẫn còn tranh cãi. Travis xả súng ở nhà chứa để "cứu" cô bé Iris, rồi được báo chí ca ngợi như anh hùng. Có phải thật không, hay chỉ là giấc mơ của một người đang hấp hối? Mình nghĩ nó là thật, và đó mới là điều đáng sợ: xã hội đã thưởng cho bạo lực của Travis chỉ vì nó tình cờ nhắm đúng mục tiêu. Nếu vụ ám sát ứng cử viên tổng thống trước đó thành công, anh đã là kẻ khủng bố. Và ở khung hình cuối, Travis liếc vào gương chiếu hậu, giật mình. Quả bom vẫn chưa nổ.
 
-## Iris
+Schrader viết về Travis để không trở thành Travis. Mình nghĩ đó là lý do Taxi Driver hiểu sự cô đơn ở thành phố lớn rõ đến vậy. Nó được viết từ bên trong.
 
-Song song, Travis gặp Iris, một gái mại dâm mới 12 tuổi, do Jodie Foster đóng. Anh muốn "cứu" cô khỏi tay gã ma cô Sport. Iris không chắc mình muốn được cứu.
+9 điểm.
 
-Kế hoạch ám sát thất bại vì Travis bị phát hiện. Anh chuyển mục tiêu: đến nhà chứa nơi Iris làm việc, giết Sport và những kẻ khác trong một cảnh bạo lực đẫm máu. Anh cố tự sát nhưng hết đạn. Anh đặt ngón tay đẫm máu lên thái dương, giả làm súng, khi cảnh sát đến.
+---
 
-Điều mình thấy đáng chú ý là: nếu kế hoạch ám sát thành công, Travis là một kẻ khủng bố. Nhưng vì anh giết những tên ma cô, anh trở thành **anh hùng**.
+*Nguồn tham khảo:*
 
-## Cái kết mơ hồ
-
-Phim kết thúc với Travis hồi phục. Báo chí ca ngợi anh là anh hùng. Cha mẹ Iris gửi thư cảm ơn vì đã đưa con gái họ về nhà. Betsy lên taxi của anh, có vẻ ngưỡng mộ anh. Travis chở cô về, từ chối nhận tiền, rồi lái đi.
-
-Nhiều người tranh luận: cái kết này có thật không, hay chỉ là giấc mơ của Travis đang hấp hối? Mình nghĩ nó có thật, và đó mới là điều đáng sợ. **Xã hội đã thưởng cho bạo lực của Travis**, chỉ vì nó tình cờ nhắm vào đúng mục tiêu. Và ở khung hình cuối, Travis nhìn vào gương chiếu hậu, đột ngột giật mình như thấy điều gì đó. Anh vẫn là quả bom chưa nổ. Lần sau, có thể anh sẽ không may mắn như vậy.
-
-## Vì sao mình chấm 9
-
-Taxi Driver có một trong những màn trình diễn hay nhất của Robert De Niro. Nhạc của Bernard Herrmann, nhạc sĩ của Hitchcock, với tiếng saxophone jazz buồn và những tiếng trống dồn dập, là bản nhạc cuối cùng ông viết trước khi qua đời.
-
-Mình chấm 9 vì đây là bộ phim không dễ chịu, và nó không cố gắng làm vậy. Nhưng nó là một trong những bộ phim hiểu rõ nhất về sự cô đơn ở thành phố lớn, nơi ta có thể sống giữa hàng triệu người mà không ai biết ta tồn tại. Và về việc sự cô đơn đó, nếu không được nhìn thấy, có thể trở thành thứ gì.
+- ["If I didn't write about him I'm afraid I might become him": the making of Taxi Driver at 50](https://www.inkl.com/news/if-i-didn-t-write-about-him-i-m-afraid-i-might-become-him-the-making-of-taxi-driver-at-50) — inkl
+- [Taxi Driver at 50: the story behind Martin Scorsese's classic psychological drama](https://www.flickeringmyth.com/taxi-driver-at-50-the-story-behind-martin-scorseses-classic-psychological-drama/) — Flickering Myth
+- [Taxi Driver (1976)](https://tcm.com/articles/afi-top-100/246694/taxi-driver-1976) — TCM
+- [Taxi Driver](https://www.britannica.com/topic/Taxi-Driver) — Britannica
+- [Taxi Driver behind the scenes facts](https://screenrant.com/taxi-driver-movie-behind-scenes-facts-martin-scorsese-robert-de-niro-you-talkin-me/) — Screen Rant
+- [Approaching Menace: The American Pathology of Martin Scorsese's Taxi Driver](https://cinephiliabeyond.org/?p=32914) — Cinephilia & Beyond
