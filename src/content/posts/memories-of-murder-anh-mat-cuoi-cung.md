@@ -1,70 +1,52 @@
 ---
-title: "Memories of Murder | Hồi Ức Kẻ Sát Nhân | Ánh Mắt Cuối Cùng"
-description: "Analysis — Bong Joon Ho"
-tags: ["Analysis", "Theme", "Crime"]
+title: "Memories of Murder | 살인의 추억 Hồi Ức Kẻ Sát Nhân | Hung Thủ Đã Xem Phim"
+description: "Ghi chép — Bong Joon Ho"
+tags: ["Review", "Crime"]
 related_media: ["films:memories-of-murder"]
 date: 2026-11-17
 ---
 ![Poster Memories of Murder](https://image.tmdb.org/t/p/w500/wrsf1ebQ6S4gVhjR9FJElfdxAjj.jpg)
 
-# MEMORIES OF MURDER: ÁNH MẮT CUỐI CÙNG
+Năm 2003, khi Memories of Murder ra rạp, hung thủ thật của vụ án mà phim kể vẫn chưa bị bắt.
 
-> [!info] Phim
-> **Memories of Murder** (Hồi Ức Kẻ Sát Nhân)
-> 살인의 추억
-> **Đạo diễn:** Bong Joon Ho
-> **Kịch bản:** Bong Joon Ho, Shim Sung-bo
-> **Diễn viên:** Song Kang-ho (Park Doo-man), Kim Sang-kyung (Seo Tae-yoon), Park Hae-il (Park Hyeon-gyu)
-> **Nhạc:** Taro Iwashiro
-> **Thời lượng:** 131 phút
-> **Năm phát hành:** 2003
-> **Quốc gia:** Hàn Quốc
-> **Thể loại:** Crime, Drama, Thriller
+Tháng 9 năm 2019, sau 33 năm, cảnh sát Hàn Quốc công bố đã xác định được hung thủ của chuỗi án Hwaseong nhờ ADN: **Lee Choon-jae**. Lúc đó hắn đang ngồi tù chung thân vì một vụ giết người khác, từ năm 1994. Rồi hắn thú nhận: 14 vụ giết người, khoảng 30 vụ hiếp dâm và cưỡng hiếp không thành, nhiều hơn những gì cảnh sát từng biết.
 
-> [!warning] Spoilers
+Và theo báo South China Morning Post, Lee kể rằng hắn từng xem Memories of Murder trong tù. Hắn nói: *"Tôi không cảm thấy gì khi xem. Tôi chỉ coi nó là một bộ phim."*
 
-Trước *Parasite*, trước Oscar, Bong Joon Ho đã làm một trong những phim trinh thám hay nhất châu Á: Memories of Murder. Phim dựa trên vụ giết người hàng loạt có thật ở Hwaseong, Hàn Quốc, từ năm 1986 đến 1991, khi 10 phụ nữ bị cưỡng hiếp và sát hại. Lúc phim ra mắt năm 2003, hung thủ vẫn chưa bị bắt.
+Bong Joon Ho nghe tin này, nói rằng cảm giác của ông "rất phức tạp".
 
-Điều làm phim đặc biệt là nó không phải câu chuyện về việc bắt được hung thủ. Nó là câu chuyện về việc **không bắt được**, và về một đất nước không đủ khả năng để bắt được.
+---
 
-## Hai thám tử, hai phương pháp
+Lý do tin này gây chấn động là vì cảnh cuối của phim.
 
-Park Doo-man là thám tử địa phương. Phương pháp điều tra của anh là nhìn vào mắt nghi phạm và "cảm nhận". Anh tin rằng mình có thể nhận ra kẻ xấu chỉ bằng cách nhìn. Đồng nghiệp của anh thì dùng bạo lực, đánh đập, ép cung. Họ bắt một thanh niên chậm phát triển, đánh đến khi cậu ta nhận tội.
+Năm 2003, Park Doo-man, cựu thám tử giờ làm nhân viên bán hàng, tình cờ đi ngang hiện trường vụ án đầu tiên. Anh cúi xuống nhìn vào cái cống nơi từng tìm thấy xác nạn nhân. Một bé gái đi qua, nói mới đây cũng có một ông chú nhìn vào cái cống đó, nói rằng ông ấy đang nhớ lại một việc mình từng làm ở đây.
 
-Seo Tae-yoon là thám tử từ Seoul đến. Anh tin vào bằng chứng, hồ sơ, logic. Anh coi thường phương pháp của Park. *"Tài liệu không bao giờ nói dối,"* anh nói.
+Park hỏi người đó trông thế nào. Cô bé đáp: *"Bình thường thôi ạ."*
 
-Lúc đầu, phim có vẻ đi theo hướng quen thuộc: phương pháp hiện đại của Seo sẽ thắng phương pháp lạc hậu của Park. Nhưng không. Cả hai đều thất bại. Và quan trọng hơn: **cả hai đều thay đổi theo hướng ngược lại**. Park dần dần mất niềm tin vào "đôi mắt" của mình. Seo, khi tìm ra một nghi phạm có vẻ phù hợp hoàn hảo, trở nên điên cuồng, sẵn sàng đánh đập, sẵn sàng giết người mà không cần bằng chứng.
+Park quay mặt lại, nhìn thẳng vào máy quay. Nhìn thẳng vào khán giả.
 
-## Hàn Quốc những năm 80
+Rất nhiều người, từ lâu trước năm 2019, đã đọc cảnh này như một lời nhắn: hung thủ có thể đang ngồi trong rạp. Ánh mắt của Park đang tìm hắn. Mình không tìm được nguồn nào xác nhận Bong cố ý gửi thông điệp cho hung thủ, nên chỉ coi đó là cách đọc phổ biến của khán giả. Nhưng cái chi tiết "hắn đã thật sự xem phim" thì làm cảnh cuối đó rợn hơn hẳn.
 
-Mình nghĩ Memories of Murder không chỉ là phim trinh thám mà còn là bức tranh về Hàn Quốc dưới chế độ độc tài quân sự. Cảnh sát thiếu thốn, không có phòng thí nghiệm ADN, phải gửi mẫu sang Mỹ để xét nghiệm. Hiện trường vụ án bị dân làng giẫm đạp. Lực lượng cảnh sát được điều đi trấn áp biểu tình thay vì bảo vệ dân thường, nên trong một đêm có án mạng, không có cảnh sát nào để đáp ứng lời cầu cứu.
+---
 
-Có những cảnh diễn tập phòng không, cả thị trấn tắt đèn. Có những người biểu tình bị đánh. Bong Joon Ho đặt những chi tiết này rất tự nhiên ở nền, nhưng chúng nói lên một điều: hung thủ không bị bắt không chỉ vì hắn thông minh, mà vì **cả hệ thống đã thất bại**.
+Vụ án ngoài đời còn một hệ quả buồn hơn. Một người đàn ông họ Yoon đã bị kết án oan cho một trong những vụ giết người đó, ngồi tù hai mươi năm. Sau lời thú tội của Lee, cảnh sát thừa nhận đã ép cung ông. Ông được xử lại và tuyên vô tội.
 
-## Hài hước trong bi kịch
+Điều này khớp đến đáng sợ với chính bộ phim. Trong phim, các thám tử địa phương đánh đập, ép một thanh niên chậm phát triển nhận tội. Park thì tin vào "nhìn mắt là biết". Seo, thám tử từ Seoul, tin vào hồ sơ và logic, nhưng đến cuối cũng sẵn sàng giết một nghi phạm không có bằng chứng. Hàn Quốc những năm 80, dưới chế độ quân sự, cảnh sát bận trấn áp biểu tình, không có phòng thí nghiệm ADN, phải gửi mẫu sang Mỹ. Phim nói rằng hung thủ không bị bắt không chỉ vì hắn khôn, mà vì cả hệ thống thất bại. Ngoài đời, hệ thống đó còn bỏ tù nhầm người.
 
-Một điều rất "Bong Joon Ho" là sự pha trộn thể loại. Memories of Murder có nhiều cảnh hài hước: những thám tử vụng về, những phương pháp điều tra ngớ ngẩn (Park có lúc đi tìm nghi phạm "không có lông" vì không tìm thấy lông ở hiện trường, và đến nhà tắm công cộng để quan sát), những cuộc cãi vã trẻ con.
+Theo Korea Herald, chuỗi án này đã để lại dấu ấn lớn, và thúc đẩy Hàn Quốc phát triển khoa học pháp y và phân tích tội phạm.
 
-Nhưng chính sự hài hước này làm bi kịch nặng nề hơn. Ta cười những thám tử ngốc nghếch, rồi chợt nhận ra rằng chính sự ngốc nghếch đó khiến thêm nhiều phụ nữ chết.
+---
 
-## Đường hầm
+Trước *Parasite*, trước Oscar, đây là phim mà mình nghĩ cho thấy rõ nhất tài năng của Bong Joon Ho: một phim trinh thám có cả hài, có cả bi, và dám kết thúc mà không có lời giải. Song Kang-ho thì khỏi nói.
 
-Cao trào phim: kết quả ADN từ Mỹ trở về. Nghi phạm chính, Park Hyeon-gyu, *không khớp*. Seo không tin, rút súng định bắn hắn trong đường hầm xe lửa. Park ngăn lại. Hyeon-gyu bỏ chạy vào bóng tối của đường hầm.
+9 điểm. Và giờ thì vụ án đã có lời giải, chỉ là không nằm trong phim.
 
-Đây là khoảnh khắc mà cả hai thám tử nhận ra họ đã thua. Không có bằng chứng, không có lời thú tội, không có gì cả. Kẻ giết người vẫn ở ngoài kia.
+---
 
-## Ánh mắt cuối cùng
+*Nguồn tham khảo:*
 
-Cảnh cuối là một trong những cảnh kết hay nhất điện ảnh. Năm 2003, Park đã bỏ nghề cảnh sát, làm nhân viên bán hàng. Anh tình cờ đi ngang qua hiện trường vụ án đầu tiên, cúi xuống nhìn vào cái cống nơi tìm thấy xác nạn nhân. Một bé gái đi qua, nói rằng mới đây cũng có một người đàn ông nhìn vào cái cống đó. Ông ta nói rằng ông ta nhớ lại một việc mình đã làm ở đây.
-
-Park hỏi người đó trông như thế nào. Cô bé nói: *"Bình thường thôi ạ."*
-
-Rồi Park quay mặt thẳng vào máy quay, nhìn thẳng vào khán giả.
-
-Bong Joon Ho nói rằng ông làm cảnh này vì tin rằng hung thủ sẽ đi xem phim. Ông muốn Park nhìn thẳng vào mắt hắn. Và điều kỳ lạ là: năm 2019, sau 33 năm, hung thủ thật Lee Choon-jae bị xác định nhờ ADN. Hắn đã ngồi tù từ năm 1994 vì một tội giết người khác. Ánh mắt của Park, hóa ra, đã nhìn vào một người có thật.
-
-## Vì sao mình chấm 9
-
-Memories of Murder là phim trinh thám mà mình nghĩ hay hơn mọi phim Hollywood cùng thể loại, trừ *Zodiac*. Song Kang-ho diễn xuất tuyệt vời: anh vừa là thám tử ngớ ngẩn, vừa là người đàn ông bị ám ảnh suốt cả đời.
-
-Mình chấm 9 vì nó dám kết thúc mà không có lời giải. Và vì ánh mắt cuối cùng của Park, nhìn thẳng vào ta, hỏi một câu không lời: *liệu ngươi có đang ngồi ở đây không?*
+- [South Korea's Hwaseong murders culprit admits to 14 killings](https://amp.scmp.com/week-asia/people/article/3108241/south-koreas-hwaseong-murders-culprit-admits-14-killings) — South China Morning Post
+- [Hwaseong serial killer confesses to 14 murders, 30 sexual assaults](https://www.koreatimes.co.kr/amp/southkorea/law-crime/20191002/hwaseong-serial-killer-confesses-to-14-murders-30-sexual-assaults) — The Korea Times
+- [The real-life crimes behind Bong Joon-ho's Memories of Murder](https://faroutmagazine.co.uk/real-crimes-bong-joon-ho-memories-of-murder/) — Far Out Magazine
+- [Chain of rapes, murders from '80s, '90s left mark on Korea](https://www.koreaherald.com/view.php?ud=20230705000721) — Korea Herald
+- [Lee Choon-jae](https://en.wikipedia.org/wiki/Lee_Choon-jae) — Wikipedia

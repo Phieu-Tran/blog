@@ -1,65 +1,48 @@
 ---
-title: "Joker | Một Xã Hội Không Nhìn Thấy Arthur Fleck"
-description: "Analysis — Todd Phillips"
-tags: ["Analysis", "Character", "Psychological"]
+title: "Joker | Cầu Thang Ở Bronx"
+description: "Tản mạn — Todd Phillips"
+tags: ["Review", "Character"]
 related_media: ["films:joker"]
 date: 2026-11-17
 ---
 ![Poster Joker](https://image.tmdb.org/t/p/w500/7DIrtrRgZWWO8jXklLXkkivqpBG.jpg)
 
-# JOKER: MỘT XÃ HỘI KHÔNG NHÌN THẤY ARTHUR FLECK
+Ở khu Bronx của New York có một dãy cầu thang bê tông dài, nối hai con phố. Trước năm 2019 nó chỉ là một cầu thang bình thường. Sau khi Joker ra mắt, nó thành điểm du lịch. Người ta xếp hàng để chụp ảnh nhảy múa trên đó, mặc vest đỏ, tóc nhuộm xanh, bắt chước Joaquin Phoenix. Người dân trong khu phàn nàn vì quá đông.
 
-> [!info] Phim
-> **Joker**
-> **Đạo diễn:** Todd Phillips
-> **Kịch bản:** Todd Phillips, Scott Silver
-> **Diễn viên:** Joaquin Phoenix (Arthur Fleck), Robert De Niro (Murray Franklin), Zazie Beetz (Sophie), Frances Conroy (Penny Fleck)
-> **Nhạc:** Hildur Guðnadóttir
-> **Thời lượng:** 122 phút
-> **Năm phát hành:** 2019
-> **Quốc gia:** Mỹ
-> **Thể loại:** Psychological Thriller, Drama
+Mình thấy chuyện này vừa buồn cười vừa hơi buồn. Vì trong phim, cái cầu thang đó có nghĩa khác hẳn.
 
-> [!warning] Spoilers
+---
 
-Joker là một trong những bộ phim gây tranh cãi nhất năm 2019. Trước khi ra mắt, người ta lo rằng nó sẽ cổ vũ bạo lực. Sau khi ra mắt, nó thắng Sư tử Vàng ở Venice, Joaquin Phoenix thắng Oscar, và phim trở thành phim dán nhãn R có doanh thu cao nhất lịch sử thời điểm đó.
+Ở đầu phim, Arthur Fleck leo lên cầu thang đó mỗi ngày về nhà. Mệt mỏi, khom lưng, như vác cả thế giới. Anh làm chú hề thuê, sống với mẹ già trong một căn hộ tồi tàn, mắc một chứng bệnh khiến anh cười không kiểm soát được, kể cả khi đau hay sợ. Anh mang theo một tấm thẻ in sẵn để đưa cho người lạ, giải thích tình trạng của mình.
 
-Mình chấm 9 không phải vì Joker là một phim về phản diện ngầu. Mình chấm 9 vì nó là một phim về **sự vô hình**: một người đàn ông mà xã hội không nhìn thấy, cho đến khi hắn buộc họ phải nhìn.
+Phim dành nửa đầu cho thấy Arthur bị chà đạp thế nào: bị đánh trong hẻm, bị đồng nghiệp lừa, bị đuổi việc, bị cắt chương trình hỗ trợ tâm lý vì thành phố cắt ngân sách. Cô nhân viên xã hội nói thẳng: họ không quan tâm đến những người như anh.
 
-## Arthur Fleck
+Đến cuối phim, sau khi trở thành Joker, Arthur *nhảy múa đi xuống* cầu thang đó, vest đỏ, trên nền bài *Rock and Roll Part 2*. Lần đầu tiên trong đời, anh không còn gánh nặng. Không phải vì đời tốt hơn, mà vì anh thôi cố gắng làm người bình thường. Đi lên thì mệt. Đi xuống, sa ngã, thì dễ và nhẹ nhõm.
 
-Arthur Fleck làm chú hề thuê, sống cùng người mẹ già yếu trong một căn hộ tồi tàn ở Gotham năm 1981. Arthur có một chứng bệnh thần kinh khiến anh cười không kiểm soát được, kể cả khi buồn hay sợ hãi. Anh mang theo một tấm thẻ giải thích tình trạng của mình để đưa cho người lạ.
+Nên khi thấy người ta xếp hàng nhảy trên cầu thang ấy như một cảnh ăn mừng, mình hơi chột dạ. Có lẽ nhiều người nhớ điệu nhảy mà quên mất nó có nghĩa là gì.
 
-Anh mơ ước trở thành diễn viên hài độc thoại. Nhưng anh không biết thế nào là buồn cười. Trong một buổi diễn hài, anh ngồi dưới khán giả, ghi chép, và cười vào những lúc không ai cười.
+---
 
-Phim dành nửa đầu để cho ta thấy Arthur bị thế giới chà đạp như thế nào: bị đám thanh niên đánh trong hẻm, bị đồng nghiệp lừa, bị ông chủ sa thải, bị cắt chương trình trợ cấp tâm lý vì ngân sách thành phố bị cắt giảm. Người nhân viên xã hội nói với anh rằng *"họ không quan tâm đến những người như anh, Arthur"*.
+**Mấy chuyện hậu trường**
 
-## Tiếng cười như một vết thương
+- Joaquin Phoenix giảm khoảng 52 pound (hơn 23 kg) cho vai này. Những cảnh Arthur cởi trần, xương sườn và vai nhô ra, không phải hiệu ứng.
+- Theo đạo diễn Todd Phillips, Phoenix đôi khi tự bỏ ra khỏi phim trường giữa cảnh quay, khiến bạn diễn bối rối. Điều phối viên đóng thế George Aguilar cũng kể rằng trong các cảnh đánh nhau, ông không biết trước Phoenix sẽ đánh vào đâu, vì Phoenix ứng biến liên tục.
+- Nhạc cello của Hildur Guðnadóttir được viết trước một phần và mở ngay trên phim trường. Phoenix nói âm nhạc đóng vai trò quan trọng khi anh diễn.
 
-Chứng cười không kiểm soát của Arthur là ẩn dụ mạnh nhất phim. Anh cười trong khi đau đớn. Anh cười khi bị đánh. Anh cười khi muốn khóc.
+**Và các giải thưởng**
 
-Trong cuốn nhật ký của mình, Arthur viết: *"Phần tệ nhất của việc mắc bệnh tâm thần là người ta mong bạn cư xử như thể bạn không mắc bệnh."* Đây là câu mình thấy đau nhất phim. Xã hội đòi hỏi Arthur phải *trông bình thường*, phải mỉm cười, phải "đeo mặt nạ hạnh phúc" như người mẹ dạy anh từ nhỏ. Tiếng cười không kiểm soát là thứ duy nhất trong anh nói thật: rằng anh đang đau.
+Joker thắng Sư tử Vàng ở Liên hoan phim Venice 2019, nhận 11 đề cử Oscar, Phoenix thắng Nam chính, Guðnadóttir thắng Nhạc phim. Nó cũng là phim gây tranh cãi nhất năm: nhiều người lo nó cổ vũ bạo lực, cổ vũ những kẻ cô đơn giận dữ.
 
-## Cầu thang
+Mình nghĩ phim *giải thích* Arthur, không *biện minh* cho anh. Nó cho thấy một hệ thống đã bỏ rơi một con người. Nhưng mình cũng hiểu vì sao người ta lo: cảnh đám đông đeo mặt nạ hề tung hô Joker có thể được một số người xem như cảm hứng thay vì cảnh báo. Và cái cầu thang thành điểm check-in có lẽ là bằng chứng nhỏ cho điều đó.
 
-Một hình ảnh lặp lại trong phim là cầu thang dài dẫn về nhà Arthur. Ở đầu phim, Arthur leo lên nó mỗi ngày, mệt mỏi, khom lưng, như vác cả thế giới trên vai.
+9 điểm. Trừ vì phim vay mượn quá nhiều từ *Taxi Driver* và *The King of Comedy* của Scorsese. Nhưng màn diễn của Phoenix thì không chê được.
 
-Ở cuối phim, sau khi trở thành Joker, anh *nhảy múa* xuống cầu thang đó, trong bộ vest đỏ, trên nền bài *Rock and Roll Part 2*. Cảnh này trở thành một meme, nhưng mình nghĩ nó có ý nghĩa: lần đầu tiên trong đời, Arthur không còn gánh nặng. Không phải vì cuộc sống tốt hơn, mà vì anh đã thôi cố gắng làm người bình thường. Leo lên là vất vả. Đi xuống, sa ngã, thì dễ dàng và tự do.
+---
 
-## Điều gì là thật?
+*Nguồn tham khảo:*
 
-Phim cố tình làm ta không tin vào những gì mình thấy. Mối tình với cô hàng xóm Sophie hóa ra chỉ là tưởng tượng. Arthur chưa bao giờ thực sự ở bên cô. Việc Thomas Wayne có phải là cha của Arthur hay không cũng không được xác nhận: hồ sơ nói mẹ anh bị hoang tưởng, nhưng có một tấm ảnh với dòng chữ "Tôi yêu nụ cười của em, T.W."
-
-Mình nghĩ sự mơ hồ này là chủ ý. Arthur là người kể chuyện không đáng tin cậy. Ta thấy thế giới qua mắt anh. Và cảnh cuối, Arthur ở bệnh viện tâm thần, cười, nói với bác sĩ rằng anh đang nghĩ đến một câu chuyện cười mà bà sẽ không hiểu. Có lẽ toàn bộ câu chuyện chỉ là một trò đùa trong đầu anh.
-
-## Phim có cổ vũ bạo lực không?
-
-Đây là tranh luận lớn nhất quanh phim. Mình nghĩ là không. Joker không bảo rằng Arthur đúng. Nó cho thấy Arthur là sản phẩm của một hệ thống đã bỏ rơi anh. Đó là sự khác biệt giữa *giải thích* và *biện minh*.
-
-Nhưng mình cũng hiểu vì sao người ta lo. Cảnh đám đông đeo mặt nạ hề nổi loạn, tôn vinh Joker như biểu tượng, cũng là cảnh mà một số người xem có thể coi là truyền cảm hứng thay vì cảnh báo. Đó là rủi ro của bất kỳ bộ phim nào đặt khán giả vào đầu của một kẻ giết người.
-
-## Vì sao mình chấm 9
-
-Joker có những điểm mình không thích: nó mượn quá nhiều từ *Taxi Driver* và *The King of Comedy* của Scorsese, đôi khi thông điệp hơi lộ liễu. Nhưng màn trình diễn của Joaquin Phoenix thì không thể chê được: anh giảm cân đến mức gầy trơ xương, mỗi chuyển động của cơ thể đều kể chuyện. Nhạc cello của Hildur Guðnadóttir, nặng nề và u ám, đoạt Oscar xứng đáng.
-
-Mình chấm 9 vì Joker khiến mình nghĩ về những người vô hình xung quanh mình: những người mà ta đi lướt qua mỗi ngày, không bao giờ hỏi họ có ổn không.
+- [Joker director couldn't have predicted kind of run with 11 Oscar nominations](https://www.goodmorningamerica.com/culture/story/joker-director-couldnt-predicted-kind-run-11-oscar-68501755) — Good Morning America
+- [How Joaquin Phoenix's unpredictable fighting improv made Joker all the more dangerous](https://www.syfy.com/syfy-wire/joaquin-phoenix-stunt-improvisation-made-joker-all-the-more-dangerous) — SYFY
+- [Joker director reveals Joaquin Phoenix walked off set during scenes](https://www.flickeringmyth.com/joker-director-reveals-joaquin-phoenix-walked-off-set-during-scenes-confusing-cast-members/) — Flickering Myth
+- [Music was instrumental to Joaquin Phoenix while filming Joker](https://www.flickeringmyth.com/music-was-instrumental-to-joaquin-phoenix-while-filming-joker/) — Flickering Myth
+- [Joker behind-the-scenes featurette](https://www.gamesradar.com/joker-behind-the-scenes-featurette-joaquin-phoenix-todd-phillips) — GamesRadar
