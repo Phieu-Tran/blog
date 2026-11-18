@@ -120,6 +120,67 @@ async function fetchArtistGenres(token, artistIds) {
   return genres;
 }
 
+const TAGS_FILE = path.resolve('src/data/artist-tags.json');
+const TAG_TTL_DAYS = 90;
+const MAX_TAG_LOOKUPS = 400;
+// Last.fm tags that describe the listener, not the music.
+const JUNK_TAGS = new Set(['seen live', 'favorites', 'favourite', 'favorite', 'my favorite', 'love', 'awesome', 'beautiful', 'cool',
+  'spotify', 'all', 'under 2000 listeners', 'male vocalists', 'female vocalists', 'singer-songwriter']);
+
+// Last.fm spells the same genre many ways; fold the common variants together.
+const TAG_ALIASES = {
+  vietnam: 'vietnamese', 'viet nam': 'vietnamese', vpop: 'v-pop', 'v pop': 'v-pop',
+  rnb: 'r&b', "r'n'b": 'r&b', 'r n b': 'r&b', 'rhythm and blues': 'r&b',
+  'hip hop': 'hip-hop', hiphop: 'hip-hop', kpop: 'k-pop', 'k pop': 'k-pop', jpop: 'j-pop', 'j pop': 'j-pop',
+  jrock: 'j-rock', 'j rock': 'j-rock', 'vietnamese rap': 'rap', 'vietnamese hip-hop': 'hip-hop',
+};
+function normalizeTag(tag) {
+  const clean = String(tag).toLowerCase().trim().replace(/\s+/g, ' ');
+  return TAG_ALIASES[clean] || clean;
+}
+
+/** Fill empty artist genres from Last.fm artist.getTopTags, cached in src/data/artist-tags.json. */
+async function fillGenresFromLastfm(artistGenres, idToName, priorityIds, dryRun) {
+  const apiKey = process.env.LASTFM_API_KEY;
+  if (!apiKey) return '';
+  const cache = fs.existsSync(TAGS_FILE) ? JSON.parse(fs.readFileSync(TAGS_FILE, 'utf-8')) : {};
+  const today = new Date().toISOString().slice(0, 10);
+  const fresh = entry => entry && (Date.parse(today) - Date.parse(entry.fetched)) / 86400000 < TAG_TTL_DAYS;
+  let lookups = 0;
+  let filled = 0;
+  for (const id of priorityIds) {
+    if ((artistGenres.get(id) || []).length) continue;
+    const name = idToName.get(id);
+    if (!name) continue;
+    const key = name.toLowerCase();
+    if (!fresh(cache[key]) && lookups < MAX_TAG_LOOKUPS) {
+      lookups++;
+      try {
+        const url = `https://ws.audioscrobbler.com/2.0/?${new URLSearchParams({ method: 'artist.gettoptags', artist: name, autocorrect: '1', api_key: apiKey, format: 'json' })}`;
+        const json = await (await fetch(url, { headers: { 'User-Agent': 'media-vault-sync/1.0' } })).json();
+        const tags = [].concat(json?.toptags?.tag || [])
+          .filter(tag => Number(tag.count) >= 10)
+          .map(tag => String(tag.name).toLowerCase().trim())
+          .filter(tag => tag && !JUNK_TAGS.has(tag) && tag !== key && !/^\d{2,4}s?$/.test(tag))
+          .slice(0, 3);
+        cache[key] = { tags, fetched: today };
+      } catch {
+        // network hiccup: try this artist again next week
+      }
+      await new Promise(r => setTimeout(r, 220));
+    }
+    if (cache[key]?.tags?.length) {
+      artistGenres.set(id, [...new Set(cache[key].tags.map(normalizeTag))]);
+      filled++;
+    }
+  }
+  if (!dryRun) {
+    const sorted = Object.fromEntries(Object.entries(cache).sort(([a], [b]) => a.localeCompare(b)));
+    fs.writeFileSync(TAGS_FILE, `${JSON.stringify(sorted, null, 1)}\n`);
+  }
+  return `, genres from Last.fm: ${filled} artists (${lookups} looked up)`;
+}
+
 function guessKind(album) {
   if (/\b(soundtrack|o\.?s\.?t\.?|original score|サウンドトラック)\b/i.test(album.name)) return 'ost';
   if (album.album_type === 'compilation') return 'compilation';
@@ -269,7 +330,9 @@ async function fetchTop(token) {
  * (null = new entry), so the page can show ↑/↓ like "Show previous ranking".
  */
 function writeTop(top) {
-  const previous = fs.existsSync(TOP_FILE) ? JSON.parse(fs.readFileSync(TOP_FILE, 'utf-8')) : null;
+  let previous = fs.existsSync(TOP_FILE) ? JSON.parse(fs.readFileSync(TOP_FILE, 'utf-8')) : null;
+  // A same-day file with no older baseline is not a "previous ranking": compare against nothing.
+  if (previous?.updated === new Date().toISOString().slice(0, 10) && !previous.previous_updated) previous = null;
   const withPrev = (kind, range) => {
     const before = new Map((previous?.[kind]?.[range] || []).map((item, i) => [item.id, i + 1]));
     return top[kind][range].map(item => ({ ...item, prev: previous ? (before.get(item.id) ?? null) : undefined }));
@@ -353,6 +416,33 @@ export async function syncSpotify({ dryRun = false } = {}) {
     ...[...playlistTracks.values(), liked].flat().flatMap(({ track }) => (track.artists || []).map(a => a.id)),
   ].filter(Boolean);
   const artistGenres = await fetchArtistGenres(token, allArtistIds);
+
+  // Top tracks / artists for 4 weeks, 6 months and ~12 months (needs user-top-read).
+  let top = null;
+  let topNote = '';
+  try {
+    top = await fetchTop(token);
+    topNote = `, top: ${top.tracks.long_term.length} tracks / ${top.artists.long_term.length} artists`;
+  } catch (err) {
+    topNote = ` (top skipped: ${err.message.includes('403') ? 're-run npm run spotify-auth to grant top access' : err.message})`;
+  }
+
+  // Spotify no longer returns artist genres to new apps: fill them from Last.fm tags (cached).
+  const idToName = new Map();
+  saved.forEach(item => item.album.artists.forEach(a => idToName.set(a.id, a.name)));
+  [...playlistTracks.values(), liked].flat().forEach(({ track }) => (track.artists || []).forEach(a => idToName.set(a.id, a.name)));
+  const frequency = new Map();
+  allArtistIds.forEach(id => frequency.set(id, (frequency.get(id) || 0) + 1));
+  const topIds = top ? Object.values(top.artists).flat().map(a => { idToName.set(a.id, a.name); return a.id; }) : [];
+  const priority = [...new Set([...topIds, ...[...frequency.entries()].sort((a, b) => b[1] - a[1]).map(([id]) => id)])];
+  const tagNote = await fillGenresFromLastfm(artistGenres, idToName, priority, dryRun);
+  if (top) {
+    for (const range of TOP_RANGES) {
+      top.artists[range] = top.artists[range].map(a => ({ ...a, genres: a.genres.length ? a.genres : (artistGenres.get(a.id) || []) }));
+    }
+    if (!dryRun) writeTop(top);
+  }
+
   const existing = readExisting();
   if (!fs.existsSync(MUSIC_DIR) && !dryRun) fs.mkdirSync(MUSIC_DIR, { recursive: true });
 
@@ -382,7 +472,10 @@ export async function syncSpotify({ dryRun = false } = {}) {
   }
 
   const playlistSources = [
-    ...playlists.map(p => ({ id: p.id, title: p.name, cover: p.images?.[0]?.url, tracks: playlistTracks.get(p.id) || [] })),
+    // Empty playlists (or ones holding only podcast episodes / local files) are not worth a shelf entry.
+    ...playlists
+      .map(p => ({ id: p.id, title: p.name, cover: p.images?.[0]?.url, tracks: playlistTracks.get(p.id) || [] }))
+      .filter(p => p.tracks.length > 0),
     ...(liked.length ? [{ id: LIKED_ID, title: 'Bài hát đã thích', cover: undefined, tracks: liked }] : []),
   ];
   for (const source of playlistSources) {
@@ -409,16 +502,6 @@ export async function syncSpotify({ dryRun = false } = {}) {
     });
   }
 
-  // Top tracks / artists for 4 weeks, 6 months and ~12 months (needs user-top-read).
-  let topNote = '';
-  try {
-    const top = await fetchTop(token);
-    if (!dryRun) writeTop(top);
-    topNote = `, top: ${top.tracks.long_term.length} tracks / ${top.artists.long_term.length} artists`;
-  } catch (err) {
-    topNote = ` (top skipped: ${err.message.includes('403') ? 're-run npm run spotify-auth to grant top access' : err.message})`;
-  }
-
   // Tracklists live in a data file so the markdown body stays free for your own notes.
   const tracksJson = `${JSON.stringify(tracklists, null, 2)}\n`;
   const tracksBefore = fs.existsSync(TRACKS_FILE) ? fs.readFileSync(TRACKS_FILE, 'utf-8') : '';
@@ -427,7 +510,7 @@ export async function syncSpotify({ dryRun = false } = {}) {
   return {
     name,
     success: true,
-    message: `${saved.length} saved albums + ${playlistSources.length} playlists — ${stats.created} new, ${stats.updated} updated, ${stats.unchanged} unchanged, recent: ${recent.albums.size} albums / ${recent.playlists.size} playlists${topNote}${playlistNote}${dryRun ? ' (dry run)' : ''}`,
+    message: `${saved.length} saved albums + ${playlistSources.length} playlists — ${stats.created} new, ${stats.updated} updated, ${stats.unchanged} unchanged, recent: ${recent.albums.size} albums / ${recent.playlists.size} playlists${topNote}${tagNote}${playlistNote}${dryRun ? ' (dry run)' : ''}`,
   };
 }
 

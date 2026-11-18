@@ -1,0 +1,832 @@
+{
+  "updated": "2026-11-18",
+  "tracks": {
+    "short_term": [],
+    "medium_term": [],
+    "long_term": [
+      {
+        "id": "0oLdpAqSgmSyqzXJo4XHig",
+        "name": "Ôm Em Thật Lâu",
+        "artists": "MONO",
+        "album": "Ôm Em Thật Lâu",
+        "cover": "https://i.scdn.co/image/ab67616d000048514a7655026a9e80a95afba515"
+      },
+      {
+        "id": "2pUpNOgJBIBCcjyQZQ00qU",
+        "name": "Let Her Go",
+        "artists": "Passenger",
+        "album": "All the Little Lights (Deluxe)",
+        "cover": "https://i.scdn.co/image/ab67616d00004851eb0b18cce8b7f5c9fc1579e7"
+      },
+      {
+        "id": "5XfGQZA0ioQAWUjlyJRcHc",
+        "name": "1000 Ánh Mắt",
+        "artists": "Shiki, Obito",
+        "album": "Lặng",
+        "cover": "https://i.scdn.co/image/ab67616d000048511e83512092226ebe38fee806"
+      },
+      {
+        "id": "2FnXZhpEKgIab8vI6t2C7e",
+        "name": "Perfect",
+        "artists": "Shiki, Tyronee",
+        "album": "Lặng",
+        "cover": "https://i.scdn.co/image/ab67616d000048511e83512092226ebe38fee806"
+      },
+      {
+        "id": "2Pwou3Q2Cf59RxdX2V6MgV",
+        "name": "Có Đôi Điều",
+        "artists": "Shiki",
+        "album": "Lặng",
+        "cover": "https://i.scdn.co/image/ab67616d000048511e83512092226ebe38fee806"
+      },
+      {
+        "id": "3DLtPObflLQBodZN8qGODT",
+        "name": "2AM",
+        "artists": "JustaTee, BigDaddy",
+        "album": "2AM",
+        "cover": "https://i.scdn.co/image/ab67616d000048510b97a73cab024885e9819a9e"
+      },
+      {
+        "id": "2plbrEY59IikOBgBGLjaoe",
+        "name": "Die With A Smile",
+        "artists": "Lady Gaga, Bruno Mars",
+        "album": "Die With A Smile",
+        "cover": "https://i.scdn.co/image/ab67616d0000485182ea2e9e1858aa012c57cd45"
+      },
+      {
+        "id": "7sWWuJiAGOS87FqR1X10da",
+        "name": "Ai Bình Yên Hơn Ai Đậm Sâu Hơn",
+        "artists": "Dương Yến Phi, NH4T",
+        "album": "Ai Bình Yên Hơn Ai Đậm Sâu Hơn",
+        "cover": "https://i.scdn.co/image/ab67616d00004851783f4717288a89b522bcc4a6"
+      },
+      {
+        "id": "1FXrYwvWwjmbw8cqFC1OWz",
+        "name": "Kokoronashi",
+        "artists": "majiko",
+        "album": "Contrast",
+        "cover": "https://i.scdn.co/image/ab67616d00004851f672cfe50a513713ea7cdc85"
+      },
+      {
+        "id": "6E3P4uOfKHYXJLK6Q3s0Tj",
+        "name": "Cơn Mưa Cuối",
+        "artists": "JustaTee, Binz",
+        "album": "Cơn Mưa Cuối",
+        "cover": "https://i.scdn.co/image/ab67616d0000485122612841829252b1f3018c2e"
+      },
+      {
+        "id": "4LOLvDtzykDC7y9WehFoOi",
+        "name": "Blue",
+        "artists": "BIGBANG",
+        "album": "ALIVE",
+        "cover": "https://i.scdn.co/image/ab67616d00004851dd2c0e8a5d4b0c1e227e4c7b"
+      },
+      {
+        "id": "1UQNU5O9VttUgO16pxUnjw",
+        "name": "Đánh Đổi",
+        "artists": "Obito, Shiki, RPT MCK",
+        "album": "Đánh Đổi",
+        "cover": "https://i.scdn.co/image/ab67616d00004851504ea82d1a67479a9a453d94"
+      },
+      {
+        "id": "1DkYLzjwHaesQYObT2c3X2",
+        "name": "Nhật Ký Vào Đời",
+        "artists": "Karik, Thai VG",
+        "album": "Nhật Ký Vào Đời",
+        "cover": "https://i.scdn.co/image/ab67616d00004851df6ca08cb377126021b0aea1"
+      },
+      {
+        "id": "2Asy51yFMEG8Qjh15kvQeD",
+        "name": "Tell the kids i love them",
+        "artists": "Obito, Shiki",
+        "album": "Đánh Đổi",
+        "cover": "https://i.scdn.co/image/ab67616d00004851504ea82d1a67479a9a453d94"
+      },
+      {
+        "id": "5SlU0Yhi51jobhEiGE4xDv",
+        "name": "2 soon",
+        "artists": "keshi",
+        "album": "2 soon",
+        "cover": "https://i.scdn.co/image/ab67616d00004851d2cd2645f470f8eb4f10f81a"
+      },
+      {
+        "id": "2prqm9sPLj10B4Wg0wE5x9",
+        "name": "BLUE",
+        "artists": "Billie Eilish",
+        "album": "HIT ME HARD AND SOFT",
+        "cover": "https://i.scdn.co/image/ab67616d0000485171d62ea7ea8a5be92d3c1f62"
+      },
+      {
+        "id": "5byXSKd7QOHtVMOiptklBD",
+        "name": "i swear i'll never leave again",
+        "artists": "keshi",
+        "album": "THE REAPER",
+        "cover": "https://i.scdn.co/image/ab67616d0000485194237be74edae41560152bce"
+      },
+      {
+        "id": "3uT8QfoX0BE8ZJa4h98LDW",
+        "name": "Wrong Times",
+        "artists": "YoungPuppy, Dangrangto",
+        "album": "Wrong Times",
+        "cover": "https://i.scdn.co/image/ab67616d0000485143076111d560c6aec19bac01"
+      },
+      {
+        "id": "2OSjnBrQQ0CNKxIUM2GQDk",
+        "name": "Crying Over You",
+        "artists": "JustaTee, Binz",
+        "album": "Crying Over You",
+        "cover": "https://i.scdn.co/image/ab67616d00004851db1199187153d1204e01c69c"
+      },
+      {
+        "id": "2gaAcgDNzxHMgYO5SmsY0I",
+        "name": "Bâng Khuâng",
+        "artists": "JustaTee",
+        "album": "Bâng Khuâng",
+        "cover": "https://i.scdn.co/image/ab67616d00004851fcd538539e39030a4b00f37a"
+      },
+      {
+        "id": "1DVYafsLmcQySKkJnY4RCs",
+        "name": "Phép Màu - Đàn Cá Gỗ Original Soundtrack",
+        "artists": "MAYDAYs, Minh Tốc & Lam",
+        "album": "Phép Màu (Đàn Cá Gỗ Original Soundtrack)",
+        "cover": "https://i.scdn.co/image/ab67616d00004851c51258e41841d5b0365054e7"
+      },
+      {
+        "id": "4fZHVmpGa544vRyGSUxdva",
+        "name": "Anh Thôi Nhân Nhượng - Cover",
+        "artists": "Kiều Chi",
+        "album": "Anh Thôi Nhân Nhượng (Cover)",
+        "cover": "https://i.scdn.co/image/ab67616d000048512c3dc3539e1ab5994b1d06b6"
+      },
+      {
+        "id": "136jDOrhFYuEzm1MPnX9C3",
+        "name": "người và ta",
+        "artists": "rinn",
+        "album": "người và ta",
+        "cover": "https://i.scdn.co/image/ab67616d0000485194a5ba8fa5a670c671702381"
+      },
+      {
+        "id": "0NyrI1tMvqcK3vU5z9DMdI",
+        "name": "She Neva Knows",
+        "artists": "JustaTee",
+        "album": "She Neva Knows",
+        "cover": "https://i.scdn.co/image/ab67616d000048513ecc6ca902daf3617c75d336"
+      },
+      {
+        "id": "0JBBsuv6YHi37NqzCNfr0d",
+        "name": "SỰ NGHIỆP CHƯỚNG",
+        "artists": "Pháo",
+        "album": "SỰ NGHIỆP CHƯỚNG",
+        "cover": "https://i.scdn.co/image/ab67616d000048517ba530da5d76ba5b4f499f71"
+      },
+      {
+        "id": "5PGh9MyKry8slG5AfvD1eD",
+        "name": "Hà Nội",
+        "artists": "Obito, Shiki, VSTRA",
+        "album": "Đánh Đổi",
+        "cover": "https://i.scdn.co/image/ab67616d00004851504ea82d1a67479a9a453d94"
+      },
+      {
+        "id": "0kHgteR4TV4LO80wrasDSR",
+        "name": "Bạn Đời",
+        "artists": "Karik, GDucky",
+        "album": "Bạn Đời",
+        "cover": "https://i.scdn.co/image/ab67616d00004851f3ba65a5defc3ef10b0f7af2"
+      },
+      {
+        "id": "4r12MbGoZQBt6SQpFyFXq8",
+        "name": "ƯỚC ANH TAN NÁT CON TIM",
+        "artists": "Phùng Khánh Linh",
+        "album": "ƯỚC ANH TAN NÁT CON TIM",
+        "cover": "https://i.scdn.co/image/ab67616d00004851a5650d3d5848f7598fd8c337"
+      },
+      {
+        "id": "6bM48GdfsNKKWpt792lsMX",
+        "name": "Nợ Nhau Một Lời",
+        "artists": "Phúc Chinh",
+        "album": "Nợ Nhau Một Lời",
+        "cover": "https://i.scdn.co/image/ab67616d000048515bc564f7e741621c1b700d8d"
+      },
+      {
+        "id": "51zMAmp7cqlPw8nx0gsNaP",
+        "name": "Hứa Đợi Nhưng Chẳng Tới",
+        "artists": "Lâm Tuấn, Vương Thiên Tuấn",
+        "album": "Hứa Đợi Nhưng Chẳng Tới",
+        "cover": "https://i.scdn.co/image/ab67616d00004851de1b75098b4698e130d6e4ed"
+      },
+      {
+        "id": "3vIkVVbhpMvsOJ1BKWT0nT",
+        "name": "TAKE ME",
+        "artists": "G-DRAGON",
+        "album": "Übermensch",
+        "cover": "https://i.scdn.co/image/ab67616d00004851e1b8e368ceafe1117e846859"
+      },
+      {
+        "id": "4fgxryw2StsQ6BCZj5cOZk",
+        "name": "Trả Cho Anh - Remix",
+        "artists": "H2O Remix, Nguyễn Thạc Bảo Ngọc, QKhanh",
+        "album": "Trả Cho Anh (Remix)",
+        "cover": "https://i.scdn.co/image/ab67616d000048517d06f61c077bacd3ac2bb735"
+      },
+      {
+        "id": "4q30531SajMH1tkJ92p0Ua",
+        "name": "Lặng",
+        "artists": "Shiki",
+        "album": "Lặng",
+        "cover": "https://i.scdn.co/image/ab67616d000048511e83512092226ebe38fee806"
+      },
+      {
+        "id": "3NucJjHqyGNzSzMfsOUsYH",
+        "name": "Nên Chờ Hay Nên Quên",
+        "artists": "Chu Thúy Quỳnh",
+        "album": "Nên Chờ Hay Nên Quên",
+        "cover": "https://i.scdn.co/image/ab67616d0000485188fd2d4b5944f8a29f4bf8f3"
+      },
+      {
+        "id": "4jXXUVMCdIkAOFOkRfaljV",
+        "name": "Anh Vẫn Đợi",
+        "artists": "Shiki",
+        "album": "Lặng",
+        "cover": "https://i.scdn.co/image/ab67616d000048511e83512092226ebe38fee806"
+      },
+      {
+        "id": "5RMEGyua7W8k0jJ9lzVnuy",
+        "name": "Yêu Phải Như Vậy",
+        "artists": "Noo Phước Thịnh, Làn Sóng Xanh, Châu Đăng Khoa",
+        "album": "Yêu Phải Như Vậy",
+        "cover": "https://i.scdn.co/image/ab67616d0000485131683c114044dae9e1302adf"
+      },
+      {
+        "id": "5crFSet0WflVyzRs8P0J4I",
+        "name": "Night Time",
+        "artists": "Shiki",
+        "album": "Lặng",
+        "cover": "https://i.scdn.co/image/ab67616d000048511e83512092226ebe38fee806"
+      },
+      {
+        "id": "3xJZJWzWtG6z3tSh1kIvYR",
+        "name": "Take Off Your Hands",
+        "artists": "Shiki, Obito",
+        "album": "Lặng",
+        "cover": "https://i.scdn.co/image/ab67616d000048511e83512092226ebe38fee806"
+      },
+      {
+        "id": "4z8ssgZfs5TzKiO8HaGWXO",
+        "name": "E.T.",
+        "artists": "Katy Perry",
+        "album": "Teenage Dream: The Complete Confection",
+        "cover": "https://i.scdn.co/image/ab67616d00004851937af329667311f4b2831616"
+      },
+      {
+        "id": "5ZFkQ67FtnmtWLVh2AkAhi",
+        "name": "ĐOÁ HỒNG CHƠI VƠI (feat. Anh Tú)",
+        "artists": "ANH TRAI \"SAY HI\", Anh Tú",
+        "album": "ANH TRAI \"SAY HI\", Chung Kết 1",
+        "cover": "https://i.scdn.co/image/ab67616d00004851b39ab04435a853e95c45504f"
+      },
+      {
+        "id": "2jxiixcy9zRfyqUs4OL72j",
+        "name": "Japanese Spring",
+        "artists": "Vindu",
+        "album": "Stories From Japan",
+        "cover": "https://i.scdn.co/image/ab67616d000048519e6ef8c779f0e669db8e85cc"
+      },
+      {
+        "id": "2GxPAMGvsITmJJiIwHG8yS",
+        "name": "Người Nào Đó",
+        "artists": "JustaTee",
+        "album": "Người Nào Đó",
+        "cover": "https://i.scdn.co/image/ab67616d000048516ade77370dee5a3ed1de677e"
+      },
+      {
+        "id": "7cD6wNs045H2DDhAr2HZGO",
+        "name": "Thời Gian Sẽ Trả Lời",
+        "artists": "JustaTee, Tiên Cookie, BigDaddy",
+        "album": "Thời Gian Sẽ Trả Lời",
+        "cover": "https://i.scdn.co/image/ab67616d00004851f897bc130ec954d17cd99a7a"
+      },
+      {
+        "id": "6Ha8RlNwCXyQRWQeocHjqq",
+        "name": "Vụt Tan",
+        "artists": "SOOBIN, JustaTee",
+        "album": "Vụt Tan",
+        "cover": "https://i.scdn.co/image/ab67616d00004851b7826a757394f1632450d249"
+      },
+      {
+        "id": "7mykoq6R3BArsSpNDjFQTm",
+        "name": "I Really Want to Stay at Your House",
+        "artists": "Rosa Walton, Hallie Coggins",
+        "album": "Cyberpunk 2077: Radio, Vol. 2 (Original Soundtrack)",
+        "cover": "https://i.scdn.co/image/ab67616d00004851a91a5b301baac1f46e6f30eb"
+      },
+      {
+        "id": "27Z9T0mSWHYWSj9SNOGvyt",
+        "name": "Thằng Điên",
+        "artists": "JustaTee, Phương Ly",
+        "album": "Thằng Điên",
+        "cover": "https://i.scdn.co/image/ab67616d0000485102dc41ad81138aa3c53d2b98"
+      },
+      {
+        "id": "4L2xuczFpbb7cjXebOBNkt",
+        "name": "Bắc Bling (Bắc Ninh) (Prod. by Masew)",
+        "artists": "Hoà Minzy, NSUT Xuân Hinh, Tuấn Cry",
+        "album": "Bắc Bling (Bắc Ninh)",
+        "cover": "https://i.scdn.co/image/ab67616d0000485193a3afb26b889de97b001a98"
+      },
+      {
+        "id": "4Qq7GYOGFWYev1hcnRF1lG",
+        "name": "Em không lẻ loi",
+        "artists": "JustaTee",
+        "album": "Em không lẻ loi",
+        "cover": "https://i.scdn.co/image/ab67616d000048518dcd3ef3f9155d4f58ba19e0"
+      },
+      {
+        "id": "7H8QQu5KgRyaUJ1OjEUqwr",
+        "name": "Lỡ Một Mai Tôi Quên Tên Người",
+        "artists": "Khiem",
+        "album": "Lỡ Một Mai Tôi Quên Tên Người",
+        "cover": "https://i.scdn.co/image/ab67616d000048510dc624e902776b428c9bd071"
+      },
+      {
+        "id": "5U30iZBlmxkpHqzb1OSnBS",
+        "name": "Yêu 5",
+        "artists": "Rhymastic",
+        "album": "Yêu 5",
+        "cover": "https://i.scdn.co/image/ab67616d00004851d085c32d050bc832a8075ce6"
+      }
+    ]
+  },
+  "artists": {
+    "short_term": [],
+    "medium_term": [],
+    "long_term": [
+      {
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
+        "image": "https://i.scdn.co/image/ab6761610000517412184bdd29403de54cb9d9c7",
+        "genres": [
+          "country",
+          "pop",
+          "acoustic"
+        ]
+      },
+      {
+        "id": "3rjcQ5VIWCN4q7UFetzdeO",
+        "name": "JustaTee",
+        "image": "https://i.scdn.co/image/ab6761610000517432ef88cff38b5ff46fa0004a",
+        "genres": [
+          "pop",
+          "vietnamese",
+          "r&b"
+        ]
+      },
+      {
+        "id": "0ZbgKh0FgPYeFP38nVaEGp",
+        "name": "Obito",
+        "image": "https://i.scdn.co/image/ab676161000051741e5be0003167776bef2fc911",
+        "genres": [
+          "rap",
+          "hip-hop",
+          "vietnamese"
+        ]
+      },
+      {
+        "id": "5dfZ5uSmzR7VQK0udbAVpf",
+        "name": "Sơn Tùng M-TP",
+        "image": "https://i.scdn.co/image/ab676161000051748885185d1e914c51c15c3a13",
+        "genres": [
+          "vietnamese",
+          "pop",
+          "v-pop"
+        ]
+      },
+      {
+        "id": "15UsOTVnJzReFVN1VCnxy4",
+        "name": "XXXTENTACION",
+        "image": "https://i.scdn.co/image/ab67616100005174f0c20db5ef6c6fbe5135d2e4",
+        "genres": [
+          "hip-hop",
+          "rap",
+          "cloud rap"
+        ]
+      },
+      {
+        "id": "2Bwp23pD4UVsSkchHDZw4F",
+        "name": "Karik",
+        "image": "https://i.scdn.co/image/ab676161000051742ef6756afdf74f9b7e3a1861",
+        "genres": [
+          "vietnamese",
+          "rap"
+        ]
+      },
+      {
+        "id": "3hRnvEdu1iPyB6EzMBbuZq",
+        "name": "Shiki",
+        "image": "https://i.scdn.co/image/ab6761610000517471581ba96c0dfa03f23beeb9",
+        "genres": [
+          "trance",
+          "japanese",
+          "electronic"
+        ]
+      },
+      {
+        "id": "4wZ6awunqaaVLl5j0WpDFu",
+        "name": "ANH TRAI \"SAY HI\"",
+        "image": "https://i.scdn.co/image/ab676161000051746f1640bbb255a2921955ec7f",
+        "genres": []
+      },
+      {
+        "id": "1dwfi5uS5pfQMhAic73Q7L",
+        "name": "The Masked Singer",
+        "image": "https://i.scdn.co/image/ab676161000051747438c02cbeee407d99b4db43",
+        "genres": []
+      },
+      {
+        "id": "3mibIJiduF0MVLLAvHZAxw",
+        "name": "Noo Phước Thịnh",
+        "image": "https://i.scdn.co/image/ab676161000051743b16d0a6d1fdf9d4ef9503fd",
+        "genres": [
+          "v-pop",
+          "pop",
+          "vietnamese"
+        ]
+      },
+      {
+        "id": "1cPpd989kghzlZqfpP4KwL",
+        "name": "RAP VIỆT",
+        "image": "https://i.scdn.co/image/ab676161000051749d2bdcb58736ac5fbd385d11",
+        "genres": []
+      },
+      {
+        "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+        "name": "Billie Eilish",
+        "image": "https://i.scdn.co/image/ab676161000051744a21b4760d2ecb7b0dcdc8da",
+        "genres": [
+          "pop",
+          "indie pop",
+          "electropop"
+        ]
+      },
+      {
+        "id": "1uNFoZAHBGtllmzznpCI3s",
+        "name": "Justin Bieber",
+        "image": "https://i.scdn.co/image/ab67616100005174af20f7db5288bce9beede034",
+        "genres": [
+          "pop",
+          "black metal",
+          "r&b"
+        ]
+      },
+      {
+        "id": "0aNyWetkjBvIdZvJY00yEa",
+        "name": "Phan Mạnh Quỳnh",
+        "image": "https://i.scdn.co/image/ab6761610000517490e8f2fa6b253ae181e8daf4",
+        "genres": [
+          "vietnamese",
+          "vietnamese artist"
+        ]
+      },
+      {
+        "id": "6TITnFVRcl0AcZ4syE7Toe",
+        "name": "Low G",
+        "image": "https://i.scdn.co/image/ab67616100005174458922055cf6250e3b6df382",
+        "genres": [
+          "rap",
+          "vietnamese",
+          "chicano rap"
+        ]
+      },
+      {
+        "id": "6eUKZXaKkcviH0Ku9w2n3V",
+        "name": "Ed Sheeran",
+        "image": "https://i.scdn.co/image/ab67616100005174d55c95ad400aed87da52daec",
+        "genres": [
+          "acoustic",
+          "british",
+          "pop"
+        ]
+      },
+      {
+        "id": "7jVv8c5Fj3E9VhNjxT4snq",
+        "name": "Lil Nas X",
+        "image": "https://i.scdn.co/image/ab676161000051741fef0cc0f10539ed9b35d50d",
+        "genres": [
+          "hip-hop",
+          "rap",
+          "country rap"
+        ]
+      },
+      {
+        "id": "0KYOBAf6Zky4CFQne2JPTX",
+        "name": "Hiko",
+        "image": "https://i.scdn.co/image/ab67616100005174c2810f2ef87db01aca5375eb",
+        "genres": [
+          "chillout",
+          "r&b",
+          "k-pop"
+        ]
+      },
+      {
+        "id": "57g2v7gJZepcwsuwssIfZs",
+        "name": "Vũ.",
+        "image": "https://i.scdn.co/image/ab676161000051742d7150aa7e90e9a85610ab3d",
+        "genres": [
+          "vietnamese",
+          "indie",
+          "v-pop"
+        ]
+      },
+      {
+        "id": "3MZsBdqDrRTJihTHQrO6Dq",
+        "name": "Joji",
+        "image": "https://i.scdn.co/image/ab67616100005174b6d7836808e8b99fc8c7aadc",
+        "genres": [
+          "r&b",
+          "lo-fi",
+          "hip-hop"
+        ]
+      },
+      {
+        "id": "04gDigrS5kc9YWfZHwBETP",
+        "name": "Maroon 5",
+        "image": "https://i.scdn.co/image/ab67616100005174f8349dfb619a7f842242de77",
+        "genres": [
+          "pop rock",
+          "rock",
+          "pop"
+        ]
+      },
+      {
+        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+        "name": "Ariana Grande",
+        "image": "https://i.scdn.co/image/ab6761610000517468412f2d0177a9ebc265ff58",
+        "genres": [
+          "pop",
+          "r&b"
+        ]
+      },
+      {
+        "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+        "name": "The Weeknd",
+        "image": "https://i.scdn.co/image/ab67616100005174c1719ac9e6a75c1c25835018",
+        "genres": [
+          "r&b",
+          "electronic",
+          "dubstep"
+        ]
+      },
+      {
+        "id": "00FQb4jTyendYWaN8pK0wa",
+        "name": "Lana Del Rey",
+        "image": "https://i.scdn.co/image/ab67616100005174b99cacf8acd5378206767261",
+        "genres": [
+          "indie",
+          "indie pop",
+          "pop"
+        ]
+      },
+      {
+        "id": "6NF9Oa4ThQWCj6mogFSrVD",
+        "name": "W/N",
+        "image": "https://i.scdn.co/image/ab67616100005174316c0f0bc6cf3a29c203ab1e",
+        "genres": []
+      },
+      {
+        "id": "7dGJo4pcD2V6oG8kP0tJRR",
+        "name": "Eminem",
+        "image": "https://i.scdn.co/image/ab67616100005174a00b11c129b27a88fc72f36b",
+        "genres": [
+          "rap",
+          "hip-hop"
+        ]
+      },
+      {
+        "id": "0dBcEvEklr1jx4uZuhFX5e",
+        "name": "Ronboogz",
+        "image": "https://i.scdn.co/image/ab676161000051748de0c8ed480aabd579520b48",
+        "genres": [
+          "vietnamese"
+        ]
+      },
+      {
+        "id": "7n2wHs1TKAczGzO7Dd2rGr",
+        "name": "Shawn Mendes",
+        "image": "https://i.scdn.co/image/ab6761610000517458b4b9419486550f6fda0535",
+        "genres": [
+          "pop",
+          "canadian",
+          "folk"
+        ]
+      },
+      {
+        "id": "5HZtdKfC4xU0wvhEyYDWiY",
+        "name": "HIEUTHUHAI",
+        "image": "https://i.scdn.co/image/ab67616100005174f39f3b8365b39fd757b442d7",
+        "genres": [
+          "rap",
+          "vietnamese",
+          "hip-hop"
+        ]
+      },
+      {
+        "id": "64tJ2EAv1R6UaZqc4iOCyj",
+        "name": "YOASOBI",
+        "image": "https://i.scdn.co/image/ab67616100005174192be4e9b455c2d5dd5dfe09",
+        "genres": [
+          "j-pop",
+          "japanese"
+        ]
+      },
+      {
+        "id": "0du5cEVh5yTK9QJze8zA0C",
+        "name": "Bruno Mars",
+        "image": "https://i.scdn.co/image/ab67616100005174c7688aad1bf03986934d7e26",
+        "genres": [
+          "pop",
+          "r&b"
+        ]
+      },
+      {
+        "id": "1WvNgEoB66jmHodcj15Zi9",
+        "name": "B Ray",
+        "image": "https://i.scdn.co/image/ab6761610000517469b0142434aee6cd70a581bc",
+        "genres": [
+          "vietnamese"
+        ]
+      },
+      {
+        "id": "23Gbd21nBxC1kCtcG2Cd0C",
+        "name": "Phùng Khánh Linh",
+        "image": "https://i.scdn.co/image/ab676161000051743d72fd994882153be8113e7d",
+        "genres": [
+          "v-pop",
+          "pop",
+          "vietnamese"
+        ]
+      },
+      {
+        "id": "6jJ0s89eD6GaHleKKya26X",
+        "name": "Katy Perry",
+        "image": "https://i.scdn.co/image/ab67616100005174cd50e745cf782f905769f482",
+        "genres": [
+          "pop",
+          "pop rock",
+          "indie"
+        ]
+      },
+      {
+        "id": "0gGd4WhPXBSgDX6fdOHcOw",
+        "name": "Rhymastic",
+        "image": "https://i.scdn.co/image/ab67616100005174925504351e48c2dbdcad135f",
+        "genres": [
+          "rap",
+          "hip-hop",
+          "vietnamese"
+        ]
+      },
+      {
+        "id": "3diftVOq7aEIebXKkC34oR",
+        "name": "tlinh",
+        "image": "https://i.scdn.co/image/ab676161000051743f3659a64575e284a149d226",
+        "genres": [
+          "r&b",
+          "rap",
+          "hip-hop"
+        ]
+      },
+      {
+        "id": "3E6LGptA8lBEXPHAQCE3vr",
+        "name": "Kai Đinh",
+        "image": "https://i.scdn.co/image/ab676161000051742294463c85487b93510b854c",
+        "genres": [
+          "pop",
+          "vietnamese"
+        ]
+      },
+      {
+        "id": "1LEtM3AleYg1xabW6CRkpi",
+        "name": "Đen",
+        "image": "https://i.scdn.co/image/ab6761610000517491d2d39877c13427a2651af5",
+        "genres": [
+          "rap",
+          "vietnamese"
+        ]
+      },
+      {
+        "id": "4Kxlr1PRlDKEB0ekOCyHgX",
+        "name": "BIGBANG",
+        "image": "https://i.scdn.co/image/ab6761610000517441f3b91c5c5bf6651da98956",
+        "genres": [
+          "k-pop",
+          "big bang",
+          "korean"
+        ]
+      },
+      {
+        "id": "5M3ffmRiOX9Q8Y4jNeR5wu",
+        "name": "Wren Evans",
+        "image": "https://i.scdn.co/image/ab676161000051741b4acb7ae624c86677a7ca44",
+        "genres": [
+          "vietnamese",
+          "r&b",
+          "pop"
+        ]
+      },
+      {
+        "id": "1Jmkhzve9TuXHUUWGmpANw",
+        "name": "Wxrdie",
+        "image": "https://i.scdn.co/image/ab67616100005174f7ac790a43867c10ef8a7d29",
+        "genres": [
+          "rap",
+          "hip-hop",
+          "drill"
+        ]
+      },
+      {
+        "id": "6VuMaDnrHyPL1p4EHjYLi7",
+        "name": "Charlie Puth",
+        "image": "https://i.scdn.co/image/ab676161000051746721f541fb123145d4cb3ace",
+        "genres": [
+          "pop",
+          "r&b",
+          "soul"
+        ]
+      },
+      {
+        "id": "0zo8kCJVktn7oPnzpkbC2p",
+        "name": "14 Casper",
+        "image": "https://i.scdn.co/image/ab67616100005174b10b054b00f811b74f02c41d",
+        "genres": []
+      },
+      {
+        "id": "3pc0bOVB5whxmD50W79wwO",
+        "name": "keshi",
+        "image": "https://i.scdn.co/image/ab676161000051742580b1c46bf383b2851bbd47",
+        "genres": [
+          "lo-fi",
+          "r&b",
+          "live"
+        ]
+      },
+      {
+        "id": "4AK6F7OLvEQ5QYCBNiQWHq",
+        "name": "One Direction",
+        "image": "https://i.scdn.co/image/45741ba38b51130bb96e00c0e24d17ba311a9293",
+        "genres": [
+          "pop",
+          "british",
+          "boyband"
+        ]
+      },
+      {
+        "id": "1McMsnEElThX1knmY4oliG",
+        "name": "Olivia Rodrigo",
+        "image": "https://i.scdn.co/image/ab67616100005174b14eb4dcfd2f3858bed06e44",
+        "genres": [
+          "pop",
+          "pop rock",
+          "rock"
+        ]
+      },
+      {
+        "id": "5jTFNkoZebPnX90CbB3F2A",
+        "name": "MONO",
+        "image": "https://i.scdn.co/image/ab67616100005174a0936954c350fe8e9aaf1add",
+        "genres": [
+          "post-rock",
+          "instrumental",
+          "ambient"
+        ]
+      },
+      {
+        "id": "3JWIaDWHJq11w1xPqJStEv",
+        "name": "Hustlang Robber",
+        "image": "https://i.scdn.co/image/ab6761610000517445af20cc2a9e69d0164be5aa",
+        "genres": [
+          "rap",
+          "hip-hop",
+          "trap"
+        ]
+      },
+      {
+        "id": "69GGBxA162lTqCwzJG5jLp",
+        "name": "The Chainsmokers",
+        "image": "https://i.scdn.co/image/ab676161000051744567279fac84a0375c3d819b",
+        "genres": [
+          "electronic",
+          "pop",
+          "house"
+        ]
+      },
+      {
+        "id": "7Cp2hGcriAaDUAWpXnSEwm",
+        "name": "buitruonglinh",
+        "image": "https://i.scdn.co/image/ab6761610000517447c2f0663c194a6534ef13b0",
+        "genres": [
+          "vietnamese",
+          "rap"
+        ]
+      }
+    ]
+  }
+}

@@ -14,7 +14,7 @@ const listenedCount = allMusic.filter(m => m.data.status === 'listened').length;
 const ostCount = allMusic.filter(m => m.data.kind === 'ost').length;
 const artistCount = new Set(allMusic.map(m => m.data.artist)).size;
 const base = import.meta.env.BASE_URL;
-const kindLabel = { album: 'Album', ep: 'EP', single: 'Single', ost: 'OST', compilation: 'Tuyển tập' } as const;
+const kindLabel = { album: 'Album', ep: 'EP', single: 'Single', ost: 'OST', compilation: 'Tuyển tập', playlist: 'Playlist' } as const;
 ---
 
 <BaseLayout title="Nhạc" description="Những album, EP và nhạc phim mình nghe" activeNav="music">
@@ -95,7 +95,7 @@ const kindLabel = { album: 'Album', ep: 'EP', single: 'Single', ost: 'OST', comp
           </select>
         </div>
         <p class="section-label" style="margin-top: 16px;">
-          Kệ nhạc — <span id="count">{allMusic.length}</span> album
+          Kệ nhạc — <span id="count">{allMusic.length}</span> mục
         </p>
       </section>
 

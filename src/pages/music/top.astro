@@ -35,6 +35,9 @@ const change = (rank: number, prev?: number | null) => {
   if (prev === rank) return { cls: 'same', text: '–' };
   return prev > rank ? { cls: 'up', text: `↑${prev - rank}` } : { cls: 'down', text: `↓${rank - prev}` };
 };
+// Open on the shortest range that has data (4 weeks / 6 months are empty after a quiet period).
+const startRange = ranges.find(r => (top?.tracks[r.key]?.length || 0) + (top?.artists[r.key]?.length || 0) > 0)?.key || 'short_term';
+const emptyNote = 'Spotify chưa có đủ lượt nghe trong khoảng này để xếp hạng.';
 const fmtDate = (iso?: string) => (iso ? new Date(iso).toLocaleDateString('vi-VN') : '');
 ---
 
@@ -56,7 +59,7 @@ const fmtDate = (iso?: string) => (iso ? new Date(iso).toLocaleDateString('vi-VN
       <p class="books-empty-desc">Dữ liệu sẽ có sau lần sync Spotify đầu tiên.</p>
     </section>
   ) : (
-    <section class="top-board" data-kind="tracks" data-range="short_term">
+    <section class="top-board" data-kind="tracks" data-range={startRange}>
       <div class="top-controls">
         <div class="top-tabs" role="tablist" aria-label="Loại">
           <button type="button" class="top-tab active" data-set-kind="tracks" role="tab" aria-selected="true">Bài hát</button>
@@ -65,7 +68,7 @@ const fmtDate = (iso?: string) => (iso ? new Date(iso).toLocaleDateString('vi-VN
         </div>
         <div class="top-ranges" role="tablist" aria-label="Khoảng thời gian">
           {ranges.map((range, i) => (
-            <button type="button" class={`top-range ${i === 0 ? 'active' : ''}`} data-set-range={range.key} role="tab" aria-selected={i === 0 ? 'true' : 'false'}>{range.label}</button>
+            <button type="button" class={`top-range ${range.key === startRange ? 'active' : ''}`} data-set-range={range.key} role="tab" aria-selected={range.key === startRange ? 'true' : 'false'}>{range.label}</button>
           ))}
         </div>
       </div>
@@ -73,6 +76,7 @@ const fmtDate = (iso?: string) => (iso ? new Date(iso).toLocaleDateString('vi-VN
       {ranges.map(range => (
         <>
           <ol class="top-tracks" data-panel="tracks" data-for={range.key}>
+            {(top.tracks[range.key] || []).length === 0 && <li class="top-genres-empty">{emptyNote}</li>}
             {(top.tracks[range.key] || []).map((track, i) => {
               const c = change(i + 1, track.prev);
               return (
@@ -92,6 +96,7 @@ const fmtDate = (iso?: string) => (iso ? new Date(iso).toLocaleDateString('vi-VN
           </ol>
 
           <ol class="top-artists" data-panel="artists" data-for={range.key}>
+            {(top.artists[range.key] || []).length === 0 && <li class="top-genres-empty top-empty-wide">{emptyNote}</li>}
             {(top.artists[range.key] || []).map((artist, i) => {
               const c = change(i + 1, artist.prev);
               return (
@@ -111,7 +116,7 @@ const fmtDate = (iso?: string) => (iso ? new Date(iso).toLocaleDateString('vi-VN
 
           <ul class="top-genres" data-panel="genres" data-for={range.key}>
             {genresFor(top.artists[range.key] || []).length === 0 ? (
-              <li class="top-genres-empty">Spotify không trả về thể loại cho các nghệ sĩ này.</li>
+              <li class="top-genres-empty">{(top.artists[range.key] || []).length ? 'Chưa có thể loại cho các nghệ sĩ này.' : emptyNote}</li>
             ) : genresFor(top.artists[range.key] || []).map((genre, i) => (
               <li class="top-genre">
                 <span class="top-genre-name">{i + 1}. {genre.name}</span>
@@ -246,7 +251,8 @@ const fmtDate = (iso?: string) => (iso ? new Date(iso).toLocaleDateString('vi-VN
   .top-genre-name { font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .top-genre-track { background: rgba(255, 255, 255, 0.05); border-radius: 999px; height: 10px; overflow: hidden; }
   .top-genre-track span { background: #1ED760; border-radius: 999px; display: block; height: 100%; }
-  .top-genres-empty { color: var(--text-muted); font-size: 14px; text-align: center; }
+  .top-genres-empty { color: var(--text-muted); font-size: 14px; padding: 24px 0; text-align: center; }
+  .top-empty-wide { grid-column: 1 / -1; }
 
   @media (max-width: 600px) {
     .top-artists { grid-template-columns: repeat(2, minmax(0, 1fr)); }

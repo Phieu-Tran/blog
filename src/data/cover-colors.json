@@ -3978,5 +3978,113 @@
  "games/xenoblade-chronicles-3": {
   "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ocq.jpg",
   "color": "#81b7da"
+ },
+ "music/a-love-for-taylor-swift": {
+  "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8433d4c4ea9cf43b21107fc49e",
+  "color": "#eb8370"
+ },
+ "music/bai-hat-da-thich": {
+  "cover": "https://i.scdn.co/image/ab67616d0000b273faa424e375adb00f3dbe2738",
+  "color": "#daa581"
+ },
+ "music/best-of-usuk": {
+  "cover": "https://mosaic.scdn.co/640/ab67616d00001e027636e1c9e67eaafc9f49aefdab67616d00001e029e2f95ae77cf436017ada9cbab67616d00001e02c6e0126da7f7476dd752b926ab67616d00001e02cb16227d90152c2a5022bba1",
+  "color": "#da9881"
+ },
+ "music/chill-bar": {
+  "cover": "https://mosaic.scdn.co/640/ab67616d00001e0234b5ce56463eef0bec0955c9ab67616d00001e029089b8f7822a55f2f3ec46caab67616d00001e02e4b40e365bb80afa50bf2291ab67616d00001e02e81fed8af71a99406f8da772",
+  "color": "#6c93ef"
+ },
+ "music/chill-v": {
+  "cover": "https://mosaic.scdn.co/640/ab67616d00001e020caf422deec798405434d83cab67616d00001e024671dcdda64b41c9d3531e6fab67616d00001e0286d87194f9ff78f4dddde035ab67616d00001e02b15be1d5c3c14f956e9479a2",
+  "color": "#927cdf"
+ },
+ "music/ckam-kam": {
+  "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da848f87ee5428a4a9d78c23ec31",
+  "color": null
+ },
+ "music/cuon": {
+  "cover": "https://mosaic.scdn.co/640/ab67616d00001e026ca5c90113b30c3c43ffb8f4ab67616d00001e02d38a9c6e4fcfeb128f111f6bab67616d00001e02d9bcf5565005950b353bc9cfab67616d00001e02f7db43292a6a99b21b51d5b4",
+  "color": "#da8d81"
+ },
+ "music/de-nghe": {
+  "cover": "https://mosaic.scdn.co/640/ab67616d00001e020b97a73cab024885e9819a9eab67616d00001e0222612841829252b1f3018c2eab67616d00001e02db1199187153d1204e01c69cab67616d00001e02fcd538539e39030a4b00f37a",
+  "color": "#79cde2"
+ },
+ "music/healing-playlist": {
+  "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a687b80fb3f51dccbbedc3af",
+  "color": "#da818f"
+ },
+ "music/hen-hat-cung": {
+  "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da840f345aeb29164e279f8b1c40",
+  "color": "#7fbadc"
+ },
+ "music/indie": {
+  "cover": "https://mosaic.scdn.co/640/ab67616d00001e024229702de91cb3d3a4383302ab67616d00001e0271d62ea7ea8a5be92d3c1f62ab67616d00001e02987466cc3363ea26094ca3c4ab67616d00001e02deade9f354749841f09feca2",
+  "color": "#da9181"
+ },
+ "music/jp-popular": {
+  "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84cfcc835de4498ccee1abb8f6",
+  "color": "#f16a8e"
+ },
+ "music/karaoke": {
+  "cover": "https://mosaic.scdn.co/640/ab67616d00001e020d0a89a612e1241ed8e7e326ab67616d00001e02731cbd8f9fd23ea1c647d01eab67616d00001e029f06d1a99b9a0635e5cb5f13ab67616d00001e02a09fb80b07fb17f8ab7b844a",
+  "color": "#daa081"
+ },
+ "music/karaoke-en-song": {
+  "cover": "https://i.scdn.co/image/ab67616d00001e025d199c9f6e6562aafa5aa357",
+  "color": "#8192da"
+ },
+ "music/karaoke-oz": {
+  "cover": "https://mosaic.scdn.co/640/ab67616d00001e0220e8e67aab2c9321058c262aab67616d00001e026bdc1240274a5f89bf6d2938ab67616d00001e02794744c57c9f35db88249842ab67616d00001e02c59c69e90fb8db63b9efc478",
+  "color": "#da818f"
+ },
+ "music/kpop": {
+  "cover": "https://mosaic.scdn.co/640/ab67616d00001e023dbdbd0023f1e1c08cd5a6c9ab67616d00001e0255ef3902e9215876105bb1e2ab67616d00001e02ac93d8b1bd84fa6b5291ba21ab67616d00001e02fd0d9a33127c1d3f58ba3504",
+  "color": "#f36b68"
+ },
+ "music/nay": {
+  "cover": "https://i.scdn.co/image/ab67616d00001e0285aebaa968350fe9fae0a1e2",
+  "color": "#da8a81"
+ },
+ "music/no-sign-of-weakness": {
+  "cover": "https://i.scdn.co/image/ab67616d0000b273b65dc01df8113649f354244e",
+  "color": "#da9381"
+ },
+ "music/no-sound-deep": {
+  "cover": "https://mosaic.scdn.co/640/ab67616d00001e0221e9acf486690aa5c4f63860ab67616d00001e024d5a49d56acb995c0325f859ab67616d00001e02859fa3aa3f251d70f34ee3beab67616d00001e02b852a616ae3a49a1f6b0f16e",
+  "color": "#799ee2"
+ },
+ "music/perfect": {
+  "cover": "https://mosaic.scdn.co/640/ab67616d00001e022b24d375b83af2cd46c6946cab67616d00001e02304f7051a18033cb3fd4524eab67616d00001e028e2436033be92c06e4afee32ab67616d00001e02f895701ff726ef3750766572",
+  "color": "#81c1da"
+ },
+ "music/playlist-for-the-future-cua-toi-nam-2024": {
+  "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845445a7b04a84bfdccc27cf9f",
+  "color": "#7969f2"
+ },
+ "music/rap-v": {
+  "cover": "https://mosaic.scdn.co/640/ab67616d00001e0234b72328780d96858ed2cc70ab67616d00001e02634964842309e8b33caa2b05ab67616d00001e02df6ca08cb377126021b0aea1ab67616d00001e02f3ba65a5defc3ef10b0f7af2",
+  "color": "#e69275"
+ },
+ "music/suy-rap": {
+  "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84db519b28e81e279390533b46",
+  "color": "#daa081"
+ },
+ "music/suy-xiu-luon": {
+  "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842718e8720adcd3ef2628c91c",
+  "color": "#8198da"
+ },
+ "music/viet-king": {
+  "cover": "https://mosaic.scdn.co/640/ab67616d00001e020121ea113166222d5c743e2eab67616d00001e022cd9649ea111a552283f0165ab67616d00001e023047c1ad9b273a23b6d9f036ab67616d00001e023403b37254ffacb7732e92da",
+  "color": "#dec27d"
+ },
+ "music/vietlish": {
+  "cover": "https://mosaic.scdn.co/640/ab67616d00001e0208c808810a37c9a04f88cca1ab67616d00001e021f24e7802fe66cb93779a44bab67616d00001e025436229d006af6580dfee6bcab67616d00001e02556e7b75fb148c696f99a709",
+  "color": "#ec756e"
+ },
+ "music/xuan": {
+  "cover": "https://i.scdn.co/image/ab67616d00001e025ebeecb1eba775b36aad9b2f",
+  "color": "#dfc17c"
  }
 }
