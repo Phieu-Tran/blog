@@ -20,6 +20,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { distinctTitle, tmdbAltTitles } from './alt-titles.mjs';
 import https from 'https';
 
 // ============================================
@@ -493,7 +494,7 @@ async function syncAnime() {
     const cover = item.anime_image_path ? item.anime_image_path.replace('/r/192x272', '').split('?')[0] : undefined;
 
     const data = {
-      title, mal_id: malId, rating: item.score || 0, mal_score: item.anime_score_val || 0,
+      title, original_title: distinctTitle(item.anime_title, title), mal_id: malId, rating: item.score || 0, mal_score: item.anime_score_val || 0,
       genre: genres, year: isNaN(year) ? new Date().getFullYear() : year, studio,
       status: statusMap[item.status] || 'plan',
       episodes_watched: item.num_watched_episodes || 0,
@@ -556,7 +557,7 @@ async function fetchRatedTmdbItems(tmdbType) {
 }
 
 async function fetchTmdbDetails(tmdbId, tmdbType) {
-  const url = `${tmdbEndpoint(tmdbType, tmdbId)}?api_key=${TMDB_API_KEY}&language=vi-VN&append_to_response=credits,external_ids`;
+  const url = `${tmdbEndpoint(tmdbType, tmdbId)}?api_key=${TMDB_API_KEY}&language=vi-VN&append_to_response=credits,external_ids,translations`;
   const res = await fetch(url);
   if (!res.ok) return null;
   return res.json();
@@ -636,6 +637,7 @@ async function syncFilms() {
     const slug = slugify(title) || `film-${tmdbType}-${tmdbId}`;
     const data = {
       title,
+      ...tmdbAltTitles(details, tmdbType, title),
       imdb_id: tmdbImdbId(details, tmdbType),
       tmdb_id: tmdbId,
       tmdb_type: tmdbType,

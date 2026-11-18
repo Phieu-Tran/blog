@@ -2,16 +2,17 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
-const [anime, games, films] = await Promise.all([
+const [anime, games, films, books] = await Promise.all([
   getCollection('anime'),
   getCollection('games'),
   getCollection('films'),
+  getCollection('books'),
 ]);
 const base = import.meta.env.BASE_URL;
 
 type Item = { rating: number; genre: string; year: number; community?: number };
 type Section = {
-  key: 'anime' | 'games' | 'films';
+  key: 'anime' | 'games' | 'films' | 'books';
   label: string;
   color: string;
   href: string;
@@ -31,6 +32,11 @@ const sections: Section[] = [
   {
     key: 'films', label: 'Films', color: 'var(--film-color)', href: `${base}films/`, communityLabel: 'IMDb',
     items: films.map(e => ({ rating: e.data.rating, genre: e.data.genre, year: e.data.year, community: e.data.imdb_score })),
+  },
+  {
+    key: 'books', label: 'Sách', color: 'var(--book-color)', href: `${base}books/`, communityLabel: 'Goodreads',
+    // Plan-to-read books have no score yet; they still count for genres and decades.
+    items: books.map(e => ({ rating: e.data.rating, genre: e.data.genre, year: e.data.year, community: e.data.goodreads_score ? e.data.goodreads_score * 2 : undefined })),
   },
 ];
 
@@ -89,6 +95,21 @@ const totalTitles = charts.reduce((sum, c) => sum + c.total, 0);
 const episodes = anime.reduce((sum, e) => sum + (e.data.episodes_watched || 0), 0);
 const hours = games.reduce((sum, e) => sum + (e.data.playtime_hours || 0), 0);
 const perfect = charts.reduce((sum, c) => sum + c.scores[9].count, 0);
+const booksRead = books.filter(e => e.data.status === 'read').length;
+
+// Books: authors read most, counted per finished-or-reading book
+const authorCounts = new Map<string, { count: number; ratings: number[] }>();
+books.filter(e => e.data.status !== 'plan').forEach(e => {
+  const row = authorCounts.get(e.data.author) || { count: 0, ratings: [] };
+  row.count++;
+  if (e.data.rating > 0) row.ratings.push(e.data.rating);
+  authorCounts.set(e.data.author, row);
+});
+const topAuthors = [...authorCounts.entries()]
+  .map(([name, row]) => ({ name, count: row.count, mean: average(row.ratings) }))
+  .sort((a, b) => b.count - a.count || b.mean - a.mean || a.name.localeCompare(b.name))
+  .slice(0, 8);
+const authorMax = Math.max(1, ...topAuthors.map(a => a.count));
 
 // Nice round top for the column axes
 const niceMax = (value: number) => {
@@ -99,10 +120,10 @@ const gapText = (gap: number) =>
   Math.abs(gap) < 0.05 ? 'ngang cộng đồng' : `${gap > 0 ? 'cao hơn' : 'thấp hơn'} cộng đồng ${fmt(Math.abs(gap), 1)} điểm`;
 ---
 
-<BaseLayout title="Thống kê" description="Thống kê cá nhân: phân bố điểm, thể loại và thập niên của anime, game, phim." activeNav="stats">
+<BaseLayout title="Thống kê" description="Thống kê cá nhân: phân bố điểm, thể loại và thập niên của anime, game, phim, sách." activeNav="stats">
   <header class="stats-head reveal">
     <p class="section-label">Thống kê cá nhân</p>
-    <h1>Mình xem gì, chơi gì, chấm thế nào</h1>
+    <h1>Mình xem gì, chơi gì, đọc gì, chấm thế nào</h1>
     <p class="stats-lede">Tổng hợp từ {fmt(totalTitles)} tựa trong kho, cập nhật sau mỗi lần sync.</p>
   </header>
 
@@ -118,6 +139,10 @@ const gapText = (gap: number) =>
     <div class="stat-tile">
       <p class="stat-tile-value">{fmt(Math.round(hours))}</p>
       <p class="stat-tile-label">Giờ chơi game</p>
+    </div>
+    <div class="stat-tile">
+      <p class="stat-tile-value">{fmt(booksRead)}</p>
+      <p class="stat-tile-label">Cuốn sách đã đọc</p>
     </div>
     <div class="stat-tile">
       <p class="stat-tile-value">{fmt(perfect)}</p>
@@ -195,6 +220,31 @@ const gapText = (gap: number) =>
     </div>
   </section>
 
+  {/* Books only: authors read most */}
+  {topAuthors.length > 0 && (
+    <section class="stats-block reveal">
+      <p class="section-label">Tác giả đọc nhiều nhất</p>
+      <hr class="section-divider" />
+      <figure class="chart-card authors-card" style="--series: var(--book-color)">
+        <figcaption>
+          <a href={`${base}books/`} class="chart-title"><span class="chart-swatch"></span>Sách</a>
+          <span class="chart-note">Số cuốn đã đọc hoặc đang đọc · điểm trung bình của mình</span>
+        </figcaption>
+        <ul class="hbars">
+          {topAuthors.map(author => (
+            <li>
+              <a href={`${base}books/?q=${encodeURIComponent(author.name)}`} class="hbar" data-tip={`${author.name}: ${fmt(author.count)} cuốn${author.mean ? `, trung bình ${fmt(author.mean, 1)} điểm` : ''}`}>
+                <span class="hbar-label">{author.name}</span>
+                <span class="hbar-track"><span class="hbar-fill" style={`width: ${(author.count / authorMax) * 100}%`}></span></span>
+                <span class="hbar-value">{fmt(author.count)}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </figure>
+    </section>
+  )}
+
   {/* Release decade */}
   <section class="stats-block reveal">
     <p class="section-label">Theo thập niên phát hành</p>
@@ -248,7 +298,7 @@ const gapText = (gap: number) =>
   .stat-tiles {
     display: grid;
     gap: 12px;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     margin-bottom: 36px;
   }
   .stat-tile {
@@ -270,8 +320,13 @@ const gapText = (gap: number) =>
   .chart-grid {
     display: grid;
     gap: 16px;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+  @media (min-width: 1280px) {
+    .chart-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  }
+  .authors-card { max-width: 640px; }
+  .authors-card .hbar { grid-template-columns: minmax(0, 150px) minmax(0, 1fr) 30px; }
   .chart-card {
     background: var(--glass-bg);
     border: 1px solid var(--glass-border);
@@ -421,5 +476,6 @@ const gapText = (gap: number) =>
   }
   @media (max-width: 600px) {
     .stat-tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .stat-tile:last-child { grid-column: 1 / -1; }
   }
 </style>

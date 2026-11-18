@@ -149,6 +149,7 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
   <script>
     type GlobalSearchItem = {
       title: string;
+      alt?: string[];
       type: 'anime' | 'game' | 'film' | 'book';
       url: string;
       rating: number;
@@ -215,8 +216,9 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
 
     function scoreSearchItem(item: GlobalSearchItem, query: string, tokens: string[]) {
       const title = normalizeSearchText(item.title);
+      const alts = (item.alt || []).map(normalizeSearchText);
       const genre = item.genre || '';
-      const haystack = normalizeSearchText(`${item.title} ${item.type} ${genre} ${item.year} ${item.status || ''}`);
+      const haystack = normalizeSearchText(`${item.title} ${(item.alt || []).join(' ')} ${item.type} ${genre} ${item.year} ${item.status || ''}`);
       if (tokens.length && !tokens.every(token => haystack.includes(token))) return -1;
 
       let score = Number(item.rating || 0);
@@ -224,6 +226,9 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
       if (title === query) score += 100;
       else if (title.startsWith(query)) score += 55;
       else if (title.includes(query)) score += 25;
+      else if (alts.some(alt => alt === query)) score += 90;
+      else if (alts.some(alt => alt.startsWith(query))) score += 50;
+      else if (alts.some(alt => alt.includes(query))) score += 22;
       if (normalizeSearchText(genre).includes(query)) score += 8;
       return score;
     }
@@ -257,6 +262,10 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
           ? `<img src="${escapeHtml(item.cover)}" alt="" loading="lazy" decoding="async" onerror="this.hidden=true" />`
           : '';
         const primaryGenre = String(item.genre || '').split(',')[0] || 'N/A';
+        // When the hit came from an alternate name, show it so the match is not a mystery.
+        const altHit = query && !normalizeSearchText(item.title).includes(query)
+          ? (item.alt || []).find(alt => normalizeSearchText(alt).includes(query))
+          : undefined;
         return `
           <a class="global-search-result" href="${escapeHtml(item.url)}">
             <span class="global-search-thumb">
@@ -265,7 +274,7 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
             </span>
             <span class="global-search-copy">
               <strong>${escapeHtml(item.title)}</strong>
-              <small>${escapeHtml(primaryGenre)} - ${escapeHtml(String(item.year || 'N/A'))}</small>
+              <small>${altHit ? `${escapeHtml(altHit)} · ` : ''}${escapeHtml(primaryGenre)} - ${escapeHtml(String(item.year || 'N/A'))}</small>
             </span>
             <span class="badge ${badgeClass}">${typeLabel(item.type)}</span>
             <span class="global-search-score">${escapeHtml(String(item.rating || 0))}</span>

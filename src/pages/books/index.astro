@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import MediaCard from '../../components/MediaCard.astro';
 import { getCollection } from 'astro:content';
+import { searchText } from '../../lib/altTitles';
 
 const allBooks = (await getCollection('books')).sort(
   (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
@@ -94,7 +95,8 @@ const base = import.meta.env.BASE_URL;
       <div class="media-grid" id="media-grid" data-filter-page="books">
         {allBooks.map((item, i) => (
           <div class="filter-item"
-            data-title={`${item.data.title} ${item.data.original_title || ''} ${item.data.author}`.toLowerCase()}
+            data-title={item.data.title.toLowerCase()}
+            data-search={searchText(item.data.title, item.data, item.data.author)}
             data-genre={item.data.genre.toLowerCase()}
             data-status={item.data.status}
             data-rating={item.data.rating}
@@ -153,7 +155,7 @@ const base = import.meta.env.BASE_URL;
         items.forEach(el => grid!.appendChild(el));
         let visible = 0;
         items.forEach(el => {
-          const ok = (!q || el.dataset.title!.includes(q)) &&
+          const ok = (!q || el.dataset.search!.includes(q)) &&
             (!g || el.dataset.genre!.includes(g)) &&
             (!s || el.dataset.status === s);
           el.style.display = ok ? '' : 'none';

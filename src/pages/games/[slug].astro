@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { altNames } from '../../lib/altTitles';
 import { detailShellStyle } from '../../lib/coverColors';
 import { getCollection, render } from 'astro:content';
 import { postMatchesMedia } from '../../lib/mediaRelations';
@@ -91,8 +92,10 @@ const externalLinks = [
   official_url && official_url !== steamStoreUrl && { label: 'Official', href: official_url, className: 'external-link official-link' },
 ].filter(Boolean) as Array<{ label: string; href: string; className: string }>;
 
+const akaNames = altNames(entry.data);
 const metaItems = [
   { label: 'Developer', value: studio },
+  akaNames.length > 0 && { label: 'Also known as', value: akaNames.join(' · ') },
   publisher && { label: 'Publisher', value: publisher },
   director && { label: 'Director', value: director },
   creator && { label: 'Creator', value: creator },

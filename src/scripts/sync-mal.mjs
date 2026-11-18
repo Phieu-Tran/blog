@@ -11,6 +11,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { distinctTitle } from './alt-titles.mjs';
 import https from 'https';
 
 const ANIME_DIR = path.resolve('src/content/anime');
@@ -163,6 +164,7 @@ async function main() {
 
     const frontmatterData = {
       title,
+      original_title: distinctTitle(item.anime_title, title),
       mal_id: malId,
       rating: item.score || 0,
       mal_score: item.anime_score_val || 0,

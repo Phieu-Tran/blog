@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { altNames } from '../../lib/altTitles';
 import { detailShellStyle } from '../../lib/coverColors';
 import { getCollection } from 'astro:content';
 import { postMatchesMedia } from '../../lib/mediaRelations';
@@ -51,9 +52,11 @@ const statusColors: Record<string, string> = {
   watching: 'var(--game-color)', completed: 'var(--anime-color)', plan: 'var(--text-muted)', dropped: '#EF4444',
 };
 
+const akaNames = altNames(entry.data);
 const metaItems = [
   { label: 'Source', value: mal_id ? 'MAL' : 'Manual' },
   { label: 'Studio', value: studio },
+  akaNames.length > 0 && { label: 'Also known as', value: akaNames.join(' · ') },
   director && { label: 'Director', value: director },
   creator && { label: 'Creator', value: creator },
   writer && { label: 'Writer', value: writer },

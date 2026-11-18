@@ -14,6 +14,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { distinctTitle, tmdbAltTitles } from './alt-titles.mjs';
 
 const TMDB_API_KEY = process.env.TMDB_API_KEY || '';
 const TMDB_BASE = 'https://api.themoviedb.org/3';
@@ -168,6 +169,8 @@ function tmdbTypeFromImdbType(titleType) {
 function filmDataFromRow(row) {
   return {
     title: row.Title?.trim() || row['Original Title']?.trim() || row.Const,
+    // Spread so a missing value never overwrites an original_title already on disk.
+    ...(distinctTitle(row['Original Title'], row.Title) ? { original_title: distinctTitle(row['Original Title'], row.Title) } : {}),
     imdb_id: row.Const?.trim(),
     tmdb_type: tmdbTypeFromImdbType(row['Title Type']),
     rating: toNumber(row['Your Rating']) || 0,
@@ -251,7 +254,7 @@ async function findTmdbByImdbId(imdbId, expectedType) {
   if (!match?.id) return null;
 
   await sleep(250);
-  const detailsUrl = `${tmdbEndpoint(expectedType, match.id)}?api_key=${TMDB_API_KEY}&language=vi-VN&append_to_response=credits,external_ids`;
+  const detailsUrl = `${tmdbEndpoint(expectedType, match.id)}?api_key=${TMDB_API_KEY}&language=vi-VN&append_to_response=credits,external_ids,translations`;
   const details = await fetchJson(detailsUrl);
   if (!details) return null;
 
@@ -261,7 +264,17 @@ async function findTmdbByImdbId(imdbId, expectedType) {
     tmdb_score: details.vote_average ? Number(details.vote_average.toFixed(1)) : undefined,
     cover: details.poster_path ? `https://image.tmdb.org/t/p/w500${details.poster_path}` : undefined,
     director: getTmdbDirector(details, expectedType),
+    // Raw names; applyAltTitles() keeps only the ones that differ from the entry's final title.
+    _alt: tmdbAltTitles(details, expectedType, null),
   };
+}
+
+function applyAltTitles(merged, alt) {
+  if (!alt) return;
+  const original = distinctTitle(alt.original_title, merged.title);
+  const english = distinctTitle(alt.en_title, merged.title, original);
+  if (original) merged.original_title = original;
+  if (english) merged.en_title = english;
 }
 
 function mergeFilmData(existing, imdbData, tmdbData) {
@@ -272,9 +285,11 @@ function mergeFilmData(existing, imdbData, tmdbData) {
 
   if (tmdbData) {
     for (const [key, value] of Object.entries(tmdbData)) {
+      if (key.startsWith('_')) continue;
       if (value !== undefined && value !== null && value !== '') merged[key] = value;
     }
     if (imdbData.director !== 'N/A') merged.director = imdbData.director;
+    applyAltTitles(merged, tmdbData._alt);
   } else if (looksStaleTmdbMetadata(existing?.frontmatter, imdbData)) {
     delete merged.cover;
     delete merged.tmdb_score;
@@ -287,8 +302,10 @@ function mergeTmdbData(existing, tmdbData) {
   const merged = { ...existing.frontmatter };
 
   for (const [key, value] of Object.entries(tmdbData)) {
+    if (key.startsWith('_')) continue;
     if (value !== undefined && value !== null && value !== '') merged[key] = value;
   }
+  applyAltTitles(merged, tmdbData._alt);
 
   if (existing.frontmatter.director && existing.frontmatter.director !== 'N/A') {
     merged.director = existing.frontmatter.director;

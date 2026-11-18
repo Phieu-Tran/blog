@@ -1,10 +1,13 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
+import { altNames } from '../lib/altTitles';
 
 type SearchType = 'anime' | 'game' | 'film' | 'book';
 
 type SearchItem = {
   title: string;
+  /** Other names (original/English title, manual aka), so "Love Letter" finds "Thư Tình". */
+  alt?: string[];
   type: SearchType;
   url: string;
   rating: number;
@@ -32,6 +35,7 @@ export const GET: APIRoute = async () => {
   const items: SearchItem[] = [
     ...anime.map(item => ({
       title: item.data.title,
+      alt: altNames(item.data),
       type: 'anime' as const,
       url: itemUrl('anime', item.id),
       rating: item.data.rating,
@@ -42,6 +46,7 @@ export const GET: APIRoute = async () => {
     })),
     ...games.map(item => ({
       title: item.data.title,
+      alt: altNames(item.data),
       type: 'game' as const,
       url: itemUrl('game', item.id),
       rating: item.data.rating,
@@ -52,6 +57,7 @@ export const GET: APIRoute = async () => {
     })),
     ...films.map(item => ({
       title: item.data.title,
+      alt: altNames(item.data),
       type: 'film' as const,
       url: itemUrl('film', item.id),
       rating: item.data.rating,
@@ -62,6 +68,7 @@ export const GET: APIRoute = async () => {
     })),
     ...books.map(item => ({
       title: item.data.title,
+      alt: altNames(item.data),
       type: 'book' as const,
       url: itemUrl('book', item.id),
       rating: item.data.rating,

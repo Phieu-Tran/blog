@@ -4,10 +4,19 @@ import { glob } from 'astro/loaders';
 // glob loader gives ids without the ".md" suffix, so URLs are /anime/slug/ not /anime/slug.md/
 const markdown = (dir: string) => glob({ pattern: '**/*.md', base: `./src/content/${dir}` });
 
+// Alternate names for search. Sync may write numeric-looking titles unquoted (e.g. 1917), so accept numbers too.
+const altTitle = z.union([z.string(), z.number()]).transform(String).optional();
+const altTitles = {
+  original_title: altTitle, // filled by sync (TMDB/MAL/IMDb) when it differs from title
+  en_title: altTitle,       // films: English title from TMDB translations
+  aka: altTitle,            // manual: extra names separated by ";"
+};
+
 const anime = defineCollection({
   loader: markdown('anime'),
   schema: z.object({
     title: z.string(),
+    ...altTitles,
     mal_id: z.number().optional(),
     rating: z.number().min(0).max(10),
     mal_score: z.number().optional(),
@@ -33,6 +42,7 @@ const games = defineCollection({
   loader: markdown('games'),
   schema: z.object({
     title: z.string(),
+    ...altTitles,
     steam_appid: z.number().optional(),
     igdb_id: z.number().optional(),
     igdb_slug: z.string().optional(),
@@ -69,6 +79,7 @@ const films = defineCollection({
   loader: markdown('films'),
   schema: z.object({
     title: z.string(),
+    ...altTitles,
     imdb_id: z.string().optional(),
     tmdb_id: z.number().optional(),
     tmdb_type: z.enum(['movie', 'tv']).optional(),
@@ -107,7 +118,7 @@ const books = defineCollection({
   loader: markdown('books'),
   schema: z.object({
     title: z.string(),
-    original_title: z.string().optional(),
+    ...altTitles,
     author: z.string(),
     translator: z.string().optional(),
     publisher: z.string().optional(),

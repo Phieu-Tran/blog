@@ -9,7 +9,7 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { Content } = await render(entry);
+const { Content, headings } = await render(entry);
 const { title, description, tags, cover, date } = entry.data;
 const base = import.meta.env.BASE_URL;
 const firstBodyImage = firstMarkdownImage(entry.body);
@@ -29,17 +29,30 @@ const jsonLd = {
 };
 const ogImage = `${base}og/posts/${entry.id}.svg`;
 
-const [anime, games, films] = await Promise.all([
+// Reading time: strip markdown syntax, count words. ~220 words/min suits Vietnamese prose.
+const plainBody = (entry.body || '')
+  .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')
+  .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
+  .replace(/[#>*_`~|-]/g, ' ');
+const wordCount = plainBody.split(/\s+/).filter(Boolean).length;
+const readingMinutes = Math.max(1, Math.round(wordCount / 220));
+
+// Table of contents from h2 headings; only worth showing on longer posts.
+const tocHeadings = headings.filter(heading => heading.depth === 2);
+const showToc = tocHeadings.length >= 3;
+
+const [anime, games, films, books] = await Promise.all([
   getCollection('anime'),
   getCollection('games'),
   getCollection('films'),
+  getCollection('books'),
 ]);
 
 type MediaPreview = {
   href: string;
   label: string;
   title: string;
-  type: 'anime' | 'game' | 'film';
+  type: 'anime' | 'game' | 'film' | 'book';
 };
 
 const mediaByKey = new Map<string, MediaPreview>();
@@ -65,6 +78,13 @@ films.forEach(item => mediaByKey.set(mediaRelationKey('films', item.id), {
   type: 'film',
 }));
 
+books.forEach(item => mediaByKey.set(mediaRelationKey('books', item.id), {
+  href: `${base}books/${item.id}/`,
+  label: 'Sách',
+  title: item.data.title,
+  type: 'book',
+}));
+
 const relatedMedia = (entry.data.related_media || [])
   .map(parseMediaRelation)
   .filter(Boolean)
@@ -76,11 +96,14 @@ const relatedMedia = (entry.data.related_media || [])
   <script slot="head" type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />
   <a href={`${base}posts/`} class="post-back">Về danh sách bài viết</a>
 
+  <div class={`post-layout ${showToc ? 'has-toc' : ''}`}>
   <article class="post-detail">
     <header class="post-detail-header">
       <div class="post-kicker">
         <span class="badge badge-post">Post</span>
         <span>{new Date(date).toLocaleDateString('vi-VN')}</span>
+        <span aria-hidden="true">·</span>
+        <span>{readingMinutes} phút đọc</span>
       </div>
 
       <h1>{title}</h1>
@@ -110,7 +133,61 @@ const relatedMedia = (entry.data.related_media || [])
       <Content />
     </div>
   </article>
+
+  {showToc && (
+    <aside class="post-toc" aria-label="Mục lục">
+      <details id="post-toc-details">
+        <summary>Mục lục <span>{tocHeadings.length} phần</span></summary>
+        <ol>
+          {tocHeadings.map(heading => (
+            <li><a href={`#${heading.slug}`} data-toc-link={heading.slug}>{heading.text}</a></li>
+          ))}
+        </ol>
+      </details>
+    </aside>
+  )}
+  </div>
 </BaseLayout>
+
+<script>
+  // TOC: open + scroll-spy on wide screens; collapsed on phones and closes after a jump.
+  let tocObserver: IntersectionObserver | null = null;
+
+  function initPostToc() {
+    tocObserver?.disconnect();
+    const details = document.getElementById('post-toc-details') as HTMLDetailsElement | null;
+    if (!details) return;
+
+    const wide = window.matchMedia('(min-width: 1180px)');
+    details.open = wide.matches;
+
+    const links = Array.from(details.querySelectorAll<HTMLAnchorElement>('[data-toc-link]'));
+    links.forEach(link => link.addEventListener('click', () => {
+      if (!wide.matches) details.open = false;
+    }));
+
+    const targets = links
+      .map(link => document.getElementById(link.dataset.tocLink || ''))
+      .filter((el): el is HTMLElement => Boolean(el));
+    if (!targets.length) return;
+
+    const setActive = (id: string) => links.forEach(link => {
+      const active = link.dataset.tocLink === id;
+      link.classList.toggle('active', active);
+      if (active) link.setAttribute('aria-current', 'true');
+      else link.removeAttribute('aria-current');
+    });
+
+    tocObserver = new IntersectionObserver(entries => {
+      const visible = entries.filter(entry => entry.isIntersecting)
+        .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+      if (visible[0]) setActive(visible[0].target.id);
+    }, { rootMargin: '-80px 0px -65% 0px' });
+    targets.forEach(target => tocObserver!.observe(target));
+  }
+
+  document.addEventListener('astro:page-load', initPostToc);
+</script>
 
 <style>
   .post-back {
@@ -127,6 +204,140 @@ const relatedMedia = (entry.data.related_media || [])
   .post-detail {
     margin: 0 auto;
     max-width: 820px;
+  }
+
+  .post-detail :global(.prose h2) {
+    scroll-margin-top: 84px;
+  }
+
+  /* Phones/tablets: the article's children join the flex column so the TOC sits between header and body. */
+  .post-layout.has-toc {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 820px;
+  }
+
+  .post-layout.has-toc .post-detail {
+    display: contents;
+  }
+
+  .post-layout.has-toc .post-detail-header { order: 1; }
+  .post-layout.has-toc .post-toc { order: 2; }
+  .post-layout.has-toc .post-cover { order: 3; }
+  .post-layout.has-toc .prose { order: 4; }
+
+  .post-toc {
+    margin-bottom: 24px;
+  }
+
+  .post-toc details {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+  }
+
+  .post-toc summary {
+    color: var(--text-primary);
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    list-style: none;
+    padding: 12px 16px;
+  }
+
+  .post-toc summary::-webkit-details-marker { display: none; }
+
+  .post-toc summary::after {
+    color: var(--text-muted);
+    content: '+';
+    float: right;
+  }
+
+  .post-toc details[open] summary::after { content: '−'; }
+
+  .post-toc summary span {
+    color: var(--text-muted);
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    font-weight: 400;
+    margin-left: 6px;
+  }
+
+  .post-toc ol {
+    border-top: 1px solid var(--glass-border);
+    counter-reset: toc;
+    list-style: none;
+    margin: 0;
+    padding: 8px 8px 10px;
+  }
+
+  .post-toc li {
+    counter-increment: toc;
+  }
+
+  .post-toc a {
+    border-left: 2px solid transparent;
+    border-radius: 0 6px 6px 0;
+    color: var(--text-secondary);
+    display: flex;
+    font-size: 13px;
+    gap: 8px;
+    line-height: 1.4;
+    padding: 6px 8px;
+  }
+
+  .post-toc a::before {
+    color: var(--text-muted);
+    content: counter(toc, decimal-leading-zero);
+    flex-shrink: 0;
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    padding-top: 2px;
+  }
+
+  .post-toc a:hover,
+  .post-toc a:focus-visible {
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--text-primary);
+  }
+
+  .post-toc a.active {
+    background: rgba(56, 189, 248, 0.08);
+    border-left-color: var(--post-color, #38BDF8);
+    color: var(--text-primary);
+  }
+
+  /* Wide screens: two columns, TOC sticks beside the article. */
+  @media (min-width: 1180px) {
+    .post-layout.has-toc {
+      align-items: start;
+      display: grid;
+      gap: 32px;
+      grid-template-columns: minmax(0, 820px) 250px;
+      max-width: 1102px;
+    }
+
+    .post-layout.has-toc .post-detail {
+      display: block;
+      margin: 0;
+    }
+
+    .post-toc {
+      margin: 0;
+      max-height: calc(100vh - 110px);
+      overflow-y: auto;
+      position: sticky;
+      top: 88px;
+    }
+
+    .post-toc summary {
+      cursor: default;
+      pointer-events: none;
+    }
+
+    .post-toc summary::after,
+    .post-toc details[open] summary::after { content: none; }
   }
 
   .post-detail-header {
@@ -197,6 +408,7 @@ const relatedMedia = (entry.data.related_media || [])
   .post-linked-chip.anime { border-color: var(--anime-border); }
   .post-linked-chip.game { border-color: var(--game-border); }
   .post-linked-chip.film { border-color: var(--film-border); }
+  .post-linked-chip.book { border-color: var(--book-border); }
 
   .post-cover {
     border-radius: 14px;

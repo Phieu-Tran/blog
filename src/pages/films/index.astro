@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import MediaCard from '../../components/MediaCard.astro';
 import { getCollection } from 'astro:content';
+import { searchText } from '../../lib/altTitles';
 
 const allFilms = (await getCollection('films')).sort(
   (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
@@ -81,6 +82,7 @@ const base = import.meta.env.BASE_URL;
     {allFilms.map((item, i) => (
       <div class="filter-item"
         data-title={item.data.title.toLowerCase()}
+        data-search={searchText(item.data.title, item.data)}
         data-genre={item.data.genre.toLowerCase()}
         data-status={item.data.status}
         data-rating={item.data.rating}
@@ -204,7 +206,7 @@ const base = import.meta.env.BASE_URL;
             (quick === 'plan' && el.dataset.status === 'plan') ||
             (quick === 'top' && parseFloat(el.dataset.rating || '0') >= 9) ||
             (quick === 'missing-cover' && el.dataset.hasCover !== 'true');
-          const ok = (!q || el.dataset.title!.includes(q)) &&
+          const ok = (!q || el.dataset.search!.includes(q)) &&
                      (!g || el.dataset.genre!.includes(g)) &&
                      (!s || el.dataset.status === s) &&
                      sourceOk &&

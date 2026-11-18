@@ -13,6 +13,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import { tmdbAltTitles } from './alt-titles.mjs';
 
 const TMDB_API_KEY = process.env.TMDB_API_KEY;
 const TMDB_LIST_ID = process.env.TMDB_LIST_ID;
@@ -89,7 +90,7 @@ function findExistingFile(tmdbId, tmdbType = 'movie') {
 }
 
 async function fetchTitleDetails(tmdbId, tmdbType = 'movie') {
-  const url = `${tmdbEndpoint(tmdbType, tmdbId)}?api_key=${TMDB_API_KEY}&language=vi-VN&append_to_response=credits,external_ids`;
+  const url = `${tmdbEndpoint(tmdbType, tmdbId)}?api_key=${TMDB_API_KEY}&language=vi-VN&append_to_response=credits,external_ids,translations`;
   const res = await fetch(url);
   if (!res.ok) return null;
   return res.json();
@@ -145,6 +146,7 @@ async function processTitle(tmdbId, existingRating, tmdbType = 'movie') {
 
   return {
     title: getTitle(details, tmdbType),
+    ...tmdbAltTitles(details, tmdbType, getTitle(details, tmdbType)),
     imdb_id: getImdbId(details, tmdbType),
     tmdb_id: tmdbId,
     tmdb_type: normalizeTmdbType(tmdbType),

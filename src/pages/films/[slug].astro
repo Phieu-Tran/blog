@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { altNames } from '../../lib/altTitles';
 import { detailShellStyle } from '../../lib/coverColors';
 import { getCollection } from 'astro:content';
 import { postMatchesMedia } from '../../lib/mediaRelations';
@@ -45,9 +46,11 @@ const tmdbUrl = tmdb_id
   ? `https://www.themoviedb.org/${tmdb_type === 'tv' ? 'tv' : 'movie'}/${tmdb_id}`
   : `https://www.themoviedb.org/search?query=${encodeURIComponent(title)}`;
 
+const akaNames = altNames(entry.data);
 const metaItems = [
   { label: 'Source', value: tmdb_id ? 'TMDB' : 'Manual' },
   { label: 'Director', value: director },
+  akaNames.length > 0 && { label: 'Also known as', value: akaNames.join(' · ') },
   creator && { label: 'Creator', value: creator },
   writer && { label: 'Writer', value: writer },
   composer && { label: 'Composer', value: composer },
