@@ -19,6 +19,9 @@ const kindLabel = { album: 'Album', ep: 'EP', single: 'Single', ost: 'OST', comp
 
 <BaseLayout title="Nhạc" description="Những album, EP và nhạc phim mình nghe" activeNav="music">
   <h1 class="sr-only">Nhạc</h1>
+  <nav class="music-subnav" aria-label="Nhạc">
+    <a href={`${base}music/top/`} class="music-subnav-link">Top nghe nhiều trên Spotify →</a>
+  </nav>
 
   {allMusic.length === 0 ? (
     <section class="books-empty music-theme reveal">

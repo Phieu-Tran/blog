@@ -1679,3 +1679,13 @@ body.search-open { overflow: hidden; }
   margin-left: auto;
   padding-right: 6px;
 }
+
+.music-subnav { display: flex; justify-content: flex-end; margin-bottom: 14px; }
+.music-subnav-link {
+  border: 1px solid rgba(30,215,96,0.35);
+  border-radius: 999px;
+  color: #1ED760;
+  font-size: 13px;
+  padding: 7px 14px;
+}
+.music-subnav-link:hover { background: rgba(30,215,96,0.08); }

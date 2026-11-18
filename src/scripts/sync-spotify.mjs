@@ -234,6 +234,63 @@ function genresFor(artistIds, artistGenres) {
   return [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 3).map(([g]) => titleCase(g));
 }
 
+const TOP_FILE = path.resolve('src/data/spotify-top.json');
+const TOP_RANGES = ['short_term', 'medium_term', 'long_term'];
+
+function imageOf(images, preferred = 300) {
+  if (!images?.length) return undefined;
+  return [...images].sort((a, b) => Math.abs((a.width || 0) - preferred) - Math.abs((b.width || 0) - preferred))[0].url;
+}
+
+async function fetchTop(token) {
+  const top = { tracks: {}, artists: {} };
+  for (const range of TOP_RANGES) {
+    const tracks = await api(token, `/me/top/tracks?limit=50&time_range=${range}`);
+    top.tracks[range] = (tracks.items || []).map(track => ({
+      id: track.id,
+      name: track.name,
+      artists: (track.artists || []).map(a => a.name).join(', '),
+      album: track.album?.name,
+      cover: imageOf(track.album?.images, 160),
+    }));
+    const artists = await api(token, `/me/top/artists?limit=50&time_range=${range}`);
+    top.artists[range] = (artists.items || []).map(artist => ({
+      id: artist.id,
+      name: artist.name,
+      image: imageOf(artist.images, 320),
+      genres: artist.genres || [],
+    }));
+  }
+  return top;
+}
+
+/**
+ * Writes src/data/spotify-top.json. Each item keeps `prev`: its rank in the previous sync
+ * (null = new entry), so the page can show ↑/↓ like "Show previous ranking".
+ */
+function writeTop(top) {
+  const previous = fs.existsSync(TOP_FILE) ? JSON.parse(fs.readFileSync(TOP_FILE, 'utf-8')) : null;
+  const withPrev = (kind, range) => {
+    const before = new Map((previous?.[kind]?.[range] || []).map((item, i) => [item.id, i + 1]));
+    return top[kind][range].map(item => ({ ...item, prev: previous ? (before.get(item.id) ?? null) : undefined }));
+  };
+  const out = { updated: new Date().toISOString().slice(0, 10), previous_updated: previous?.updated, tracks: {}, artists: {} };
+  for (const range of TOP_RANGES) {
+    out.tracks[range] = withPrev('tracks', range);
+    out.artists[range] = withPrev('artists', range);
+  }
+  // Re-running on the same day must not turn every arrow into "unchanged": keep the older baseline.
+  if (previous?.updated === out.updated && previous.previous_updated) {
+    out.previous_updated = previous.previous_updated;
+    for (const kind of ['tracks', 'artists']) for (const range of TOP_RANGES) {
+      const oldPrev = new Map((previous[kind]?.[range] || []).map(item => [item.id, item.prev]));
+      out[kind][range] = out[kind][range].map(item => ({ ...item, prev: oldPrev.has(item.id) ? oldPrev.get(item.id) : null }));
+    }
+  }
+  fs.mkdirSync(path.dirname(TOP_FILE), { recursive: true });
+  fs.writeFileSync(TOP_FILE, `${JSON.stringify(out, null, 2)}\n`);
+}
+
 /** Create or update one entry; local rating / notes / favorites / links always survive. */
 function upsert(existing, stats, dryRun, { spotifyId, synced, kind, genres, isRecent, slugBase, date }) {
   const prev = existing.get(spotifyId);
@@ -352,6 +409,16 @@ export async function syncSpotify({ dryRun = false } = {}) {
     });
   }
 
+  // Top tracks / artists for 4 weeks, 6 months and ~12 months (needs user-top-read).
+  let topNote = '';
+  try {
+    const top = await fetchTop(token);
+    if (!dryRun) writeTop(top);
+    topNote = `, top: ${top.tracks.long_term.length} tracks / ${top.artists.long_term.length} artists`;
+  } catch (err) {
+    topNote = ` (top skipped: ${err.message.includes('403') ? 're-run npm run spotify-auth to grant top access' : err.message})`;
+  }
+
   // Tracklists live in a data file so the markdown body stays free for your own notes.
   const tracksJson = `${JSON.stringify(tracklists, null, 2)}\n`;
   const tracksBefore = fs.existsSync(TRACKS_FILE) ? fs.readFileSync(TRACKS_FILE, 'utf-8') : '';
@@ -360,7 +427,7 @@ export async function syncSpotify({ dryRun = false } = {}) {
   return {
     name,
     success: true,
-    message: `${saved.length} saved albums + ${playlistSources.length} playlists — ${stats.created} new, ${stats.updated} updated, ${stats.unchanged} unchanged, recent: ${recent.albums.size} albums / ${recent.playlists.size} playlists${playlistNote}${dryRun ? ' (dry run)' : ''}`,
+    message: `${saved.length} saved albums + ${playlistSources.length} playlists — ${stats.created} new, ${stats.updated} updated, ${stats.unchanged} unchanged, recent: ${recent.albums.size} albums / ${recent.playlists.size} playlists${topNote}${playlistNote}${dryRun ? ' (dry run)' : ''}`,
   };
 }
 
