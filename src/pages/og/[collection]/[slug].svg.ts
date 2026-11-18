@@ -8,14 +8,16 @@ const accents = {
   games: '#34D399',
   films: '#FB923C',
   posts: '#38BDF8',
+  books: '#F472B6',
 };
 
 export async function getStaticPaths() {
-  const [posts, anime, games, films] = await Promise.all([
+  const [posts, anime, games, films, books] = await Promise.all([
     getCollection('posts'),
     getCollection('anime'),
     getCollection('games'),
     getCollection('films'),
+    getCollection('books'),
   ]);
 
   const postPaths = posts
@@ -75,7 +77,21 @@ export async function getStaticPaths() {
     },
   }));
 
-  return [...postPaths, ...animePaths, ...gamePaths, ...filmPaths];
+  const bookPaths = books.map(entry => ({
+    params: { collection: 'books', slug: entry.id },
+    props: {
+      item: {
+        title: entry.data.title,
+        eyebrow: 'Sách',
+        subtitle: `${entry.data.author} - ${entry.data.year} - ${entry.data.genre}`,
+        cover: entry.data.cover,
+        accent: accents.books,
+        metric: entry.data.rating > 0 ? String(entry.data.rating) : undefined,
+      } satisfies OgImageItem,
+    },
+  }));
+
+  return [...postPaths, ...animePaths, ...gamePaths, ...filmPaths, ...bookPaths];
 }
 
 export const GET: APIRoute = ({ props, site }) => {

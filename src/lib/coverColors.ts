@@ -4,7 +4,7 @@ type CoverColor = { cover: string; color: string | null };
 const table = colors as Record<string, CoverColor>;
 
 /** Inline style for a detail shell: blurred cover backdrop + accent color sampled from that cover. */
-export function detailShellStyle(collection: 'anime' | 'games' | 'films', id: string, cover?: string) {
+export function detailShellStyle(collection: 'anime' | 'games' | 'films' | 'books', id: string, cover?: string) {
   const parts: string[] = [];
   if (cover) parts.push(`--detail-image: url("${cover}")`);
   const entry = table[`${collection}/${id}`];

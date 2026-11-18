@@ -101,4 +101,29 @@ const posts = defineCollection({
   }),
 });
 
-export const collections = { anime, games, films, posts };
+// Books: personal reading log. Source is manual for now; goodreads_id is reserved for a future
+// Goodreads CSV/RSS import (same identity-anchor idea as imdb_id for films).
+const books = defineCollection({
+  loader: markdown('books'),
+  schema: z.object({
+    title: z.string(),
+    original_title: z.string().optional(),
+    author: z.string(),
+    translator: z.string().optional(),
+    publisher: z.string().optional(),
+    rating: z.number().min(0).max(10),
+    goodreads_score: z.number().optional(),
+    genre: z.string(),
+    year: z.number(),
+    pages: z.number().optional(),
+    isbn: z.string().optional(),
+    goodreads_id: z.string().optional(),
+    status: z.enum(['reading', 'read', 'plan', 'dropped']),
+    source: z.enum(['manual', 'goodreads']).default('manual'),
+    cover: z.string().optional(),
+    updated_at: z.date().optional(),
+    date: z.date(),
+  }),
+});
+
+export const collections = { anime, games, films, books, posts };

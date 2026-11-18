@@ -25,6 +25,7 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 | **Anime** | `src/content/anime/` | MAL (scrape) | `#A78BFA` | My Score vs MAL Score, progress bar, MAL link |
 | **Games** | `src/content/games/` | Steam + IGDB | `#34D399` | IGN-style score, playtime, IGDB/IGN/Metacritic/Steam links |
 | **Films** | `src/content/films/` | IMDb CSV + TMDB account | `#FB923C` | 3 scores (My/IMDB/TMDB), IMDB+TMDB links |
+| **Books** | `src/content/books/` | Manual (Goodreads planned) | `#F472B6` | My Score + Goodreads score, author/translator, Goodreads/Open Library links |
 | **Posts** | `src/content/posts/` | Obsidian | `#38BDF8` | Blog list, tags, prose |
 | **Steam** | `/steam/` page | Steam API | Steam blue | Steam-style profile, playtime bars |
 
@@ -116,6 +117,8 @@ before committing changes.
 - **Card covers**: `MediaCard` swaps Steam landscape `header.jpg` for the portrait `library_600x900.jpg` and falls back to the original on error. Unrated items (`rating: 0`) show "Chưa chấm" instead of empty stars. The "Thiếu ảnh bìa" quick filter only renders when some entry lacks a cover.
 - **Cover accent colors**: `npm run cover-colors` (`extract-cover-colors.mjs`, also run by the weekly sync) samples one accent per cover into `src/data/cover-colors.json`, keyed by `collection/id` and re-fetched only when the cover URL changes. Detail pages apply it as `--accent` via `src/lib/coverColors.ts`; near-monochrome covers store `null` and fall back to the section color.
 - **Cover morph transition**: the detail poster has `view-transition-name: media-cover`; `BaseLayout` assigns the same name to the clicked card image on demand (and to the matching card when navigating back), because a title can appear twice on one page and duplicate names cancel the transition.
+- **Homepage layout**: hero (title, 5 stat cards incl. Books, cover crowd) is fixed; below it come the "Đang theo dõi" strip, 3 featured posts (lead card + 2), then one horizontal shelf per collection (Anime/Games/Films/Sách) with a "Mới thêm / Điểm cao" toggle, then projects + contact. Shelf cards (`ShelfCard.astro`) glow with the cover's accent from `cover-colors.json`. Homepage-only styles live in `src/styles/home.css`.
+- **Books collection**: `src/content/books/` (kept in git via `.gitkeep`; the empty-collection build warning is expected until the first book is added). Status `reading|read|plan|dropped`; `goodreads_id` is the reserved identity anchor for a future Goodreads CSV/RSS import. Books join search, OG images, cover colors and `related_media` (`books:slug`).
 - **Stats page** (`/stats/`, `src/pages/stats.astro`): build-time personal stats (score distribution, top genres, release decades, my score vs community) as CSS-only charts in small multiples, one section color each, with hover/focus tooltips and a table view. No chart library.
 - **Post images are WebP**: images referenced by posts live in `public/posts/` as `.webp` (max 1600px wide, quality 80). Convert new Obsidian exports before committing. `src/lib/rehypeLazyImages.mjs` lazy-loads every markdown image after the first.
 - **Frontmatter title always quoted** — prevents YAML numeric title parsing.

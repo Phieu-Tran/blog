@@ -1,0 +1,153 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { detailShellStyle } from '../../lib/coverColors';
+import { getCollection, render } from 'astro:content';
+import { postMatchesMedia } from '../../lib/mediaRelations';
+
+export async function getStaticPaths() {
+  const books = await getCollection('books');
+  return books.map(entry => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const allPosts = (await getCollection('posts')).filter(p => !p.data.draft);
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const base = import.meta.env.BASE_URL;
+const {
+  title,
+  original_title,
+  author,
+  translator,
+  publisher,
+  rating,
+  goodreads_score,
+  genre,
+  year,
+  pages,
+  isbn,
+  goodreads_id,
+  status,
+  cover,
+  date,
+} = entry.data;
+
+const relatedPosts = allPosts.filter(post => postMatchesMedia(post, 'books', entry.id));
+const ogImage = `${base}og/books/${entry.id}.svg`;
+const myStars = Math.round(rating / 2);
+const grStars = Math.round((goodreads_score || 0));
+
+const statusLabel = { reading: 'Đang đọc', read: 'Đã đọc', plan: 'Muốn đọc', dropped: 'Bỏ dở' }[status];
+const goodreadsUrl = goodreads_id
+  ? `https://www.goodreads.com/book/show/${goodreads_id}`
+  : `https://www.goodreads.com/search?q=${encodeURIComponent(isbn || `${title} ${author}`)}`;
+const openLibraryUrl = isbn
+  ? `https://openlibrary.org/isbn/${isbn}`
+  : `https://openlibrary.org/search?q=${encodeURIComponent(`${title} ${author}`)}`;
+
+const metaItems = [
+  { label: 'Tác giả', value: author },
+  original_title && { label: 'Tên gốc', value: original_title },
+  translator && { label: 'Dịch giả', value: translator },
+  publisher && { label: 'Nhà xuất bản', value: publisher },
+  { label: 'Năm', value: String(year) },
+  pages && { label: 'Số trang', value: String(pages) },
+  { label: 'Thể loại', value: genre },
+].filter(Boolean) as Array<{ label: string; value: string }>;
+---
+
+<BaseLayout title={title} description={`${title} — ${author}`} image={ogImage} activeNav="books">
+  <section class="media-detail-shell media-detail-book" style={detailShellStyle('books', entry.id, cover)}>
+    <a href={`${base}books/`} class="detail-back">Về kệ sách</a>
+
+    <div class="media-detail-grid">
+      <aside class="detail-side">
+        {cover ? (
+          <img src={cover} alt={title} class="detail-cover" decoding="async" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+        ) : null}
+        <span class="detail-cover-fallback" hidden={Boolean(cover)}>{title.slice(0, 1)}</span>
+
+        <nav class="detail-actions" aria-label="External book links">
+          <a href={goodreadsUrl} target="_blank" rel="noopener noreferrer" class="detail-action goodreads">
+            {goodreads_id ? 'Xem trên Goodreads' : 'Tìm trên Goodreads'}
+          </a>
+          <a href={openLibraryUrl} target="_blank" rel="noopener noreferrer" class="detail-action openlibrary">
+            Open Library
+          </a>
+        </nav>
+      </aside>
+
+      <main class="detail-main">
+        <div class="detail-badges">
+          <span class="badge badge-book">Sách</span>
+          <span class="badge soft-badge">{statusLabel}</span>
+        </div>
+
+        <h1 class="detail-title">{title}</h1>
+        <p class="detail-subtitle">{author} - {year}{genre ? ` - ${genre}` : ''}</p>
+
+        <section class={`detail-score-grid ${goodreads_score ? 'two' : ''}`} aria-label="Book scores">
+          <div class="detail-score-card">
+            <p>My Score</p>
+            <span class="detail-score-value" style="color:var(--star-color);">{rating > 0 ? rating : '-'}</span>
+            <div class="stars">
+              {[...Array(5)].map((_, i) => (
+                <span class={i < myStars ? 'star-on' : 'star-off'}>&#9733;</span>
+              ))}
+            </div>
+          </div>
+          {goodreads_score && (
+            <div class="detail-score-card">
+              <p>Goodreads</p>
+              <span class="detail-score-value" style="color:#E9D8A6;">{goodreads_score.toFixed(2)}</span>
+              <div class="stars">
+                {[...Array(5)].map((_, i) => (
+                  <span class={i < grStars ? 'star-on' : 'star-off'}>&#9733;</span>
+                ))}
+              </div>
+            </div>
+          )}
+        </section>
+
+        <section class="detail-meta-grid" aria-label="Book metadata">
+          {metaItems.map(item => (
+            <div class={`detail-meta-card ${item.label === 'Thể loại' ? 'wide' : ''}`}>
+              <p>{item.label}</p>
+              <strong>{item.value}</strong>
+            </div>
+          ))}
+        </section>
+
+        {entry.body?.trim() && (
+          <div class="prose book-notes">
+            <Content />
+          </div>
+        )}
+
+        {date && (
+          <p class="detail-date">Thêm vào {new Date(date).toLocaleDateString('vi-VN')}</p>
+        )}
+      </main>
+    </div>
+  </section>
+
+  {relatedPosts.length > 0 && (
+    <section style="margin-top: 40px;">
+      <p class="section-label">Bài viết liên quan</p>
+      <hr class="section-divider" />
+      <div class="post-list">
+        {relatedPosts.map(post => (
+          <a href={`${base}posts/${post.id}/`} class="post-card">
+            <p class="post-title">{post.data.title}</p>
+            {post.data.description && <p class="post-desc">{post.data.description}</p>}
+            <div class="post-meta">
+              <span>{new Date(post.data.date).toLocaleDateString('vi-VN')}</span>
+              {post.data.tags?.map(tag => (
+                <span class="post-tag">{tag}</span>
+              ))}
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+</BaseLayout>

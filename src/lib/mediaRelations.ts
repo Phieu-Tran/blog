@@ -1,6 +1,6 @@
-export type MediaCollection = 'anime' | 'games' | 'films';
+export type MediaCollection = 'anime' | 'games' | 'films' | 'books';
 
-const MEDIA_COLLECTIONS = new Set<MediaCollection>(['anime', 'games', 'films']);
+const MEDIA_COLLECTIONS = new Set<MediaCollection>(['anime', 'games', 'films', 'books']);
 
 export function normalizeMediaSlug(value: string) {
   return String(value || '')

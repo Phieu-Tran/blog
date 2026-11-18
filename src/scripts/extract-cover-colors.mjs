@@ -5,7 +5,7 @@ import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 
 import { join } from 'node:path';
 
 const OUT_FILE = 'src/data/cover-colors.json';
-const COLLECTIONS = ['anime', 'games', 'films'];
+const COLLECTIONS = ['anime', 'games', 'films', 'books'];
 const CONCURRENCY = 8;
 const force = process.argv.includes('--force');
 

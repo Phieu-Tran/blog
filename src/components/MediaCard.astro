@@ -1,7 +1,7 @@
 ---
 interface Props {
   title: string;
-  type: 'anime' | 'game' | 'film';
+  type: 'anime' | 'game' | 'film' | 'book';
   rating: number;
   genre: string;
   year: number;
@@ -17,21 +17,22 @@ const stars = Math.round(rating / 2);
 const steamHeader = cover?.match(/\/steam\/apps\/(\d+)\/header\.jpg/);
 const cardCover = steamHeader ? `https://cdn.cloudflare.steamstatic.com/steam/apps/${steamHeader[1]}/library_600x900.jpg` : cover;
 const coverFallback = steamHeader ? cover : undefined;
-const typeMap = { anime: 'anime', game: 'games', film: 'films' };
-const isActive = status === 'watching' || status === 'playing';
+const typeMap = { anime: 'anime', game: 'games', film: 'films', book: 'books' };
+const typeLabel = { anime: 'anime', game: 'game', film: 'film', book: 'sách' };
+const isActive = status === 'watching' || status === 'playing' || status === 'reading';
 const statusLabels: Record<string, string> = {
-  watching: 'Đang xem', playing: 'Đang chơi', completed: 'Đã xong',
-  watched: 'Đã xem', on_hold: 'Tạm dừng', plan: 'Dự định', dropped: 'Bỏ',
+  watching: 'Đang xem', playing: 'Đang chơi', reading: 'Đang đọc', completed: 'Đã xong',
+  watched: 'Đã xem', read: 'Đã đọc', on_hold: 'Tạm dừng', plan: 'Dự định', dropped: 'Bỏ',
 };
 ---
 
-<a href={`${base}${typeMap[type]}/${slug}/`} class="media-card reveal">
+<a href={`${base}${typeMap[type]}/${slug}/`} class="media-card reveal" data-type={type}>
   <div class="card-cover">
     <span class="cover-fallback">{title.slice(0, 1)}</span>
     {cardCover && <img src={cardCover} alt={title} loading="lazy" decoding="async" data-fallback={coverFallback} onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;delete this.dataset.fallback}else{this.hidden=true}" />}
     <div class="gradient-overlay"></div>
     <span class={`badge badge-${type}`} style="position:absolute;top:8px;left:8px;">
-      {type}
+      {typeLabel[type]}
     </span>
     {isActive && (
       <span class="badge badge-game" style="position:absolute;top:8px;right:8px;display:flex;align-items:center;gap:4px;">

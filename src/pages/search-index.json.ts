@@ -1,7 +1,7 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
 
-type SearchType = 'anime' | 'game' | 'film';
+type SearchType = 'anime' | 'game' | 'film' | 'book';
 
 type SearchItem = {
   title: string;
@@ -17,15 +17,16 @@ type SearchItem = {
 const base = import.meta.env.BASE_URL;
 
 function itemUrl(type: SearchType, id: string) {
-  const segment = type === 'anime' ? 'anime' : type === 'game' ? 'games' : 'films';
+  const segment = type === 'anime' ? 'anime' : type === 'game' ? 'games' : type === 'book' ? 'books' : 'films';
   return `${base}${segment}/${id}/`;
 }
 
 export const GET: APIRoute = async () => {
-  const [anime, games, films] = await Promise.all([
+  const [anime, games, films, books] = await Promise.all([
     getCollection('anime'),
     getCollection('games'),
     getCollection('films'),
+    getCollection('books'),
   ]);
 
   const items: SearchItem[] = [
@@ -56,6 +57,16 @@ export const GET: APIRoute = async () => {
       rating: item.data.rating,
       year: item.data.year,
       genre: item.data.genre,
+      status: item.data.status,
+      cover: item.data.cover,
+    })),
+    ...books.map(item => ({
+      title: item.data.title,
+      type: 'book' as const,
+      url: itemUrl('book', item.id),
+      rating: item.data.rating,
+      year: item.data.year,
+      genre: `${item.data.genre}, ${item.data.author}`,
       status: item.data.status,
       cover: item.data.cover,
     })),

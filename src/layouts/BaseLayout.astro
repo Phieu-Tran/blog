@@ -101,6 +101,7 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
       <a href={`${base}anime/`} class={activeNav === 'anime' ? 'active' : ''}>Anime</a>
       <a href={`${base}games/`} class={activeNav === 'games' ? 'active' : ''}>Games</a>
       <a href={`${base}films/`} class={activeNav === 'films' ? 'active' : ''}>Films</a>
+      <a href={`${base}books/`} class={activeNav === 'books' ? 'active' : ''}>Sách</a>
       <a href={`${base}steam/`} class={activeNav === 'steam' ? 'active' : ''} style="color:#66C0F4;">Steam</a>
       <a href={`${base}posts/`} class={activeNav === 'posts' ? 'active' : ''}>Posts</a>
       <a href={`${base}stats/`} class={activeNav === 'stats' ? 'active' : ''}>Thống kê</a>
@@ -126,7 +127,7 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
         id="global-search-input"
         class="global-search-input"
         type="search"
-        placeholder="Anime, games, films..."
+        placeholder="Anime, games, films, sách..."
         autocomplete="off"
       />
       <p class="global-search-meta" id="global-search-meta">Anime / Games / Films</p>
@@ -148,7 +149,7 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
   <script>
     type GlobalSearchItem = {
       title: string;
-      type: 'anime' | 'game' | 'film';
+      type: 'anime' | 'game' | 'film' | 'book';
       url: string;
       rating: number;
       year: number;
@@ -180,6 +181,7 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
     function typeLabel(type: GlobalSearchItem['type']) {
       if (type === 'game') return 'Game';
       if (type === 'film') return 'Film';
+      if (type === 'book') return 'Sách';
       return 'Anime';
     }
 
@@ -249,7 +251,7 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
       }
 
       results.innerHTML = matches.map(item => {
-        const badgeClass = item.type === 'game' ? 'badge-game' : item.type === 'film' ? 'badge-film' : 'badge-anime';
+        const badgeClass = item.type === 'game' ? 'badge-game' : item.type === 'film' ? 'badge-film' : item.type === 'book' ? 'badge-book' : 'badge-anime';
         const fallback = escapeHtml(item.title.slice(0, 1));
         const image = item.cover
           ? `<img src="${escapeHtml(item.cover)}" alt="" loading="lazy" decoding="async" onerror="this.hidden=true" />`
@@ -442,7 +444,8 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
             const start = performance.now();
             const step = (now: number) => {
               const elapsed = now - start;
-              const progress = Math.min(elapsed / duration, 1);
+              // rAF timestamps can precede `start`, so clamp at 0 to avoid negative counts
+              const progress = Math.max(0, Math.min(elapsed / duration, 1));
               // ease-out cubic
               const eased = 1 - Math.pow(1 - progress, 3);
               el.textContent = Math.round(eased * target).toString();
@@ -474,7 +477,7 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
       // Cover morph: the clicked card's cover grows into the detail page poster, and shrinks back
       // on return. The name is assigned on demand because one title can appear twice on a page
       // (Top 10 + grid) and duplicate view-transition names cancel the whole transition.
-      const detailPath = /^\/(anime|games|films)\/[^/]+\/$/;
+      const detailPath = /^\/(anime|games|films|books)\/[^/]+\/$/;
       // Path of the page currently shown; on back/forward the URL has already changed by the time swap events fire.
       let shownPath = location.pathname;
       const clearCoverNames = () => {
