@@ -1680,7 +1680,7 @@ body.search-open { overflow: hidden; }
   padding-right: 6px;
 }
 
-.music-subnav { display: flex; justify-content: flex-end; margin-bottom: 14px; }
+.music-subnav { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; margin-bottom: 14px; }
 .music-subnav-link {
   border: 1px solid rgba(30,215,96,0.35);
   border-radius: 999px;

@@ -3,15 +3,17 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import MediaCard from '../../components/MediaCard.astro';
 import { getCollection } from 'astro:content';
 import { searchText } from '../../lib/altTitles';
+import { songStats } from '../../lib/spotifyTracks';
 
 const allMusic = (await getCollection('music')).sort(
   (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
 );
 const genres = [...new Set(allMusic.flatMap(m => m.data.genre.split(',').map(g => g.trim())).filter(Boolean))].sort();
-const listening = allMusic.filter(m => m.data.status === 'listening');
-const listenedCount = allMusic.filter(m => m.data.status === 'listened').length;
+// Song-level numbers come from the playlist tracklists; shelf entries are playlists/albums.
+const playlistCount = allMusic.filter(m => m.data.kind === 'playlist').length;
+const albumCount = allMusic.length - playlistCount;
 const ostCount = allMusic.filter(m => m.data.kind === 'ost').length;
-const artistCount = new Set(allMusic.map(m => m.data.artist)).size;
+const fmt = (n: number) => n.toLocaleString('vi-VN');
 const base = import.meta.env.BASE_URL;
 const kindLabel = { album: 'Album', ep: 'EP', single: 'Single', ost: 'OST', compilation: 'Tuyển tập', playlist: 'Playlist' } as const;
 ---
@@ -19,7 +21,8 @@ const kindLabel = { album: 'Album', ep: 'EP', single: 'Single', ost: 'OST', comp
 <BaseLayout title="Nhạc" description="Những album, EP và nhạc phim mình nghe" activeNav="music">
   <h1 class="sr-only">Nhạc</h1>
   <nav class="music-subnav" aria-label="Nhạc">
-    <a href={`${base}music/top/`} class="music-subnav-link">Top nghe nhiều trên Spotify →</a>
+    <a href={`${base}music/bai-hat/`} class="music-subnav-link">Tất cả bài hát →</a>
+    <a href={`${base}music/top/`} class="music-subnav-link">Top nghe nhiều →</a>
   </nav>
 
   {allMusic.length === 0 ? (
@@ -38,10 +41,11 @@ const kindLabel = { album: 'Album', ep: 'EP', single: 'Single', ost: 'OST', comp
     <>
       <section class="reveal" style="margin-bottom: 28px;">
         <div class="books-summary music-theme">
-          <div class="books-summary-item"><strong>{allMusic.length}</strong><span>Tổng số</span></div>
-          <div class="books-summary-item"><strong>{listenedCount}</strong><span>Đã nghe</span></div>
-          <div class="books-summary-item"><strong>{listening.length}</strong><span>Đang nghe</span></div>
-          <div class="books-summary-item"><strong>{artistCount}</strong><span>Nghệ sĩ</span></div>
+          {songStats.songs > 0 && <a href={`${base}music/bai-hat/`} class="books-summary-item"><strong>{fmt(songStats.songs)}</strong><span>Bài hát</span></a>}
+          {songStats.artists > 0 && <div class="books-summary-item"><strong>{fmt(songStats.artists)}</strong><span>Nghệ sĩ</span></div>}
+          {songStats.hours > 0 && <div class="books-summary-item"><strong>{fmt(songStats.hours)}</strong><span>Giờ nhạc</span></div>}
+          <div class="books-summary-item"><strong>{playlistCount}</strong><span>Playlist</span></div>
+          {albumCount > 0 && <div class="books-summary-item"><strong>{albumCount}</strong><span>Album</span></div>}
           {ostCount > 0 && <div class="books-summary-item"><strong>{ostCount}</strong><span>Nhạc phim</span></div>}
         </div>
       </section>
@@ -71,7 +75,7 @@ const kindLabel = { album: 'Album', ep: 'EP', single: 'Single', ost: 'OST', comp
           </select>
         </div>
         <p class="section-label" style="margin-top: 16px;">
-          Kệ nhạc — <span id="count">{allMusic.length}</span> mục
+          Playlist & album — <span id="count">{allMusic.length}</span> mục
         </p>
       </section>
 

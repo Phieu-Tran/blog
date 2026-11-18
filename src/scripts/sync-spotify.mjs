@@ -451,6 +451,8 @@ export async function syncSpotify({ dryRun = false } = {}) {
   const tracklists = {};
 
   for (const { added_at, album } of saved) {
+    // Saved albums carry their first 50 tracks; keep them so song totals include albums too.
+    tracklists[album.id] = (album.tracks?.items || []).filter(t => t?.id).map(track => slimTrack({ track: { ...track, album } }));
     upsert(existing, stats, dryRun, {
       spotifyId: album.id,
       synced: {

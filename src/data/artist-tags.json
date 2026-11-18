@@ -7,6 +7,14 @@
   ],
   "fetched": "2026-11-18"
  },
+ "-prey": {
+  "tags": [
+   "brazilian phonk",
+   "german",
+   "funk carioca"
+  ],
+  "fetched": "2026-11-18"
+ },
  "(s)trong": {
   "tags": [
    "vietnamese",
@@ -122,6 +130,12 @@
   ],
   "fetched": "2026-11-18"
  },
+ "90degrees": {
+  "tags": [
+   "rock"
+  ],
+  "fetched": "2026-11-18"
+ },
  "acv": {
   "tags": [
    "jazz",
@@ -187,6 +201,14 @@
    "j-pop",
    "japanese",
    "pop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "akmu": {
+  "tags": [
+   "korean",
+   "k-pop",
+   "folk"
   ],
   "fetched": "2026-11-18"
  },
@@ -272,6 +294,14 @@
    "hip-hop",
    "rap",
    "vietnamese"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "angelicca": {
+  "tags": [
+   "doujin ongaku",
+   "touhou",
+   "booba"
   ],
   "fetched": "2026-11-18"
  },
@@ -453,6 +483,22 @@
   ],
   "fetched": "2026-11-18"
  },
+ "baauer": {
+  "tags": [
+   "trap",
+   "electronic",
+   "bass"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "bad bunny": {
+  "tags": [
+   "reggaeton",
+   "trap",
+   "latin"
+  ],
+  "fetched": "2026-11-18"
+ },
  "badbies": {
   "tags": [],
   "fetched": "2026-11-18"
@@ -462,6 +508,10 @@
    "post-punk",
    "coldwave"
   ],
+  "fetched": "2026-11-18"
+ },
+ "banana culture": {
+  "tags": [],
   "fetched": "2026-11-18"
  },
  "bằng kiều": {
@@ -483,11 +533,42 @@
   "tags": [],
   "fetched": "2026-11-18"
  },
+ "bazzi": {
+  "tags": [
+   "rnb",
+   "pop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "bbno$": {
+  "tags": [
+   "rap",
+   "hip-hop",
+   "canadian"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "beabadoobee": {
+  "tags": [
+   "indie pop",
+   "indie rock",
+   "bedroom pop"
+  ],
+  "fetched": "2026-11-18"
+ },
  "beacon light": {
   "tags": [
    "rap",
    "hip-hop",
    "chh"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "beast": {
+  "tags": [
+   "k-pop",
+   "b2st",
+   "electronic"
   ],
   "fetched": "2026-11-18"
  },
@@ -589,6 +670,14 @@
   ],
   "fetched": "2026-11-18"
  },
+ "black eyed peas": {
+  "tags": [
+   "hip-hop",
+   "pop",
+   "rnb"
+  ],
+  "fetched": "2026-11-18"
+ },
  "blackbear": {
   "tags": [
    "electronic",
@@ -614,6 +703,14 @@
    "a capella",
    "scrubs",
    "a cappella"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "block b": {
+  "tags": [
+   "k-pop",
+   "korean",
+   "kpop"
   ],
   "fetched": "2026-11-18"
  },
@@ -680,11 +777,27 @@
   ],
   "fetched": "2026-11-18"
  },
+ "brown eyed girls": {
+  "tags": [
+   "k-pop",
+   "korean",
+   "kpop"
+  ],
+  "fetched": "2026-11-18"
+ },
  "bruno mars": {
   "tags": [
    "pop",
    "rnb",
    "r&b"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "btob": {
+  "tags": [
+   "k-pop",
+   "korean",
+   "kpop"
   ],
   "fetched": "2026-11-18"
  },
@@ -740,6 +853,13 @@
   ],
   "fetched": "2026-11-18"
  },
+ "calum scott": {
+  "tags": [
+   "pop",
+   "british"
+  ],
+  "fetched": "2026-11-18"
+ },
  "camila cabello": {
   "tags": [
    "pop",
@@ -780,8 +900,24 @@
   ],
   "fetched": "2026-11-18"
  },
+ "celina": {
+  "tags": [
+   "synthwave",
+   "german",
+   "retrowave"
+  ],
+  "fetched": "2026-11-18"
+ },
  "changg": {
   "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "chanyeol": {
+  "tags": [
+   "k-pop",
+   "korean",
+   "exo"
+  ],
   "fetched": "2026-11-18"
  },
  "chappell roan": {
@@ -818,6 +954,14 @@
  },
  "châu khải phong": {
   "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "chen": {
+  "tags": [
+   "k-pop",
+   "korean",
+   "exo"
+  ],
   "fetched": "2026-11-18"
  },
  "cher lloyd": {
@@ -871,6 +1015,14 @@
    "vietnamese",
    "rock",
    "alt-rock"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "chris brown": {
+  "tags": [
+   "rnb",
+   "hip-hop",
+   "rap"
   ],
   "fetched": "2026-11-18"
  },
@@ -985,11 +1137,35 @@
   ],
   "fetched": "2026-11-18"
  },
+ "cnblue": {
+  "tags": [
+   "korean",
+   "k-pop",
+   "k-rock"
+  ],
+  "fetched": "2026-11-18"
+ },
  "coi leray": {
   "tags": [
    "rap",
    "hip-hop",
    "trap"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "colbie caillat": {
+  "tags": [
+   "pop",
+   "acoustic",
+   "indie"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "colby o'donis": {
+  "tags": [
+   "rnb",
+   "soul",
+   "hip hop"
   ],
   "fetched": "2026-11-18"
  },
@@ -1059,6 +1235,14 @@
    "chillout",
    "lounge",
    "downtempo"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "dababy": {
+  "tags": [
+   "rap",
+   "hip-hop",
+   "trap"
   ],
   "fetched": "2026-11-18"
  },
@@ -1135,6 +1319,14 @@
    "indie",
    "folk",
    "pop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "day6": {
+  "tags": [
+   "korean",
+   "k-pop",
+   "k-rock"
   ],
   "fetched": "2026-11-18"
  },
@@ -1256,6 +1448,22 @@
   ],
   "fetched": "2026-11-18"
  },
+ "dj greyttblack": {
+  "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "dj sonari": {
+  "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "dj tec": {
+  "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "dj wareuru": {
+  "tags": [],
+  "fetched": "2026-11-18"
+ },
  "djo": {
   "tags": [
    "psychedelic pop",
@@ -1320,12 +1528,25 @@
   ],
   "fetched": "2026-11-18"
  },
+ "drill gates": {
+  "tags": [
+   "drill"
+  ],
+  "fetched": "2026-11-18"
+ },
  "drum7": {
   "tags": [],
   "fetched": "2026-11-18"
  },
  "dt tap rap": {
   "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "dtg": {
+  "tags": [
+   "rock",
+   "indie rock"
+  ],
   "fetched": "2026-11-18"
  },
  "du uyen": {
@@ -1344,6 +1565,14 @@
   "tags": [
    "v-pop",
    "vietnamese"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "due": {
+  "tags": [
+   "eurodance",
+   "experimental",
+   "industrial"
   ],
   "fetched": "2026-11-18"
  },
@@ -1394,6 +1623,14 @@
   ],
   "fetched": "2026-11-18"
  },
+ "dynoro": {
+  "tags": [
+   "electronic",
+   "lithuanian",
+   "edm"
+  ],
+  "fetched": "2026-11-18"
+ },
  "dysergy": {
   "tags": [
    "scotland"
@@ -1405,6 +1642,14 @@
    "acoustic",
    "british",
    "pop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "ed sheeran & justin bieber": {
+  "tags": [
+   "uk",
+   "pop",
+   "ed sheeran"
   ],
   "fetched": "2026-11-18"
  },
@@ -1507,6 +1752,18 @@
   ],
   "fetched": "2026-11-18"
  },
+ "everglow": {
+  "tags": [
+   "k-pop",
+   "korean",
+   "kpop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "ex7stence": {
+  "tags": [],
+  "fetched": "2026-11-18"
+ },
  "exid": {
   "tags": [
    "k-pop",
@@ -1519,6 +1776,14 @@
   "tags": [
    "k-pop",
    "korean",
+   "kpop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "exo-cbx": {
+  "tags": [
+   "k-pop",
+   "exo",
    "kpop"
   ],
   "fetched": "2026-11-18"
@@ -1561,6 +1826,14 @@
   ],
   "fetched": "2026-11-18"
  },
+ "fifth harmony": {
+  "tags": [
+   "pop",
+   "x factor",
+   "american"
+  ],
+  "fetched": "2026-11-18"
+ },
  "fifty fifty": {
   "tags": [
    "k-pop",
@@ -1585,11 +1858,26 @@
   ],
   "fetched": "2026-11-18"
  },
+ "flo milli": {
+  "tags": [
+   "rap",
+   "hip-hop",
+   "trap"
+  ],
+  "fetched": "2026-11-18"
+ },
  "flo rida": {
   "tags": [
    "hip-hop",
    "rap",
    "hip hop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "florida georgia line": {
+  "tags": [
+   "country",
+   "country rock"
   ],
   "fetched": "2026-11-18"
  },
@@ -1603,6 +1891,29 @@
  },
  "freak d": {
   "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "fujii kaze": {
+  "tags": [
+   "j-pop",
+   "japanese"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "fun.": {
+  "tags": [
+   "indie pop",
+   "indie",
+   "alternative"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "future": {
+  "tags": [
+   "hip-hop",
+   "rap",
+   "trap"
+  ],
   "fetched": "2026-11-18"
  },
  "g-dragon": {
@@ -1629,8 +1940,32 @@
   ],
   "fetched": "2026-11-18"
  },
+ "gd x taeyang": {
+  "tags": [
+   "k-pop",
+   "korean",
+   "kpop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "gd&top": {
+  "tags": [
+   "k-pop",
+   "korean",
+   "big bang"
+  ],
+  "fetched": "2026-11-18"
+ },
  "gducky": {
   "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "gesaffelstein": {
+  "tags": [
+   "techno",
+   "electronic",
+   "electro"
+  ],
   "fetched": "2026-11-18"
  },
  "gfriend": {
@@ -1643,6 +1978,14 @@
  },
  "giang pham": {
   "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "gigi d'agostino": {
+  "tags": [
+   "dance",
+   "electronic",
+   "trance"
+  ],
   "fetched": "2026-11-18"
  },
  "girl in red": {
@@ -1666,6 +2009,14 @@
    "k-pop",
    "korean",
    "pop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "girls' generation-oh!gg": {
+  "tags": [
+   "k-pop",
+   "snsd",
+   "kpop"
   ],
   "fetched": "2026-11-18"
  },
@@ -1729,6 +2080,13 @@
   ],
   "fetched": "2026-11-18"
  },
+ "graham": {
+  "tags": [
+   "pop",
+   "ambient"
+  ],
+  "fetched": "2026-11-18"
+ },
  "grandson": {
   "tags": [
    "alternative rock",
@@ -1765,6 +2123,14 @@
   "tags": [],
   "fetched": "2026-11-18"
  },
+ "gustixa": {
+  "tags": [
+   "remix",
+   "lo-fi",
+   "indonesia"
+  ],
+  "fetched": "2026-11-18"
+ },
  "gym class heroes": {
   "tags": [
    "hip-hop",
@@ -1799,6 +2165,14 @@
  "hải băng": {
   "tags": [
    "vpop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "haley reinhart": {
+  "tags": [
+   "soul",
+   "jazz",
+   "american idol"
   ],
   "fetched": "2026-11-18"
  },
@@ -1860,6 +2234,17 @@
   "tags": [],
   "fetched": "2026-11-18"
  },
+ "henry moodie": {
+  "tags": [
+   "british",
+   "pop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "hey daisy": {
+  "tags": [],
+  "fetched": "2026-11-18"
+ },
  "hiboky": {
   "tags": [],
   "fetched": "2026-11-18"
@@ -1878,6 +2263,22 @@
    "vietnamese",
    "hip-hop"
   ],
+  "fetched": "2026-11-18"
+ },
+ "higher and faster": {
+  "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "highlight": {
+  "tags": [
+   "k-pop",
+   "pop",
+   "kpop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "highlight í•˜ì´ë¼ì´íš¸": {
+  "tags": [],
   "fetched": "2026-11-18"
  },
  "hiko": {
@@ -2137,6 +2538,14 @@
   ],
   "fetched": "2026-11-18"
  },
+ "illit": {
+  "tags": [
+   "k-pop",
+   "kpop",
+   "korean"
+  ],
+  "fetched": "2026-11-18"
+ },
  "imagine dragons": {
   "tags": [
    "indie",
@@ -2178,6 +2587,14 @@
   "tags": [],
   "fetched": "2026-11-18"
  },
+ "itzy": {
+  "tags": [
+   "k-pop",
+   "kpop",
+   "korean"
+  ],
+  "fetched": "2026-11-18"
+ },
  "iu": {
   "tags": [
    "k-pop",
@@ -2191,6 +2608,14 @@
    "k-pop",
    "j-pop",
    "korean"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "j.tajor": {
+  "tags": [
+   "rnb",
+   "hip-hop",
+   "filipino"
   ],
   "fetched": "2026-11-18"
  },
@@ -2246,6 +2671,30 @@
    "dutch",
    "electronic",
    "nl"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "jason derulo": {
+  "tags": [
+   "rnb",
+   "pop",
+   "urban"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "jason mraz": {
+  "tags": [
+   "acoustic",
+   "pop",
+   "alternative"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "jawsh 685": {
+  "tags": [
+   "hip-hop",
+   "electronic",
+   "new zealand"
   ],
   "fetched": "2026-11-18"
  },
@@ -2340,8 +2789,24 @@
   ],
   "fetched": "2026-11-18"
  },
+ "jisoo": {
+  "tags": [
+   "k-pop",
+   "pop",
+   "korean"
+  ],
+  "fetched": "2026-11-18"
+ },
  "jmi ko": {
   "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "john legend": {
+  "tags": [
+   "soul",
+   "rnb",
+   "neo-soul"
+  ],
   "fetched": "2026-11-18"
  },
  "john paul white": {
@@ -2449,6 +2914,22 @@
   ],
   "fetched": "2026-11-18"
  },
+ "justin timberlake": {
+  "tags": [
+   "pop",
+   "rnb",
+   "dance"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "justine skye": {
+  "tags": [
+   "rnb",
+   "pop",
+   "soul"
+  ],
+  "fetched": "2026-11-18"
+ },
  "juun d": {
   "tags": [
    "vietnamese",
@@ -2514,6 +2995,14 @@
   ],
   "fetched": "2026-11-18"
  },
+ "kana": {
+  "tags": [
+   "japanese",
+   "j-rock",
+   "visual kei"
+  ],
+  "fetched": "2026-11-18"
+ },
  "kana nishino": {
   "tags": [
    "j-pop",
@@ -2535,6 +3024,22 @@
    "hip-hop",
    "rap",
    "hip hop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "kapa boy": {
+  "tags": [
+   "ambient",
+   "japan",
+   "electronic"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "kara": {
+  "tags": [
+   "k-pop",
+   "korean",
+   "pop"
   ],
   "fetched": "2026-11-18"
  },
@@ -2570,6 +3075,14 @@
    "pop",
    "rap",
    "male vocalist"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "keane": {
+  "tags": [
+   "britpop",
+   "indie",
+   "british"
   ],
   "fetched": "2026-11-18"
  },
@@ -2649,6 +3162,14 @@
   ],
   "fetched": "2026-11-18"
  },
+ "khan": {
+  "tags": [
+   "progressive rock",
+   "canterbury scene",
+   "space rock"
+  ],
+  "fetched": "2026-11-18"
+ },
  "khang việt": {
   "tags": [],
   "fetched": "2026-11-18"
@@ -2704,6 +3225,14 @@
   "tags": [],
   "fetched": "2026-11-18"
  },
+ "kitty and celina": {
+  "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "kitty antix": {
+  "tags": [],
+  "fetched": "2026-11-18"
+ },
  "kobasolo": {
   "tags": [
    "japanese",
@@ -2750,11 +3279,27 @@
   "tags": [],
   "fetched": "2026-11-18"
  },
+ "labrinth": {
+  "tags": [
+   "electronic",
+   "british",
+   "rnb"
+  ],
+  "fetched": "2026-11-18"
+ },
  "lady gaga": {
   "tags": [
    "pop",
    "dance",
    "electronic"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "lah pat": {
+  "tags": [
+   "rap",
+   "trap",
+   "houston"
   ],
   "fetched": "2026-11-18"
  },
@@ -2825,6 +3370,10 @@
   ],
   "fetched": "2026-11-18"
  },
+ "lê nguyễn tuấn hưng": {
+  "tags": [],
+  "fetched": "2026-11-18"
+ },
  "lê thiện hiếu": {
   "tags": [],
   "fetched": "2026-11-18"
@@ -2837,8 +3386,20 @@
   ],
   "fetched": "2026-11-18"
  },
+ "leah marie perez": {
+  "tags": [],
+  "fetched": "2026-11-18"
+ },
  "lemese": {
   "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "leslie grace": {
+  "tags": [
+   "pop",
+   "bachata",
+   "latin"
+  ],
   "fetched": "2026-11-18"
  },
  "lewis capaldi": {
@@ -2847,6 +3408,10 @@
    "scottish",
    "pop rock"
   ],
+  "fetched": "2026-11-18"
+ },
+ "lewis hanton": {
+  "tags": [],
   "fetched": "2026-11-18"
  },
  "lia": {
@@ -2924,6 +3489,14 @@
   ],
   "fetched": "2026-11-18"
  },
+ "linkin park": {
+  "tags": [
+   "nu metal",
+   "rock",
+   "alternative rock"
+  ],
+  "fetched": "2026-11-18"
+ },
  "lisa": {
   "tags": [
    "j-pop",
@@ -2953,6 +3526,22 @@
    "techno",
    "rap",
    "house"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "loona": {
+  "tags": [
+   "pop",
+   "dance",
+   "k-pop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "lord huron": {
+  "tags": [
+   "folk",
+   "psychedelic",
+   "indie"
   ],
   "fetched": "2026-11-18"
  },
@@ -3008,6 +3597,14 @@
   ],
   "fetched": "2026-11-18"
  },
+ "lsd": {
+  "tags": [
+   "hip hop",
+   "techno",
+   "punk"
+  ],
+  "fetched": "2026-11-18"
+ },
  "lucky tapes": {
   "tags": [
    "japanese",
@@ -3036,6 +3633,14 @@
   "tags": [],
   "fetched": "2026-11-18"
  },
+ "lydia paek": {
+  "tags": [
+   "rnb",
+   "soul",
+   "female vocalist"
+  ],
+  "fetched": "2026-11-18"
+ },
  "lyly": {
   "tags": [
    "neurofunk",
@@ -3054,6 +3659,22 @@
  },
  "machiot": {
   "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "macklemore": {
+  "tags": [
+   "hip-hop",
+   "rap",
+   "underground rap"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "macklemore & ryan lewis": {
+  "tags": [
+   "hip-hop",
+   "rap",
+   "underground hip-hop"
+  ],
   "fetched": "2026-11-18"
  },
  "mada mitakoto no nai sekai": {
@@ -3175,6 +3796,14 @@
   ],
   "fetched": "2026-11-18"
  },
+ "martin garrix": {
+  "tags": [
+   "house",
+   "electronic",
+   "dance"
+  ],
+  "fetched": "2026-11-18"
+ },
  "masayoshi yamazaki": {
   "tags": [
    "japanese",
@@ -3221,6 +3850,14 @@
   ],
   "fetched": "2026-11-18"
  },
+ "megan thee stallion": {
+  "tags": [
+   "rap",
+   "hip-hop",
+   "trap"
+  ],
+  "fetched": "2026-11-18"
+ },
  "meghan trainor": {
   "tags": [
    "pop",
@@ -3234,6 +3871,14 @@
    "pop",
    "indie",
    "indie pop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "melly mike": {
+  "tags": [
+   "rap",
+   "hip hop",
+   "usa"
   ],
   "fetched": "2026-11-18"
  },
@@ -3297,11 +3942,27 @@
   "tags": [],
   "fetched": "2026-11-18"
  },
+ "mino": {
+  "tags": [
+   "rap",
+   "hip-hop",
+   "k-pop"
+  ],
+  "fetched": "2026-11-18"
+ },
  "miss a": {
   "tags": [
    "k-pop",
    "korean",
    "kpop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "mitski": {
+  "tags": [
+   "indie rock",
+   "indie",
+   "indie pop"
   ],
   "fetched": "2026-11-18"
  },
@@ -3318,6 +3979,14 @@
    "trance",
    "electronic",
    "dubstep"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "momoland": {
+  "tags": [
+   "k-pop",
+   "pop",
+   "korean"
   ],
   "fetched": "2026-11-18"
  },
@@ -3470,7 +4139,23 @@
   "tags": [],
   "fetched": "2026-11-18"
  },
+ "nct": {
+  "tags": [
+   "k-pop",
+   "drum and bass",
+   "kpop"
+  ],
+  "fetched": "2026-11-18"
+ },
  "nct 127": {
+  "tags": [
+   "k-pop",
+   "kpop",
+   "korean"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "nct u": {
   "tags": [
    "k-pop",
    "kpop",
@@ -3486,11 +4171,34 @@
   ],
   "fetched": "2026-11-18"
  },
+ "nelly furtado": {
+  "tags": [
+   "pop",
+   "folk",
+   "canadian"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "neoni": {
+  "tags": [
+   "indie",
+   "electronic",
+   "alternative"
+  ],
+  "fetched": "2026-11-18"
+ },
  "new media": {
   "tags": [
    "alternative rock",
    "rock",
    "melodic metal"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "new west": {
+  "tags": [
+   "canadian",
+   "indie rock"
   ],
   "fetched": "2026-11-18"
  },
@@ -3581,6 +4289,18 @@
   "tags": [],
   "fetched": "2026-11-18"
  },
+ "niall horan": {
+  "tags": [
+   "pop",
+   "folk",
+   "irish"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "nicholas bonnin": {
+  "tags": [],
+  "fetched": "2026-11-18"
+ },
  "nick schmidt": {
   "tags": [],
   "fetched": "2026-11-18"
@@ -3590,6 +4310,14 @@
    "hip-hop",
    "rap",
    "rnb"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "nicky youre": {
+  "tags": [
+   "indie pop",
+   "pop",
+   "c"
   ],
   "fetched": "2026-11-18"
  },
@@ -3623,6 +4351,29 @@
  },
  "nszx": {
   "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "nu'est": {
+  "tags": [
+   "k-pop",
+   "korean",
+   "kpop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "nu'est w": {
+  "tags": [
+   "k-pop",
+   "korean"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "nucksal": {
+  "tags": [
+   "korean",
+   "rap",
+   "hip-hop"
+  ],
   "fetched": "2026-11-18"
  },
  "obito": {
@@ -3714,6 +4465,14 @@
   ],
   "fetched": "2026-11-18"
  },
+ "orange caramel": {
+  "tags": [
+   "k-pop",
+   "deek",
+   "korean"
+  ],
+  "fetched": "2026-11-18"
+ },
  "osad": {
   "tags": [
    "hiphop",
@@ -3739,6 +4498,14 @@
    "pop",
    "pop rock",
    "rock"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "pacey": {
+  "tags": [
+   "funky",
+   "funk",
+   "roots reggae"
   ],
   "fetched": "2026-11-18"
  },
@@ -3770,6 +4537,14 @@
   ],
   "fetched": "2026-11-18"
  },
+ "pentagon": {
+  "tags": [
+   "k-pop",
+   "japanese",
+   "kpop"
+  ],
+  "fetched": "2026-11-18"
+ },
  "pham dinh thai ngan": {
   "tags": [],
   "fetched": "2026-11-18"
@@ -3778,6 +4553,10 @@
   "tags": [
    "vietnam"
   ],
+  "fetched": "2026-11-18"
+ },
+ "phạm việt tây": {
+  "tags": [],
   "fetched": "2026-11-18"
  },
  "phan duy anh": {
@@ -3875,11 +4654,27 @@
   ],
   "fetched": "2026-11-18"
  },
+ "play-n-skillz": {
+  "tags": [
+   "hip-hop",
+   "rap",
+   "dirty south"
+  ],
+  "fetched": "2026-11-18"
+ },
  "playboi carti": {
   "tags": [
    "trap",
    "cloud rap",
    "hip-hop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "plies": {
+  "tags": [
+   "hip-hop",
+   "rap",
+   "dirty south"
   ],
   "fetched": "2026-11-18"
  },
@@ -3899,10 +4694,26 @@
   ],
   "fetched": "2026-11-18"
  },
+ "powfu": {
+  "tags": [
+   "hip-hop",
+   "lo-fi",
+   "emo rap"
+  ],
+  "fetched": "2026-11-18"
+ },
  "pristin": {
   "tags": [
    "k-pop",
    "pop",
+   "korean"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "pristin v": {
+  "tags": [
+   "k-pop",
+   "kpop",
    "korean"
   ],
   "fetched": "2026-11-18"
@@ -3920,6 +4731,13 @@
    "hardcore",
    "powerviolence",
    "thrashcore"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "pxlish beatz": {
+  "tags": [
+   "phonk",
+   "hardstyle"
   ],
   "fetched": "2026-11-18"
  },
@@ -3992,6 +4810,26 @@
   "tags": [],
   "fetched": "2026-11-18"
  },
+ "rare kids": {
+  "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "ravyn lenae": {
+  "tags": [
+   "rnb",
+   "soul",
+   "neo-soul"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "ray dalton": {
+  "tags": [
+   "soul",
+   "indie",
+   "rnb"
+  ],
+  "fetched": "2026-11-18"
+ },
  "rayo": {
   "tags": [
    "shoegaze",
@@ -4020,6 +4858,18 @@
   ],
   "fetched": "2026-11-18"
  },
+ "rex orange county": {
+  "tags": [
+   "indie pop",
+   "rnb",
+   "pop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "rhianne": {
+  "tags": [],
+  "fetched": "2026-11-18"
+ },
  "rhyder": {
   "tags": [
    "vietnamese",
@@ -4041,6 +4891,10 @@
    "rap",
    "dirty south"
   ],
+  "fetched": "2026-11-18"
+ },
+ "richie d. icy": {
+  "tags": [],
   "fetched": "2026-11-18"
  },
  "rihanna": {
@@ -4082,11 +4936,26 @@
   ],
   "fetched": "2026-11-18"
  },
+ "rosa linn": {
+  "tags": [
+   "eurovision",
+   "pop",
+   "armenia"
+  ],
+  "fetched": "2026-11-18"
+ },
  "rosé": {
   "tags": [
    "pop",
    "k-pop",
    "korean"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "rozes": {
+  "tags": [
+   "pop",
+   "american"
   ],
   "fetched": "2026-11-18"
  },
@@ -4142,8 +5011,30 @@
   ],
   "fetched": "2026-11-18"
  },
+ "ryan lewis": {
+  "tags": [
+   "guys i would fuck",
+   "rap",
+   "hip hop"
+  ],
+  "fetched": "2026-11-18"
+ },
  "rz ma$": {
   "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "s.h project": {
+  "tags": [
+   "korean"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "s1mba": {
+  "tags": [
+   "hip-hop",
+   "rap",
+   "zimbabwe"
+  ],
   "fetched": "2026-11-18"
  },
  "s3bzs": {
@@ -4151,6 +5042,14 @@
    "phonk",
    "electronic",
    "brazil"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "sabrina carpenter": {
+  "tags": [
+   "pop",
+   "rnb",
+   "american"
   ],
   "fetched": "2026-11-18"
  },
@@ -4162,11 +5061,27 @@
   ],
   "fetched": "2026-11-18"
  },
+ "salem ilese": {
+  "tags": [
+   "pop",
+   "indie pop",
+   "yandex music"
+  ],
+  "fetched": "2026-11-18"
+ },
  "sally miura": {
   "tags": [
    "j-pop",
    "japanese",
    "jpop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "sam smith": {
+  "tags": [
+   "soul",
+   "pop",
+   "british"
   ],
   "fetched": "2026-11-18"
  },
@@ -4233,11 +5148,27 @@
   ],
   "fetched": "2026-11-18"
  },
+ "sean kingston": {
+  "tags": [
+   "rnb",
+   "hip-hop",
+   "reggae"
+  ],
+  "fetched": "2026-11-18"
+ },
  "selena gomez": {
   "tags": [
    "pop",
    "disney",
    "pop rock"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "selena gomez & the scene": {
+  "tags": [
+   "pop",
+   "pop rock",
+   "disney"
   ],
   "fetched": "2026-11-18"
  },
@@ -4340,6 +5271,22 @@
    "indie",
    "chillout",
    "trip-hop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "sick legend": {
+  "tags": [
+   "hardstyle",
+   "electronic",
+   "remix"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "sienna spiro": {
+  "tags": [
+   "jazz",
+   "soul",
+   "indie"
   ],
   "fetched": "2026-11-18"
  },
@@ -4472,6 +5419,10 @@
   ],
   "fetched": "2026-11-18"
  },
+ "sped up + nightcore": {
+  "tags": [],
+  "fetched": "2026-11-18"
+ },
  "sped up + slowed": {
   "tags": [],
   "fetched": "2026-11-18"
@@ -4524,6 +5475,14 @@
    "folk",
    "indie pop",
    "indie"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "steve aoki": {
+  "tags": [
+   "electronic",
+   "electro",
+   "dance"
   ],
   "fetched": "2026-11-18"
  },
@@ -4603,6 +5562,14 @@
   ],
   "fetched": "2026-11-18"
  },
+ "t.a.t.u.": {
+  "tags": [
+   "pop",
+   "russian",
+   "electronic"
+  ],
+  "fetched": "2026-11-18"
+ },
  "t.r.i": {
   "tags": [
    "vietnamese",
@@ -4612,6 +5579,22 @@
  },
  "tạ quang thắng": {
   "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "taeyang": {
+  "tags": [
+   "k-pop",
+   "korean",
+   "rnb"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "taeyeon": {
+  "tags": [
+   "k-pop",
+   "korean",
+   "kpop"
+  ],
   "fetched": "2026-11-18"
  },
  "takasetoya": {
@@ -4657,6 +5640,14 @@
    "country",
    "pop",
    "acoustic"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "teddy": {
+  "tags": [
+   "emo rap",
+   "hip-hop",
+   "cloud rap"
   ],
   "fetched": "2026-11-18"
  },
@@ -4734,6 +5725,14 @@
    "noise rock",
    "post-punk",
    "noise"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "the neighbourhood": {
+  "tags": [
+   "indie",
+   "indie rock",
+   "indie pop"
   ],
   "fetched": "2026-11-18"
  },
@@ -4902,10 +5901,26 @@
   ],
   "fetched": "2026-11-18"
  },
+ "tom odell": {
+  "tags": [
+   "indie",
+   "folk",
+   "british"
+  ],
+  "fetched": "2026-11-18"
+ },
  "tommee profitt": {
   "tags": [
    "soundtrack",
    "pop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "tommymuzzic": {
+  "tags": [
+   "cover",
+   "covers",
+   "usa"
   ],
   "fetched": "2026-11-18"
  },
@@ -4952,6 +5967,14 @@
   "tags": [],
   "fetched": "2026-11-18"
  },
+ "train": {
+  "tags": [
+   "rock",
+   "alternative rock",
+   "pop"
+  ],
+  "fetched": "2026-11-18"
+ },
  "trang": {
   "tags": [
    "vietnamese",
@@ -4996,6 +6019,14 @@
   "tags": [],
   "fetched": "2026-11-18"
  },
+ "trouble maker": {
+  "tags": [
+   "k-pop",
+   "kpop",
+   "4minute"
+  ],
+  "fetched": "2026-11-18"
+ },
  "troye sivan": {
   "tags": [
    "pop",
@@ -5007,6 +6038,14 @@
  "trúc nhân": {
   "tags": [
    "vietnamese"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "true": {
+  "tags": [
+   "death metal",
+   "j-pop",
+   "crust"
   ],
   "fetched": "2026-11-18"
  },
@@ -5064,6 +6103,14 @@
   "tags": [],
   "fetched": "2026-11-18"
  },
+ "ty dolla $ign": {
+  "tags": [
+   "hip-hop",
+   "rap",
+   "rnb"
+  ],
+  "fetched": "2026-11-18"
+ },
  "tyga": {
   "tags": [
    "hip-hop",
@@ -5074,6 +6121,14 @@
  },
  "tyronee": {
   "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "usher": {
+  "tags": [
+   "rnb",
+   "hip-hop",
+   "pop"
+  ],
   "fetched": "2026-11-18"
  },
  "uyên pím": {
@@ -5099,9 +6154,25 @@
   ],
   "fetched": "2026-11-18"
  },
+ "verbal jint": {
+  "tags": [
+   "korean",
+   "hip-hop",
+   "korean hip-hop"
+  ],
+  "fetched": "2026-11-18"
+ },
  "việt anh": {
   "tags": [
    "vietnam"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "vixx": {
+  "tags": [
+   "k-pop",
+   "korean",
+   "kpop"
   ],
   "fetched": "2026-11-18"
  },
@@ -5184,6 +6255,14 @@
   ],
   "fetched": "2026-11-18"
  },
+ "wanna one": {
+  "tags": [
+   "k-pop",
+   "korean",
+   "kpop"
+  ],
+  "fetched": "2026-11-18"
+ },
  "weki meki": {
   "tags": [
    "k-pop",
@@ -5208,6 +6287,14 @@
   ],
   "fetched": "2026-11-18"
  },
+ "will.i.am": {
+  "tags": [
+   "hip-hop",
+   "rap",
+   "rnb"
+  ],
+  "fetched": "2026-11-18"
+ },
  "winner": {
   "tags": [
    "k-pop",
@@ -5220,6 +6307,14 @@
   "tags": [
    "vietnam",
    "hip hop"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "witt lowry": {
+  "tags": [
+   "rap",
+   "hip-hop",
+   "trap"
   ],
   "fetched": "2026-11-18"
  },
@@ -5273,11 +6368,27 @@
   ],
   "fetched": "2026-11-18"
  },
+ "y2k": {
+  "tags": [
+   "electronic",
+   "rap",
+   "hip-hop"
+  ],
+  "fetched": "2026-11-18"
+ },
  "yacht money": {
   "tags": [
    "house",
    "electronic",
    "edm"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "yael naim": {
+  "tags": [
+   "folk",
+   "indie",
+   "pop"
   ],
   "fetched": "2026-11-18"
  },
@@ -5344,6 +6455,22 @@
   ],
   "fetched": "2026-11-18"
  },
+ "yung kai": {
+  "tags": [
+   "indie",
+   "canadian",
+   "rnb"
+  ],
+  "fetched": "2026-11-18"
+ },
+ "zac efron": {
+  "tags": [
+   "pop",
+   "soundtrack",
+   "disney"
+  ],
+  "fetched": "2026-11-18"
+ },
  "zachary levi": {
   "tags": [
    "american",
@@ -5392,6 +6519,14 @@
   ],
   "fetched": "2026-11-18"
  },
+ "zendaya": {
+  "tags": [
+   "pop",
+   "dance",
+   "rnb"
+  ],
+  "fetched": "2026-11-18"
+ },
  "zico": {
   "tags": [
    "korean",
@@ -5417,6 +6552,10 @@
   "fetched": "2026-11-18"
  },
  "えみい": {
+  "tags": [],
+  "fetched": "2026-11-18"
+ },
+ "たかはしほのか": {
   "tags": [],
   "fetched": "2026-11-18"
  },

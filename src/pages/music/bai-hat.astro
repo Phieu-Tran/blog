@@ -1,0 +1,161 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { songs, songStats } from '../../lib/spotifyTracks';
+
+const base = import.meta.env.BASE_URL;
+const music = await getCollection('music');
+// Playlist / album names and links keyed by spotify_id, for the "in which playlists" column.
+const lists = new Map(music.filter(m => m.data.spotify_id).map(m => [m.data.spotify_id!, { title: m.data.title, href: `${base}music/${m.id}/` }]));
+
+const fmt = (n: number) => n.toLocaleString('vi-VN');
+const fmtDuration = (ms?: number) => (ms ? `${Math.floor(ms / 60000)}:${String(Math.round((ms % 60000) / 1000)).padStart(2, '0')}` : '');
+const fold = (value: string) => value.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd');
+type ListLink = { title: string; href: string };
+const rows = [...songs]
+  .sort((a, b) => a.name.localeCompare(b.name, 'vi'))
+  .map(song => ({ ...song, inLists: song.playlists.map(id => lists.get(id)).filter((l): l is ListLink => Boolean(l)) }));
+---
+
+<BaseLayout title="Tất cả bài hát" description="Mọi bài hát trong các playlist và album của mình trên Spotify" activeNav="music">
+  <a href={`${base}music/`} class="detail-back">Về kệ nhạc</a>
+  <header class="songs-head">
+    <p class="section-label">Nhạc</p>
+    <h1>Tất cả bài hát</h1>
+    <p class="songs-meta">
+      {fmt(songStats.songs)} bài · {fmt(songStats.artists)} nghệ sĩ · khoảng {fmt(songStats.hours)} giờ nhạc
+      <br /><small>Gộp từ mọi playlist, Bài hát đã thích và album đã lưu. Một bài có nhiều bản trên Spotify (single, album, remaster…) chỉ tính một lần.</small>
+    </p>
+  </header>
+
+  {rows.length === 0 ? (
+    <section class="books-empty music-theme">
+      <p class="books-empty-title">Chưa có bài hát</p>
+      <p class="books-empty-desc">Danh sách sẽ có sau lần sync Spotify đầu tiên.</p>
+    </section>
+  ) : (
+    <>
+      <div class="filter-bar songs-filter">
+        <input type="text" id="song-search" class="filter-input" placeholder="Tìm bài, nghệ sĩ, album..." autocomplete="off" />
+        <select id="song-sort" class="filter-select">
+          <option value="name">Tên A → Z</option>
+          <option value="artist">Nghệ sĩ A → Z</option>
+          <option value="lists">Có trong nhiều playlist nhất</option>
+          <option value="long">Dài nhất</option>
+        </select>
+      </div>
+      <p class="section-label songs-count"><span id="song-count">{fmt(rows.length)}</span> bài</p>
+
+      <ol class="songs-list" id="songs-list">
+        {rows.map(song => {
+          const inLists = song.inLists;
+          return (
+            <li
+              data-search={fold(`${song.name} ${song.artists} ${song.album || ''}`)}
+              data-name={fold(song.name)}
+              data-artist={fold(song.artists)}
+              data-lists={song.playlists.length}
+              data-ms={song.duration_ms || 0}
+            >
+              <a href={`https://open.spotify.com/track/${song.id}`} target="_blank" rel="noopener noreferrer" class="song-main">
+                <span class="mt-cover">{song.cover && <img src={song.cover} alt="" loading="lazy" decoding="async" />}</span>
+                <span class="mt-copy">
+                  <strong>{song.name}</strong>
+                  <small>{song.artists}{song.album ? ` · ${song.album}` : ''}</small>
+                </span>
+              </a>
+              <span class="song-lists" title={inLists.map(l => l.title).join(', ')}>
+                {inLists.slice(0, 2).map(list => <a href={list.href}>{list.title}</a>)}
+                {inLists.length > 2 && <span>+{inLists.length - 2}</span>}
+              </span>
+              <span class="mt-time">{fmtDuration(song.duration_ms)}</span>
+            </li>
+          );
+        })}
+      </ol>
+    </>
+  )}
+</BaseLayout>
+
+<script>
+  function initSongs() {
+    const list = document.getElementById('songs-list');
+    const search = document.getElementById('song-search') as HTMLInputElement | null;
+    const sort = document.getElementById('song-sort') as HTMLSelectElement | null;
+    const count = document.getElementById('song-count');
+    if (!list || !search || !sort || !count || list.dataset.bound === 'true') return;
+    list.dataset.bound = 'true';
+    const items = [...list.children] as HTMLElement[];
+    const fold = (v: string) => v.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd');
+    const params = new URLSearchParams(location.search);
+    search.value = params.get('q') || '';
+    if (params.get('sort')) sort.value = params.get('sort')!;
+
+    const apply = (updateUrl = true) => {
+      const q = fold(search.value.trim());
+      const s = sort.value;
+      items.sort((a, b) => {
+        if (s === 'artist') return a.dataset.artist!.localeCompare(b.dataset.artist!) || a.dataset.name!.localeCompare(b.dataset.name!);
+        if (s === 'lists') return Number(b.dataset.lists) - Number(a.dataset.lists) || a.dataset.name!.localeCompare(b.dataset.name!);
+        if (s === 'long') return Number(b.dataset.ms) - Number(a.dataset.ms);
+        return a.dataset.name!.localeCompare(b.dataset.name!);
+      });
+      let visible = 0;
+      items.forEach(item => {
+        const ok = !q || item.dataset.search!.includes(q);
+        item.hidden = !ok;
+        if (ok) visible++;
+        list.appendChild(item);
+      });
+      count.textContent = visible.toLocaleString('vi-VN');
+      if (!updateUrl) return;
+      const url = new URL(location.href);
+      search.value.trim() ? url.searchParams.set('q', search.value.trim()) : url.searchParams.delete('q');
+      s !== 'name' ? url.searchParams.set('sort', s) : url.searchParams.delete('sort');
+      history.replaceState({}, '', url);
+    };
+    search.addEventListener('input', () => apply());
+    sort.addEventListener('change', () => apply());
+    apply(false);
+  }
+  initSongs();
+  document.addEventListener('astro:page-load', initSongs);
+</script>
+
+<style>
+  .songs-head { margin: 4px 0 20px; text-align: center; }
+  .songs-head h1 { font-size: clamp(28px, 4.5vw, 42px); font-weight: 800; margin: 4px 0 6px; }
+  .songs-meta { color: var(--text-secondary); font-size: 14px; line-height: 1.6; }
+  .songs-meta small { color: var(--text-muted); font-size: 12px; }
+  .songs-filter { margin: 0 auto 8px; max-width: 900px; }
+  .songs-count { margin: 0 auto 8px; max-width: 900px; }
+  .songs-list { display: grid; gap: 2px; list-style: none; margin: 0 auto; max-width: 900px; padding: 0; }
+  .songs-list li {
+    align-items: center;
+    border-radius: 8px;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 220px) 44px;
+    padding: 4px 8px;
+  }
+  .songs-list li[hidden] { display: none; }
+  .songs-list li:hover { background: rgba(255, 255, 255, 0.04); }
+  .song-main { align-items: center; color: var(--text-primary); display: grid; gap: 10px; grid-template-columns: 36px minmax(0, 1fr); min-width: 0; }
+  .song-lists { display: flex; flex-wrap: wrap; gap: 4px; justify-content: flex-end; min-width: 0; }
+  .song-lists a, .song-lists span {
+    border: 1px solid var(--music-border);
+    border-radius: 6px;
+    color: var(--text-secondary);
+    font-size: 11px;
+    max-width: 120px;
+    overflow: hidden;
+    padding: 2px 6px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .song-lists a:hover { color: var(--music-color); }
+  @media (max-width: 640px) {
+    .songs-list li { grid-template-columns: minmax(0, 1fr) 40px; }
+    .song-lists { display: none; }
+  }
+</style>

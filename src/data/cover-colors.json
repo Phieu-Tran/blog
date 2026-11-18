@@ -3980,7 +3980,7 @@
   "color": "#81b7da"
  },
  "music/a-love-for-taylor-swift": {
-  "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8433d4c4ea9cf43b21107fc49e",
+  "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8433d4c4ea9cf43b21107fc49e",
   "color": "#eb8370"
  },
  "music/bai-hat-da-thich": {
@@ -4003,6 +4003,10 @@
   "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da848f87ee5428a4a9d78c23ec31",
   "color": null
  },
+ "music/ckam-kam-playlist": {
+  "cover": "https://mosaic.scdn.co/640/ab67616d00001e02203c89bd4391468eea4cc3f5ab67616d00001e0245108945892f2bae307486e1ab67616d00001e0271af28545729f60b3eca66f7ab67616d00001e02806c160566580d6335d1f16c",
+  "color": "#f3b968"
+ },
  "music/cuon": {
   "cover": "https://mosaic.scdn.co/640/ab67616d00001e026ca5c90113b30c3c43ffb8f4ab67616d00001e02d38a9c6e4fcfeb128f111f6bab67616d00001e02d9bcf5565005950b353bc9cfab67616d00001e02f7db43292a6a99b21b51d5b4",
   "color": "#da8d81"
@@ -4012,7 +4016,7 @@
   "color": "#79cde2"
  },
  "music/healing-playlist": {
-  "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84a687b80fb3f51dccbbedc3af",
+  "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84a687b80fb3f51dccbbedc3af",
   "color": "#da818f"
  },
  "music/hen-hat-cung": {
@@ -4043,6 +4047,10 @@
   "cover": "https://mosaic.scdn.co/640/ab67616d00001e023dbdbd0023f1e1c08cd5a6c9ab67616d00001e0255ef3902e9215876105bb1e2ab67616d00001e02ac93d8b1bd84fa6b5291ba21ab67616d00001e02fd0d9a33127c1d3f58ba3504",
   "color": "#f36b68"
  },
+ "music/love-black-pink": {
+  "cover": "https://mosaic.scdn.co/640/ab67616d00001e02273773a63f11a55524203ad9ab67616d00001e02b0bc4161fffa156cacafc128ab67616d00001e02d814e7bfbbfd8fcfe4c1a08bab67616d00001e02ff4ec21d7817138cabcc19bc",
+  "color": "#eb708c"
+ },
  "music/nay": {
   "cover": "https://i.scdn.co/image/ab67616d00001e0285aebaa968350fe9fae0a1e2",
   "color": "#da8a81"
@@ -4072,7 +4080,7 @@
   "color": "#daa081"
  },
  "music/suy-xiu-luon": {
-  "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da842718e8720adcd3ef2628c91c",
+  "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da842718e8720adcd3ef2628c91c",
   "color": "#8198da"
  },
  "music/viet-king": {
