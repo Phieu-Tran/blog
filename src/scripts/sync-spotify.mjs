@@ -105,15 +105,6 @@ async function fetchSavedAlbums(token) {
   return items;
 }
 
-async function fetchRecentAlbumIds(token) {
-  try {
-    const page = await api(token, '/me/player/recently-played?limit=50');
-    return new Set((page.items || []).map(item => item.track?.album?.id).filter(Boolean));
-  } catch {
-    return new Set();
-  }
-}
-
 // Album genres are usually empty on Spotify; fall back to the artists' genres (best effort).
 async function fetchArtistGenres(token, artistIds) {
   const genres = new Map();
@@ -150,80 +141,226 @@ function readExisting() {
   return bySpotifyId;
 }
 
+const TRACKS_FILE = path.resolve('src/data/spotify-tracks.json');
+const LIKED_ID = 'liked';
+// Fixed key order keeps diffs readable.
+const ORDER = ['title', 'original_title', 'en_title', 'aka', 'artist', 'kind', 'rating', 'genre', 'year', 'tracks', 'label',
+  'favorite_tracks', 'soundtrack_of', 'spotify_id', 'youtube_url', 'status', 'source', 'spotify_recent', 'cover', 'updated_at', 'date'];
+
+async function fetchRecent(token) {
+  try {
+    const page = await api(token, '/me/player/recently-played?limit=50');
+    const albums = new Set();
+    const playlists = new Set();
+    (page.items || []).forEach(item => {
+      if (item.track?.album?.id) albums.add(item.track.album.id);
+      const uri = item.context?.uri || '';
+      if (uri.startsWith('spotify:playlist:')) playlists.add(uri.split(':')[2]);
+      if (uri.endsWith(':collection')) playlists.add(LIKED_ID);
+    });
+    return { albums, playlists };
+  } catch {
+    return { albums: new Set(), playlists: new Set() };
+  }
+}
+
+// Newer Spotify apps read playlist contents from ".../items"; older ones from ".../tracks". Accept either.
+async function fetchPlaylistTracks(token, playlistId) {
+  const tracks = [];
+  let next = `/playlists/${playlistId}/items?limit=100`;
+  let triedLegacy = false;
+  while (next) {
+    let page;
+    try {
+      page = await api(token, next);
+    } catch (err) {
+      if (triedLegacy || tracks.length) throw err;
+      triedLegacy = true;
+      next = `/playlists/${playlistId}/tracks?limit=100`;
+      continue;
+    }
+    (page.items || []).forEach(entry => {
+      const track = entry.track || entry.item;
+      if (track && track.type === 'track' && track.id) tracks.push({ added_at: entry.added_at, track });
+    });
+    next = page.next;
+  }
+  return tracks;
+}
+
+async function fetchLikedTracks(token) {
+  const tracks = [];
+  let next = '/me/tracks?limit=50';
+  while (next) {
+    const page = await api(token, next);
+    (page.items || []).forEach(entry => entry.track?.id && tracks.push({ added_at: entry.added_at, track: entry.track }));
+    next = page.next;
+  }
+  return tracks;
+}
+
+async function fetchOwnPlaylists(token, myId) {
+  const playlists = [];
+  let next = '/me/playlists?limit=50';
+  while (next) {
+    const page = await api(token, next);
+    (page.items || []).forEach(p => p && p.owner?.id === myId && playlists.push(p));
+    next = page.next;
+  }
+  return playlists;
+}
+
+function slimTrack({ track }) {
+  const images = track.album?.images || [];
+  return {
+    id: track.id,
+    name: track.name,
+    artists: (track.artists || []).map(a => a.name).join(', '),
+    album: track.album?.name,
+    cover: (images[images.length - 1] || images[0])?.url,
+    duration_ms: track.duration_ms,
+  };
+}
+
+function topArtists(tracks, limit = 3) {
+  const counts = new Map();
+  tracks.forEach(({ track }) => (track.artists || []).forEach(a => counts.set(a.name, (counts.get(a.name) || 0) + 1)));
+  return [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, limit).map(([artistName]) => artistName);
+}
+
+function genresFor(artistIds, artistGenres) {
+  const counts = new Map();
+  artistIds.forEach(id => (artistGenres.get(id) || []).forEach(g => counts.set(g, (counts.get(g) || 0) + 1)));
+  return [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 3).map(([g]) => titleCase(g));
+}
+
+/** Create or update one entry; local rating / notes / favorites / links always survive. */
+function upsert(existing, stats, dryRun, { spotifyId, synced, kind, genres, isRecent, slugBase, date }) {
+  const prev = existing.get(spotifyId);
+  let data;
+  if (prev) {
+    const fm = prev.frontmatter;
+    let status = fm.status;
+    if (isRecent && status !== 'plan') status = 'listening';
+    else if (!isRecent && status === 'listening' && fm.spotify_recent === true) status = 'listened';
+    data = {
+      ...fm,
+      ...synced,
+      kind: fm.kind || kind,
+      genre: fm.genre && fm.genre !== 'N/A' ? fm.genre : (genres.join(', ') || 'N/A'),
+      status,
+    };
+  } else {
+    data = { ...synced, kind, rating: 0, genre: genres.join(', ') || 'N/A', status: isRecent ? 'listening' : 'listened', date };
+  }
+
+  const ordered = Object.fromEntries([...ORDER.filter(k => k in data), ...Object.keys(data).filter(k => !ORDER.includes(k))].map(k => [k, data[k]]));
+  const file = prev?.file || (() => {
+    let base = slugify(slugBase.name) || `spotify-${spotifyId}`;
+    if (fs.existsSync(path.join(MUSIC_DIR, `${base}.md`))) base = `${base}-${slugify(slugBase.suffix || spotifyId)}`;
+    return `${base}.md`;
+  })();
+  const body = prev?.body || '\n';
+  const next = buildFrontmatter(ordered) + body;
+  const filePath = path.join(MUSIC_DIR, file);
+  const before = prev ? fs.readFileSync(filePath, 'utf-8') : '';
+  if (next === before) { stats.unchanged++; return; }
+  if (!dryRun) fs.writeFileSync(filePath, next);
+  existing.set(spotifyId, { file, frontmatter: ordered, body });
+  if (prev) stats.updated++; else stats.created++;
+}
+
 export async function syncSpotify({ dryRun = false } = {}) {
   const name = 'Music (Spotify)';
   const token = await getAccessToken();
   if (!token) return { name, success: false, message: 'Missing SPOTIFY_CLIENT_ID / SPOTIFY_CLIENT_SECRET / SPOTIFY_REFRESH_TOKEN' };
 
+  const me = await api(token, '/me');
   const saved = await fetchSavedAlbums(token);
-  const recent = await fetchRecentAlbumIds(token);
-  const artistGenres = await fetchArtistGenres(token, saved.flatMap(item => item.album.artists.map(a => a.id)));
+  const recent = await fetchRecent(token);
+
+  // Playlists need the playlist-read-private scope; a token issued without it just skips them.
+  let playlists = [];
+  let playlistNote = '';
+  try {
+    playlists = await fetchOwnPlaylists(token, me.id);
+  } catch {
+    playlistNote = ' (playlists skipped: re-run npm run spotify-auth to grant playlist access)';
+  }
+  const playlistTracks = new Map();
+  for (const playlist of playlists) playlistTracks.set(playlist.id, await fetchPlaylistTracks(token, playlist.id));
+  const liked = await fetchLikedTracks(token);
+
+  const allArtistIds = [
+    ...saved.flatMap(item => item.album.artists.map(a => a.id)),
+    ...[...playlistTracks.values(), liked].flat().flatMap(({ track }) => (track.artists || []).map(a => a.id)),
+  ].filter(Boolean);
+  const artistGenres = await fetchArtistGenres(token, allArtistIds);
   const existing = readExisting();
   if (!fs.existsSync(MUSIC_DIR) && !dryRun) fs.mkdirSync(MUSIC_DIR, { recursive: true });
 
-  let created = 0, updated = 0, unchanged = 0;
+  const stats = { created: 0, updated: 0, unchanged: 0 };
+  const tracklists = {};
+
   for (const { added_at, album } of saved) {
-    const isRecent = recent.has(album.id);
-    const genres = [...new Set(album.artists.flatMap(a => artistGenres.get(a.id) || []))].slice(0, 3).map(titleCase);
-    const synced = {
-      title: album.name,
-      artist: album.artists.map(a => a.name).join(', '),
-      year: Number(String(album.release_date || '').slice(0, 4)) || new Date().getFullYear(),
-      tracks: album.total_tracks || undefined,
-      label: album.label || undefined,
-      spotify_id: album.id,
-      source: 'spotify',
-      spotify_recent: isRecent,
-      cover: album.images?.[0]?.url,
-    };
-
-    const prev = existing.get(album.id);
-    let data;
-    if (prev) {
-      const fm = prev.frontmatter;
-      let status = fm.status;
-      if (isRecent && status !== 'plan') status = 'listening';
-      else if (!isRecent && status === 'listening' && fm.spotify_recent === true) status = 'listened';
-      data = {
-        ...fm,
-        ...synced,
-        kind: fm.kind || guessKind(album),
-        genre: fm.genre && fm.genre !== 'N/A' ? fm.genre : (genres.join(', ') || 'N/A'),
-        status,
-      };
-    } else {
-      data = {
-        ...synced,
-        kind: guessKind(album),
-        rating: 0,
-        genre: genres.join(', ') || 'N/A',
-        status: isRecent ? 'listening' : 'listened',
-        date: String(added_at || new Date().toISOString()).slice(0, 10),
-      };
-    }
-
-    // Fixed key order keeps diffs readable.
-    const order = ['title', 'original_title', 'en_title', 'aka', 'artist', 'kind', 'rating', 'genre', 'year', 'tracks', 'label',
-      'favorite_tracks', 'soundtrack_of', 'spotify_id', 'youtube_url', 'status', 'source', 'spotify_recent', 'cover', 'updated_at', 'date'];
-    const ordered = Object.fromEntries([...order.filter(k => k in data), ...Object.keys(data).filter(k => !order.includes(k))].map(k => [k, data[k]]));
-
-    const file = prev?.file || (() => {
-      let base = slugify(`${album.name}`) || `album-${album.id}`;
-      if (fs.existsSync(path.join(MUSIC_DIR, `${base}.md`))) base = `${base}-${slugify(album.artists[0]?.name || album.id)}`;
-      return `${base}.md`;
-    })();
-    const next = buildFrontmatter(ordered) + (prev?.body || '\n');
-    const filePath = path.join(MUSIC_DIR, file);
-    const before = prev ? fs.readFileSync(filePath, 'utf-8') : '';
-    if (next === before) { unchanged++; continue; }
-    if (!dryRun) fs.writeFileSync(filePath, next);
-    if (prev) updated++; else created++;
+    upsert(existing, stats, dryRun, {
+      spotifyId: album.id,
+      synced: {
+        title: album.name,
+        artist: album.artists.map(a => a.name).join(', '),
+        year: Number(String(album.release_date || '').slice(0, 4)) || new Date().getFullYear(),
+        tracks: album.total_tracks || undefined,
+        label: album.label || undefined,
+        spotify_id: album.id,
+        source: 'spotify',
+        spotify_recent: recent.albums.has(album.id),
+        cover: album.images?.[0]?.url,
+      },
+      kind: guessKind(album),
+      genres: genresFor(album.artists.map(a => a.id), artistGenres),
+      isRecent: recent.albums.has(album.id),
+      slugBase: { name: album.name, suffix: album.artists[0]?.name },
+      date: String(added_at || new Date().toISOString()).slice(0, 10),
+    });
   }
+
+  const playlistSources = [
+    ...playlists.map(p => ({ id: p.id, title: p.name, cover: p.images?.[0]?.url, tracks: playlistTracks.get(p.id) || [] })),
+    ...(liked.length ? [{ id: LIKED_ID, title: 'Bài hát đã thích', cover: undefined, tracks: liked }] : []),
+  ];
+  for (const source of playlistSources) {
+    const addedDates = source.tracks.map(t => t.added_at).filter(Boolean).sort();
+    tracklists[source.id] = source.tracks.map(slimTrack);
+    upsert(existing, stats, dryRun, {
+      spotifyId: source.id,
+      synced: {
+        title: source.title,
+        artist: topArtists(source.tracks).join(', ') || 'Nhiều nghệ sĩ',
+        year: Number(String(addedDates[addedDates.length - 1] || new Date().toISOString()).slice(0, 4)),
+        tracks: source.tracks.length,
+        spotify_id: source.id,
+        source: 'spotify',
+        spotify_recent: recent.playlists.has(source.id),
+        // Liked Songs has no image of its own: borrow the newest track's album art.
+        cover: source.cover || source.tracks[0]?.track?.album?.images?.[0]?.url,
+      },
+      kind: 'playlist',
+      genres: genresFor(source.tracks.flatMap(({ track }) => (track.artists || []).map(a => a.id)), artistGenres),
+      isRecent: recent.playlists.has(source.id),
+      slugBase: { name: source.id === LIKED_ID ? 'bai-hat-da-thich' : source.title, suffix: 'playlist' },
+      date: String(addedDates[0] || new Date().toISOString()).slice(0, 10),
+    });
+  }
+
+  // Tracklists live in a data file so the markdown body stays free for your own notes.
+  const tracksJson = `${JSON.stringify(tracklists, null, 2)}\n`;
+  const tracksBefore = fs.existsSync(TRACKS_FILE) ? fs.readFileSync(TRACKS_FILE, 'utf-8') : '';
+  if (!dryRun && tracksJson !== tracksBefore) fs.writeFileSync(TRACKS_FILE, tracksJson);
 
   return {
     name,
     success: true,
-    message: `${saved.length} saved albums — ${created} new, ${updated} updated, ${unchanged} unchanged, ${recent.size} recently played${dryRun ? ' (dry run)' : ''}`,
+    message: `${saved.length} saved albums + ${playlistSources.length} playlists — ${stats.created} new, ${stats.updated} updated, ${stats.unchanged} unchanged, recent: ${recent.albums.size} albums / ${recent.playlists.size} playlists${playlistNote}${dryRun ? ' (dry run)' : ''}`,
   };
 }
 

@@ -146,7 +146,7 @@ const music = defineCollection({
     title: z.string(),
     ...altTitles,
     artist: z.string(),
-    kind: z.enum(['album', 'ep', 'single', 'ost', 'compilation']).default('album'),
+    kind: z.enum(['album', 'ep', 'single', 'ost', 'compilation', 'playlist']).default('album'),
     rating: z.number().min(0).max(10),
     genre: z.string(),
     year: z.number(),

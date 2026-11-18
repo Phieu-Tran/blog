@@ -43,6 +43,8 @@ jobs:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+          LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
+          LASTFM_USERNAME: ${{ vars.LASTFM_USERNAME }}
           SYNC_DELETE_MISSING: "true"
           SYNC_MAX_AUTO_DELETE: ${{ github.event.inputs.max_auto_delete || '20' }}
           SYNC_REPORT_DIR: ".sync"

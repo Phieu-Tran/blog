@@ -7,7 +7,7 @@
  * 3. npm run spotify-auth   → open the printed link, log in, approve.
  *
  * The refresh token is written to .env as SPOTIFY_REFRESH_TOKEN. It is never printed.
- * Scopes are read-only: saved albums + recently played.
+ * Scopes are read-only: saved albums, liked songs, recently played, playlists.
  */
 
 import fs from 'fs';
@@ -16,7 +16,8 @@ import crypto from 'crypto';
 
 const PORT = 8888;
 const REDIRECT_URI = `http://127.0.0.1:${PORT}/callback`;
-const SCOPES = ['user-library-read', 'user-read-recently-played'];
+// Read-only. Playlist scopes let sync collect albums that live in playlists rather than "saved albums".
+const SCOPES = ['user-library-read', 'user-read-recently-played', 'playlist-read-private', 'playlist-read-collaborative', 'user-top-read'];
 const ENV_FILE = '.env';
 
 const { SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET } = process.env;

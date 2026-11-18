@@ -22,6 +22,7 @@ import fs from 'fs';
 import path from 'path';
 import { distinctTitle, tmdbAltTitles } from './alt-titles.mjs';
 import { syncSpotify } from './sync-spotify.mjs';
+import { syncLastfm } from './sync-lastfm.mjs';
 import https from 'https';
 
 // ============================================
@@ -1220,6 +1221,13 @@ async function main() {
     results.push(await syncSpotify());
   } catch (err) {
     results.push({ name: 'Music (Spotify)', success: false, message: err.message });
+  }
+
+  // Step 4c: Listening history (Last.fm scrobbles → src/data/listening/<year>.jsonl)
+  try {
+    results.push(await syncLastfm());
+  } catch (err) {
+    results.push({ name: 'Listening history (Last.fm)', success: false, message: err.message });
   }
 
   // Step 5: Missing covers
