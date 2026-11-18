@@ -35,11 +35,11 @@ const glow = stored?.color && stored.cover === cover ? stored.color : undefined;
         onerror="if(this.dataset.fallback){this.src=this.dataset.fallback;delete this.dataset.fallback}else{this.hidden=true}"
       />
     )}
-    {rating > 0 ? (
+    {collection !== 'music' && (rating > 0 ? (
       <span class="shelf-score">{rating}</span>
     ) : (
       <span class="shelf-score is-empty">—</span>
-    )}
+    ))}
   </div>
   <p class="shelf-title">{title}</p>
   <p class="shelf-meta">{meta}</p>

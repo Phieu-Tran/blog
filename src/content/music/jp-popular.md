@@ -2,7 +2,6 @@
 title: "Jp Popular"
 artist: "Kenshi Yonezu, YOASOBI, Cliff Edge"
 kind: "playlist"
-rating: 0
 genre: "Japanese, J-Pop, J-Rock"
 year: 2026
 tracks: 124

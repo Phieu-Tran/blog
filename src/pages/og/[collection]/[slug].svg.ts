@@ -102,7 +102,6 @@ export async function getStaticPaths() {
         subtitle: `${entry.data.artist} - ${entry.data.year} - ${entry.data.genre}`,
         cover: entry.data.cover,
         accent: accents.music,
-        metric: entry.data.rating > 0 ? String(entry.data.rating) : undefined,
       } satisfies OgImageItem,
     },
   }));

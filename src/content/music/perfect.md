@@ -2,7 +2,6 @@
 title: "Perfect"
 artist: "Shiki, Obito, 14 Casper"
 kind: "playlist"
-rating: 0
 genre: "Vietnamese, Trance, Japanese"
 year: 2026
 tracks: 10

@@ -2,7 +2,6 @@
 title: "Indie"
 artist: "Billie Eilish, girl in red, Djo"
 kind: "playlist"
-rating: 0
 genre: "Indie Pop, Indie, Dream Pop"
 year: 2026
 tracks: 7

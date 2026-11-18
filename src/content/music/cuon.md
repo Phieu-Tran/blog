@@ -2,7 +2,6 @@
 title: "Cuốn"
 artist: "Eminem, Tyga, Offset"
 kind: "playlist"
-rating: 0
 genre: "Hip-Hop, Rap"
 year: 2024
 tracks: 12

@@ -2,7 +2,6 @@
 title: "Healing Playlist"
 artist: "Shiki, keshi, Obito"
 kind: "playlist"
-rating: 0
 genre: "Trance, Japanese, Electronic"
 year: 2025
 tracks: 6

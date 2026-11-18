@@ -83,7 +83,7 @@ export const GET: APIRoute = async () => {
       alt: altNames(item.data),
       type: 'music' as const,
       url: itemUrl('music', item.id),
-      rating: item.data.rating,
+      rating: 0, // music is never scored
       year: item.data.year,
       genre: `${item.data.genre}, ${item.data.artist}`,
       status: item.data.status,

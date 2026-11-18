@@ -7,7 +7,6 @@ import { searchText } from '../../lib/altTitles';
 const allMusic = (await getCollection('music')).sort(
   (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
 );
-const top10 = [...allMusic].filter(m => m.data.rating > 0).sort((a, b) => b.data.rating - a.data.rating).slice(0, 10);
 const genres = [...new Set(allMusic.flatMap(m => m.data.genre.split(',').map(g => g.trim())).filter(Boolean))].sort();
 const listening = allMusic.filter(m => m.data.status === 'listening');
 const listenedCount = allMusic.filter(m => m.data.status === 'listened').length;
@@ -47,28 +46,6 @@ const kindLabel = { album: 'Album', ep: 'EP', single: 'Single', ost: 'OST', comp
         </div>
       </section>
 
-      {top10.length > 0 && (
-        <section class="reveal" style="margin-bottom: 32px;">
-          <p class="section-label">Top 10 — Điểm cao nhất</p>
-          <hr class="section-divider" />
-          <div class="top-carousel music-carousel">
-            {top10.map((item, i) => (
-              <a href={`${base}music/${item.id}/`} class="top-card" data-type="music">
-                <span class="top-rank">#{i + 1}</span>
-                <span class="cover-fallback">{item.data.title.slice(0, 1)}</span>
-                {item.data.cover && <img src={item.data.cover} alt={item.data.title} loading="lazy" decoding="async" onerror="this.hidden=true" />}
-                <div class="top-overlay">
-                  <p class="top-title">{item.data.title}</p>
-                  <div class="top-scores">
-                    <span class="top-score" style="color: var(--music-color);">{item.data.rating}<small>/10</small></span>
-                    <span class="top-score-sub">{item.data.artist}</span>
-                  </div>
-                </div>
-              </a>
-            ))}
-          </div>
-        </section>
-      )}
 
       <section style="margin-bottom: 24px;">
         <div class="filter-bar">
@@ -88,7 +65,6 @@ const kindLabel = { album: 'Album', ep: 'EP', single: 'Single', ost: 'OST', comp
             <option value="plan">Muốn nghe</option>
           </select>
           <select id="sort-filter" class="filter-select">
-            <option value="rating">Điểm ↓</option>
             <option value="date">Mới nhất</option>
             <option value="title">A → Z</option>
             <option value="year">Năm ↓</option>
@@ -107,13 +83,12 @@ const kindLabel = { album: 'Album', ep: 'EP', single: 'Single', ost: 'OST', comp
             data-genre={item.data.genre.toLowerCase()}
             data-kind={item.data.kind}
             data-status={item.data.status}
-            data-rating={item.data.rating}
             data-year={item.data.year}
             data-date={new Date(item.data.date).getTime()}>
             <MediaCard
               title={item.data.title}
               type="music"
-              rating={item.data.rating}
+              rating={0}
               genre={item.data.artist}
               year={item.data.year}
               cover={item.data.cover}
@@ -155,7 +130,6 @@ const kindLabel = { album: 'Album', ep: 'EP', single: 'Single', ost: 'OST', comp
         const sv = sort!.value;
         const items = [...grid!.querySelectorAll('.filter-item')] as HTMLElement[];
         items.sort((a, b) => {
-          if (sv === 'rating') return parseFloat(b.dataset.rating!) - parseFloat(a.dataset.rating!);
           if (sv === 'title') return a.dataset.title!.localeCompare(b.dataset.title!);
           if (sv === 'year') return parseInt(b.dataset.year!) - parseInt(a.dataset.year!);
           return parseFloat(b.dataset.date!) - parseFloat(a.dataset.date!);
@@ -181,7 +155,7 @@ const kindLabel = { album: 'Album', ep: 'EP', single: 'Single', ost: 'OST', comp
         setParam('genre', genre!.value);
         setParam('kind', kind!.value);
         setParam('status', status!.value);
-        setParam('sort', sort!.value, 'rating');
+        setParam('sort', sort!.value, 'date');
         window.history.replaceState({}, '', `${url.pathname}${url.search}${url.hash}`);
       }
 

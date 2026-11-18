@@ -2,7 +2,6 @@
 title: "Kpop"
 artist: "BIGBANG, G-DRAGON, Red Velvet"
 kind: "playlist"
-rating: 0
 genre: "K-Pop, Korean"
 year: 2024
 tracks: 235

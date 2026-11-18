@@ -2,7 +2,6 @@
 title: "Việt King"
 artist: "Sơn Tùng M-TP, Lou Hoàng, Only C"
 kind: "playlist"
-rating: 0
 genre: "Vietnamese, V-Pop, Pop"
 year: 2024
 tracks: 168

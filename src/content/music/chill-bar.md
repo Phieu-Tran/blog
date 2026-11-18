@@ -2,7 +2,6 @@
 title: "Chill bar"
 artist: "Hustlang Robber, RAP VIỆT, Winno"
 kind: "playlist"
-rating: 0
 genre: "Hip-Hop, Rap, Trap"
 year: 2025
 tracks: 4

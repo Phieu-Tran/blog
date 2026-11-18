@@ -2,7 +2,6 @@
 title: "Karaoke OZ"
 artist: "Sơn Tùng M-TP, Noo Phước Thịnh, Karik"
 kind: "playlist"
-rating: 0
 genre: "Vietnamese, V-Pop"
 year: 2026
 tracks: 175

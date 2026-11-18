@@ -2,7 +2,6 @@
 title: "Hẹn hát cùng"
 artist: "Passenger, JustaTee, BigDaddy"
 kind: "playlist"
-rating: 0
 genre: "Pop, Folk, Alternative Metal"
 year: 2025
 tracks: 3

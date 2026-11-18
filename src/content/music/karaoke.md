@@ -2,7 +2,6 @@
 title: "Karaoke"
 artist: "Trung Quân, Miu Lê, Sơn Tùng M-TP"
 kind: "playlist"
-rating: 0
 genre: "Vietnamese, Pop"
 year: 2024
 tracks: 34

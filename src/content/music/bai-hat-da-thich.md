@@ -2,7 +2,6 @@
 title: "Bài hát đã thích"
 artist: "Taylor Swift, d4vd, Justin Bieber"
 kind: "playlist"
-rating: 0
 genre: "Pop, R&B, Rap"
 year: 2026
 tracks: 63

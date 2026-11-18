@@ -2,7 +2,6 @@
 title: "Suy rap"
 artist: "JustaTee, LK, Obito"
 kind: "playlist"
-rating: 0
 genre: "Vietnamese, Pop, R&B"
 year: 2026
 tracks: 25

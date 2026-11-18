@@ -2,7 +2,6 @@
 title: "A love for Taylor Swift."
 artist: "Taylor Swift, Joy Williams, John Paul White"
 kind: "playlist"
-rating: 0
 genre: "Pop, Acoustic, Country"
 year: 2024
 tracks: 32

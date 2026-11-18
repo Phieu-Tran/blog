@@ -2,7 +2,6 @@
 title: "Nay"
 artist: "VSOUL, MFREE, TUYEN VO"
 kind: "playlist"
-rating: 0
 genre: "Rap, Post-Rock, Instrumental"
 year: 2025
 tracks: 2

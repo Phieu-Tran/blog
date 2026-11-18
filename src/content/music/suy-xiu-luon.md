@@ -2,7 +2,6 @@
 title: "Suy xỉu luôn"
 artist: "Noo Phước Thịnh, ANH TRAI \"SAY HI\", Dương Yến Phi"
 kind: "playlist"
-rating: 0
 genre: "Vietnamese, Pop"
 year: 2025
 tracks: 51

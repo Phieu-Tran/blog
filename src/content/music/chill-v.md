@@ -2,7 +2,6 @@
 title: "Chill V"
 artist: "The Masked Singer, Lâm Bảo Ngọc, Hứa Kim Tuyền"
 kind: "playlist"
-rating: 0
 genre: "Vietnamese, Pop"
 year: 2024
 tracks: 8

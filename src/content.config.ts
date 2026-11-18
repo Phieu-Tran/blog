@@ -147,7 +147,7 @@ const music = defineCollection({
     ...altTitles,
     artist: z.string(),
     kind: z.enum(['album', 'ep', 'single', 'ost', 'compilation', 'playlist']).default('album'),
-    rating: z.number().min(0).max(10),
+    // No rating: music is tracked by listening (Spotify top, Last.fm), never scored.
     genre: z.string(),
     year: z.number(),
     tracks: z.number().optional(),

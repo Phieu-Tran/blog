@@ -2,7 +2,6 @@
 title: "Việtlish"
 artist: "W/N, Duongg, Low G"
 kind: "playlist"
-rating: 0
 genre: "Vietnamese, Rap"
 year: 2024
 tracks: 59

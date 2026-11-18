@@ -2,7 +2,6 @@
 title: "Dễ nghe"
 artist: "JustaTee, Binz, BigDaddy"
 kind: "playlist"
-rating: 0
 genre: "Pop, Vietnamese, R&B"
 year: 2025
 tracks: 5

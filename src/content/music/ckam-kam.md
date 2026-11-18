@@ -2,7 +2,6 @@
 title: "Ckầm kảm"
 artist: "XXXTENTACION, Billie Eilish, NEFFEX"
 kind: "playlist"
-rating: 0
 genre: "Hip-Hop, Rap, Pop"
 year: 2025
 tracks: 73

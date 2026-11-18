@@ -2,7 +2,6 @@
 title: "rap V"
 artist: "Wxrdie, Low G, Karik"
 kind: "playlist"
-rating: 0
 genre: "Rap, Vietnamese, Hip-Hop"
 year: 2025
 tracks: 30

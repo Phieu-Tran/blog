@@ -39,10 +39,6 @@ const sections: Section[] = [
     // Plan-to-read books have no score yet; they still count for genres and decades.
     items: books.map(e => ({ rating: e.data.rating, genre: e.data.genre, year: e.data.year, community: e.data.goodreads_score ? e.data.goodreads_score * 2 : undefined })),
   },
-  {
-    key: 'music', label: 'Nhạc', color: 'var(--music-color)', href: `${base}music/`, communityLabel: 'cộng đồng',
-    items: music.map(e => ({ rating: e.data.rating, genre: e.data.genre, year: e.data.year })),
-  },
 ];
 
 const fmt = (value: number, digits = 0) =>

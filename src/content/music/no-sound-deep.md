@@ -2,7 +2,6 @@
 title: "No Sound Deep"
 artist: "Kordhell, Lowx, Hiboky"
 kind: "playlist"
-rating: 0
 genre: "Phonk, Electronic, Witch House"
 year: 2024
 tracks: 15

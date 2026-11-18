@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { periodStart, playCount, topByPlays, plays } from '../../lib/listening';
 
 // Written by sync-spotify (needs the user-top-read scope); optional so the site builds before the first sync.
 type TopTrack = { id: string; name: string; artists: string; album?: string; cover?: string; prev?: number | null };
@@ -38,19 +39,86 @@ const change = (rank: number, prev?: number | null) => {
 // Open on the shortest range that has data (4 weeks / 6 months are empty after a quiet period).
 const startRange = ranges.find(r => (top?.tracks[r.key]?.length || 0) + (top?.artists[r.key]?.length || 0) > 0)?.key || 'short_term';
 const emptyNote = 'Spotify chưa có đủ lượt nghe trong khoảng này để xếp hạng.';
+// Play-count charts (Last.fm log): calendar periods in UTC+7.
+const playPeriods = [
+  { key: 'week', label: 'Tuần này' },
+  { key: 'month', label: 'Tháng này' },
+  { key: 'year', label: 'Năm nay' },
+  { key: 'all', label: 'Từ trước tới nay' },
+] as const;
+const playKinds = [
+  { key: 'tracks', label: 'Bài hát' },
+  { key: 'artists', label: 'Nghệ sĩ' },
+  { key: 'albums', label: 'Album' },
+] as const;
+const playBoards = playPeriods.map(period => {
+  const since = periodStart(period.key);
+  return {
+    ...period,
+    total: playCount(since),
+    lists: Object.fromEntries(playKinds.map(kind => [kind.key, topByPlays(kind.key, since)])) as Record<string, ReturnType<typeof topByPlays>>,
+  };
+});
+const firstPlay = plays[0] ? new Date(plays[0].ts * 1000).toLocaleDateString('vi-VN') : '';
 const fmtDate = (iso?: string) => (iso ? new Date(iso).toLocaleDateString('vi-VN') : '');
 ---
 
-<BaseLayout title="Top nghe nhiều" description="Bài hát, nghệ sĩ và thể loại mình nghe nhiều nhất trên Spotify" activeNav="music">
+<BaseLayout title="Top nghe nhiều" description="Bài hát, nghệ sĩ và album mình nghe nhiều nhất, theo số lượt nghe" activeNav="music">
   <a href={`${base}music/`} class="detail-back">Về kệ nhạc</a>
   <header class="top-head">
-    <p class="section-label">Spotify</p>
+    <p class="section-label">Nhạc</p>
     <h1>Top nghe nhiều</h1>
-    {top && (
-      <p class="top-meta">
-        Cập nhật {fmtDate(top.updated)}{top.previous_updated && <> · mũi tên so với {fmtDate(top.previous_updated)}</>}
-      </p>
-    )}
+    <p class="top-meta">{plays.length > 0 ? <>Theo số lượt nghe (Last.fm) · {plays.length.toLocaleString('vi-VN')} lượt từ {firstPlay}</> : 'Theo số lượt nghe (Last.fm)'}</p>
+  </header>
+
+  <section class="plays-board" data-kind="tracks" data-period="week">
+    <div class="top-controls">
+      <div class="top-tabs" role="tablist" aria-label="Loại">
+        {playKinds.map((kind, i) => (
+          <button type="button" class={`top-tab ${i === 0 ? 'active' : ''}`} data-plays-kind={kind.key} role="tab" aria-selected={i === 0 ? 'true' : 'false'}>{kind.label}</button>
+        ))}
+      </div>
+      <div class="top-ranges plays-periods" role="tablist" aria-label="Khoảng thời gian">
+        {playPeriods.map((period, i) => (
+          <button type="button" class={`top-range ${i === 0 ? 'active' : ''}`} data-plays-period={period.key} role="tab" aria-selected={i === 0 ? 'true' : 'false'}>{period.label}</button>
+        ))}
+      </div>
+    </div>
+
+    {playBoards.map(board => playKinds.map(kind => (
+      <div class="plays-panel" data-for-kind={kind.key} data-for-period={board.key} hidden={!(kind.key === 'tracks' && board.key === 'week')}>
+        <p class="plays-total">{board.total.toLocaleString('vi-VN')} lượt nghe · {board.label.toLowerCase()}</p>
+        {board.lists[kind.key].length === 0 ? (
+          <p class="top-genres-empty">
+            {plays.length === 0
+              ? 'Chưa có lượt nghe nào. Last.fm bắt đầu ghi từ lúc kết nối với Spotify, nghe vài bài là sẽ có.'
+              : 'Chưa có lượt nghe nào trong khoảng này.'}
+          </p>
+        ) : (
+          <ol class="plays-list">
+            {board.lists[kind.key].map((row, i) => (
+              <li>
+                <span class="top-rank-no">{i + 1}</span>
+                <span class="top-track-copy">
+                  <strong>{row.title}</strong>
+                  {row.subtitle && <small>{row.subtitle}</small>}
+                </span>
+                <span class="plays-count">{row.count} <small>lượt</small></span>
+              </li>
+            ))}
+          </ol>
+        )}
+      </div>
+    )))}
+  </section>
+
+  <header class="top-head spotify-head">
+    <p class="section-label">Spotify</p>
+    <h2>Xếp hạng của Spotify</h2>
+    <p class="top-meta">
+      Spotify chỉ cho thứ hạng, không cho số lượt nghe.
+      {top && <> Cập nhật {fmtDate(top.updated)}{top.previous_updated && <> · mũi tên so với {fmtDate(top.previous_updated)}</>}</>}
+    </p>
   </header>
 
   {!top ? (
@@ -149,12 +217,53 @@ const fmtDate = (iso?: string) => (iso ? new Date(iso).toLocaleDateString('vi-VN
   }
   initTopBoard();
   document.addEventListener('astro:page-load', initTopBoard);
+
+  function initPlaysBoard() {
+    const board = document.querySelector<HTMLElement>('.plays-board');
+    if (!board || board.dataset.bound === 'true') return;
+    board.dataset.bound = 'true';
+    const render = () => {
+      board.querySelectorAll<HTMLElement>('.plays-panel').forEach(panel => {
+        panel.hidden = !(panel.dataset.forKind === board.dataset.kind && panel.dataset.forPeriod === board.dataset.period);
+      });
+      board.querySelectorAll<HTMLButtonElement>('[data-plays-kind]').forEach(btn => {
+        const on = btn.dataset.playsKind === board.dataset.kind;
+        btn.classList.toggle('active', on);
+        btn.setAttribute('aria-selected', on ? 'true' : 'false');
+      });
+      board.querySelectorAll<HTMLButtonElement>('[data-plays-period]').forEach(btn => {
+        const on = btn.dataset.playsPeriod === board.dataset.period;
+        btn.classList.toggle('active', on);
+        btn.setAttribute('aria-selected', on ? 'true' : 'false');
+      });
+    };
+    board.querySelectorAll<HTMLButtonElement>('[data-plays-kind]').forEach(btn => btn.addEventListener('click', () => { board.dataset.kind = btn.dataset.playsKind!; render(); }));
+    board.querySelectorAll<HTMLButtonElement>('[data-plays-period]').forEach(btn => btn.addEventListener('click', () => { board.dataset.period = btn.dataset.playsPeriod!; render(); }));
+  }
+  initPlaysBoard();
+  document.addEventListener('astro:page-load', initPlaysBoard);
 </script>
 
 <style>
   .top-head { margin: 4px 0 22px; text-align: center; }
   .top-head h1 { font-size: clamp(28px, 4.5vw, 42px); font-weight: 800; margin: 4px 0 6px; }
   .top-meta { color: var(--text-muted); font-size: 13px; }
+  .spotify-head { margin-top: 48px; }
+  .spotify-head h2 { font-size: clamp(22px, 3.4vw, 30px); font-weight: 800; margin: 4px 0 6px; }
+  .top-ranges.plays-periods { grid-template-columns: repeat(4, 1fr); }
+  .plays-total { color: var(--text-muted); font-family: 'Space Mono', monospace; font-size: 12px; margin: 0 auto 10px; max-width: 820px; text-align: right; }
+  .plays-list { display: grid; gap: 4px; list-style: none; margin: 0 auto; max-width: 820px; padding: 0; }
+  .plays-list li {
+    align-items: center;
+    border-radius: 10px;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 28px minmax(0, 1fr) auto;
+    padding: 8px 10px;
+  }
+  .plays-list li:nth-child(-n+3) { background: rgba(250, 204, 21, 0.05); }
+  .plays-count { color: var(--music-color); font-family: 'Space Mono', monospace; font-size: 14px; font-weight: 700; }
+  .plays-count small { color: var(--text-muted); font-size: 10px; font-weight: 400; }
 
   .top-controls {
     background: var(--glass-bg);

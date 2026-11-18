@@ -2,7 +2,6 @@
 title: "Best of usuk"
 artist: "Taylor Swift, Justin Bieber, Katy Perry"
 kind: "playlist"
-rating: 0
 genre: "Pop, R&B, Indie"
 year: 2025
 tracks: 474

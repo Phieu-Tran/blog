@@ -98,7 +98,8 @@ const shelves = [
   },
   {
     key: 'music', label: 'Nhạc', href: 'music/', count: allMusic.length, color: 'var(--music-color)',
-    recent: byDate(allMusic).slice(0, SHELF_SIZE), top: byRating(allMusic).slice(0, SHELF_SIZE),
+    // Music is never scored: both views show the newest entries and the tabs are hidden.
+    recent: byDate(allMusic).slice(0, SHELF_SIZE), top: byDate(allMusic).slice(0, SHELF_SIZE),
     meta: (e: (typeof allMusic)[number]) => `${e.data.artist} — ${e.data.year}`,
   },
 ] as const;
@@ -279,7 +280,7 @@ const socials = [
           {shelf.label}
           <span class="shelf-count">{shelf.count}</span>
         </a>
-        {shelf.count > 0 && (
+        {shelf.count > 0 && shelf.key !== 'music' && (
           <div class="shelf-tabs" role="tablist" aria-label={`${shelf.label} view`}>
             <button type="button" class="shelf-tab active" data-view="recent" role="tab" aria-selected="true">Mới thêm</button>
             <button type="button" class="shelf-tab" data-view="top" role="tab" aria-selected="false">Điểm cao</button>
@@ -309,7 +310,7 @@ const socials = [
                   slug={entry.id}
                   title={entry.data.title}
                   cover={entry.data.cover}
-                  rating={entry.data.rating}
+                  rating={'rating' in entry.data ? Number(entry.data.rating) || 0 : 0}
                   meta={(shelf.meta as (e: typeof entry) => string)(entry)}
                 />
               ))}

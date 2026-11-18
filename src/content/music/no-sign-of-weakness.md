@@ -2,7 +2,6 @@
 title: "No Sign Of Weakness"
 artist: "Burna Boy"
 kind: "album"
-rating: 0
 genre: "Rap, Nigeria, Hip-Hop"
 year: 2025
 tracks: 16

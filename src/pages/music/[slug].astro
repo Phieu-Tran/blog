@@ -18,7 +18,6 @@ const {
   title,
   artist,
   kind,
-  rating,
   genre,
   year,
   tracks,
@@ -34,7 +33,6 @@ const {
 
 const relatedPosts = allPosts.filter(post => postMatchesMedia(post, 'music', entry.id));
 const ogImage = `${base}og/music/${entry.id}.svg`;
-const myStars = Math.round(rating / 2);
 const kindLabel = { album: 'Album', ep: 'EP', single: 'Single', ost: 'OST', compilation: 'Tuyển tập', playlist: 'Playlist' }[kind];
 const isPlaylist = kind === 'playlist';
 const statusLabel = { listening: 'Đang nghe', listened: 'Đã nghe', plan: 'Muốn nghe' }[status];
@@ -116,17 +114,6 @@ const metaItems = [
         <h1 class="detail-title">{title}</h1>
         <p class="detail-subtitle">{artist} - {year}{genre ? ` - ${genre}` : ''}</p>
 
-        <section class="detail-score-grid" aria-label="Music score">
-          <div class="detail-score-card">
-            <p>My Score</p>
-            <span class="detail-score-value" style="color:var(--star-color);">{rating > 0 ? rating : '-'}</span>
-            <div class="stars">
-              {[...Array(5)].map((_, i) => (
-                <span class={i < myStars ? 'star-on' : 'star-off'}>&#9733;</span>
-              ))}
-            </div>
-          </div>
-        </section>
 
         {sources.length > 0 && (
           <nav class="music-sources" aria-label="Nhạc của">

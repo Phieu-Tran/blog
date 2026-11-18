@@ -5,7 +5,7 @@
  *
  * - Identity anchor: spotify_id. Files are matched by it, never by title.
  * - Sync owns: title, artist, year, tracks, label, cover, spotify_id, source, spotify_recent.
- * - Sync never overwrites local: rating, favorite_tracks, soundtrack_of, aka, body notes,
+ * - Music is never scored (no rating field). Sync never overwrites local: favorite_tracks, soundtrack_of, aka, body notes,
  *   and only fills genre / kind when they are missing (so a manual "ost" stays "ost").
  * - Status: new albums start as "listened" ("listening" if played recently). An album Spotify
  *   reports in recently-played becomes "listening"; when it drops out of that list, a
@@ -205,7 +205,7 @@ function readExisting() {
 const TRACKS_FILE = path.resolve('src/data/spotify-tracks.json');
 const LIKED_ID = 'liked';
 // Fixed key order keeps diffs readable.
-const ORDER = ['title', 'original_title', 'en_title', 'aka', 'artist', 'kind', 'rating', 'genre', 'year', 'tracks', 'label',
+const ORDER = ['title', 'original_title', 'en_title', 'aka', 'artist', 'kind', 'genre', 'year', 'tracks', 'label',
   'favorite_tracks', 'soundtrack_of', 'spotify_id', 'youtube_url', 'status', 'source', 'spotify_recent', 'cover', 'updated_at', 'date'];
 
 async function fetchRecent(token) {
@@ -371,9 +371,10 @@ function upsert(existing, stats, dryRun, { spotifyId, synced, kind, genres, isRe
       status,
     };
   } else {
-    data = { ...synced, kind, rating: 0, genre: genres.join(', ') || 'N/A', status: isRecent ? 'listening' : 'listened', date };
+    data = { ...synced, kind, genre: genres.join(', ') || 'N/A', status: isRecent ? 'listening' : 'listened', date };
   }
 
+  delete data.rating; // music is never scored
   const ordered = Object.fromEntries([...ORDER.filter(k => k in data), ...Object.keys(data).filter(k => !ORDER.includes(k))].map(k => [k, data[k]]));
   const file = prev?.file || (() => {
     let base = slugify(slugBase.name) || `spotify-${spotifyId}`;

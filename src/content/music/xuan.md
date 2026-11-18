@@ -2,7 +2,6 @@
 title: "Xuân"
 artist: "Hoà Minzy, Lăng LD"
 kind: "playlist"
-rating: 0
 genre: "Pop, Vietnamese"
 year: 2025
 tracks: 1

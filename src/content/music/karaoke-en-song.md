@@ -2,7 +2,6 @@
 title: "Karaoke EN Song"
 artist: "Sia, P!nk, Nate Ruess"
 kind: "playlist"
-rating: 0
 genre: "Indie, Pop, Chillout"
 year: 2024
 tracks: 2

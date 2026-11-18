@@ -12,7 +12,7 @@ const base = import.meta.env.BASE_URL;
 const key = mediaRelationKey(collection, id);
 const albums = (await getMusicCollection())
   .filter(album => relationKeysFromList(album.data.soundtrack_of).includes(key))
-  .sort((a, b) => b.data.rating - a.data.rating || a.data.title.localeCompare(b.data.title));
+  .sort((a, b) => a.data.title.localeCompare(b.data.title));
 ---
 
 {albums.length > 0 && (
@@ -30,7 +30,6 @@ const albums = (await getMusicCollection())
             <strong>{album.data.title}</strong>
             <small>{album.data.artist} · {album.data.year}</small>
           </span>
-          {album.data.rating > 0 && <span class="soundtrack-score">{album.data.rating}</span>}
         </a>
       ))}
     </div>

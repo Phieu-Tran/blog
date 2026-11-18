@@ -279,7 +279,7 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
               <small>${altHit ? `${escapeHtml(altHit)} · ` : ''}${escapeHtml(primaryGenre)} - ${escapeHtml(String(item.year || 'N/A'))}</small>
             </span>
             <span class="badge ${badgeClass}">${typeLabel(item.type)}</span>
-            <span class="global-search-score">${escapeHtml(String(item.rating || 0))}</span>
+            ${item.type === 'music' ? '' : `<span class="global-search-score">${escapeHtml(String(item.rating || 0))}</span>`}
           </a>
         `;
       }).join('');

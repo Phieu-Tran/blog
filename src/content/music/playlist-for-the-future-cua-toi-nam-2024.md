@@ -2,7 +2,6 @@
 title: "Playlist for the Future của tôi năm 2024"
 artist: "Olivia Rodrigo, Lana Del Rey, BIGBANG"
 kind: "playlist"
-rating: 0
 genre: "Pop, Pop Rock, Rock"
 year: 2025
 tracks: 4
