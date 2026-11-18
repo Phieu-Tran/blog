@@ -9,15 +9,17 @@ const accents = {
   films: '#FB923C',
   posts: '#38BDF8',
   books: '#F472B6',
+  music: '#FACC15',
 };
 
 export async function getStaticPaths() {
-  const [posts, anime, games, films, books] = await Promise.all([
+  const [posts, anime, games, films, books, music] = await Promise.all([
     getCollection('posts'),
     getCollection('anime'),
     getCollection('games'),
     getCollection('films'),
     getCollection('books'),
+    getCollection('music'),
   ]);
 
   const postPaths = posts
@@ -91,7 +93,21 @@ export async function getStaticPaths() {
     },
   }));
 
-  return [...postPaths, ...animePaths, ...gamePaths, ...filmPaths, ...bookPaths];
+  const musicPaths = music.map(entry => ({
+    params: { collection: 'music', slug: entry.id },
+    props: {
+      item: {
+        title: entry.data.title,
+        eyebrow: 'Nhạc',
+        subtitle: `${entry.data.artist} - ${entry.data.year} - ${entry.data.genre}`,
+        cover: entry.data.cover,
+        accent: accents.music,
+        metric: entry.data.rating > 0 ? String(entry.data.rating) : undefined,
+      } satisfies OgImageItem,
+    },
+  }));
+
+  return [...postPaths, ...animePaths, ...gamePaths, ...filmPaths, ...bookPaths, ...musicPaths];
 }
 
 export const GET: APIRoute = ({ props, site }) => {

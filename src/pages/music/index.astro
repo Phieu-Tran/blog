@@ -1,0 +1,195 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import MediaCard from '../../components/MediaCard.astro';
+import { getCollection } from 'astro:content';
+import { searchText } from '../../lib/altTitles';
+
+const allMusic = (await getCollection('music')).sort(
+  (a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()
+);
+const top10 = [...allMusic].filter(m => m.data.rating > 0).sort((a, b) => b.data.rating - a.data.rating).slice(0, 10);
+const genres = [...new Set(allMusic.flatMap(m => m.data.genre.split(',').map(g => g.trim())).filter(Boolean))].sort();
+const listening = allMusic.filter(m => m.data.status === 'listening');
+const listenedCount = allMusic.filter(m => m.data.status === 'listened').length;
+const ostCount = allMusic.filter(m => m.data.kind === 'ost').length;
+const artistCount = new Set(allMusic.map(m => m.data.artist)).size;
+const base = import.meta.env.BASE_URL;
+const kindLabel = { album: 'Album', ep: 'EP', single: 'Single', ost: 'OST', compilation: 'Tuyển tập' } as const;
+---
+
+<BaseLayout title="Nhạc" description="Những album, EP và nhạc phim mình nghe" activeNav="music">
+  <h1 class="sr-only">Nhạc</h1>
+
+  {allMusic.length === 0 ? (
+    <section class="books-empty music-theme reveal">
+      <div class="books-empty-icon" aria-hidden="true">
+        <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 18V5l12-2v13"/>
+          <circle cx="6" cy="18" r="3"/>
+          <circle cx="18" cy="16" r="3"/>
+        </svg>
+      </div>
+      <p class="books-empty-title">Kệ nhạc đang được sắp xếp</p>
+      <p class="books-empty-desc">Album và nhạc phim sẽ sớm có mặt ở đây.</p>
+    </section>
+  ) : (
+    <>
+      <section class="reveal" style="margin-bottom: 28px;">
+        <div class="books-summary music-theme">
+          <div class="books-summary-item"><strong>{allMusic.length}</strong><span>Tổng số</span></div>
+          <div class="books-summary-item"><strong>{listenedCount}</strong><span>Đã nghe</span></div>
+          <div class="books-summary-item"><strong>{listening.length}</strong><span>Đang nghe</span></div>
+          <div class="books-summary-item"><strong>{artistCount}</strong><span>Nghệ sĩ</span></div>
+          {ostCount > 0 && <div class="books-summary-item"><strong>{ostCount}</strong><span>Nhạc phim</span></div>}
+        </div>
+      </section>
+
+      {top10.length > 0 && (
+        <section class="reveal" style="margin-bottom: 32px;">
+          <p class="section-label">Top 10 — Điểm cao nhất</p>
+          <hr class="section-divider" />
+          <div class="top-carousel music-carousel">
+            {top10.map((item, i) => (
+              <a href={`${base}music/${item.id}/`} class="top-card" data-type="music">
+                <span class="top-rank">#{i + 1}</span>
+                <span class="cover-fallback">{item.data.title.slice(0, 1)}</span>
+                {item.data.cover && <img src={item.data.cover} alt={item.data.title} loading="lazy" decoding="async" onerror="this.hidden=true" />}
+                <div class="top-overlay">
+                  <p class="top-title">{item.data.title}</p>
+                  <div class="top-scores">
+                    <span class="top-score" style="color: var(--music-color);">{item.data.rating}<small>/10</small></span>
+                    <span class="top-score-sub">{item.data.artist}</span>
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+      )}
+
+      <section style="margin-bottom: 24px;">
+        <div class="filter-bar">
+          <input type="text" id="search" class="filter-input" placeholder="Tìm album, nghệ sĩ, bài hát..." autocomplete="off" />
+          <select id="genre-filter" class="filter-select">
+            <option value="">Tất cả thể loại</option>
+            {genres.map(g => <option value={g}>{g}</option>)}
+          </select>
+          <select id="kind-filter" class="filter-select">
+            <option value="">Tất cả loại</option>
+            {Object.entries(kindLabel).map(([value, label]) => <option value={value}>{label}</option>)}
+          </select>
+          <select id="status-filter" class="filter-select">
+            <option value="">Tất cả trạng thái</option>
+            <option value="listening">Đang nghe</option>
+            <option value="listened">Đã nghe</option>
+            <option value="plan">Muốn nghe</option>
+          </select>
+          <select id="sort-filter" class="filter-select">
+            <option value="rating">Điểm ↓</option>
+            <option value="date">Mới nhất</option>
+            <option value="title">A → Z</option>
+            <option value="year">Năm ↓</option>
+          </select>
+        </div>
+        <p class="section-label" style="margin-top: 16px;">
+          Kệ nhạc — <span id="count">{allMusic.length}</span> album
+        </p>
+      </section>
+
+      <div class="media-grid music-grid" id="media-grid" data-filter-page="music">
+        {allMusic.map((item, i) => (
+          <div class="filter-item"
+            data-title={item.data.title.toLowerCase()}
+            data-search={searchText(item.data.title, item.data, item.data.artist, item.data.favorite_tracks?.replace(/;/g, ' '))}
+            data-genre={item.data.genre.toLowerCase()}
+            data-kind={item.data.kind}
+            data-status={item.data.status}
+            data-rating={item.data.rating}
+            data-year={item.data.year}
+            data-date={new Date(item.data.date).getTime()}>
+            <MediaCard
+              title={item.data.title}
+              type="music"
+              rating={item.data.rating}
+              genre={item.data.artist}
+              year={item.data.year}
+              cover={item.data.cover}
+              status={item.data.status}
+              slug={item.id}
+              index={i}
+            />
+          </div>
+        ))}
+      </div>
+    </>
+  )}
+
+  <script>
+    function initMusicFilters() {
+      const search = document.getElementById('search') as HTMLInputElement | null;
+      const genre = document.getElementById('genre-filter') as HTMLSelectElement | null;
+      const kind = document.getElementById('kind-filter') as HTMLSelectElement | null;
+      const status = document.getElementById('status-filter') as HTMLSelectElement | null;
+      const sort = document.getElementById('sort-filter') as HTMLSelectElement | null;
+      const grid = document.getElementById('media-grid');
+      const count = document.getElementById('count');
+      if (!search || !genre || !kind || !status || !sort || !grid || !count) return;
+      if (grid.dataset.filterPage !== 'music' || grid.dataset.filterBound === 'music') return;
+      grid.dataset.filterBound = 'music';
+
+      const params = new URLSearchParams(window.location.search);
+      search.value = params.get('q') || '';
+      for (const [select, key] of [[genre, 'genre'], [kind, 'kind'], [status, 'status'], [sort, 'sort']] as const) {
+        const value = params.get(key);
+        if (value && [...select.options].some(o => o.value === value)) select.value = value;
+      }
+
+      function apply(updateAddress = true) {
+        const q = search!.value.toLowerCase();
+        const g = genre!.value.toLowerCase();
+        const k = kind!.value;
+        const s = status!.value;
+        const sv = sort!.value;
+        const items = [...grid!.querySelectorAll('.filter-item')] as HTMLElement[];
+        items.sort((a, b) => {
+          if (sv === 'rating') return parseFloat(b.dataset.rating!) - parseFloat(a.dataset.rating!);
+          if (sv === 'title') return a.dataset.title!.localeCompare(b.dataset.title!);
+          if (sv === 'year') return parseInt(b.dataset.year!) - parseInt(a.dataset.year!);
+          return parseFloat(b.dataset.date!) - parseFloat(a.dataset.date!);
+        });
+        items.forEach(el => grid!.appendChild(el));
+        let visible = 0;
+        items.forEach(el => {
+          const ok = (!q || el.dataset.search!.includes(q)) &&
+            (!g || el.dataset.genre!.includes(g)) &&
+            (!k || el.dataset.kind === k) &&
+            (!s || el.dataset.status === s);
+          el.style.display = ok ? '' : 'none';
+          if (ok) visible++;
+        });
+        count!.textContent = String(visible);
+        if (!updateAddress) return;
+        const url = new URL(window.location.href);
+        const setParam = (key: string, value: string, fallback = '') => {
+          if (!value || value === fallback) url.searchParams.delete(key);
+          else url.searchParams.set(key, value);
+        };
+        setParam('q', search!.value.trim());
+        setParam('genre', genre!.value);
+        setParam('kind', kind!.value);
+        setParam('status', status!.value);
+        setParam('sort', sort!.value, 'rating');
+        window.history.replaceState({}, '', `${url.pathname}${url.search}${url.hash}`);
+      }
+
+      apply(false);
+      search.addEventListener('input', () => apply());
+      [genre, kind, status, sort].forEach(el => el.addEventListener('change', () => apply()));
+    }
+    initMusicFilters();
+    if (document.documentElement.dataset.musicFiltersEventsBound !== 'true') {
+      document.documentElement.dataset.musicFiltersEventsBound = 'true';
+      document.addEventListener('astro:page-load', initMusicFilters);
+    }
+  </script>
+</BaseLayout>

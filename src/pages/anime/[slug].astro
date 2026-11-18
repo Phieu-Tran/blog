@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import SoundtrackLinks from '../../components/SoundtrackLinks.astro';
 import { altNames } from '../../lib/altTitles';
 import { detailShellStyle } from '../../lib/coverColors';
 import { getCollection } from 'astro:content';
@@ -148,6 +149,8 @@ const metaItems = [
   </section>
 
   {/* Related Posts */}
+  <SoundtrackLinks collection="anime" id={entry.id} />
+
   {relatedPosts.length > 0 && (
     <section style="margin-top: 40px;">
       <p class="section-label">Bài viết liên quan</p>

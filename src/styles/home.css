@@ -51,6 +51,7 @@
 }
 .active-chip[data-collection="games"] { --chip: var(--game-color); }
 .active-chip[data-collection="books"] { --chip: var(--book-color); }
+.active-chip[data-collection="music"] { --chip: var(--music-color); }
 .active-chip:hover { transform: translateY(-2px); background: var(--glass-bg-hover); }
 .active-chip img,
 .active-chip-fallback {
@@ -336,3 +337,6 @@
 @media (max-width: 760px) {
   .home-bottom { grid-template-columns: 1fr; }
 }
+
+/* Music shelf: album art is square */
+.shelf-card[data-collection="music"] .shelf-cover { aspect-ratio: 1; }

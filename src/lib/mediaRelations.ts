@@ -1,6 +1,6 @@
-export type MediaCollection = 'anime' | 'games' | 'films' | 'books';
+export type MediaCollection = 'anime' | 'games' | 'films' | 'books' | 'music';
 
-const MEDIA_COLLECTIONS = new Set<MediaCollection>(['anime', 'games', 'films', 'books']);
+const MEDIA_COLLECTIONS = new Set<MediaCollection>(['anime', 'games', 'films', 'books', 'music']);
 
 export function normalizeMediaSlug(value: string) {
   return String(value || '')
@@ -40,6 +40,15 @@ export function postMatchesMedia(
   slug: string,
 ) {
   return postRelationKeys(post).includes(mediaRelationKey(collection, slug));
+}
+
+/** Relation keys from a ";"-separated string field such as music `soundtrack_of`. */
+export function relationKeysFromList(value?: string) {
+  return String(value || '')
+    .split(';')
+    .map(parseMediaRelation)
+    .filter(Boolean)
+    .map(relation => relation!.key);
 }
 
 export function firstMarkdownImage(body?: string) {

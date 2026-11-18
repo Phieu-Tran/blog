@@ -9,6 +9,7 @@ const allAnime = await getCollection('anime');
 const allGames = await getCollection('games');
 const allFilms = await getCollection('films');
 const allBooks = await getCollection('books');
+const allMusic = await getCollection('music');
 const allPosts = (await getCollection('posts')).filter(p => !p.data.draft);
 const base = import.meta.env.BASE_URL;
 
@@ -20,7 +21,7 @@ const SHELF_SIZE = 16;
 
 // ─── Currently active (watching / playing / reading) ───
 type ActiveItem = {
-  collection: 'anime' | 'games' | 'books';
+  collection: 'anime' | 'games' | 'books' | 'music';
   slug: string;
   title: string;
   cover?: string;
@@ -54,6 +55,12 @@ const active: ActiveItem[] = [
     label: 'Đang đọc',
     detail: b.data.author,
     time: activeTime(b.data),
+  })),
+  ...allMusic.filter(m => m.data.status === 'listening').map(m => ({
+    collection: 'music' as const, slug: m.id, title: m.data.title, cover: m.data.cover,
+    label: 'Đang nghe',
+    detail: m.data.artist,
+    time: activeTime(m.data),
   })),
 ].sort((a, b) => b.time - a.time);
 
@@ -89,6 +96,11 @@ const shelves = [
     recent: byDate(allBooks).slice(0, SHELF_SIZE), top: byRating(allBooks).slice(0, SHELF_SIZE),
     meta: (e: (typeof allBooks)[number]) => `${e.data.author} — ${e.data.year}`,
   },
+  {
+    key: 'music', label: 'Nhạc', href: 'music/', count: allMusic.length, color: 'var(--music-color)',
+    recent: byDate(allMusic).slice(0, SHELF_SIZE), top: byRating(allMusic).slice(0, SHELF_SIZE),
+    meta: (e: (typeof allMusic)[number]) => `${e.data.artist} — ${e.data.year}`,
+  },
 ] as const;
 
 // ─── Handpicked crowd covers ───
@@ -120,7 +132,7 @@ const crowdFront = [
 ];
 
 const projects = [
-  { name: 'Phieu.work', desc: 'Personal media hub — anime, games, films, sách', url: 'https://github.com/Phieu-Tran', badge: 'Live', badgeClass: 'badge-game' },
+  { name: 'Phieu.work', desc: 'Personal media hub — anime, games, films, sách, nhạc', url: 'https://github.com/Phieu-Tran', badge: 'Live', badgeClass: 'badge-game' },
   { name: 'ClipPaste', desc: 'Clipboard manager tool', url: 'https://github.com/Phieu-Tran/ClipPaste', badge: 'WIP', badgeClass: 'badge-anime' },
 ];
 
@@ -136,7 +148,7 @@ const socials = [
   {/* Hero */}
   <section class="hero">
     <h1 class="hero-title">Phieu.work</h1>
-    <p class="hero-tagline">Anime, games, films, sách — all in one place.</p>
+    <p class="hero-tagline">Anime, games, films, sách, nhạc — all in one place.</p>
     <div class="stats-grid-hero">
       <div class="stat-hero reveal">
         <p class="stat-hero-number" data-count={allAnime.length} style="color: var(--anime-color);">0</p>
@@ -157,6 +169,11 @@ const socials = [
         <p class="stat-hero-number" data-count={allBooks.length} style="color: var(--book-color);">0</p>
         <p class="stat-hero-label">Books</p>
         <div class="stat-hero-bar" style="background: var(--book-color);"></div>
+      </div>
+      <div class="stat-hero reveal">
+        <p class="stat-hero-number" data-count={allMusic.length} style="color: var(--music-color);">0</p>
+        <p class="stat-hero-label">Music</p>
+        <div class="stat-hero-bar" style="background: var(--music-color);"></div>
       </div>
       <div class="stat-hero reveal">
         <p class="stat-hero-number" data-count={allPosts.length} style="color: var(--post-color);">0</p>

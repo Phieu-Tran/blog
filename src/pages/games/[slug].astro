@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import SoundtrackLinks from '../../components/SoundtrackLinks.astro';
 import { altNames } from '../../lib/altTitles';
 import { detailShellStyle } from '../../lib/coverColors';
 import { getCollection, render } from 'astro:content';
@@ -187,6 +188,8 @@ const metaItems = [
     </main>
     </div>
   </section>
+
+  <SoundtrackLinks collection="games" id={entry.id} />
 
   {relatedPosts.length > 0 && (
     <section class="related-section">

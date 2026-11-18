@@ -1,0 +1,186 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { detailShellStyle } from '../../lib/coverColors';
+import { getCollection, render } from 'astro:content';
+import { altNames } from '../../lib/altTitles';
+import { mediaRelationKey, parseMediaRelation, postMatchesMedia } from '../../lib/mediaRelations';
+
+export async function getStaticPaths() {
+  const music = await getCollection('music');
+  return music.map(entry => ({ params: { slug: entry.id }, props: { entry } }));
+}
+
+const allPosts = (await getCollection('posts')).filter(p => !p.data.draft);
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const base = import.meta.env.BASE_URL;
+const {
+  title,
+  artist,
+  kind,
+  rating,
+  genre,
+  year,
+  tracks,
+  label,
+  favorite_tracks,
+  soundtrack_of,
+  spotify_id,
+  youtube_url,
+  status,
+  cover,
+  date,
+} = entry.data;
+
+const relatedPosts = allPosts.filter(post => postMatchesMedia(post, 'music', entry.id));
+const ogImage = `${base}og/music/${entry.id}.svg`;
+const myStars = Math.round(rating / 2);
+const kindLabel = { album: 'Album', ep: 'EP', single: 'Single', ost: 'OST', compilation: 'Tuyển tập' }[kind];
+const statusLabel = { listening: 'Đang nghe', listened: 'Đã nghe', plan: 'Muốn nghe' }[status];
+const query = encodeURIComponent(`${artist} ${title}`);
+const spotifyUrl = spotify_id ? `https://open.spotify.com/album/${spotify_id}` : `https://open.spotify.com/search/${query}`;
+const youtubeUrl = youtube_url || `https://music.youtube.com/search?q=${query}`;
+const favorites = String(favorite_tracks || '').split(';').map(t => t.trim()).filter(Boolean);
+const akaNames = altNames(entry.data);
+
+// OST → source media ("anime:slug; films:slug"), resolved to titles and links.
+const [anime, games, films, books] = await Promise.all([
+  getCollection('anime'),
+  getCollection('games'),
+  getCollection('films'),
+  getCollection('books'),
+]);
+const sourceByKey = new Map<string, { href: string; label: string; title: string; type: string }>();
+anime.forEach(e => sourceByKey.set(mediaRelationKey('anime', e.id), { href: `${base}anime/${e.id}/`, label: 'Anime', title: e.data.title, type: 'anime' }));
+games.forEach(e => sourceByKey.set(mediaRelationKey('games', e.id), { href: `${base}games/${e.id}/`, label: 'Game', title: e.data.title, type: 'game' }));
+films.forEach(e => sourceByKey.set(mediaRelationKey('films', e.id), { href: `${base}films/${e.id}/`, label: 'Film', title: e.data.title, type: 'film' }));
+books.forEach(e => sourceByKey.set(mediaRelationKey('books', e.id), { href: `${base}books/${e.id}/`, label: 'Sách', title: e.data.title, type: 'book' }));
+const sources = String(soundtrack_of || '')
+  .split(';')
+  .map(parseMediaRelation)
+  .filter(Boolean)
+  .map(relation => sourceByKey.get(relation!.key))
+  .filter(Boolean) as Array<{ href: string; label: string; title: string; type: string }>;
+
+const metaItems = [
+  { label: 'Nghệ sĩ', value: artist },
+  akaNames.length > 0 && { label: 'Tên khác', value: akaNames.join(' · ') },
+  { label: 'Loại', value: kindLabel },
+  { label: 'Năm', value: String(year) },
+  tracks && { label: 'Số bài', value: String(tracks) },
+  label && { label: 'Hãng đĩa', value: label },
+  { label: 'Thể loại', value: genre },
+].filter(Boolean) as Array<{ label: string; value: string }>;
+---
+
+<BaseLayout title={title} description={`${title} — ${artist}`} image={ogImage} activeNav="music">
+  <section class="media-detail-shell media-detail-music" style={detailShellStyle('music', entry.id, cover)}>
+    <a href={`${base}music/`} class="detail-back">Về kệ nhạc</a>
+
+    <div class="media-detail-grid">
+      <aside class="detail-side">
+        {cover ? (
+          <img src={cover} alt={title} class="detail-cover music-cover" decoding="async" onerror="this.hidden=true;this.nextElementSibling.hidden=false" />
+        ) : null}
+        <span class="detail-cover-fallback music-cover" hidden={Boolean(cover)}>{title.slice(0, 1)}</span>
+
+        <nav class="detail-actions" aria-label="Listen links">
+          <a href={spotifyUrl} target="_blank" rel="noopener noreferrer" class="detail-action spotify">
+            {spotify_id ? 'Nghe trên Spotify' : 'Tìm trên Spotify'}
+          </a>
+          <a href={youtubeUrl} target="_blank" rel="noopener noreferrer" class="detail-action youtube-music">
+            {youtube_url ? 'Nghe trên YouTube Music' : 'Tìm trên YouTube Music'}
+          </a>
+        </nav>
+      </aside>
+
+      <main class="detail-main">
+        <div class="detail-badges">
+          <span class="badge badge-music">Nhạc</span>
+          <span class="badge soft-badge">{kindLabel}</span>
+          <span class="badge soft-badge">{statusLabel}</span>
+        </div>
+
+        <h1 class="detail-title">{title}</h1>
+        <p class="detail-subtitle">{artist} - {year}{genre ? ` - ${genre}` : ''}</p>
+
+        <section class="detail-score-grid" aria-label="Music score">
+          <div class="detail-score-card">
+            <p>My Score</p>
+            <span class="detail-score-value" style="color:var(--star-color);">{rating > 0 ? rating : '-'}</span>
+            <div class="stars">
+              {[...Array(5)].map((_, i) => (
+                <span class={i < myStars ? 'star-on' : 'star-off'}>&#9733;</span>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {sources.length > 0 && (
+          <nav class="music-sources" aria-label="Nhạc của">
+            <p>Nhạc của</p>
+            {sources.map(source => (
+              <a href={source.href} class={`post-linked-chip ${source.type}`}>
+                <span>{source.label}</span>
+                {source.title}
+              </a>
+            ))}
+          </nav>
+        )}
+
+        <section class="detail-meta-grid" aria-label="Music metadata">
+          {metaItems.map(item => (
+            <div class={`detail-meta-card ${item.label === 'Thể loại' ? 'wide' : ''}`}>
+              <p>{item.label}</p>
+              <strong>{item.value}</strong>
+            </div>
+          ))}
+        </section>
+
+        {favorites.length > 0 && (
+          <section class="music-favorites" aria-label="Bài yêu thích">
+            <p class="section-label">Bài mình thích nhất</p>
+            <ol>
+              {favorites.map(track => (
+                <li>
+                  <a href={`https://open.spotify.com/search/${encodeURIComponent(`${artist} ${track}`)}`} target="_blank" rel="noopener noreferrer">{track}</a>
+                </li>
+              ))}
+            </ol>
+          </section>
+        )}
+
+        {entry.body?.trim() && (
+          <div class="prose book-notes">
+            <Content />
+          </div>
+        )}
+
+        {date && (
+          <p class="detail-date">Thêm vào {new Date(date).toLocaleDateString('vi-VN')}</p>
+        )}
+      </main>
+    </div>
+  </section>
+
+  {relatedPosts.length > 0 && (
+    <section style="margin-top: 40px;">
+      <p class="section-label">Bài viết liên quan</p>
+      <hr class="section-divider" />
+      <div class="post-list">
+        {relatedPosts.map(post => (
+          <a href={`${base}posts/${post.id}/`} class="post-card">
+            <p class="post-title">{post.data.title}</p>
+            {post.data.description && <p class="post-desc">{post.data.description}</p>}
+            <div class="post-meta">
+              <span>{new Date(post.data.date).toLocaleDateString('vi-VN')}</span>
+              {post.data.tags?.map(tag => (
+                <span class="post-tag">{tag}</span>
+              ))}
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+</BaseLayout>

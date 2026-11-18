@@ -26,6 +26,7 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 | **Games** | `src/content/games/` | Steam + IGDB | `#34D399` | IGN-style score, playtime, IGDB/IGN/Metacritic/Steam links |
 | **Films** | `src/content/films/` | IMDb CSV + TMDB account | `#FB923C` | 3 scores (My/IMDB/TMDB), IMDB+TMDB links |
 | **Books** | `src/content/books/` | Manual (Goodreads planned) | `#F472B6` | My Score + Goodreads score, author/translator, Goodreads/Open Library links |
+| **Music** | `src/content/music/` | Spotify saved albums + manual (YouTube Music) | `#FACC15` | Square album art, My Score, favorite tracks, Spotify/YouTube Music links, OST ↔ source media |
 | **Posts** | `src/content/posts/` | Obsidian | `#38BDF8` | Blog list, tags, prose |
 | **Steam** | `/steam/` page | Steam API | Steam blue | Steam-style profile, playtime bars |
 
@@ -48,6 +49,8 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 | `STEAM_API_KEY` | Secret | Steam Web API key |
 | `IGDB_CLIENT_ID` or `TWITCH_CLIENT_ID` | Secret | Twitch/IGDB client ID for game metadata |
 | `IGDB_CLIENT_SECRET` or `TWITCH_CLIENT_SECRET` | Secret | Twitch/IGDB client secret for game metadata |
+| `SPOTIFY_CLIENT_ID` / `SPOTIFY_CLIENT_SECRET` | Secret | Spotify Developer app (redirect URI `http://127.0.0.1:8888/callback`) |
+| `SPOTIFY_REFRESH_TOKEN` | Secret | From `npm run spotify-auth`; read-only scopes `user-library-read user-read-recently-played` |
 | `MAL_USERNAME` | Variable | MAL username |
 | `TMDB_ACCOUNT_ID` | Variable | TMDB account ID |
 | `STEAM_ID` | Variable | Steam user ID |
@@ -70,6 +73,8 @@ A static blog built with **Astro** that aggregates media tracking (anime, games,
 | `npm run import-igdb-gdpr -- path/to/index.html` | `import-igdb-gdpr.mjs` | Import personal IGDB GDPR ratings/played export; `--delete-missing` prunes only IGDB-personal non-Steam games absent from the export |
 | `npm run normalize-games` | `normalize-game-frontmatter.mjs` | Normalize game `source`/`platform` frontmatter |
 | `npm run fetch-data` | `fetch-media-data.mjs` | Fetch missing covers |
+| `npm run spotify-auth` | `spotify-auth.mjs` | One-time Spotify login; writes `SPOTIFY_REFRESH_TOKEN` to `.env` (never printed) |
+| `npm run sync-spotify` | `sync-spotify.mjs` | Spotify saved albums → `src/content/music/` (`-- --dry` to preview); also step 4b of `sync-all` |
 
 ### sync-all.mjs flow
 
@@ -121,6 +126,7 @@ before committing changes.
 - **Books collection**: `src/content/books/` (kept in git via `.gitkeep`; the empty-collection build warning is expected until the first book is added). Status `reading|read|plan|dropped`; `goodreads_id` is the reserved identity anchor for a future Goodreads CSV/RSS import. Books join search, OG images, cover colors and `related_media` (`books:slug`).
 - **Stats page** (`/stats/`, `src/pages/stats.astro`): build-time personal stats for Anime/Games/Films/Books (score distribution, top genres, release decades, my score vs community, plus top authors for books) as CSS-only charts in small multiples, one section color each, with hover/focus tooltips and a table view. No chart library.
 - **Post images are WebP**: images referenced by posts live in `public/posts/` as `.webp` (max 1600px wide, quality 80). Convert new Obsidian exports before committing. `src/lib/rehypeLazyImages.mjs` lazy-loads every markdown image after the first.
+- **Music collection**: one entry per album/EP/OST (`kind`), identity anchor `spotify_id`. Spotify sync owns title/artist/year/tracks/label/cover/`spotify_recent`, fills `genre`/`kind` only when missing (titles with Soundtrack/OST become `kind: ost`), and never touches `rating`, `favorite_tracks` (`;`-separated), `soundtrack_of`, `aka` or body notes. Recently played albums become `listening`; a sync-set `listening` returns to `listened` when it drops out. Albums removed from the Spotify library are not auto-deleted. YouTube Music has no library API, so those albums are manual (`source: youtube`, `youtube_url`). `soundtrack_of: "anime:your-name; films:x"` links an OST both ways: the album shows "Nhạc của" chips and the source detail page shows a "Nhạc phim" block (`SoundtrackLinks.astro`). Posts can use `related_media: ["music:slug"]`.
 - **Alternate titles**: every collection accepts `original_title`, `en_title` and `aka` (manual, names separated by `;`); the schema coerces numbers to strings. Sync fills them only when they differ from `title`: MAL romaji `anime_title` → anime `original_title`; TMDB `original_title/name` + English translation (`append_to_response=translations`) → films; IMDb CSV "Original Title" → films. Helpers: `src/scripts/alt-titles.mjs` (sync) and `src/lib/altTitles.ts` (site). Global search, list filters (`data-search`) and the "Also known as" meta card all use them, so "Love Letter" finds "Thư Tình".
 - **Post reading aids**: post pages show "N phút đọc" (~220 words/min) and, when a post has ≥3 h2 headings, a table of contents: sticky sidebar with scroll-spy at ≥1180px, collapsible block between header and body on smaller screens.
 - **Frontmatter title always quoted** — prevents YAML numeric title parsing.

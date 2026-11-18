@@ -14,6 +14,8 @@
     "sync": "node src/scripts/sync-all.mjs",
     "sync-steam": "node src/scripts/sync-steam.mjs",
     "sync-igdb": "node src/scripts/sync-igdb.mjs",
+    "spotify-auth": "node --env-file-if-exists=.env src/scripts/spotify-auth.mjs",
+    "sync-spotify": "node --env-file-if-exists=.env src/scripts/sync-spotify.mjs",
     "import-igdb-gdpr": "node src/scripts/import-igdb-gdpr.mjs",
     "normalize-games": "node src/scripts/normalize-game-frontmatter.mjs",
     "check:site": "node src/scripts/check-site-guards.mjs",

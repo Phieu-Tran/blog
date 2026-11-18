@@ -1,7 +1,7 @@
 ---
 interface Props {
   title: string;
-  type: 'anime' | 'game' | 'film' | 'book';
+  type: 'anime' | 'game' | 'film' | 'book' | 'music';
   rating: number;
   genre: string;
   year: number;
@@ -17,12 +17,12 @@ const stars = Math.round(rating / 2);
 const steamHeader = cover?.match(/\/steam\/apps\/(\d+)\/header\.jpg/);
 const cardCover = steamHeader ? `https://cdn.cloudflare.steamstatic.com/steam/apps/${steamHeader[1]}/library_600x900.jpg` : cover;
 const coverFallback = steamHeader ? cover : undefined;
-const typeMap = { anime: 'anime', game: 'games', film: 'films', book: 'books' };
-const typeLabel = { anime: 'anime', game: 'game', film: 'film', book: 'sách' };
-const isActive = status === 'watching' || status === 'playing' || status === 'reading';
+const typeMap = { anime: 'anime', game: 'games', film: 'films', book: 'books', music: 'music' };
+const typeLabel = { anime: 'anime', game: 'game', film: 'film', book: 'sách', music: 'nhạc' };
+const isActive = status === 'watching' || status === 'playing' || status === 'reading' || status === 'listening';
 const statusLabels: Record<string, string> = {
-  watching: 'Đang xem', playing: 'Đang chơi', reading: 'Đang đọc', completed: 'Đã xong',
-  watched: 'Đã xem', read: 'Đã đọc', on_hold: 'Tạm dừng', plan: 'Dự định', dropped: 'Bỏ',
+  watching: 'Đang xem', playing: 'Đang chơi', reading: 'Đang đọc', listening: 'Đang nghe', completed: 'Đã xong',
+  watched: 'Đã xem', read: 'Đã đọc', listened: 'Đã nghe', on_hold: 'Tạm dừng', plan: 'Dự định', dropped: 'Bỏ',
 };
 ---
 

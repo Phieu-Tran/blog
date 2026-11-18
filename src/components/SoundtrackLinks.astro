@@ -1,0 +1,38 @@
+---
+// "Nhạc phim" block for anime / game / film / book detail pages: albums whose `soundtrack_of` points here.
+import { getMusicCollection } from '../lib/musicIndex';
+import { mediaRelationKey, relationKeysFromList, type MediaCollection } from '../lib/mediaRelations';
+
+interface Props {
+  collection: Exclude<MediaCollection, 'music'>;
+  id: string;
+}
+const { collection, id } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const key = mediaRelationKey(collection, id);
+const albums = (await getMusicCollection())
+  .filter(album => relationKeysFromList(album.data.soundtrack_of).includes(key))
+  .sort((a, b) => b.data.rating - a.data.rating || a.data.title.localeCompare(b.data.title));
+---
+
+{albums.length > 0 && (
+  <section class="soundtrack-block" aria-label="Nhạc phim">
+    <p class="section-label">Nhạc phim</p>
+    <hr class="section-divider" />
+    <div class="soundtrack-list">
+      {albums.map(album => (
+        <a href={`${base}music/${album.id}/`} class="soundtrack-card">
+          <span class="soundtrack-cover">
+            <span>{album.data.title.slice(0, 1)}</span>
+            {album.data.cover && <img src={album.data.cover} alt="" loading="lazy" decoding="async" onerror="this.hidden=true" />}
+          </span>
+          <span class="soundtrack-copy">
+            <strong>{album.data.title}</strong>
+            <small>{album.data.artist} · {album.data.year}</small>
+          </span>
+          {album.data.rating > 0 && <span class="soundtrack-score">{album.data.rating}</span>}
+        </a>
+      ))}
+    </div>
+  </section>
+)}

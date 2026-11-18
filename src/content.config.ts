@@ -137,4 +137,32 @@ const books = defineCollection({
   }),
 });
 
-export const collections = { anime, games, films, books, posts };
+// Music: one entry per album / EP / OST. Spotify and YouTube Music are both listening sources;
+// spotify_id is reserved as the identity anchor for a future Spotify saved-albums sync.
+// soundtrack_of links an OST to its source media, ";"-separated "anime:slug" / "games:slug" / "films:slug".
+const music = defineCollection({
+  loader: markdown('music'),
+  schema: z.object({
+    title: z.string(),
+    ...altTitles,
+    artist: z.string(),
+    kind: z.enum(['album', 'ep', 'single', 'ost', 'compilation']).default('album'),
+    rating: z.number().min(0).max(10),
+    genre: z.string(),
+    year: z.number(),
+    tracks: z.number().optional(),
+    label: z.string().optional(),
+    favorite_tracks: altTitle, // ";"-separated
+    soundtrack_of: altTitle,
+    spotify_id: z.string().optional(),
+    youtube_url: z.string().optional(),
+    status: z.enum(['listening', 'listened', 'plan']),
+    source: z.enum(['spotify', 'youtube', 'manual']).default('manual'),
+    spotify_recent: z.boolean().optional(),
+    cover: z.string().optional(),
+    updated_at: z.date().optional(),
+    date: z.date(),
+  }),
+});
+
+export const collections = { anime, games, films, books, music, posts };

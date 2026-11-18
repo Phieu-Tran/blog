@@ -102,6 +102,7 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
       <a href={`${base}games/`} class={activeNav === 'games' ? 'active' : ''}>Games</a>
       <a href={`${base}films/`} class={activeNav === 'films' ? 'active' : ''}>Films</a>
       <a href={`${base}books/`} class={activeNav === 'books' ? 'active' : ''}>Sách</a>
+      <a href={`${base}music/`} class={activeNav === 'music' ? 'active' : ''}>Nhạc</a>
       <a href={`${base}steam/`} class={activeNav === 'steam' ? 'active' : ''} style="color:#66C0F4;">Steam</a>
       <a href={`${base}posts/`} class={activeNav === 'posts' ? 'active' : ''}>Posts</a>
       <a href={`${base}stats/`} class={activeNav === 'stats' ? 'active' : ''}>Thống kê</a>
@@ -150,7 +151,7 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
     type GlobalSearchItem = {
       title: string;
       alt?: string[];
-      type: 'anime' | 'game' | 'film' | 'book';
+      type: 'anime' | 'game' | 'film' | 'book' | 'music';
       url: string;
       rating: number;
       year: number;
@@ -183,6 +184,7 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
       if (type === 'game') return 'Game';
       if (type === 'film') return 'Film';
       if (type === 'book') return 'Sách';
+      if (type === 'music') return 'Nhạc';
       return 'Anime';
     }
 
@@ -256,7 +258,7 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
       }
 
       results.innerHTML = matches.map(item => {
-        const badgeClass = item.type === 'game' ? 'badge-game' : item.type === 'film' ? 'badge-film' : item.type === 'book' ? 'badge-book' : 'badge-anime';
+        const badgeClass = item.type === 'game' ? 'badge-game' : item.type === 'film' ? 'badge-film' : item.type === 'book' ? 'badge-book' : item.type === 'music' ? 'badge-music' : 'badge-anime';
         const fallback = escapeHtml(item.title.slice(0, 1));
         const image = item.cover
           ? `<img src="${escapeHtml(item.cover)}" alt="" loading="lazy" decoding="async" onerror="this.hidden=true" />`
@@ -486,7 +488,7 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
       // Cover morph: the clicked card's cover grows into the detail page poster, and shrinks back
       // on return. The name is assigned on demand because one title can appear twice on a page
       // (Top 10 + grid) and duplicate view-transition names cancel the whole transition.
-      const detailPath = /^\/(anime|games|films|books)\/[^/]+\/$/;
+      const detailPath = /^\/(anime|games|films|books|music)\/[^/]+\/$/;
       // Path of the page currently shown; on back/forward the URL has already changed by the time swap events fire.
       let shownPath = location.pathname;
       const clearCoverNames = () => {

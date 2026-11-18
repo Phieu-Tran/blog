@@ -41,18 +41,19 @@ const readingMinutes = Math.max(1, Math.round(wordCount / 220));
 const tocHeadings = headings.filter(heading => heading.depth === 2);
 const showToc = tocHeadings.length >= 3;
 
-const [anime, games, films, books] = await Promise.all([
+const [anime, games, films, books, music] = await Promise.all([
   getCollection('anime'),
   getCollection('games'),
   getCollection('films'),
   getCollection('books'),
+  getCollection('music'),
 ]);
 
 type MediaPreview = {
   href: string;
   label: string;
   title: string;
-  type: 'anime' | 'game' | 'film' | 'book';
+  type: 'anime' | 'game' | 'film' | 'book' | 'music';
 };
 
 const mediaByKey = new Map<string, MediaPreview>();
@@ -83,6 +84,13 @@ books.forEach(item => mediaByKey.set(mediaRelationKey('books', item.id), {
   label: 'Sách',
   title: item.data.title,
   type: 'book',
+}));
+
+music.forEach(item => mediaByKey.set(mediaRelationKey('music', item.id), {
+  href: `${base}music/${item.id}/`,
+  label: 'Nhạc',
+  title: item.data.title,
+  type: 'music',
 }));
 
 const relatedMedia = (entry.data.related_media || [])
@@ -409,6 +417,7 @@ const relatedMedia = (entry.data.related_media || [])
   .post-linked-chip.game { border-color: var(--game-border); }
   .post-linked-chip.film { border-color: var(--film-border); }
   .post-linked-chip.book { border-color: var(--book-border); }
+  .post-linked-chip.music { border-color: var(--music-border); }
 
   .post-cover {
     border-radius: 14px;

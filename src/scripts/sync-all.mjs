@@ -21,6 +21,7 @@
 import fs from 'fs';
 import path from 'path';
 import { distinctTitle, tmdbAltTitles } from './alt-titles.mjs';
+import { syncSpotify } from './sync-spotify.mjs';
 import https from 'https';
 
 // ============================================
@@ -1212,6 +1213,13 @@ async function main() {
     results.push(await syncIgdb());
   } catch (err) {
     results.push({ name: 'Games metadata (IGDB)', success: false, message: err.message });
+  }
+
+  // Step 4b: Music (Spotify saved albums) — skipped with a note when Spotify secrets are missing
+  try {
+    results.push(await syncSpotify());
+  } catch (err) {
+    results.push({ name: 'Music (Spotify)', success: false, message: err.message });
   }
 
   // Step 5: Missing covers

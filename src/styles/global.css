@@ -28,6 +28,9 @@
   --book-color: #F472B6;
   --book-bg: rgba(244,114,182,0.12);
   --book-border: rgba(244,114,182,0.3);
+  --music-color: #FACC15;
+  --music-bg: rgba(250,204,21,0.12);
+  --music-border: rgba(250,204,21,0.3);
   --star-color: #FBBF24;
 }
 
@@ -1570,4 +1573,109 @@ body.search-open { overflow: hidden; }
   width: 100%;
   object-fit: cover;
   border-radius: 12px;
+}
+
+/* ─── Music (albums / EPs / OSTs): square covers, Spotify + YouTube Music actions ─── */
+.badge-music { background: var(--music-bg); color: var(--music-color); border: 1px solid var(--music-border); }
+.media-card[data-type="music"]::after { box-shadow: 0 0 20px rgba(250,204,21,0.14); }
+.media-card[data-type="music"] .card-cover { padding-top: 100%; }
+.top-card[data-type="music"] { aspect-ratio: 1; flex-basis: 170px; }
+.top-card[data-type="music"] .top-rank { border: 1px solid var(--music-border); }
+.music-theme { --book-color: var(--music-color); --book-bg: var(--music-bg); --book-border: var(--music-border); }
+.media-detail-music { --accent-base: var(--music-color); }
+.media-detail-music::after { box-shadow: inset 0 1px 0 rgba(250,204,21,0.14); }
+.detail-cover.music-cover,
+.detail-cover-fallback.music-cover { aspect-ratio: 1; object-fit: cover; width: 240px; }
+.detail-action.spotify {
+  background: rgba(30,215,96,0.1);
+  border: 1px solid rgba(30,215,96,0.32);
+  color: #1ED760;
+}
+.detail-action.youtube-music {
+  background: rgba(255,0,51,0.1);
+  border: 1px solid rgba(255,80,100,0.32);
+  color: #FF6B81;
+}
+.music-sources { align-items: center; display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 16px; }
+.music-sources > p {
+  color: var(--text-muted);
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+  margin-right: 4px;
+  text-transform: uppercase;
+}
+.music-sources .post-linked-chip,
+.soundtrack-card {
+  border: 1px solid var(--glass-border);
+  border-radius: 8px;
+  color: var(--text-primary);
+}
+.music-sources .post-linked-chip { font-size: 13px; padding: 7px 10px; }
+.music-sources .post-linked-chip span {
+  color: var(--text-muted);
+  font-family: 'Space Mono', monospace;
+  font-size: 10px;
+  margin-right: 6px;
+  text-transform: uppercase;
+}
+.music-sources .anime { border-color: var(--anime-border); }
+.music-sources .game { border-color: var(--game-border); }
+.music-sources .film { border-color: var(--film-border); }
+.music-sources .book { border-color: var(--book-border); }
+.music-favorites { margin: 6px 0 18px; }
+.music-favorites ol { counter-reset: fav; display: grid; gap: 4px; list-style: none; margin: 8px 0 0; padding: 0; }
+.music-favorites li { counter-increment: fav; }
+.music-favorites a {
+  align-items: center;
+  border-radius: 8px;
+  color: var(--text-secondary);
+  display: flex;
+  font-size: 14px;
+  gap: 10px;
+  padding: 7px 10px;
+}
+.music-favorites a::before {
+  color: var(--music-color);
+  content: counter(fav, decimal-leading-zero);
+  font-family: 'Space Mono', monospace;
+  font-size: 11px;
+}
+.music-favorites a:hover { background: rgba(255,255,255,0.04); color: var(--text-primary); }
+.soundtrack-block { margin-top: 40px; }
+.soundtrack-list { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.soundtrack-card {
+  align-items: center;
+  background: var(--glass-bg);
+  border-color: var(--music-border);
+  display: flex;
+  gap: 12px;
+  min-width: 0;
+  padding: 8px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.soundtrack-card:hover { border-color: var(--music-color); transform: translateY(-2px); }
+.soundtrack-cover {
+  aspect-ratio: 1;
+  background: #1a1a2e;
+  border-radius: 6px;
+  display: grid;
+  flex: 0 0 56px;
+  overflow: hidden;
+  place-items: center;
+  position: relative;
+}
+.soundtrack-cover span { color: rgba(255,255,255,0.5); font-weight: 700; }
+.soundtrack-cover img { height: 100%; inset: 0; object-fit: cover; position: absolute; width: 100%; }
+.soundtrack-copy { display: grid; gap: 2px; min-width: 0; }
+.soundtrack-copy strong,
+.soundtrack-copy small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.soundtrack-copy strong { font-size: 14px; }
+.soundtrack-copy small { color: var(--text-muted); font-size: 12px; }
+.soundtrack-score {
+  color: var(--star-color);
+  font-family: 'Space Mono', monospace;
+  font-size: 13px;
+  font-weight: 700;
+  margin-left: auto;
+  padding-right: 6px;
 }

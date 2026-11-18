@@ -2,17 +2,18 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
-const [anime, games, films, books] = await Promise.all([
+const [anime, games, films, books, music] = await Promise.all([
   getCollection('anime'),
   getCollection('games'),
   getCollection('films'),
   getCollection('books'),
+  getCollection('music'),
 ]);
 const base = import.meta.env.BASE_URL;
 
 type Item = { rating: number; genre: string; year: number; community?: number };
 type Section = {
-  key: 'anime' | 'games' | 'films' | 'books';
+  key: 'anime' | 'games' | 'films' | 'books' | 'music';
   label: string;
   color: string;
   href: string;
@@ -38,13 +39,18 @@ const sections: Section[] = [
     // Plan-to-read books have no score yet; they still count for genres and decades.
     items: books.map(e => ({ rating: e.data.rating, genre: e.data.genre, year: e.data.year, community: e.data.goodreads_score ? e.data.goodreads_score * 2 : undefined })),
   },
+  {
+    key: 'music', label: 'Nhạc', color: 'var(--music-color)', href: `${base}music/`, communityLabel: 'cộng đồng',
+    items: music.map(e => ({ rating: e.data.rating, genre: e.data.genre, year: e.data.year })),
+  },
 ];
 
 const fmt = (value: number, digits = 0) =>
   value.toLocaleString('vi-VN', { minimumFractionDigits: digits, maximumFractionDigits: digits });
 const average = (values: number[]) => (values.length ? values.reduce((a, b) => a + b, 0) / values.length : 0);
 
-const charts = sections.map(section => {
+// A collection with no entries yet (e.g. a brand-new Music shelf) gets no empty charts.
+const charts = sections.filter(section => section.items.length > 0).map(section => {
   const rated = section.items.filter(item => item.rating > 0);
 
   // Score histogram: 1..10 (half scores round up to the next whole score)
@@ -120,10 +126,10 @@ const gapText = (gap: number) =>
   Math.abs(gap) < 0.05 ? 'ngang cộng đồng' : `${gap > 0 ? 'cao hơn' : 'thấp hơn'} cộng đồng ${fmt(Math.abs(gap), 1)} điểm`;
 ---
 
-<BaseLayout title="Thống kê" description="Thống kê cá nhân: phân bố điểm, thể loại và thập niên của anime, game, phim, sách." activeNav="stats">
+<BaseLayout title="Thống kê" description="Thống kê cá nhân: phân bố điểm, thể loại và thập niên của anime, game, phim, sách, nhạc." activeNav="stats">
   <header class="stats-head reveal">
     <p class="section-label">Thống kê cá nhân</p>
-    <h1>Mình xem gì, chơi gì, đọc gì, chấm thế nào</h1>
+    <h1>Mình xem gì, chơi gì, đọc gì, nghe gì, chấm thế nào</h1>
     <p class="stats-lede">Tổng hợp từ {fmt(totalTitles)} tựa trong kho, cập nhật sau mỗi lần sync.</p>
   </header>
 
