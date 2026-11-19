@@ -1,8 +1,10 @@
 ---
 title: "Resident Evil 4"
+steam_appid: 254700
+locked: "title, year"
 rating: 10
 genre: "Shooter, Adventure"
-year: 2011
+year: 2005
 studio: "Capcom Production Studio 4"
 status: completed
 source: igdb
