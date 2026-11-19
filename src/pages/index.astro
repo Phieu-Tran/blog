@@ -3,6 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import ShelfCard from '../components/ShelfCard.astro';
 import { getCollection } from 'astro:content';
 import { firstMarkdownImage } from '../lib/mediaRelations';
+import { songStats } from '../lib/spotifyTracks';
 import '../styles/home.css';
 
 const allAnime = await getCollection('anime');
@@ -172,8 +173,9 @@ const socials = [
         <div class="stat-hero-bar" style="background: var(--book-color);"></div>
       </div>
       <div class="stat-hero reveal">
-        <p class="stat-hero-number" data-count={allMusic.length} style="color: var(--music-color);">0</p>
-        <p class="stat-hero-label">Music</p>
+        {/* Music counts songs (deduped across playlists/albums), not shelf entries */}
+        <p class="stat-hero-number" data-count={songStats.songs || allMusic.length} style="color: var(--music-color);">0</p>
+        <p class="stat-hero-label">{songStats.songs ? 'Songs' : 'Music'}</p>
         <div class="stat-hero-bar" style="background: var(--music-color);"></div>
       </div>
       <div class="stat-hero reveal">
@@ -278,7 +280,7 @@ const socials = [
         <a href={`${base}${shelf.href}`} class="shelf-name">
           <span class="shelf-dot"></span>
           {shelf.label}
-          <span class="shelf-count">{shelf.count}</span>
+          <span class="shelf-count">{shelf.key === 'music' && songStats.songs ? `${songStats.songs.toLocaleString('vi-VN')} bài` : shelf.count}</span>
         </a>
         {shelf.count > 0 && shelf.key !== 'music' && (
           <div class="shelf-tabs" role="tablist" aria-label={`${shelf.label} view`}>
@@ -314,9 +316,9 @@ const socials = [
                   meta={(shelf.meta as (e: typeof entry) => string)(entry)}
                 />
               ))}
-              <a href={`${base}${shelf.href}`} class="shelf-more">
-                <span>Xem tất cả</span>
-                <strong>{shelf.count}</strong>
+              <a href={`${base}${shelf.key === 'music' && songStats.songs ? 'music/bai-hat/' : shelf.href}`} class="shelf-more">
+                <span>{shelf.key === 'music' && songStats.songs ? 'Tất cả bài hát' : 'Xem tất cả'}</span>
+                <strong>{shelf.key === 'music' && songStats.songs ? songStats.songs.toLocaleString('vi-VN') : shelf.count}</strong>
               </a>
             </div>
           ))}

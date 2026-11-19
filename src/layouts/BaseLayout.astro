@@ -523,6 +523,45 @@ const buildTime = new Date().toISOString().replace('T', ' ').slice(0, 16);
       document.addEventListener('astro:page-load', () => window.setTimeout(clearCoverNames, 700));
     }
   </script>
+  <script>
+    // Back buttons (.detail-back / .back-link): when the visitor reached this page by clicking a link on
+    // this site, go back in history so the list keeps its filters (?q=…) and scroll position; otherwise
+    // (opened directly, shared link, reload) follow the link to the list page.
+    // This module runs once per full page load, so a stale marker from an earlier visit is cleared here.
+    const BACK_KEY = 'pw-came-from-site';
+    const setMarker = (value: string | null) => {
+      try {
+        if (value) sessionStorage.setItem(BACK_KEY, value);
+        else sessionStorage.removeItem(BACK_KEY);
+      } catch {
+        // storage blocked: back buttons simply follow their link
+      }
+    };
+    const hasMarker = () => {
+      try {
+        return sessionStorage.getItem(BACK_KEY) === location.pathname;
+      } catch {
+        return false;
+      }
+    };
+    setMarker(null);
+    document.addEventListener('astro:before-preparation', event => {
+      const nav = event as Event & { navigationType?: string; to?: URL };
+      // Only a forward click inside the site makes "back" meaningful; browser back/forward resets it.
+      setMarker(nav.navigationType === 'push' && nav.to ? nav.to.pathname : null);
+    });
+    // Capture phase: Astro's router handles link clicks on the bubble phase and would navigate to the
+    // list URL first, so this listener must run before it and stop the event when going back.
+    document.addEventListener('click', event => {
+      const link = (event.target as Element | null)?.closest?.('.detail-back, .back-link');
+      if (!link || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+      if (hasMarker()) {
+        event.preventDefault();
+        event.stopPropagation();
+        history.back();
+      }
+    }, { capture: true });
+  </script>
 </body>
 </html>
 

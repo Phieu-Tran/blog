@@ -1104,15 +1104,34 @@ body.search-open { overflow: hidden; }
 .media-detail-book::after {
   box-shadow: inset 0 1px 0 rgba(244,114,182,0.14);
 }
+/* Back button on every detail page: a visible pill, history-aware via BaseLayout. */
 .detail-back,
 .back-link {
-  color: rgba(255,255,255,0.45);
-  display: inline-block;
+  align-items: center;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--glass-border);
+  border-radius: 999px;
+  color: var(--text-secondary);
+  display: inline-flex;
   font-size: 13px;
+  font-weight: 500;
+  gap: 6px;
   margin-bottom: 16px;
+  padding: 7px 14px 7px 11px;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+.detail-back::before,
+.back-link::before {
+  content: '←';
+  font-size: 15px;
+  line-height: 1;
 }
 .detail-back:hover,
-.back-link:hover {
+.back-link:hover,
+.detail-back:focus-visible,
+.back-link:focus-visible {
+  background: rgba(255,255,255,0.09);
+  border-color: rgba(255,255,255,0.22);
   color: var(--text-primary);
 }
 .media-detail-grid {

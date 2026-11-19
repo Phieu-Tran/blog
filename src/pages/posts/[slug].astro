@@ -102,7 +102,7 @@ const relatedMedia = (entry.data.related_media || [])
 
 <BaseLayout title={title} description={description} image={ogImage} ogType="article" activeNav="posts">
   <script slot="head" type="application/ld+json" is:inline set:html={JSON.stringify(jsonLd)} />
-  <a href={`${base}posts/`} class="post-back">Về danh sách bài viết</a>
+  <a href={`${base}posts/`} class="detail-back">Về danh sách bài viết</a>
 
   <div class={`post-layout ${showToc ? 'has-toc' : ''}`}>
   <article class="post-detail">
@@ -198,17 +198,6 @@ const relatedMedia = (entry.data.related_media || [])
 </script>
 
 <style>
-  .post-back {
-    color: rgba(255, 255, 255, 0.45);
-    display: inline-block;
-    font-size: 13px;
-    margin-bottom: 18px;
-  }
-
-  .post-back::before {
-    content: '< ';
-  }
-
   .post-detail {
     margin: 0 auto;
     max-width: 820px;
