@@ -13,65 +13,82 @@ const fmtDuration = (ms?: number) => (ms ? `${Math.floor(ms / 60000)}:${String(M
 const fold = (value: string) => value.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd');
 type ListLink = { title: string; href: string };
 const rows = [...songs]
-  .sort((a, b) => a.name.localeCompare(b.name, 'vi'))
-  .map(song => ({ ...song, inLists: song.playlists.map(id => lists.get(id)).filter((l): l is ListLink => Boolean(l)) }));
+  .sort((a, b) => b.plays - a.plays || a.name.localeCompare(b.name, 'vi'))
+  .map(song => ({
+    ...song,
+    inLists: song.playlists.map(id => lists.get(id)).filter((l): l is ListLink => Boolean(l)),
+    href: song.spotify_id
+      ? `https://open.spotify.com/track/${song.spotify_id}`
+      : song.youtube_id ? `https://music.youtube.com/watch?v=${song.youtube_id}` : undefined,
+    source: song.playlists.length && song.plays ? 'both' : song.playlists.length ? 'playlist' : 'played',
+  }));
+const onlyPlayed = rows.filter(r => r.source === 'played').length;
 ---
 
-<BaseLayout title="Tất cả bài hát" description="Mọi bài hát trong các playlist và album của mình trên Spotify" activeNav="music">
+<BaseLayout title="Tất cả bài hát" description="Mọi bài hát mình có trong playlist hoặc đã từng nghe" activeNav="music">
   <a href={`${base}music/`} class="detail-back">Về kệ nhạc</a>
   <header class="songs-head">
     <p class="section-label">Nhạc</p>
     <h1>Tất cả bài hát</h1>
     <p class="songs-meta">
-      {fmt(songStats.songs)} bài · {fmt(songStats.artists)} nghệ sĩ · khoảng {fmt(songStats.hours)} giờ nhạc
-      <br /><small>Gộp từ mọi playlist, Bài hát đã thích và album đã lưu. Một bài có nhiều bản trên Spotify (single, album, remaster…) chỉ tính một lần.</small>
+      {fmt(songStats.songs)} bài · {fmt(songStats.artists)} nghệ sĩ
+      <br /><small>
+        {fmt(songStats.inPlaylists)} bài trong playlist Spotify · {fmt(songStats.listened)} bài đã nghe (YouTube Music, Last.fm) · {fmt(onlyPlayed)} bài chỉ nghe, không có trong playlist.
+        Một bài có nhiều bản (single, album, MV, remaster…) chỉ tính một lần.
+      </small>
     </p>
   </header>
 
   {rows.length === 0 ? (
     <section class="books-empty music-theme">
       <p class="books-empty-title">Chưa có bài hát</p>
-      <p class="books-empty-desc">Danh sách sẽ có sau lần sync Spotify đầu tiên.</p>
+      <p class="books-empty-desc">Danh sách sẽ có sau lần sync đầu tiên.</p>
     </section>
   ) : (
     <>
       <div class="filter-bar songs-filter">
         <input type="text" id="song-search" class="filter-input" placeholder="Tìm bài, nghệ sĩ, album..." autocomplete="off" />
+        <select id="song-source" class="filter-select">
+          <option value="">Tất cả nguồn</option>
+          <option value="playlist">Có trong playlist</option>
+          <option value="listened">Đã nghe</option>
+          <option value="played">Chỉ nghe, không trong playlist</option>
+        </select>
         <select id="song-sort" class="filter-select">
+          <option value="plays">Nghe nhiều nhất</option>
           <option value="name">Tên A → Z</option>
           <option value="artist">Nghệ sĩ A → Z</option>
           <option value="lists">Có trong nhiều playlist nhất</option>
-          <option value="long">Dài nhất</option>
         </select>
       </div>
       <p class="section-label songs-count"><span id="song-count">{fmt(rows.length)}</span> bài</p>
 
       <ol class="songs-list" id="songs-list">
-        {rows.map(song => {
-          const inLists = song.inLists;
-          return (
-            <li
-              data-search={fold(`${song.name} ${song.artists} ${song.album || ''}`)}
-              data-name={fold(song.name)}
-              data-artist={fold(song.artists)}
-              data-lists={song.playlists.length}
-              data-ms={song.duration_ms || 0}
-            >
-              <a href={`https://open.spotify.com/track/${song.id}`} target="_blank" rel="noopener noreferrer" class="song-main">
-                <span class="mt-cover">{song.cover && <img src={song.cover} alt="" loading="lazy" decoding="async" />}</span>
-                <span class="mt-copy">
-                  <strong>{song.name}</strong>
-                  <small>{song.artists}{song.album ? ` · ${song.album}` : ''}</small>
-                </span>
-              </a>
-              <span class="song-lists" title={inLists.map(l => l.title).join(', ')}>
-                {inLists.slice(0, 2).map(list => <a href={list.href}>{list.title}</a>)}
-                {inLists.length > 2 && <span>+{inLists.length - 2}</span>}
+        {rows.map(song => (
+          <li
+            data-search={fold(`${song.name} ${song.artists} ${song.album || ''}`)}
+            data-name={fold(song.name)}
+            data-artist={fold(song.artists)}
+            data-lists={song.playlists.length}
+            data-plays={song.plays}
+            data-source={song.source}
+          >
+            <a href={song.href} target="_blank" rel="noopener noreferrer" class="song-main">
+              <span class="mt-cover">{song.cover && <img src={song.cover} alt="" loading="lazy" decoding="async" />}</span>
+              <span class="mt-copy">
+                <strong>{song.name}</strong>
+                <small>{song.artists}{song.album ? ` · ${song.album}` : ''}</small>
               </span>
-              <span class="mt-time">{fmtDuration(song.duration_ms)}</span>
-            </li>
-          );
-        })}
+            </a>
+            <span class="song-lists" title={song.inLists.map(l => l.title).join(', ')}>
+              {song.inLists.slice(0, 2).map(list => <a href={list.href}>{list.title}</a>)}
+              {song.inLists.length > 2 && <span>+{song.inLists.length - 2}</span>}
+              {song.inLists.length === 0 && song.youtube_id && <span class="song-yt">YouTube</span>}
+            </span>
+            <span class="song-plays">{song.plays > 0 ? <>{fmt(song.plays)} <small>lượt</small></> : ''}</span>
+            <span class="mt-time">{fmtDuration(song.duration_ms)}</span>
+          </li>
+        ))}
       </ol>
     </>
   )}
@@ -81,28 +98,41 @@ const rows = [...songs]
   function initSongs() {
     const list = document.getElementById('songs-list');
     const search = document.getElementById('song-search') as HTMLInputElement | null;
+    const source = document.getElementById('song-source') as HTMLSelectElement | null;
     const sort = document.getElementById('song-sort') as HTMLSelectElement | null;
     const count = document.getElementById('song-count');
-    if (!list || !search || !sort || !count || list.dataset.bound === 'true') return;
+    if (!list || !search || !source || !sort || !count || list.dataset.bound === 'true') return;
     list.dataset.bound = 'true';
     const items = [...list.children] as HTMLElement[];
     const fold = (v: string) => v.toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd');
     const params = new URLSearchParams(location.search);
     search.value = params.get('q') || '';
-    if (params.get('sort')) sort.value = params.get('sort')!;
+    for (const [select, key] of [[source, 'source'], [sort, 'sort']] as const) {
+      const value = params.get(key);
+      if (value && [...select.options].some(o => o.value === value)) select.value = value;
+    }
+
+    const matchesSource = (item: HTMLElement, wanted: string) => {
+      const s = item.dataset.source;
+      if (!wanted) return true;
+      if (wanted === 'playlist') return s === 'playlist' || s === 'both';
+      if (wanted === 'listened') return s === 'played' || s === 'both';
+      return s === 'played';
+    };
 
     const apply = (updateUrl = true) => {
       const q = fold(search.value.trim());
+      const wanted = source.value;
       const s = sort.value;
       items.sort((a, b) => {
+        if (s === 'name') return a.dataset.name!.localeCompare(b.dataset.name!);
         if (s === 'artist') return a.dataset.artist!.localeCompare(b.dataset.artist!) || a.dataset.name!.localeCompare(b.dataset.name!);
         if (s === 'lists') return Number(b.dataset.lists) - Number(a.dataset.lists) || a.dataset.name!.localeCompare(b.dataset.name!);
-        if (s === 'long') return Number(b.dataset.ms) - Number(a.dataset.ms);
-        return a.dataset.name!.localeCompare(b.dataset.name!);
+        return Number(b.dataset.plays) - Number(a.dataset.plays) || a.dataset.name!.localeCompare(b.dataset.name!);
       });
       let visible = 0;
       items.forEach(item => {
-        const ok = !q || item.dataset.search!.includes(q);
+        const ok = (!q || item.dataset.search!.includes(q)) && matchesSource(item, wanted);
         item.hidden = !ok;
         if (ok) visible++;
         list.appendChild(item);
@@ -111,10 +141,12 @@ const rows = [...songs]
       if (!updateUrl) return;
       const url = new URL(location.href);
       search.value.trim() ? url.searchParams.set('q', search.value.trim()) : url.searchParams.delete('q');
-      s !== 'name' ? url.searchParams.set('sort', s) : url.searchParams.delete('sort');
-      history.replaceState({}, '', url);
+      wanted ? url.searchParams.set('source', wanted) : url.searchParams.delete('source');
+      s !== 'plays' ? url.searchParams.set('sort', s) : url.searchParams.delete('sort');
+      history.replaceState(history.state, '', url);
     };
     search.addEventListener('input', () => apply());
+    source.addEventListener('change', () => apply());
     sort.addEventListener('change', () => apply());
     apply(false);
   }
@@ -126,16 +158,16 @@ const rows = [...songs]
   .songs-head { margin: 4px 0 20px; text-align: center; }
   .songs-head h1 { font-size: clamp(28px, 4.5vw, 42px); font-weight: 800; margin: 4px 0 6px; }
   .songs-meta { color: var(--text-secondary); font-size: 14px; line-height: 1.6; }
-  .songs-meta small { color: var(--text-muted); font-size: 12px; }
-  .songs-filter { margin: 0 auto 8px; max-width: 900px; }
-  .songs-count { margin: 0 auto 8px; max-width: 900px; }
-  .songs-list { display: grid; gap: 2px; list-style: none; margin: 0 auto; max-width: 900px; padding: 0; }
+  .songs-meta small { color: var(--text-muted); display: inline-block; font-size: 12px; max-width: 640px; }
+  .songs-filter { margin: 0 auto 8px; max-width: 960px; }
+  .songs-count { margin: 0 auto 8px; max-width: 960px; }
+  .songs-list { display: grid; gap: 2px; list-style: none; margin: 0 auto; max-width: 960px; padding: 0; }
   .songs-list li {
     align-items: center;
     border-radius: 8px;
     display: grid;
     gap: 12px;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 220px) 44px;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 220px) 64px 44px;
     padding: 4px 8px;
   }
   .songs-list li[hidden] { display: none; }
@@ -154,8 +186,11 @@ const rows = [...songs]
     white-space: nowrap;
   }
   .song-lists a:hover { color: var(--music-color); }
+  .song-lists .song-yt { border-color: rgba(255, 80, 100, 0.35); color: #FF6B81; }
+  .song-plays { color: var(--music-color); font-family: 'Space Mono', monospace; font-size: 13px; font-weight: 700; text-align: right; }
+  .song-plays small { color: var(--text-muted); font-size: 10px; font-weight: 400; }
   @media (max-width: 640px) {
-    .songs-list li { grid-template-columns: minmax(0, 1fr) 40px; }
-    .song-lists { display: none; }
+    .songs-list li { grid-template-columns: minmax(0, 1fr) 56px; }
+    .song-lists, .songs-list .mt-time { display: none; }
   }
 </style>
