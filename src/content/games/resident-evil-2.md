@@ -1,6 +1,6 @@
 ---
 title: "Resident Evil 2"
-rating: 0
+rating: 8
 genre: "Shooter, Puzzle, Adventure"
 year: 1998
 studio: "Capcom Planning Room 2"

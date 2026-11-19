@@ -1,7 +1,7 @@
 ---
 title: "Resident Evil 2 Remake"
 locked: "title"
-rating: 0
+rating: 8
 genre: "Shooter, Adventure"
 year: 2019
 studio: "Capcom"

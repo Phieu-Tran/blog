@@ -1,7 +1,7 @@
 ---
 title: "Resident Evil 4 Remake"
 locked: "title"
-rating: 0
+rating: 10
 genre: "Shooter, Adventure"
 year: 2023
 studio: "Capcom"
