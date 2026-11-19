@@ -1,7 +1,7 @@
 ---
 title: "Dishonored"
 genre: "Adventure, Stealth, Role-playing (RPG)"
-locked: "genre"
+locked: genre
 steam_appid: 205100
 rating: 9
 year: 2012

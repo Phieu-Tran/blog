@@ -10,7 +10,7 @@ platform: Multi-platform
 cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/co8d9t.jpg"
 date: 2026-03-30
 igdb_id: 26602
-igdb_score: 9
+igdb_score: 8.9
 igdb_updated_at: 2026-11-19
 igdb_slug: metaphor-refantazio
 igdb_url: "https://www.igdb.com/games/metaphor-refantazio"

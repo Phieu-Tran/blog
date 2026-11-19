@@ -1,10 +1,10 @@
 ---
 title: "Chill bar"
-artist: "Hustlang Robber, RAP VIỆT, Winno"
+artist: "Hustlang Robber, Dab, Winno"
 kind: "playlist"
 genre: "Hip-Hop, Rap, Trap"
-year: 2025
-tracks: 4
+year: 2026
+tracks: 9
 spotify_id: "2xohTSj1aLeUmZ1EQOD48g"
 status: "listened"
 source: "spotify"

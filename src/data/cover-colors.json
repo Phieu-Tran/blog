@@ -3343,6 +3343,10 @@
   "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2uls.jpg",
   "color": "#da9a81"
  },
+ "games/9-kings": {
+  "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/codaac.jpg",
+  "color": "#78e3d1"
+ },
  "games/animaze": {
   "cover": "https://steamcdn-a.akamaihd.net/steam/apps/1364390/header.jpg",
   "color": "#9281da"
@@ -3448,8 +3452,8 @@
   "color": "#dabc81"
  },
  "games/control": {
-  "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob5pu.jpg",
-  "color": "#da9d81"
+  "cover": "https://cdn.cloudflare.steamstatic.com/steam/apps/870780/library_600x900.jpg",
+  "color": "#ec6f77"
  },
  "games/counter-strike-2": {
   "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaczd.jpg",
@@ -3604,12 +3608,12 @@
   "color": "#e09a7b"
  },
  "games/hades": {
-  "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4rs3.jpg",
-  "color": "#da9681"
+  "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cob9kr.jpg",
+  "color": "#da9581"
  },
  "games/hades-ii": {
-  "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobwrj.jpg",
-  "color": "#daa581"
+  "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaknx.jpg",
+  "color": "#81dabf"
  },
  "games/heavy-rain": {
   "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaajv.jpg",
@@ -3620,12 +3624,12 @@
   "color": "#81c2da"
  },
  "games/hollow-knight": {
-  "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocpbl.jpg",
-  "color": "#81ceda"
+  "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobfzp.jpg",
+  "color": "#7a98e1"
  },
  "games/hollow-knight-silksong": {
-  "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaob9.jpg",
-  "color": null
+  "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cobebu.jpg",
+  "color": "#e0907b"
  },
  "games/horizon-zero-dawn": {
   "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2una.jpg",
@@ -3743,6 +3747,10 @@
   "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3dli.jpg",
   "color": "#8198da"
  },
+ "games/onimusha-way-of-the-sword": {
+  "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cocdt3.jpg",
+  "color": "#da9e81"
+ },
  "games/overwatch": {
   "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rcb.jpg",
   "color": "#e2be78"
@@ -3766,6 +3774,10 @@
  "games/persona-5-royal": {
   "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/coclf1.jpg",
   "color": "#db808c"
+ },
+ "games/phantom-blade-zero": {
+  "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/cococe.jpg",
+  "color": "#dabd81"
  },
  "games/portal-2": {
   "cover": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rs4.jpg",
@@ -3988,12 +4000,12 @@
   "color": "#81b7da"
  },
  "music/a-love-for-taylor-swift": {
-  "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8433d4c4ea9cf43b21107fc49e",
+  "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8433d4c4ea9cf43b21107fc49e",
   "color": "#eb8370"
  },
  "music/bai-hat-da-thich": {
-  "cover": "https://i.scdn.co/image/ab67616d0000b273faa424e375adb00f3dbe2738",
-  "color": "#daa581"
+  "cover": "https://i.scdn.co/image/ab67616d0000b27367e28082aac7d46f2f834c2d",
+  "color": "#dd7e97"
  },
  "music/best-of-usuk": {
   "cover": "https://mosaic.scdn.co/640/ab67616d00001e027636e1c9e67eaafc9f49aefdab67616d00001e029e2f95ae77cf436017ada9cbab67616d00001e02c6e0126da7f7476dd752b926ab67616d00001e02cb16227d90152c2a5022bba1",
@@ -4036,7 +4048,7 @@
   "color": "#da9181"
  },
  "music/jp-popular": {
-  "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84cfcc835de4498ccee1abb8f6",
+  "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84cfcc835de4498ccee1abb8f6",
   "color": "#f16a8e"
  },
  "music/karaoke": {
@@ -4076,7 +4088,7 @@
   "color": "#81c1da"
  },
  "music/playlist-for-the-future-cua-toi-nam-2024": {
-  "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da845445a7b04a84bfdccc27cf9f",
+  "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845445a7b04a84bfdccc27cf9f",
   "color": "#7969f2"
  },
  "music/rap-v": {
@@ -4084,7 +4096,7 @@
   "color": "#e69275"
  },
  "music/suy-rap": {
-  "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84db519b28e81e279390533b46",
+  "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84db519b28e81e279390533b46",
   "color": "#daa081"
  },
  "music/suy-xiu-luon": {

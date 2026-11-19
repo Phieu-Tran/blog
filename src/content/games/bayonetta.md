@@ -1,7 +1,7 @@
 ---
 title: "Bayonetta"
 genre: "Hack and slash/Beat 'em up, Adventure"
-locked: "genre"
+locked: genre
 steam_appid: 460790
 rating: 8
 year: 2009

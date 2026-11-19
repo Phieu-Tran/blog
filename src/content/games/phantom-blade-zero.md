@@ -1,15 +1,20 @@
 ---
 title: "Phantom Blade Zero"
 rating: 9
-genre: "Action, RPG"
+genre: "Role-playing (RPG), Hack and slash/Beat 'em up, Adventure"
 year: 2026
-studio: "S-GAME Studio"
-publisher: "S-GAME Publishing"
+studio: S-Game
+publisher: S-Game
 status: completed
 source: manual
-platform: "PlayStation, PC"
+platform: "PC, PlayStation"
 steam_appid: 4115450
-steam_url: "https://store.steampowered.com/app/4115450/"
-cover: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg"
+steam_url: "https://store.steampowered.com/app/4115450"
+cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/cococe.jpg"
 date: 2026-11-19
+igdb_id: 250618
+igdb_slug: phantom-blade-zero
+igdb_url: "https://www.igdb.com/games/phantom-blade-zero"
+igdb_score: 8.6
+igdb_updated_at: 2026-11-19
 ---
