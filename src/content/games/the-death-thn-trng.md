@@ -1,10 +1,10 @@
 ---
 title: "The Death | Thần Trùng"
+year: 2022
+studio: "DUT Studio"
+genre: "Adventure, Indie"
 steam_appid: 1726400
 rating: 0
-genre: N/A
-year: 2026
-studio: N/A
 status: completed
 source: steam
 platform: PC

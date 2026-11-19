@@ -1,10 +1,10 @@
 ---
 title: "Dragon Nest Europe"
+year: 2014
+studio: "Eyedentity Games"
+genre: "Role-playing (RPG), Hack and slash/Beat 'em up"
 steam_appid: 258700
 rating: 0
-genre: N/A
-year: 2026
-studio: N/A
 status: completed
 source: steam
 platform: PC

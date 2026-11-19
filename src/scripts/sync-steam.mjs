@@ -155,6 +155,8 @@ async function main() {
         if (k === 'studio' && merged.studio !== 'N/A') continue;
         if (k === 'platform' && merged.platform && !['Steam', 'IGDB', 'N/A'].includes(merged.platform)) continue;
         if (k === 'date' && merged.date) continue;
+        // Year / cover / status belong to IGDB and the user once set (same rule as sync-all).
+        if (['year', 'cover', 'status'].includes(k) && merged[k] !== undefined && merged[k] !== '') continue;
         merged[k] = v;
       }
 

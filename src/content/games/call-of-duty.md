@@ -1,10 +1,10 @@
 ---
 title: "Call of Duty®"
+year: 2022
+studio: "Infinity Ward, Treyarch, Sledgehammer Games"
+genre: "Shooter"
 steam_appid: 1938090
 rating: 0
-genre: N/A
-year: 2026
-studio: N/A
 status: completed
 source: steam
 platform: PC

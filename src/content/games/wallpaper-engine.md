@@ -1,10 +1,10 @@
 ---
 title: "Wallpaper Engine"
+year: 2018
+studio: "Wallpaper Engine Team"
+genre: "Simulator"
 steam_appid: 431960
 rating: 0
-genre: N/A
-year: 2026
-studio: N/A
 status: completed
 source: steam
 platform: PC

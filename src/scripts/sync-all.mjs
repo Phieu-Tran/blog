@@ -791,6 +791,9 @@ async function syncSteam() {
         if (k === 'studio' && merged.studio !== 'N/A') continue;
         if (k === 'platform' && merged.platform && !['Steam', 'IGDB', 'N/A'].includes(merged.platform)) continue;
         if (k === 'date' && merged.date) continue;
+        // Year / title / cover / status belong to IGDB and the user once set. Overwriting them each week
+        // reset every year to the current year (games IGDB could not map stayed "2026") and the user's status.
+        if (['year', 'title', 'cover', 'status'].includes(k) && merged[k] !== undefined && merged[k] !== '') continue;
         merged[k] = v;
       }
       fs.writeFileSync(path.join(GAMES_DIR, existing.file), buildFrontmatter(merged) + existing.body);

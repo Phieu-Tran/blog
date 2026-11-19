@@ -1,17 +1,17 @@
 ---
 title: "THE FINALS"
+year: 2023
+studio: "Embark Studios"
+publisher: "Embark Studios"
+genre: "Shooter"
+platform: "Multi-platform"
+cover: "https://cdn.cloudflare.steamstatic.com/steam/apps/2073850/library_600x900.jpg"
 steam_appid: 2073850
 rating: 0
-genre: "Role-playing (RPG), Adventure"
-year: 2026
-studio: "Matrix Software"
 status: plan
 source: steam
-platform: PC
 playtime_hours: 0
-cover: "https://steamcdn-a.akamaihd.net/steam/apps/2073850/header.jpg"
 date: 2026-03-30
-igdb_score: 8.2
 steam_url: "https://store.steampowered.com/app/2073850"
 steam_recent: false
 steam_recent_hours: 0

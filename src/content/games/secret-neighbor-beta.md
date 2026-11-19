@@ -1,10 +1,10 @@
 ---
 title: "Secret Neighbor Beta"
+year: 2019
+studio: "Hologryph"
+genre: "Adventure, Indie"
 steam_appid: 999730
 rating: 0
-genre: N/A
-year: 2026
-studio: N/A
 status: plan
 source: steam
 platform: PC

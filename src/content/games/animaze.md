@@ -1,10 +1,10 @@
 ---
 title: "Animaze"
+year: 2021
+studio: "Holotech Studios"
+genre: "Simulator"
 steam_appid: 1364390
 rating: 0
-genre: N/A
-year: 2026
-studio: N/A
 status: plan
 source: steam
 platform: PC

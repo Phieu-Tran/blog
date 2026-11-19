@@ -1,17 +1,17 @@
 ---
 title: "The Forest"
+year: 2018
+studio: "Endnight Games"
+publisher: "Endnight Games"
+genre: "Adventure, Indie"
+platform: "PC, PlayStation"
+cover: "https://cdn.cloudflare.steamstatic.com/steam/apps/242760/library_600x900.jpg"
 steam_appid: 242760
 rating: 0
-genre: "Role-playing (RPG), Adventure, Indie"
-year: 2026
-studio: "Primary Orbit"
 status: completed
 source: steam
-platform: PC
 playtime_hours: 16
-cover: "https://steamcdn-a.akamaihd.net/steam/apps/242760/header.jpg"
 date: 2026-03-30
-igdb_score: 7
 steam_url: "https://store.steampowered.com/app/242760"
 steam_recent: false
 steam_recent_hours: 0

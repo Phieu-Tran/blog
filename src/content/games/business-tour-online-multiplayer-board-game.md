@@ -1,10 +1,10 @@
 ---
 title: "Business Tour - Online Multiplayer Board Game"
+year: 2017
+studio: "8Floor"
+genre: "Strategy, Card & Board Game"
 steam_appid: 397900
 rating: 0
-genre: N/A
-year: 2026
-studio: N/A
 status: completed
 source: steam
 platform: PC
