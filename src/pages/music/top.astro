@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { periodStart, playCount, topByPlays, plays } from '../../lib/listening';
+import { periodStart, playCount, topByPlays, plays, playSources } from '../../lib/listening';
 
 // Written by sync-spotify (needs the user-top-read scope); optional so the site builds before the first sync.
 type TopTrack = { id: string; name: string; artists: string; album?: string; cover?: string; prev?: number | null };
@@ -68,7 +68,10 @@ const fmtDate = (iso?: string) => (iso ? new Date(iso).toLocaleDateString('vi-VN
   <header class="top-head">
     <p class="section-label">Nhạc</p>
     <h1>Top nghe nhiều</h1>
-    <p class="top-meta">{plays.length > 0 ? <>Theo số lượt nghe (Last.fm) · {plays.length.toLocaleString('vi-VN')} lượt từ {firstPlay}</> : 'Theo số lượt nghe (Last.fm)'}</p>
+    <p class="top-meta">
+      Theo số lượt nghe · {plays.length.toLocaleString('vi-VN')} lượt từ {firstPlay || '—'}
+      {plays.length > 0 && <><br /><small>Spotify (qua Last.fm): {playSources.lastfm.toLocaleString('vi-VN')} · YouTube Music: {playSources.youtube.toLocaleString('vi-VN')}</small></>}
+    </p>
   </header>
 
   <section class="plays-board" data-kind="tracks" data-period="week">
@@ -92,7 +95,9 @@ const fmtDate = (iso?: string) => (iso ? new Date(iso).toLocaleDateString('vi-VN
           <p class="top-genres-empty">
             {plays.length === 0
               ? 'Chưa có lượt nghe nào. Last.fm bắt đầu ghi từ lúc kết nối với Spotify, nghe vài bài là sẽ có.'
-              : 'Chưa có lượt nghe nào trong khoảng này.'}
+              : kind.key === 'albums' && board.total > 0
+                ? 'Chưa có tên album: YouTube Music không ghi album, chỉ lượt nghe Spotify (qua Last.fm) mới có.'
+                : 'Chưa có lượt nghe nào trong khoảng này.'}
           </p>
         ) : (
           <ol class="plays-list">

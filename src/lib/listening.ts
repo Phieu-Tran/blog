@@ -1,7 +1,8 @@
-// Play counts from the listening log (src/data/listening/<year>.jsonl, written by sync-lastfm).
+// Play counts from the listening log (src/data/listening/<year>.jsonl): Last.fm scrobbles (sync-lastfm)
+// plus YouTube Music plays imported from Google Takeout (import-youtube-history, source: 'youtube').
 // Periods follow the Vietnamese calendar (UTC+7): week starts Monday 00:00.
 
-type Play = { ts: number; name: string; artist: string; album?: string };
+type Play = { ts: number; name: string; artist: string; album?: string; source?: 'youtube' };
 
 const files = import.meta.glob<string>('../data/listening/*.jsonl', { query: '?raw', import: 'default', eager: true });
 
@@ -60,6 +61,12 @@ export function topByPlays(kind: 'tracks' | 'artists' | 'albums', since: number,
   }
   return [...counts.values()].sort((a, b) => b.count - a.count || a.title.localeCompare(b.title)).slice(0, limit);
 }
+
+/** Where the plays come from, for the page caption. */
+export const playSources = {
+  lastfm: plays.filter(p => p.source !== 'youtube').length,
+  youtube: plays.filter(p => p.source === 'youtube').length,
+};
 
 export function playCount(since: number) {
   return plays.filter(p => p.ts >= since).length;

@@ -34,7 +34,8 @@ function readLog() {
       try {
         const play = JSON.parse(line);
         known.add(playKey(play));
-        latest = Math.max(latest, Number(play.ts) || 0);
+        // Only Last.fm's own scrobbles move the incremental cursor; imported YouTube plays must not.
+        if (play.source !== 'youtube') latest = Math.max(latest, Number(play.ts) || 0);
       } catch {
         // skip a corrupt line rather than stop the sync
       }
