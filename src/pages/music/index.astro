@@ -42,7 +42,9 @@ const kindLabel = { album: 'Album', ep: 'EP', single: 'Single', ost: 'OST', comp
       <section class="reveal" style="margin-bottom: 28px;">
         <div class="books-summary music-theme">
           {songStats.songs > 0 && <a href={`${base}music/bai-hat/`} class="books-summary-item"><strong>{fmt(songStats.songs)}</strong><span>Bài hát</span></a>}
-          {songStats.listened > 0 && <a href={`${base}music/bai-hat/?source=listened`} class="books-summary-item"><strong>{fmt(songStats.listened)}</strong><span>Bài đã nghe</span></a>}
+          {/* Two parts that add up to the total: "listened" alone was misleading, since Spotify plays before Last.fm was connected are not recorded. */}
+          {songStats.inPlaylists > 0 && <a href={`${base}music/bai-hat/?source=playlist`} class="books-summary-item"><strong>{fmt(songStats.inPlaylists)}</strong><span>Trong playlist</span></a>}
+          {songStats.songs - songStats.inPlaylists > 0 && <a href={`${base}music/bai-hat/?source=played`} class="books-summary-item"><strong>{fmt(songStats.songs - songStats.inPlaylists)}</strong><span>Nghe ngoài playlist</span></a>}
           {songStats.artists > 0 && <div class="books-summary-item"><strong>{fmt(songStats.artists)}</strong><span>Nghệ sĩ</span></div>}
           {songStats.hours > 0 && <div class="books-summary-item"><strong>{fmt(songStats.hours)}</strong><span>Giờ nhạc trong playlist</span></div>}
           <div class="books-summary-item"><strong>{playlistCount}</strong><span>Playlist</span></div>

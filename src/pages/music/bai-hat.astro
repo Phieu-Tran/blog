@@ -33,7 +33,8 @@ const onlyPlayed = rows.filter(r => r.source === 'played').length;
     <p class="songs-meta">
       {fmt(songStats.songs)} bài · {fmt(songStats.artists)} nghệ sĩ
       <br /><small>
-        {fmt(songStats.inPlaylists)} bài trong playlist Spotify · {fmt(songStats.listened)} bài đã nghe (YouTube Music, Last.fm) · {fmt(onlyPlayed)} bài chỉ nghe, không có trong playlist.
+        {fmt(songStats.inPlaylists)} bài trong playlist Spotify + {fmt(onlyPlayed)} bài nghe ngoài playlist.
+        Lượt nghe được ghi từ YouTube Music (từ 7/2025) và Last.fm (từ 19/11/2026); lượt nghe Spotify trước đó chưa có nên không hiện số lượt.
         Một bài có nhiều bản (single, album, MV, remaster…) chỉ tính một lần.
       </small>
     </p>
@@ -51,8 +52,8 @@ const onlyPlayed = rows.filter(r => r.source === 'played').length;
         <select id="song-source" class="filter-select">
           <option value="">Tất cả nguồn</option>
           <option value="playlist">Có trong playlist</option>
-          <option value="listened">Đã nghe</option>
-          <option value="played">Chỉ nghe, không trong playlist</option>
+          <option value="listened">Có lượt nghe ghi nhận</option>
+          <option value="played">Nghe ngoài playlist</option>
         </select>
         <select id="song-sort" class="filter-select">
           <option value="plays">Nghe nhiều nhất</option>
