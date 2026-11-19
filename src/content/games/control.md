@@ -1,13 +1,15 @@
 ---
 title: "Control"
+year: 2019
+studio: "Remedy Entertainment"
+publisher: "505 Games"
+genre: "Shooter, Adventure"
+platform: "Multi-platform"
+steam_appid: 870780
+cover: "https://cdn.cloudflare.steamstatic.com/steam/apps/870780/library_600x900.jpg"
 rating: 6
-genre: Strategy
-year: 1992
-studio: Remedy
 status: completed
 source: igdb
-platform: Multi-platform
-cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/cob5pu.jpg"
 date: 2026-03-30
 igdb_personal: true
 ---

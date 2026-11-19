@@ -1,7 +1,9 @@
 ---
 title: "Dishonored"
+genre: "Adventure, Stealth, Role-playing (RPG)"
+locked: "genre"
+steam_appid: 205100
 rating: 9
-genre: "Puzzle, Role-playing (RPG), Adventure"
 year: 2012
 studio: "Arkane Studios"
 status: completed

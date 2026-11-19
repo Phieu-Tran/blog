@@ -281,19 +281,29 @@ function escapeIgdbString(value) {
   return String(value).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
 }
 
-const IGDB_GAME_FIELDS = 'name,slug,url,category,cover.image_id,genres.name,platforms.name,involved_companies.company.name,involved_companies.developer,involved_companies.publisher,first_release_date,total_rating,aggregated_rating,rating,websites.url,websites.category,external_games.url,external_games.category,external_games.uid';
+const IGDB_GAME_FIELDS = 'name,slug,url,category,cover.image_id,genres.name,platforms.name,involved_companies.company.name,involved_companies.developer,involved_companies.publisher,first_release_date,total_rating,total_rating_count,aggregated_rating,aggregated_rating_count,rating,rating_count,hypes,websites.url,websites.category,external_games.url,external_games.category,external_games.uid';
+
+// How well-known a game is on IGDB. Several games often share a title ("Hades" 1995 vs Supergiant's,
+// "Control" 1992 vs Remedy's, fan ports of Hollow Knight), and the famous one is the one people play.
+function igdbPopularity(game) {
+  return Number(game.total_rating_count || 0) +
+    Number(game.rating_count || 0) +
+    Number(game.aggregated_rating_count || 0) * 5 +
+    Number(game.hypes || 0) +
+    (Array.isArray(game.external_games) && game.external_games.some(ext => Number(ext.category) === 1) ? 25 : 0);
+}
 
 function compareIgdbTitleCandidates(a, b) {
+  // Main games (category 0) before ports, remakes, mods, fan games…
   const categoryA = Number.isFinite(Number(a.category)) ? Number(a.category) : 0;
   const categoryB = Number.isFinite(Number(b.category)) ? Number(b.category) : 0;
-  if (categoryA !== categoryB) return categoryA - categoryB;
+  if ((categoryA === 0) !== (categoryB === 0)) return categoryA === 0 ? -1 : 1;
 
-  const releaseA = Number(a.first_release_date || Number.MAX_SAFE_INTEGER);
-  const releaseB = Number(b.first_release_date || Number.MAX_SAFE_INTEGER);
-  if (releaseA !== releaseB) return releaseA - releaseB;
+  // Then the best-known game. The old rule "earliest release wins" picked obscure 1990s namesakes.
+  const popularity = igdbPopularity(b) - igdbPopularity(a);
+  if (popularity !== 0) return popularity;
 
-  return Number(b.total_rating || b.aggregated_rating || b.rating || 0) -
-    Number(a.total_rating || a.aggregated_rating || a.rating || 0);
+  return Number(b.first_release_date || 0) - Number(a.first_release_date || 0);
 }
 
 function shouldResolveByTitle(entry) {
@@ -392,7 +402,9 @@ async function main() {
     const explicitPersonalIgdbId = isIgdbPersonal(entry.frontmatter) && Number.isFinite(existingIgdbId)
       ? existingIgdbId
       : undefined;
-    const igdbId = explicitPersonalIgdbId || mappedIgdbId || (Number.isFinite(existingIgdbId) ? existingIgdbId : undefined);
+    // A Steam AppID is the most reliable identity, so its IGDB mapping wins over a stored id
+    // (stored ids can come from an earlier wrong title match). Same order as sync-all.
+    const igdbId = mappedIgdbId || explicitPersonalIgdbId || (Number.isFinite(existingIgdbId) ? existingIgdbId : undefined);
     if (igdbId) entryToIgdb.set(entry.file, igdbId);
   }
 
@@ -418,8 +430,10 @@ async function main() {
 
     const merged = { ...entry.frontmatter };
     const metadata = igdbMetadata(game, merged);
+    const locked = new Set(String(merged.locked || '').split(',').map(field => field.trim()).filter(Boolean));
     for (const [key, value] of Object.entries(metadata)) {
       if (value === undefined || value === null || value === '') continue;
+      if (locked.has(key)) continue;
       merged[key] = value;
     }
 

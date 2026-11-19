@@ -1,7 +1,9 @@
 ---
 title: "Bayonetta"
+genre: "Hack and slash/Beat 'em up, Adventure"
+locked: "genre"
+steam_appid: 460790
 rating: 8
-genre: "Shooter, Hack and slash/Beat 'em up, Adventure"
 year: 2009
 studio: "Nex Entertainment, PlatinumGames"
 status: completed

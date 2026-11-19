@@ -1,18 +1,16 @@
 ---
-title: "Hades 2"
+title: "Hades II"
+year: 2025
+studio: "Supergiant Games"
+publisher: "Supergiant Games"
+genre: "Role-playing (RPG), Hack and slash/Beat 'em up, Indie"
+platform: "PC, Nintendo"
+steam_appid: 1145350
+cover: "https://cdn.cloudflare.steamstatic.com/steam/apps/1145350/library_600x900.jpg"
 rating: 7
-genre: Shooter
-year: 2001
-studio: "Espaço Informática"
 status: completed
 source: igdb
-platform: PC
 date: 2026-06-29
 igdb_personal: true
-igdb_id: 134619
-igdb_slug: hades-2
-igdb_url: "https://www.igdb.com/games/hades-2"
-cover: "https://images.igdb.com/igdb/image/upload/t_cover_big/cobwrj.jpg"
-igdb_updated_at: 2026-11-19
 ---
 

@@ -71,6 +71,8 @@ const games = defineCollection({
     steam_recent_hours: z.number().optional(),
     cover: z.string().optional(),
     igdb_updated_at: z.date().optional(),
+    // Comma-separated fields the user owns; IGDB sync never overwrites them (e.g. "genre").
+    locked: z.string().optional(),
     date: z.date(),
   }),
 });
