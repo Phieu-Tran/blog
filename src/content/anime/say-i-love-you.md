@@ -13,5 +13,6 @@ mal_score: 7.38
 episodes_watched: 13
 episodes_total: 13
 updated_at: 2021-01-31
+original_title: "Suki tte Ii na yo."
 ---
 

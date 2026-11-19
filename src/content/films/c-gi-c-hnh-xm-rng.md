@@ -11,5 +11,6 @@ director: "David Fincher"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/uxA4g0ZjjHFOIWJa5UKjLT1b1ah.jpg"
+original_title: "The Girl with the Dragon Tattoo"
 ---
 

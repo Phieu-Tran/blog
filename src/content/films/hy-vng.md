@@ -11,5 +11,7 @@ director: 이준익
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/1e2I2Ys9V2Jx3CDl8VdoUtpg5tt.jpg"
+original_title: 소원
+en_title: Hope
 ---
 

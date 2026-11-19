@@ -13,5 +13,6 @@ mal_score: 7.52
 episodes_watched: 21
 episodes_total: 21
 updated_at: 2021-01-31
+original_title: "Tonari no Seki-kun"
 ---
 

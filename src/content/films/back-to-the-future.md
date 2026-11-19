@@ -12,5 +12,6 @@ director: "Robert Zemeckis"
 status: watched
 date: 2025-10-18
 cover: "https://image.tmdb.org/t/p/w500/d8O1txQtDobdenlyL7uArsRezdj.jpg"
+original_title: "Back to the Future"
 ---
 

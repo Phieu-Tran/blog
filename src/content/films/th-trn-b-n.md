@@ -11,5 +11,6 @@ director: "Alex Hirsch"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/jVYrMpiMi5Dqug5kXQeJr0X3GTW.jpg"
+original_title: "Gravity Falls"
 ---
 

@@ -11,5 +11,6 @@ director: "Francis Lawrence"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/c1bjJpQkNr7EzEwSBjif0S1mOgK.jpg"
+original_title: "The Hunger Games: Mockingjay - Part 1"
 ---
 

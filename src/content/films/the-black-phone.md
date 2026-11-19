@@ -12,5 +12,6 @@ director: "Scott Derrickson"
 status: watched
 date: 2025-11-30
 cover: "https://image.tmdb.org/t/p/w500/tGvrCyZSWx4jxYOZ0dEfSCPYfeo.jpg"
+original_title: "The Black Phone"
 ---
 

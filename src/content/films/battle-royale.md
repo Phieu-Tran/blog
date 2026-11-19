@@ -12,5 +12,7 @@ director: 深作欣二
 status: watched
 date: 2025-11-30
 cover: "https://image.tmdb.org/t/p/w500/laUmjb39U6glMrOKyaco4QPeGaC.jpg"
+original_title: バトル・ロワイアル
+en_title: "Battle Royale"
 ---
 

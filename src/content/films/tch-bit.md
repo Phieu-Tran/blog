@@ -11,5 +11,6 @@ director: "M. Night Shyamalan"
 status: watched
 date: 2026-07-28
 cover: "https://image.tmdb.org/t/p/w500/kAqpYVwtReMDU75Arv5QrQ3tJpD.jpg"
+original_title: Split
 ---
 

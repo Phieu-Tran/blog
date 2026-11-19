@@ -12,5 +12,6 @@ director: "Doug Liman"
 status: watched
 date: 2026-03-19
 cover: "https://image.tmdb.org/t/p/w500/fDEdtS4P0gJsxHDIt8dG8TR5dx1.jpg"
+original_title: "Road House"
 ---
 

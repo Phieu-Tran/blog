@@ -11,5 +11,6 @@ director: "Keiko Suenobu"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/zErJYzJ97GynnIDsGEJmMGNI0Eq.jpg"
+en_title: Limit
 ---
 

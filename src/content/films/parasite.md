@@ -12,5 +12,7 @@ director: "Bong Joon Ho"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/zZydO1LhMhqDAMM86JUi241wT7X.jpg"
+original_title: 기생충
+en_title: Parasite
 ---
 

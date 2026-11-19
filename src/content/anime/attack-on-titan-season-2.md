@@ -13,5 +13,6 @@ mal_score: 8.55
 episodes_watched: 12
 episodes_total: 12
 updated_at: 2021-08-26
+original_title: "Shingeki no Kyojin Season 2"
 ---
 

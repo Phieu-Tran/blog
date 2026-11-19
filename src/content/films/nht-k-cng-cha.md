@@ -11,5 +11,6 @@ director: "Garry Marshall"
 status: watched
 date: 2026-07-28
 cover: "https://image.tmdb.org/t/p/w500/7axhsbEzFan6HQQ1aMOy7w3CFRx.jpg"
+original_title: "The Princess Diaries"
 ---
 

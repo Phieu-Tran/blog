@@ -11,5 +11,7 @@ director: N/A
 status: watched
 date: 2026-10-06
 cover: "https://image.tmdb.org/t/p/w500/1eHY0eqE6ricIouCyxMfAFm6D6i.jpg"
+original_title: 九条の大罪
+en_title: "Sins of Kujo"
 ---
 

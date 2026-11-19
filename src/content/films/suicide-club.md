@@ -12,5 +12,6 @@ director: 園子温
 status: watched
 date: 2026-03-27
 cover: "https://image.tmdb.org/t/p/w500/ksAr1ujk8rJTtMfZ8skWn98zemh.jpg"
+en_title: "Suicide Club"
 ---
 

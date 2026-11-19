@@ -11,5 +11,6 @@ director: "James Mangold"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/rDu3wdpvK6oUr1qDr63FlvQt3Nb.jpg"
+original_title: Logan
 ---
 

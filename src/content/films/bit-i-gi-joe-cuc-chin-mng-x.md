@@ -11,5 +11,6 @@ director: "Stephen Sommers"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/niN7H9XXYrAREsNsuzQdzMsrw31.jpg"
+original_title: "G.I. Joe: The Rise of Cobra"
 ---
 

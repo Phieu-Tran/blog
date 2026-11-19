@@ -12,5 +12,6 @@ director: "Frank Darabont"
 status: watched
 date: 2025-04-25
 cover: "https://image.tmdb.org/t/p/w500/hOHhVYz9SFtwryNL0oxsSntoYXq.jpg"
+original_title: "The Shawshank Redemption"
 ---
 

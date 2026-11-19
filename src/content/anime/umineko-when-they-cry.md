@@ -13,5 +13,6 @@ mal_score: 7.02
 episodes_watched: 26
 episodes_total: 26
 updated_at: 2021-01-31
+original_title: "Umineko no Naku Koro ni"
 ---
 

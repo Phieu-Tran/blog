@@ -12,5 +12,6 @@ director: "Tom Six"
 status: watched
 date: 2026-03-28
 cover: "https://image.tmdb.org/t/p/w500/9YEUMnMhIjD5ek4zIqOhLSnTnJS.jpg"
+original_title: "The Human Centipede 2 (Full Sequence)"
 ---
 

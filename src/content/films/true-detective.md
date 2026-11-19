@@ -12,5 +12,6 @@ director: "Nic Pizzolatto, Issa López"
 status: watched
 date: 2026-03-13
 cover: "https://image.tmdb.org/t/p/w500/cuV2O5ZyDLHSOWzg3nLVljp1ubw.jpg"
+original_title: "True Detective"
 ---
 

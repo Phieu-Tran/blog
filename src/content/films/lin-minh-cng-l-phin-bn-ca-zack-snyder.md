@@ -11,5 +11,6 @@ director: "Zack Snyder"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/lo74w2LvHErIOl3rFLIkmAaBQo2.jpg"
+original_title: "Zack Snyder's Justice League"
 ---
 

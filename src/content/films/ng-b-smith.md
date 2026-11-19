@@ -11,5 +11,6 @@ director: "Doug Liman"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/Ajl61uUCsxVoWy0al1CaKSr71m.jpg"
+original_title: "Mr. & Mrs. Smith"
 ---
 

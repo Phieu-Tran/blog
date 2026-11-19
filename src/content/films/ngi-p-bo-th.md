@@ -11,5 +11,7 @@ director: "Park Chan-wook"
 status: watched
 date: 2026-08-04
 cover: "https://image.tmdb.org/t/p/w500/1TCQnCIIiTXROsCPKwYvnqll8Ta.jpg"
+original_title: "친절한 금자씨"
+en_title: "Lady Vengeance"
 ---
 

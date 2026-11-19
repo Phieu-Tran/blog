@@ -12,5 +12,6 @@ director: "Christopher Nolan"
 status: watched
 date: 2025-11-30
 cover: "https://image.tmdb.org/t/p/w500/5WFuvfiHRghbepz3I6zc1KeHIly.jpg"
+original_title: "The Dark Knight Rises"
 ---
 

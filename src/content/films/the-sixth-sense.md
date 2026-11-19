@@ -12,5 +12,6 @@ director: "M. Night Shyamalan"
 status: watched
 date: 2026-01-14
 cover: "https://image.tmdb.org/t/p/w500/vOyfUXNFSnaTk7Vk5AjpsKTUWsu.jpg"
+original_title: "The Sixth Sense"
 ---
 

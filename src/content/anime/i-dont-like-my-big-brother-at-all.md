@@ -13,5 +13,6 @@ mal_score: 6.07
 episodes_watched: 12
 episodes_total: 12
 updated_at: 2021-01-31
+original_title: "Oniichan no Koto nanka Zenzen Suki ja Nai n da kara ne!!"
 ---
 

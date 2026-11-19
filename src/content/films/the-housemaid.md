@@ -12,5 +12,6 @@ director: "Paul Feig"
 status: watched
 date: 2026-02-10
 cover: "https://image.tmdb.org/t/p/w500/vpHLCt2bwYmmkGH4soqJNIFLOUQ.jpg"
+original_title: "The Housemaid"
 ---
 

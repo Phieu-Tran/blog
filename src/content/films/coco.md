@@ -12,5 +12,6 @@ director: "Lee Unkrich"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/tKd5zI6gLBwrqqyicHyRD3IyosW.jpg"
+original_title: Coco
 ---
 

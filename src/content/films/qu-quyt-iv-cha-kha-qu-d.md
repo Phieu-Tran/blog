@@ -11,5 +11,6 @@ director: "Adam Robitel"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/tqpPBqR6cnIxFGX25RnU3a3lD5r.jpg"
+original_title: "Insidious: The Last Key"
 ---
 

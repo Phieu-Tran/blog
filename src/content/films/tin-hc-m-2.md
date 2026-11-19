@@ -11,5 +11,6 @@ director: "Joachim Rønning"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/uJcXMpNeuU06V3BQz37EtShaQYX.jpg"
+original_title: "Maleficent: Mistress of Evil"
 ---
 

@@ -13,5 +13,6 @@ mal_score: 8.08
 episodes_watched: 11
 episodes_total: 11
 updated_at: 2021-01-31
+original_title: "Zankyou no Terror"
 ---
 

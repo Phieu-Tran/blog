@@ -12,5 +12,6 @@ director: "Roger Allers"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/AsGpIREstvwExc3UqczmIPP4pay.jpg"
+original_title: "The Lion King"
 ---
 

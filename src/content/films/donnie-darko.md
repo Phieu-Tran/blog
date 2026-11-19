@@ -12,5 +12,6 @@ director: "Richard Kelly"
 status: watched
 date: 2026-03-16
 cover: "https://image.tmdb.org/t/p/w500/j2AtZFsflxiluaNtajMTI0Avm8C.jpg"
+original_title: "Donnie Darko"
 ---
 

@@ -11,5 +11,6 @@ director: "Joe Wright"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/ixcFIzqXIWbSOnxDLKYI8MIoRY6.jpg"
+original_title: "Pride & Prejudice"
 ---
 

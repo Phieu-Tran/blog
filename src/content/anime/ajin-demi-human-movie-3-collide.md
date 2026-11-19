@@ -13,5 +13,6 @@ mal_score: 7.23
 episodes_watched: 1
 episodes_total: 1
 updated_at: 2021-01-31
+original_title: "Ajin Part 3: Shougeki"
 ---
 

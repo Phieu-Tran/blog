@@ -12,5 +12,6 @@ director: "Brad Anderson"
 status: watched
 date: 2026-03-17
 cover: "https://image.tmdb.org/t/p/w500/diAYqR4xdF9Hnj7qun6DEQhRrT2.jpg"
+original_title: "The Machinist"
 ---
 

@@ -12,5 +12,7 @@ director: 김지운
 status: watched
 date: 2025-12-13
 cover: "https://image.tmdb.org/t/p/w500/dFGrIdZGJtxm1GG4X1liYbxyjgd.jpg"
+original_title: "악마를 보았다"
+en_title: "I Saw the Devil"
 ---
 

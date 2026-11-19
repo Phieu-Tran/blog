@@ -11,5 +11,6 @@ director: "Dan Scanlon"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/cx8HiWvDTDeH1BVOU1kNWDPWZ2E.jpg"
+original_title: "Monsters University"
 ---
 

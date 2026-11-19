@@ -11,5 +11,6 @@ director: "Andy Knight"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/l1Tb0fvnj9wnCgm5qnTRoO6OxDT.jpg"
+original_title: "Beauty and the Beast: The Enchanted Christmas"
 ---
 

@@ -11,5 +11,6 @@ episodes_watched: 0
 episodes_total: 12
 cover: "https://cdn.myanimelist.net/images/anime/1120/109232.jpg"
 date: 2026-07-28
+original_title: "Jaku-Chara Tomozaki-kun"
 ---
 

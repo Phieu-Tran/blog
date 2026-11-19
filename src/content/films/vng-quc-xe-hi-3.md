@@ -11,5 +11,6 @@ director: "Brian Fee"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/iZihPx7x4T0rV6kISvQcD6YN5md.jpg"
+original_title: "Cars 3"
 ---
 

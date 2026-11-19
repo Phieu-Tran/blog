@@ -12,5 +12,6 @@ director: "Ben Affleck"
 status: watched
 date: 2026-01-14
 cover: "https://image.tmdb.org/t/p/w500/w98tAPUjNPxGAMCipNDWDt8PJo.jpg"
+original_title: "Gone Baby Gone"
 ---
 

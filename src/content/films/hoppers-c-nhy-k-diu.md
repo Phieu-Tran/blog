@@ -11,5 +11,6 @@ director: "Daniel Chong"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/1A7WxXAYddDCrO9dTCEdSzQKU9d.jpg"
+original_title: Hoppers
 ---
 

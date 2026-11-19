@@ -12,5 +12,6 @@ director: "Lana Wachowski"
 status: watched
 date: 2025-04-25
 cover: "https://image.tmdb.org/t/p/w500/fE7S6EwaBgRQeqKoDVFoImMmAF4.jpg"
+original_title: "The Matrix"
 ---
 

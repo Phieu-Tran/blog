@@ -11,5 +11,6 @@ director: "Alan Zaslove"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/7SC793qtORB6YL4mu0F5o3hfjDQ.jpg"
+original_title: "The Return of Jafar"
 ---
 

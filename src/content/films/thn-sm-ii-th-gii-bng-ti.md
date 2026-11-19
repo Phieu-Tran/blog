@@ -11,5 +11,6 @@ director: "Alan Taylor"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/zwFRrj1CF3YbfCzjhxPvzrQojor.jpg"
+original_title: "Thor: The Dark World"
 ---
 

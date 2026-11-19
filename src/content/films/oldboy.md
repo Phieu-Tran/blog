@@ -12,5 +12,7 @@ director: "Park Chan-wook"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/xpa9ybm6tYGna5LseqSXvKpSSJn.jpg"
+original_title: 올드보이
+en_title: Oldboy
 ---
 

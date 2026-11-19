@@ -11,5 +11,6 @@ director: "Patrick Wilson"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/faafq0NouR3wSemwc77slLEJHId.jpg"
+original_title: "Insidious: The Red Door"
 ---
 

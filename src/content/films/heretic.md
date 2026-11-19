@@ -12,5 +12,6 @@ director: "Scott Beck"
 status: watched
 date: 2026-03-08
 cover: "https://image.tmdb.org/t/p/w500/fr96XzlzsONrQrGfdLMiwtQjott.jpg"
+original_title: Heretic
 ---
 

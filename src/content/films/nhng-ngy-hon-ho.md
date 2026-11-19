@@ -11,5 +11,6 @@ director: "Wim Wenders"
 status: watched
 date: 2026-08-04
 cover: "https://image.tmdb.org/t/p/w500/dENgZn7CD6GkPvmxaBAsk8eZDnI.jpg"
+original_title: "PERFECT DAYS"
 ---
 

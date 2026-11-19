@@ -11,5 +11,6 @@ director: "Josh Trank"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/2ox7WvMJwwq6yEawXspkZEQTpbq.jpg"
+original_title: "Fantastic Four"
 ---
 

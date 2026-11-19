@@ -11,5 +11,6 @@ director: "David Hackl"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/9NTPkxWgM0ZRQVUowjA9O1PU57b.jpg"
+original_title: "Saw V"
 ---
 

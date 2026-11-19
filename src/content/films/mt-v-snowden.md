@@ -11,5 +11,6 @@ director: "Oliver Stone"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/98QCtmXac3N9mSAhDfAEzbUtoaA.jpg"
+original_title: Snowden
 ---
 

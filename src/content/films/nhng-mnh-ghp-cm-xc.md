@@ -11,5 +11,6 @@ director: "Pete Docter"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/iSPYSsRnDVyLyWhoGOQA5V4vux4.jpg"
+original_title: "Inside Out"
 ---
 

@@ -11,5 +11,6 @@ director: "Bobs Gannaway"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/d6kQyaDys8kZE1XFL0RQ1anmzAv.jpg"
+original_title: "Planes: Fire & Rescue"
 ---
 

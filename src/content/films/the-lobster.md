@@ -12,5 +12,6 @@ director: "Γιώργος Λάνθιμος"
 status: watched
 date: 2026-03-25
 cover: "https://image.tmdb.org/t/p/w500/7Y9ILV1unpW9mLpGcqyGQU72LUy.jpg"
+original_title: "The Lobster"
 ---
 

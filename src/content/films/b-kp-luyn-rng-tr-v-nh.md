@@ -11,5 +11,6 @@ director: "Tim Johnson"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/kXj2Qrfm994yLeuADqbOieU1mUH.jpg"
+original_title: "How to Train Your Dragon: Homecoming"
 ---
 

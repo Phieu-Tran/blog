@@ -11,5 +11,6 @@ director: "James Cameron"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/hTNJIoXwU6hQgmOoqc7jfLH1EBj.jpg"
+original_title: "Terminator 2: Judgment Day"
 ---
 

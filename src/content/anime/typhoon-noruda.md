@@ -13,5 +13,6 @@ mal_score: 6.2
 episodes_watched: 0
 episodes_total: 1
 updated_at: 2021-01-31
+original_title: "Taifuu no Noruda"
 ---
 

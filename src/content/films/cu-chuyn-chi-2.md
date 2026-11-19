@@ -11,5 +11,6 @@ director: "John Lasseter"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/9bd3PHt2hZ3DDMRjn28Pmd6ZHqt.jpg"
+original_title: "Toy Story 2"
 ---
 

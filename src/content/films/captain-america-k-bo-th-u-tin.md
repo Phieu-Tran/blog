@@ -11,5 +11,6 @@ director: "Joe Johnston"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/kky7t6NqAWmuIzuRgSldaOHgNMm.jpg"
+original_title: "Captain America: The First Avenger"
 ---
 

@@ -11,5 +11,7 @@ director: 大友啓史
 status: watched
 date: 2026-07-28
 cover: "https://image.tmdb.org/t/p/w500/gaKSdIx915UxinxGUvtKq8wHJFB.jpg"
+original_title: るろうに剣心
+en_title: "Rurouni Kenshin Part I: Origins"
 ---
 

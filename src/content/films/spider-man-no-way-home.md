@@ -12,5 +12,6 @@ director: "Jon Watts"
 status: watched
 date: 2025-10-18
 cover: "https://image.tmdb.org/t/p/w500/y4SQ2dJ1y2LBUnxTH7hCe8sr29c.jpg"
+original_title: "Spider-Man: No Way Home"
 ---
 

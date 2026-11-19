@@ -11,5 +11,6 @@ director: "Robert Schwentke"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/4RQRQvULI16aH9zXFrLY24h6tH0.jpg"
+original_title: Insurgent
 ---
 

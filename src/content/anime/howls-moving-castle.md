@@ -13,5 +13,6 @@ mal_score: 8.67
 episodes_watched: 1
 episodes_total: 1
 updated_at: 2021-02-01
+original_title: "Howl no Ugoku Shiro"
 ---
 

@@ -11,5 +11,6 @@ director: "Steven Spielberg"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/vc2TMwHqdjkqwRNkmAo2Ags1f29.jpg"
+original_title: "Catch Me If You Can"
 ---
 

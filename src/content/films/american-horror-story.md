@@ -12,5 +12,6 @@ director: "Ryan Murphy, Brad Falchuk"
 status: watched
 date: 2026-01-08
 cover: "https://image.tmdb.org/t/p/w500/7i2saConbrByiSPH1k5Oq6M9TBo.jpg"
+original_title: "American Horror Story"
 ---
 

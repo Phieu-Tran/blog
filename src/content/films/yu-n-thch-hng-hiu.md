@@ -11,5 +11,6 @@ director: "David Frankel"
 status: watched
 date: 2026-07-28
 cover: "https://image.tmdb.org/t/p/w500/d4nV102c3QLA5T77tjfq9tcCvmi.jpg"
+original_title: "The Devil Wears Prada"
 ---
 

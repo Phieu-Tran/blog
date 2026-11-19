@@ -12,5 +12,6 @@ director: "Gore Verbinski"
 status: watched
 date: 2025-10-18
 cover: "https://image.tmdb.org/t/p/w500/hQjENbYuhkjcr8c8O8tpQxw0XOD.jpg"
+original_title: "Pirates of the Caribbean: The Curse of the Black Pearl"
 ---
 

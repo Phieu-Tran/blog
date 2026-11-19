@@ -13,5 +13,6 @@ mal_score: 7.21
 episodes_watched: 0
 episodes_total: 24
 updated_at: 2021-01-31
+original_title: "Higurashi no Naku Koro ni Gou"
 ---
 

@@ -11,5 +11,7 @@ director: 滝田洋二郎
 status: watched
 date: 2026-08-17
 cover: "https://image.tmdb.org/t/p/w500/ssMMT72TJ80ZqqWFRuNlTPCY89v.jpg"
+original_title: おくりびと
+en_title: Departures
 ---
 

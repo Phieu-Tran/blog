@@ -11,5 +11,6 @@ director: "Baltasar Kormákur"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/wBGeTgsWeEuOWeOgR6AKvP0MtX8.jpg"
+original_title: Everest
 ---
 

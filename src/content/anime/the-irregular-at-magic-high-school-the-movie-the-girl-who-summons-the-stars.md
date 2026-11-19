@@ -13,5 +13,6 @@ mal_score: 7.45
 episodes_watched: 1
 episodes_total: 1
 updated_at: 2021-01-31
+original_title: "Mahouka Koukou no Rettousei Movie: Hoshi wo Yobu Shoujo"
 ---
 

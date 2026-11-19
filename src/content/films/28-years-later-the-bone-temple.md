@@ -12,5 +12,6 @@ director: "Nia DaCosta"
 status: watched
 date: 2026-03-03
 cover: "https://image.tmdb.org/t/p/w500/dGTV0DVizaRh5fAsrtB95FnGSlf.jpg"
+original_title: "28 Years Later: The Bone Temple"
 ---
 

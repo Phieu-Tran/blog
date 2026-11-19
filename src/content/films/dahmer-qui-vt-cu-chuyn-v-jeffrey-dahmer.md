@@ -10,5 +10,6 @@ tmdb_score: 8
 status: watched
 cover: "https://image.tmdb.org/t/p/w500/iwkpVUBCfV0oBGKuWHYd2YXoc7r.jpg"
 date: 2026-10-06
+original_title: "DAHMER - Monster: The Jeffrey Dahmer Story"
 ---
 

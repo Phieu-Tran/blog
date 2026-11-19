@@ -12,5 +12,6 @@ director: "Γιώργος Λάνθιμος"
 status: watched
 date: 2026-03-24
 cover: "https://image.tmdb.org/t/p/w500/e4DGlsc9g0h5AyoyvvAuIRnofN7.jpg"
+original_title: "The Killing of a Sacred Deer"
 ---
 

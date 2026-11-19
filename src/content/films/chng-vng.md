@@ -11,5 +11,6 @@ director: "Catherine Hardwicke"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/tfUvWB5jVJCckS0rAkJT1GwFxSL.jpg"
+original_title: Twilight
 ---
 

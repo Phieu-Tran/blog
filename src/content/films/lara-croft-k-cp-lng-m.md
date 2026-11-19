@@ -11,5 +11,6 @@ director: "Simon West"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/nP8wH1JBw6ceJbCVsYM7H1ndev1.jpg"
+original_title: "Lara Croft: Tomb Raider"
 ---
 

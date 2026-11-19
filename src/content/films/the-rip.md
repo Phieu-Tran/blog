@@ -12,5 +12,6 @@ director: "Joe Carnahan"
 status: watched
 date: 2026-01-17
 cover: "https://image.tmdb.org/t/p/w500/6xL4Ei29kVIR8BXYyTAVMsggs87.jpg"
+original_title: "The Rip"
 ---
 

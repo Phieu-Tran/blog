@@ -11,5 +11,6 @@ director: "Rob Marshall"
 status: watched
 date: 2026-07-28
 cover: "https://image.tmdb.org/t/p/w500/nJonDNmaxQdQ961Yn5jZm4tdklU.jpg"
+original_title: "Pirates of the Caribbean: On Stranger Tides"
 ---
 

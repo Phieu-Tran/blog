@@ -11,5 +11,7 @@ director: 今泉力哉
 status: watched
 date: 2026-09-29
 cover: "https://image.tmdb.org/t/p/w500/aF0CmJl2rP7MvKxgNzKdKOk03rJ.jpg"
+original_title: ちひろさん
+en_title: "Call Me Chihiro"
 ---
 

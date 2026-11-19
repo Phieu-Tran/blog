@@ -13,5 +13,6 @@ mal_score: 7.4
 episodes_watched: 10
 episodes_total: 10
 updated_at: 2021-01-31
+original_title: "Mondaiji-tachi ga Isekai kara Kuru Sou desu yo?"
 ---
 

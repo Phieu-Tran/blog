@@ -12,5 +12,6 @@ director: "Gregory Hoblit"
 status: watched
 date: 2026-03-17
 cover: "https://image.tmdb.org/t/p/w500/qJf2TzE8nRTFbFMPJNW6c8mI0KU.jpg"
+original_title: "Primal Fear"
 ---
 

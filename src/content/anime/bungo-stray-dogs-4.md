@@ -13,5 +13,6 @@ mal_score: 8.41
 episodes_watched: 13
 episodes_total: 13
 updated_at: 2023-07-15
+original_title: "Bungou Stray Dogs 4th Season"
 ---
 

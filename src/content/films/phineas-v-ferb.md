@@ -11,5 +11,6 @@ director: "Dan Povenmire, Jeff 'Swampy' Marsh"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/g6TidT7be954rrzPPBTIXkSmfXj.jpg"
+original_title: "Phineas and Ferb"
 ---
 

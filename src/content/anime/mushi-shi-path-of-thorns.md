@@ -13,5 +13,6 @@ mal_score: 8.42
 episodes_watched: 1
 episodes_total: 1
 updated_at: 2025-04-09
+original_title: "Mushishi Zoku Shou: Odoro no Michi"
 ---
 

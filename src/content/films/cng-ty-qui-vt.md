@@ -11,5 +11,6 @@ director: "Pete Docter"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/6GR1pSdLBa2ktKizMogoW73n3US.jpg"
+original_title: "Monsters, Inc."
 ---
 

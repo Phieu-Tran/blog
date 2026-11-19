@@ -12,5 +12,6 @@ director: "Michael Spierig"
 status: watched
 date: 2026-03-17
 cover: "https://image.tmdb.org/t/p/w500/38Xr1JnV1ZcLQ55zmdSp6n475cZ.jpg"
+original_title: Predestination
 ---
 

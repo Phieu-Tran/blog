@@ -12,5 +12,6 @@ director: "Scott Derrickson"
 status: watched
 date: 2026-01-08
 cover: "https://image.tmdb.org/t/p/w500/rkklqyyUzYrJoo3iDYiTjGbhbaw.jpg"
+original_title: "Doctor Strange"
 ---
 

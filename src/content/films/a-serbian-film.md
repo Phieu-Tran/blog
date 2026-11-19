@@ -12,5 +12,6 @@ director: "Срђан Спасојевић"
 status: watched
 date: 2026-03-28
 cover: "https://image.tmdb.org/t/p/w500/qT312t40YmlOSsOXOoOLDCvRbPx.jpg"
+en_title: "A Serbian Film"
 ---
 

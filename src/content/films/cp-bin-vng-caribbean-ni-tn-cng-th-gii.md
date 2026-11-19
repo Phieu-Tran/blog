@@ -11,5 +11,6 @@ director: "Gore Verbinski"
 status: watched
 date: 2026-07-28
 cover: "https://image.tmdb.org/t/p/w500/7emxhn8tUIa3xaEDiFLrl7xORHN.jpg"
+original_title: "Pirates of the Caribbean: At World's End"
 ---
 

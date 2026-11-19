@@ -12,5 +12,7 @@ director: "Lưu Trấn Vĩ"
 status: watched
 date: 2025-12-03
 cover: "https://image.tmdb.org/t/p/w500/85CECflkngKJulbOPmYTZQJHdY3.jpg"
+original_title: 西遊記大結局之仙履奇緣
+en_title: "A Chinese Odyssey Part Two: Cinderella"
 ---
 

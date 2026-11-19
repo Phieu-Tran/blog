@@ -11,5 +11,6 @@ director: "Paul W. S. Anderson"
 status: watched
 date: 2026-06-30
 cover: "https://image.tmdb.org/t/p/w500/gUG5u04Pm9wgqD9mY3RW59iHLJB.jpg"
+original_title: Pompeii
 ---
 

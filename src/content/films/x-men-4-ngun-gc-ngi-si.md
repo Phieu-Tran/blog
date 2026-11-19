@@ -11,5 +11,6 @@ director: "Gavin Hood"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/iffWlf6scXhqv4PlIhYbHOre5tI.jpg"
+original_title: "X-Men Origins: Wolverine"
 ---
 

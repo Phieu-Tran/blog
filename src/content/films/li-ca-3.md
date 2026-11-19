@@ -11,5 +11,6 @@ director: "Darren Lynn Bousman"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/1OOfcuWfEGM4E8LOdC8jFLeMDOK.jpg"
+original_title: "Saw III"
 ---
 

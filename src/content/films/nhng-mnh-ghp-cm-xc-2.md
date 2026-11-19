@@ -11,5 +11,6 @@ director: "Kelsey Mann"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/wAIFnJ5OeFU7tTnCWHiROsszS29.jpg"
+original_title: "Inside Out 2"
 ---
 

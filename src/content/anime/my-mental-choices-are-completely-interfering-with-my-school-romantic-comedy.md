@@ -13,5 +13,6 @@ mal_score: 7.12
 episodes_watched: 10
 episodes_total: 10
 updated_at: 2021-01-31
+original_title: "Ore no Nounai Sentakushi ga, Gakuen Love Comedy wo Zenryoku de Jama Shiteiru"
 ---
 

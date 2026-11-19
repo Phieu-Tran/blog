@@ -13,5 +13,6 @@ mal_score: 8.2
 episodes_watched: 25
 episodes_total: 25
 updated_at: 2021-01-31
+original_title: "Kuroko no Basket 2nd Season"
 ---
 

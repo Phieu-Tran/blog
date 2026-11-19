@@ -12,5 +12,6 @@ director: "Roman Polanski"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/2hFvxCCWrTmCYwfy7yum0GKRi3Y.jpg"
+original_title: "The Pianist"
 ---
 

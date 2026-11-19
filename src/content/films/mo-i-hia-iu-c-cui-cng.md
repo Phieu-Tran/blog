@@ -11,5 +11,6 @@ director: "Joel Crawford"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/dKjjVuPawiREBYjREb3U5SCtfrt.jpg"
+original_title: "Puss in Boots: The Last Wish"
 ---
 

@@ -13,5 +13,6 @@ mal_score: 8.48
 episodes_watched: 23
 episodes_total: 23
 updated_at: 2025-04-29
+original_title: "Ousama Ranking"
 ---
 

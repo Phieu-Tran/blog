@@ -11,5 +11,7 @@ director: 大友啓史
 status: watched
 date: 2026-07-28
 cover: "https://image.tmdb.org/t/p/w500/e5F3ll1UJrBsp9TJVeGLackXqFn.jpg"
+original_title: "るろうに剣心 京都大火編"
+en_title: "Rurouni Kenshin Part II: Kyoto Inferno"
 ---
 

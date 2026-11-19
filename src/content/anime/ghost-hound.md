@@ -13,5 +13,6 @@ mal_score: 7.39
 episodes_watched: 22
 episodes_total: 22
 updated_at: 2021-02-01
+original_title: Shinreigari
 ---
 

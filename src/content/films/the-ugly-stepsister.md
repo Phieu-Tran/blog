@@ -12,5 +12,7 @@ director: "Emilie Blichfeldt"
 status: watched
 date: 2025-12-27
 cover: "https://image.tmdb.org/t/p/w500/vKAExpWQWlQjsMdBUnJUAeUaQGe.jpg"
+original_title: "Den stygge stesøsteren"
+en_title: "The Ugly Stepsister"
 ---
 

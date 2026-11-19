@@ -12,5 +12,6 @@ director: "Quentin Tarantino"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/oupHpNSZwKWlq7fCdA1KEhapliV.jpg"
+original_title: "Kill Bill: Vol. 1"
 ---
 

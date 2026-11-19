@@ -12,5 +12,6 @@ director: "Zach Cregger"
 status: watched
 date: 2026-01-08
 cover: "https://image.tmdb.org/t/p/w500/lVY3xYt7ai6ahduq3D7F2z5wwin.jpg"
+original_title: Weapons
 ---
 

@@ -11,5 +11,6 @@ director: "Leigh Whannell"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/rLboJRVMm14moU35419a44kgshc.jpg"
+original_title: "Insidious: Chapter 3"
 ---
 

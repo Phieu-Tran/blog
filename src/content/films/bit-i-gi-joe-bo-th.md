@@ -11,5 +11,6 @@ director: "Jon M. Chu"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/46fekitUrj22Bfle5tXgYdJvYXc.jpg"
+original_title: "G.I. Joe: Retaliation"
 ---
 

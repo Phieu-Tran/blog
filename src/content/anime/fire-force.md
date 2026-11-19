@@ -13,5 +13,6 @@ mal_score: 7.71
 episodes_watched: 24
 episodes_total: 24
 updated_at: 2021-01-31
+original_title: "Enen no Shouboutai"
 ---
 

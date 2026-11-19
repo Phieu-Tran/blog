@@ -11,5 +11,6 @@ director: "Brenda Chapman"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/iexNj6uxbTG0zz6TLuzwKetFxr7.jpg"
+original_title: Brave
 ---
 

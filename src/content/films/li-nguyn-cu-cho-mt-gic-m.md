@@ -11,5 +11,6 @@ director: "Darren Aronofsky"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/9BTwsLaMVHOGFlmsSlx5QYCaXb.jpg"
+original_title: "Requiem for a Dream"
 ---
 

@@ -13,5 +13,6 @@ mal_score: 7.12
 episodes_watched: 3
 episodes_total: 3
 updated_at: 2021-01-31
+original_title: Shikioriori
 ---
 

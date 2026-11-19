@@ -12,5 +12,6 @@ director: "Alfred Hitchcock"
 status: watched
 date: 2026-01-08
 cover: "https://image.tmdb.org/t/p/w500/2ykxn5iCpv9RUr94dhTrCUNvIx4.jpg"
+original_title: Psycho
 ---
 

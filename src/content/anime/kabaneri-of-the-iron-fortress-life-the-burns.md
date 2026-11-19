@@ -13,5 +13,6 @@ mal_score: 7.58
 episodes_watched: 0
 episodes_total: 1
 updated_at: 2021-01-31
+original_title: "Koutetsujou no Kabaneri Movie 2: Moeru Inochi"
 ---
 

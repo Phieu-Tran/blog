@@ -13,5 +13,6 @@ mal_score: 7.66
 episodes_watched: 13
 episodes_total: 13
 updated_at: 2021-02-01
+original_title: "Mousou Dairinin"
 ---
 

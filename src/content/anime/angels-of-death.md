@@ -13,5 +13,6 @@ mal_score: 6.97
 episodes_watched: 16
 episodes_total: 16
 updated_at: 2021-01-31
+original_title: "Satsuriku no Tenshi"
 ---
 

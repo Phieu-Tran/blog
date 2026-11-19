@@ -12,5 +12,6 @@ director: "Christopher Nolan"
 status: watched
 date: 2025-04-25
 cover: "https://image.tmdb.org/t/p/w500/if4TI9LbqNIrzkoOgWjX5PZYDYe.jpg"
+original_title: Interstellar
 ---
 

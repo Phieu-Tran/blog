@@ -12,5 +12,6 @@ director: "Duncan Jones"
 status: watched
 date: 2026-03-16
 cover: "https://image.tmdb.org/t/p/w500/gsKvYWzJkPsQrjliTqdd5psoEcO.jpg"
+original_title: "Source Code"
 ---
 

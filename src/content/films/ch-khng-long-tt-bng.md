@@ -11,5 +11,6 @@ director: "Peter Sohn"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/hJ6CTIAmHz5nI6Vph8WQCtWiFiG.jpg"
+original_title: "The Good Dinosaur"
 ---
 

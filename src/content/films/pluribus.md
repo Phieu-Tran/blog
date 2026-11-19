@@ -12,5 +12,6 @@ director: "Vince Gilligan"
 status: watched
 date: 2026-01-08
 cover: "https://image.tmdb.org/t/p/w500/9qXl7Fa6aqRyL8AxVqhPUmcCqYP.jpg"
+original_title: Pluribus
 ---
 

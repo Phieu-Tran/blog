@@ -13,5 +13,6 @@ mal_score: 6.77
 episodes_watched: 1
 episodes_total: 1
 updated_at: 2021-08-25
+original_title: "Dragon Ball Z Movie 10: Kiken na Futari! Super Senshi wa Nemurenai"
 ---
 

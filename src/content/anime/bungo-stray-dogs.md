@@ -13,5 +13,6 @@ mal_score: 7.8
 episodes_watched: 12
 episodes_total: 12
 updated_at: 2021-01-31
+original_title: "Bungou Stray Dogs"
 ---
 

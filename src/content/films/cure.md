@@ -12,5 +12,7 @@ director: "Kurosawa Kiyoshi"
 status: watched
 date: 2025-12-13
 cover: "https://image.tmdb.org/t/p/w500/2KR0IDLxBIW3nQfS69o63BLeRWJ.jpg"
+original_title: キュア
+en_title: Cure
 ---
 

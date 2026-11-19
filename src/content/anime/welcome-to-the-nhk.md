@@ -13,5 +13,6 @@ mal_score: 8.32
 episodes_watched: 24
 episodes_total: 24
 updated_at: 2021-02-01
+original_title: "NHK ni Youkoso!"
 ---
 

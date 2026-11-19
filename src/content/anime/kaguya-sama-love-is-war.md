@@ -1,5 +1,6 @@
 ---
 title: "Kaguya-sama: Love is War?"
+original_title: "Kaguya-sama wa Kokurasetai? Tensai-tachi no Renai Zunousen"
 mal_id: 40591
 rating: 7
 mal_score: 8.61
@@ -10,6 +11,6 @@ status: completed
 episodes_watched: 12
 episodes_total: 12
 cover: "https://cdn.myanimelist.net/images/anime/1764/106659.jpg"
-date: 2026-11-17
+date: 2026-11-19
 ---
 

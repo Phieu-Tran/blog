@@ -12,5 +12,6 @@ director: "Jordan Peele"
 status: watched
 date: 2025-11-30
 cover: "https://image.tmdb.org/t/p/w500/A1nsaaR2rneUakmFwcSXe2MV2KT.jpg"
+original_title: "Get Out"
 ---
 

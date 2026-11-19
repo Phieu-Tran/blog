@@ -11,5 +11,6 @@ director: "Tim Burton"
 status: watched
 date: 2026-07-28
 cover: "https://image.tmdb.org/t/p/w500/8bm2xU3V3oMx8ng8vowpyDFZwZn.jpg"
+original_title: "Alice in Wonderland"
 ---
 

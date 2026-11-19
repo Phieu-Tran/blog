@@ -12,5 +12,7 @@ director: N/A
 status: watched
 date: 2025-11-30
 cover: "https://image.tmdb.org/t/p/w500/bzShjJFw01GlZrDsKJAeLSPmWIS.jpg"
+original_title: 今際の国のアリス
+en_title: "Alice in Borderland"
 ---
 

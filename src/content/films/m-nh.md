@@ -11,5 +11,6 @@ director: "Curry Barker"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/15qLAM3QM8DoPL9Fps4JOTdqWqt.jpg"
+original_title: Obsession
 ---
 

@@ -12,5 +12,6 @@ director: "James Wan"
 status: watched
 date: 2025-11-30
 cover: "https://image.tmdb.org/t/p/w500/qic7Xa1fnwLyEsjvjapDTEMYXsR.jpg"
+original_title: "The Conjuring"
 ---
 

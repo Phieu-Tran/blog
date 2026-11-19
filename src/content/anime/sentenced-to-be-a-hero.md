@@ -13,5 +13,6 @@ mal_score: 8.11
 episodes_watched: 12
 episodes_total: 12
 updated_at: 2026-01-08
+original_title: "Yuusha-kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku"
 ---
 

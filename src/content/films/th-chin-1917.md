@@ -11,5 +11,6 @@ director: "Sam Mendes"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/hqWpVp3FwuLAD48uVzFu79I61Ym.jpg"
+original_title: 1917
 ---
 

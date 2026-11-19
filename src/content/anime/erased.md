@@ -13,5 +13,6 @@ mal_score: 8.31
 episodes_watched: 12
 episodes_total: 12
 updated_at: 2021-01-31
+original_title: "Boku dake ga Inai Machi"
 ---
 

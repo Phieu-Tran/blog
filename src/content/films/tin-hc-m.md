@@ -11,5 +11,6 @@ director: "Robert Stromberg"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/5FByPAe0x94MMqoNzAYIHKZ28O7.jpg"
+original_title: Maleficent
 ---
 

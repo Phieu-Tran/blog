@@ -11,5 +11,6 @@ director: "Peter Sohn"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/7GaeF6xeUbfXFZCtOCWs503CJUl.jpg"
+original_title: Elemental
 ---
 

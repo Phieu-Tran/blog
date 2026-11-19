@@ -11,5 +11,6 @@ director: "Mark Osborne"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/tfdrBWUU9geZULfRYty5J9EINvw.jpg"
+original_title: "Kung Fu Panda"
 ---
 

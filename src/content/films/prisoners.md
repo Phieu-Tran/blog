@@ -12,5 +12,6 @@ director: "Denis Villeneuve"
 status: watched
 date: 2026-01-14
 cover: "https://image.tmdb.org/t/p/w500/wOViaF0lv8xvYyFdF7bKAG3IZIb.jpg"
+original_title: Prisoners
 ---
 

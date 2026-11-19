@@ -12,5 +12,6 @@ director: "Wes Ball"
 status: watched
 date: 2026-01-14
 cover: "https://image.tmdb.org/t/p/w500/xSPITZs1i89L2DzHjOxp311Mxr9.jpg"
+original_title: "The Maze Runner"
 ---
 

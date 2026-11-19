@@ -12,5 +12,6 @@ mal_score: 0
 episodes_watched: 0
 episodes_total: 0
 updated_at: 2026-03-28
+original_title: "Yuusha-kei ni Shosu: Choubatsu Yuusha 9004-tai Keimu Kiroku 2nd Season"
 ---
 

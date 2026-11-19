@@ -12,5 +12,6 @@ director: "David Fincher"
 status: watched
 date: 2026-01-14
 cover: "https://image.tmdb.org/t/p/w500/4UOa079915QjiTA2u5hT2yKVgUu.jpg"
+original_title: "The Game"
 ---
 

@@ -13,5 +13,6 @@ mal_score: 6.75
 episodes_watched: 12
 episodes_total: 12
 updated_at: 2021-01-31
+original_title: "Masamune-kun no Revenge"
 ---
 

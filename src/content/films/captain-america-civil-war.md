@@ -12,5 +12,6 @@ director: "Joe Russo"
 status: watched
 date: 2026-01-08
 cover: "https://image.tmdb.org/t/p/w500/hDTVGIG8jsa1ZwO3wV0ccvDN4ZH.jpg"
+original_title: "Captain America: Civil War"
 ---
 

@@ -13,5 +13,6 @@ mal_score: 7.59
 episodes_watched: 25
 episodes_total: 25
 updated_at: 2021-02-01
+original_title: "Majin Tantei Nougami Neuro"
 ---
 

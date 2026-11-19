@@ -11,5 +11,6 @@ director: "Peter Jackson"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/jmwZrMZE6bEuG6JWeu8Udb8B69d.jpg"
+original_title: "The Lord of the Rings: The Two Towers"
 ---
 

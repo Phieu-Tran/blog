@@ -11,5 +11,7 @@ director: "Kore-eda Hirokazu"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/gyKXQi9zWRQqa1qbXngUk4W0Skh.jpg"
+original_title: 誰も知らない
+en_title: "Nobody Knows"
 ---
 

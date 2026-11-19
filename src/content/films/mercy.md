@@ -12,5 +12,6 @@ director: "Тимур Бекмамбетов"
 status: watched
 date: 2026-03-09
 cover: "https://image.tmdb.org/t/p/w500/jGZ3ekw20xZGiLTrkWd1vTRBKCL.jpg"
+original_title: Mercy
 ---
 

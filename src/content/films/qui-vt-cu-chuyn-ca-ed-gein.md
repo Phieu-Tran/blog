@@ -10,5 +10,6 @@ tmdb_score: 7.3
 status: watched
 cover: "https://image.tmdb.org/t/p/w500/iDHzRALtZCzHVmx7uyjTTKvMAPB.jpg"
 date: 2026-10-06
+original_title: "Monster: The Ed Gein Story"
 ---
 

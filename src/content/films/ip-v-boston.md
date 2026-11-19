@@ -11,5 +11,6 @@ director: "Martin Scorsese"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/cpYKWyjc4Tdtcmdqbt6MUTNpx44.jpg"
+original_title: "The Departed"
 ---
 

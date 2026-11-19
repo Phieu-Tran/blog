@@ -12,5 +12,6 @@ director: "Francis Lawrence"
 status: watched
 date: 2025-11-30
 cover: "https://image.tmdb.org/t/p/w500/lW4uZnHTqUDTmHiaElnMON47JOd.jpg"
+original_title: "The Long Walk"
 ---
 

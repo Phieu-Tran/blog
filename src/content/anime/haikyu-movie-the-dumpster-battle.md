@@ -13,5 +13,6 @@ mal_score: 8.62
 episodes_watched: 1
 episodes_total: 1
 updated_at: 2025-04-28
+original_title: "Haikyuu!! Movie: Gomisuteba no Kessen"
 ---
 

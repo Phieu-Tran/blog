@@ -11,5 +11,6 @@ director: "Brad Bird"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/cpieGMvmBOvjfMX69PkAM4PuW2X.jpg"
+original_title: "Incredibles 2"
 ---
 

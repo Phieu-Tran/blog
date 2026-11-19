@@ -11,5 +11,7 @@ director: 大友啓史
 status: watched
 date: 2026-07-28
 cover: "https://image.tmdb.org/t/p/w500/6z7yWpJLPoAh2EXNUOnm7EGx61y.jpg"
+original_title: "るろうに剣心 最終章 The Beginning"
+en_title: "Rurouni Kenshin: The Beginning"
 ---
 

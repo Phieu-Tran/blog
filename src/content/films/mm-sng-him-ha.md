@@ -11,5 +11,6 @@ director: "Daniel Espinosa"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/82cU75ab9B4v8vszmOUoFfBhGwa.jpg"
+original_title: Life
 ---
 

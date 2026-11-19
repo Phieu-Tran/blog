@@ -12,5 +12,6 @@ director: "Steve Blackman"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/qhcwrnnCnN8NE1N6XXKHFmveJR9.jpg"
+original_title: "The Umbrella Academy"
 ---
 

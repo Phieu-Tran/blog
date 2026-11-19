@@ -12,5 +12,6 @@ director: "Bryan Singer"
 status: watched
 date: 2025-10-18
 cover: "https://image.tmdb.org/t/p/w500/g59ugx0EbKTj8KfelY3kmTc9S2Y.jpg"
+original_title: "The Usual Suspects"
 ---
 

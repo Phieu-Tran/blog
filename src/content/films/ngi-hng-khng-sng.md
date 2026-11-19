@@ -11,5 +11,6 @@ director: "Mel Gibson"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/fnOMP6mjmOmZwmlC1n0K7ivrzt1.jpg"
+original_title: "Hacksaw Ridge"
 ---
 

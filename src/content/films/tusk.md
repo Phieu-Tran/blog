@@ -12,5 +12,6 @@ director: "Kevin Smith"
 status: watched
 date: 2026-03-28
 cover: "https://image.tmdb.org/t/p/w500/pA2SgITmH0lzet9Nn5cxeinRKMv.jpg"
+original_title: Tusk
 ---
 

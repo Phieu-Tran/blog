@@ -11,5 +11,6 @@ director: "Phil Lord"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/7NzV9SN5ocWzMrdQw9fFDgLYVJC.jpg"
+original_title: "Project Hail Mary"
 ---
 

@@ -12,5 +12,6 @@ director: "Martin Scorsese"
 status: watched
 date: 2026-01-14
 cover: "https://image.tmdb.org/t/p/w500/ft9D2sRgDItfN5Lh9M4Wpwc3jVw.jpg"
+original_title: "Shutter Island"
 ---
 

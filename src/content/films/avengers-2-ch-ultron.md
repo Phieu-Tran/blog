@@ -11,5 +11,6 @@ director: "Joss Whedon"
 status: watched
 date: 2026-08-04
 cover: "https://image.tmdb.org/t/p/w500/8j5ARDxYgeyuPjkwQIkcmMU8x7I.jpg"
+original_title: "Avengers: Age of Ultron"
 ---
 

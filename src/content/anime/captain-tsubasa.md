@@ -13,5 +13,6 @@ mal_score: 7.49
 episodes_watched: 52
 episodes_total: 52
 updated_at: 2021-02-01
+original_title: "Captain Tsubasa: Road to 2002"
 ---
 

@@ -12,5 +12,7 @@ director: "Oriol Paulo"
 status: watched
 date: 2026-03-17
 cover: "https://image.tmdb.org/t/p/w500/4YEVKLDAcuBBo4RrbAqg6LUgO8R.jpg"
+original_title: Contratiempo
+en_title: "The Invisible Guest"
 ---
 

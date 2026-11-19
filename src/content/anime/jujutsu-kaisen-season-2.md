@@ -13,5 +13,6 @@ mal_score: 8.68
 episodes_watched: 23
 episodes_total: 23
 updated_at: 2025-04-28
+original_title: "Jujutsu Kaisen 2nd Season"
 ---
 

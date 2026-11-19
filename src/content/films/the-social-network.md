@@ -12,5 +12,6 @@ director: "David Fincher"
 status: watched
 date: 2026-01-14
 cover: "https://image.tmdb.org/t/p/w500/dqWUPWe8HQSGuZqXTCaqvvxUgsB.jpg"
+original_title: "The Social Network"
 ---
 

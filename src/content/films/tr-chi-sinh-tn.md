@@ -11,5 +11,7 @@ director: 三池崇史
 status: watched
 date: 2026-07-28
 cover: "https://image.tmdb.org/t/p/w500/m6ulKKB6zJr1vwZIrSFs5axWUvL.jpg"
+original_title: 神さまの言うとおり
+en_title: "As the Gods Will"
 ---
 

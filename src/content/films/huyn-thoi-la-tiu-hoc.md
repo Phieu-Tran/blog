@@ -11,5 +11,7 @@ director: MTJJ
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/mp1SBefLi5ZAcLq70jg1j3nDmM1.jpg"
+original_title: 罗小黑战记
+en_title: "The Legend of Hei"
 ---
 

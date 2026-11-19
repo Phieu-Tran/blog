@@ -12,5 +12,6 @@ director: "Clint Eastwood"
 status: watched
 date: 2026-01-14
 cover: "https://image.tmdb.org/t/p/w500/hCHVDbo6XJGj3r2i4hVjKhE0GKF.jpg"
+original_title: "Mystic River"
 ---
 

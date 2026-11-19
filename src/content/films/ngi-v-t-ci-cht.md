@@ -11,5 +11,6 @@ director: "Alejandro G. Iñárritu"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/A8PIBd7kOXPHzRuSzRtGkbcEidE.jpg"
+original_title: "The Revenant"
 ---
 

@@ -11,5 +11,6 @@ director: "Tad Stones"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/kTH7qEyvdDYMoQraQZm3LFKCge3.jpg"
+original_title: "Aladdin and the King of Thieves"
 ---
 

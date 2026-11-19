@@ -11,5 +11,6 @@ director: "Darrell Rooney"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/mIHE3BKyAKG8ocRAoZuCQN1NTv9.jpg"
+original_title: "Mulan II"
 ---
 

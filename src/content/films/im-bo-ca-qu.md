@@ -11,5 +11,6 @@ director: "Arkasha Stevenson"
 status: watched
 date: 2026-08-04
 cover: "https://image.tmdb.org/t/p/w500/fAPPBhS0zHL96wKVWdjLMI1kXQI.jpg"
+original_title: "The First Omen"
 ---
 

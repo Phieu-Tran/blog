@@ -12,5 +12,6 @@ director: "Paul Thomas Anderson"
 status: watched
 date: 2025-12-11
 cover: "https://image.tmdb.org/t/p/w500/wQ0IDT8rXOvCt6LflxcMEOUNBUS.jpg"
+original_title: "One Battle After Another"
 ---
 

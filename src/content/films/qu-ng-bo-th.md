@@ -11,5 +11,7 @@ director: "Park Chan-wook"
 status: watched
 date: 2026-08-04
 cover: "https://image.tmdb.org/t/p/w500/zrz5mJuXIhYGHBQndduUoT2JHvm.jpg"
+original_title: "복수는 나의 것"
+en_title: "Sympathy for Mr. Vengeance"
 ---
 

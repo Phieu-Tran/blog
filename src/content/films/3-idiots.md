@@ -12,5 +12,6 @@ director: "Rajkumar Hirani"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/gmSRHU1Wtiatj8KoyVt8rT9ockx.jpg"
+original_title: "3 Idiots"
 ---
 

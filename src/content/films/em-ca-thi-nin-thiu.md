@@ -11,5 +11,7 @@ director: "Tăng Quốc Cường"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/bjhoWPRihKSQNbqxvQgcEkOVN3j.jpg"
+original_title: 少年的你
+en_title: "Better Days"
 ---
 

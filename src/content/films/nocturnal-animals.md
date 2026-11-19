@@ -12,5 +12,6 @@ director: "Tom Ford"
 status: watched
 date: 2026-03-16
 cover: "https://image.tmdb.org/t/p/w500/mdLDgQBD0va09npSQX5Zgo2evXM.jpg"
+original_title: "Nocturnal Animals"
 ---
 

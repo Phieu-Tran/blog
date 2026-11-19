@@ -11,5 +11,6 @@ director: "David Fincher"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/wBxkCbNI8eDRRfUEl8w0G2rfLyu.jpg"
+original_title: "Fight Club"
 ---
 

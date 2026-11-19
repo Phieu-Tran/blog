@@ -11,5 +11,6 @@ director: "Robin Hardy"
 status: watched
 date: 2026-07-07
 cover: "https://image.tmdb.org/t/p/w500/wwtrXRL8SiOWxhwLEvw7iBgYh0g.jpg"
+original_title: "The Wicker Man"
 ---
 

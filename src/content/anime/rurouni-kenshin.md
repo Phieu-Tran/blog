@@ -13,5 +13,6 @@ mal_score: 8.27
 episodes_watched: 94
 episodes_total: 94
 updated_at: 2021-08-25
+original_title: "Rurouni Kenshin: Meiji Kenkaku Romantan"
 ---
 

@@ -12,5 +12,6 @@ director: "Mark Mylod"
 status: watched
 date: 2025-11-18
 cover: "https://image.tmdb.org/t/p/w500/55JU1cjpkUo6ku2jnoAP0W53OcZ.jpg"
+original_title: "The Menu"
 ---
 

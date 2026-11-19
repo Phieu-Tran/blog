@@ -11,5 +11,6 @@ director: "Wes Ball"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/aJlCafrqbaCI821vCeWswcW8stg.jpg"
+original_title: "Maze Runner: The Death Cure"
 ---
 

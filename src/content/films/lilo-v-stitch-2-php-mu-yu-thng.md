@@ -11,5 +11,6 @@ director: "Michael LaBash"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/p2R4mhZcikWEBlqv80VfJ7M9xql.jpg"
+original_title: "Lilo & Stitch 2: Stitch Has a Glitch"
 ---
 

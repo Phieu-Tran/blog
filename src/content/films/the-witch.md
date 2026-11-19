@@ -12,5 +12,6 @@ director: "Robert Eggers"
 status: watched
 date: 2026-01-08
 cover: "https://image.tmdb.org/t/p/w500/up9WYWGkyJDruSvzc6hrf6JOiH1.jpg"
+original_title: "The Witch"
 ---
 

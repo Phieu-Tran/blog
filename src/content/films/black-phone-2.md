@@ -12,5 +12,6 @@ director: "Scott Derrickson"
 status: watched
 date: 2025-11-30
 cover: "https://image.tmdb.org/t/p/w500/6TkmCylovIEHbZF9jLiUhdeM9BF.jpg"
+original_title: "Black Phone 2"
 ---
 

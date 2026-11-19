@@ -11,5 +11,6 @@ director: 李安
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/aByfQOQBNa4CMFwIgq3QrqY2ZHh.jpg"
+original_title: "Brokeback Mountain"
 ---
 

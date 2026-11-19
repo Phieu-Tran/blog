@@ -12,5 +12,6 @@ director: "Denis Villeneuve"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/8QdnKQyZDlN6rBSrfU1V5PctfUu.jpg"
+original_title: "Dune: Part Two"
 ---
 

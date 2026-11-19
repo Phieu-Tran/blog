@@ -13,5 +13,6 @@ mal_score: 6.94
 episodes_watched: 4
 episodes_total: 4
 updated_at: 2021-01-31
+original_title: "Nanatsu no Taizai: Seisen no Shirushi"
 ---
 

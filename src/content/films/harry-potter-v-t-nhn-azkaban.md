@@ -11,5 +11,6 @@ director: "Alfonso Cuarón"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/vUwrS4EeRbhs183aK3MCGUhjIOX.jpg"
+original_title: "Harry Potter and the Prisoner of Azkaban"
 ---
 

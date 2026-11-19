@@ -11,5 +11,6 @@ director: "Zack Snyder"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/348P201Ed123gJRw3VAZXLc7l6o.jpg"
+original_title: "Man of Steel"
 ---
 

@@ -11,5 +11,6 @@ director: "Matthew Vaughn"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/jbyzyYucBh1OOb0o88U57GjdGCq.jpg"
+original_title: "Kingsman: The Secret Service"
 ---
 

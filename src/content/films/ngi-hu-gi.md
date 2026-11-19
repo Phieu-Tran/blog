@@ -11,5 +11,7 @@ director: "Park Chan-wook"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/ieyWGqRGHoiKYUadq3yoeSZ4Q3D.jpg"
+original_title: 아가씨
+en_title: "The Handmaiden"
 ---
 

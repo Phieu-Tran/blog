@@ -13,5 +13,6 @@ mal_score: 6.8
 episodes_watched: 8
 episodes_total: 8
 updated_at: 2021-01-31
+original_title: "Black★Rock Shooter (TV)"
 ---
 

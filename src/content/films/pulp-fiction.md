@@ -12,5 +12,6 @@ director: "Quentin Tarantino"
 status: watched
 date: 2025-04-25
 cover: "https://image.tmdb.org/t/p/w500/ihynkOAH6FLNgG1kqM5ep9GSHZS.jpg"
+original_title: "Pulp Fiction"
 ---
 

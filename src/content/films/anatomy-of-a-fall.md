@@ -12,5 +12,7 @@ director: "Justine Triet"
 status: watched
 date: 2025-12-18
 cover: "https://image.tmdb.org/t/p/w500/iVVe3ZyThTk3ot09Hg1KPJpc0Hh.jpg"
+original_title: "Anatomie d'une chute"
+en_title: "Anatomy of a Fall"
 ---
 

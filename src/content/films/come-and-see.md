@@ -12,5 +12,6 @@ director: "Элем Климов"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/baK79h2An0J8mzTue13KThAeYC5.jpg"
+en_title: "Come and See"
 ---
 

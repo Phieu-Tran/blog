@@ -11,5 +11,6 @@ director: "Marc Webb"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/5ObdzkfZBV3b9fcF5IISMPPknxv.jpg"
+original_title: "The Amazing Spider-Man"
 ---
 

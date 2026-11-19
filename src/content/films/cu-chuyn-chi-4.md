@@ -11,5 +11,6 @@ director: "Josh Cooley"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/ezIOA7SqfxoMSOUsnLtArWd6JPv.jpg"
+original_title: "Toy Story 4"
 ---
 

@@ -12,5 +12,6 @@ director: "David Fincher"
 status: watched
 date: 2025-04-25
 cover: "https://image.tmdb.org/t/p/w500/vor5v1DDqPVwOQCVKciPqrXmV3S.jpg"
+original_title: Se7en
 ---
 

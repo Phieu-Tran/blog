@@ -12,5 +12,6 @@ director: "Alejandro Amenábar"
 status: watched
 date: 2025-12-09
 cover: "https://image.tmdb.org/t/p/w500/p8g1vlTvpM6nr2hMMiZ1fUlKF0D.jpg"
+original_title: "The Others"
 ---
 

@@ -12,5 +12,7 @@ director: 園子温
 status: watched
 date: 2026-03-27
 cover: "https://image.tmdb.org/t/p/w500/8jzXKuuSMNYU0jSakJkdkzQcZbL.jpg"
+original_title: 冷たい熱帯魚
+en_title: "Cold Fish"
 ---
 

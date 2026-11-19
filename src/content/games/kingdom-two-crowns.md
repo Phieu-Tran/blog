@@ -19,6 +19,6 @@ igdb_slug: kingdom-two-crowns
 igdb_url: "https://www.igdb.com/games/kingdom-two-crowns"
 publisher: "Raw Fury"
 igdb_score: 8.3
-igdb_updated_at: 2026-11-17
+igdb_updated_at: 2026-11-19
 ---
 

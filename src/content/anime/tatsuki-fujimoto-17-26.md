@@ -11,5 +11,6 @@ episodes_watched: 8
 episodes_total: 8
 cover: "https://cdn.myanimelist.net/images/anime/1864/151837.jpg"
 date: 2026-06-27
+original_title: "Fujimoto Tatsuki 17-26"
 ---
 

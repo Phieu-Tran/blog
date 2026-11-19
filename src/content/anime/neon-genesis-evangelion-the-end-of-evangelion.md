@@ -13,5 +13,6 @@ mal_score: 8.58
 episodes_watched: 1
 episodes_total: 1
 updated_at: 2021-08-25
+original_title: "Shinseiki Evangelion Movie: Air/Magokoro wo, Kimi ni"
 ---
 

@@ -11,5 +11,6 @@ director: "Joss Whedon"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/rX46P5ZwcHOvrkhtYDYhnNf46Bo.jpg"
+original_title: "The Avengers"
 ---
 

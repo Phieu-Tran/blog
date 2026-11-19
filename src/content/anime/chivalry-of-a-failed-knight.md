@@ -13,5 +13,6 @@ mal_score: 7.41
 episodes_watched: 12
 episodes_total: 12
 updated_at: 2021-01-31
+original_title: "Rakudai Kishi no Cavalry"
 ---
 

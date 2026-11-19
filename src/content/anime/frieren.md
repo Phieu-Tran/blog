@@ -13,6 +13,7 @@ mal_score: 9.24
 episodes_watched: 28
 episodes_total: 28
 updated_at: 2025-04-28
+original_title: "Sousou no Frieren"
 ---
 
 Frieren là một kiệt tác về thời gian, ký ức và ý nghĩa của cuộc sống. Anime hay nhất 2023 không cần bàn cãi.

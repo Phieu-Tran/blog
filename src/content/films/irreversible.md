@@ -12,5 +12,6 @@ director: "Gaspar Noé"
 status: watched
 date: 2025-12-12
 cover: "https://image.tmdb.org/t/p/w500/AdrItykbv1evqcbIPrItVWnkaKj.jpg"
+original_title: Irréversible
 ---
 

@@ -12,5 +12,6 @@ director: "Sam Raimi"
 status: watched
 date: 2026-03-26
 cover: "https://image.tmdb.org/t/p/w500/hu5J1hJYToOxjceeqyXogq5nRwt.jpg"
+original_title: "Send Help"
 ---
 

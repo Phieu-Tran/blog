@@ -11,5 +11,6 @@ director: "Brett Ratner"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/a2xicU8DpKtRizOHjQLC1JyCSRS.jpg"
+original_title: "X-Men: The Last Stand"
 ---
 

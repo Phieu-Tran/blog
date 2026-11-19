@@ -12,5 +12,7 @@ director: "Lưu Trấn Vĩ"
 status: watched
 date: 2025-12-03
 cover: "https://image.tmdb.org/t/p/w500/6uG8TumGa81hc6SU1wLzrUNZ1m6.jpg"
+original_title: 西遊記第壹佰零壹回之月光寶盒
+en_title: "A Chinese Odyssey Part One: Pandora's Box"
 ---
 

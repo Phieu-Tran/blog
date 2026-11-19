@@ -11,5 +11,6 @@ director: "Kevin Greutert"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/njQ5T5xVLZFk9pGFCwkZ0r6MMnM.jpg"
+original_title: "Saw X"
 ---
 

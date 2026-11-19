@@ -11,5 +11,6 @@ director: "Matthew Vaughn"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/qyBnlZXS9Pbtwf24PrHjKlmK1JQ.jpg"
+original_title: "X-Men: First Class"
 ---
 

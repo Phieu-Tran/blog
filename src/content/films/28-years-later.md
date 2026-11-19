@@ -12,5 +12,6 @@ director: "Danny Boyle"
 status: watched
 date: 2026-01-14
 cover: "https://image.tmdb.org/t/p/w500/qX7y0GJH2JFxh95wu0kaoFCCM6h.jpg"
+original_title: "28 Years Later"
 ---
 

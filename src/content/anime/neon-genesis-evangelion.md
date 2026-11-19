@@ -13,5 +13,6 @@ mal_score: 8.38
 episodes_watched: 26
 episodes_total: 26
 updated_at: 2021-08-25
+original_title: "Shinseiki Evangelion"
 ---
 

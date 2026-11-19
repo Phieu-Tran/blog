@@ -11,5 +11,7 @@ director: "Amp Wong"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/g1d3uFf3eGvVJQ5Coh793Zi1ASq.jpg"
+original_title: 白蛇2：青蛇劫起
+en_title: "Green Snake"
 ---
 

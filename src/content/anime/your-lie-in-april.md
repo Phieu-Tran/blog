@@ -13,5 +13,6 @@ mal_score: 8.64
 episodes_watched: 22
 episodes_total: 22
 updated_at: 2021-01-31
+original_title: "Shigatsu wa Kimi no Uso"
 ---
 

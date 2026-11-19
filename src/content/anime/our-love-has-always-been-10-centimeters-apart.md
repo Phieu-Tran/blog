@@ -13,5 +13,6 @@ mal_score: 7.44
 episodes_watched: 6
 episodes_total: 6
 updated_at: 2021-01-31
+original_title: "Itsudatte Bokura no Koi wa 10 cm Datta."
 ---
 

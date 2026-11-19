@@ -11,5 +11,6 @@ director: "Lone Scherfig"
 status: watched
 date: 2026-07-28
 cover: "https://image.tmdb.org/t/p/w500/xNeP9UfjdwYsf0NubJWTy62DluY.jpg"
+original_title: "One Day"
 ---
 

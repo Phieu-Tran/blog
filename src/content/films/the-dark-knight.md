@@ -12,5 +12,6 @@ director: "Christopher Nolan"
 status: watched
 date: 2025-04-25
 cover: "https://image.tmdb.org/t/p/w500/7EfSqviKvXwbiGhUjHyUBGVdoiW.jpg"
+original_title: "The Dark Knight"
 ---
 

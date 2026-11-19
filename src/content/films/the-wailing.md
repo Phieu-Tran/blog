@@ -12,5 +12,7 @@ director: 나홍진
 status: watched
 date: 2025-12-13
 cover: "https://image.tmdb.org/t/p/w500/k9AKtgRErXjz14lFHL2IJVCgwOT.jpg"
+original_title: 곡성
+en_title: "The Wailing"
 ---
 

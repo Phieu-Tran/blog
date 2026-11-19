@@ -11,5 +11,6 @@ director: "Ryan Fleck"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/cYq1wkJK2y44SeX79VXzRZP46iX.jpg"
+original_title: "Captain Marvel"
 ---
 

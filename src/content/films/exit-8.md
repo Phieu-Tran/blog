@@ -12,5 +12,7 @@ director: 川村元気
 status: watched
 date: 2025-11-30
 cover: "https://image.tmdb.org/t/p/w500/hq1rqaKBjG6VCMOgYxkI3zXoZhQ.jpg"
+original_title: ８番出口
+en_title: "Exit 8"
 ---
 

@@ -11,5 +11,6 @@ director: 耶雲哉治
 status: watched
 date: 2026-08-04
 cover: "https://image.tmdb.org/t/p/w500/95ftcKeI3d3MyxsmDHJHyQoVdOu.jpg"
+en_title: "My Pretend Girlfriend"
 ---
 

@@ -12,5 +12,7 @@ director: "Luc Besson"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/2ZJuVYpUoau4QfftPsrhhmWbIn5.jpg"
+original_title: Léon
+en_title: "Léon: The Professional"
 ---
 

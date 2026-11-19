@@ -11,5 +11,6 @@ director: "David Yates"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/w9rZk5N5STpFqhahEnPRRiqN9l5.jpg"
+original_title: "Fantastic Beasts: The Secrets of Dumbledore"
 ---
 

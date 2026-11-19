@@ -13,5 +13,6 @@ mal_score: 8.23
 episodes_watched: 13
 episodes_total: 13
 updated_at: 2021-01-31
+original_title: "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai"
 ---
 

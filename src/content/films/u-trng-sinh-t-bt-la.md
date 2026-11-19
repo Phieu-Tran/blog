@@ -11,5 +11,6 @@ director: "Francis Lawrence"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/x2LjrOo76gA1HWd4NlSd9nOeB1t.jpg"
+original_title: "The Hunger Games: Catching Fire"
 ---
 

@@ -11,5 +11,6 @@ director: "Jon M. Chu"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/tVjBypDsZuPdFR8Y2aifkNH0cHb.jpg"
+original_title: "Now You See Me 2"
 ---
 

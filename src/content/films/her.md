@@ -12,5 +12,6 @@ director: "Spike Jonze"
 status: watched
 date: 2026-03-17
 cover: "https://image.tmdb.org/t/p/w500/cxeRSWEhX5iTnIutF9E4el9aYzT.jpg"
+original_title: Her
 ---
 

@@ -11,5 +11,7 @@ director: 大友啓史
 status: watched
 date: 2026-07-28
 cover: "https://image.tmdb.org/t/p/w500/51RcNHA3QdoJox2ewtpzPSDyEVR.jpg"
+original_title: "るろうに剣心 最終章 The Final"
+en_title: "Rurouni Kenshin: The Final"
 ---
 

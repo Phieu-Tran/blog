@@ -9,7 +9,7 @@ spotify_id: "1pxhAhrFtd8Pv6ncUi8Mqq"
 status: "listened"
 source: "spotify"
 spotify_recent: false
-cover: "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845445a7b04a84bfdccc27cf9f"
+cover: "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da845445a7b04a84bfdccc27cf9f"
 date: 2025-01-08
 ---
 

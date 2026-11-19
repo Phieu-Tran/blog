@@ -13,5 +13,6 @@ mal_score: 8.2
 episodes_watched: 26
 episodes_total: 26
 updated_at: 2021-01-31
+original_title: "InuYasha: Kanketsu-hen"
 ---
 

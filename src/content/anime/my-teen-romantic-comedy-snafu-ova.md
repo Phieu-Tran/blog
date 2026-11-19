@@ -11,5 +11,6 @@ episodes_watched: 1
 episodes_total: 1
 cover: "https://cdn.myanimelist.net/images/anime/9/54831.jpg"
 date: 2026-06-27
+original_title: "Yahari Ore no Seishun Love Comedy wa Machigatteiru. OVA"
 ---
 

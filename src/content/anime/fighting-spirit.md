@@ -13,5 +13,6 @@ mal_score: 8.78
 episodes_watched: 75
 episodes_total: 75
 updated_at: 2025-04-28
+original_title: "Hajime no Ippo"
 ---
 

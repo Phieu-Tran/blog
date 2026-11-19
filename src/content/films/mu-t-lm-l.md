@@ -11,5 +11,7 @@ director: 大森立嗣
 status: watched
 date: 2026-11-17
 cover: "https://image.tmdb.org/t/p/w500/vBHQAX6ZXdHNoO1U791DsVFHy7C.jpg"
+original_title: "MOTHER マザー"
+en_title: MOTHER
 ---
 

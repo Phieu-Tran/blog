@@ -11,5 +11,6 @@ director: "Denis Villeneuve"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/i5GsLIII66LubmOai65cWiB4kZq.jpg"
+original_title: Incendies
 ---
 

@@ -13,5 +13,6 @@ mal_score: 7.52
 episodes_watched: 24
 episodes_total: 24
 updated_at: 2021-08-26
+original_title: "Nanatsu no Taizai: Imashime no Fukkatsu"
 ---
 

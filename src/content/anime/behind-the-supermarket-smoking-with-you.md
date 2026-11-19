@@ -12,5 +12,6 @@ mal_score: 8.18
 episodes_watched: 0
 episodes_total: 12
 updated_at: 2026-01-19
+original_title: "Super no Ura de Yani Suu Futari"
 ---
 

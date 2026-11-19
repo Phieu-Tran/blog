@@ -11,5 +11,6 @@ director: "Darrell Rooney"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/sWR1x6UCMCGN9xEf8RGhPS934X0.jpg"
+original_title: "The Lion King II: Simba's Pride"
 ---
 

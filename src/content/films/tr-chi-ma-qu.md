@@ -11,5 +11,7 @@ director: 園子温
 status: watched
 date: 2026-08-04
 cover: "https://image.tmdb.org/t/p/w500/xXeSTyPNI3WSMB2QdugaTGVbuuS.jpg"
+original_title: リアル鬼ごっこ
+en_title: Tag
 ---
 

@@ -13,5 +13,6 @@ mal_score: 6.88
 episodes_watched: 13
 episodes_total: 13
 updated_at: 2021-01-31
+original_title: "Ore no Kanojo to Osananajimi ga Shuraba Sugiru"
 ---
 

@@ -11,5 +11,6 @@ episodes_watched: 12
 episodes_total: 12
 cover: "https://cdn.myanimelist.net/images/anime/1830/118780.jpg"
 date: 2026-06-27
+original_title: "Yakusoku no Neverland"
 ---
 

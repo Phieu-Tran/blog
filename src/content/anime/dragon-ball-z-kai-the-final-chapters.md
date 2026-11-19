@@ -13,5 +13,6 @@ mal_score: 7.74
 episodes_watched: 61
 episodes_total: 61
 updated_at: 2021-01-31
+original_title: "Dragon Ball Kai (2014)"
 ---
 

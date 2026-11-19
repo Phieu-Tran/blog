@@ -13,5 +13,6 @@ mal_score: 7.24
 episodes_watched: 14
 episodes_total: 14
 updated_at: 2021-01-31
+original_title: "Suzumiya Haruhi no Yuuutsu (2009)"
 ---
 

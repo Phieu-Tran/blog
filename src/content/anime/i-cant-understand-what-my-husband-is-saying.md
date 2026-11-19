@@ -13,5 +13,6 @@ mal_score: 7.26
 episodes_watched: 13
 episodes_total: 13
 updated_at: 2021-01-31
+original_title: "Danna ga Nani wo Itteiru ka Wakaranai Ken"
 ---
 

@@ -12,5 +12,7 @@ director: 奥山由之
 status: watched
 date: 2026-04-28
 cover: "https://image.tmdb.org/t/p/w500/nhvPn4TsUQk5ZBk9T9RBW7v7z1J.jpg"
+original_title: 秒速5センチメートル
+en_title: "5 Centimeters per Second"
 ---
 

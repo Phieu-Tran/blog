@@ -12,5 +12,7 @@ director: 饺子
 status: watched
 date: 2026-01-08
 cover: "https://image.tmdb.org/t/p/w500/qJh6xpfFUg030ldvZruBob3i0Z7.jpg"
+original_title: 哪吒之魔童闹海
+en_title: "Ne Zha 2"
 ---
 

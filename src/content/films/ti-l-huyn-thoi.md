@@ -11,5 +11,6 @@ director: "Francis Lawrence"
 status: watched
 date: 2026-06-30
 cover: "https://image.tmdb.org/t/p/w500/5ZHPCotfGWui6m1X4nkoB0tdKHs.jpg"
+original_title: "I Am Legend"
 ---
 

@@ -12,5 +12,7 @@ director: 三池崇史
 status: watched
 date: 2025-12-13
 cover: "https://image.tmdb.org/t/p/w500/hkjpeUkXbsCjj0FrG1nNxVCxUid.jpg"
+original_title: オーディション
+en_title: Audition
 ---
 

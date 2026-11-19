@@ -13,5 +13,6 @@ mal_score: 8.23
 episodes_watched: 10
 episodes_total: 10
 updated_at: 2021-01-31
+original_title: "Kono Subarashii Sekai ni Shukufuku wo! 2"
 ---
 

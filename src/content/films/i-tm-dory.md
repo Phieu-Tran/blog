@@ -11,5 +11,6 @@ director: "Andrew Stanton"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/anGL2m23t2rxDL4upd3mSPY5br5.jpg"
+original_title: "Finding Dory"
 ---
 

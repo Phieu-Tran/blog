@@ -12,5 +12,6 @@ director: "Peter Weir"
 status: watched
 date: 2026-01-08
 cover: "https://image.tmdb.org/t/p/w500/QcHAlTXFdoBHq2T8wbr5RxxAnH.jpg"
+original_title: "The Truman Show"
 ---
 

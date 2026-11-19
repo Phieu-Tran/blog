@@ -11,5 +11,6 @@ director: "Bryan Singer"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/bst4alFUXCxISwdRUKSMhhkrX1M.jpg"
+original_title: X2
 ---
 

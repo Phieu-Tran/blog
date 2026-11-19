@@ -12,5 +12,6 @@ director: "Joachim Rønning"
 status: watched
 date: 2026-01-08
 cover: "https://image.tmdb.org/t/p/w500/lj7imLGAzI3zKvbJtPH01aYW9lU.jpg"
+original_title: "TRON: Ares"
 ---
 

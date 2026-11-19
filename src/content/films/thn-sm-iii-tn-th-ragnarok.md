@@ -11,5 +11,6 @@ director: "Taika Waititi"
 status: watched
 date: 2026-08-04
 cover: "https://image.tmdb.org/t/p/w500/3qkUzHe7MdNXfInMRtIogP8K82e.jpg"
+original_title: "Thor: Ragnarok"
 ---
 

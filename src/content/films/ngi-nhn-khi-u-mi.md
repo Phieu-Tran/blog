@@ -11,5 +11,6 @@ director: "Destin Daniel Cretton"
 status: watched
 date: 2026-08-04
 cover: "https://image.tmdb.org/t/p/w500/wqGZVSCUSXE92WH2zyol2REaqT4.jpg"
+original_title: "Spider-Man: Brand New Day"
 ---
 

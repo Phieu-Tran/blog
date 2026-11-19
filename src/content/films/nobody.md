@@ -12,5 +12,7 @@ director: 於水
 status: watched
 date: 2025-11-27
 cover: "https://image.tmdb.org/t/p/w500/5Xtwoju2GOlgXRkEtPO2BA5WNTw.jpg"
+original_title: 浪浪山小妖怪
+en_title: Nobody
 ---
 

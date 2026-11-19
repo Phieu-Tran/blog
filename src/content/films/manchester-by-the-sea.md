@@ -12,5 +12,6 @@ director: "Kenneth Lonergan"
 status: watched
 date: 2026-03-18
 cover: "https://image.tmdb.org/t/p/w500/o9VXYOuaJxCEKOxbA86xqtwmqYn.jpg"
+original_title: "Manchester by the Sea"
 ---
 

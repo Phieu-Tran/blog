@@ -1,6 +1,5 @@
 ---
 title: "Thư Tình"
-original_title: "Love Letter"
 imdb_id: tt0113703
 tmdb_id: 47002
 tmdb_type: movie
@@ -13,5 +12,6 @@ director: "Iwai Shunji"
 status: watched
 date: 2025-07-27
 cover: "https://image.tmdb.org/t/p/w500/fAEmGO4A08LUms2ji0uphpu5DDN.jpg"
+original_title: "Love Letter"
 ---
 

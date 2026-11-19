@@ -12,5 +12,6 @@ director: "Rian Johnson"
 status: watched
 date: 2026-01-08
 cover: "https://image.tmdb.org/t/p/w500/b1pBFNLcZsEvRS7CJBW4Ribe0Mw.jpg"
+original_title: "Wake Up Dead Man: A Knives Out Mystery"
 ---
 

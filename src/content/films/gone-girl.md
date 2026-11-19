@@ -12,5 +12,6 @@ director: "David Fincher"
 status: watched
 date: 2026-01-14
 cover: "https://image.tmdb.org/t/p/w500/aiNGDTuyaBUjuP7jJw7N3WpOGDX.jpg"
+original_title: "Gone Girl"
 ---
 

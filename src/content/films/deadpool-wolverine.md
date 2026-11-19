@@ -12,5 +12,6 @@ director: "Shawn Levy"
 status: watched
 date: 2025-10-18
 cover: "https://image.tmdb.org/t/p/w500/lfY2CfmxyN9OvxmFuap6aejViJn.jpg"
+original_title: "Deadpool & Wolverine"
 ---
 

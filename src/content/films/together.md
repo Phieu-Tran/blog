@@ -12,5 +12,6 @@ director: "Michael Shanks"
 status: watched
 date: 2026-01-05
 cover: "https://image.tmdb.org/t/p/w500/mHheVgcXINVdZTyzSyGQf33evc2.jpg"
+original_title: Together
 ---
 

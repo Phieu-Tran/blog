@@ -11,5 +11,6 @@ episodes_watched: 12
 episodes_total: 12
 cover: "https://cdn.myanimelist.net/images/anime/5/82890.jpg"
 date: 2026-07-13
+original_title: "Youjo Senki"
 ---
 

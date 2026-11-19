@@ -11,5 +11,7 @@ director: 蜷川実花
 status: watched
 date: 2026-08-17
 cover: "https://image.tmdb.org/t/p/w500/rctha2z3lZ5YTCo4IE3cUJT4q2D.jpg"
+original_title: ヘルタースケルター
+en_title: "Helter Skelter"
 ---
 

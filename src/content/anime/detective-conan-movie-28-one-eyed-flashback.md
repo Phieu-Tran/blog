@@ -11,5 +11,6 @@ episodes_watched: 1
 episodes_total: 1
 cover: "https://cdn.myanimelist.net/images/anime/1036/148145.jpg"
 date: 2026-06-27
+original_title: "Meitantei Conan Movie 28: Sekigan no Flashback"
 ---
 

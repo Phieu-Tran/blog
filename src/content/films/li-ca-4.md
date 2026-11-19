@@ -11,5 +11,6 @@ director: "Darren Lynn Bousman"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/qG0an8Dl1REBS8PC1XTSXXHNzyt.jpg"
+original_title: "Saw IV"
 ---
 

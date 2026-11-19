@@ -11,5 +11,7 @@ director: "木下高男, 村上正典"
 status: watched
 date: 2026-08-17
 cover: "https://image.tmdb.org/t/p/w500/nwPp8ClNZAFl7Mm4H1GrQHF23az.jpg"
+original_title: 1リットルの涙
+en_title: "1 Litre of Tears"
 ---
 

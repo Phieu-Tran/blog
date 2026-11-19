@@ -13,5 +13,6 @@ mal_score: 7.86
 episodes_watched: 25
 episodes_total: 25
 updated_at: 2021-08-26
+original_title: "Boku no Hero Academia 4th Season"
 ---
 

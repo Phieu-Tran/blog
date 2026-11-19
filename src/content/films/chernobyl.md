@@ -12,5 +12,6 @@ director: "Craig Mazin"
 status: watched
 date: 2026-01-26
 cover: "https://image.tmdb.org/t/p/w500/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg"
+original_title: Chernobyl
 ---
 

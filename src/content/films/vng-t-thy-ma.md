@@ -11,5 +11,6 @@ director: "Ruben Fleischer"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/yRWpmwV02VbA6KbFeXIdOMYFlPm.jpg"
+original_title: Zombieland
 ---
 

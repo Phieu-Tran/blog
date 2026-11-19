@@ -12,5 +12,6 @@ director: "Joel Coen"
 status: watched
 date: 2026-03-27
 cover: "https://image.tmdb.org/t/p/w500/cFWCYcOyHkmJIOnYjuh7chYtk76.jpg"
+original_title: "No Country for Old Men"
 ---
 

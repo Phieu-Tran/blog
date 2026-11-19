@@ -12,5 +12,7 @@ director: "Park Chan-wook"
 status: watched
 date: 2025-11-26
 cover: "https://image.tmdb.org/t/p/w500/1mwjRFBCabJmfX4jkgiYlnGwHlC.jpg"
+original_title: 어쩔수가없다
+en_title: "No Other Choice"
 ---
 

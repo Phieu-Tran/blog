@@ -12,5 +12,6 @@ director: "Byron Howard"
 status: watched
 date: 2025-10-18
 cover: "https://image.tmdb.org/t/p/w500/oy5mQVAmswPFwLGsDFclJvlZRkc.jpg"
+original_title: Zootopia
 ---
 

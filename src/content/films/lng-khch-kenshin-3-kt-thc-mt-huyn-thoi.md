@@ -11,5 +11,7 @@ director: 大友啓史
 status: watched
 date: 2026-07-28
 cover: "https://image.tmdb.org/t/p/w500/ijV6arEmM8nZwVUJoYY8tAIRhJg.jpg"
+original_title: "るろうに剣心 伝説の最期編"
+en_title: "Rurouni Kenshin Part III: The Legend Ends"
 ---
 

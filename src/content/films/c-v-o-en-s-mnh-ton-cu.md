@@ -11,5 +11,6 @@ director: "F. Gary Gray"
 status: watched
 date: 2026-06-30
 cover: "https://image.tmdb.org/t/p/w500/1xfLyWJhyDZATM4o3G04uepMQtF.jpg"
+original_title: "Men in Black: International"
 ---
 

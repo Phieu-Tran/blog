@@ -12,5 +12,7 @@ director: 中島哲也
 status: watched
 date: 2026-01-20
 cover: "https://image.tmdb.org/t/p/w500/p8vr7jVwflsSqAq91nWcOPZ2RIv.jpg"
+original_title: 告白
+en_title: Confessions
 ---
 

@@ -12,5 +12,6 @@ director: "Peter Jackson"
 status: watched
 date: 2025-04-25
 cover: "https://image.tmdb.org/t/p/w500/3Y6eymGHCfQkDKU6rev2WiqXMci.jpg"
+original_title: "The Lord of the Rings: The Return of the King"
 ---
 

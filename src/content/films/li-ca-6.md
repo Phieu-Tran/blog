@@ -11,5 +11,6 @@ director: "Kevin Greutert"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/1LpqTopbmfKNnSxfM9zSw7bAmb2.jpg"
+original_title: "Saw VI"
 ---
 

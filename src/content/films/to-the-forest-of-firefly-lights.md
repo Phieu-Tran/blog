@@ -12,5 +12,7 @@ director: 大森貴弘
 status: watched
 date: 2025-12-03
 cover: "https://image.tmdb.org/t/p/w500/7ZTL7uAfqGygKM2gJGYm36y46NU.jpg"
+original_title: 蛍火の杜へ
+en_title: "Hotarubi no Mori e"
 ---
 

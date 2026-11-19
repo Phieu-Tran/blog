@@ -11,5 +11,6 @@ director: "Olivia Newman"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/f3aOlFEogDab0Z3Rb70mZEuZMjg.jpg"
+original_title: "Where the Crawdads Sing"
 ---
 

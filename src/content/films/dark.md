@@ -12,5 +12,6 @@ director: "Baran bo Odar, Jantje Friese"
 status: watched
 date: 2026-01-14
 cover: "https://image.tmdb.org/t/p/w500/dnV2mR2Hivccf94alWDHLC0Ki4Z.jpg"
+original_title: Dark
 ---
 

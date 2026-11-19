@@ -12,5 +12,6 @@ director: "Daniel Scheinert"
 status: watched
 date: 2026-01-08
 cover: "https://image.tmdb.org/t/p/w500/p7fgHiFZJaJkbWeQ73rmjDfQfU4.jpg"
+original_title: "Everything Everywhere All at Once"
 ---
 

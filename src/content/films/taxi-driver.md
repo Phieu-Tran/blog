@@ -12,5 +12,6 @@ director: "Martin Scorsese"
 status: watched
 date: 2025-10-18
 cover: "https://image.tmdb.org/t/p/w500/Aug56efx1XuY40HKbVcicV1EIYt.jpg"
+original_title: "Taxi Driver"
 ---
 

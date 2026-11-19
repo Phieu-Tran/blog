@@ -12,5 +12,6 @@ director: "Mike Flanagan"
 status: watched
 date: 2025-11-30
 cover: "https://image.tmdb.org/t/p/w500/nWPZb800NCGiDPNGsKCfY0w44Z2.jpg"
+original_title: "The Haunting of Hill House"
 ---
 

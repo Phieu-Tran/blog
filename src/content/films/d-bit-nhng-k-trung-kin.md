@@ -11,5 +11,6 @@ director: "Robert Schwentke"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/ffVqf17c5aVHl3YZ2NWnwZ6oUdj.jpg"
+original_title: Allegiant
 ---
 

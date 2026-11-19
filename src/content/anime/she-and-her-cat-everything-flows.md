@@ -13,5 +13,6 @@ mal_score: 7.66
 episodes_watched: 4
 episodes_total: 4
 updated_at: 2021-01-31
+original_title: "Kanojo to Kanojo no Neko: Everything Flows"
 ---
 

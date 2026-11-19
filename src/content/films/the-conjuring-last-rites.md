@@ -12,5 +12,6 @@ director: "Michael Chaves"
 status: watched
 date: 2026-01-08
 cover: "https://image.tmdb.org/t/p/w500/sjvW985erG7NSKJScFNhLbjhyma.jpg"
+original_title: "The Conjuring: Last Rites"
 ---
 

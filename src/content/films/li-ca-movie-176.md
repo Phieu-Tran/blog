@@ -11,5 +11,6 @@ director: "James Wan"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/sj7KBQSpeCvBQXhCbfhKPN7XcEB.jpg"
+original_title: Saw
 ---
 

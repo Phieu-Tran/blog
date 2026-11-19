@@ -12,5 +12,6 @@ director: "Dan Gilroy"
 status: watched
 date: 2026-01-14
 cover: "https://image.tmdb.org/t/p/w500/wg6ezwmodC9EovaKE0yvWdEgiH5.jpg"
+original_title: Nightcrawler
 ---
 

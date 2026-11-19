@@ -12,5 +12,6 @@ director: "Charlie Brooker"
 status: watched
 date: 2026-01-14
 cover: "https://image.tmdb.org/t/p/w500/vaw1zvKcRtDsHoIXA5CxmM7QVYF.jpg"
+original_title: "Black Mirror"
 ---
 

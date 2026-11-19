@@ -11,5 +11,6 @@ director: "David Yates"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/4bxy2IasIebUgssX16PqocMNOsi.jpg"
+original_title: "Fantastic Beasts and Where to Find Them"
 ---
 

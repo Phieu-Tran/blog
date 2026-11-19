@@ -11,5 +11,6 @@ director: "Barry Sonnenfeld"
 status: watched
 date: 2026-06-30
 cover: "https://image.tmdb.org/t/p/w500/b20K41G7B7JoOOk0PVnsvpgHyYM.jpg"
+original_title: "Men in Black 3"
 ---
 

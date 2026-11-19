@@ -11,5 +11,6 @@ director: "David Ayer"
 status: watched
 date: 2026-06-30
 cover: "https://image.tmdb.org/t/p/w500/xvym7QbQPhoMC0Mw18KRfXN1guW.jpg"
+original_title: "Suicide Squad"
 ---
 

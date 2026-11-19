@@ -11,5 +11,6 @@ director: "Barry Sonnenfeld"
 status: watched
 date: 2026-06-30
 cover: "https://image.tmdb.org/t/p/w500/uLOmOF5IzWoyrgIF5MfUnh5pa1X.jpg"
+original_title: "Men in Black"
 ---
 

@@ -12,5 +12,6 @@ director: "Lee Unkrich"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/1X96GIP5RAErgDXjH0ZP1anv0m1.jpg"
+original_title: "Toy Story 3"
 ---
 

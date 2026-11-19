@@ -11,5 +11,6 @@ director: "Kevin Greutert"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/m65hnRZYEaooz1p2WldtJd7teQR.jpg"
+original_title: "Saw 3D"
 ---
 

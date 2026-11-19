@@ -12,5 +12,6 @@ director: "Jonathan Demme"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/2dfScR0ZhDOVRV2Qco758YgLzXG.jpg"
+original_title: "The Silence of the Lambs"
 ---
 

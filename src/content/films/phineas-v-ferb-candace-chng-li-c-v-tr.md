@@ -11,5 +11,6 @@ director: "Dan Povenmire"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/m5ZGqyTN8BMRO3OApuSWHBfyySg.jpg"
+original_title: "Phineas and Ferb the Movie: Candace Against the Universe"
 ---
 

@@ -11,5 +11,6 @@ director: "Marc Webb"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/yAFxBD0csJJYuQgXFcGlO6Tbz9e.jpg"
+original_title: "(500) Days of Summer"
 ---
 

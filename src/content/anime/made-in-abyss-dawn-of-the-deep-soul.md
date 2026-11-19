@@ -13,5 +13,6 @@ mal_score: 8.6
 episodes_watched: 1
 episodes_total: 1
 updated_at: 2023-07-15
+original_title: "Made in Abyss Movie 3: Fukaki Tamashii no Reimei"
 ---
 

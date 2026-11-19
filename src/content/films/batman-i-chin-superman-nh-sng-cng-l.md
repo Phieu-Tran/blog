@@ -11,5 +11,6 @@ director: "Zack Snyder"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/aOqrz5D9Kl0ZRWoDjUj025o2os9.jpg"
+original_title: "Batman v Superman: Dawn of Justice"
 ---
 

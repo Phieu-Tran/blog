@@ -13,5 +13,6 @@ mal_score: 8.94
 episodes_watched: 13
 episodes_total: 13
 updated_at: 2023-07-15
+original_title: "Kaguya-sama wa Kokurasetai: Ultra Romantic"
 ---
 

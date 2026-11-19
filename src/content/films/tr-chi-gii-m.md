@@ -11,5 +11,6 @@ director: "Morten Tyldum"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/zSqJ1qFq8NXFfi7JeIYMlzyR0dx.jpg"
+original_title: "The Imitation Game"
 ---
 

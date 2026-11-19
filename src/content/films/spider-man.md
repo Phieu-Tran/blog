@@ -12,5 +12,6 @@ director: "Sam Raimi"
 status: watched
 date: 2025-10-18
 cover: "https://image.tmdb.org/t/p/w500/w55KSeyhH3nXjzx7AhbNq0DO3zt.jpg"
+original_title: Spider-Man
 ---
 

@@ -11,5 +11,6 @@ director: "Lasse Hallström"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/lsy3aEsEfYIHdLRk4dontZ4s85h.jpg"
+original_title: "Hachi: A Dog's Tale"
 ---
 

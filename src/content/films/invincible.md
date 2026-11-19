@@ -12,5 +12,6 @@ director: N/A
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/4tblBrslcKSifMVZ3TmtT2ukMor.jpg"
+original_title: INVINCIBLE
 ---
 

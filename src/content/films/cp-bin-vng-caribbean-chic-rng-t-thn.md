@@ -11,5 +11,6 @@ director: "Gore Verbinski"
 status: watched
 date: 2026-07-28
 cover: "https://image.tmdb.org/t/p/w500/6Ax7A0ngybY5LhG0M5gSfyjZV0I.jpg"
+original_title: "Pirates of the Caribbean: Dead Man's Chest"
 ---
 

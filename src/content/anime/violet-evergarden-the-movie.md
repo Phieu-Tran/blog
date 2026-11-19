@@ -13,5 +13,6 @@ mal_score: 8.83
 episodes_watched: 1
 episodes_total: 1
 updated_at: 2023-07-15
+original_title: "Violet Evergarden Movie"
 ---
 

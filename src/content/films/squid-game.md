@@ -12,5 +12,7 @@ director: 황동혁
 status: watched
 date: 2025-10-18
 cover: "https://image.tmdb.org/t/p/w500/uK5GDq2xuRH4TqhOZkKuyRnM85.jpg"
+original_title: "오징어 게임"
+en_title: "Squid Game"
 ---
 

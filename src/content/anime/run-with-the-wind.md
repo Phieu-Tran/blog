@@ -13,5 +13,6 @@ mal_score: 8.38
 episodes_watched: 23
 episodes_total: 23
 updated_at: 2021-01-31
+original_title: "Kaze ga Tsuyoku Fuiteiru"
 ---
 

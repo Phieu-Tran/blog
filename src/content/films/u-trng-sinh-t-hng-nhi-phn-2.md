@@ -11,5 +11,6 @@ director: "Francis Lawrence"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/40cJNkFU3wGIj8P2rfeJOMYFhHQ.jpg"
+original_title: "The Hunger Games: Mockingjay - Part 2"
 ---
 

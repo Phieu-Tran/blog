@@ -11,5 +11,6 @@ director: "Mike Newell"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/sFqlq8V61pgeJhessdw1pU0VjxY.jpg"
+original_title: "Prince of Persia: The Sands of Time"
 ---
 

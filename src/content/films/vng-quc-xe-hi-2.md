@@ -11,5 +11,6 @@ director: "John Lasseter"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/jgRlPowGdwTadXIhmQBYWFgg7YU.jpg"
+original_title: "Cars 2"
 ---
 

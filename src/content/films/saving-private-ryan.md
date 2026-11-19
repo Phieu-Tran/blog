@@ -12,5 +12,6 @@ director: "Steven Spielberg"
 status: watched
 date: 2025-04-25
 cover: "https://image.tmdb.org/t/p/w500/wz11UlVEmJjmNnRnrWH8MqItj5A.jpg"
+original_title: "Saving Private Ryan"
 ---
 

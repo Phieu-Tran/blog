@@ -13,5 +13,6 @@ mal_score: 8.56
 episodes_watched: 12
 episodes_total: 12
 updated_at: 2023-07-15
+original_title: "Haikyuu!! To the Top Part 2"
 ---
 

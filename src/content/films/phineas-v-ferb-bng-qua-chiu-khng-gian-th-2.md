@@ -11,5 +11,6 @@ director: "Robert Hughes"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/updMFSOZwEftfkJRpozwBlRlYI2.jpg"
+original_title: "Phineas and Ferb the Movie: Across the 2nd Dimension"
 ---
 

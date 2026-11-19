@@ -13,5 +13,6 @@ mal_score: 7.57
 episodes_watched: 25
 episodes_total: 25
 updated_at: 2021-01-31
+original_title: "Kindaichi Shounen no Jikenbo Returns"
 ---
 

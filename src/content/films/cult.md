@@ -12,5 +12,6 @@ director: 白石晃士
 status: watched
 date: 2025-11-30
 cover: "https://image.tmdb.org/t/p/w500/j2acim7xoRErW4WmzFihmKE0pn8.jpg"
+en_title: Cult
 ---
 

@@ -11,5 +11,6 @@ director: "David Yates"
 status: watched
 date: 2026-06-27
 cover: "https://image.tmdb.org/t/p/w500/aHlLUx7VKzznUObPbFCUalZ1PVL.jpg"
+original_title: "Harry Potter and the Deathly Hallows: Part 2"
 ---
 

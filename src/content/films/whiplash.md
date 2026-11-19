@@ -12,5 +12,6 @@ director: "Damien Chazelle"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/7fn624j5lj3xTme2SgiLCeuedmO.jpg"
+original_title: Whiplash
 ---
 

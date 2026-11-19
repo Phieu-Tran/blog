@@ -11,5 +11,6 @@ director: "Michael Spierig"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/nvQQTcJKCVMV4QhFoyHx5od5PMU.jpg"
+original_title: Jigsaw
 ---
 

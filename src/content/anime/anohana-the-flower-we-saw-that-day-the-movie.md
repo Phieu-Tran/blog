@@ -13,5 +13,6 @@ mal_score: 7.83
 episodes_watched: 1
 episodes_total: 1
 updated_at: 2021-01-31
+original_title: "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai. Movie"
 ---
 

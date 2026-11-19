@@ -11,5 +11,6 @@ director: "Bryan Singer"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/bRDAc4GogyS9ci3ow7UnInOcriN.jpg"
+original_title: X-Men
 ---
 

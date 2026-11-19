@@ -12,5 +12,6 @@ director: "Bob Persichetti"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/kahw25SAqedXIruUGIuSUiq7t98.jpg"
+original_title: "Spider-Man: Into the Spider-Verse"
 ---
 

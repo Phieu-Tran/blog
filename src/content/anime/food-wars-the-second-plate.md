@@ -13,5 +13,6 @@ mal_score: 8.05
 episodes_watched: 13
 episodes_total: 13
 updated_at: 2021-01-31
+original_title: "Shokugeki no Souma: Ni no Sara"
 ---
 

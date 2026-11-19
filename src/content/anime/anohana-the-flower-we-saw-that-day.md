@@ -13,5 +13,6 @@ mal_score: 8.28
 episodes_watched: 11
 episodes_total: 11
 updated_at: 2021-01-31
+original_title: "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai."
 ---
 

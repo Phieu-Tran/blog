@@ -11,5 +11,6 @@ director: "Jaco Van Dormael"
 status: watched
 date: 2026-06-30
 cover: "https://image.tmdb.org/t/p/w500/qNkIONc4Rgmzo23ph7qWp9QfVnW.jpg"
+original_title: "Mr. Nobody"
 ---
 

@@ -11,5 +11,6 @@ director: "Brad Bird"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/rkrU5jFUJ02NAxoU2GVdWsd1Hh6.jpg"
+original_title: Ratatouille
 ---
 

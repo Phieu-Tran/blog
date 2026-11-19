@@ -12,5 +12,6 @@ director: "Jared Bush"
 status: watched
 date: 2026-01-08
 cover: "https://image.tmdb.org/t/p/w500/5wXpOF9WPUKliIzNBdAqwAStLHU.jpg"
+original_title: "Zootopia 2"
 ---
 

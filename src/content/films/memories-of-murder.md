@@ -12,5 +12,7 @@ director: "Bong Joon Ho"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/wrsf1ebQ6S4gVhjR9FJElfdxAjj.jpg"
+original_title: "살인의 추억"
+en_title: "Memories of Murder"
 ---
 

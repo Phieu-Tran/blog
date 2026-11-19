@@ -13,5 +13,6 @@ mal_score: 7.87
 episodes_watched: 26
 episodes_total: 26
 updated_at: 2021-02-01
+original_title: "Higurashi no Naku Koro ni"
 ---
 

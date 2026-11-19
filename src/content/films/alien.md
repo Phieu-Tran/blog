@@ -12,5 +12,6 @@ director: "Ridley Scott"
 status: watched
 date: 2025-10-18
 cover: "https://image.tmdb.org/t/p/w500/vfrQk5IPloGg1v9Rzbh2Eg3VGyM.jpg"
+original_title: Alien
 ---
 

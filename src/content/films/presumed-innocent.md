@@ -12,5 +12,6 @@ director: "David E. Kelley"
 status: watched
 date: 2026-03-21
 cover: "https://image.tmdb.org/t/p/w500/q8b4JZS9QCxVomXU77cqukpHH3c.jpg"
+original_title: "Presumed Innocent"
 ---
 

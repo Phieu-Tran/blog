@@ -11,5 +11,6 @@ director: "Jennifer Yuh Nelson"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/fEpOEpKyz7SGelF73mHA27AgdF.jpg"
+original_title: "Kung Fu Panda 2"
 ---
 

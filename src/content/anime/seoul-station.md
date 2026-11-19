@@ -13,5 +13,6 @@ mal_score: 5.69
 episodes_watched: 1
 episodes_total: 1
 updated_at: 2021-01-31
+original_title: Seoul-yeok
 ---
 

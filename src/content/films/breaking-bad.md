@@ -12,5 +12,6 @@ director: "Vince Gilligan"
 status: watched
 date: 2025-11-18
 cover: "https://image.tmdb.org/t/p/w500/8Pja0VYeYO56kjaOhVfCmpVmA2v.jpg"
+original_title: "Breaking Bad"
 ---
 

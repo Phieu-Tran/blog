@@ -11,5 +11,6 @@ director: "Rian Johnson"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/94Iss4zRWfrNKZvMKZHkMlPtg8F.jpg"
+original_title: Looper
 ---
 

@@ -12,5 +12,7 @@ director: 藤井道人
 status: watched
 date: 2025-07-27
 cover: "https://image.tmdb.org/t/p/w500/e5bD01p0GMI6oeYhYRKNREWJkeY.jpg"
+original_title: "青春18x2 君へと続く道"
+en_title: "18x2 Beyond Youthful Days"
 ---
 

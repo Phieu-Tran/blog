@@ -11,5 +11,6 @@ director: "Bryan Singer"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/iQeRkwqwx00r7SzLqQ0BhsGmpsu.jpg"
+original_title: "X-Men: Days of Future Past"
 ---
 

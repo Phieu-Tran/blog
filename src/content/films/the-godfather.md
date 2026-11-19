@@ -12,5 +12,6 @@ director: "Francis Ford Coppola"
 status: watched
 date: 2025-04-25
 cover: "https://image.tmdb.org/t/p/w500/84MHN3JvOV4ORHgELrQM6SBlhdB.jpg"
+original_title: "The Godfather"
 ---
 

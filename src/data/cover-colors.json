@@ -2283,6 +2283,10 @@
   "cover": "https://image.tmdb.org/t/p/w500/hq1rqaKBjG6VCMOgYxkI3zXoZhQ.jpg",
   "color": "#81c0da"
  },
+ "films/film-movie-1654940": {
+  "cover": "https://image.tmdb.org/t/p/w500/lkEQXQ1YpMCzCrLOBxHLGdCHLVb.jpg",
+  "color": "#ee6d7e"
+ },
  "films/film-movie-226208": {
   "cover": "https://image.tmdb.org/t/p/w500/wopzq3yzvnjpLwARk9ADCaLEfd9.jpg",
   "color": "#7bdf95"
@@ -2950,6 +2954,10 @@
  "films/the-black-phone": {
   "cover": "https://image.tmdb.org/t/p/w500/tGvrCyZSWx4jxYOZ0dEfSCPYfeo.jpg",
   "color": "#da9d81"
+ },
+ "films/the-body": {
+  "cover": "https://image.tmdb.org/t/p/w500/195kCuy2RqGaEAZDDpGTx7gBUBZ.jpg",
+  "color": "#da9b80"
  },
  "films/the-boys": {
   "cover": "https://image.tmdb.org/t/p/w500/dm6oT645GGrcMogTWDUYFxsZQHV.jpg",
@@ -3980,7 +3988,7 @@
   "color": "#81b7da"
  },
  "music/a-love-for-taylor-swift": {
-  "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8433d4c4ea9cf43b21107fc49e",
+  "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da8433d4c4ea9cf43b21107fc49e",
   "color": "#eb8370"
  },
  "music/bai-hat-da-thich": {
@@ -4000,7 +4008,7 @@
   "color": "#927cdf"
  },
  "music/ckam-kam": {
-  "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da848f87ee5428a4a9d78c23ec31",
+  "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da848f87ee5428a4a9d78c23ec31",
   "color": null
  },
  "music/ckam-kam-playlist": {
@@ -4020,7 +4028,7 @@
   "color": "#da818f"
  },
  "music/hen-hat-cung": {
-  "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da840f345aeb29164e279f8b1c40",
+  "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da840f345aeb29164e279f8b1c40",
   "color": "#7fbadc"
  },
  "music/indie": {
@@ -4068,7 +4076,7 @@
   "color": "#81c1da"
  },
  "music/playlist-for-the-future-cua-toi-nam-2024": {
-  "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da845445a7b04a84bfdccc27cf9f",
+  "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da845445a7b04a84bfdccc27cf9f",
   "color": "#7969f2"
  },
  "music/rap-v": {
@@ -4076,7 +4084,7 @@
   "color": "#e69275"
  },
  "music/suy-rap": {
-  "cover": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84db519b28e81e279390533b46",
+  "cover": "https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84db519b28e81e279390533b46",
   "color": "#daa081"
  },
  "music/suy-xiu-luon": {

@@ -12,5 +12,6 @@ director: "Ross Duffer, Matt Duffer"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/3AJr9B1Yn4TyaFeZ4OkaTVP1LNr.jpg"
+original_title: "Stranger Things"
 ---
 

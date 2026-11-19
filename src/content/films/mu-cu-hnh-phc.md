@@ -11,5 +11,6 @@ director: "Gabriele Muccino"
 status: watched
 date: 2026-06-30
 cover: "https://image.tmdb.org/t/p/w500/tXb7UwjTKXyYImuBfpMWChazUUI.jpg"
+original_title: "The Pursuit of Happyness"
 ---
 

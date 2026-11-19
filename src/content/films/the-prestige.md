@@ -12,5 +12,6 @@ director: "Christopher Nolan"
 status: watched
 date: 2025-10-15
 cover: "https://image.tmdb.org/t/p/w500/fAT5JUet2JDcsukQI1fNZXJ20KK.jpg"
+original_title: "The Prestige"
 ---
 

@@ -11,5 +11,6 @@ director: "Lauren Schmidt Hissrich"
 status: watched
 date: 2026-06-28
 cover: "https://image.tmdb.org/t/p/w500/kqRbghv1Rl7UKtpFeH3H3msH89D.jpg"
+original_title: "The Witcher"
 ---
 

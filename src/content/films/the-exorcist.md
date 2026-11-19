@@ -12,5 +12,6 @@ director: "William Friedkin"
 status: watched
 date: 2025-11-30
 cover: "https://image.tmdb.org/t/p/w500/2HZRznGYUnynp1lMVyhYZSuT1Oy.jpg"
+original_title: "The Exorcist"
 ---
 
